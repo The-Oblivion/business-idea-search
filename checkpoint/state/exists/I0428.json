@@ -1,0 +1,52 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "Enlyte (Mitchell/Genex) Demand Package Review and Bodily Injury Integrated Solutions",
+   "url": "https://www.enlyte.com/solutions/casualty/cost-containment-services/demand-package-review",
+   "what_they_do": "Incumbent carrier vendor. Turns plaintiff demand packages into structured reports: bill data capture, duplicate detection, coding and summaries, and a nurse-review tier for causation and treatment. Benchmarks 'costs, severity, and treatment duration against industry data'. Advertises a '60% average reduction in medical charges' and '$5-7K improvement in average settlement'. Turnaround is 3-4 days for the enhanced review and about 10 days for the nurse review. The page does not mention LOP, a certified-coder signature, expert declarations or testimony. Enlyte could add those, and it already owns the carrier relationships and workflow.",
+   "scale_or_funding": "Large established vendor (Enlyte). No funding figure found. Adjacent to the idea's carrier segment, and the biggest incumbent risk.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "FAIR Health",
+   "url": "https://www.fairhealth.org/",
+   "what_they_do": "Nonprofit that sells charge and allowed-amount benchmark data. Its site lists 'Liability' and 'Legal' (law firms, bill review services) as industries served, and describes FAIR Health as an official data source for PIP, workers' comp and surprise-billing programs. It is more likely a data input for this idea than a competitor. Its benchmarks are also the standard 'usual and customary' reference a plaintiff expert would cite against the report.",
+   "scale_or_funding": "Established nonprofit data utility. No litigation-report product confirmed on the pages I could fetch.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "EvenUp",
+   "url": "https://www.evenuplaw.com/",
+   "what_they_do": "Plaintiff-side personal injury AI platform covering intake, treatment tracking ('Medical Management'), demands, negotiation, discovery and trial. Plaintiff-only, with no defense products or bill-analysis product visible. It matters because it arms the other side of every LOP case. Its demand packages and treatment tracking make the bills you would rebut more polished and better documented.",
+   "scale_or_funding": "Series E of $150M at a $2B+ valuation (Oct 2025), per its newsroom at https://www.evenuplaw.com/newsroom. Announced a LexisNexis alliance in Sept 2026.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Turquoise Health",
+   "url": "https://turquoise.health/",
+   "what_they_do": "Price-transparency platform (Analyze, Contracts, Compliance) selling rate analytics to providers, payers, employers and life-sciences firms. Its pages make no mention of litigation or personal injury. It is a plausible data supplier or a possible future entrant. It is not a current competitor.",
+   "scale_or_funding": "Says it has '300+' healthcare organizations as partners. No funding figure found.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "CLARA Analytics",
+   "url": "https://www.claraanalytics.com/",
+   "what_they_do": "AI claims analytics for workers' comp, auto liability and general liability (Document Intelligence, Triage, Treatment, Litigation, Fraud). Its pages don't mention BI medical bill benchmarking, LOP or reasonable value. It sells software to carriers rather than coder-signed evidence.",
+   "scale_or_funding": "Venture-backed insurtech. I did not verify the funding amount.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Independent billing/coding expert witnesses and expert-referral directories (for example JurisPro)",
+   "url": "https://www.jurispro.com/",
+   "what_they_do": "This is the substitute the idea targets, and the idea's own premise is that defense firms pay $3-5k per case for these experts. The JurisPro fetch confirmed only that the directory has a medical expert category. It showed no individual billing-expert profiles or fee ranges. Because the session's WebSearch budget ran out (200 of 200), I could not enumerate or verify the individual expert practices or any productized flat-fee competitor. That is the biggest hole in this check.",
+   "scale_or_funding": "Fragmented cottage industry. No aggregate size found.",
+   "overlap": "direct"
+  }
+ ],
+ "white_space": "Caveat: the WebSearch budget hit its cap (200 of 200) before I could run the planned searches on startups, Crunchbase, Product Hunt and forums. This verdict rests on direct page fetches only. Treat 'gap' as provisional. Before building, someone should spend an hour on the searches I could not run: 'letter of protection medical bill review', 'reasonable value expert Florida LOP', and Crunchbase/YC for 'LOP' or 'defense medical bill'.\n\nWhat I could confirm: no vendor I could reach sells a fixed-fee (about $300-700), fast-turnaround, coder-certified report with an optional declaration or testimony upsell aimed at LOP reasonable value. The nearest product is Enlyte's Demand Package Review. It is a carrier-side workflow product with nurse and analyst review at 3-4 to 10 days. It shows no coder signature, no LOP framing and no testimony. It also lacks the piece defense lawyers need most, which is a signed opinion that survives cross-examination. Data companies (FAIR Health, Turquoise) sell inputs, not signed opinions. EvenUp is plaintiff-side.\n\nSpecific white space: (1) small and mid-size defense firms and panel counsel who can't justify a $3-5k expert on a $30-100k claim. (2) Coder-signed output that holds up under cross-examination, tied to the LOP disclosure record. (3) States without a statutory benchmark, where reasonable value is contested.\n\nTwo weaknesses in the pitch. (a) Florida is partly commoditized by statute. Fla. Stat. 768.0427 (https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0768/Sections/0768.0427.html) already makes evidence of what was actually paid, or 120% of Medicare (170% of Medicaid where there is no Medicare rate), the benchmark for uninsured claimants. The fetched summary does not settle whether that applies to LOP treatment, so check the statute text. A large part of the Florida 'report' is therefore a Medicare-multiple calculation from free CMS files, which a claims shop or existing vendor could copy quickly. (b) The hospital price-transparency 'why now' is weaker than the idea claims. CMS says enforcement of the new rules starts April 1, 2026 (https://www.cms.gov/priorities/key-initiatives/hospital-price-transparency). But LOP care is mostly delivered by chiropractors, pain clinics, orthopedic groups and physician-owned ASCs, not hospitals. I inferred that from how LOP cases usually work and did not verify it. The defensible professional-fee benchmarks would come from Medicare multiples, payer transparency-in-coverage files or licensed data, not hospital files.",
+ "evidence_of_demand": "Partial evidence, all inferred from statute and vendor marketing. I found no forum complaints, RFPs or quoted willingness-to-pay for this exact product.\n\n(1) Statute forcing the analysis. Florida 768.0427 requires claimants to disclose the LOP, itemized billing with procedure codes, any factoring company and the dollar amount it paid for the account, coverage status and who referred the treatment, and makes the law-firm/provider relationship admissible. That creates a structured record defense counsel has to analyze. Source: https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0768/Sections/0768.0427.html and the bill page https://www.flsenate.gov/Session/Bill/2023/837. I could not fetch the Georgia 2025 tort-reform text (legiscan returned 403), so the Georgia and other-state claims in the idea are unverified.\n\n(2) Carriers already pay for adjacent outsourced bill analysis. Enlyte sells Demand Package Review as a paid service, with a nurse tier and a stated '60% average reduction in medical charges' and '$5-7K improvement in average settlement' (https://www.enlyte.com/solutions/casualty/cost-containment-services/demand-package-review). Enlyte also publishes content about 'Questionable Billing Patterns' in demands (https://www.enlyte.com/insights/article/injury-liability/bodily-injury-demand-review). These figures are vendor marketing.\n\n(3) The plaintiff-side spending arms race. EvenUp raised $150M at a $2B+ valuation (Oct 2025) to build better demands and treatment management for plaintiff firms (https://www.evenuplaw.com/newsroom). It implies defense spend is likely to follow, but it is not direct proof.\n\n(4) The idea's own premise, that experts cost $3-5k, is unverified. None found: forum threads, RFPs, or published prices for coder-signed reports.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Narrow it and sell it as an evidence product, not a report. (1) Start in a state without a statutory Medicare-multiple benchmark, such as Georgia, Texas or Louisiana, where reasonable value is contested and a signed local benchmark carries more weight. Treat Florida as a rebuttal-of-plaintiff-expert product, since 768.0427 already supplies a free benchmark. (2) Build the report around the LOP disclosure record. Ingest the letter, the itemized coded bill, the factoring purchase price and the referral relationship. Compute the statutory or market benchmark, flag litigation-built billing patterns, and hand counsel cross-examination questions keyed to specific lines. The factoring price and referral facts are what a generic bill-review vendor won't tie together. (3) Make the testimony the profit center. Give reports away cheaply as lead generation, and sell the declaration and testimony ($1,500-3,500) as the margin. Build a library of transcripts and Daubert outcomes as the moat. (4) Sell first to volume defense firms and panel-counsel programs, which have the acute pain and are underserved by Enlyte-style carrier workflow tools. Approach carrier vendors like Enlyte as a partner that supplies the coder signature and testimony layer, rather than competing head-on. (5) Before committing, do the searches I could not run and check whether an established expert practice already sells flat-fee LOP reasonable-value reports in Florida or Georgia."
+}

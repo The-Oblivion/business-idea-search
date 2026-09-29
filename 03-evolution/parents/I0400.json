@@ -1,0 +1,127 @@
+{
+ "title": "Bench-Truth Diligence for Biotech Investors",
+ "one_liner": "Sell seed VCs, pharma BD teams and AI-bio founders confidential 'does this paper's key result actually work?' intelligence, from anonymous postdoc consensus polls up to paid replication of the one key experiment.",
+ "customer": "Seed and Series A biotech VCs, corporate venture arms, pharma BD and scouting teams evaluating academic spinouts or in-licensing, and AI-bio startups building on published wet-lab claims. Pay $4-6k for a poll-only memo and $15-40k for a key-experiment replication.",
+ "problem": "Investors and BD teams can't tell which high-profile papers replicate. The truth exists as hallway consensus: 'that result only works in the first author's hands', 'nobody outside that lab can get the organoid protocol to run', 'cells were cultured as previously described' with four layers of citations. Formal diligence hires KOL consultants who are conflicted and often the PI's friends, or a CRO that needs 4 months and a full protocol. Bad academic-asset bets burn $5-20M before anyone notices.",
+ "solution": "Wedge product 'Bench Pulse': in 5 business days, poll 8-15 vetted, paid, anonymous postdocs and senior techs working in the exact subfield about the named claim, reagents and protocol. Deliver a structured memo with consensus, red flags, the Figure-3 problem, which reagents or lots are fragile, and a 'what to test first' plan. Upsell: 'Key-Figure Replication'. A pool of laid-off or between-position scientists runs the single decisive experiment in 3-4 weeks in rented bench space (not on university property), with pre-registered success criteria and blinded readout.",
+ "why_now": "Biotech funding since 2023 rewards capital efficiency, so seed funds want cheaper, faster kill decisions. Pharma is shopping for early assets in academia and abroad. AI-bio companies are building on published wet-lab claims with little bench sense. NIH disruption and biotech layoffs have released a large pool of very good bench scientists who want paid, flexible work. Expert-network compliance norms are now well understood, so a compliant structure is feasible.",
+ "revenue_model": "Fixed-fee per poll memo and per replication study. Annual retainer for funds that want a pipeline-wide 'bench pulse' (about $30-60k). Optional success-fee or advisory equity for AI-bio startups.",
+ "non_obvious_insight": "The scarce asset is not lab capacity, it is candid consensus. Replication is expensive, but the postdoc informal network already knows which labs' results hold up. The winning move is to monetize that gossip compliantly and only spend on replication after the poll narrows the question. GLG-style expert calls fail because they interview one conflicted senior person instead of 10 juniors who actually do the pipetting.",
+ "first_30_days": "Choose one subfield you personally have 20 contacts in (for example CAR-T, organoids, targeted protein degradation or spatial biology). Build the compliant NDA plus anonymity protocol with a lawyer for about $3k. Offer 3 seed funds a free poll on one asset they are already looking at. Convert the fund that reacts to a paid $5k poll, then upsell one replication. Pay panelists $150-300 per poll from the first revenue.",
+ "outside_box_score": 7,
+ "source": "persona:p1-7",
+ "kind": "persona",
+ "id": "I0400",
+ "tournament": {
+  "score": 0.889,
+  "overall_rank": 136,
+  "cluster": "Biotech capital: diligence and salvage",
+  "judge_notes": [
+   "operator: rank 4/25 - High-ticket memos at deal time, low capex, founder network gets first buyers; niche market but real.",
+   "contrarian: rank 4/25 - Monetizes bench gossip that expert networks miss; $5K poll is cheap next to $10M mistakes; testable fast.",
+   "vc: rank 6/24 - Monetizes candid bench consensus that GLG-style calls miss; cheap to test with seed funds; the market is narrow."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "Hoeford Research",
+    "url": "https://www.hoeford.com/resources-2/blog/our-blog-post-one",
+    "what_they_do": "UK independent contract testing lab that pitches investors on scientific due diligence, including 'verifying data' by re-generating preclinical results. This is the closest thing found to the replication upsell. I only saw a search snippet, because the site returned a bot-check page.",
+    "scale_or_funding": "Unknown. Appears to be a small boutique lab. No funding data found.",
+    "overlap": "direct"
+   },
+   {
+    "name": "Alacrita",
+    "url": "https://www.alacrita.com/case-studies/biotech-due-diligence",
+    "what_they_do": "Life-science consultancy selling scientific and biotech due diligence to big pharma, strategic investors and VCs. Method is KOL and expert interviews, document, IP and clinical data review, and market analysis, with no wet-lab work. This is the conflicted-KOL model the idea criticizes, sold as a bespoke project.",
+    "scale_or_funding": "Established consultancy with offices in London and Cambridge, MA. Pricing not disclosed.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Fios Genomics",
+    "url": "https://www.fiosgenomics.com/biotech-due-diligence-how-to-de-risk-drug-assets/",
+    "what_they_do": "Bioinformatics-led independent due diligence that re-analyzes data to de-risk drug assets. It targets investors and pharma. The page was truncated in my fetch, so details are unverified.",
+    "scale_or_funding": "Unknown. Boutique CRO and analytics firm.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "GLG",
+    "url": "https://glg.com/",
+    "what_they_do": "Largest incumbent expert network. Sells expert calls, transcripts, quantitative and qualitative surveys, and AI-moderated calls to PE, hedge funds and corporations, including life sciences. It could add a 'junior bench scientist poll' as a survey product without much effort.",
+    "scale_or_funding": "25+ year incumbent, private. Serves diligence clients broadly.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Guidepoint",
+    "url": "https://www.guidepoint.com",
+    "what_they_do": "Expert network with 2M+ vetted experts and 130,000+ transcripts. Serves investors, banks and corporations with 1:1 calls and AI research tools. The homepage does not single out biotech.",
+    "scale_or_funding": "Large private incumbent.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Third Bridge",
+    "url": "https://www.thirdbridge.com/en-us/industries/healthcare",
+    "what_they_do": "Expert network selling calls, an expert-knowledge library, surveys and data feeds to PE, public equity and banks. Has a healthcare vertical.",
+    "scale_or_funding": "Large private incumbent.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Bridgetown Research",
+    "url": "https://techcrunch.com",
+    "what_they_do": "AI agents that run expert research and due diligence, positioned as an AI-native expert network. It shows investors will fund automated diligence. It targets PE and consulting, and I could not confirm biotech focus. The headline 'Bridgetown Research raises $19M to speed up due diligence with AI' (TechCrunch, 26 Feb 2025) surfaced via Google News RSS. I did not fetch the article itself.",
+    "scale_or_funding": "$19M, led by Lightspeed and Accel (Feb 2025).",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Science Exchange",
+    "url": "https://en.wikipedia.org/wiki/Science_Exchange",
+    "what_they_do": "R&D services marketplace and procurement platform (scienceexchange.com) connecting biotechs and pharma to CROs. It ran the Reproducibility Initiative (2012, with PLOS) and co-ran the Reproducibility Project: Cancer Biology with the Center for Open Science. Its current site markets only sourcing, contracts and a 'Virtual Lab Manager', with no validation product for investors. It is the obvious infrastructure for outsourcing replication, and it has the brand to re-enter.",
+    "scale_or_funding": "About $78.5M raised (seed $1.5M, A $4M, B $25M, C $28M, plus $20M in 2019). About 93 employees in 2022. Clients include Merck, Amgen and Gilead.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Adaptyv Bio",
+    "url": "https://www.adaptyvbio.com",
+    "what_they_do": "Automated wet lab for protein binding, expression and thermostability assays, from $149 per protein with about 3-week standard turnaround. It serves AI-first protein teams and publishes a case study benchmarking Claude's protein designs in the wet lab. It overlaps the AI-bio founder segment for protein claims and shows cheap fast validation is already commoditizing.",
+    "scale_or_funding": "$40M Series A (announced Aug 2026, per its site). Users include MIT, Harvard, Microsoft, Chai Discovery and Cradle.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Emerald Cloud Lab",
+    "url": "https://www.emeraldcloudlab.com",
+    "what_they_do": "Remote-controlled cloud lab with 200+ instrument models. Experiments are scriptable and push-button reproducible. It could be the substrate for cheap key-experiment replication and does not market published-paper replication itself.",
+    "scale_or_funding": "Established cloud lab. Pricing undisclosed.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "scite.ai",
+    "url": "https://www.scite.ai",
+    "what_they_do": "Smart Citations classify whether later papers support or contrast a finding, across 317M+ full-text articles. It is a cheap literature-based proxy for 'does this replicate'. It has no investor diligence product.",
+    "scale_or_funding": "2M researchers. Pricing not disclosed.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "PubPeer",
+    "url": "https://pubpeer.com",
+    "what_including": "",
+    "what_they_do": "Free post-publication discussion platform. It is where public, sometimes anonymous, red flags on papers surface, and so a free partial substitute for hallway gossip. It has no paid investor product.",
+    "scale_or_funding": "Donation-funded nonprofit.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Kolabtree",
+    "url": "https://www.kolabtree.com",
+    "what_they_do": "Freelance marketplace with 20,000+ scientists at $20-200+/hr. It has no lab replication or investor diligence offering. It shows a supply pool of ex-academic experts exists and could be a channel.",
+    "scale_or_funding": "20,000+ experts in 175+ countries. Funding not checked.",
+    "overlap": "adjacent"
+   }
+  ],
+  "white_space": "Caveat on coverage: the WebSearch quota was exhausted (200 of 200) before this task started. I substituted direct WebFetch of competitor pages, Google News RSS, and some Brave and Bing queries. Brave rate-limited me (429) and Bing returned junk. Hoeford and Fios pages were blocked or truncated. So 'nothing found' is weaker than a full sweep, and the founder should confirm with Crunchbase and LinkedIn plus 10 calls to seed VCs.\n\nWhat I found. Both halves of the idea have adjacent players, but I found no one selling the specific product as described.\n\nPoll half. Expert networks (GLG, Guidepoint, Third Bridge) and scientific-diligence boutiques (Alacrita, Fios) all sell expert input to investors. They interview senior experts and KOLs, sell bespoke projects, and market to finance clients. I found no fixed-price, 5-day, named-claim consensus poll of 8-15 anonymous junior bench scientists. That is a real wedge, and it fits the founder's critique that the incumbents rely on conflicted seniors.\n\nReplication half. 'Wet diligence' at CROs or independent labs is an accepted practice (LifeSciVC says it should be 'gating before investing'). Hoeford appears to sell it. Science Exchange has the marketplace and the history (Reproducibility Initiative, RP:CB). The bundle, where the poll narrows the question and then a pre-registered, blinded replication follows, looks unserved. Owning a bench pool of laid-off scientists is the least defensible and most operationally risky part.\n\nSegment. AI-bio founders building on published wet-lab claims are the least served, but Adaptyv Bio (raised $40M, 3-week assays from $149 per protein) is already serving protein-design validation.\n\nStructural threats.\n- GLG or Guidepoint can copy the poll cheaply once it is proven, since they already sell surveys.\n- Anonymity is leaky in subfields of 20-50 people.\n- Postdocs risk their careers and may breach university confidentiality or employment terms.\n- A negative poll about a named PI's paper carries defamation and tortious-interference exposure.\n- A replication that fails in a new lab does not prove the claim is false, which is the ambiguity buyers hate.",
+  "evidence_of_demand": "The problem is real and well documented. Willingness to pay at these price points is not proven.\n\nProblem evidence:\n- Amgen confirmed 11% of 53 landmark preclinical cancer studies and Bayer at most about 25% (https://en.wikipedia.org/wiki/Replication_crisis).\n- The Reproducibility Project: Cancer Biology found effect sizes 85% smaller on average, 70% of experiments needed reagent requests, and no paper's protocol was fully described (https://en.wikipedia.org/wiki/Reproducibility_Project). Only 50 of 193 experiments could be repeated. That matches the 'cells cultured as previously described' pain in the idea.\n- Freedman et al. 2015 estimated about $28B per year of irreproducible US preclinical spend, with a point estimate of 53% irreproducible (https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002165).\n\nInvestor-side evidence:\n- LifeSciVC (a biotech VC) says 'at least 50%' of top-journal studies can't be repeated by an industrial lab. It says independent repetition 'should be gating before investing', and cites a company that burned about $5M validating a platform that didn't exist (https://lifescivc.com/2011/03/academic-bias-biotech-failures/). This shows VCs know wet diligence is needed and already buy it from CROs.\n\nExisting spend on workarounds:\n- Alacrita sells KOL-based scientific diligence to pharma and VCs.\n- Hoeford markets independent-lab data verification to investors.\n- GLG, Guidepoint and Third Bridge sell expert calls and surveys to funds.\n\nGaps in demand evidence:\n- I found no RFPs and no published prices or customers for a poll-only memo or a key-experiment replication.\n- The IFP 'Replication Engine' proposal (https://ifp.org/the-replication-engine/) says it found no evidence that funders, industry or investors currently demand replication services. It is a policy proposal for computational replication funded at $9M by NSF, not a commercial competitor.\n- Science Exchange had a replication-validation brand in 2012-2017 and no longer markets it, which suggests weak commercial pull for standalone replication.\n- The $4-6k and $15-40k price points are untested.",
+  "kill": false,
+  "kill_reason": "n/a",
+  "sharper_angle": "Launch poll-only and drop the owned replication bench pool, at least at first.\n\n1. Pick one subfield the founder knows, such as CAR-T, organoids or targeted protein degradation. Sell fixed-price 5-day 'practitioner reproducibility confidence' memos on named claims. Frame the output as reported confidence and fragile reagents, never as 'this result is false'. That limits defamation risk.\n2. Build the moat as a compounding claim-level ledger. Each poll adds to a proprietary subfield database of which labs' protocols, reagents and lots hold up. Sell it as the $30-60k retainer. Expert networks sell one-off calls and cannot easily match a structured, longitudinal dataset.\n3. Make the panel structurally clean. Recruit paid junior scientists outside the PI's institution and collaborator network. Enforce minimum panel sizes and anonymity thresholds. Have a lawyer check university-confidentiality terms.\n4. Broker replication instead of owning it. Hand the 'what to test first' plan to Science Exchange or an existing CRO, and to Adaptyv Bio for protein-binding claims. Take a referral or project-management fee. This avoids competing with well-funded infrastructure.\n5. Consider AI-bio startups as the first buyer. They have budgets and no conflicted-KOL habit, but they are exposed to Adaptyv-style cheap assay validation for protein claims. Aim at claims that cheap assays can't settle, such as cell and organoid systems and complex protocols.\n6. Before building, run the founder's own test. Offer the free poll to three seed funds and get one to pay $5k. That would give the demand evidence I could not find."
+ }
+}

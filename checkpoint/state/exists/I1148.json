@@ -1,0 +1,66 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "FireRisk.ai (RiskIntel AI)",
+   "url": "https://firerisk.ai/wildfire-risk-score-appeal",
+   "what_they_do": "Free homeowner-facing 'Appeal Kit' built around Colorado HB25-1182. It generates a formal reconsideration letter and a 30-day response tracker, and compares the insurer's disclosed score with its own 0-100 score. It also has a free 'mitigation certificate' letter generator. It is built on coarse federal rasters (USFS 30 m, FEMA tract level). It does NOT use parcel imagery, does not verify anything, and has no agent or HOA product. Monetised by insurance-referral commissions. Same use case as the idea, but free and low-fidelity.",
+   "scale_or_funding": "Not disclosed; appears to be a small SEO/lead-gen property. Methodology page: https://firerisk.ai/methodology",
+   "overlap": "direct"
+  },
+  {
+   "name": "DefensibleHome Wildfire Insurance Survival Kit",
+   "url": "https://www.defensiblehome.com/articles/insurance-and-fair-plans/corelogic-wildfire-mitigation-score",
+   "what_they_do": "Independent publisher selling a $99 one-time kit of defensible-space work plans, ranked hardening list, dated photo-log templates and non-renewal reconsideration letter templates. Explicitly does not negotiate with insurers; the homeowner assembles everything. This is the price anchor and substitute for a $149-299 per-parcel pack.",
+   "scale_or_funding": "New publisher; its own site says it has no customer reviews yet (https://www.defensiblehome.com/). Bootstrapped/unknown.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Defensible Space Score (AACI Group / Five Bays Insurance Agency)",
+   "url": "https://defensiblespacescore.com/",
+   "what_they_do": "Free 14-question remote self-assessment of Zones 0-2 producing a 0-100 score and prioritised fixes, marketed as a way to 'prove it' to insurers and appeal an inaccurate score. It is self-reported (no imagery) and California-focused. It is run by an independent insurance agency, so it is a lead-gen tool that shows agents themselves building free tools.",
+   "scale_or_funding": "Operated by AACI Group, Inc., which owns Five Bays Insurance Agency (a specialty independent agent, https://fbia.com/blog/define-high-fire-risk-insurance/). Free.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Road Home Exteriors 'insurance-grade verification packets'",
+   "url": "https://roadhomeexteriors.com/services/harden-your-home-program/colorado-hb25-1182/",
+   "what_they_do": "A Colorado roofing/exteriors contractor that bundles material test results, install photos and compliance certificates as HB25-1182 evidence with its hardening work. This is an existing workaround where contractors supply the evidence pack as a loss-leader for hardening jobs. It shows that hardening contractors could also package rebuttal evidence.",
+   "scale_or_funding": "Local contractor; small.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "IBHS Wildfire Prepared Home and Boulder County Wildfire Partners",
+   "url": "https://www.wildfirepartners.org/",
+   "what_they_do": "Inspector-based mitigation certifications that carriers already recognise (Allstate, State Farm and USAA are named as accepting them in https://legacy100re.com/colorado-wildfire-insurance-2026/). IBHS Wildfire Prepared Home reportedly expanded to Colorado in April 2026. Wildfire Partners gives free assessments in Boulder County. These are the incumbent 'evidence' route, on-site and slow, and they certify hardening rather than correcting model input errors.",
+   "scale_or_funding": "IBHS is an insurer-funded nonprofit (https://ibhs.org/wildfire/wildfire-prepared-home/); Wildfire Partners is a county program (free).",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "ZestyAI (Z-FIRE)",
+   "url": "https://zesty.ai/products/wildfire",
+   "what_they_do": "The AI wildfire model that many carriers file and use. It uses aerial imagery for roof, vegetation and defensible space, is DOI-approved across western states, and is used by carriers covering about 40% of the California homeowners market, plus Farmers, CSAA, Kin and the CA FAIR Plan (https://phidea.eu/essays/zesty-ai-us-carrier-roster-2026). It sells a '180-day playbook' with a 'framework for a compliant appeals process' and mitigation-credit guidance (https://zesty.ai/resource/zesty-announces-180-day-playbook-to-navigate-first-of-its-kind-wildfire-regulatory-requirements-in-california). It is carrier-side only, but it is the obvious vendor to add appeal-desk tooling, and it is also the entity whose scores you would be rebutting.",
+   "scale_or_funding": "VC-backed scale-up with about 16 named carriers; exact funding not verified in this research.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Nearmap / Betterview wildfire insights",
+   "url": "https://www.nearmap.com/products/insights/fire-risk",
+   "what_they_do": "Sells P&C insurers and agents a wildfire vulnerability score from imagery detections (roof material, debris, defensible space, building spacing). The customers are carriers and agents, but the use is underwriting, not policyholder dispute. No appeal or evidence features are mentioned. It holds the same high-resolution multi-date imagery the idea depends on and could productise 'evidence packs' for agents.",
+   "scale_or_funding": "Private-equity-owned imagery incumbent; Betterview was acquired by Nearmap (background knowledge, not verified here).",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Cotality (CoreLogic), Verisk FireLine, Cape Analytics (Moody's)",
+   "url": "https://nathanbwittasek.substack.com/p/mitigations-black-box",
+   "what_they_do": "The incumbent scoring and property-data vendors whose scores are being rebutted. A Substack analysis names them alongside ZestyAI and First Street and says the missing layer is independent third-party, inspection-based property-condition scoring for homeowners, which is the idea's gap. None currently offers a homeowner or agent dispute product. Cotality launched an MCP server for auditable property data, which is a data-access step in the same direction. They also make the score inputs, so they control access and could copy the idea.",
+   "scale_or_funding": "Large incumbents (Cotality, Verisk) and a Moody's subsidiary (Cape; background knowledge).",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Nobody found sells imagery-based, parcel-level, insurer-format rebuttal evidence, and nobody sells an agent or HOA 'scan the whole book for likely score errors' workflow. What exists is (a) free or $99 homeowner letter and template kits with no imagery (FireRisk.ai, DefensibleHome, Defensible Space Score), (b) slow on-site certifications (IBHS Wildfire Prepared Home, Wildfire Partners), (c) contractor evidence packets sold with hardening jobs (Road Home Exteriors), and (d) carrier-side imagery scoring (Zesty, Nearmap/Betterview, Cape, Cotality, Verisk) with at most a compliance 'framework' for appeals. Specific unserved wedge: multi-date 15-50 cm imagery that shows a lot's actual condition (irrigated, gravel-scaped, recently cleared) against a 30 m coarse-layer score, formatted for Colorado's 10-day acknowledgement and 30-day decision clock, delivered to independent agents who carry many clients. Genuine caveats that shrink the gap: (1) The premise for California looks broken. AB 75's status page shows it 'held under submission' in Appropriations on 08/29/2025 and no source found shows it enacted (https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB75). The CA DOI's own report reportedly says there is no formal appeal process. So the 'statutory appeal right' in CA is unverified and Colorado is the only confirmed regime. (2) Colorado HB25-1182 (signed 28 May 2025, effective 1 July 2026, https://leg.colorado.gov/bills/hb25-1182) requires disclosure of the score, range and a plain-language explanation of features. It does not clearly require raw model inputs (fuel class, vegetation density), and it does not require insurers to accept third-party imagery. The 'pull the disclosed model inputs' step may be thin, and DOI enforcement is only that the Commissioner may request a copy of a denied appeal. (3) Insurers can satisfy the law with a manual mitigation discount, so a score correction may not change the premium. (4) Free and $99 substitutes cap willingness to pay for $149-299 per file. (5) Zesty, Nearmap and Cotality hold the same imagery and the carrier relationships, so the durable moat is the concession database, not the imagery.",
+ "evidence_of_demand": "Real but mostly indirect; I found no evidence of anyone paying $149-299 per parcel and none of agents buying book scans. Evidence FOR demand: (1) Statutory forcing function. HB25-1182 took effect 1 July 2026, requires annual score disclosure and an appeal path with insurer acknowledgement in 10 days and decision in 30 days (https://leg.colorado.gov/bills/hb25-1182, https://www.senatedems.co/newsroom/law-to-save-coloradans-money-on-property-insurance-goes-into-effect). (2) Pain: Colorado homeowners' rates roughly doubled 2020-2025 (https://insurancenewsnet.com/oarticle/law-to-save-coloradans-money-on-property-insurance-goes-into-effect). (3) The evidence burden is on the owner. Coverage stresses that photos, invoices and dated professional inspection reports decide appeals (https://www.liveinsurancenews.com/colorado-homeowners-secret-score/8573796/), and United Policyholders tells owners to prove their property is 'materially the same as neighbors' lower-scored properties' and to hire surveyors or risk assessors (https://uphelp.org/ask-an-expert/question/appeal-of-wildfire-risk-score/). (4) Model error and inconsistency: an analysis found identical Class A/Firewise homes got carrier discounts of 0.7%, 12% and 41%, and argued for independent inspection-based scoring (https://nathanbwittasek.substack.com/p/mitigations-black-box). (5) California's Insurance Commissioner said the DOI has investigated numerous complaints where flawed aerial imagery caused wrongful cancellations or nonrenewals (https://insurify.com/homeowners-insurance/news/california-roof-image-regulation/). (6) Spend on workarounds already exists: a $99 DefensibleHome kit (https://www.defensiblehome.com/), contractor 'insurance-grade verification packets' (https://roadhomeexteriors.com/services/harden-your-home-program/colorado-hb25-1182/), and free assessments. (7) An agent-run brand (Five Bays) built a free tool for this, which suggests agents see the lead-gen and retention value. Evidence AGAINST or missing: no source shows insurers' appeal desks are unprepared (the idea's 'why now' claim is unverified), the two free tools have no published usage numbers, and DefensibleHome says it has no reviews yet.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Drop California and the per-homeowner retail framing until AB 75 is confirmed enacted, and go Colorado-only as an agent-side 'book-level mitigation-credit and nonrenewal-defense' tool. Independent agencies upload their WUI book, and you flag parcels where dated 15-50 cm imagery contradicts a coarse-layer score (irrigated or gravel Zone 0, cleared fuels, Class A roof). You then auto-generate carrier-specific evidence packs timed to the 10/30-day clocks. Price it as a per-agency SaaS ($200-500/month for the scan) plus success-based fees (for example a share of the first-year premium reduction or a flat fee only on reversed nonrenewals). That sidesteps free FireRisk.ai and the $99 kit and forces the concession data to accumulate. Make the per-carrier, per-vendor 'which input errors get conceded' database the product, and consider positioning as the imagery evidence layer for IBHS Wildfire Prepared Home and Wildfire Partners (remote pre-verification that cuts on-site inspection cost). Validate first with 5-10 Colorado agencies and 20 real filed appeals before licensing imagery. Pre-empt the main threat, ZestyAI, Nearmap/Betterview or Cotality bolting on a policyholder-facing appeals module, by locking in agent and HOA distribution and the concession dataset early, and consider a data partnership with one of them."
+}

@@ -1,0 +1,15 @@
+{
+ "title": "Gate-Risk Radar for Evergreen Private Credit",
+ "one_liner": "A quarterly shadow NAV and gate-probability score for every non-traded BDC and interval fund, sold to the RIAs and OCIOs who put clients into them.",
+ "customer": "Independent RIAs and family offices ($100M to $3B AUM) with client money in non-traded BDCs, interval and tender-offer funds, at $400 to $1,500 per month per firm. Secondary buyers are TAMPs and wealth platforms (API license) and 401(k) advisers as alternatives enter defined-contribution plans.",
+ "problem": "Advisers learn a fund has gated from a sponsor letter after the tender window closes. In Q1 2026 non-traded BDC investors requested about $13.9B and got about $7.4B. Blackstone gated BCRED in June 2026 with about 5% fills, and Q2 requests hit a record 12.4% of NAV with only 38% filled. Reported NAVs are smoothed, and nobody tells an adviser whether the next tender will be pro-rated or what to file.",
+ "solution": "Ingest the tender-offer filings (window and cap), 10-Q and N-PORT marks, non-accruals and PIK share, listed-BDC discount to NAV, secondary bids on non-traded shares, and loan-index prices. Output three things per fund: (1) shadow NAV against reported NAV, (2) probability that the next tender gates and the expected fill rate, (3) a 'if I request X, expect to receive Y' calculator. Add compliance-ready client letters. Start as a public tracker of about 40 funds, then put the alerts and calculator behind a paywall.",
+ "why_now": "2026 is the first year pro-rata gating hit the whole non-traded BDC category. Blue Owl merged a non-traded BDC into its listed sibling under redemption pressure. The August 2025 executive order opening 401(k)s to alternatives is about to push far more retail money into these wrappers. Private-credit blowups in late 2025 turned advisers from curious to scared.",
+ "revenue_model": "Tiered subscription for advisers, an enterprise API for wealth platforms and TAMPs, and a $250 per-fund 'client-ready due diligence memo' for compliance files.",
+ "non_obvious_insight": "Pro-rata gating makes over-requesting the dominant strategy. Once investors expect a 14 to 38 cent fill, they file bigger requests than they need, so request size becomes a self-amplifying signal. It overstates true demand but predicts fill rates well. The gap between the listed-BDC discount and reported NAV leads request size by about a quarter. Quants see this as a bank-run game with strategic complements, not a credit-loss story, and nobody in wealth tech models it that way.",
+ "first_30_days": "Scrape EDGAR tender-offer, 10-Q and N-PORT filings for about 40 funds and publish a free weekly 'gate watch' on LinkedIn and Substack framed as research. DM 100 RIA compliance heads and CIOs. Convert 10 to a $500-per-month pilot and start talks with two wealth-platform data teams.",
+ "outside_box_score": 5,
+ "source": "persona:p0-6",
+ "kind": "persona",
+ "id": "I0952"
+}

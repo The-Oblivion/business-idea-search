@@ -1,0 +1,91 @@
+{
+ "title": "Cross-Mine Critical Spares Pool and Inventory Cleanup",
+ "one_liner": "An AI cleaner for mine SAP materials masters that frees cash from duplicate spares, then turns the informal WhatsApp groups of competing mines' maintenance planners into a contractual, insured rotables pool for mill motors, liners and haul-truck parts.",
+ "customer": "Supply chain, maintenance and finance heads at mid-size copper and lithium operations, starting in clusters where operators are neighbours: Arizona, Nevada and Utah, Antofagasta, the Arequipa-Moquegua corridor, the Zambian Copperbelt and the Pilbara. They pay a share of freed cash, not an IT budget.",
+ "problem": "A copper mine holds $30-150M of spares. Materials masters are full of duplicates and near-duplicates (the same bearing under five descriptions), often 20-30% of items, so mines overbuy what is on another shelf. They still stock out on truly critical items (mill drive motors, girth gears, transformers, big castings) with 12-24 month lead times. Meanwhile maintenance planners across competing companies already borrow parts from each other over WhatsApp groups. It works only among friends and has no contracts, insurance, condition guarantees or return terms, so it never scales.",
+ "solution": "Step one is the wedge. A CSV export of the SAP MM data goes into an LLM pipeline with OEM and aftermarket cross-references, multilingual description normalisation and criticality scoring. It outputs a list of duplicates, surplus and dead stock, plus the freed working capital in dollars. Step two lists surplus and 'insurance spares' on a members-only district board with a standard loan, lease and sale agreement, third-party condition inspection (vibration, NDT), logistics and insurance. It works like airline rotable pooling: three neighbouring mines share one spare mill motor instead of each stocking one.",
+ "why_now": "Large motors, transformers and castings have longer lead times because of grid and data-centre demand. Steel and copper tariffs make replacement parts pricier. Lithium mines are cash-starved after the price bust, and copper mines face cost inflation and grade decline, so CFOs are hunting working capital. LLMs can now normalise messy multilingual part descriptions at almost no cost, which was not economic three years ago.",
+ "revenue_model": "15-25% of freed cash (sales and avoided purchases only, not write-offs), a pool membership subscription ($1-3k per month), and an 8-10% transaction fee on pooled loans and sales, plus inspection and certification fees.",
+ "non_obvious_insight": "The spares problem is legal and trust-based, not a software problem. The informal swap network is the real supply chain. The biggest saving is not selling dead stock, it is not buying the 'insurance spare' a neighbour already owns. Pooling is an aviation idea that mining has never adopted because competitors will not share data without a neutral third party.",
+ "first_30_days": "Through ex-colleagues, offer a free 2-week scan of SAP MM exports (CSV) at two or three mid-size mines. Deliver a dollar value of duplicates and surplus and a target list. Sign a success-fee agreement with the first one that shows a big number. In parallel, seed a private 'list before you buy' board among 20 maintenance planners in one district using Signal or WhatsApp, to formalise the network before any software is built.",
+ "outside_box_score": 6,
+ "source": "persona:p0-9",
+ "kind": "persona",
+ "id": "I1140",
+ "tournament": {
+  "score": 0.903,
+  "overall_rank": 118,
+  "cluster": "Singular / uncategorized",
+  "judge_notes": [
+   "vc: rank 3/25 - SAP cleanup on success fee is a real wedge; formalizing the WhatsApp swap network is a genuine insight with a large spares base.",
+   "operator: rank 4/25 - Huge freed-cash per customer, free-scan contingency wedge; a few closes possible, but ten in six months unlikely.",
+   "contrarian: rank 3/25 - Informal WhatsApp swap network as the real supply chain is non-obvious; success-fee wedge; large cash prize."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "Verusen",
+    "url": "https://verusen.com",
+    "what_they_do": "AI MRO inventory optimization platform. Connects to SAP/EAM without pre-cleaning and does duplicate material identification, obsolescence detection, criticality scoring and cross-site sharing. It sits in the SAP Store as 'Verusen Materials Management' (https://verusen.com/sap-powered-by-verusen/) and lists mining as a target industry. A mining case study reports $96.8M of inventory value identified across 17 live sites, with 27 more in testing, plus 'material de-duplication across mines' (https://verusen.com/use_case/use-case-global-mining-enterprise/). Its 'spare parts sharing' module is intra-company only (https://verusen.com/spare-parts-sharing/). A pulp-and-paper customer got $10M of savings from parts sharing across its own sites. I found no cross-company legal, insurance or condition-inspection layer.",
+    "scale_or_funding": "$33M disclosed: $8M Series A (Jan 2021, Forte/Flyover) and $25M Series B (Jan 2022, Scale Venture Partners lead; BMW iVentures, Zetta, Glasswing). Partners include SAP, AWS, Accenture and NTT Data. It claims about $20M working capital unlocked per customer in 12 months. Later rounds are not visible.",
+    "overlap": "direct"
+   },
+   {
+    "name": "SPARETECH GmbH",
+    "url": "https://www.sparetech.io",
+    "what_they_do": "AI platform for MRO spare-parts data: standardizes the material master, removes duplicate parts records across plants, and holds a database of 40M+ verified manufacturer parts. It integrates with SAP and IBM Maximo, flags obsolete inventory and enables surplus resale. It claims about 20% average inventory reduction and 60% faster part discovery. This is essentially the idea's step one, sold as SaaS.",
+    "scale_or_funding": "Stuttgart-based. Funding is not disclosed on its site, and the size is unknown.",
+    "overlap": "direct"
+   },
+   {
+    "name": "SAP (IBP, Store distribution) and IBM Maximo",
+    "url": "https://verusen.com/mro-inventory-optimization-platforms-compared-why-verusen-outperforms-sap-ibp-ibm-maximo-and-more/",
+    "what_they_do": "Incumbent ERP and EAM platforms that mines already run. They own the materials master and MRO workflows. Verusen's comparison page says both need structured, cleansed data and neither is strong at sparse-demand MRO optimization. That leaves a gap for point solutions, but the incumbents control the data and distribution channel. SAP already resells Verusen through the SAP Store, so a new cleaner faces a partner-embedded rival.",
+    "scale_or_funding": "Large incumbents. They are named as adjacent alternatives in Verusen's own comparison, not as direct duplicate-cleaning competitors.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Partium",
+    "url": "https://www.partium.io",
+    "what_they_do": "AI parts-intelligence platform. It identifies industrial parts from photos, OCR, BOMs or partial descriptions, then fills in manufacturer, alternatives, pricing and availability. It integrates with ERP, CMMS and procurement systems. This overlaps with the cross-reference and description-normalization component of step one.",
+    "scale_or_funding": "Enterprise customers named on its site include Deutsche Bahn, Home Depot, Delta and Walmart. Funding was not verified.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Syniti",
+    "url": "https://www.syniti.com",
+    "what_they_do": "Enterprise data quality and migration platform with SAP-focused offerings (S/4HANA migration, data cleansing). It serves large enterprises such as Exxon Mobil and Phillips 66. It is a generic substitute for one-off SAP material-master cleanup projects. It is not mining-specific, and its MRO/material-master specifics were not confirmed on its site.",
+    "scale_or_funding": "Established enterprise vendor. Funding not checked.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Grid Assurance (utility pooled spare-equipment analog)",
+    "url": "https://www.gridassurance.com",
+    "what_they_do": "A subscription service that holds a warranted, maintained reserve of long-lead transmission equipment (transformers and similar) in secure warehouses, shared among subscribing utilities, with pre-approved delivery plans. It is the closest proof that step two (a neutral third party pooling ultra-long-lead critical spares across competitors) works commercially. It serves utilities, not mines, and I found no mining equivalent.",
+    "scale_or_funding": "Operating subscription business serving US transmission owners. Ownership and size were not stated on the page I could fetch.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Liquidity Services (AllSurplus, GovDeals, Machinio)",
+    "url": "https://www.liquidityservices.com/",
+    "what_they_do": "Online surplus and asset-disposition marketplaces covering 900+ categories, including industrial machinery and energy assets, with corporate sellers. This is the existing exit route for dead and surplus stock, a partial substitute for the 'sell surplus' revenue leg. It offers no pooling, loan terms, condition certification or criticality logic.",
+    "scale_or_funding": "Public company (LQDT). $15B+ in completed sales, 6M+ buyers, 15,000+ sellers.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "RB Global (Ritchie Bros, IronPlanet)",
+    "url": "https://www.rbglobal.com",
+    "what_they_do": "Heavy-equipment and asset auction marketplaces (400+ auctions and online sales a year, 333K+ North American buyers). They mainly handle whole machines, not component-level spares, and mining is not a called-out vertical on the page I fetched. They are an adjacent exit route for surplus, not a spares pool.",
+    "scale_or_funding": "Public company with a large marketplace network.",
+    "overlap": "adjacent"
+   }
+  ],
+  "white_space": "Caveat: the WebSearch budget (200 of 200) was exhausted before I could run any queries, so this verdict rests on direct page fetches of known companies. It is not a broad sweep. I could not run forum, Reddit, WhatsApp-group, RFP, Spanish/Portuguese-language or Crunchbase/YC/Product Hunt searches. My 'nobody does cross-company mining pooling' finding is therefore unconfirmed and moderate-confidence.\n\nSTEP ONE (SAP dedupe and surplus cleaner) is crowded and should not be the business. Verusen has a live mining case study ($96.8M identified across 17 sites), a listing in the SAP Store, about $33M disclosed funding and enterprise references. SPARETECH does the same dedupe-and-surplus job. Partium and Syniti cover the normalization and SAP-cleansing pieces. The 'LLM cost collapsed, so now it's viable' argument is weak, because Verusen and SPARETECH already do this. The remaining wedge inside step one is small: mid-size mines (roughly $30-150M of spares, one SAP instance, no enterprise budget) below Verusen's Fortune-100 and multi-site-enterprise focus, sold on a success fee. That is a thin, copyable wedge.\n\nSTEP TWO (neutral, cross-operator critical-spares pool) is unserved among the players I checked. Verusen's sharing module is intra-company only and has no legal, insurance or inspection layer. Liquidity Services and RB Global sell surplus one-way and offer no loan or lease terms. Grid Assurance proves the pooled long-lead-spares subscription model for utilities, but nobody I found has applied it to mines. The unserved piece is the trust wrapper: a neutral entity, standard loan/lease agreement, third-party condition certification (vibration/NDT), logistics and insurance, and a single-point-of-failure spares register per district.\n\nRisks I could not close out. (1) OEM reman, exchange and consignment programs (haul-truck components, mill liners, motors) are the real substitute for pooling. I could not verify their current terms because the Cat Reman fetch timed out. (2) Competition-law exposure when competing operators share inventory data needs early legal work. (3) The pooled-event frequency is low, so revenue per district is modest, and pooling in Chile or Peru needs local counsel. (4) Verusen could add an inter-company network cheaply; it already lists 'Spare Parts Sharing' and mining customers.",
+  "evidence_of_demand": "Demand for step one (paying for dedupe and surplus identification) is well evidenced, which is also why it is crowded. Verusen's mining case study reports $96.8M of identified inventory value across 17 sites (https://verusen.com/use_case/use-case-global-mining-enterprise/). Verusen claims about $20M working capital unlocked per customer within 12 months and 10x ROI (https://verusen.com). It raised $25M in a Series B in Jan 2022 (https://verusen.com/news/announcing-verusens-25m-series-b-funding/). SPARETECH claims about 20% average inventory reduction (https://www.sparetech.io). A pulp-and-paper customer of Verusen reports $10M saved directly from parts sharing across its own sites, so sharing itself has proven value inside one company (https://verusen.com/blog/how-hub-and-spoke-inventory-sharing-cuts-mro-costs-across-sites-without-risking-downtime/). Utilities already pay for a pooled long-lead spares subscription (Grid Assurance, https://www.gridassurance.com). Corporations already route surplus through marketplaces such as Liquidity Services, which reports $15B+ in completed sales (https://www.liquidityservices.com/). I found NO direct evidence that mining operators pay for cross-company pooling: no forum threads, RFPs, or documentation of the claimed WhatsApp swap networks (search budget was exhausted). Treat the 'informal swap network' premise and the '20-30% duplicates' figure as founder assertions to test in discovery calls.",
+  "kill": false,
+  "kill_reason": "n/a",
+  "sharper_angle": "Drop the standalone SAP-cleaner wedge, because Verusen (mining case study, SAP Store listing, about $33M funding) and SPARETECH already own it. Build only the neutral cross-operator layer, modelled on Grid Assurance's utility pool but for mines. Form a district co-op or SPV with 3-5 neighbouring mid-size operators (for example Arizona/Nevada or Antofagasta first) and start with a register of only the 15-30 single-point-of-failure spares with 12-24 month lead times: mill drive motors, girth gear and pinion sets, main transformers, SAG/ball mill shells. Sell it as a restoration-assurance subscription that bundles a pre-signed standard loan/lease agreement, third-party condition certification (vibration, NDT), pre-agreed mobilization logistics and insurance. Price it on membership plus a per-event fee, not a share of freed cash. Use a minimal anonymized matching step (OEM part number and serial for critical items only, taken from a CSV export) as the free on-ramp, or partner with or resell Verusen/SPARETECH for the cleanup so you never compete with them. Position it as the inter-company layer Verusen does not offer. Before writing any software, validate three things. First, whether OEM consignment and reman programs already cover most of the risk. Second, competition-law clearance. Third, whether 3 signed operators will put one real spare into the pool. The bare 'success fee on freed cash' product is not defensible."
+ }
+}

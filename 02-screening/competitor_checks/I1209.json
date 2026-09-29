@@ -1,0 +1,94 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "ImportGenius",
+   "url": "https://www.importgenius.com",
+   "what_they_do": "Sells searchable US customs bill-of-lading records (2006 to present) plus Mexico, India, Vietnam, Turkey and other datasets, with an AI Company Profiler. Its homepage already markets 'Supplier Verification & Discovery: validate suppliers using actual shipping histories and export volumes', and also tariff and compliance strategy and supply chain risk use cases. Same data layer and same pitch as the idea, but it sells rows and self-serve profiles, not a reasonable-care dossier or a factory-owned credential.",
+   "scale_or_funding": "3.3B records across 25+ countries. Public pricing: USA Essentials $229/mo month-to-month, Pro $449/mo, Enterprise $1,999+/mo (https://www.importgenius.com/pricing). This is the same price band as the proposed $149-499/mo subscription.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Panjiva (S&P Global Market Intelligence)",
+   "url": "https://www.panjiva.com",
+   "what_they_do": "Customs-records supplier search and company profiles combining customs and business databases, with a 'Risk Analysis' feature to flag companies with risky supply chains, plus alerts and network visualisation.",
+   "scale_or_funding": "9M companies, 2B+ shipment records, about 35% of global trade flows. Owned by S&P Global. Pricing is by demo request only, so it is enterprise-priced.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Descartes Datamyne",
+   "url": "https://www.datamyne.com",
+   "what_they_do": "Global trade database covering 190+ countries with 500M+ records added a year. Offers supplier discovery and qualification, tariff insights and landed-cost calculation, and HS-code analytics for importers.",
+   "scale_or_funding": "Descartes Systems Group is a public company. Customers named on the site include Wayfair, Coca-Cola and FedEx.",
+   "overlap": "direct"
+  },
+  {
+   "name": "ImportYeti",
+   "url": "https://www.importyeti.com",
+   "what_they_do": "Free searchable US import (bill-of-lading) data with per-supplier pages showing shipment history. I could not fetch it (HTTP 403), so this comes from background knowledge and is unverified in this session. If it is still free, it sets a zero-dollar floor for the raw-data part of the idea.",
+   "scale_or_funding": "Not verified this session.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Sayari",
+   "url": "https://www.sayari.com",
+   "what_they_do": "Risk-intelligence graph and API covering supplier verification, third-party risk, beneficial ownership, trade compliance and forced-labor screening. Serves enterprise compliance teams and government.",
+   "scale_or_funding": "Raised $228M from TPG. Reports $8.5M from US Treasury and $7.8M from CBP, and In-Q-Tel backing. Customers include a global e-commerce platform screening 100K+ merchants. Enterprise-focused, not SMB importers.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Altana",
+   "url": "https://www.altana.ai",
+   "what_they_do": "Describes itself as 'The AI-Powered Network for Trusted Trade', a supply-chain and trade-compliance network. The fetch returned truncated content, so I could not confirm which products cover origin or transshipment verification. Based on my prior knowledge it sells to governments and large enterprises, but I could not confirm that or its funding this session. It is the most likely incumbent to add an SMB origin-verification tier.",
+   "scale_or_funding": "Not verified this session. Believed to be well funded.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Tradeverifyd",
+   "url": "https://www.tradeverifyd.com",
+   "what_they_do": "Agentic-AI supplier identification and verification across 200+ data sources. Covers multi-tier ownership mapping, continuous monitoring, UFLPA and sanctions compliance, and 90-second supplier assessments. Lists CBP among its partners.",
+   "scale_or_funding": "Funding and pricing not disclosed on the site. Aimed at enterprises with tier-3 visibility needs.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Trademo",
+   "url": "https://www.trademo.com",
+   "what_they_do": "Global trade management and intelligence platform with supplier discovery (SourceAtlas), screening, tariff and landed-cost tools, country-of-origin determination and multi-tier mapping across 100M+ relationships. The site does not explicitly offer factory verification or transshipment risk scoring, but it could add them quickly.",
+   "scale_or_funding": "Customers shown include Hitachi America, TAG Heuer and RPM. Funding not shown on the site.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Exiger",
+   "url": "https://www.exiger.com",
+   "what_they_do": "Supplier due diligence and supply-chain risk platform for large enterprises and federal agencies. No mid-size importer product visible.",
+   "scale_or_funding": "Says it serves 150 Fortune 500 companies and 60+ federal agencies.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "QIMA",
+   "url": "https://www.qima.com",
+   "what_they_do": "Physical factory audits, inspections, testing and certification. This is the incumbent for the 'local inspector visits' add-on in the idea, and it already has a global inspector network. Origin and transshipment verification is not its headline service.",
+   "scale_or_funding": "Global TIC (testing, inspection, certification) firm. Pricing not shown.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Sourcify",
+   "url": "https://www.sourcify.com",
+   "what_they_do": "Managed factory vetting and sourcing with on-ground teams in 17 countries. Vets factories through relationships, not scraped database rows.",
+   "scale_or_funding": "200+ brands served, including Amazon and Peloton. Pricing not shown.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Kharon",
+   "url": "https://www.kharon.com",
+   "what_they_do": "Sanctions, forced-labor and ownership-network risk analytics. Does not sell import-record-based factory verification.",
+   "scale_or_funding": "Customers include 7 of the 10 largest US banks and 35+ Fortune 100 companies.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "The narrow wedge that appears unserved is a fixed-price, human-reviewed 'reasonable-care file' for a small US importer, sold through customs brokers. The SMB importer (Amazon or Shopify brand, or a $2-50M distributor) needs one factory checked before one PO. Enterprise tools (Sayari, Altana, Tradeverifyd, Trademo, Exiger) are sold by demo and are priced and scoped for large compliance teams. Data tools (ImportGenius, Panjiva, Datamyne, ImportYeti) sell rows and leave interpretation to the analyst. Inspectors (QIMA) and sourcing agents (Sourcify) sell physical checks, not a documentary file that maps to CBP's reasonable-care standard. The part I found nobody offering is a factory-claimed profile with consent-based buyer references, which is a two-sided credential. No visible player runs a supplier-owned reputation credential built on customs ledgers. However, the wedge is thin. (1) ImportGenius already markets 'supplier verification via shipping history' at the same $229-449/mo price band. (2) The raw-data floor is free or near-free. (3) Any one of Altana, Trademo or ImportGenius could add a 'transshipment risk report' feature quickly. (4) The factory-pays credential side has no demonstrated demand and needs a two-sided marketplace. Risks I could not check with the exhausted search budget: whether resale of licensed bill-of-lading data is allowed, that US import records often name the forwarder or trading company as shipper instead of the factory, that importers can request confidentiality under 19 CFR 103.31, and that no CBP safe-harbor exists for third-party dossiers.",
+ "evidence_of_demand": "Only indirect evidence, and the WebSearch budget (200/200) was exhausted before I could look for direct evidence such as forum complaints, RFPs, or news on the claimed August 2026 White House transshipment report and 40% penalty tariff. Those regulatory claims come from the idea file and are UNVERIFIED by me. Indirect signals. (1) SMBs already pay for shipment-record data marketed for supplier verification: ImportGenius charges $229-449/mo publicly (https://www.importgenius.com/pricing; use cases at https://www.importgenius.com). (2) The government buys this kind of capability: Sayari reports $7.8M from CBP and $8.5M from Treasury, and raised $228M from TPG (https://www.sayari.com). (3) Tradeverifyd lists CBP as a partner (https://www.tradeverifyd.com). (4) Small brands pay for managed factory vetting: Sourcify serves 200+ brands (https://www.sourcify.com). (5) Physical audits are an established spend line at QIMA (https://www.qima.com). Direct demand for a $150-400 dossier or a $600-1,200/yr factory credential: none found.",
+ "kill": false,
+ "kill_reason": "n/a. No single incumbent owns the SMB reasonable-care dossier wedge, but the space is close to crowded on the data and enterprise sides. This verdict is provisional: the research was limited by an exhausted search budget, and several sites (Altana, ImportYeti) could not be read.",
+ "sharper_angle": "Drop the two-sided factory-credential marketplace at the start and do not compete on data. Sell a broker-distributed, human-reviewed 'reasonable care file' at $250-400 per supplier, delivered as a PDF that maps evidence to CBP's reasonable-care expectations for a specific HTS line and origin claim. Build it around one or two high-risk categories on the Vietnam, Mexico, India and Turkey lanes. The differentiators are: (1) a named-analyst sign-off and a documented methodology, since a human-verified file is worth more than a raw-data dashboard; (2) combining US import rows with destination-side evidence (Vietnam and India export data, registry and address checks, capacity-versus-volume analysis, and a QIMA-style inspector visit) so the file does not rely only on US bill-of-lading rows, which often name forwarders; (3) distribution through customs brokers and trade-compliance counsel, who need something to hand an importer when a CBP request for information (CF-28) or a penalty inquiry arrives. Offer a free tier of 'supplier red-flag check' to get factories to claim profiles later, and add the factory-paid credential only once 50+ importers ask for it. Before building, do three things: confirm the data-licensing terms for bill-of-lading redistribution, run 20 broker interviews on whether they would put this file in front of CBP, and check whether ImportGenius or Trademo already ship a 'transshipment risk report'. If a broker says they cannot use it in a CF-28 response, the compliance-product premise fails and this collapses into a data reseller competing with ImportGenius and free ImportYeti. Kill it then."
+}

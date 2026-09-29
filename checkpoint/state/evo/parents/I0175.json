@@ -1,0 +1,78 @@
+{
+ "title": "Evac Cash: Payout When Ordered to Evacuate",
+ "angle": "1",
+ "one_liner": "A few dollars a month buys a $500-$2,500 wire within hours of an official mandatory evacuation order for your address, covering hurricane, wildfire and burn-scar flood orders.",
+ "customer": "Renters and lower-to-middle-income homeowners in evacuation zones: Gulf and Florida surge zones, Western wildfire-urban-interface neighborhoods, and LA burn-scar areas. Sold to individuals, through employers of hourly staff (hospitals, hotels, nursing homes, grocers), and through credit unions or municipal 'evac funds'.",
+ "problem": "Evacuating costs $1,000-$3,000 (gas, hotel, lost shifts, pet boarding) and the money is needed before any claim exists. Cost is a common reason people stay, so the people most exposed are least able to leave. Civil-authority and additional-living-expense cover is slow, receipt-based, often conditional on nearby damage, and many renters lack it.",
+ "solution": "A parametric contract whose trigger is a legal act. If your geocoded address sits inside a polygon under a mandatory evacuation order, or an NWS flash-flood emergency for a burn scar, the platform pays via FedNow/RTP or a push-to-card within hours. Zone data comes from county emergency-management systems (evacuation-zone platforms and state zone maps). Tiers are priced by zone frequency, with one payout per event per address and a simple app that alerts you and shows your zone. Underwritten via a licensed MGA and fronting carrier, first as employer group policies.",
+ "why_now": "Address-level, machine-readable evacuation zones are now common. FedNow/RTP make hours-not-weeks payouts cheap. The LA fires of January 2025 made burn-scar exposure vivid, and NOAA CPC/IRI's September 2026 outlooks show a greater than 90% chance of a very strong El Ni\u00f1o this winter, which means heavy rain on fresh burn scars and flash-flood/debris-flow evacuation orders. Parametric reinsurance capacity is plentiful and MGAs want small-ticket distribution.",
+ "revenue_model": "Premium of roughly $3-$15 per month depending on how often each zone is ordered out (about 1.3-1.5x expected payout), or $1-$3 per employee per month on group plans. The company keeps an MGA commission of 15-25%, plus municipal, nonprofit and employer-funded policies for vulnerable residents. Later it can sell zone-frequency data to emergency managers.",
+ "non_obvious_insight": "The best parametric trigger is a legal act, not a physical measurement. An evacuation order is binary, public, address-specific and timestamped, so basis risk nearly vanishes. Paying people to leave also changes behavior and saves lives, which makes employers and governments willing co-payers, so the product has two buyers instead of one.",
+ "first_30_days": "Sign a parametric MGA and fronting carrier. Build the polygon match and instant-payout flow on public evacuation-zone data. Pilot a group policy for about 200 hourly workers at one Gulf hospital or hotel employer and one credit union serving a LA burn-scar community. Offer emergency-management agencies a free 'what zone am I in' tool for distribution. Goal: 500 covered addresses before peak rain season.",
+ "outside_box_score": 7,
+ "source": "wild:g31+g32",
+ "kind": "wild",
+ "id": "I0175",
+ "tournament": {
+  "score": 0.642,
+  "overall_rank": 468,
+  "cluster": "Fast parametric cash for weather and disaster shocks",
+  "judge_notes": [
+   "contrarian: rank 3/25 - Legal-act trigger nearly eliminates basis risk; employers and governments co-pay. Regulatory drag is the main risk.",
+   "vc: rank 8/25 - Legal-act trigger removes basis risk and has two payers, but parametric microinsurance is slow and needs an MGA.",
+   "operator: rank 21/25 - Legal-act trigger is clever, but insurance licensing and consumer CAC on $3-15/month premiums are punishing."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "Arbol",
+    "url": "https://www.arbol.io/",
+    "what_they_do": "Parametric climate-risk insurance and derivatives with objective data triggers. Fetched this session: it lists wildfire coverage and says 'Payment issued in as little as 2 weeks after data verification'. Its clients are farmers, corporates and banks. I found no consumer product and no evacuation-order trigger.",
+    "scale_or_funding": "Venture-backed climate-risk platform. Funding amounts were not verified this session.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "FEMA Individuals and Households Program (Serious Needs / Displacement Assistance)",
+    "url": "https://www.fema.gov/assistance/individual/program",
+    "what_they_do": "Federal cash and services for uninsured or under-insured disaster-caused 'serious needs'. Fetched this session: the page confirms the program pays for 'uninsured or under-insured necessary expenses and serious needs'. From memory, and not verified here, it has flat-rate serious-needs and displacement payments. It needs a federal declaration and an application, and it pays after the event, not on a legal evacuation order for your address. It is the free substitute a buyer would compare against.",
+    "scale_or_funding": "Federal program funded through the Disaster Relief Fund.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Homeowners and renters ALE / civil-authority coverage (State Farm, Assurant, Lemonade and other carriers)",
+    "url": "https://www.assurant.com/",
+    "what_they_do": "Incumbent carriers pay additional living expenses and civil-authority costs, usually receipt-based, sometimes conditional on nearby damage, and many renters lack the cover. This is the same competitor set the idea's problem statement names. Product details for these carriers were not verified this session (the iii.org page I tried returned 404). The URL is a representative carrier home page, not a product page. The main incumbent-feature risk is a renters insurer adding a flat 'evacuation expense' rider.",
+    "scale_or_funding": "Very large incumbent carriers, so an add-on rider is cheap for them to launch.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Jumpstart (parametric earthquake, California)",
+    "url": "https://www.jumpstartrecovery.com/",
+    "what_they_do": "From memory, not verified: fast-payout parametric earthquake cover for California homeowners and renters, using a physical shaking trigger. The domain redirected during this session to jumpstartinsurance.com and then to neptuneflood.com. I could not read any product page, and I cannot confirm that Jumpstart has a wildfire or evacuation product. It is the closest small-ticket parametric consumer product to this idea.",
+    "scale_or_funding": "Unverified.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Blink Parametric",
+    "url": "https://blinkparametric.com/",
+    "what_they_do": "From memory, not verified: parametric payouts for hurricane, flood and wind through B2B and B2B2C channels. The site returned an empty page this session. Its trigger is a physical wind or flood measurement, not a legal order.",
+    "scale_or_funding": "Unverified.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "GiveDirectly (emergency cash)",
+    "url": "https://www.givedirectly.org/",
+    "what_they_do": "Nonprofit direct cash to disaster survivors. Fetched this session: the site says 'cash to survivors of international crises or climate disasters'. It is reactive and donor-funded, and the fetched page showed no US pre-disaster or evacuation-order program. It is a nonprofit analogue and a possible distribution or funding partner, not an insurer.",
+    "scale_or_funding": "Large global nonprofit. Scale was not verified this session.",
+    "overlap": "adjacent"
+   }
+  ],
+  "white_space": "Verification is incomplete, so treat this as a provisional gap verdict, not a confirmed one. I found no product that pays a flat cash amount to an individual within hours because a mandatory evacuation order covers their address. Every adjacent player triggers on something else. Parametric platforms use physical measurements. FEMA and GiveDirectly pay after the event and need an application or a declaration. Homeowners and renters ALE and civil-authority cover is receipt-based. The unserved wedge is the legal-act trigger, paid out as a flat amount before the trip, to renters and hourly workers, funded by someone other than the individual (county or state emergency management, Medicaid and Medicare Advantage plans, landlords or property managers, credit unions, philanthropy). That funder-pays model is the specific space I found nobody in. Main risks: a carrier could add a flat 'evacuation expense' rider to renters policies, and evacuation-zone data is held by vendors and counties, some under licensing terms that were not checked.",
+  "evidence_of_demand": "Weak, and mostly unverified because the WebSearch budget (200 of 200) ran out before any of my searches ran. What I did verify by fetch: the Wikipedia hurricane-evacuation article says residents may decide against evacuating because of 'the monetary cost of evacuation' (https://en.wikipedia.org/wiki/Hurricane_evacuation), and it cites no data or programs. The FEMA IHP page (https://www.fema.gov/assistance/individual/program) confirms that a federal cash program for uninsured 'serious needs' exists. That shows the need is recognised, but it is not evidence that individuals will pay $3-15 a month. From memory, and not verified: research on evacuation compliance repeatedly names cost and transportation as barriers, and California has moved to require faster advance payments of living-expense benefits after the January 2025 fires. Still to be checked: RFPs from county emergency-management agencies, Medicaid or Medicare Advantage disaster-transportation spend, employer disaster-relief funds, and any carrier filings for an evacuation-expense rider. The search budget needs to be raised to run those.",
+  "kill": false,
+  "kill_reason": "n/a",
+  "sharper_angle": "Do not sell it to renters at $3-15 a month. Consumer micro-insurance has high customer-acquisition cost and heavy adverse selection: people buy when a named storm forms, and the El Nino burn-scar pitch is the moment risk is already known and hardest to price. The employer route also has a conflict. Hospitals, nursing homes and hotels often need essential staff to stay through an evacuation, so they will not want to pay staff to leave. The sharper version is an 'evacuation stipend' sold to funders that benefit from compliance and pay with pooled budgets. Buyers would be county and state emergency-management agencies, Medicaid managed-care and Medicare Advantage plans (for oxygen, dialysis or mobility-dependent members), landlords and property managers, and credit unions. The parametric contract turns an uncertain disaster budget into a fixed, pre-funded, per-address cash disbursement paid the moment an order posts, with a waiting period and a named-storm blackout to control adverse selection. Start with one hurricane-zone county or Medicaid plan, and offer it later as an embedded rider through renters carriers. The moat is the order-timestamp-to-payout pipeline plus licensed evacuation-zone data and compliance analytics, not the insurance wrapper. Before building, rerun the missing searches: Crunchbase and YC for 'evacuation' and 'parametric', carrier rider filings, and county RFPs."
+ }
+}

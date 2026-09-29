@@ -1,0 +1,84 @@
+{
+ "title": "Contingency Recovery of Unpaid Implant Carve-Outs",
+ "one_liner": "Find and collect the implant and device carve-out payments that hospitals and surgery centers are owed but never bill, because the invoice lives in accounts payable and not in the billing office.",
+ "customer": "Physician-owned spine and orthopedic ASCs, plus small and mid-size hospital ortho/spine/cardiac service lines, with commercial payer contracts that carve out implants. Paid 20-30% of recovered dollars.",
+ "problem": "Many commercial contracts pay implants and high-cost devices separately, at invoice cost plus a markup, but only if the vendor invoice is submitted with the claim. The implant log is in the OR record, the invoice is in supply chain or AP, and the claim is built by billing. Nobody connects them. The claim goes out with L8699 or revenue code 027x lines at billed charges, and the payer pays $0 for the device or folds it into the case rate. The payment posts as 'paid', so nobody notices the loss. This is $5k-$50k per case for spine and joint work.",
+ "solution": "Ingest the implant log (manufacturer, catalog and lot numbers), AP invoice PDFs (parsed with an LLM), contract carve-out terms extracted from the PDFs, and the 837/835 files. Compute expected carve-out payment versus actual, auto-assemble invoice attachments per payer rules, and file corrected claims and appeals inside timely-filing windows. Run it as a service for the first clients (manual, coder-led), then automate the matching.",
+ "why_now": "CMS's CY2026 outpatient rule began phasing out the inpatient-only list and added many procedures, mostly musculoskeletal, to the ASC-covered list. More device-heavy spine and ortho cases are moving to ASCs whose small billing staffs have never dealt with carve-outs. Payers are also using AI-driven payment integrity that makes missing attachments an automatic zero.",
+ "revenue_model": "20-30% contingency on recovered carve-out payments. After the first recovery, convert to $1.5-4k/month prospective monitoring per facility.",
+ "non_obvious_insight": "The loss is invisible in every standard revenue-cycle KPI. Denial rate looks fine and AR looks fine because the line paid 'as billed under the case rate'. The only way to see it is to lay the supply chain invoice next to the contract term next to the 835. Billers know it happens. Supply chain does not know payers pay for it. Finance never audits it. That gap between three departments is the earned secret.",
+ "first_30_days": "Pick 10 physician-owned spine and ortho ASCs through ASCA chapters and surgeon-owner LinkedIn outreach. Offer a free 90-day lookback audit, since contingency means zero risk to them. Each needs to share 835s, implant logs, invoices and the top three commercial contracts. Do the first three audits by hand with a coder and a spreadsheet, and use the dollars found as the sales collateral. Then automate the invoice parsing.",
+ "outside_box_score": 4,
+ "source": "persona:p1-3",
+ "kind": "persona",
+ "id": "I0708",
+ "tournament": {
+  "score": 1.016,
+  "overall_rank": 17,
+  "cluster": "Provider revenue leaks and payer denials",
+  "judge_notes": [
+   "contrarian: rank 1/24 - Invisible three-department gap, zero-risk contingency, manual-first, CMS 2026 ASC shift; fastest path to paying customers.",
+   "vc: rank 2/25 - Contingency-priced, invisible-to-KPI leak worth $5-50k per case; fastest path to real dollars and proof.",
+   "operator: rank 1/25 - Contingency, zero-risk pitch, hidden cash, reachable ASC owners, manual-first delivery. Textbook bootstrapped wedge with fast first revenue."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "Aspirion (ContractIQ, payment variance recovery)",
+    "url": "https://www.aspirion.com/payment-variance-recovery",
+    "what_they_do": "Contingency-fee ('we only succeed when you do') recovery of underpayments, denials, out-of-network and complex claims. ContractIQ models payer contracts to find underpayments. Their variance-recovery page mentions zero-balance reviews and incorrect contract rates, but nothing about implant or device carve-outs, invoice assembly, or ASCs. This is the most likely incumbent to add the feature, since it already has the contingency model, contract modeling and appeals machinery.",
+    "scale_or_funding": "Claims $6B+ in client recoveries; funding not stated on the pages fetched",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "FinThrive (Contract Manager, A/R Optimizer, Revenue Integrity)",
+    "url": "https://www.finthrive.com",
+    "what_they_do": "Large enterprise RCM platform (formerly MedAssets) with contract modeling and underpayment identification for hospitals. The homepage has no implant-specific carve-out, invoice-matching or charge-capture offering. Sold as software to health systems, not as a contingency service for ASCs.",
+    "scale_or_funding": "Large private company; funding not on the page fetched",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Sift Healthcare (RevProtect)",
+    "url": "https://www.sifthealthcare.com",
+    "what_they_do": "AI payments-intelligence platform that predicts underpayments, DRG downgrades and denials from clinical and payment data. No mention of implants, carve-outs or contract modeling on the page. Aimed at health systems, not physician-owned ASCs.",
+    "scale_or_funding": "Says it is deployed at 88 health systems; funding not disclosed on the page",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Waystar (Claim Attachments, Denial Recovery, Recoupment Manager)",
+    "url": "https://www.waystar.com/",
+    "what_they_do": "Claims platform with a claim attachments feature that could carry implant invoices, plus denial and recoupment recovery. No implant-specific carve-out identification found. A plausible incumbent that could bolt on invoice attachment logic.",
+    "scale_or_funding": "Public, large-scale RCM vendor",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "SIS / Surgical Notes (SIS Complete, ASC billing and coding)",
+    "url": "https://www.sisfirst.com/",
+    "what_they_do": "ASC software plus tech-enabled billing and coding service (surgicalnotes.com redirects here). Highlights contract loading, denial management and A/R follow-up for ASCs. No explicit implant carve-out recovery product on the site. As an ASC billing vendor it probably handles implant invoices in routine billing, so it is a possible channel or competitor.",
+    "scale_or_funding": "25+ years in ASC software; 2,000+ physicians on SIS Complete; funding not stated",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "MDaudit",
+    "url": "https://www.mdaudit.com/",
+    "what_they_do": "Billing compliance and revenue integrity analytics (pre-bill coding review, denial prediction, audit management). No implant carve-out functionality found.",
+    "scale_or_funding": "Not stated on the page fetched",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "HST Pathways (ASC EHR/billing/inventory)",
+    "url": "https://www.hstpathways.com",
+    "what_they_do": "ASC practice-management platform with billing and inventory modules. The homepage has no implant carve-out billing or invoice-matching feature. It holds the implant and inventory data the idea needs, so it could be a data source or a competitor.",
+    "scale_or_funding": "Not stated on the page fetched",
+    "overlap": "adjacent"
+   }
+  ],
+  "white_space": "Caveat on confidence: the WebSearch budget was exhausted (200/200) before any of my searches ran, so the competitor check is thinner than requested. It rests on direct fetches of about 15 vendor and trade-publication pages plus Becker's ASC on-site search result pages. The Becker's article bodies returned 403. Crunchbase, Reddit and Product Hunt were not reachable. I found no dedicated competitor doing what this idea describes, and I could not check the many small RCM and consulting shops that a live web search would surface. I also could not confirm Cloudmed/R1 or Experian Contract Manager features (the R1 URL 404'd). Both are plausible incumbents with contract modeling.\\n\\nWhat looks unserved, and is specific: (1) a contingency service focused only on the implant/device carve-out. It would join the OR implant log (manufacturer, catalog and lot numbers) to the AP vendor invoice, then to the payer contract carve-out clause, then to the 835 line. None of the general underpayment vendors above advertise this. (2) The buyer is the physician-owned spine/ortho ASC. Enterprise tools like Sift, FinThrive and Aspirion are aimed at health systems. (3) The claim-side fix is assembling the invoice attachment per payer rules and filing a corrected claim inside timely-filing limits. General contract-modeling tools mostly stop at flagging a variance.\\n\\nRisks to the premise:\\n- 'Nobody connects them' is overstated. Becker's ran 'ASC Implant Carve-Outs: Opportunities, Challenges & 4 Best Practices' in 2014, so ASC operators know carve-outs exist (https://www.beckersasc.com/asc-coding-billing-and-collections/asc-implant-carve-outs-opportunities-challenges-4-best-practices/). ASC-specialist billers such as SIS/Surgical Notes, National Medical Billing Services and Nimble probably submit implant invoices as routine, so the addressable leakage may sit mostly in ASCs with weak or outsourced generalist billing.\\n- Any player with a contingency model and payer-contract modeling could add this quickly. Aspirion's ContractIQ is the most obvious.\\n- Medicare does not carve out implants in the ASC setting, so this is a commercial-contract play only. Each payer contract must be read individually, which limits how far it scales.\\n- I could not verify the CY2026 IPO-list phase-out and ASC list additions cited in the idea's why-now. CMS's page confirms only that a CY2026 ASC final rule (CMS-1834-FC) exists.",
+  "evidence_of_demand": "Indirect only. I found no direct evidence (forum complaints, RFPs or pricing pages) that ASCs pay a third party to recover unbilled implant carve-outs.\\n\\nSupportive signals from Becker's ASC, snippets only because the article bodies returned 403:\\n- 'ASCs' implant cost problem' (Mar 12, 2026): 'For many ASCs, implants have become a difficult expense to manage, often requiring large upfront payments while reimbursement remains inconsistent.' https://www.beckersasc.com/asc-coding-billing-and-collections/ascs-implant-cost-problem/\\n- 'The burden of implant costs: 10 things ASCs need to know' (Feb 12, 2025): 'High costs of surgical implants have been identified as a profitability-killer for ASCs.' https://www.beckersasc.com/asc-coding-billing-and-collections/the-burden-of-implant-costs-10-things-ascs-need-to-know/\\n- 'The payer terms ASCs can't miss' (Jul 2026): 'payer talks this year came down to fine print, implant costs and case-level cost data.' https://www.beckersasc.com/asc-coding-billing-and-collections/the-payer-terms-ascs-cant-miss/\\n- Nimble Solutions sponsored content: 'ASCs face heightened revenue and cash flow risk... particularly with implant-and device heavy procedures.' https://www.beckersasc.com/asc-transactions-and-valuation-issues/unlocking-cash-flow-3-proven-ar-strategies-every-asc-needs/\\n- Becker's search for 'implant carve-out' returns 219 results and 'implant billing vendor' returns 187, so the topic is heavily covered.\\n\\nThere is also existing spend on adjacent contingency recovery: Aspirion reports $6B+ in client recoveries and sells on a contingency model (https://www.aspirion.com). That shows buyers accept contingency recovery in general, not for this niche.\\n\\nThe other demand evidence, that unbilled carve-outs are large and invisible, comes only from the idea file and is unverified. It needs the free 90-day lookback audits to prove.",
+  "kill": false,
+  "kill_reason": "n/a",
+  "sharper_angle": "Don't pitch 'revenue cycle recovery'. Pitch a narrow implant-to-cash reconciliation for spine and ortho ASCs, sold as a contingency lookback that turns into a prospective pre-bill check.\\n\\n1. Start with the join no one else does: OR implant log (lot and catalog numbers) to vendor invoice to payer carve-out clause to 835 line. Compute an expected carve-out payment per case, at invoice cost plus the contract's markup.\\n2. Run the first 5-10 audits by hand with a coder, on payers whose contracts explicitly carve out implants. That yields a real dollar figure per case as sales proof.\\n3. Sell it to the ASC's surgeon-owners and administrator, not to health-system finance, since that is where the enterprise tools don't sell. Go through ASCA chapters and ASC management companies.\\n4. Make the durable product a pre-bill gate. Before the claim goes out, it checks that the invoice is attached and that the L8699 or 027x line is coded to trigger the carve-out. Contingency recovery is the wedge and prospective monitoring is the recurring revenue.\\n5. Build channel deals with the ASC billing vendors and ASC software vendors (SIS, HST, Nimble). Offer them a white-label carve-out audit rather than competing head-on.\\n\\nBefore building, run the 3-5 free lookbacks to test whether the leakage is real. If ASC-specialist billers already capture most carve-outs, the market shrinks to poorly billed ASCs and small hospitals. Then re-run the competitor check with live WebSearch (Cloudmed/R1, Experian, small implant-billing consultancies, YC and Crunchbase), which this pass could not do."
+ }
+}

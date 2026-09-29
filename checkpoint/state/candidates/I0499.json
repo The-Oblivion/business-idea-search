@@ -1,0 +1,15 @@
+{
+ "title": "Bridge Loans for Medicare Drug-Price Refunds",
+ "one_liner": "Fund the 3-4 week float independent pharmacies now carry on Medicare's negotiated-price drugs, underwritten on predictable refund data, before Ozempic joins the list in January.",
+ "customer": "Independent pharmacies with senior-heavy books, especially those serving long-term care, then 5-50 store groups and PSAOs. Average exposure is estimated at over $27,000 a month per community pharmacy.",
+ "problem": "Since January 1, 2026, pharmacies pay wholesalers full price for Eliquis, Jardiance, Xarelto, Farxiga, Januvia, Entresto and others, dispense at Medicare's Maximum Fair Price, and wait weeks for the difference to arrive through the Medicare Transaction Facilitator. Estimates put the float at $27k+ a month for the average community pharmacy, over $500M a month industry-wide, on top of wholesalers who still auto-debit weekly. On thin margins that is a real solvency risk. Banks see a pharmacy, not an insured refund.",
+ "solution": "Start with a reconciliation tool that ingests the pharmacy's PMS claims export and the MTF remittance files and shows late or missing refunds. Then offer a non-recourse advance of about 90% of the expected refund on each week's MFP claims, repaid from the actual MTF payment through a controlled deposit account or sweep. Confirm with CMS and the facilitator what payment-routing options exist, and fall back to a bank-account sweep if third-party routing is not allowed.",
+ "why_now": "The program only became real on January 1, 2026, and it is already causing cash-flow warnings from pharmacy coalitions. On January 1, 2027, 15 more drugs join, including semaglutide (Ozempic, Wegovy, Rybelsus), which multiplies the float. Wholesalers have not yet solved it and the bank market does not understand it, so there is a window of a few quarters before someone standardizes the answer.",
+ "revenue_model": "A fee of about 1-1.75% per advance cycle, which works out to roughly 15-25% annualized, plus a $99 a month reconciliation subscription. Contingency of about 10% on missing refunds recovered. Later, sell or syndicate the receivables to a credit fund.",
+ "non_obvious_insight": "To a bank this looks like distress lending to a struggling small business. In reality it is close to prime paper: the obligor is a drug manufacturer with a statutory duty to pay, routed through a federal facilitator, backed by claim-level data. Only someone who knows how PMS claims map to MFP eligibility, and how a reversal or dispute can claw a refund back, can underwrite it. The free reconciliation report is the wedge that gets the data before any money goes out.",
+ "first_30_days": "Offer a free 'find my missing refunds' report to 25 pharmacies through state association newsletters and pharmacy owner Facebook groups. Line up a $500k credit line from a regional bank or family office and keep the first ten advances small. Talk to a fintech attorney about commercial-financing disclosure laws by state. Approach one PSAO about distribution.",
+ "outside_box_score": 5,
+ "source": "persona:p2-5",
+ "kind": "persona",
+ "id": "I0499"
+}

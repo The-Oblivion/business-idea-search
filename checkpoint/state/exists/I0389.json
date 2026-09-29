@@ -1,0 +1,73 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "VMG Health (Compliance Risk Analyzer + AI Governance and Targeted Coding Audits)",
+   "url": "https://vmghealth.com/software-analytics/compliance-risk-analyzer/",
+   "what_they_do": "Closest existing offer. Claims-based analytics benchmark providers against specialty peer cohorts using millions of claims, flag high-risk providers and over/undercoding, and include chart review and reporting tools. A separate VMG article (https://vmghealth.com/insights/blog/ai-in-claims-auditing-defensibility-starts-with-governance/) advertises AI governance advisory and auditor-led audits that 'evaluate AI-assisted workflows, validate coding accuracy'. Neither page mentions ambient scribes or E/M drift by name; the pitch is generic AI-assisted coding. This is the most likely incumbent to add a scribe-specific SKU.",
+   "scale_or_funding": "Established healthcare valuation/compliance consultancy and software vendor. HITRUST r2 certified. Funding and revenue not found.",
+   "overlap": "direct"
+  },
+  {
+   "name": "MDaudit",
+   "url": "https://mdaudit.com/",
+   "what_they_do": "Billing-compliance and revenue-integrity platform: audit workflows, continuous risk monitoring and anomaly detection, provider risk analytics, pre-bill audits, an AI-powered 'Auditor Assist', and payer audit management. It has published guidance on auditing autonomous coding (https://mdaudit.com/blog/beyond-the-audit-how-billing-compliance-is-redefining-revenue-integrity/). The pages I read showed no ambient-scribe-specific or E/M-drift product. It already sits in the compliance officer's workflow at academic systems (U Chicago Medicine, Rutgers Health, Temple Health, US Oncology).",
+   "scale_or_funding": "Site claims data from over 1.2M providers and thousands of facilities. Funding and ownership not found.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Healthicity (Audit Manager, Compliance Manager, E/M Analyzer/Utilization Benchmarking tool)",
+   "url": "https://www.healthicity.com/resources",
+   "what_they_do": "Audit software 'designed by auditors, for auditors', a compliance suite, and an E/M utilization benchmarking tool. That tool overlaps the peer-benchmark step of the idea. I found no AI-scribe-specific audit offering, only a general AI compliance webinar.",
+   "scale_or_funding": "Established compliance and audit software vendor. Funding not found.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Ambience Healthcare (scribe vendor with coding)",
+   "url": "https://www.ambiencehealthcare.com/",
+   "what_they_do": "Ambient scribe that outputs ICD-10, HCC and E&M levels. It claims 95% coding compliance 'verified by AAPC' and 'revenue that holds up to audit', and cites its own governance and telemetry. This is self-audit, which is the conflict of interest the idea targets, but it is also the incumbent counter-message a buyer will hear.",
+   "scale_or_funding": "Funding not stated on page. Claims deployment at leading health systems (e.g. Ardent Health).",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Abridge (scribe vendor with Revenue Cycle product)",
+   "url": "https://www.abridge.com/",
+   "what_they_do": "Ambient scribe market leader with a Revenue Cycle product ('billable documentation'). It highlights customer wRVU uplift (Riverside Health +14%) and confabulation-detection research. It shows no independent coding-audit or drift-monitoring tool. It is the vendor that creates the problem.",
+   "scale_or_funding": "300+ health systems, 100M+ conversations annually, Best in KLAS 2025-26. Funding not stated on page.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "DeepScribe (automated E/M coding)",
+   "url": "https://www.deepscribe.ai/solutions/ai-coding/e-m",
+   "what_they_do": "Ambient scribe that recommends E/M codes with rationale, MDM capture, time tracking and 'audit-ready documentation'. Vendor-side self-attestation, not independent.",
+   "scale_or_funding": "Not stated on page.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Autonomous coding vendors: Fathom, Arintra, CodaMetrix, Nym",
+   "url": "https://www.arintra.com/",
+   "what_they_do": "AI coding automation with audit trails and explainability. Fathom (https://www.fathomhealth.com/) covers E/M coding for physician groups and is backed by CVS Health Ventures. Arintra automates 82-86% of coding and raised a $25M Series B. CodaMetrix (https://www.codametrix.com/) offers touchless coding with a coding-quality council. They audit their own output and do not independently check what scribe-generated notes support. They are relevant because they could bolt on a drift-audit module or because a buyer may consider them a substitute.",
+   "scale_or_funding": "Fathom: 63M+ encounters, 5,000+ providers, CVS Health Ventures investment. Arintra: $25M Series B. CodaMetrix and Nym: not verified (Nym page did not load).",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Trilliant Health (research and analytics)",
+   "url": "https://www.trillianthealth.com/market-research/studies/outpatient-coding-intensity-increases-as-hospitals-adopt-ai-enabled-scribing",
+   "what_they_do": "Published the six-system claims study behind the idea's key statistic (99204-5 share up 12-20 points, 99214-5 up 7-12 points). It sells market analytics ('Oria' AI Strategist), not a scribe-coding audit. Its authors note the shift may reflect enhanced rules-based documentation rather than overcoding. It could productize a benchmark, but I found no sign it has.",
+   "scale_or_funding": "Private healthcare analytics firm. Funding not found.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Payer-side: BCBSA / Blue Health Intelligence and payer AI downcoding programs",
+   "url": "https://acdis.org/articles/news-ai-scribes-indicate-shift-coding-intensity-and-reimbursement-new-research-finds",
+   "what_they_do": "The counterparty. BCBSA and Blue Health Intelligence use claims data to identify upcoding trends and audit outlier hospitals, and say they will 'establish clear expectations for hospitals using AI tools'. Not a competitor, but they define what an audit memo must survive, and their analytics are the reference model for the diagnostic.",
+   "scale_or_funding": "BCBSA analyzed 62 million commercial members (per HLTH summary).",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Nobody I found sells a scribe-specific, independent, coder-signed audit product. The gaps are: (1) An explicit before/after go-live drift baseline per provider, benchmarked against specialty peers and other scribe adopters. VMG's Compliance Risk Analyzer and Healthicity's E/M benchmarking do peer outlier analysis but are not framed around scribe go-live cohorts. (2) A review protocol built around what fails audits under the 2021 E/M rules: MDM and time attestations, not HPI/exam bloat. None of the vendor pages I read describe this. (3) An audit memo designed to be handed to a payer, auditor or OIG, plus a payer-downcoding forecast. (4) Independence from the scribe vendor, since Ambience, Abridge and DeepScribe all self-attest coding quality. (5) Scribe-agnostic coverage across a mixed-vendor group. Several legal write-ups recommend exactly the 'post-implementation baseline audit comparing AI-generated coding patterns against prior practice' (https://www.subjecttoinquiry.com/2026/06/ai-assisted-billing-could-create-fca-pitfalls-how-healthcare-companies-can-get-ahead-of-risk/), and none of the articles I read named a vendor that sells it. Caveat: this is a wedge in framing and packaging, not a technology moat. The existing audit firms and platforms (VMG, MDaudit, Healthicity) can run this same claims analysis and coder review, and could rebrand it 'AI scribe audit' within a quarter or two. My search was also incomplete, and startups from 2026 may exist that I did not surface.",
+ "evidence_of_demand": "Strong evidence the problem is real and the risk is rising. Weak-to-none direct evidence that buyers are paying for this specific service. I found no RFPs, pricing pages or customer testimonials. (1) Problem is documented: Trilliant's six-system claims study found high-intensity new-patient share up 12-20 points (e.g. 60.5% to 80.0% at one system) and established up 7-12 points, and its authors say 'the evidence exists to audit the accuracy of the claim' (https://www.trillianthealth.com/market-research/studies/outpatient-coding-intensity-increases-as-hospitals-adopt-ai-enabled-scribing). Caveat: the same study says the shift likely reflects enhanced rules-based documentation, so buyers may dispute that the drift is overcoding. Peer-reviewed policy brief on the 'coding arms race': https://www.nature.com/articles/s41746-025-02272-z. (2) Payers are acting: BCBSA and Blue Health Intelligence found an outlier system where fewer than 20% of postpartum-anemia-coded cases met clinical criteria (about $22M excess spend) and say they will use data to identify upcoding and set expectations for hospitals using AI tools (https://acdis.org/articles/news-ai-scribes-indicate-shift-coding-intensity-and-reimbursement-new-research-finds, https://medwave.io/2026/07/ai-scribes-changing-medical-coding-reimbursement/). That case is inpatient maternity, not E/M. (3) Enforcement climate: DOJ recovered $6.8B in FCA settlements in FY2025, $5.7B of it healthcare, a record 1,297 qui tams, and the DOJ-HHS FCA Working Group prioritizes Medicare Advantage and EHR manipulation (https://www.subjecttoinquiry.com/2026/06/ai-assisted-billing-could-create-fca-pitfalls-how-healthcare-companies-can-get-ahead-of-risk/). Law-firm commentary warns that 'the AI suggested it' is not a defense, and that acceptance rates near 85% with minimal review time can show reckless disregard (https://www.healthlawattorneyblog.com/ai-is-billing-your-patients-who-holds-the-bag-the-rise-of-ambient-billing-and-coding-tools-and-the-legal-minefield-your-practice-is-walking-into/). (4) Existing spend on adjacent workarounds: audit platforms and consultancies already sell to compliance teams (MDaudit, Healthicity, VMG Health), and VMG explicitly advertises AI-governance advisory and auditor-led audits of AI-assisted workflows (https://vmghealth.com/insights/blog/ai-in-claims-auditing-defensibility-starts-with-governance/). Vendors say audit-readiness is a selling point (Ambience: 'AAPC-verified', https://www.ambiencehealthcare.com/). (5) Practitioner guidance advises internal before/after audits and coder review of rollouts (https://medwave.io/2026/07/ai-scribes-changing-medical-coding-reimbursement/, https://www.subjecttoinquiry.com/2026/06/ai-assisted-billing-could-create-fca-pitfalls-how-healthcare-companies-can-get-ahead-of-risk/). Caveats: the TechTarget piece (https://www.techtarget.com/revcyclemanagement/feature/How-AI-scribes-are-shifting-coding-intensity-reimbursement) says it found no documented health systems buying scribe audits or specific payer enforcement against scribing vendors. A KevinMD piece claims CMS recoupments of about $2,400 per provider per month for 'cloned documentation' (https://kevinmd.com/2026/08/why-ambient-ai-scribe-notes-fail-the-2026-cms-audit.html), but I could not corroborate it and treat it as unreliable. I could not verify the OIG General Compliance Program Guidance claim that organizations are expected to audit new billing technology; the PDF fetch failed. I also could not check payer downcoding policy specifics because the AMA PDF was unreadable. My web search budget ran out after 4 searches, so I did not check RFP databases, Reddit/forum complaints, Crunchbase/YC/Product Hunt, or open-source tools.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Do not pitch a generic 'AI scribe audit', which VMG Health, MDaudit or Healthicity can copy quickly. Pitch a narrower, harder-to-copy product: a privileged, scribe-agnostic time-and-MDM verification service. (a) Anchor on objective evidence others do not use. Reconcile each note's total-time statement and MDM narrative against scribe session duration and audio timestamps, EHR access logs, and order and result timestamps. This needs scribe-vendor metadata that a self-auditing vendor will not share and generic auditors do not request. (b) Run engagements through the customer's healthcare counsel so findings are attorney-client privileged. A drift diagnostic creates 'knowledge' under the FCA and can start the 60-day overpayment clock. A non-privileged free diagnostic, as in the first-30-days plan, could hurt the customer. Pair it with an overpayment-refund and repayment workflow, which no scribe vendor or analytics tool offers. (c) Sell an audit-defense file, not a dashboard: coder-signed memos formatted for payer record requests, downcoding appeals and OIG queries. Consider a warranty or partnership with a compliance insurer or law firm. (d) Use the M&A diligence use case (secondary buyer) as the first paid wedge. PE and MSO acquirers of scribe-enabled groups have a one-time, budgeted, time-boxed need and no self-audit alternative. It also avoids the crowded compliance-officer software budget. (e) Build the cross-customer benchmark (scribe vendor x specialty x E/M shift) as the data moat. It is the one asset VMG or MDaudit cannot copy quickly. Before committing, validate three things: whether target compliance officers will pay for an independent audit rather than run the analysis in MDaudit, Healthicity or VMG; whether scribe vendors will provide session-duration metadata; and whether the coder-contractor model can reach the $8-15 per encounter price at acceptable margin."
+}

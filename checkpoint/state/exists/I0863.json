@@ -1,0 +1,80 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "TrueLoad (eTherm Solutions LLC)",
+   "url": "https://trueloadapp.com",
+   "what_they_do": "Self-serve software for electricians, heat pump installers and EV charger installers. Turns utility smart-meter interval data (Green Button style) into an AHJ-ready NEC 220.87 measured-demand report, and also runs the traditional NEC calc. Its site says it does NOT provide engineer stamping, photo-of-panel input or load-management recommendations. Guides on the site target the exact use case in this idea: 'Can a 100-amp panel handle a heat pump?', 'Do I really need a panel upgrade?'. Pricing is $30 per project (first free) or $59/month unlimited.",
+   "scale_or_funding": "Tiny and new. The site repo was created in 2026, no customer counts or case studies, no funding found. Its pricing sets an anchor far below this idea's $79-149.",
+   "overlap": "direct"
+  },
+  {
+   "name": "TradesQuote (rajesh99/tradesquote-website)",
+   "url": "https://tradesquote.com",
+   "what_they_do": "Calculator and content site for trades. I could not load the site (503). GitHub code search shows articles on NEC 220.87, 'Do I need a panel upgrade?', EV charger panel upgrades and NEC 625.42 load management, plus planned calculators: electrical-load-calculator, existing-load-calculator, panel-upgrade-cost-calculator. Looks like SEO plus free or cheap self-serve tools, not a stamped service.",
+   "scale_or_funding": "Unknown. Appears to be a very small solo project.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "PanelWright (open source)",
+   "url": "https://github.com/RadloffBot/panelwright",
+   "what_they_do": "Open-source NEC load calculation and panel schedule builder (220.82/220.55/220.54/220.42/220.61 plus Table 310.16).",
+   "scale_or_funding": "0 stars, created Aug 2026. Shows the raw calculation is trivially reproducible and effectively free.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "SPAN (PowerUp / smart panel)",
+   "url": "https://www.span.io",
+   "what_they_do": "Smart panel with 'PowerUp' load management, which it says lets homes add major appliances with 'no electrical utility upgrade required', saving homeowners $3-20K and 3-9 months of wait. Gives installers SLD/CAD files, a design-support form and a tech portal. It has no standalone load-calc or panel-assessment tool that I could find.",
+   "scale_or_funding": "Well-funded hardware company (funding figures not on the page I fetched). Design support is a free sales tool for it.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Emporia (PowerSmart load management)",
+   "url": "https://www.emporiaenergy.com",
+   "what_they_do": "Pro EV charger with PowerSmart load management, marketed as charging 'using your existing electrical panel' to save thousands in electrical upgrades. Also panel monitoring and peak-demand management.",
+   "scale_or_funding": "Established consumer energy-hardware brand. No load-calc service.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Savant Power",
+   "url": "https://savant.com/power/",
+   "what_they_do": "Modular power/panel system with per-circuit control. It works with existing panels and is marketed as avoiding unnecessary upgrades. No load-calc service found.",
+   "scale_or_funding": "Part of Savant Systems. Hardware vendor, not a services competitor.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "WattMonk",
+   "url": "https://www.wattmonk.com",
+   "what_they_do": "Outsourced solar engineering desk: permit-ready plansets, site surveys, PE stamping, interconnection/PTO. Serves solar installers and EPCs only. Its homepage shows no HVAC, EV-charger or standalone load-calc offering.",
+   "scale_or_funding": "400+ installers supported and 125,000+ projects delivered (its own claims). This is the closest template for the stamped-remote-desk model and could add a heat-pump/EV load-calc SKU easily.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Aurora Solar",
+   "url": "https://aurorasolar.com",
+   "what_they_do": "Solar design software with Instant Plan Sets (under 60 seconds) or a Plan Sets Service (AHJ-ready in 24-48 hours). Lists 'energy optimizations (HVAC, EV Chargers, and more)'. No explicit panel-capacity or NEC 220.87 tool found.",
+   "scale_or_funding": "7,000+ solar organizations and 20M+ projects designed (its own claims). It could bolt on an electrification load-calc feature.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "PermitFlow",
+   "url": "https://www.permitflow.com",
+   "what_they_do": "AI permit-filing automation for home-services contractors across 7,000+ jurisdictions. No load-calc capability found.",
+   "scale_or_funding": "Raised a $54M Series B per its site. Shows VC money in contractor permit workflow, but not this niche.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Qmerit (NOT VERIFIED)",
+   "url": "https://www.qmerit.com",
+   "what_they_do": "From memory only: large EV and electrification installer network with virtual site assessments for OEMs and utilities. Its site returned a bot-check page, so I could not confirm any load-calc or panel-assessment product. This is the highest-risk incumbent to check manually.",
+   "scale_or_funding": "Unverified. Believed to be an established, funded incumbent.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "The market is not empty: TrueLoad already sells software-only NEC 220.87 reports from utility interval data to heat pump and EV installers at $30/project, and the underlying calc is even open-source. The white space is what TrueLoad says it does not do, plus the liability-bearing layer nobody has bundled. (1) A stamped, licensed-professional deliverable. Small HVAC and EV contractors without in-house electricians must take on risk when they self-certify a software report, and WattMonk shows they pay for stamped desk work in solar. (2) Photo-of-panel intake, so installers do not hand-key service details. (3) A cheapest-path recommendation with a compliant load-management spec and bill of materials (NEC 625.42 EVEMS, 750 energy management, 705.13 power control systems), which TrueLoad explicitly lacks and hardware vendors only offer for their own products. (4) Doing the utility interval-data retrieval for the contractor, which is the real friction, since TrueLoad's own guides tell users to request it themselves. (5) HVAC and heat-pump contractors as the buyer, with a pre-check integrated into state or utility programs. Weak points: a $79-149 price against a $30 software anchor needs the stamp and outcome to justify a 3-5x premium; solar desks like WattMonk or Aurora can add this as a SKU; and I could not verify Qmerit or unknown small engineering shops.",
+ "evidence_of_demand": "Thin and mostly indirect. My WebSearch budget (200 calls) was exhausted before I could run forum, Reddit or RFP searches, so demand research is limited to direct page fetches and GitHub code search. No direct evidence found of contractors paying for stamped load-calc desk work in electrification; the closest is WattMonk's outsourced solar permit and PE-stamp model. Indirect signals: (a) SPAN's marketing claims panel-upgrade avoidance saves homeowners $3-20K and 3-9 months (https://www.span.io). (b) Emporia sells a whole EV-charger line on 'no panel upgrade' load management (https://www.emporiaenergy.com). (c) WattMonk reports 400+ installers and 125,000+ projects, so installers do outsource engineering desk work (https://www.wattmonk.com). (d) Aurora sells 24-48 hour plan sets to 7,000+ organizations (https://aurorasolar.com). (e) PermitFlow's $54M Series B shows contractor permit workflow is funded (https://www.permitflow.com). (f) DOE says the IRA HEEHR rebates can fund 'electric wiring and load service center upgrades' (https://www.energy.gov/scep/home-energy-rebates-programs), but the federal 25C credit for panel upgrades expired for property placed in service after Dec 31, 2025 (https://www.irs.gov/credits-deductions/energy-efficient-home-improvement-credit), so this tailwind has weakened. (g) At least two tiny startups or side projects (TrueLoad, TradesQuote) built products and SEO content around 'do I need a panel upgrade' and NEC 220.87, and TrueLoad claims AHJs 'increasingly want a formal calculation' (https://trueloadapp.com/resources/). That is a self-reported and weak signal. The idea's own labor-shortage figures (electrician shortage, 2-month delays) were not independently verified.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Do not sell 'a load calculation'. TrueLoad sells that at $30, PanelWright gives it away, and hardware vendors give design support for free. Sell an insured, stamped 'panel-upgrade-avoidance package' per job. It has four parts. (1) Do the utility interval-data pull for the contractor (Green Button/AMI, or ship a 30-day logger where AMI is missing) instead of asking them to request it. (2) Deliver the stamped NEC 220.87 report. (3) Add a stamped load-management design: a vendor-neutral device recommendation, the NEC 625.42/750/705.13 basis and the bill of materials. (4) Add an AHJ-acceptance layer. Launch in one or two states with AMI-heavy utilities and heat-pump incentives, pre-clear the local AHJs, and go to market through heat-pump distributors, utility or state programs and OEM channels rather than 20 cold-sold contractors. Use outcome-based pricing, such as a low base fee plus a success fee or a subscription only when the upgrade is avoided, to justify the premium over $30 software. Fix a technical flaw in the current pitch: 220.87 needs recorded peak demand (12 months of interval or demand data, or a 30-day recording), so a photo plus monthly utility bills will not suffice. Also verify Qmerit and the solar engineering desks before committing, since WattMonk or Aurora could ship this SKU quickly. Treat TrueLoad as a possible partner or acquisition target rather than only a competitor."
+}

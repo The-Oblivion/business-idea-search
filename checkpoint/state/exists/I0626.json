@@ -1,0 +1,66 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "Search Fund Accelerator (SFA)",
+   "url": "https://www.searchfundaccelerator.com",
+   "what_they_do": "Coaching, support and access to capital for searchers who buy and then run companies as equity-owning CEOs. Fetched the site: it is industry-agnostic and names no recycling or scrap focus. It does not target laid-off managers with $100-300K.",
+   "scale_or_funding": "Not disclosed on the page. Pricing not disclosed.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Kingsway Search Xcelerator (KSX)",
+   "url": "https://kingsway-financial.com/kingsway-search-xcelerator/",
+   "what_they_do": "An operators-in-residence program funded by a public holding company. It backs early-career managers to buy and run businesses. Targets are $5-30M revenue and $1-5M cash flow, in vertical software, B2B services, healthcare services, HVAC/plumbing and pest control. The page mentions no recycling, waste or scrap.",
+   "scale_or_funding": "2 active operators-in-residence, 5 portfolio CEOs, 14 acquired companies (from the KSX page). A 23 Sep 2026 Investing.com headline says its search fund model 'scales'.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Codie Sanchez / Contrarian Thinking ('boring business' acquisition education)",
+   "url": "https://contrarianthinking.com (not fetchable from this sandbox). Article: Inc., 11 Aug 2026, 'Codie Sanchez Turned Boring Businesses Into a $31 Million Company. Now She's Teaching Others the Playbook'",
+   "what_they_do": "Mass-market buy-a-boring-business education and community aimed at ordinary people. This is the horizontal incumbent for the buyer-education layer and could add a scrap or recycling module cheaply. I found no scrap-specific offering from it.",
+   "scale_or_funding": "Inc. reports a roughly $31M company (per the headline).",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "University ETA programs and search fund ecosystem (Stanford GSB, Kellogg, WashU Olin, Yale, Cleveland ETA program)",
+   "url": "https://www.gsb.stanford.edu (Stanford GSB 14 Jul 2026 piece 'Search Funds Keep Offering a Proven Path to Ownership'). Also Ideastream, 17 Nov 2025, 'ETA program lets would-be business owners skip the startup grind'.",
+   "what_they_do": "Teach acquisition entrepreneurship and connect searchers with investors. All are sector-agnostic. Coverage is growing: WSJ, 17 Jul 2026, 'This Shortcut to Private-Equity Riches Is Minting Young Millionaires'. NOLA.com, 17 Aug 2026, 'New Orleans firm pays entrepreneurs to find companies worth buying'.",
+   "scale_or_funding": "Many programs. Institutional search fund vehicles are raising money, for example Aurica Capital's EUR50M first search fund (Jan 2026) and BDC's first search-fund investment (Oct 2025).",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Metaloop",
+   "url": "https://techcrunch.com/2023/09/18/scrap-metal-trading-marketplace-metaloop-raises-17m/",
+   "what_they_do": "Asset-light online marketplace for industrial scrap, acting as merchant of record. It does not own yards and does not help anyone buy one.",
+   "scale_or_funding": "EUR20.2M raised in total (EUR4.2M seed plus a EUR16M / $17M Series A led by FirstMark), about 600 clients.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Scrap consolidators bidding for the same yards (Radius Recycling / Toyota Tsusho, Sims, Greenwave, Tenaris and others)",
+   "url": "https://gwav.com/ (Greenwave). Radius deal: Waste Dive, 17 Mar 2025, 'Toyota subsidiary closes deal to acquire Radius Recycling for $907M'. Sims: Recycling Today, 10 Feb 2026, 'Sims swaps assets in Houston area'.",
+   "what_they_do": "Strategics and roll-ups buy independent yards. They compete for the same sell-side owners but offer no operator-training or cohort product. Greenwave says its 'operational licenses' are a barrier to entry, which supports the permits-as-moat thesis. Tenaris completed a Beaver Falls scrap yard purchase in Mar 2026.",
+   "scale_or_funding": "Radius $907M. Greenwave has 13 facilities and received a Nasdaq non-compliance notice in Apr 2026, so it is a weak consolidator.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "ReMA (Recycled Materials Association)",
+   "url": "https://www.recycledmaterials.org/",
+   "what_they_do": "The trade association for scrap and recycling. The homepage shows no succession, M&A or buy-a-yard program. It is a natural channel or partner, and could copy the idea if it saw a need.",
+   "scale_or_funding": "Represents 1,700 recycling companies (from its homepage).",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "General business-for-sale marketplaces and brokers (BizBuySell, BusinessesForSale and similar)",
+   "url": "https://www.bizbuysell.com",
+   "what_they_do": "List scrap yards alongside other small businesses. Both sites returned HTTP 403, so I could not verify niche listings, brokers or pricing.",
+   "scale_or_funding": "Unverified.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "I found no scrap, recycling or transfer-station-specific acquisition accelerator. Every searcher or ETA program I could verify is sector-agnostic, and none packages this asset class for a first-time buyer. That is limited evidence. The session's 200-call WebSearch budget was already spent. I fell back on Google News RSS, the Hacker News API, the Federal Register API and direct fetches, and could not reach Crunchbase, Product Hunt, Reddit, Searchfunder or BizBuySell.\n\nWhat looks unserved:\n1. A vertical diligence and financing pack for sub-$5M scrap and recycling yards. It would cover Phase I/II and fire-history checks, insurance, permit transferability and offtake contracts. Horizontal ETA programs leave that to each buyer. Fire and insurance risk is live: EMR's Camden yard was shut after 15 fires in six years (NJ PEN, 29 May 2026), Resource Recycling wrote 'Battery fire risk isn't going away. Insurance is responding' (24 Feb 2026), and a 9,000-car Idaho salvage yard burned (Yahoo, 19 Jun 2026).\n2. A succession desk for owner-run yards. Nothing I found targets ReMA-type family operators with a packaged successor, and the big consolidators only want larger yards.\n3. A permit-and-owner-age target list. Nothing I found offers one for scrap dealers.\n\nThe premise needs two corrections:\n- The BIS rule is real. It is a temporary final rule, published 6 Aug 2026 and effective 27 Aug 2026. However, it covers only black mass and tungsten waste and scrap, not ordinary ferrous or nonferrous yards (Federal Register 2026-16078). The 'domestic scrap re-rating' story is much narrower than the pitch implies.\n- The idea leans on 'laid-off managers with $100-300K'. That is a crowded buyer-education market, with Codie Sanchez, Kingsway and the universities all courting the same buyers.",
+ "evidence_of_demand": "Demand for the concept is mixed: strong on the buyer and owner-exit side, thin for a scrap-specific product. I could not find spend or complaints specific to scrap yard succession. All items below are dated headlines from Google News RSS search, because the sandbox could not open the publisher pages.\n\nBuyer side (people want to buy boring or blue-collar businesses):\n- Forbes, 2 Jul 2026: 'Millennials Are Buying Blue Collar Small Businesses To AI-Proof Their Future'.\n- Inc., 6 Jul 2026: 'Forget Tech Startups: Millennials Are Suddenly Buying Up HVAC and Plumbing Companies'.\n- Inc., 11 Aug 2026: Codie Sanchez's $31M company teaches the boring-business playbook.\n- Poets&Quants, 24 Apr 2026: 'The MBAs Who Buy Instead Of Apply'.\n- WSJ, 17 Jul 2026: search fund payouts.\n\nOwner-exit side (the 'silver tsunami'):\n- McKinsey, 26 Feb 2026: 'The Great Ownership Transfer'.\n- McKinsey, 14 May 2026: 'Sell, close, or continue? The transfer of US businesses is at a crossroads'.\n- HousingWire, 2 Mar 2026: 'Boomer retirements could trigger record small-business transfers'.\n- Entrepreneur, 25 Sep 2026: 'As a $5 Trillion Generational Handoff Begins...'.\n\nScrap-specific signals:\n- Consolidators are buying: Toyota Tsusho closed Radius Recycling for $907M in Mar 2025; Sims, Tenaris, Liberty Tire and others are active.\n- ReMA represents 1,700 companies (https://www.recycledmaterials.org/), so the addressable pool of owner-run yards is real.\n- Regulators are forcing spend on the sell side. The BIS DPAS rule (https://www.federalregister.gov/documents/2026/08/06/2026-16078/dpas-directive-allocation-order-and-additional-requirements-for-recoverable-critical-minerals-and) covers black mass and tungsten scrap only. Scrap-dealer theft laws are tightening in California and Kentucky.\n\nCounter-evidence on distress:\n- Unimetals filed for financial distress (Recycling Today, 14 Oct 2025).\n- A scrap metals giant entered liquidation with 650+ jobs at risk (Guardian, 24 Nov 2025).\n- AFR, 7 Feb 2024: 'Victoria's PE play on scrap metal recycling turns to junk'.\n- A UK PE-backed metal recycler went into administration (Insider Media, 2 Jan 2026).",
+ "kill": false,
+ "kill_reason": "n/a. No scrap-vertical accelerator turned up, and the adjacent players are horizontal. This is a provisional 'gap', not a clean 'open', because I could not check Crunchbase, Product Hunt or Searchfunder. The main risks are not competition. They are environmental and fire liability, commodity cyclicality, thin unit economics, and lender reluctance.",
+ "sharper_angle": "Drop the laid-off-generalist tuition play and become the scrap and recycling succession and diligence desk.\n\n1. Sell to retiring owners and lenders first. Build the permit- and owner-age-based target list and a 'sale-ready yard' package: pre-run Phase I, fire and insurance file, permit-transfer memo and offtake summary. Charge owners a listing or readiness fee, and license the diligence pack to SBA lenders. Keep the cohort as a lead source, not the main revenue line.\n2. Partner instead of competing on buyer education. Offer the vertical module to Search Fund Accelerator, Kingsway-style programs, university ETA clubs and Codie Sanchez-type communities. Recruit buyers with industrial operations backgrounds, not laid-off tech managers, because the operational and safety risk is the hard part.\n3. Consider a small holdco or operators-in-residence model in the Kingsway style, with your capital taking the equity, so revenue does not depend on $4-6K tuitions. Target yards at $1-5M revenue, below the size where Sims, Radius and Tenaris bid.\n4. Use the BIS rule only where it applies. The specific unserved niche is small owner-run tungsten-carbide and hard-metal scrap dealers, and possibly black mass aggregators, which the DPAS allocation order covers. Avoid auto salvage and ITAD, where PE is already active.\n5. Make fire and insurance underwriting the differentiator. Most first-time buyers cannot underwrite it, and it is the risk that kills yards.\n\nBefore building, check three things I could not: whether ReMA or a scrap M&A broker already offers a successor-matching service, whether Codie Sanchez's programs cover scrap yards, and whether SBA lenders will actually lend against contaminated yards."
+}

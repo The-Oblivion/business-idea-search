@@ -1,0 +1,85 @@
+{
+ "title": "Shared-Aide Pods for 55+ Apartment Buildings",
+ "angle": "contrarian",
+ "one_liner": "One on-site aide team serves 6-10 residents in the same building, delivering assisted-living-style help at a fraction of 1:1 home-care cost.",
+ "customer": "Owners and operators of independent-living and 55+ apartment buildings (market-rate, senior LIHTC and HUD-202 properties). The payers are middle-income residents and their families, who can't afford $75-130k a year and are stuck on waitlists.",
+ "problem": "Home care is sold as one aide per client per hour ($35 an hour, about $80k a year for 44 hours a week) only because of legacy billing. Assisted living is at 90% occupancy with almost no new supply before 2030. Residents who age past independent living either move out or go without.",
+ "solution": "A licensed home-care agency subsidiary (or partnership with one) posts 2-3 aides per shift inside the building. They run scheduled 15-45 minute ADL, medication-reminder, meal-setup and toileting visits, plus overnight response. Dispatch software handles acuity tiers and in-building routing (floors, elevators). Residents buy monthly tiers of about $1,800-3,500, and the property gets a retention amenity.",
+ "why_now": "NIC MAP shows 57 of 99 metros above 90% occupancy, units under construction at a 2012 low, and no meaningful new supply before 2030. Medicaid HCBS is walled off by 15-month waitlists and labor is scarcer after the 2026 visa pause, so stretching each aide across more clients is the only lever left.",
+ "revenue_model": "Monthly resident subscription by care tier, with a revenue share or amenity fee to the property owner. Later, Medicaid HCBS or managed-care billing for pods in affordable senior buildings.",
+ "non_obvious_insight": "Aide hours are cheap to make dense (no drive time, no client-hour minimums) but are priced as if they were mobile. The gap between 1:1 pricing and 1:8 cost is the whole business, and only a property-anchored operator can capture it. Assisted-living-without-the-license is a real category nobody has scaled.",
+ "first_30_days": "Sign a 90-day pilot with one 100-200 unit 55+ property in a tight market. Subcontract to an existing licensed agency to move quickly, staff a two-aide pod, and target 15 residents at about $2,200 a month. Track aide minutes per resident and move-out avoidance.",
+ "outside_box_score": 7,
+ "source": "idea:aging-silver:all4",
+ "kind": "idea",
+ "id": "I1229",
+ "tournament": {
+  "score": 0.919,
+  "overall_rank": 102,
+  "cluster": "Home and residential care: labor supply, family caregivers and small-scale models",
+  "judge_notes": [
+   "vc: rank 2/24 - Huge market, real supply gap; density-vs-1:1 pricing arbitrage is operational insight, not another senior-care app.",
+   "operator: rank 4/25 - Huge unmet demand and clear pricing gap. Pilot needs a partner agency and a property. Ops-heavy but payers exist.",
+   "contrarian: rank 6/25 - Density-versus-1:1 pricing gap is real amid assisted-living undersupply; property-anchored moat, but service-enriched housing is a known concept."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "National Church Residences (NCR)",
+    "url": "http://www.nationalchurchresidences.org/",
+    "what_they_do": "Largest nonprofit senior-housing owner/operator. Its site says it has the largest team of service coordinators in senior housing and also offers home health and home health aide services. Fetched page does not say whether aides are stationed in-building, so the shared-pod model is not confirmed. It is the most likely incumbent to add pods across a large affordable portfolio.",
+    "scale_or_funding": "75,000+ seniors served a year, 2,400+ staff, 25 states (from its site)",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "SASH (Support and Services at Home, Vermont)",
+    "url": "https://sashvt.org/",
+    "what_they_do": "Coordinator and care-team model in affordable housing that links housing, health systems and service providers. The fetched page shows no hands-on shared aides, so it is a coordination layer, not a labor-density model.",
+    "scale_or_funding": "5,300+ current participants, 200+ affordable housing sites, 63 statewide partners",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Selfhelp Community Services (SHASAM)",
+    "url": "https://www.selfhelp.net/",
+    "what_they_do": "On-site social workers, benefits help and wellness programming in affordable senior buildings. Published evaluation: 68% lower odds of hospitalization and $3,937 in Medicaid savings per resident. Coordination, not hands-on ADL aide pods.",
+    "scale_or_funding": "2,000+ residents in 19 buildings (nonprofit, grant and Medicaid-savings funded)",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "PACE programs (National PACE Association) and PACE-plus-housing projects",
+    "url": "https://www.npaonline.org/",
+    "what_they_do": "Capitated Medicare/Medicaid all-inclusive care for nursing-home-eligible seniors. It is the entrenched channel for low-income frail residents, including housing-plus-PACE projects such as Miami Jewish Health in Broward County, FL. It competes for the Medicaid-eligible tier that the idea's later phase targets.",
+    "scale_or_funding": "204 programs, 97,000+ participants, 33 states plus DC",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "BAYADA Home Health Care (Senior Living Partnerships)",
+    "url": "https://www.bayada.com/",
+    "what_they_do": "Large national home-care agency that lists Senior Living Partnerships / Senior Living Solutions as a service line. It is the natural licensed subcontractor for a pilot and can offer in-building aide service to property owners on its own. No shared-pod pricing was found on the fetched page.",
+    "scale_or_funding": "Established national nonprofit agency (scale figures not retrieved this session)",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "State assisted-living-in-subsidized-housing programs (New Jersey ALP, Massachusetts Supportive Housing, NY ALP and enriched housing, Minnesota customized living); prior knowledge, NOT verified this session",
+    "url": "https://www.nj.gov/humanservices/doas/",
+    "what_they_do": "Long-standing state programs that put licensed on-site care staff in senior apartment buildings, often HUD or LIHTC, paid mostly by Medicaid. This is the closest existing form of 'assisted living without the full facility'. It is already established for the affordable-housing tier but is licensed and Medicaid-bound, not a private-pay tiered pod.",
+    "scale_or_funding": "State-run and Medicaid-funded; site counts not retrieved. My URL guess for the NJ ALP page returned 404 and the MA page returned 403.",
+    "overlap": "direct"
+   },
+   {
+    "name": "Brookdale and other senior-living operators with independent living plus add-on care; prior knowledge, NOT verified this session",
+    "url": "https://www.brookdale.com/",
+    "what_they_do": "Operators with independent living and assisted living on one campus already sell add-on personal assistance and medication help to independent-living residents. They could copy pods as a feature within their own buildings, but they mostly do not serve third-party 55+ apartment buildings.",
+    "scale_or_funding": "Public company, largest US senior living operator (figures not verified this session)",
+    "overlap": "adjacent"
+   }
+  ],
+  "white_space": "Caveat on process: the session's WebSearch budget was exhausted (200 of 200) before I could run any search. I researched only by fetching about 20 known URLs directly and by using prior knowledge. \"No scaled startup found\" therefore means not found, not verified absent. Rerun 6-8 searches (Crunchbase, YC, Product Hunt, 'shared aide' and 'cluster care' startup terms) before committing capital.\n\nWhat looks unserved: (1) A private-pay, tiered, per-building shared-aide subscription in market-rate or workforce 55+ apartment buildings that are not part of a campus. Existing players are either nonprofit coordinator programs (SASH, Selfhelp, NCR), Medicaid or state-licensed programs (PACE, NJ-style ALP), or campus operators (Brookdale). I found no venture-scale company selling this. (2) A dispatch and acuity-tiering software layer for in-building routing (floors, elevators, overnight response). Nothing I fetched showed one.\n\nSerious risks that shrink the white space:\n- Licensing. Under Minnesota 144G.08, sleeping accommodations plus any 'assisted living services' (personal care, toileting help, medication reminders, meal setup, safety checks) under contract requires an assisted-living license. Subsidized housing is excluded unless marketed as assisted living, and the statute does not address a property owner that arranges a home-care provider on site. 'Assisted-living-without-the-license' is therefore legally fragile in many states, especially with an owner revenue share and overnight response, which look like 'holding out'.\n- Unit economics. Two aides per shift is 17,520 aide-hours a year, about $400-500k loaded at roughly $23-28 an hour. Spread over 15 residents at $2,200 a month ($396k a year) that is break-even at best. At 6-10 residents the cost per resident is about $4,000-5,000 a month, which is above the stated $1,800-3,500 tiers. The idea's own numbers are internally inconsistent (6-10 residents in the one-liner, 15 in the pilot).\n- Substitutes. BAYADA and franchise agencies already market to senior-living partners, and NCR and Brookdale could add pods in-house.",
+  "evidence_of_demand": "Verified in this session:\n- Price anchor matches the idea. CareScout's 2025 national median is $35 an hour for a non-medical caregiver ($80,080 a year at 44 hours a week) and $6,200 a month for assisted living ($74,400 a year). https://www.carescout.com/cost-of-care\n- Affordability gap. NIC's site highlights a Health Affairs study that more than half of middle-income seniors will lack the financial resources for senior housing and care by 2029, and reports half of primary markets above 90% occupancy. https://www.nic.org/ (headline-level only, and I could not open the Health Affairs paper: 403).\n- Buyers and payers already fund on-site models. SASH has 5,300+ participants at 200+ Vermont sites, https://sashvt.org/. Selfhelp reports $3,937 in Medicaid savings per resident and 68% lower hospitalization odds across 19 buildings, https://www.selfhelp.net/. NCR serves 75,000+ seniors a year and pairs housing with home health aide services, http://www.nationalchurchresidences.org/. PACE has 97,000+ participants, https://www.npaonline.org/.\n- Regulatory context. Minnesota's statute shows states treat this bundle as assisted living: https://www.revisor.mn.gov/statutes/cite/144G.08\n\nNot found: any price-point evidence for $1,800-3,500 shared-aide tiers, any owner RFPs for it, or resident complaints about in-building care gaps. From prior knowledge only: assisted-living occupancy near 90%, low construction starts, the 2026 visa pause and Medicaid HCBS waitlists (the idea's own claims), none re-verified.",
+  "kill": false,
+  "kill_reason": "n/a",
+  "sharper_angle": "Do not lead with 'assisted living without the license' or a 24/7 two-aide pod. Both carry the largest licensing risk and the worst unit economics.\n\nNarrower version: an overnight-response and transfer/toileting 'night pod' plus scheduled ADL rounds, sold as a contracted, resident-billed home-care service (a licensed agency subcontracted per state), not as a property amenity. The building owner provides only space and a call system, with no revenue share and no marketing as care, which avoids 'holding out' triggers like Minnesota's.\n\nPick launch states where the structure is clear, for example states with an explicit assisted-living-in-subsidized-housing or shared-care Medicaid pathway. Then use market-rate 55+ buildings to prove the private-pay density economics before touching Medicaid.\n\nBuild the software as the moat: acuity-tier dispatch, in-building routing, and aide-minutes-per-resident data. That data proves move-out avoidance to owners and can be sold as a managed-service or white-label layer to agencies like BAYADA and to nonprofit owners like NCR, instead of running aides yourself.\n\nFix the math first. Model at least 12-15 residents per two-aide overnight pod, price at $2,800-3,500 a month, and confirm the per-state labor and licensing rules before the 90-day pilot."
+ }
+}

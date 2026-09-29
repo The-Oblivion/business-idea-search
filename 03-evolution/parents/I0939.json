@@ -1,0 +1,85 @@
+{
+ "title": "Rotor Rescue: Scrapyard Magnet Pick-and-Pay",
+ "angle": "contrarian",
+ "one_liner": "A price-sheet-plus-gauss-meter program that pays scrapyards for magnet-dense motors and rotors they currently sell as steel and copper.",
+ "customer": "Rare-earth magnet recyclers and magnet makers needing domestic recycled feed (they pay per kg with assay). Scrapyards, motor rebuilders and appliance/HVAC recyclers are the sellers.",
+ "problem": "The rare-earth bottleneck is 'collection and disassembly rather than recovery chemistry.' Hard-drive magnet removal often costs more than the material is worth. Yards sell EV drive units, servo and elevator motors, and e-bike hub motors by copper and steel weight, and the NdFeB rotors go into the steel shred.",
+ "solution": "Skip HDDs and target a short list of heavy, magnet-dense items. Yards get a phone app plus a $150 gauss meter that identifies magnet-bearing units and shows a payout per unit or per rotor. A mobile pull cell or the yard's own labor removes rotors. We aggregate and assay them, then sell a certified, traceable magnet-feed stream to recyclers.",
+ "why_now": "The IEA puts China at about 90% of material recovery capacity. The DoD-MP deal and the Texas magnet campus create domestic pull, and DOE announced $134M for critical-mineral demonstrations in June 2026. Recyclers such as Cyclic Materials and IonicRE are funded and need feed.",
+ "revenue_model": "Spread between the recycler's price per kg of assayed magnet feed and the yard payout plus pull cost. Optional premium for defense-traceable lots. Small SaaS fee for the identification and price app.",
+ "non_obvious_insight": "Rare-earth economics fail on tiny magnets (HDDs) but work on a few heavy items. No one publishes a price by motor model, so yards do not know a rotor holds hundreds of grams to kilograms of NdFeB. Price discovery is the missing product, not a new chemistry.",
+ "first_30_days": "Buy 5 gauss meters. Visit 10 auto shredders and motor shops and measure and photograph 200 units. Build a price sheet by model. Get an offtake LOI from one magnet recycler that needs feed. Pay 3 yards on the first 50 units and publish the results to recruit more.",
+ "outside_box_score": 6,
+ "source": "idea:circular-materials:all4",
+ "kind": "idea",
+ "id": "I0939",
+ "tournament": {
+  "score": 0.891,
+  "overall_rank": 131,
+  "cluster": "Critical minerals and rare-earth supply chain recovery and provenance",
+  "judge_notes": [
+   "contrarian: rank 2/24 - Price discovery, not chemistry, is missing. Cheap 30-day validation, strategic domestic pull, real spread on heavy magnet-dense items.",
+   "vc: rank 4/25 - Heavy-motor targeting is genuinely non-obvious; strong policy pull; scrappy start; feedstock aggregators can get large.",
+   "operator: rank 7/25 - Clever price-discovery wedge, cheap to test with gauss meters; volume of end-of-life motors still small."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "Cyclic Materials",
+    "url": "https://www.cyclicmaterials.earth/recycle-with-us",
+    "what_they_do": "Vertically integrated rare-earth magnet recycler that runs its own feedstock procurement. Its 'Recycle With Us' page invites suppliers to send drive motors and hybrid transmissions, HDDs, robotics and drone motors, defense and aerospace parts, and wind generators. Its MagCycle process handles end-of-life products 'whole, without the need for manual dismantling', which undercuts the rotor-pull-cell step in this idea (https://www.cyclicmaterials.earth/magnet-separation). It uses a hub-and-spoke model and reports over 7,000 t of magnet-bearing feedstock already delivered under long-term commercial partnerships (https://www.cyclicmaterials.earth/resources/cyclic-materials-opens-americas-first-commercial-scale-facility-delivering-automated-rare-earth-magnet-recovery). Its site publishes no pricing, no per-model payout and no ID tools for yards.",
+    "scale_or_funding": "$75M Series C in Aug 2026, bringing total equity to $237M. Investors include T. Rowe Price, ERI, Microsoft, Amazon, BMW i Ventures, JLR and Hitachi Ventures (https://www.cyclicmaterials.earth/resources/cyclic-materials-announces-usd-75-million-strategic-growth-financing-to-scale-u-s-rare-earth-production). Mesa, AZ facility opened Sep 2026 with 25,000 t/yr capacity. South Carolina campus groundbreaking is planned for Q4 2026.",
+    "overlap": "direct"
+   },
+   {
+    "name": "HyProMag USA (CoTec / Mkango JV)",
+    "url": "https://hypromagusa.com",
+    "what_they_do": "Magnet-to-magnet recycling using hydrogen processing of magnet scrap, plus magnet manufacturing. It sources scrap from electronics and industrial waste. Feedstock pre-processing and stockpiling sites in South Carolina and Nevada started in Aug 2025, and it is building a Texas hub. It competes for the same domestic scrap feed and is a plausible buyer.",
+    "scale_or_funding": "Selected as one of 17 Minerals Security Partnership projects. Backers report over $100M of R&D across the wider HPMS program. Wikipedia says the Dallas-Fort Worth plant is expected to start in 2027 at about 750 t/yr (https://en.wikipedia.org/wiki/Neodymium_magnet). Exact equity raised not verified.",
+    "overlap": "direct"
+   },
+   {
+    "name": "ERI (Electronics Recyclers International)",
+    "url": "https://www.cyclicmaterials.earth/resources/eri-and-cyclic-materials-form-partnership-to-recover-and-recycle-rare-earths-and-critical-minerals-from-e-waste",
+    "what_they_do": "Largest US e-waste recycler. Its nationwide collection network and 8 US recycling centers now identify, secure and pre-process magnet-bearing products for Cyclic. This is a large incumbent already locked in on the collector side. The announced scope is e-waste, not heavy motors or EV drive units.",
+    "scale_or_funding": "Processes over 1 million lb of e-waste per day. Became a strategic investor in Cyclic in Aug 2026 (partnership announced 21 Jul 2026).",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Noveon Magnetics",
+    "url": "https://noveon.co/",
+    "what_they_do": "Texas sintered NdFeB magnet maker whose patented process is built around end-of-life recycling and a 'decentralized supply chain'. It would be a natural buyer of recycled feed. Its homepage discloses no scrap sourcing program or scrapyard payout.",
+    "scale_or_funding": "Not verified. The fetched pages gave no funding data.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Ionic Technologies (Ionic Rare Earths)",
+    "url": "https://www.ionictechnologies.com",
+    "what_they_do": "Hydrometallurgical recovery of 99.5%+ rare-earth oxides from end-of-life magnets. Partners include Ford UK, Less Common Metals, BGS and Vacuumschmelze (swarf). It has a Belfast demo plant and a Brazil JV with Viridis, and plans US expansion. It works 'alongside recycling companies' but publishes no yard-facing collection program.",
+    "scale_or_funding": "Not verified. The page gave no funding data.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "ReElement Technologies",
+    "url": "https://www.reelementtech.com",
+    "what_they_do": "Chromatography-based refiner of recycled rare-earth material. It was first engineered for recycled wind-turbine magnets and lists recycled magnets as an input. It is a downstream buyer or processor with no scrapyard-facing program found.",
+    "scale_or_funding": "Not verified. The page listed partners such as POSCO and Vulcan but no funding figures.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Vulcan Elements",
+    "url": "https://www.vulcanelements.com",
+    "what_they_do": "Building what it calls the largest rare-earth magnet plant in the Western Hemisphere in Benson, NC. It is a potential offtaker and a source of domestic pull. It is not a competitor on feed procurement, and the page did not show whether it uses recycled feed.",
+    "scale_or_funding": "Not verified from the fetched page. The DoD deal cited in the idea could not be checked.",
+    "overlap": "adjacent"
+   }
+  ],
+  "white_space": "Evidence caveat: the session's WebSearch budget (200 of 200) was exhausted, so I ran zero successful web searches and relied on direct page fetches of about 20 company and source URLs. Several were 404, 503 or blocked. Coverage of forums, RFPs, Crunchbase, Product Hunt and open-source tools is therefore missing. Treat this as a partial check, not a clean bill of health.\\n\\nWhat remains unserved, judged from the company pages I could read:\\n(1) A yard-facing price and identification product. No fetched page (Cyclic, HyProMag, ReElement, Ionic, Noveon) publishes a payout by motor make and model, a magnet-mass lookup, or a handheld gauss-meter workflow for yard staff. Cyclic's supplier page explicitly gives no pricing, logistics or ID tools ('contact us to get started').\\n(2) The long tail of small and mid-size auto shredders, motor rebuilders, elevator and industrial motor shops, and e-bike hub-motor scrap. ERI is anchored on e-waste and the OEM/ITAD channel, and Cyclic's named categories are drive motors, HDDs, robotics, defense and wind. Elevator, servo and e-bike hub motors are not named.\\n(3) Chain-of-custody and assay data for defense-traceable lots.\\n\\nWhere the idea is weak: the buyers are building their own procurement. Cyclic takes whole units without dismantling, so the 'mobile pull cell' adds little. Cyclic and HyProMag have stated supply pipelines and can capture the aggregator margin by paying yards directly once yards know what they hold. The spread-based aggregator model is exposed to that squeeze. The durable wedge is the data and identification layer.",
+  "evidence_of_demand": "Buyer-side demand is real, but I found no yard-side evidence.\\n- Cyclic reports over 7,000 t of magnet-bearing feedstock already delivered, more secured in its pipeline, and a $237M total equity raise, with ERI investing strategically to secure feed. That shows recyclers are actively paying for and locking up feed (https://www.cyclicmaterials.earth/resources/cyclic-materials-opens-americas-first-commercial-scale-facility-delivering-automated-rare-earth-magnet-recovery and https://www.cyclicmaterials.earth/resources/cyclic-materials-announces-usd-75-million-strategic-growth-financing-to-scale-u-s-rare-earth-production).\\n- HyProMag USA started feedstock stockpiling sites in South Carolina and Nevada in Aug 2025 (https://hypromagusa.com).\\n- Cyclic's own About page says under 1% of rare earths are recycled and that over 90% of processing is controlled by China (https://www.cyclicmaterials.earth/about-us).\\n- Not verified: the DOE $134M June 2026 announcement (my DOE URL guess returned 404), the DoD-MP deal, the IEA 90% figure (IEA returned 403), and the quoted claim that collection and disassembly is the bottleneck.\\n- None found: yard complaints, RFPs, or any evidence that scrapyards want a gauss-meter price-sheet program or would pay for one.",
+  "kill": false,
+  "kill_reason": "n/a. Not killed, but this is a conditional pass. The aggregator and middleman version is exposed to funded direct buyers (Cyclic, HyProMag, ERI) who run their own procurement. The idea survives only as a yard-facing price and ID layer, and the check is incomplete because the WebSearch budget ran out.",
+  "sharper_angle": "Drop the 'we aggregate, pull rotors, assay and resell' spread model and go to data and identification: the Carfax or Kelley Blue Book for magnet-bearing scrap. Build a model-level database of magnet mass and grade for EV drive units, elevator and servo motors and e-bike hub motors, then measure and photograph units in the field. Ship it as a phone ID app plus gauss-meter workflow that quotes yards a live, buyer-backed payout. Monetize by taking a per-lot or subscription fee from the buyers (Cyclic, HyProMag, Noveon, ReElement and others) for routing certified, ID-verified lots to them, rather than owning inventory and processing. Focus on the segment the big players have not named: heavy industrial and elevator motors, servo motors and e-bike hub motors at independent shredders and motor rebuilders. Add chain-of-custody records for defense-traceable lots. Before investing, cold-call Cyclic's supplier desk and 10 yards to check whether Cyclic already pays by unit or model and whether yards would use a price sheet. Then rerun the competitor sweep (Crunchbase, YC, forums, RFPs) once search access is restored."
+ }
+}

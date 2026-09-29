@@ -1,0 +1,15 @@
+{
+ "title": "Loss-Draft Concierge for Disaster Rebuilds",
+ "one_liner": "A draw desk that gets the insurance money for a destroyed house out of the mortgage servicer's restricted account and into the rebuild, paid by the contractors who need cash to start.",
+ "customer": "Mortgaged homeowners whose houses were destroyed or damaged by fire, flood or storm pay $1,500-3,000 flat or about 1% of proceeds. Rebuild contractors pay 1.5-2.5% of each accelerated draw.",
+ "problem": "When a mortgaged house is destroyed, insurance checks are made out to both the owner and the servicer. The servicer parks the money in a loss-draft account and releases it in inspection-gated stages, each requiring a contract, contractor license proof, permits, lien waivers, W-9s and photos. Homeowners cannot assemble the packet. Contractors will not start without money. Families pay rent and a mortgage on a lot with nothing on it. Rebuild fraud thrives in the gap.",
+ "solution": "A draw desk that takes the servicer's letter and builds the draw packet in the exact format the servicer wants. It verifies the contractor's license, collects conditional and unconditional lien waivers on the state statutory forms, books inspections, submits, and chases weekly. It escalates to servicer executive complaint lines and state regulators. It ties every disbursement to milestone photos and waivers so the homeowner is protected from paying for work not done. It never holds the funds, which avoids money-transmitter issues. Later add bridge financing against expected draws.",
+ "why_now": "The January 2025 Los Angeles fires destroyed roughly 16,000 structures and rebuilds are now at peak permit and construction paperwork. Storm and flood rebuilds continue in Texas, North Carolina and Florida, and every season adds more. Additional-living-expense coverage has clocks that expire, which makes delay costly. AI document handling makes lien-waiver, permit and inspection-photo checks cheap for a small team.",
+ "revenue_model": "Flat rebuild-admin package or about 1% of proceeds from homeowners. A per-draw acceleration fee of 1.5-2.5% from contractors. Later, a spread on bridge loans and referral revenue from lenders and builders.",
+ "non_obvious_insight": "The bottleneck is not the insurer. The money already exists and is locked behind paperwork the homeowner cannot produce. Public adjusters take about 10% to fight the insurer but nobody specializes in this second fight. The hidden buyer is the contractor, whose cash flow decides whether the site ever starts.",
+ "first_30_days": "Join fire-survivor community groups and rebuild nonprofits in one affected area. Offer a free draw-packet review to the first 10 households. Sign 3 rebuild contractors whose draws are stalled. Charge a flat fee only after the first draw is released. Document days-to-funds before and after as your proof, then take the case studies to the next disaster market.",
+ "outside_box_score": 7,
+ "source": "wild:s3-1",
+ "kind": "wild",
+ "id": "I0591"
+}

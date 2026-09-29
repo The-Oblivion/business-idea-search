@@ -1,0 +1,45 @@
+{
+ "status": "crowded",
+ "competitors": [
+  {
+   "name": "TariffRefund, Inc.",
+   "url": "https://www.tariffrefund.com/",
+   "what_they_do": "Guided self-serve platform that calculates, prepares and tracks IEEPA refund filings with US Customs. Explicitly targets importers of every size with one flat fee and no percentage cut. Its marketing pitches against consultants, and its pricing page says consultants typically charge 20-40% of the refund. Waitlist opened April 20, 2026, the same day CAPE launched. The site cites 330,000 importers and a $503K average refund. It lists no claim-sale or financing offer. Its pages do not show whether it handles liquidated entries or protests.",
+   "scale_or_funding": "Unknown. Early access and waitlist stage. No funding or team details on the site.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Peacock Tariff Consulting x PRAKTIKAI (TariffRefunds.com)",
+   "url": "https://www.tariffrefunds.com/",
+   "what_they_do": "Free browser-based calculator. The importer uploads ACE entry summaries, and the data is processed locally. It identifies refund opportunities and routes the importer to Peacock's paid consulting for recovery. It sits at the front of the funnel the idea wants to own through its free 'refund gap audit'.",
+   "scale_or_funding": "Unknown. A consultancy claiming 20+ years in tariff compliance, paired with a data/AI firm. No funding disclosed.",
+   "overlap": "direct"
+  },
+  {
+   "name": "CBP CAPE plus licensed customs brokers (the filing channel itself)",
+   "url": "https://www.cbp.gov/trade/programs-administration/trade-remedies/ieepa-duty-refunds",
+   "what_they_do": "CAPE is the free government filing tool inside ACE. Only the importer of record or the licensed broker who filed the entries may submit a declaration. Attorneys, sureties and third-party providers cannot. A broker can file one declaration covering multiple IORs. The declaration is a CSV of entry numbers only, up to 9,999 per file. CBP pays interest automatically. The mechanical 'CAPE-ready batch' is therefore trivial, and every broker already has the filing right. This is a structural commoditizer of the filing half of the idea, not a startup.",
+   "scale_or_funding": "Government tool. Launched April 20, 2026 per Wikipedia. The idea cites $134.7B accepted of a ~$166B pool as of Sept 11, 2026. I could not verify that figure.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Traditional tariff and customs consultants on contingency (unnamed)",
+   "url": "https://www.tariffrefund.com/pricing",
+   "what_they_do": "Per TariffRefund's pricing page, incumbent consultants charge 20-40% of the recovered refund. This is a competitor claim, not independently verified. If true, the idea's 8-12% success fee is cheaper than consultants but more expensive than a flat fee for any importer with a mid-size claim.",
+   "scale_or_funding": "Fragmented. Individual firms not identified because the web-search budget ran out.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Large trade-software vendors (Flexport, Descartes)",
+   "url": "https://www.descartes.com/",
+   "what_they_do": "Homepage checks for Descartes and Flexport's blog found no dedicated IEEPA refund or CAPE product. Flexport has only an analysis post ('Who Benefits the Most in the Post-IEEPA Tariff Landscape?'). Both are incumbents that could ship a refund-reconciliation feature quickly, since they already hold the entry data.",
+   "scale_or_funding": "Large, established vendors. No refund product observed in this check.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Important limit on this research: the WebSearch budget was exhausted (200/200) before any search ran. Everything below comes from 8 to 10 direct page fetches plus my own reasoning. I did NOT check Crunchbase, YC, Product Hunt or Hacker News. I did NOT identify named claim buyers, hedge funds or law firms. I could not verify the idea's dollar figures ($134.7B accepted, Phase 3 delay to Oct 6, DOJ appeal). Treat this verdict as low-to-medium confidence and rerun with search budget before committing.\n\nWhat the fetches show.\n1. The filing and calculation layer is crowded and commoditized. That includes ES-003/ACE upload, per-entry eligibility, and CSV batch prep. Free (TariffRefunds.com), flat-fee (TariffRefund, Inc.), 20-40% consultants, brokers with native filing rights, and free CAPE all cover it. CBP's CSV takes entry numbers only. An 8-12% success fee on a task that CBP has made a bare entry-number list is a weak wedge.\n2. The wave is largely spent. CAPE launched April 20, 2026 and it is now Sept 29, 2026. Most of the pool, and almost certainly most of the easy small-importer claims, has been filed by brokers, consultants or the importers themselves. What is left is the hard tail, which is the idea's own thesis. That tail is small and legally uncertain.\n3. The likely unserved wedge is the claim-diligence and underwriting file for the hard tail, meaning entries liquidated beyond 80 days and other future-phase entries. Buyers of refund claims need chain of title, IOR verification, liquidation and protest timelines, drawback and FTZ overlap checks, and a probability-weighted value tied to the Federal Circuit appeal. Nothing I fetched offers this. The two direct competitors found are filing-focused and neither mentions claim sales, financing or diligence files. Absence on two home pages is weak evidence, though. Claim-buying funds and lenders may already run their own diligence in-house.\n4. The route that only exists because of the tail is broker-side software plus buyer-side diligence, not consumer-style filing. Small importers are not a good direct-acquisition segment. The customer is the buyer or lender with claims to underwrite. That buyer has to be validated, and I did not find one.",
+ "evidence_of_demand": "Partial, and stronger for the filing problem than for the claim-diligence product.\n\nFiling demand. TariffRefund, Inc. is selling to a ~330,000-importer market with a $503K average refund and a waitlist that opened April 20, 2026 (https://www.tariffrefund.com/). Peacock Tariff Consulting and PRAKTIKAI built a free calculator as lead generation for paid consulting (https://www.tariffrefunds.com/). TariffRefund's pricing page says consultants charge 20-40% of the refund (https://www.tariffrefund.com/pricing). That is a competitor's claim and unverified, but it implies importers are already paying large fees for this work. Big importers are litigating directly, for example Nintendo (https://techcrunch.com/2026/03/06/nintendo-sues-the-u-s-government-for-a-refund-on-tariffs/). The Supreme Court ruling of Feb 20, 2026, the CIT refund order of March 4, 2026, and CAPE's April 20, 2026 launch are confirmed on Wikipedia (https://en.wikipedia.org/wiki/Learning_Resources,_Inc._v._Trump). CBP's own page confirms the liquidated-entry cutoff of 80 days, the CSV-only filing, and the restriction that only the IOR or its broker can file (https://www.cbp.gov/trade/programs-administration/trade-remedies/ieepa-duty-refunds).\n\nClaim-trading demand. I found NO verified evidence of buyers paying for standardized diligence files or of hedge-fund and lender claim purchases. The idea asserts these, and I recall press coverage of funds buying refund rights at a discount, but I could not retrieve a source. Wikipedia's article has nothing on secondary markets. Treat this as unverified.",
+ "kill": false,
+ "kill_reason": "n/a. The filing and calculation half is crowded and commoditized (free CAPE, free calculators, flat-fee platforms, brokers with native filing rights). But the claim-diligence and chain-of-title 'data room' half showed no direct competitor in my limited fetches, so I am not killing the idea. That is a weak signal, given that search was unavailable. If a rerun with search finds an existing claim-underwriting or claim-exchange platform, or shows buyers do diligence in-house or through law firms, this becomes a kill.",
+ "sharper_angle": "Drop the small-importer filing product. Filing is now a free or flat-fee commodity, and CBP restricts who can file. Build only the buy-side underwriting layer for the hard tail. That means a diligence file and a probability-weighted valuation model for liquidated and out-of-window IEEPA entries, sold per file ($500-$2,000) to claim buyers, lenders and the law firms and brokers who sell claims to them. It would include chain of title, IOR and duplicate checks, drawback and FTZ overlap flags, and protest and liquidation deadline math tied to Federal Circuit appeal scenarios. Before building anything, get 2-3 named claim buyers or lenders to say on the record that they would pay for this file. A quick test is to ask them what they use today. Pay attention to the fixed shelf life: the IEEPA wave peaks in fall 2026, and the reusable engine for successor tariffs (Section 232, 301, 122) is a speculative bet with no evidence yet. Treat that reuse as an upside case, not the plan."
+}

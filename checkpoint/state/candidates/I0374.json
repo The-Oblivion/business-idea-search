@@ -1,0 +1,16 @@
+{
+ "title": "Outsourced 24-Hour Vulnerability Reporting Desk (CRA)",
+ "angle": "boring-lucrative",
+ "one_liner": "A retainer service that acts as the manufacturer's PSIRT: it watches for actively exploited vulnerabilities in their products' components and files the 24-hour early warning, follow-up notification and final report to the EU platform.",
+ "customer": "Connected-device makers with 20-500 employees selling into the EU with no 24/7 security team: smart home, e-bikes and scooters, industrial sensors, routers, wearables, toys, EV chargers. Many are non-EU (US and Asian) firms.",
+ "problem": "CRA reporting obligations began 11 Sep 2026: 24-hour reporting to ENISA for actively exploited vulnerabilities and severe incidents, with fines up to EUR 15M or 2.5% of turnover. Small makers have no on-call rota, no SBOM monitoring and no idea what 'actively exploited' means for their firmware. The briefing found almost no visible tooling aimed at them.",
+ "solution": "A retainer that ingests each product's SBOM per firmware version, matches it continuously against exploited-vulnerability and threat feeds, triages 24/7 with a pre-agreed decision tree, and files the early warning, notification and final report with text approved by the client's named contact. It also runs coordinated disclosure and advisory publishing, plus quarterly tabletop drills. Software lets one analyst cover 30+ clients.",
+ "why_now": "The reporting duty went live 17 days ago and the full regime follows in Dec 2027. Firms are discovering that the deadline is a staffing problem, not a document problem.",
+ "revenue_model": "EUR 1,500-6,000/month retainer, incident surcharges, and EUR 5k annual tabletop exercises.",
+ "non_obvious_insight": "A 24-hour clock makes this a staffing obligation, which small firms cannot meet alone but a pooled desk can, like outsourced DPO services. Each reported vulnerability also gives a natural upsell into SBOM and technical-file work.",
+ "first_30_days": "Partner with two or three EU security consultancies or product-safety associations. Sell a EUR 2.5k one-day 'CRA reporting readiness audit' to 20 firms, convert 5-8 into EUR 2k/month retainers, and contract three part-time analysts across time zones.",
+ "outside_box_score": 4,
+ "source": "idea:legal-regtech:all4",
+ "kind": "idea",
+ "id": "I0374"
+}

@@ -1,0 +1,59 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "GreenLancer (Solar Repair / O&M network)",
+   "url": "https://pv-magazine-usa.com/2025/08/21/greenlancer-expands-residential-solar-repair-and-orphaned-system-services-nationwide/",
+   "what_they_do": "Design, engineering and permitting platform (200,000+ projects since 2013) that in Aug 2025 launched a nationwide repair/O&M network. Says it 'partners with seven leading solar financiers to finish incomplete installations and restore non-operational systems', including PTO remediation and permit/interconnection fixes. Co-founder Pat McCabe: 'we protect investments, complete unfinished projects'. The closest match to Finish Crew: lender-paid completion, plus the records/permit/engineer-stamp capability the idea calls its non-obvious insight. Financier names, volumes and pricing are undisclosed. Same pitch also at https://www.greenlancer.com/post/orphaned-solar-projects",
+   "scale_or_funding": "Funding undisclosed (no Crunchbase data retrieved; the page returned 403). Claims 200k+ projects supported, all-50-state technician recruiting, seven financier partners.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Lender in-house step-in (GoodLeap, Sunrun, EverBright, EnFin, Credit Human, Participate, Project Solar; also Dividend Finance)",
+   "url": "http://pv-magazine-usa.com/2026/09/09/freedom-forever-bankruptcy-converted-to-chapter-7-liquidation-key-dates-set/",
+   "what_they_do": "The Freedom Forever court order lets these seven financiers 'step into unfinished projects to hire new contractors, complete physical installations and bring systems to PTO'. GoodLeap got explicit authority to take physical possession of projects and hardware. Dividend Finance has said it defers payments and, where feasible, finds replacement installers. GoodLeap also agreed with the Empire Solar trustee to finish projects with local contractors at no cost to homeowners. These are the buyers, but each already runs its own workflow and could keep this work in-house or give it to GreenLancer.",
+   "scale_or_funding": "GoodLeap, Sunrun and EverBright are large, well-funded; Sunrun has its own field crews.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Atma Energy (installer taking over stranded Freedom Forever jobs)",
+   "url": "https://www.latitudemedia.com/news/what-freedom-forevers-bankruptcy-says-about-residential-solar-today/",
+   "what_they_do": "Regional installer that has voluntarily taken over abandoned Freedom Forever installs by assuming the permit and closing out the system, or filing a new permit. CEO Supratim Srinivasan put the cost at up to $1,200 in Texas, with Enphase flagging stranded projects to local installers. This is a labor bench for the idea and also evidence that paperwork-only takeovers are cheap.",
+   "scale_or_funding": "Private regional installer; funding not found.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Local rescue and completion contractors (Revival Solar, ECG Solar, Optimus Energy Solutions, Advance Solar, Solar Discovery)",
+   "url": "https://solarrevival.com/unfinished-solar-installation/",
+   "what_they_do": "Small regional firms marketing 'unfinished solar installation completion' or 'solar rescue' to homeowners. They finish engineering, inspection, utility paperwork and activation. ECG (Iowa) takes over projects from 50+ defunct brands (https://ecgsolar.com/solar-rescue-recovery/). Optimus (Florida) says it will honor the original contract's financial terms (https://optimusenergysolutions.com/save-my-solar). No lender programs or portfolio dashboards found. They are more likely subcontractors than rivals.",
+   "scale_or_funding": "Family-owned or small local businesses; no funding found.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "OhmSnap (solar orphan marketplace)",
+   "url": "https://www.ohmsnap.com/solar-orphan-rescue",
+   "what_they_do": "Referral marketplace that matches homeowners with vetted providers for orphaned systems. Installers pay the referral fees. Targets an estimated 500,000+ orphaned US systems. Homeowner-facing lead-gen, not lender-facing completion.",
+   "scale_or_funding": "Funding not disclosed.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Solar Insure (monitoring and warranty for abandoned systems)",
+   "url": "https://www.solarinsure.com/navigating-solar-contractor-bankruptcy",
+   "what_they_do": "Sells monitoring and a 30-year workmanship warranty to owners of systems whose installer went bust. It publishes bankruptcy data, claiming over 820,000 abandoned installs in California (per Bloomberg Law). Its content sends stranded owners to their lender, the manufacturer installer locators, or independent installers, so it does no pre-PTO completion. It is a possible data or partner competitor for the dashboard and warranty upsell.",
+   "scale_or_funding": "Private; funding not retrieved.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Enphase Installer Revenue Program ('Support systems without active installers')",
+   "url": "https://enphase.com/installers/installer-revenue-program",
+   "what_they_do": "The manufacturer helps installers capture systems whose original installer has exited: health check, monitoring restoration, upgrades. It also flags stranded projects to local installers (Latitude Media). Post-PTO and upsell oriented, but it feeds the same local-installer bench.",
+   "scale_or_funding": "Enphase is a public company; the program is a marketing channel.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "The unserved wedge is portfolio-level, event-driven triage, not crews. (1) Forensic records recovery at scale. No competitor found sells a forensic pack per stranded loan (AHJ permit file, utility interconnection record, dead installer's CRM and design files, distributor and consignment serials, photo audit) sorted into cure tiers with a cost-to-cure and expected-PTO dashboard across a lender's whole book. GreenLancer and the local rescue firms all work job by job. (2) Servicers, credit unions and ABS trustees without operations. The seven Freedom Forever financiers have ops teams, and Sunrun and GoodLeap have crews. Solar Servicing LLC (which took over Mosaic's servicing), credit unions, bank holders and ABS investors have no step-in playbook. I found no completion vendor aimed at them. (3) Legacy stranded books. Titan (an estimated 150,000 households), SunPower, Sunnova, PosiGen, Mosaic-financed loans and others. Lenders may not know which loans sit on de-energized systems, so an identify-then-cure offer has little competition. (4) Standby retainer plus pre-negotiated per-AHJ and per-utility contractor-of-record transfer playbooks for the next failure. Not white space: the first-wave Freedom Forever completion work. The stay-relief order dates to about August 2026, so the seven named financiers have probably already picked contractors, and GreenLancer says it already serves seven financiers.",
+ "evidence_of_demand": "Real, but lumpy and event-driven, and price-sensitive at the paperwork tier. Evidence: (a) The Freedom Forever court order authorizes seven financiers to hire new contractors and bring systems to PTO without individual stay motions, and GoodLeap sought authority to take physical possession of hardware; EnFin recovered consigned hardware (http://pv-magazine-usa.com/2026/09/09/freedom-forever-bankruptcy-converted-to-chapter-7-liquidation-key-dates-set/). The case was filed April 15, 2026, converted to Chapter 7 on Aug 7, 2026, with claims due Oct 16, 2026 (https://servoflows.com/freedom-forever-tracker). (b) GreenLancer publicly claims seven financier partners paying to finish incomplete installs and protect lender ROI, which shows paid lender demand exists (https://pv-magazine-usa.com/2025/08/21/greenlancer-expands-residential-solar-repair-and-orphaned-system-services-nationwide/). (c) Dividend Finance says it defers payments and helps find replacement installers where feasible (https://news.bloomberglaw.com/bankruptcy-law/solar-panel-bankruptcies-leave-frustrated-homeowners-in-limbo). The Bloomberg Law article cites Solar Insure data of 820,000+ abandoned installations in California, a figure I could not verify. (d) The GoodLeap-Empire Solar trustee agreement to finish projects with local contractors at no cost to homeowners, which is precedent (https://www.renewableenergyworld.com/solar/minnesota-solar-installer-bankruptcies-leave-unfinished-projects-calls-for-better-oversight/). (e) Consumer-side scale: OhmSnap cites 500,000+ orphaned systems and Titan left an estimated 150,000 households without support (https://www.ohmsnap.com/solar-orphan-rescue). Weak points: no RFPs or published lender budgets found. Lenders' default response is payment deferral plus 'where feasible' replacement installers, so spend may be small. Atma quotes up to $1,200 to take over a permit and close out a system in Texas (https://www.latitudemedia.com/news/what-freedom-forevers-bankruptcy-says-about-residential-solar-today/), which pressures the $1.5-4k paperwork-only tier. The web search budget ran out, so I could not check lender earnings calls, 10-Ks or ABS reports for cost-to-cure figures.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Do not lead as a crew business. Sell a 'stranded-book triage and cure-orchestration' service to buyers who lack ops: solar loan servicers (Solar Servicing LLC and similar), credit unions, banks and ABS trustees or investors holding 2022-2025 loans. Step 1 is a data product. Ingest the lender's loan tape and cross-match it against AHJ permit portals, utility interconnection and PTO records, equipment serials and monitoring feeds. That shows which loans sit on de-energized or half-built systems, which lenders often cannot see because milestone payments were already released. Score each job into cost-to-cure tiers and forecast the recovery of loan value. Sell that as a fixed-fee book audit. Step 2 is cure orchestration on a success fee per PTO. Use an open bench of local contractors (Atma-type installers, Revival, ECG, Optimus, laid-off crews) and GreenLancer-style engineering subs as suppliers, so the company does not compete with GreenLancer's field network or with Sunrun and GoodLeap crews. Package pre-built contractor-of-record and utility transfer playbooks per AHJ and utility, and a standby retainer for the next failure. Aim first at legacy books (Titan, SunPower, Sunnova, PosiGen, Mosaic-financed loans), since the Freedom Forever first wave is already being staffed. Price the paperwork-only tier against Atma's roughly $1,200 benchmark, and put the margin in the forensic and dashboard layer and the harder tiers (missing hardware, inspection fixes), not in simple permit transfers. Before building, ask two or three lender loss-mitigation leads and a servicer what they pay today and whether they already use GreenLancer. If GreenLancer's seven financiers already cover the servicers and credit unions, downgrade this to crowded.\""
+}

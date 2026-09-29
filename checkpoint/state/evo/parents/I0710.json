@@ -1,0 +1,85 @@
+{
+ "title": "Widow-First Retention Drills for Wealth Advisors",
+ "angle": "contrarian",
+ "one_liner": "Sell independent advisors an annual 'if one of us dies' rehearsal for couples, because the defection risk sits at the first spouse's death, not with the kids.",
+ "customer": "Independent RIAs and small wealth teams ($150M-$2B AUM) whose median client is 65+. The buyer is the firm principal or COO.",
+ "problem": "The industry spends on next-gen events with heirs. Cerulli says about $54T of the transfer is spousal and about $40T of that goes to widowed women. The survivor is grieving, holds a house full of logins and unknown accounts, and has to decide whether to keep the advisor. Advisors are commonly said to lose most widows within a year (widely cited, verify). The cause is usually friction, not performance.",
+ "solution": "A 90-minute 'Survivor Fire Drill' run by the advisor's team with a software kit. Each spouse's death is simulated in turn. The tool builds a First-90-Days playbook: who to call, which accounts exist, which autopays must keep running, and where the documents are. It audits titling and beneficiaries from the survivor's point of view and flags single points of failure, such as only one spouse knowing the passwords. It then schedules pre-agreed advisor check-ins at day 3, 14, 45 and 90. The advisor gets a dashboard of which couples have done the drill and where their exposure is.",
+ "why_now": "Cerulli's Sept 2026 work frames retention of the transfer as the priority, and 89% of surveyed firms call family meetings essential. Wealth managers are buying heir-engagement tools, yet the first wave of money is spousal and the widow is under-served. Cheap document ingestion and secure vaults make the kit affordable for small firms.",
+ "revenue_model": "$300-$700 per household per year billed to the firm, or a $25-40K/yr platform fee for a 100-household book. The ROI pitch: keeping one $1.5M widow at a 1% fee is worth $15K a year.",
+ "non_obvious_insight": "The heir-retention narrative aims at the wrong person on the wrong day. Widows rarely leave over portfolio returns. They leave because nobody made the first 90 days easy. A rehearsal also works where estate planning fails, because people avoid 'planning' but will attend a scheduled drill.",
+ "first_30_days": "Recruit 3-5 RIAs through advisor communities and podcasts. Run drills by hand with a spreadsheet and printed binder for each firm's 10 oldest couples. Record time-to-locate-accounts and the number of single-point-of-failure findings. Charge a $2.5K pilot fee and turn the findings into a retention case study the advisor can show prospects.",
+ "outside_box_score": 6,
+ "source": "idea:death-wealth-transfer:all4",
+ "kind": "idea",
+ "id": "I0710",
+ "tournament": {
+  "score": 0.932,
+  "overall_rank": 86,
+  "cluster": "Hospice, dying and the first weeks of bereavement",
+  "judge_notes": [
+   "vc: rank 6/25 - Sharp reframe of the retention risk from heirs to widows; easy pilots with a clear ROI, but the TAM is limited.",
+   "operator: rank 2/25 - Sharp non-obvious insight, manual $2.5K pilot, retention is a real advisor budget line, reachable buyer.",
+   "contrarian: rank 1/25 - Non-obvious target (spouse, not heirs), clear buyer ROI, $2.5K hand-run pilot, real wealth-transfer shift."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "Empathy (LifeVault + Loss Support)",
+    "url": "https://www.empathy.com/lifevault",
+    "what_they_do": "AI-assisted estate/legacy vault (assets, documents, wills, legacy letters) plus bereavement navigation, sold through financial institutions, insurers and advisors. The LifeVault page pitches advisors on multigenerational retention of AUM and cites '90% of heirs leave their parents' financial advisor' (vendor claim). This is the closest analogue to the idea: it links a household vault, loss support and advisor retention.",
+    "scale_or_funding": "$162M+ raised (self-reported at https://www.empathy.com/about); investors include Greycroft, Index Ventures, Adams Street. Customers include MetLife, Guardian, Prudential, New York Life, Securian, Voya. Its Empathy Alliance lists Citi, TIAA and MassMutual. Focus is large insurers and financial institutions, not small independent RIAs.",
+    "overlap": "direct"
+   },
+   {
+    "name": "Everplans (Enterprise / advisor channel)",
+    "url": "https://www.everplans.com/enterprise",
+    "what_they_do": "Co-branded digital vault for financial institutions and advisors, giving access to documents and accounts 'in case of an emergency or death'. It has a 'deputy sharing' feature for the next generation and a pitch to 'build a moat around your business'. Its content library covers settling an estate and grief support. The enterprise page shows no scheduled survivor outreach and no dashboard of which couples have done a drill.",
+    "scale_or_funding": "Funding not found in this research. Long-running player (est. about 2014) with FI/advisor distribution.",
+    "overlap": "direct"
+   },
+   {
+    "name": "Trustworthy (Family Operating System)",
+    "url": "https://www.trustworthy.com/advisors",
+    "what_they_do": "Advisor-branded client vault and portal with auto-organization of documents, permissioned family sharing and a certified-expert program for advisors and estate attorneys.",
+    "scale_or_funding": "Priced at $10 per client per year, billed monthly (advisor page). Funding not verified. This sets a price anchor far below the idea's $300-700 per household.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Wealth.com",
+    "url": "https://www.wealth.com/",
+    "what_they_do": "AI estate-planning platform for advisors: document creation, scenario builder, 'Ester' AI extraction of estate documents, and a client vault. Its site shows no survivor or widow workflow. It could add one easily.",
+    "scale_or_funding": "Privately owned. Its site lists Google Ventures, Citi and Charles Schwab as backers. Widely adopted by advisors.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Vanilla",
+    "url": "https://www.justvanilla.com/",
+    "what_they_do": "Estate-planning platform for advisors: Estate Health Check gap analysis across a book, document builder, AI plan summaries and attorney-backed abstraction. It has no visible death, survivor or heir-retention workflow.",
+    "scale_or_funding": "Funding not verified. Pricing by demo.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Asset-Map",
+    "url": "https://www.asset-map.com/",
+    "what_they_do": "Visual one-page household financial map and relationship maps for advisors. It could be used to spot single points of failure but has no survivor-specific features.",
+    "scale_or_funding": "Established advisor-tech vendor. Funding not verified.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "eMoney Advisor (Fidelity)",
+    "url": "https://www.emoneyadvisor.com/",
+    "what_they_do": "Dominant planning platform with Monte Carlo and cash-flow tools. No survivor-readiness or widow-retention feature appeared on its homepage. It is a plausible incumbent-feature risk because it already holds household data.",
+    "scale_or_funding": "Large incumbent owned by Fidelity. Not verified further.",
+    "overlap": "adjacent"
+   }
+  ],
+  "white_space": "Nobody found sells the specific wedge: a facilitated, scheduled couples rehearsal of the first spouse's death, run by the advisor's team. That means simulating each spouse's death in turn with the surviving spouse actually doing the tasks; a survivor-point-of-view audit of titling, beneficiaries, autopays and password single points of failure; pre-agreed day 3/14/45/90 advisor check-ins; and a firm dashboard of drill completion and exposure. Vaults (Empathy, Everplans, Trustworthy) and estate-document platforms (Wealth.com, Vanilla) store information and generate documents, but their pages describe no behavioral ritual, no survivor-POV stress test and no post-death outreach cadence. Independent RIAs at $150M-$2B AUM are also not Empathy's core buyer (insurers, banks and big wealth firms). Caveats: I did not confirm that Empathy lacks scheduled outreach (its Connect page 404'd), and I could not check consultant-led widow-retention programs (see the note under evidence_of_demand). The software layer is commoditized (Trustworthy at $10 per client per year), so the defensible white space is the ritual, the audit method and the outreach cadence, not the vault.",
+  "evidence_of_demand": "Partial. The market-size claim is verified, and demand for a paid solution at the proposed price is not.\\n\\nWhat supports the idea:\\n- Cerulli's release (https://www.cerulli.com/press-releases/cerulli-anticipates-124-trillion-in-wealth-will-transfer-through-2048) states '$54 trillion will be passed on to spouses' and 'nearly $40 trillion of these spousal transfers will be going to widowed women', calling it 'a massive need, and opportunity, for providers'. So the idea's $54T and $40T figures check out.\\n- Vendors already sell 'retain the transfer' to advisors. Empathy has raised $162M+ and its LifeVault page pitches advisors on inheritance-driven attrition (https://www.empathy.com/lifevault, https://www.empathy.com/about). Everplans pitches legacy planning as 'a moat' (https://www.everplans.com/enterprise). Trustworthy sells advisor-branded vaults at $10 per client per year (https://www.trustworthy.com/advisors). Advisors and institutions do spend on this problem.\\n- Cerulli (https://www.cerulli.com/press-releases/rias-must-offset-asset-churn-with-dedicated-growth-efforts): RIAs see 2-5% annual asset attrition, and more than half of RIA clients are 50 or older.\\n\\nWhat is not supported:\\n- The claim that advisors lose most widows within a year was not verified. The only figure I found is Empathy's '90% of heirs leave' (about heirs, not widows, and from vendor marketing).\\n- Willingness to pay $300-700 per household per year is unproven. The vault comps are about $10 per client per year, so the price has to rest on the drill as a service.\\n- I found no forum complaints, RFPs or regulatory mandates.\\n\\nLimits of this research: the WebSearch budget (200 calls) was exhausted, so only direct page fetches were done. GitHub searches for open-source tools returned nothing relevant. Searches for Crunchbase, YC, Product Hunt and TechCrunch listings, widow-retention consultants and practitioner forums were not run. Treat 'nobody sells the drill' as unconfirmed until those are done.",
+  "kill": false,
+  "kill_reason": "n/a",
+  "sharper_angle": "Do not build a vault or a general 'survivor kit', because that layer is already sold by Empathy, Everplans and Trustworthy. Sell a service-led 'Survivor Readiness' program for independent RIAs that runs on top of whatever vault the firm already uses. The core is a facilitated 60-90 minute couples drill where the non-primary-finance spouse (usually the wife) actually performs the first-30-days tasks, such as finding accounts, logging in, and keeping autopays and bills running. The drill produces a survivor-point-of-view findings report covering single points of failure in passwords and account knowledge, titling and beneficiary gaps, and unknown accounts. It also locks in pre-agreed advisor touchpoints at day 3, 14, 45 and 90, delivered as CRM workflow templates for Wealthbox, Redtail or Salesforce. Price per completed household drill (for example $500-1,000, or a firm annual license), not per seat. Give the principal a book-level dashboard of couples drilled, findings closed and top exposures. Use the drill as a client-event and prospecting asset, and offer white-label collateral for spouses and adult children. Prove it first with 3-5 firms using manual drills, measuring time-to-locate-accounts and findings per couple. Before committing, run the searches that budget cut off: look for widow-retention coaches and practice-management consultants, check whether Empathy Connect or Everplans automate survivor outreach cadences, and find a verifiable widow-attrition statistic."
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "title": "Family Bank: Bank of Mom and Dad, Papered",
+ "angle": "2",
+ "one_liner": "A family office's real job is governance and records, not investing; for $20/mo, give ordinary parents and adult children a promissory-note, autopay and sibling-fairness ledger for the money that already flows between them.",
+ "customer": "Parents aged 55-75 who lend or give money to adult children (down-payment help, car, tuition, debt payoff, business start), sold as a pair with the adult child (28-45). Elder-law attorneys, mortgage brokers and credit unions are referral channels.",
+ "problem": "Family lending is handshake-based. Zero-interest loans over $10k invite imputed-interest questions. Gifts above the $19,000 annual exclusion (2026) need Form 709 filings. Medicaid's 60-month look-back treats gifts and forgiven loans as transfers. Mortgage lenders want documented gift letters. Siblings fight at inheritance over who got what because nobody kept records. NAR's 2025 profile shows the median first-time buyer is 40 and 22% received a gift or loan from relatives or friends.",
+ "solution": "A guided flow decides gift vs loan and generates a note at or above the AFR (August 2026: 4.10% short, 4.35% mid, 4.92% long). ACH autopay collects and pays, and both sides get annual interest statements. A December 'forgiveness engine' forgives up to the exclusion with proper letters. A sibling ledger records every advancement so estates can equalize. Flags fire for Form 709 and Medicaid look-back exposure, and there is a mortgage-ready gift-letter generator plus one-click export to the family's estate attorney. Attorney review is an add-on.",
+ "why_now": "Median first-time buyer age hit 40 (a record), housing costs push more family help, and long-term-care costs make the Medicaid look-back a live worry for boomer parents. Instant-payment and bank-linking rails make autopay cheap. The 2026 federal estate exemption is $15M, so for most families the value is peace and records, not tax planning.",
+ "revenue_model": "$20/mo per family (up to 3 active loans); $49 document packs for the free-to-paid funnel; $149 attorney review add-on with referral fees; optional servicing fee; later, a pooled family reserve product.",
+ "non_obvious_insight": "The killer feature is not the loan, it is the sibling ledger. Most family money fights are about unequal treatment nobody can prove, and family offices solve this with an advancement ledger that ordinary families never get. The loan-vs-gift label is also the pivot point for tax and Medicaid consequences, so classification is the paid moment.",
+ "first_30_days": "Ship a free AFR calculator and note generator aimed at 'family loan agreement' searches, and sell $49 document packs. Convert 5% to the $20/mo servicing tier. Line up 3 elder-law attorneys who receive leads and review notes. Target 50 paying families.",
+ "outside_box_score": 7,
+ "source": "wild:g3+g4",
+ "kind": "wild",
+ "id": "I0378"
+}

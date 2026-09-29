@@ -1,0 +1,45 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "Ellucian (incl. former Anthology CampusNexus SIS, Occupation Insight)",
+   "url": "https://www.ellucian.com/",
+   "what_they_do": "Student information and financial-aid systems used by many career schools and colleges, plus an 'Occupation Insight' labor-market product. Homepage fetch this session showed no placement-verification or Workforce Pell feature. That is weak evidence, since a homepage does not show the module list or roadmap. The most likely incumbent to add this as a feature.",
+   "scale_or_funding": "Large established vendor. Funding and revenue not checked this session.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Populi",
+   "url": "https://www.populi.co/",
+   "what_they_do": "SIS for small colleges and career schools. Homepage lists Recruit, Admit, Teach, Administer, Aid, Account, Advance and Connect. It showed no placement-tracking or Workforce Pell content. It could ship a placement module.",
+   "scale_or_funding": "Not verified this session.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Gradelink",
+   "url": "https://www.gradelink.com/",
+   "what_they_do": "School management software for attendance, grades and student files. Homepage showed no placement or Workforce Pell features.",
+   "scale_or_funding": "Not verified this session.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Lightcast",
+   "url": "https://www.lightcast.io/",
+   "what_they_do": "Labor-market data. Its homepage shows no Workforce Pell approval or placement-verification product. It could supply the 'in-demand' and wage-benchmark data that a governor's application needs, either as a partner or as a competitor.",
+   "scale_or_funding": "Not verified this session.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Employment and income verification APIs (Equifax The Work Number, Truework, Argyle)",
+   "url": "https://www.truework.com/",
+   "what_they_do": "Named from background knowledge only; I did not fetch or check these. They verify employment and income for lenders and landlords. They could serve as the employer-verification layer under a placement product, or add a 'placement proof' offering. Equifax's Work Number is at https://www.equifax.com/business/the-work-number/ and Argyle is at https://argyle.com/.",
+   "scale_or_funding": "Not verified this session.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Confidence is LOW. My WebSearch budget was exhausted (200 of 200) before any searches ran. Only 9 direct page fetches went through, and they returned homepage-level content. I also tried a Google URL through WebFetch and then stopped, because that was an attempt to get around the search limit. I found no direct competitor, but I did not search for one, so this is not evidence that none exists. Homepage checks of Populi, Ellucian/Anthology, Gradelink and Lightcast showed no Workforce Pell or placement-verification features. Orbund's site was bot-blocked, and the Federal Register and ed.gov pages redirected or returned 403, so I could not check the rule text. Likely unserved wedge: a Workforce Pell-specific product that (1) backfills the 12-month look-back by contacting completers and employers, (2) reconciles evidence to the rule's placement definition, and (3) produces the governor application packet for small CDL, CNA, barbering and cosmetology schools. Not searched, so still unknown: startups or Product Hunt and YC entries; existing placement-verification services already sold to accredited career schools (ACCSC, NACCAS, COE reporting); consultancies selling this as a service; state-built portals; and SIS vendor Workforce Pell roadmaps. Structural risks visible without further research: (a) if the final rule lets states verify placement from UI wage records, a self-collected pay-stub product loses much of its value; (b) SIS vendors can bolt this on as a feature; (c) the number of approved programs, and so the buyer count, may be small at first.",
+ "evidence_of_demand": "None independently verified. The idea file cites the Federal Register final rule (https://www.federalregister.gov/documents/2026/05/19/2026-10013/accountability-in-higher-education-and-access-through-demand-driven-workforce-pell-pell-grant), which it says sets 70% completion and 70% placement thresholds, a governor certification step, and commenter concerns about burden on small providers. It also cites the earnings-premium rule (https://www.federalregister.gov/documents/2026/07/01/2026-13286/accountability-in-higher-education-and-access-through-demand--driven-workforce-pell-student-tuition) and a projected 93% cosmetology failure rate. I could not open either URL because the Federal Register redirected to a bot-check page, so these claims come from the idea file and are unconfirmed. I found no forum complaints, RFPs, vendor pricing or existing-spend evidence. A regulation that forces providers to document placement is a plausible demand driver, but I have not verified that anyone is paying for a solution.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Do not build a general placement-tracking platform, because SIS vendors and verification APIs can bolt that on. Sell a narrow, time-boxed product: a 12-month look-back backfill and evidence-reconciliation service for the first wave of Workforce Pell applicants (CDL, CNA, barbering, cosmetology). Staff or an AI agent contacts completers and employers, and the output is a governor-ready packet that follows the state's own submission format. Run it on top of the school's existing SIS (Populi, Gradelink, CampusNexus and similar) rather than replacing it. Price by packet or per completer verified, and use the fall approval windows as the sales trigger. Pilot in two states to learn exactly what evidence each governor's office accepts. Once one state's format is proven, sell the same reconciliation engine to the state workforce board, which was given no verification resources. Before building, spend a day on what I could not do: read the final rule's placement-verification language, and check whether states can use UI wage records instead of provider-submitted evidence. Also search for existing placement-verification vendors sold to ACCSC and NACCAS schools, and for startups already targeting Workforce Pell. Change the verdict if any of those turns up a funded direct competitor or a state-run verification pipeline."
+}

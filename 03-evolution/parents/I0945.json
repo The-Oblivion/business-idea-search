@@ -1,0 +1,98 @@
+{
+ "title": "Vacant-Unit Meter Watchdog and Insurance Vacancy Log",
+ "one_liner": "Uses utility smart-meter data that owners already have rights to, so PMs can catch squatters, leaks and freeze risk in empty units within hours, without installing any hardware.",
+ "customer": "Property managers and owners of single-family and 2-to-20-unit portfolios (100 to 2,000 doors). They already pay the utilities on vacant units and carry standard dwelling or small-building policies with a vacancy clause. Buyer is the PM's ops director or the owner. Secondary buyers later are E&S and landlord-program insurers.",
+ "problem": "When a unit is occupied, the tenant is the sensor and tells you about leaks. When it is vacant you are blind for 20 to 60 days. Water damage, squatters, stolen copper, AC left running and burst pipes all happen in that window. Most property policies restrict vandalism, water damage and theft after roughly 60 days of vacancy, and the claim gets denied or cut exactly when the loss is biggest. Squatter removal is also time-critical: in many states an intruder found on day 2 is a police trespass matter, while the same person on day 30 needs a months-long court eviction. Walk-throughs are weekly at best, and the maintenance tech skips them when busy.",
+ "solution": "Vacancy Vitals connects to interval electric and water data through owner-authorized utility APIs (Green Button Connect, or aggregators like UtilityAPI). The owner's account is usually the one active during vacancy, so no tenant consent is needed. Rules fire on patterns: continuous 24/7 water flow (leak), electric baseline above the empty-unit norm (someone living there, a crypto miner, a grow), a heating or cooling setpoint far outside range (pipe-freeze or mold risk), and a sudden drop to zero in a unit that should be running HVAC. Alerts go by text to the on-call tech with a one-tap 'send someone' button. The product also generates a time-stamped weekly vacancy-inspection log (data check plus a tech photo check-in) formatted for carriers' vacancy-permit or inspection conditions. That log is what preserves coverage.",
+ "why_now": "Anti-squatter laws were passed in a wave in 2024 and 2025 (for example Florida and Georgia), which makes early detection more valuable. Smart-meter penetration passed roughly 70% of US electric customers. Insurers have been tightening on water-damage and vacancy exposure for several years. AI-based anomaly detection on interval data is now cheap. (Current state-by-state anti-squatter rules and utility API coverage should be verified before launch.)",
+ "revenue_model": "$4 to $7 per vacant-unit-month on usage, or a flat $1 to $2 per door per month portfolio subscription. Later, insurer-paid or insurer-discounted programs: the carrier pays a fee per monitored door in exchange for lower loss ratios and a vacancy-clause waiver.",
+ "non_obvious_insight": "The cheapest sensor for a vacant house is the meter the utility already installed, and the account is in the owner's name during vacancy. Nobody in proptech treats owner-account utility data as a security and insurance-compliance feed. They sell $60 leak sensors and cameras instead. The other secret is legal timing. The value is not detecting the squatter, it is detecting them in the first 48 hours, when the law treats it as trespass rather than a tenancy.",
+ "first_30_days": "Recruit 3 to 5 SFR or small-multifamily PMs, offer a free 'backtest', and pull 12 months of interval data for units that were vacant. Show them the incidents the tool would have caught. These are usually a few leaks, a few unauthorized occupants and several HVAC-left-on units, each worth $1,000 to $15,000. Build a UtilityAPI-based prototype with three rules, text alerts and a weekly PDF log. Charge $99 per month per portfolio during the pilot, then convert to per-unit pricing. In parallel, talk to two independent insurance agents who write landlord programs, to learn the exact vacancy-permit language and to get a warm intro for the carrier channel.",
+ "outside_box_score": 7,
+ "source": "persona:p1-8",
+ "kind": "persona",
+ "id": "I0945",
+ "tournament": {
+  "score": 0.905,
+  "overall_rank": 116,
+  "cluster": "Condition monitoring for asset owners and their service contractors",
+  "judge_notes": [
+   "contrarian: rank 3/25 - Owner-account meter data as a squatter, leak and insurance-vacancy feed is genuinely overlooked; backtest sells itself.",
+   "vc: rank 3/25 - Owner-account meter data as cheap vacancy sensor is non-obvious; insurance vacancy-clause log gives concrete ROI and easy backtest pilot.",
+   "operator: rank 6/25 - Clever no-hardware owner-account data insight, insurance vacancy-log wedge; backtest hook works but ARPU is low."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "Arcadia (utility data platform)",
+    "url": "https://www.arcadia.com/",
+    "what_they_do": "Utility bill and interval data API (Arc) that aggregates utility data. Lists Property Management as a use case and has an 'Audit & Anomaly Detection' product. It is aimed at enterprise energy and sustainability teams, not vacant-unit security or insurance logs. It is the closest data-layer player and could add a vacancy-alert rule cheaply.",
+    "scale_or_funding": "About 4.5M meters under management (from its homepage). Venture-backed and well funded; exact funding not verified in this session.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "UtilityAPI",
+    "url": "https://utilityapi.com/",
+    "what_they_do": "Developer API for owner-authorized utility data (Green Button Connect and scraping). It is an enabler and likely a supplier to this idea, not a competitor. Its pricing page lists scheduled monitoring at $2.40 to $30 per meter per month. Its site markets to solution providers and energy programs, not property managers, and does not state water coverage.",
+    "scale_or_funding": "Small, bootstrapped-style API vendor; funding not verified. Pricing at https://www.utilityapi.com/pricing",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Wint Water Intelligence",
+    "url": "https://www.wint.ai/",
+    "what_they_do": "AI leak detection and automatic shutoff for multifamily, commercial real estate and hospitality, with a 24/7 control center and a water-damage warranty programme backed by insurers. It requires its own flow-reading hardware. It owns the 'water damage plus insurer' story for larger buildings but does not do vacancy-specific or squatter monitoring.",
+    "scale_or_funding": "$36M Series D, per its site.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "SmartRent",
+    "url": "https://www.smartrent.com/",
+    "what_they_do": "Hardware and software platform of locks, thermostats and leak sensors for multifamily and single-family rentals. The homepage cites a client that cut water damage 50% and energy savings of about 20%. It is the incumbent for vacant-unit protection through in-unit sensors and thermostats, but it needs installed hardware and is aimed at larger operators.",
+    "scale_or_funding": "Publicly traded (NYSE: SMRT, from my background knowledge, not verified in this session); hundreds of thousands of units.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Minut",
+    "url": "https://www.minut.com/",
+    "what_they_do": "Battery-powered home sensor for noise, smoke, occupancy, temperature, humidity and mold risk, plus a water leak sensor and cellular gateway. It is aimed at vacation rentals, hotels and student housing and suggests heating and cooling be turned off between guests. It is hardware-based and has no insurer vacancy-log feature.",
+    "scale_or_funding": "Venture-backed (Sweden); funding not verified.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Flume (Flume 2 water monitor)",
+    "url": "https://www.flumewater.com/",
+    "what_they_do": "Clamp-on water meter monitor with leak alerts by app, text or email, priced at $149 to $269 plus a subscription. Its site lists utility and insurance partner programs. Consumer and homeowner focused, single-unit hardware; a hardware workaround to the same water-leak problem.",
+    "scale_or_funding": "Venture-backed consumer IoT company; funding not verified.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Rently",
+    "url": "https://use.rently.com/",
+    "what_they_do": "Self-guided tours plus smart home devices, access control and cameras for property managers, with heavy use on vacant and turn units. The homepage does not mention water or utility monitoring, or an insurance vacancy log. It is a possible channel or partner, and it could add vacancy alerts as a feature.",
+    "scale_or_funding": "Established proptech; funding not verified.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Conservice / EnergyCAP (utility bill management)",
+    "url": "https://www.conservice.com/",
+    "what_they_do": "Utility billing, meter management and expense analytics for multifamily portfolios. Neither site describes vacant-unit anomaly alerts or insurance vacancy compliance. They already hold portfolio utility data and PM relationships, so they are the most plausible incumbents to add a vacancy rule set. EnergyCAP: https://www.energycap.com/",
+    "scale_or_funding": "Established, large customer bases; funding not verified.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Bidgely (utility-side smart-meter analytics)",
+    "url": "https://www.bidgely.com/",
+    "what_they_do": "Appliance-level disaggregation of AMI data sold to utilities (50+ deployments). No vacancy, occupancy or property-manager product is described. It shows the underlying technique (inferring what is running from interval data) works, and it could be extended to a landlord product.",
+    "scale_or_funding": "Venture-backed; funding not verified.",
+    "overlap": "adjacent"
+   }
+  ],
+  "white_space": "I found no product that does what this idea proposes: rules on owner-authorized utility interval data to detect squatters, unauthorized occupancy, leaks and HVAC problems in vacant units, then produce a carrier-formatted vacancy-inspection log with no installed hardware. The alternatives are hardware (Wint, SmartRent, Minut, Flume), utility data plumbing (Arcadia, UtilityAPI), or bill-management tools (Conservice, EnergyCAP). None of their pages pitch vacant-unit security or insurance vacancy compliance. Three things are genuinely unserved: (1) electric-baseline occupancy detection in a vacant unit, which the water-focused players cannot do; (2) an inspection log formatted for carrier vacancy-permit conditions; (3) small portfolios of 100 to 2,000 doors, which Wint and SmartRent do not serve well. I could not find how commonly PMs use utility-supplied continuous-flow leak alerts (water utilities with AMI portals, my background knowledge, unverified). Research limits: the WebSearch budget was used up, so no Crunchbase, YC, Product Hunt or forum searches were possible. The verdict rests on about 20 direct page fetches and background knowledge, and the absence of a direct competitor is not proven. Main risks: (a) UtilityAPI lists $2.40 to $30 per meter per month for scheduled monitoring, so on a $1 to $2 per door or $4 to $7 per vacant-unit-month price, data cost could exceed revenue unless you use free Green Button Connect direct integrations or price higher; (b) interval water data through third-party APIs is thin, because most water utilities have no Green Button Connect, and leaks are the biggest loss, so the water rule may only work in a few metros; (c) each owner must authorize each utility account, a real onboarding cost at 100 to 2,000 doors; (d) I found nothing showing carriers accept a monitoring log in place of a vacancy permit or endorsement, so the 'log preserves coverage' claim is unproven; (e) the '48-hour trespass window' insight is unverified. The Florida HB 621 page I fetched confirms sheriff removal and a July 1, 2024 effective date but gives no time threshold, and Wikipedia confirms Alabama's 2024 24-hour removal law, so statute-specific timing needs a lawyer.",
+  "evidence_of_demand": "Indirect only; I found no forum complaints, RFPs or direct spend on this exact product. Supporting signals: (1) Wint raised a $36M Series D for AI water-leak prevention in multifamily and claims a 90% insurance-claim reduction and an insurer-backed warranty programme (https://www.wint.ai/), so insurers and operators pay to prevent water loss. (2) SmartRent's homepage features a client that cut water damage 50% and says its thermostats give about 20% energy savings (https://www.smartrent.com/). (3) Flume sells water monitors at $149 to $269 plus a subscription, with insurance partner programmes, showing homeowners pay for leak alerts (https://www.flumewater.com/). (4) Minut sells sensors for mold risk and turning HVAC off between stays (https://www.minut.com/). (5) Anti-squatter legislation is real: Alabama passed 24-hour removal in 2024 (https://en.wikipedia.org/wiki/Squatting_in_the_United_States) and Florida HB 621 took effect July 1, 2024 with sheriff removal on complaint (https://www.flsenate.gov/Session/Bill/2024/621), which raises the value of early detection. (6) Arcadia lists property management as a use case and sells anomaly detection on utility data, which shows demand for portfolio-level utility analytics (https://www.arcadia.com/). None of this shows PMs paying for meter-based vacancy watching or carriers accepting a data-derived vacancy log. Insurance vacancy-clause pages I tried (III, Policygenius, NerdWallet, Steadily) returned 404, so the 60-day exclusion claim is unverified here, though it matches standard ISO homeowner and dwelling forms as I know them.",
+  "kill": false,
+  "kill_reason": "n/a",
+  "sharper_angle": "Reframe from 'watchdog for PMs' to 'vacancy verification from meter data', and lead with electric. (1) Wedge product: auto-enroll a unit when the PMS (AppFolio, Buildium, Yardi) logs a notice-to-vacate or move-out. Run electric-baseline rules, since water data is scarce and Wint, Flume and SmartRent already own the water-sensor niche, and use the data to catch unauthorized occupancy, crypto or grow loads, and HVAC left on or off. Add a water rule only where a water utility supports Green Button Connect or an AMI feed, and otherwise partner with a leak-sensor vendor rather than compete. (2) Fix data cost: build direct Green Button Connect and Smart Meter Texas-style integrations for the top 10 to 15 utilities instead of paying UtilityAPI at $2.40 to $30 per meter per month, or price at $8 to $15 per vacant unit-month. (3) Move the insurer channel up from 'later' to primary. Sell to E&S, landlord-program and vacant-dwelling MGAs, and to carriers' claims teams, a meter-verified vacancy-duration and occupancy record: at bind and renewal, to catch vacancy misrepresentation, and at claim time, to settle disputes over whether a home was vacant more than 60 days. The PM is then the free or cheap data source and the carrier pays per monitored door, which avoids the PM price ceiling. (4) Before building, get two carriers or MGAs to confirm in writing that a meter-derived log satisfies a vacancy-permit or inspection condition, and have a lawyer confirm state timing rules, since neither is verified here. (5) Rerun this check with unrestricted web search for direct competitors: query Crunchbase, YC and Product Hunt for 'vacancy monitoring', and check Yardi, RealPage, Entrata, Conservice and Arcadia roadmaps."
+ }
+}

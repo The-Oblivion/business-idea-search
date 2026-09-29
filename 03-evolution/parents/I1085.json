@@ -1,0 +1,147 @@
+{
+ "title": "Dry-Hole Atlas for Hydrogen, Helium, Geothermal",
+ "one_liner": "Re-read a century of scanned well logs and gas analyses, once treated as junk, to find natural hydrogen, helium and hot rock, and sell the resulting atlas to exploration companies by area of interest.",
+ "customer": "Junior exploration companies and VC-backed developers in natural hydrogen, helium and geothermal (and lithium-brine plays), plus land and mineral-lease advisors who need leads. They pay for subscriptions and area-of-interest data packs.",
+ "problem": "The US has millions of drilled wells. Old records include gas analyses, bottom-hole temperatures, water chemistry and mud-log shows, mostly recorded as incidental noise by oil and gas operators. They sit as scanned TIFFs and PDFs at state geological surveys and core repositories. New subsurface commodities need exactly this once-discarded information. Oil-and-gas data vendors index hydrocarbon fields, not hydrogen, helium or heat, and small explorers cannot afford to hire teams to dig through archives across 30 state surveys.",
+ "solution": "A scan-to-structured-data pipeline across public state survey archives. Extract gas composition (hydrogen, helium, nitrogen), bottom-hole temperature and depth, and brine chemistry. Geolocate every record, correct for known temperature-log biases, and publish a queryable map atlas with prospectivity layers per township or section. Sell by area of interest. Offer custom queries such as 'every well within 20 miles of this substation with more than 0.3% helium and temperature above 150 C at 3 km'.",
+ "why_now": "AI data centers are driving huge demand for clean firm power, and geothermal developers are raising large rounds and signing hyperscaler offtakes. Natural hydrogen exploration has attracted venture money and government attention. Helium supply has been unstable and prices volatile. Vision-language models now extract tables from old scans cheaply, and state surveys are increasingly open to releasing data.",
+ "revenue_model": "Subscriptions of 15-50k USD per year per company for a basin or state atlas, area-of-interest packs of 5-25k USD, custom data services, and, later, small overriding royalties or success fees on leases won using the data.",
+ "non_obvious_insight": "The value of data flips when the target commodity changes. A well that reported 'gas contains 40% hydrogen' in 1935 was a dud then, and it is a discovery lead today. Every incumbent data vendor is organized around the old commodity, so nobody re-reads the archive for byproducts. The archives are public and low-margin for the state agencies that hold them, so the moat is the extraction pipeline, cleaning and geological calibration, not data access.",
+ "first_30_days": "Pick one state survey with well-documented public scans and gas-analysis reports and one target commodity (helium or hydrogen shows are the easiest to demo). Build a proof-of-concept map for one basin using a few thousand well records. Cold-email about 30 junior exploration companies and geothermal developers with the map and one concrete lead they can check. Sell 3-5 area-of-interest packs at around 5k USD each, and ask for pre-payment for the next state.",
+ "outside_box_score": 7,
+ "source": "wild:s2-1",
+ "kind": "wild",
+ "id": "I1085",
+ "tournament": {
+  "score": 0.962,
+  "overall_rank": 52,
+  "cluster": "Novel environmental and infrastructure data from satellites and crowd-sensing",
+  "judge_notes": [
+   "operator: rank 6/25 - Genuinely non-obvious re-read of archives; $5k area packs sellable to a small, reachable buyer set.",
+   "vc: rank 2/25 - Data value flips with the target commodity; non-consensus and right; cheap to demo and sell area packs fast.",
+   "contrarian: rank 1/25 - Genuinely contrarian: old dud gas shows become leads when the target commodity flips. Real hydrogen, helium and geothermal boom, plus cheap scan extraction."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "USGS/BLM Natural Gas Compositional Analyses Dataset (free)",
+    "url": "https://www.sciencebase.gov/catalog/item/60f19169d34e93b36670519b",
+    "what_they_do": "Free, downloadable (CSV/Access) compilation of about 16,000 US well gas analyses, 1917-2021, with He, H2, N2, CO2 and hydrocarbons in mol %, plus lat/long, formation and API number where known. Built from the Bureau of Mines Federal Helium Program, the BLM, the USGS and state survey databases. A separate USGS helium-concentration dataset also exists. This is the single biggest substitute for the gas-analysis half of the pitch.",
+    "scale_or_funding": "Public, free, government-funded; published Sept 2021",
+    "overlap": "direct"
+   },
+   {
+    "name": "USGS Geologic Hydrogen Prospectivity Map Explorer",
+    "url": "https://www.usgs.gov/tools/geologic-hydrogen-prospectivity-map-explorer",
+    "what_they_do": "Free national prospectivity map for geologic hydrogen with 19 input layers and 7 integrated maps. It flags the Midcontinent and central California as high-prospectivity. It is regional, not well-level.",
+    "scale_or_funding": "Public, free (USGS Professional Paper 1900)",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "SMU / NGDS heat-flow and corrected bottom-hole-temperature database (now on the DOE Geothermal Data Repository)",
+    "url": "https://gdr.openei.org/submissions/1704",
+    "what_they_do": "Free download of heat-flow and gradient data for 44,000+ wells. It includes corrected bottom-hole temperatures for 30,000+ oil and gas wells. This already does the 'correct for known BHT bias' step for geothermal.",
+    "scale_or_funding": "DOE-funded, free; moved to open access in 2026",
+    "overlap": "direct"
+   },
+   {
+    "name": "Project InnerSpace GeoMap",
+    "url": "https://geomap.projectinnerspace.org/",
+    "what_they_do": "Free, global geothermal resource and suitability map built with Google. It uses millions of thermal data points, including legacy well temperatures. In South America, Petrobras supplied structured well-temperature data that was otherwise scattered across thousands of well reports.",
+    "scale_or_funding": "Nonprofit with Google partnership; global coverage completed",
+    "overlap": "direct"
+   },
+   {
+    "name": "Zanskar",
+    "url": "https://zanskar.com/",
+    "what_they_do": "AI geothermal developer. It tracked down and digitized long-forgotten analog subsurface datasets and trained models on them. It keeps the data exclusive and uses it to find and build its own plants, so it is a vertically integrated developer rather than a data seller.",
+    "scale_or_funding": "$115M Series C (Jan 2026), about $180M total equity (https://heatmap.news/climate-tech/zanskar-series-c)",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Koloma",
+    "url": "https://www.koloma.com/",
+    "what_they_do": "Natural hydrogen exploration company. It uses proprietary and legacy exploration data with analytics to narrow down prospects, and has almost certainly mined old well records in-house.",
+    "scale_or_funding": "About $245M round (https://www.canarymedia.com/articles/hydrogen/the-245m-bid-to-pull-clean-hydrogen-straight-from-the-earth); reported total around $400M",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "HyTerra",
+    "url": "https://hyterra.com/",
+    "what_they_do": "ASX-listed junior with 80,000+ acres of Kansas/Nebraska leases. It began by twinning historic wells with hydrogen and helium shows, then moved to proprietary geophysics. It is the archetypal target customer and shows the play already exploits legacy shows without any atlas vendor.",
+    "scale_or_funding": "Public junior; McCoy 1 well with up to 83-96% H2 (https://www.gasworld.com/story/hyterra-confirms-hydrogen-up-to-83-at-kansas-nemaha-project/2243371.article/)",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "MAX Power Mining (MAXX LEMI platform)",
+    "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/3108-cse/maxx/200534-max-power-advances-basin-scale-discovery-potential-with-multi-zone-natural-hydrogen-and-helium-intervals-at-bracken.html",
+    "what_they_do": "Junior explorer whose LEMI platform merges drilling, core, seismic and extensive legacy datasets to rank natural hydrogen and helium systems. This is another in-house version of the idea.",
+    "scale_or_funding": "CSE-listed junior",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Terra AI",
+    "url": "https://www.terraai.com/",
+    "what_they_do": "Generative subsurface modeling SaaS. It integrates geophysics, geochemistry and drilling data into probabilistic 3D models for mining, enhanced geothermal and carbon storage.",
+    "scale_or_funding": "$20M Series A, June 2026, led by Khosla with BHP Ventures (https://www.prnewswire.com/news-releases/terra-ai-raises-20m-to-accelerate-mineral-and-reservoir-exploration-to-meet-global-critical-mineral-and-energy-demands-302789531.html)",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "HyReveal (IORIGIN basin modeling)",
+    "url": "https://hyreveal.com/market---hydrogen-exploration",
+    "what_they_do": "Basin-modeling software for natural hydrogen and helium, founded by Viacheslav Zgonnik, author of the standard hydrogen-occurrence review. It can integrate existing datasets. It targets pure-play ventures and O&G operators.",
+    "scale_or_funding": "France 2030 government funding; small",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Heologic Group",
+    "url": "https://www.heologic.com/",
+    "what_they_do": "Helium-anomaly-based exploration and AI. It claims the largest digital subsoil helium-concentration database in the world and sells multi-resource exploration services covering helium, hydrogen and geothermal.",
+    "scale_or_funding": "Private, undisclosed",
+    "overlap": "direct"
+   },
+   {
+    "name": "NthDS",
+    "url": "https://nthds.com/",
+    "what_they_do": "AI digitization of legacy well files (mud logs, DST reports, core reports, wireline logs). It also runs a marketplace of 1.6M+ well LAS files at $70-80 per well. It has no hydrogen, helium or geothermal product today, but it owns the extraction capability and the O&G buyer relationships.",
+    "scale_or_funding": "Private, undisclosed",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Enverus (with TGS North American well data business, acquired July 2026)",
+    "url": "https://www.enverus.com/products/enverus-foundations-carbon-innovation/",
+    "what_they_do": "Incumbent oil and gas data vendor. Enverus Foundations covers hydrogen, helium, geothermal and DLE at project level, and its research team models natural hydrogen and helium economics. It bought the A2D well-log library and the TGS well data business, so it could add hydrogen and helium shows as a feature.",
+    "scale_or_funding": "Large private incumbent",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "WellScout AI",
+    "url": "https://wellscout.ai/",
+    "what_they_do": "Uses physics-informed neural networks on legacy well data to screen oilfield wells for geothermal conversion.",
+    "scale_or_funding": "Early-stage, undisclosed",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "EPRI Naturally-Occurring Hydrogen site and Kansas Geological Survey OFR 2025-59",
+    "url": "https://natural-hydrogen.epri.com/public/companies.html",
+    "what_they_do": "Free trackers of natural hydrogen companies and projects, plus the free Kansas gas-analysis research database (https://www.kgs.ku.edu/Publications/OFR/2025/OFR2025-59/index.html) compiled by David Newell. Both undercut a paid version of the easy layers.",
+    "scale_or_funding": "Free, nonprofit and state-funded",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "AKAP Energy, Wood Mackenzie and Rystad (market intelligence)",
+    "url": "https://www.akapenergy.com/post/natural-hydrogen-exploration-surges-with-123-companies-engaged-in-the-sector",
+    "what_they_do": "Subscription market intelligence on natural hydrogen and helium projects, companies and economics. It is not well-level lead data, but it is the same buyer's analyst budget.",
+    "scale_or_funding": "Established or small subscription vendors",
+    "overlap": "adjacent"
+   }
+  ],
+  "white_space": "The wedge that remains is narrow but real. Nobody found sells page-level, provenance-linked hydrogen, helium and heat evidence extracted from the unstructured parts of old well files. That means mud-log gas shows, drill-stem-test and production-test reports, driller notes such as non-flammable gas, and water-well gas, all at lease-block or section level. The free datasets (USGS/BLM, SMU/GDR, KGS) already cover the structured gas-analysis and corrected-BHT layers, so a paid product cannot rest on those. The USGS roughly 16,000 He-bearing points and the 30,000 corrected BHT wells are a free baseline that any paid product has to beat. The Paris Basin OCR study found only 26 wells with H2 detection out of about 5,000 in the database (0.5%), which suggests few real leads per basin. Unserved specifics: (1) the 20-30 state and provincial archives whose scans are not yet digitized, with a defensible per-record confidence grade (sampling method, air contamination, analytical era); (2) one integrated He, H2 and heat layer, where the players found each cover a single commodity; (3) delivery to small juniors, landmen and lease advisors who cannot fund in-house teams. Koloma, Zanskar, HyTerra and MAX Power already do this in-house, so the addressable buyers are the smaller players (AKAP counts 123 companies in natural hydrogen, Rystad counted 40) plus the lease and land side.",
+  "evidence_of_demand": "Partial and mostly indirect. I found no published price list or public purchase of a hydrogen/helium/heat atlas built from legacy wells. What exists: (1) Buyer count and money. Rystad counted 40 companies searching for natural hydrogen, up from 10 in 2020 (https://www.rystadenergy.com/news/white-gold-rush-pursuit-natural-hydrogen), and AKAP counts 123 (https://www.akapenergy.com/post/natural-hydrogen-exploration-surges-with-123-companies-engaged-in-the-sector). Zanskar raised $115M (https://heatmap.news/climate-tech/zanskar-series-c), Koloma about $245M (https://www.canarymedia.com/articles/hydrogen/the-245m-bid-to-pull-clean-hydrogen-straight-from-the-earth), Mantle8 EUR 31M (https://www.eu-startups.com/2026/05/frances-mantle8-raises-e31-million-to-fund-the-worlds-most-advanced-natural-hydrogen-exploration-and-drilling-campaign/), and Terra AI $20M (https://www.prnewswire.com/news-releases/terra-ai-raises-20m-to-accelerate-mineral-and-reservoir-exploration-to-meet-global-critical-mineral-and-energy-demands-302789531.html). (2) Proof that legacy data drives discovery. HyTerra's Kansas program began with historic hydrogen and helium shows (https://fuelcellsworks.com/2025/07/09/clean-energy/hyterra-advances-drilling-campaign-at-kansas-nemaha-hydrogen-project-with-strategic-third-well). Zanskar bought and digitized analog datasets and struck the most productive pumped geothermal well in the US (https://heatmap.news/climate-tech/ai-geothermal-discovery). Petrobras handed structured well-temperature data to Project InnerSpace (https://www.thinkgeoenergy.com/project-innerspace-completes-global-geothermal-resource-map-with-geomap-europe/). (3) Proof that people pay for digitized old well data: NthDS sells LAS files at $70-80 per well (https://nthds.com/), and Enverus bought the A2D well-log library (https://www.enverus.com/newsroom/enverus-acquires-a2d-well-log-library-from-tgs-connecting-subsurface-data-to-energy-decision-workflows/) and then TGS's North American well data business (https://www.tgs.com/well-data-products/geological-data). (4) Government spend on digitization by state surveys: $2M NGGDPP in 2026, $5K-200K per award (https://www.highergov.com/grant-opportunity/2026-national-geological-amp-geophysical-data-preservation-program-361151/). This is more a substitute than a customer. Counter-evidence: the academic OCR and LLM methods are public (https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2024GC011501, https://arxiv.org/pdf/2405.05438). I found nothing showing juniors budgeting $15-50k per year for this kind of data.",
+  "kill": false,
+  "kill_reason": "n/a",
+  "sharper_angle": "Do not sell a general atlas. Sell unstructured-evidence leads for one live fairway, with lease status attached. Start with the Midcontinent Rift and Nemaha corridor (KS/NE/OK, possibly MI and OH), where lease-taking is active now. Use VLM extraction to pull the things the free datasets omit: mud-log H2 and He shows, DST and production-test gas notes, driller remarks, and non-flammable or N2-rich gas indicators. Every lead links to the source page image, with a confidence score for sampling method, air contamination and analytical era. Overlay mineral ownership and lease availability at section level and sell to landmen, lease advisors and juniors as a list of sections to lease this month. Price per lead pack and lease-success fee rather than a per-basin subscription. Treat geothermal as a bolt-on, since SMU/GDR and GeoMap already give away corrected BHT and Zanskar is a competitor. Hedge by pitching the extraction pipeline to state surveys (NGGDPP funding) and to NthDS or Enverus as a data partner or acquirer. Validation test before building: ask 10 junior explorers or lease advisors to prepay for a $5k section-level pack. If fewer than 3 will, the demand is not there. As written (atlas from gas analyses and BHT), the idea should not be built, because the free USGS, SMU/GDR, KGS and GeoMap datasets cover those layers."
+ }
+}

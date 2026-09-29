@@ -1,0 +1,85 @@
+{
+ "title": "Aftermarket Support for Stranded DJI Fleets",
+ "angle": "boring-lucrative",
+ "one_liner": "Repair, rebuilt batteries, parts and firmware-independence retrofits for the many legally owned DJI drones that can no longer be replaced with new models.",
+ "customer": "Police and fire drone units, agricultural spray operators, land surveyors, roofing and solar inspectors, and small public-safety departments with grant money.",
+ "problem": "The FCC barred new DJI and Autel models in December 2025, US drone tariffs took effect in September 2026 (component tariffs follow in 2027), and China's export controls now cover motors, batteries, radios and sensors. Existing fleets stay legal to fly but face scarce parts and no assured US repair path.",
+ "solution": "A US repair depot with stocked parts, rebuilt batteries using allied-source cells, gimbal and camera swaps, and open flight-controller retrofits (ArduPilot/PX4) as a migration path. Offer a per-drone maintenance plan with predictive service, and trade-in credits toward US-made airframes, which also become a lead source for those makers.",
+ "why_now": "The December 2025 FCC action, September 2026 tariffs and export controls all landed within a year. The installed base is large and aging, and no one has a business focused on serving it.",
+ "revenue_model": "$150-800 per repair, $30-80 per drone per month for maintenance plans, battery and parts sales, and referral fees from US airframe makers on trade-ins.",
+ "non_obvious_insight": "Everyone debates who replaces DJI, while nobody serves the installed base for the next 5 years. Service earns higher margin than building a competing airframe, starts faster, and gives you the customer list every US-made airframe maker wants.",
+ "first_30_days": "Buy 20 broken Mavic and Matrice units on secondary markets and set up a bench. Pitch fixed-price maintenance plans to 30 sheriff drone units and agricultural spraying co-ops, and sell the first 10 plans.",
+ "outside_box_score": 5,
+ "source": "idea:logistics-robotics:all4",
+ "kind": "idea",
+ "id": "I0574",
+ "tournament": {
+  "score": 0.878,
+  "overall_rank": 145,
+  "cluster": "Aircraft and drone operators: maintenance, parts, permits and navigation",
+  "judge_notes": [
+   "vc: rank 7/25 - Real stranded installed base (public safety, ag spraying) and instant demand. Service-margin ceiling, low defensibility.",
+   "contrarian: rank 5/25 - Serve the installed base everyone ignores while debating replacements. Ag sprayers give real demand; quick bench start.",
+   "operator: rank 3/25 - Immediate cash-flow repair business with reachable ag-spray and sheriff customers. Low moat but the first 10 customers are easy."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "DJI (own repair, DJI Care, Authorized Service Centers via CarePro Technology Inc)",
+    "url": "https://www.dji.com/support/repair",
+    "what_they_do": "DJI runs online repair requests and a network of Authorized Service Centers. The US support page points customers to CarePro Technology Inc for repairs. This is the default repair path for every DJI fleet, but it is backlogged: an operator quoted at the UAV Expo panel (DroneXL, 2026-09-01) said repairs went from days to six weeks to about three months.",
+    "scale_or_funding": "Incumbent manufacturer. Owns the parts pipeline and the authorized-service channel.",
+    "overlap": "direct"
+   },
+   {
+    "name": "Drone Nerds (plus Drone Nerds Enterprise)",
+    "url": "https://enterprise.dronenerds.com",
+    "what_they_do": "Calls itself DJI's largest and most experienced authorized service center in the United States. It repairs Mavic, Matrice, Inspire, Phantom and Mini. It sells batteries and its own protection plans. The Enterprise arm lists Enterprise Drone Repair, Enterprise Drone Maintenance, Hot Swaps and an Always Flying program. It also sells Blue UAS and NDAA-compliant drones, which is the trade-in and lead-gen half of this idea.",
+    "scale_or_funding": "Established national reseller and service center. Funding not checked (Crunchbase not reachable).",
+    "overlap": "direct"
+   },
+   {
+    "name": "Dronefly",
+    "url": "https://www.dronefly.com",
+    "what_they_do": "Enterprise drone reseller with an RMA/repair intake, Dronefly Care extended warranty and financing. It publishes DJI-ban guidance that tells owners to stock batteries and spares, and it targets enterprise transition planning.",
+    "scale_or_funding": "Established reseller. Funding not checked.",
+    "overlap": "direct"
+   },
+   {
+    "name": "BRINC (Safeguard Program)",
+    "url": "https://brincdrones.com",
+    "what_they_do": "US-made public-safety drones with a Safeguard Program that includes hardware and software upgrades, unlimited repairs and replacements. It serves its own fleets, not DJI ones. It is a natural buyer of trade-in leads. The page fetched showed no DJI trade-in program.",
+    "scale_or_funding": "Venture-backed US drone maker. Amount not verified.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Skydio",
+    "url": "https://www.skydio.com",
+    "what_they_do": "The leading US-made enterprise and public-safety drone maker. It is the likely destination for migrating DJI agencies and is the kind of airframe maker that would pay for referrals. The page fetched showed no DJI trade-in or fleet-support program.",
+    "scale_or_funding": "Large venture-backed company. Amount not verified this session.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Anzu Robotics",
+    "url": "https://www.anzurobotics.com",
+    "what_they_do": "Sells the Raptor and Raptor T enterprise drones for public safety and mapping. The site fetched says nothing about DJI or servicing existing DJI fleets. It is a competing replacement airframe, not a service business.",
+    "scale_or_funding": "Not verified.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Unenumerated independent DJI repair and battery shops",
+    "url": "https://www.dji.com/support/repair",
+    "what_they_do": "Many small US repair and parts shops serve DJI drones. I could not list them because web search was capped, and the one guessed URL I tried (dronerepairshop.com) returned an error, so this competitor class is confirmed only by inference. No commercial ArduPilot/PX4 retrofit vendor for DJI airframes turned up in the ArduPilot docs or in GitHub searches.",
+    "scale_or_funding": "Fragmented, mostly small businesses. Not verified.",
+    "overlap": "direct"
+   }
+  ],
+  "white_space": "The claim that nobody serves the installed base is wrong. DJI/CarePro, Drone Nerds, Dronefly and small independents already repair DJI drones, and Drone Nerds already sells enterprise hot-swap and always-flying plans. The gap is capacity and guaranteed turnaround. Repair waits reportedly went from days to about three months (https://dronexl.co/2026/09/01/fcc-covered-list-panel-uav-expo-repair-times/), and replacement hardware takes 6-9 weeks. What looks unserved: (1) A US depot with a real SLA (about 72 hours) and loaner pools for Matrice, Mavic 3 Enterprise and Agras spray fleets, sold as overflow capacity to backlogged authorized centers and resellers as well as directly. (2) Agricultural spray operators: DJI has roughly 80% of US spray-drone sales and cumulative tariffs have tripled prices (about $20k to $100k), so these fleets have no affordable replacement (https://dronexl.co/2025/12/17/connecticut-ag-drone-law-tariffs-ban/). FCC docket 26-189 also targets economic-poison spraying drones for retroactive action. (3) Rebuilt batteries from allied-source cells: I found no one doing this at scale, but DJI smart-battery lockouts make it technically uncertain, and I could not check that. (4) Parts stockpiling ahead of the component tariffs that start 2027-02-09. (5) Buying retired fleets from agencies that are switching, for refurbish, resale and parts harvest; El Paso's chief said the department will dispose of its DJI equipment once replacements arrive. The open ArduPilot/PX4 retrofit has no precedent or demand signal that I found. It also does not remove the DJI camera, gimbal and radio modules, so it does not fix compliance. It is the weakest part of the idea.",
+  "evidence_of_demand": "Real but mixed evidence, and the strongest signals are for operators, not police. FOR: (a) Repair waits reportedly rose from days to six weeks and then about three months, and replacement drones take 6-9 weeks; DroneDeploy says the transition will take years and not months and enterprises are asking for written transition plans: https://dronexl.co/2026/09/01/fcc-covered-list-panel-uav-expo-repair-times/ (b) DroneXL coverage frames the medium-term owner risk as parts, batteries and repair rather than a remote kill switch: https://dronexl.co/tag/dji/ (c) Tariffs took effect 2026-09-03 (25% on most drones, 100% on thermal and 55+ lb) and component tariffs follow 2027-02-09: https://dronexl.co/2026/09/01/drone-tariffs-september-3-price-impact/ (d) Ag: DJI holds about 80% of the US spray-drone market, prices have tripled, and FAA ag registrations went from about 1,000 to 5,500 between January 2024 and mid-2025: https://dronexl.co/2025/12/17/connecticut-ag-drone-law-tariffs-ban/ (e) Existing fleets keep firmware and security updates through 2029-01-01 under the FCC waiver, so fleets can stay flying for roughly 2-3 years: https://dronexl.co/2026/05/11/fcc-extends-foreign-drone-firmware-waiver-2029-da-26-454/ (f) Dronefly tells owners to stock batteries and spares: https://www.dronefly.com/blogs/news/complete-guide-dji-drone-ban (summary came from the fetch tool, not a direct quote I checked). AGAINST: (a) Police buyers may be leaving rather than maintaining: El Paso spent about $1.2M on DJI with no support agreement and plans to dispose of it once its $4.6M replacement grant (with five-year maintenance) lands: https://dronexl.co/2026/08/05/dji-dfr-dock-playbook-fcc-ban/ (b) Docket 26-189 would pull authorizations retroactively for thermal, spray and dock drones such as the Matrice 4T and Dock 3: https://dronexl.co/2026/09/03/dji-fcc-comments-military-grade-drone-ban-docket-26-189/ I found no RFPs, no regulation forcing service spend, and no published price points for a $30-80 per month maintenance plan.",
+  "kill": false,
+  "kill_reason": "n/a",
+  "sharper_angle": "Do not launch as a general DJI repair shop with retrofits. Launch as a high-uptime repair depot and overflow-capacity partner for spray-drone and enterprise fleets. Start with agricultural operators in one spray region, using the repair-time backlog as the pitch: a 72-hour turnaround guarantee, a seasonal loaner pool and pre-tariff parts inventory. Sell the same capacity white-label to DJI Authorized Service Centers and resellers such as Drone Nerds and Dronefly, who are the backlogged incumbents. Source inventory and parts donors by buying retired DJI fleets from agencies switching to Skydio, BRINC and others, and resell the refurbished units to operators. Take trade-in referral fees from US airframe makers as a side stream. Treat allied-cell batteries as a validated R&D track and drop the ArduPilot/PX4 retrofit from the launch story. Before building, confirm that maintenance on covered equipment is fundable with public-safety grants and that docket 26-189 will not restrict sale of refurbished units or import of parts; I could not verify either. Confidence is moderate: WebSearch hit its 200-call cap, so I could not check Crunchbase, YC or Product Hunt or enumerate independent shops, and the evidence comes from direct page fetches, mostly DroneXL."
+ }
+}

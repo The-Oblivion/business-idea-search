@@ -1,0 +1,98 @@
+{
+ "title": "Ruling-Backed Tariff Engineering for Product Brands",
+ "one_liner": "A productized design-and-ruling service that helps mid-market brands legitimately re-spec products across tariff-line boundaries and locks the result in with a CBP binding ruling.",
+ "customer": "Mid-market consumer and industrial product brands with $10-100M in revenue and at least $1-2M in annual duty spend: footwear, bags, apparel accessories, home goods, hardware, e-bike and powersports parts, and other products with metal components.",
+ "problem": "Adjacent tariff lines can differ by tens of percentage points, and the 2025-26 regime made the gaps bigger. Section 232 metals lists keep expanding and being recalibrated, and copper smelt-and-cast reporting started July 30, 2026. Yet brokers are asked for a classification only after the tooling is cut and the design is frozen. Product teams never learn that a small change in materials, construction, packaging or set composition can legally change the line. Importers also avoid asking CBP for rulings, assuming it is slow or risky.",
+ "solution": "Sell two steps. First, a fixed-fee HTS boundary audit: map the top SKUs to the classification tests, spec thresholds and comparable public CBP rulings that determine the line, and list the small design or packaging changes that would legitimately move each one. Second, an engineering sprint with the supplier that documents the changed product and files a CBP binding ruling request under 19 CFR Part 177. The deliverable is a ruling letter, which is a lasting shield for reasonable-care defense. Add a ruling-watch subscription that alerts brands when CBP issues a ruling on competitor or adjacent products.",
+ "why_now": "The IEEPA reversal shifted the burden to product-specific tariffs (Section 232 and 301) where design details matter. The July 2026 copper reporting and the rewritten 232 valuation rules make product composition a compliance and cost variable. Brands are in a rare window when rate spreads are large enough that redesign pays for itself in one production run.",
+ "revenue_model": "$4,500 boundary audit for five SKUs; $18-35k per engineering sprint including ruling preparation and filing; optional success fee of about 10% of first-year duty savings, capped. Ruling-watch subscription of $500-$2,000 a month.",
+ "non_obvious_insight": "Classification turns on physical facts of the article as imported, and those facts are set by designers, not brokers. The most valuable document in a tariff war is a dull letter from CBP's ruling office, and requests cost nothing to file. Tariff engineering is legal when the product really changes, and it requires evidence, which is where a broker's habit of documenting everything matters. Trade lawyers do this ad hoc for large clients, but nobody packages it for mid-market brands at design stage.",
+ "first_30_days": "Pick two verticals with high design freedom and large rate spreads. Use public CBP rulings to build a boundary map for a prospect's own top SKU as a free sample. Cold-email 40 product, sourcing and COO leads at $10-100M brands with their own sample map. Sell three $4,500 boundary audits and use them to select the first ruling filings. Sign a trade lawyer as reviewing counsel on the ruling requests.",
+ "outside_box_score": 6,
+ "source": "persona:p1-1",
+ "kind": "persona",
+ "id": "I0769",
+ "tournament": {
+  "score": 0.932,
+  "overall_rank": 87,
+  "cluster": "Tariff cost, classification and customs for small importers",
+  "judge_notes": [
+   "operator: rank 2/25 - Huge duty spend, $4.5k entry audit is easy to buy, reachable by cold outbound; ten customers in six months plausible.",
+   "vc: rank 3/25 - Design-stage tariff engineering plus free CBP rulings is non-obvious; strong ROI and fast first customers.",
+   "contrarian: rank 4/25 - Design-stage tariff engineering packaged for mid-market with a binding ruling as the asset. Sellable fast at $4.5k."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "Tarifflo",
+    "url": "https://www.tarifflo.com/",
+    "what_they_do": "AI audit of past import entries for classification, rate-stacking and origin errors. Files post-summary corrections through partner brokers. Contingency-only pricing with no upfront fee, sold against traditional $250-500/hour consultants. Verified by page fetch. It is backward-looking recovery, not design-stage tariff engineering or ruling filing.",
+    "scale_or_funding": "Unknown. Funding was not checked because the search budget ran out.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Flexport (Customs Suite, AI Customs Classification, trade advisory, tariff refund claims)",
+    "url": "https://www.flexport.com/",
+    "what_they_do": "Broker and platform with AI classification, a trade advisory arm, tariff refund claims, and a customs broker audit tool. Sells to enterprises, growing brands and marketplace sellers. No design-stage tariff engineering or ruling-filing product appeared on the fetched page. Flexport could add one as a feature.",
+    "scale_or_funding": "Large venture-backed logistics company. Exact funding was not verified in this session.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Zonos (Classify)",
+    "url": "https://www.zonos.com/",
+    "what_they_do": "AI HS-code assignment plus duty and tax calculation and cross-border checkout for e-commerce and DTC brands such as Funko, Traxxas and Buck Mason. The page shows no binding ruling or tariff engineering service.",
+    "scale_or_funding": "Established, revenue-generating SaaS. Funding was not verified.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Trademo (Global Trade Management)",
+    "url": "https://www.trademo.com/",
+    "what_they_do": "HS classification with audit-ready justification, duty and tariff data (880K+ entries claimed), landed-cost calculator and FTA qualification. Customers include Hitachi America, TAG Heuer and RPM International. It is an enterprise compliance suite, not a design-stage redesign service.",
+    "scale_or_funding": "Venture-backed enterprise vendor. Funding was not verified.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Livingston International",
+    "url": "https://www.livingstonintl.com/",
+    "what_they_do": "Large customs broker selling 'duty mitigation', classification support and compliance advisory across one-time, frequent and enterprise shippers. The page does not explicitly advertise tariff engineering or ruling-request preparation. Brokers like this are the most likely incumbents to bundle it.",
+    "scale_or_funding": "Large established North American broker. Ownership and revenue were not verified.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Deloitte Global Trade / Tariff Vision",
+    "url": "https://www.deloitte.com/us/en/services/tax/services/customs-and-global-trade.html",
+    "what_they_do": "Big-4 customs and trade advisory with a 'Tariff Vision' offering, supply-chain impact work, and classification determination. Binding rulings are not explicitly mentioned. Tariff engineering is implicit in the 'minimize trade costs' pitch. It serves large enterprises at consulting prices, not $10-100M brands.",
+    "scale_or_funding": "Global Big-4 firm.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Thompson Hine (and similar trade-law boutiques, e.g. Sandler Travis, Crowell)",
+    "url": "https://www.thompsonhine.com/services/international-trade/",
+    "what_they_do": "Trade law firms advise on customs, classification risk and tariffs. Thompson Hine's page does not advertise tariff engineering or ruling requests as distinct products. The idea's own premise is that lawyers do this ad hoc for large clients. That premise is not confirmed by evidence from this session.",
+    "scale_or_funding": "Established law firms billing hourly. This is the price benchmark the idea would undercut.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Descartes (Product Classification, Duty and Tariff Data)",
+    "url": "https://www.descartes.com/",
+    "what_they_do": "Classification and duty-determination tools, landed cost, FTZ software and trade intelligence. Tariff scenario planning and ruling monitoring are not mentioned on the page.",
+    "scale_or_funding": "Public company.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "TariffEngineering.com",
+    "url": "https://www.tariffengineering.com/",
+    "what_they_do": "Individual-authored educational site on HS classification disputes, court precedents and customs rulings. It has no commercial services, pricing or clients. It holds the keyword domain and could be turned into a lead-gen site. The similar domain tariffengineer.com is parked and for sale.",
+    "scale_or_funding": "Solo author, no visible commercial operation.",
+    "overlap": "adjacent"
+   }
+  ],
+  "white_space": "Verified by fetches, with caveats below. No fetched page showed anyone selling a packaged, fixed-fee, design-stage (pre-tooling) HTS boundary audit for mid-market product brands ($10-100M revenue). None showed a bundled CBP binding-ruling filing with counsel review, or a ruling-watch product built on comparable-ruling analysis.\n\nSoftware players (Zonos, Trademo, Descartes, Flexport) classify existing products. Tarifflo recovers past overpayments. Big-4 and law firms sell hourly advisory to large clients. A mid-market design-team buyer at the pre-tooling stage looks unserved.\n\nCaveats that cap confidence:\n1. The 200-call web search budget ran out before any search ran. Nothing was searched for boutique tariff-engineering consultancies, startups, YC or Crunchbase entries, Product Hunt, or open-source tools.\n2. Several vendor fetches failed or returned thin pages: Altana, Avalara, Sandler Travis, Crowell, KPMG, Thomson Reuters, Expeditors and CROSS features.\n3. So 'nobody does this exactly' is unproven. A specialist boutique or a well-funded new entrant may exist.\n\nStructural risks that shrink the white space:\n- Per 19 CFR 177.2, CBP rulings are limited to prospective transactions and require a full factual statement, samples and photos.\n- Per 19 CFR 177.9, a ruling binds CBP only for the addressee and only for identical articles. Third parties cannot rely on it, and CBP can modify or revoke it without notice to anyone else.\n- A classification ruling does not protect against Section 232 list changes. The lists are recalibrated and CBP treats sets by their primary classifying article. Redesigning across a line can be undone if the new line is later added to the list.",
+  "evidence_of_demand": "Weak to moderate, and mostly indirect. Direct customer pull for design-stage tariff engineering was not found. Some indirect signals:\n1) Brands do tariff-engineer, and it is legal under a 'commercial reality' standard. Converse felt soles, Columbia nurse's pockets and Ford Transit Connect are the examples. The Ford case lost at the Supreme Court in 2020 because Ford removed the engineered features after import, which is a caution for the 'legitimately change the product' requirement. https://en.wikipedia.org/wiki/Tariff_engineering\n2) Regulations force spend on product composition. Section 232 derivatives require reporting steel melt/pour and aluminum smelt/cast country of origin. Sets are dutied by their primary classifying article. https://www.cbp.gov/trade/programs-administration/entry-summary/232-tariffs-aluminum-and-steel-faqs. The fetched CBP page did not mention copper or the July 30, 2026 copper reporting claim, so that claim is unverified.\n3) Mid-to-large importers pay for duty recovery. Tarifflo sells contingency audits to beauty, retail and manufacturing brands and claims 1 in 8 entries has errors, about $35.9B a year in overpayment. It benchmarks against $250-500/hour consultants. These are vendor claims, not independent data. https://www.tarifflo.com/\n4) Large vendors sell duty mitigation and classification to shippers at every size, which shows budget exists. https://www.livingstonintl.com/, https://www.flexport.com/, https://www.trademo.com/\n5) CBP frames rulings as a tool for 'business decisions that are dependent on how their goods will be treated on importation'. This is a capability, not demand. https://www.cbp.gov/trade/rulings\n\nNot found, because search was unavailable: forum complaints, RFPs, buyer interviews, or evidence that mid-market brands pay $4.5-35k for this. The idea's own premise that importers avoid ruling requests is unverified.",
+  "kill": false,
+  "kill_reason": "n/a",
+  "sharper_angle": "Do not sell 'tariff engineering' as a generic service, because the big brokers, Big-4 and law firms could add it as a line item. Pick a defensible wedge instead.\n\n1) One vertical, such as e-bike/powersports parts or bags and footwear. Build a structured database of CROSS rulings tagged by construction and material thresholds. That data becomes the moat, and a free 'boundary map' of a prospect's top SKU becomes the lead magnet.\n\n2) Sell into the design and product-development stage gate, before tooling is cut. A fixed-fee 'pre-tooling tariff spec review' should be a standard step alongside costing and compliance. Price as a per-product-line retainer, not one-off audits.\n\n3) Make the binding ruling an optional deliverable filed by a licensed broker or attorney partner, not by you. Work with brokers and trade law firms as the channel, since they hold the license and the client relationship.\n\n4) Add a rate-scenario stress test to every redesign recommendation. A ruling protects the classification, not the rate. Section 232 lists and derivative rules keep changing, so each redesign should be scored on how likely the new line is to be swept into a future list. This directly answers the biggest weakness in the current pitch.\n\n5) Avoid success-fee pricing on savings until counsel is comfortable. Redesign must survive the 'commercial reality' test, so document that each change is permanent and serves a real manufacturing or commercial purpose.\n\nBefore building anything, redo the search work that was skipped here. Search for boutique tariff-engineering consultancies, Crunchbase, YC and Product Hunt entries, and how Flexport, Livingston and the Big-4 price duty-mitigation work. Then run 10 buyer interviews at $10-100M brands to test whether product teams would pay at the design stage.\""
+ }
+}

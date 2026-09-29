@@ -1,0 +1,73 @@
+{
+ "status": "crowded",
+ "competitors": [
+  {
+   "name": "Sims Lifecycle Services (SLS), a division of Sims Limited",
+   "url": "https://www.simslifecycle.com/data-center/hyperscale/",
+   "what_they_do": "Does the resale desk almost exactly as pitched. Robotic recovery, testing and redeployment of DDR4 DRAM at hyperscale volumes (\"millions of DDR4 modules\" returned to service), plus 'ValidCore' recertified second-use GPUs with serial-level data sanitization, chain of custody and export screening. Builds dedicated Circular Centers for hyperscalers and sells recovered server memory, CPUs and drives to buyers. Also publishes an ITAD RFP template.",
+   "scale_or_funding": "Business unit of publicly traded Sims Limited. Founded 2002, with Circular Centers on several continents. Pages read directly: https://www.simslifecycle.com/data-center/gpu/ and https://www.simslifecycle.com/data-center/",
+   "overlap": "direct"
+  },
+  {
+   "name": "ITRenew / Iron Mountain Asset Lifecycle Management (ALM)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1020569/000102056926000013/irm-20251231.htm",
+   "what_they_do": "Iron Mountain's 2025 10-K describes ALM as serving hyperscale and corporate IT managers with decommissioning, data erasure, disposition, and 'recycling or sale of IT hardware and component assets', with value recovery through remarketing. The 10-K says Iron Mountain took ~80% of ITRenew on Jan 25, 2022 to expand ALM. It says the business depends on selling decommissioned components to buyers concentrated in China. It also says Iron Mountain competes with hyperscalers' own in-house programs. I could not open ITRenew's own site (JavaScript-only).",
+   "scale_or_funding": "Public company. ALM goodwill was $781.1M at Oct 2025. 'Corporate and Other' (mostly ALM plus Fine Arts) had $332.6M revenue in Q2 2026, with acquisitions adding $24.4M in ALM (https://www.sec.gov/Archives/edgar/data/1020569/000102056926000071/irm-20260630.htm).",
+   "overlap": "direct"
+  },
+  {
+   "name": "SK tes (formerly TES)",
+   "url": "https://www.sktes.com/it-services/data-center-decommissioning",
+   "what_they_do": "Global data center decommissioning covering hyperscale, colo and enterprise. The services list includes 'parts harvesting, testing and grading for memory, CPUs, drives, power supplies, NICs' and 'value recovery and resale'. It states 'flexible commercial models including leaseback, buyback, and revenue share', which is the same revenue-share model as the idea. Data destruction meets NIST SP 800-88 and IEEE 2883-2022.",
+   "scale_or_funding": "Global multi-region ITAD. Ownership and funding not checked this session. My recollection, not verified, is that it belongs to SK Group.",
+   "overlap": "direct"
+  },
+  {
+   "name": "GreenTek Solutions LLC (Sumitomo Corporation affiliate)",
+   "url": "https://www.greenteksolutionsllc.com/sell-used-it-equipment/ai-hardware-buyback",
+   "what_they_do": "Texas ITAD with a dedicated AI hardware buyback page. It buys H100/H200/B200/GB200/GB300 GPUs, HGX/DGX systems, entire clusters, server memory, CPUs, NICs and racks, and sells through a 'global network of buyers'. It offers to value whole systems 'rather than requiring you to separate GPUs, CPUs, memory...'. Has R2v3 and NAID AAA certifications.",
+   "scale_or_funding": "Over 1.2M devices processed. Sumitomo Corporation and Sumitomo Corp. of Americas invested in July 2026 (amount undisclosed) and made it an equity-method affiliate: https://www.sumitomocorp.com/en/jp/news/topics/2026/group/20260714",
+   "overlap": "direct"
+  },
+  {
+   "name": "Microsoft Circular Centers (in-house hyperscaler program)",
+   "url": "https://www.microsoft.com/en-us/sustainability/circular-centers",
+   "what_they_do": "Microsoft's page reports a 92% reuse and recycling rate for servers and components across cloud hardware, above its 90% target for the second year running. Hyperscalers already reuse components in-house, so the biggest fleets are not addressable customers. This is a company-run program, not a vendor. The page did not detail the process.",
+   "scale_or_funding": "Microsoft internal program",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "exIT Technologies",
+   "url": "https://www.exittechnologies.com/",
+   "what_they_do": "Independent ITAD that buys used servers, processors, memory and drives with certified erasure and market-value buyback. Its compliance claims cite R2v3, HIPAA, NIST and GDPR.",
+   "scale_or_funding": "30+ years in business, privately held, R2v3 certified",
+   "overlap": "direct"
+  },
+  {
+   "name": "Techbuyer",
+   "url": "https://www.techbuyer.com/itad",
+   "what_they_do": "UK-based refurbished server and data-centre equipment seller with an ITAD and decommissioning service and a server memory and component marketplace.",
+   "scale_or_funding": "Private. Operates across the UK, EU and US",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Park Place Technologies / Curvature",
+   "url": "https://www.parkplacetechnologies.com",
+   "what_they_do": "Third-party hardware maintenance company. Curvature sells pre-owned server, storage and network hardware, and ITAD is listed among its professional services.",
+   "scale_or_funding": "Large private company. Financials not checked",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Cascade Asset Management",
+   "url": "https://www.cascade-assets.com",
+   "what_they_do": "ITAD offering a data-center management role, testing and erasure, and dispositions by resale, recycling, donation or redeployment. The page was generic, with no component-level detail.",
+   "scale_or_funding": "Private regional ITAD, scale unknown",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "The resale desk is not white space. SLS, ITRenew/Iron Mountain, SK tes and GreenTek already harvest and test DRAM, CPUs and GPUs, resell them, and offer revenue-share terms with serialized custody. Several are backed by public or strategic capital and have robotics and buyer networks.\\n\\nThe policy layer is only partly covered. NIST SP 800-88 Rev. 2 (final Sept 26, 2025) already says volatile media 'fails to retain its contents after power is removed' and that organizations should focus sanitization on non-volatile media. It says purge can be more appropriate than destroy when reuse, resale, cost or lease returns matter, and that destruction blocks reuse by others. It also points to OEM Statements of Volatility. So the 'shred everything is a habit' insight is right. But the framework is public and a 10-page matrix is easy for any ITAD to copy. As a standalone $10-30K product it is weak.\\n\\nWhat I found nobody offering:\\n(1) An independent, auditor-attested, per-model component persistence matrix mapped to regulator and CISO language (HIPAA, FFIEC/GLBA, PCI, SOX), with named sign-off and liability behind it. ITADs handle this client by client.\\n(2) Measured persistence for AI-server parts: GPU HBM and NVSwitch state, BlueField/ConnectX flash, BMC and firmware. Nobody appears to publish this the way DIMM volatility is documented.\\n(3) Per-serial, component-level custody evidence that a bank's auditor accepts without re-litigating policy each time.\\n\\nAdditional caveat: my searches were limited (see the evidence field), so a small startup doing (1) or (2) could exist unseen.",
+ "evidence_of_demand": "Demand for component-level reuse and resale is real, and incumbents are already collecting the money:\\n- Iron Mountain's 10-K shows a large business selling decommissioned IT components, with buyers concentrated in China, and says it competes with hyperscalers' in-house programs: https://www.sec.gov/Archives/edgar/data/1020569/000102056926000013/irm-20251231.htm. Its Q2 2026 10-Q reports ALM growth from new and existing customers and recent acquisitions: https://www.sec.gov/Archives/edgar/data/1020569/000102056926000071/irm-20260630.htm\\n- Sumitomo invested in GreenTek in July 2026 explicitly because AI-driven data center buildouts shorten replacement cycles: https://www.sumitomocorp.com/en/jp/news/topics/2026/group/20260714\\n- SLS says 2022-23 AI GPU fleets are 'entering refresh cycles' and that the open market discounts what it cannot verify (https://www.simslifecycle.com/data-center/gpu/). It says millions of DDR4 modules have been redeployed (https://www.simslifecycle.com/data-center/hyperscale/).\\n- GreenTek buys B300/B200/H100 systems and memory today: https://www.greenteksolutionsllc.com/sell-used-it-equipment/ai-hardware-buyback\\n- SK tes advertises buyback, leaseback and revenue-share deals: https://www.sktes.com/it-services/data-center-decommissioning\\n- Microsoft reports a 92% reuse and recycling rate for cloud hardware: https://www.microsoft.com/en-us/sustainability/circular-centers\\n- NIST SP 800-88 Rev. 2 supports reuse-friendly sanitization: https://csrc.nist.gov/pubs/sp/800/88/r2/final (PDF text: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r2.pdf)\\n- TrendForce's press page shows a DRAM module revenue surge (+59% YoY in 2025): https://www.trendforce.com/presscenter/news. I did not verify the idea's '+400%' figure.\\n\\nWhat I did not find: any evidence that banks or healthcare organizations still shred whole servers at scale, any complaint threads, RFPs, or a published price for a standalone sanitization-policy or sign-off product. I also could not verify the 'eight figures from pre-triage' claim. WebSearch was out of budget at the start of this task (200 of 200 already used). The work therefore used direct page fetches, SEC filings and NIST text only, with no forum, Crunchbase, Product Hunt or YC searches. Treat the absence of competitors in the sign-off layer as provisional.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Drop the resale desk and the revenue-share model. SLS, Iron Mountain/ITRenew, SK tes and GreenTek already run it with robotics, buyer networks and capital. Build only the missing trust layer, in this form:\\n\\n(1) An independent 'Component Persistence and Disposition Standard'. It is a per-server-model, machine-readable matrix built from OEM Statements of Volatility and independent lab testing. It covers data-bearing parts (SSD/NVMe, NVDIMM, BMC, NIC/DPU flash, TPM) and, first, AI-server parts that the public documents cover poorly: GPU HBM and NVSwitch state, BlueField/ConnectX flash, and firmware.\\n(2) Map each component to NIST SP 800-88 Rev. 2 categories and to regulator and CISO policy language for banks and healthcare (HIPAA, FFIEC/GLBA, PCI, SOX). Deliver it as a signed policy addendum that a CISO and external auditor can adopt in one meeting, ideally with an insurer or professional-liability backstop that the incumbents' certifications do not provide.\\n(3) Monetize through subscription plus per-serial attestation, not resale share. Sell it to regulated enterprises' GRC and IT asset teams and to neocloud finance and procurement. License it white-label to mid-size ITADs that lack the credibility or R&D to publish it. That turns Iron Mountain, SLS and GreenTek from competitors into channels or later acquirers, instead of fighting them for inventory.\\n\\nValidate first with 5 to 10 CISOs or GRC leads in banks and health systems who currently mandate whole-server shredding. Ask whether they would pay $25-50K a year or per-rack fees for an attested policy. If none will, the idea has no independent business and should be dropped.\""
+}

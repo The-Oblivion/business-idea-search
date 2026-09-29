@@ -1,0 +1,16 @@
+{
+ "title": "Parcel-Level Rebuttals to Wildfire Insurance Scores",
+ "angle": "Climate adaptation x Space economy",
+ "one_liner": "Evidence packs showing a coarse satellite-derived wildfire score is wrong about one specific lot, filed under new statutory appeal rights.",
+ "customer": "Independent insurance agents and HOAs or fire-safe councils in Colorado and California whose clients face nonrenewal or surcharges. Insurers' appeal desks are a later buyer.",
+ "problem": "Colorado HB25-1182 (in force since July 1, 2026) makes insurers disclose the parcel's score, credit documented mitigation and offer an appeal. California AB 75, operative July 1, 2026, gives notice and dispute rights over aerial-imagery nonrenewals. But 'owners still have to prove their case', and many wildfire models lean on roughly 30 m fuel layers and stale imagery that misclassify irrigated, gravel-scaped or recently cleared lots.",
+ "solution": "For each parcel, pull the disclosed model inputs (fuel class, vegetation density, distance to wildland) and overlay multi-date 15-50 cm satellite imagery showing vegetation change, roof material and clearance, plus dated homeowner photos. Produce a regulator-format rebuttal pack with a ranked list of cheap fixes, and give agents a dashboard that scans their whole book for likely score errors. The real edge is a growing database of which input errors insurers concede.",
+ "why_now": "Both disclosure-and-appeal regimes went live in July 2026 and insurers' appeal desks are unprepared. Commercial constellations, including 30 cm Pelican and Vantor archives, plus 15 cm HD, have made high-resolution archives cheap. Regulators in CT, NH and PA say imagery alone is insufficient, and NY has a pending bill.",
+ "revenue_model": "$149-$299 per parcel via agents. $10-$25 per parcel per year for HOA book scans. About $60 per appeal from insurers for standardised evidence intake.",
+ "non_obvious_insight": "Wildfire scores are averages of coarse layers, so the cheapest way to change a score is often to fix an input error rather than harden the house. The resolution gap between 30 m models and 30 cm imagery is systematic, so a win on one lot tends to generalise to its neighbours and compounds into a book-level lever for agents.",
+ "first_30_days": "Pick the Colorado Front Range. Recruit 5 independent agencies with 200+ WUI clients each, plus 2 HOAs. Run the first 50 score disclosures at a $99 pilot price per file, and track appeal success rate as the marketing asset.",
+ "outside_box_score": 6,
+ "source": "collide:climate-adaptxspace-sat+food-agxtravel-hospitality",
+ "kind": "collide",
+ "id": "I1148"
+}

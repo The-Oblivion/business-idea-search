@@ -1,0 +1,16 @@
+{
+ "title": "ITAR-Safe Identity for New-Space Startups",
+ "angle": "Pairing 2: Space economy x Cybersecurity/identity fraud (identity verification and hiring fraud)",
+ "one_liner": "An identity layer that proves a new hire is real, where they actually are and whether they may legally see spacecraft technical data, then feeds that attribute straight into SSO and PLM access controls.",
+ "customer": "Series A-C launch, satellite and defense-space startups (50-500 staff) and their sub-tier machine shops and avionics suppliers, reached through space-focused investors, accelerators and SpaceWERX/SBIR cohorts. Buyers are the head of security or compliance and the CFO.",
+ "problem": "Space startups are hiring at breakneck speed, with remote engineers and contractors, into a Golden Dome-driven market (cost estimate raised to $185B) and nine-figure funding rounds. Giving a foreign person access to technical data is an ITAR export violation, and North Korean IT-worker schemes have reached 70 to 100+ US companies. Standard IDV proves someone is real, not whether they are a US person, and HR and ATS tools do not carry export-control eligibility as an access attribute. Fake suppliers and counterfeit parts add a second exposure.",
+ "solution": "(1) Verify person and US-person status using document and injection-resistant liveness (partner with an existing IDV vendor rather than building it). (2) Check presence over time (VPN and laptop-farm signals). (3) Write 'US person, permitted data categories' into Okta or Entra groups and PLM and repo permissions through SCIM. (4) Supplier onboarding with KYB, sanctions and counterfeit-part red flags. (5) An auditor-ready evidence pack for CMMC Level 2 assessments and export-compliance reviews.",
+ "why_now": "The DoD's CMMC rollout reaches its second phase on 10 Nov 2026, when third-party Level 2 certification starts appearing in contracts, and small suppliers are scrambling. North Korean worker prosecutions in Apr and May 2026 put hiring fraud on boards' agendas, while 3-second voice cloning and virtual-camera injection attacks defeat casual video interviews.",
+ "revenue_model": "$60-120 per verified person per year, $1-3K per month platform fee, and $250 per supplier onboarding. Add a paid $2K 'ITAR access audit' as an entry product.",
+ "non_obvious_insight": "In space the compliance object is not employee identity but nationality-scoped access to technical data. The unbuilt gap is attribute-based access control fed by identity proof into CAD and PLM systems. These startups fear DDTC and DoD audits and investor diligence more than hackers, so they buy compliance evidence rather than security.",
+ "first_30_days": "Build a 'verified US person to Okta group' integration on an off-the-shelf IDV API. Sell a $2K ITAR access audit (export the Drive, GitHub and PLM permission lists and flag foreign-person exposures) to 5 startups via investor and accelerator introductions in Colorado Springs, Los Angeles and Huntsville. Convert audits to per-seat subscriptions before the Nov 2026 CMMC milestone.",
+ "outside_box_score": 6,
+ "source": "collide:climate-adaptxtravel-hospitality+space-satxsecurity-identity",
+ "kind": "collide",
+ "id": "I0553"
+}

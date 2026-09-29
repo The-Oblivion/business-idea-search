@@ -1,0 +1,112 @@
+{
+ "title": "Sold-Out-of-Trust Radar for Floorplan Lenders",
+ "one_liner": "Catch dealers that sell floored cars and pocket the payoff by watching the one signal an F&I insider knows can't be hidden: the VIN disappears from public listings but the floorplan payoff never arrives.",
+ "customer": "Floorplan lenders and their auditors: independent floorplan companies, captive finance arms, regional banks and credit unions with dealer lines, and warehouse lenders that fund subprime and buy-here-pay-here dealers. Pay $15 to $30 per monitored dealer per month plus enterprise data fees.",
+ "problem": "A dealer sells out of trust when it sells a floored car and does not pay the lender's payoff on time. It is how small cash squeezes become fraud. Ford and Stellantis are in court against Sky Auto Mall over exactly this, and floorplan use is heavier with inventory at roughly 88 days' supply and rates at SOFR plus 200 to 400 bps. Lenders police it with periodic on-site audits (monthly, quarterly or random), so a dealer can sell for weeks before anyone looks. The dealer's own delay makes it worse, since contracts in transit stretch to a week or more before the lender funds, so honest and dishonest dealers look identical in the books.",
+ "solution": "Daily VIN-level monitoring of each lender's floored inventory against public and licensed listing feeds from the dealer's site and the major marketplaces. When a floored VIN disappears from listings, the tool starts a clock. It cross-checks against lender-provided payoff events and, where available, title and registration transactions and electronic lien releases. If no payoff shows within the expected window (about 7 to 10 days for a clean deal, longer for slow lenders), it flags the dealer and VIN and ranks risk by dealer history and how many VINs are in the queue. Flags trigger a spot audit or a curtailment call. A dealer-facing version shows honest dealers exactly which VINs look 'unpaid' so they can fix processing before the lender calls, and it doubles as an early-warning feed for warehouse lenders.",
+ "why_now": "Sept 2025's Tricolor and PrimaLend collapses put double-pledged collateral and verification failures in front of every subprime lender and their investors. In March 2026 Ford and Stellantis were still litigating floorplan fraud against Sky Auto Mall. Rising inventory and higher rates increase floorplan reliance. Public listing feeds and cheap LLM data extraction make VIN-level monitoring practical for a team of three.",
+ "revenue_model": "Per-dealer monthly monitoring fee, a per-alert fee on confirmed cases, and enterprise data licensing to captives and ABS or warehouse investors. Upsell: a contracts-in-transit tracker that gives dealers a lender-verified funding timeline and later powers same-day advances against verified contracts.",
+ "non_obvious_insight": "The only place SOT cannot hide is the retail listing. A dealer will lie about payoffs, backdate titles and pay one lender with another's money, but it still has to take a car off its website when it sells it, because customers and marketplaces punish stale listings. Auditors check what is on the lot; nobody checks what left the internet. An F&I person knows this from watching sold cars vanish from the site the same day the deal is signed, and from knowing how long a funded payoff should really take.",
+ "first_30_days": "Build a scraper for a pilot set of 50 dealer inventory pages and a listing-history log. Backtest on cases visible in public court filings (the Sky Auto Mall filings and a handful of others) to show the signal would have fired weeks earlier. Approach three small independent floorplan lenders and two credit unions with dealer floorplan lines, offer a free 60-day pilot on their books, and charge $20 per dealer per month after proving at least one real catch.",
+ "outside_box_score": 8,
+ "source": "persona:p2-3",
+ "kind": "persona",
+ "id": "I0218",
+ "tournament": {
+  "score": 1.031,
+  "overall_rank": 7,
+  "cluster": "Lenders and investors unable to verify collateral exists",
+  "judge_notes": [
+   "vc: rank 2/24 - Insider insight, backtestable on court cases, post-Tricolor urgency, expands to any floored collateral.",
+   "operator: rank 1/25 - Real fraud losses, existing audit budget, small concentrated buyers, insider wedge, cheap to backtest and pilot.",
+   "contrarian: rank 1/24 - Insider signal (car vanishes from web, payoff never arrives), post-Tricolor lender fear, backtestable on public filings, cheap pilot."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "In-house 'website VIN vs floorplan VIN' comparison (SAS Global Forum paper, 'PROC HTTP: Using the Web to Combat Fraud in Auto Finance During a Global Pandemic')",
+    "url": "https://communities.sas.com/t5/SAS-Global-Forum-Proceedings/PROC-HTTP-Using-the-Web-to-Combat-Fraud-in-Auto-Finance-During-a/ta-p/726338",
+    "what_they_do": "Closest prior art. Per the search-result summary (the page returned 403, so I could not read it), a lender-side team scraped VINs from dealers' advertised web inventory and compared them to the lender's active floorplan VINs to spot fraud when physical audits were disrupted. It is a method in a conference paper, not a sold product, but it shows large lenders can and do build the core signal themselves.",
+    "scale_or_funding": "Not a company. In-house or academic. Not verified beyond the search snippet.",
+    "overlap": "direct"
+   },
+   {
+    "name": "Vero Technologies (VeroOS)",
+    "url": "https://www.vero-technologies.com/",
+    "what_they_do": "AI-native wholesale/floorplan lending platform with 12 modules including Audits, Risk, Titles and Vero AI, plus 40+ integrations. Its blog series 'Under the Floor' and posts on Sky Auto and double-flooring target this exact pain (bunching, bulking and payoff patterns around audits, single-lender blind spots). Its stated monitoring is payment, NSF and open-banking based, with no public-listing disappearance signal found. It is the most likely platform to add this as a feature.",
+    "scale_or_funding": "Funding not found. Offices in 4 locations, named C-suite and VP team. Actively selling to banks, captives and independents.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "SBS Digital Audit (SBS Software)",
+    "url": "https://sbs-software.com/us/products/digital-audit/",
+    "what_they_do": "Hybrid/photo-based floorplan audit software marketed as cutting audit cost and dealer risk. This attacks the 'audits are too infrequent' pain from the audit side rather than by inferring risk from listings.",
+    "scale_or_funding": "Per a Vero article, more than 100,000 digital audits across US dealerships by end of 2025 (2.5 to 3M verification images a year). Established core-banking and asset-finance vendor.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "LotCount",
+    "url": "https://lotcount.com/",
+    "what_they_do": "Digital dealer inventory control with VIN-level reconciliation reports (timestamps, sites, photo evidence) delivered within 48 hours, described in search results as accepted by floorplan funders as audit evidence. The page itself could not be fetched, so details are from the search snippet.",
+    "scale_or_funding": "Unknown",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "NextGear Capital (Cox Automotive)",
+    "url": "https://www.nextgearcapital.com/",
+    "what_they_do": "Large independent-dealer floorplan lender. Per Vero's article it launched an in-app dealer self-audit feature in late 2024 with AI/API reconciliation. Its parent Cox Automotive also owns Autotrader, vAuto and Dealertrack, so it holds both listing data and floorplan books. I found no public SOT-from-listings product, but this is the biggest latent incumbent risk.",
+    "scale_or_funding": "Part of Cox Automotive (very large).",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Collateral Specialists Inc. (CSI)",
+    "url": "https://www.csina.com/services/floorplan-inspections/",
+    "what_they_do": "Field floorplan inspections plus on-site 'dealer monitoring' for high-risk or out-of-trust dealers (daily inspection, key and title lockbox, tracking sale proceeds). This is the manual incumbent workflow the idea would triage or replace.",
+    "scale_or_funding": "Established services firm. Funding not found.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Netresult Mobility AutoAudit",
+    "url": "https://www.netresultmobility.com/floorplan-auditing",
+    "what_they_do": "Mobile audit app that loads the dealer manifest, lets auditors search by VIN, and uploads results to the lender's wholesale finance system.",
+    "scale_or_funding": "Small vendor based in Christchurch, NZ.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "MarketCheck",
+    "url": "https://www.marketcheck.com/",
+    "what_they_do": "Data supplier and potential competitor. Scans over 100,000 dealer websites daily across the US, Canada and the UK, and sells APIs, feeds and reports. Its site does not mention listing-history or delisted-VIN products for lenders, though it could add one. It is also the obvious licensed data source for the idea's listing feed.",
+    "scale_or_funding": "Unknown",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "DRN (Digital Recognition Network) DRNsights",
+    "url": "https://drndata.com/",
+    "what_they_do": "License-plate-reader vehicle sighting data and alerts for lenders, insurers and recovery, including fraud investigations. It is an alternative physical-location signal, not listing-based.",
+    "scale_or_funding": "1,000+ customers, 300+ US markets (self-reported).",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "MOBI Dealer Floorplan Audit pilot",
+    "url": "https://dlt.mobi/dfa/",
+    "what_they_do": "Consortium pilot using zero-knowledge proof of vehicle location from telematics to automate floorplan audits. Contributors include Ford Credit, GM Financial, Stellantis Financial Services, Nissan Motor Acceptance, BMW Bank and RouteOne. It shows the big captives want automated audit signals, but it is a pilot and not a commercial product.",
+    "scale_or_funding": "Non-profit consortium pilot.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Core floorplan platforms (Solifi, Alfa Systems, Soft4Leasing, Odessa, DataScan RiskGauge)",
+    "url": "https://www.financialcontent.com/article/globeprwire-2026-5-18-best-floorplan-finance-software-for-dealer-and-inventory-financing",
+    "what_they_do": "Servicing and platform vendors with stock-audit workflows and risk dashboards. The May 2026 roundup lists none as addressing sold-out-of-trust detection explicitly. DataScan's RiskGauge is marketed for inventory risk, but I could not verify it.",
+    "scale_or_funding": "Established vendors. Funding not checked.",
+    "overlap": "adjacent"
+   }
+  ],
+  "white_space": "Among the products I could find, none sells the specific signal in this idea: an external-behavior signal (a floored VIN vanishing from the dealer site or marketplaces) checked against the lender's own payoff ledger on a running clock, with a ranked daily queue. Existing offerings cover other things. Physical or photo audits (CSI, LotCount, SBS Digital Audit, Netresult) are periodic and dealer-cooperative. Platforms (Vero, Solifi, Alfa, SBS servicing) analyze the lender's own payment and title data. Bank-data tools (Plaid-style) watch dealer cash. DRN covers location. The unserved wedge is mid-size and small lenders that lack data-science teams: independent floorplan companies, credit unions and community banks with dealer lines, and third-party audit firms that need risk-based audit targeting. It is strongest for used-car and buy-here-pay-here dealers, where captives' retail-delivery reports do not exist. Caveats that shrink the white space: (1) captives see retail deliveries within days and can build the signal in-house, and the SAS paper suggests at least one lender did; (2) Vero, SBS and Cox/NextGear could bolt on the signal; (3) a listing that disappears is a noisy signal (wholesaled, transferred, in recon, or the dealer never lists), so precision must be proven; (4) marketplace scraping has terms-of-service risk, so a licensed feed such as MarketCheck is likely needed.",
+  "evidence_of_demand": "Strong evidence that the problem is real and that lenders spend on adjacent controls. None found that anyone pays for this exact signal. (1) The Sky Auto Mall case: Ford Credit and Stellantis Financial sued over floorplan fraud and out-of-trust sales. Stellantis claims more than $12.3M and about $1.4M in unreturned sale proceeds. Ford claims $6.6M. Ford found 81 double-financed units only after Stellantis tipped it off and it compared lists. The dealer group then filed for bankruptcy. Sources: https://www.carscoops.com/2026/03/iowa-stellantis-ford-dealer/ , https://www.autonews.com/retail/an-stellantis-ford-captives-sue-iowa-dealership-out-of-trust-0317/ (page returned 403; seen only in search results), https://www.autofinancenews.net/allposts/risk-management/sky-auto-mall-owners-file-for-bankruptcy-amid-18m-floorplan-fraud-lawsuits/ (page returned 403; seen only in search results). Note that the fraud was mainly double-flooring, which listing disappearance would not catch. Only the sold-without-payoff part fits the idea. (2) Vendors are marketing directly at this pain. Vero published a floorplan fraud series (April 2026) that says physical audits are snapshots, that 10 to 15% of inventory turns between 30 to 45 day audit cycles, and that lenders lack cross-lender visibility. Sources: https://www.vero-technologies.com/news/the-hidden-mechanics-behind-double-flooring-what-recent-dealership-fraud-stories-actually-show and https://www.vero-technologies.com/news/how-a-single-fraud-story-exposed-a-systemic-floorplan-blind-spot . (3) Spend on audit workarounds is large. SBS reports more than 100,000 digital audits in the US by end 2025, per https://www.vero-technologies.com/news/ai-in-wholesale-finance-whats-actually-happening-on-the-ground , which also says dealer-services teams at banks want to 'automate audit triage and SOT reporting'. A March 2026 Young & Associates piece says audits are tedious, that discrepancies found after weeks or months raise loss severity, and describes a double-floored dealer found by audit: https://www.younginc.com/blog/the-importance-of-floor-plan-audits-for-lending-institutions/ . MOBI says lenders hold reserves because audits are infrequent, and a consortium including Ford Credit, GM Financial and Stellantis piloted automated audit tech: https://dlt.mobi/dfa/ . (4) The 'audit-triage' framing is supported, but I found no RFPs, pricing pages or forum posts showing lenders paying $15 to $30 per dealer per month for listing-based monitoring. That price point is unvalidated. Research limits: the web-search budget ran out after 4 searches, and several pages (LotCount, AFC, SAS paper, Solifi) could not be fetched. I did not check Crunchbase, YC or Product Hunt, and GitHub repository searches for open-source tools returned nothing.",
+  "kill": false,
+  "kill_reason": "n/a",
+  "sharper_angle": "Do not sell a standalone 'radar' dashboard. Sell it as an audit-targeting and triage layer that turns the listing-disappearance-plus-missing-payoff signal into a daily ranked list of specific VINs to verify within 24 to 48 hours. Sell it through channels that already own the lender relationship: (a) as a signal module or partner integration for the audit vendors and platforms (SBS Digital Audit, LotCount, CSI, Vero, Solifi), which turns the platforms from likely competitors into distributors, and (b) direct to independent floorplan lenders, credit unions and community banks with used-car and BHPH dealers, where there are no captive retail-delivery reports and no data-science team. Price per verified catch or per audit-hour saved, not a flat $20 per dealer. The proof to lead with is a backtest showing what share of already-confirmed SOT cases the signal flagged, and the false-positive rate, since delisting is noisy. Then add the piece no single-lender tool has: a cross-lender check that flags a VIN floored with two lenders while still publicly listed. Vero itself names single-lender visibility as the blind spot. Use a licensed listing feed such as MarketCheck to avoid scraping and terms-of-service risk. Treat the dealer-facing 'fix your unpaid VINs' view and the contracts-in-transit tracker as a later upsell, not the wedge. Before building, spend two weeks re-running the incumbent check with unrestricted search (Crunchbase, YC, Product Hunt, Cox/NextGear and AFC/OPENLANE product pages) and interview five lender risk or audit heads to confirm the signal would change their audit order."
+ }
+}

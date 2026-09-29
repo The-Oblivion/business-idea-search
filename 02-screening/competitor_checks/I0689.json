@@ -1,0 +1,45 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "Donan Engineering - Loss Logistics",
+   "url": "http://donan.com/product-intelligence-liability/loss-logistics",
+   "what_they_do": "Sells 'white-glove' evidence shipping, receiving, secure storage and single chain-of-custody with photo documentation at each stage, for insurers and forensic engineers. It sits inside a forensic engineering firm that also does water and flood investigations and component testing. It is engineer-assignment driven. There is no plumber-side capture, no per-part bounty, and no brand-level failure database on the pages I read.",
+   "scale_or_funding": "Established national forensic engineering firm. Funding and revenue not verified. No pricing published.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Envista Forensics and Rimkus (forensic engineering / property loss consulting)",
+   "url": "https://www.envistaforensics.com",
+   "what_they_do": "Big forensic engineering and claims consulting firms that would be the default answer for a large product-failure loss. Their sites list failure analysis, equipment consulting and property loss consulting. Neither site mentions evidence storage, chain-of-custody kits or any low-cost program for routine $8-15k water losses. That gap is the wedge the idea targets. They are also the incumbents who could copy a lightweight protocol.",
+   "scale_or_funding": "Large established firms. Sizes and funding not verified. Rimkus URL: https://www.rimkus.com",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "LeakBot",
+   "url": "https://www.leakbot.io",
+   "what_they_do": "Insurer-funded leak detection with free repairs by employee plumbers, offered as a no-cost policyholder benefit. Named insurer partners on the page are Nationwide, PURE, Selective and Admiral. It shows insurers already pay for plumber-delivered services, and it holds a plumber network with claim context at dispatch. The page never mentions subrogation, failed parts or evidence capture. It could add this as a feature.",
+   "scale_or_funding": "Multiple named US and UK insurer partners. Funding not verified.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "ServiceTitan and CompanyCam (plumber field software)",
+   "url": "https://www.servicetitan.com/features",
+   "what_they_do": "These are the tools plumbers already use for forms, photos and equipment history. ServiceTitan has Forms, Equipment Management and 'Field Findings'. CompanyCam is a photo documentation app. Neither page I read shows a failed-part or chain-of-custody workflow. They are the likeliest incumbents to add a checkbox feature. CompanyCam: https://companycam.com",
+   "scale_or_funding": "ServiceTitan is a public company with a very large plumbing customer base. CompanyCam is a large venture-backed SMB contractor app. Figures not verified.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "CPSC SaferProducts.gov",
+   "url": "https://www.saferproducts.gov",
+   "what_they_do": "A free public database of consumer product incident reports that anyone can submit to. Manufacturers are notified and may post comments. It is unstructured and self-reported, with no physical evidence, no date-code discipline and no plumbing-specific failure rates. It is a free substitute for the public 'which brand fails' data, but a weak one.",
+   "scale_or_funding": "US federal agency. Free.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Caveat: the session's WebSearch budget ran out (200 of 200) before any search ran. This verdict rests on direct page fetches of about a dozen vendor, industry and government sites, plus two empty GitHub searches. I did not check Crunchbase, YC, Product Hunt or trade press, so I could not rule out a small funded startup doing exactly this. Run 4-6 searches before committing money. Suggested queries: 'subrogation evidence preservation plumber', 'failed part bounty', 'water loss evidence kit', and the same on Crunchbase.\n\nWhat I found is a real gap in what I could reach. Evidence logistics and forensic engineering exist for engineer-assigned losses (Donan, Envista, Rimkus). Insurer-funded plumber networks exist (LeakBot). Plumber field software exists (ServiceTitan, CompanyCam). No page I read describes any of these paying or equipping the plumber to retain the failed part on routine sub-$15k water losses. The public failure data I found is weak (SaferProducts.gov). Nothing I found is a date-code and brand-level failure-rate dataset.\n\nUnserved specifically: (1) plumber-side capture at the moment of removal, including a per-part payment. (2) A neutral custodian and evidence package for the $8-15k tier, which is below the point where a $2k engineer is dispatched. (3) A structured brand, model and date-code failure dataset from real removed parts.\n\nThe main risks are structural, not competitive. (a) The plumber often arrives before a claim exists, so the claim number and the bounty payer are unknown at bagging. (b) Mitigation contractors and insurer-dispatched vendors may reach the site first on many losses. (c) The recovery economics of small product-defect claims are unproven, so insurers may not pay $75-150 for parts they would not pursue anyway. (d) A public brand-level failure report invites manufacturer legal pushback. (e) A 'cause-of-loss statement' from a tech risks unlicensed-engineering objections. (f) I could not fetch HomeServe (403), so I cannot say whether that plumber-network incumbent already does something like this.",
+ "evidence_of_demand": "Verified, problem size only: the Insurance Information Institute reports water damage and freezing claims at 22.6% of homeowners claims in 2023, at about 1.50 claims per 100 house-years, with average severity of about $15,400 (https://www.iii.org/fact-statistic/facts-statistics-homeowners-and-renters-insurance). That matches the idea's $8-15k loss tier.\n\nVerified, spend on adjacent services: (1) Donan sells evidence shipping, storage and chain-of-custody as a dedicated paid service (http://donan.com/product-intelligence-liability/loss-logistics), so insurers pay for evidence custody on larger losses. (2) LeakBot's insurer partners (Nationwide, PURE, Selective, Admiral) pay for plumber-delivered services and claims-mitigation reports (https://www.leakbot.io), so insurers will fund plumber networks.\n\nNot verified this session: trade press saying evidence preservation is make-or-break, forum complaints from adjusters or plumbers, RFPs, and any insurer already paying per part. I found no direct evidence that anyone pays per failed part or buys a plumber-sourced brand failure dataset. The first-30-days plan (ask two mutual insurers which of the 20 case files they would have pursued) is the right way to test this.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Do not build a marketplace that buys parts from every plumber. Build a neutral evidence custodian embedded in channels where the claim number and the payer are already known at dispatch.\n\n1. Start with insurer-dispatched and insurer-funded plumber programs (emergency plumbing and leak-response networks, preferred-vendor programs, home-warranty and service-plan networks). The insurer controls the vendor, so the bounty and bag become a contracted line item in the dispatch workflow. There is no cold-start recruiting of independent shops and no orphaned parts with no claim.\n2. Limit the wedge to 4-5 part types where product-defect subrogation is strongest and the part is small and cheap to ship: braided supply lines, ice-maker lines, toilet connectors, PEX fittings, water heater components.\n3. Position as a neutral, joint-exam-ready custodian (documented protocol, notice to all interested parties, photo and QR chain of custody, homeowner e-sign). Insurers get admissible evidence, and manufacturers cannot easily cite spoliation. Do not sell a cause-of-loss opinion. Provide factual photo records and route to licensed engineers, or partner with one such as Donan-type firms as the escalation path.\n4. Sell first to subrogation vendors and recovery law firms that work on contingency and need the part before they take a $10k file. Their willingness to advance $75-150 per part is the fastest demand test.\n5. Keep the failure dataset private and consortium-style for participating insurers, with anonymized aggregate reporting by product line and date code. Skip a public Backblaze-style brand naming until there is enough volume and legal review. License to manufacturers only after that.\n6. Before building, run the cheap kill test: hand-collect 50 parts, take 20 case files to two mutual insurers and one subrogation vendor, and get a written 'we would have pursued these' count and a per-part price. Also finish the missing searches (Crunchbase, YC, trade press) that this run could not do."
+}

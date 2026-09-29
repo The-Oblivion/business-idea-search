@@ -1,0 +1,87 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "Brownfield.ai",
+   "url": "https://www.brownfield.ai/buyers-data-centers/",
+   "what_they_do": "Site triage and listings platform for brownfield owners and buyers (advanced manufacturing, data centers, logistics). It scans environmental and property records and lists 'power availability' as the main screening factor for data-center buyers. The pages I read did not show building-level electrical verification, crane or slab data, or permit-transfer scoring.",
+   "scale_or_funding": "Not disclosed on the pages I read; no funding or founder info found",
+   "overlap": "direct"
+  },
+  {
+   "name": "Scout (ScoutCities)",
+   "url": "https://scoutcities.com/",
+   "what_they_do": "Industrial site-selection platform for manufacturers. It surfaces off-market industrial real estate and incentives and lets users prioritise power, workforce and site specs. It claims a network of 10,000 economic developers and 25,000 brokers and site selectors. It appears to be desktop and network-based, with no per-building electrician walk-through that I could find.",
+   "scale_or_funding": "Crunchbase shows a pre-seed round (amount not verified). The site returned 403, so the summary comes from search snippets.",
+   "overlap": "direct"
+  },
+  {
+   "name": "LandGate",
+   "url": "https://www.landgate.com/energy-markets/data-centers",
+   "what_they_do": "Parcel search with proprietary substation offtake-capacity data (about 98% coverage, 84,000+ substations), utility-upgrade cost analytics, and a PowerLeads land marketplace, aimed at data-center and industrial siting. Its data is grid- and substation-level, not inside-the-fence building gear. Brownfield features are not detailed.",
+   "scale_or_funding": "Established company, funding not confirmed; sold by quote",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Enverus Site & Screen",
+   "url": "https://www.enverus.com/solutions/site-and-screen/",
+   "what_they_do": "Combines parcel data with grid, substation withdrawal-capacity and gas infrastructure. It is pitched at data-center, industrial and manufacturing site screening. It is an enterprise data product with no on-site inspection.",
+   "scale_or_funding": "Large incumbent energy-data vendor (Enverus)",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "GridCARE",
+   "url": "https://www.latitudemedia.com/news/gridcare-raises-oversubscribed-64-million-series-a/",
+   "what_they_do": "AI grid-capacity mapping and 'time to power' acceleration. It validates spare capacity with utilities for hyperscalers and 15+ data-center developers (2+ GW across a dozen markets).",
+   "scale_or_funding": "$64M Series A (May 2026, led by Sutter Hill Ventures), after a $13.5M seed",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Paces",
+   "url": "https://www.paces.com/news/paces-raises-11-million-to-accelerate-clean-energy-development",
+   "what_they_do": "YC-backed software that unifies grid, permitting, zoning and environmental data to find viable sites. It started with renewables and is expanding to EV charging and data centers.",
+   "scale_or_funding": "$11M Series A (2024), plus pre-seed and YC funding",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "JobsOhio SiteOhio / Ohio Site Inventory Program",
+   "url": "https://www.jobsohio.com/programs-services/sites/available-sites",
+   "what_they_do": "State-run database of 7,300+ properties. SiteOhio authentication verifies utility capacity, environmental studies and agency concurrence, but focuses on 30+ acre sites rather than the electrical, crane or slab specs of existing buildings. The evaluation is free, with a $500 fee only if a site is authenticated.",
+   "scale_or_funding": "State-funded via JobsOhio; effectively a free substitute for part of the data",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "AEP and FirstEnergy economic-development site and building databases",
+   "url": "https://www.aep.com/economic-development/properties/",
+   "what_they_do": "Utility-run searchable databases of sites and move-in-ready buildings. AEP 'featured sites' are vetted for ample electric capacity and voltage. FirstEnergy has a comparable database: https://firstenergycorp.com/content/fecorp/economicdevelopment/site_location_services/sites_and_buildings.html. They are free and are also the likely licensees or channel partners. I could not confirm whether they list building-level gear.",
+   "scale_or_funding": "Investor-owned utilities; free services",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "ZoomProspector (Future Thinking Locations)",
+   "url": "https://www.ftlocations.com/products-and-services/zoomprospector",
+   "what_they_do": "The licensed site and building database that many economic-development organisations and utilities embed (AEP Prospector, state Prospectors). It is the incumbent distribution channel for the 'annual license' buyer, but it is a listings and demographics tool, not an inspected-attribute dataset.",
+   "scale_or_funding": "Established SaaS vendor",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Site Selection Group and other site-selection consultants (Cushman & Wakefield, BLS Strategies)",
+   "url": "https://info.siteselectiongroup.com/blog/why-power-availability-is-altering-manufacturing-site-selection",
+   "what_they_do": "Custom advisory work that says power is now 'the starting point' and tells clients to evaluate existing service, utilisation and incremental capacity. No productised building database was described in the article. The firms could add this as a service line, or become customers.",
+   "scale_or_funding": "Established consultancies",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Property Condition Assessment and electrical inspection firms",
+   "url": "https://www.epochinspections.com/electrical.html",
+   "what_they_do": "Commodity alternative. An ASTM E2018 PCA already has to state service ampacity, voltage and phase, and buyers can hire a commercial electrician pre-purchase. This is the workaround customers use today; it is bespoke, unscored and not tied to permits or a database.",
+   "scale_or_funding": "Fragmented local engineering and inspection firms",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Nobody I found productises a building-level, physically verified 'inside-the-fence' record for dead Midwest plants. That record would cover the electrician-verified main service size, voltage, gear age and nameplates, spare capacity, slab and crane-rail condition, the state of the existing air and wastewater permits, and a utility will-serve letter, all in a scored, comparable format sold before the deal. The funded players (LandGate, Enverus, GridCARE, Paces) work at the substation and grid level and are aimed at data centers. Utility and state databases (JobsOhio, AEP, FirstEnergy, ZoomProspector) verify sites and utility service, not building gear or permit status. Scout and Brownfield.ai are the closest competitors, but they look desktop- and network-led with no per-building inspection, and I found no evidence they carry electrician-verified data. The genuine gap is a trusted, standardised, seller-commissioned building electrical and permit record, not the parcel-scoring layer, which is already crowded and funded. The idea's weaker points: the Ohio permit-transferability wedge is thin (see evidence), and it is unproven that brokers will pay $1.5k-$3.5k.",
+ "evidence_of_demand": "Partial evidence only. I found no RFPs, forum threads or existing broker spend on this specific product.\n\nSupporting evidence:\n- Power is now a lead site-selection criterion. Site Selection Group says 'power availability, upgrade timelines, and utility costs have become the starting point' for manufacturers (https://info.siteselectiongroup.com/blog/why-power-availability-is-altering-manufacturing-site-selection). Similar pieces: Voit (https://voitco.com/access-to-power-the-new-priority-for-industrial-site-selection/), Link Logistics (https://www.linklogistics.com/news-insights/industry-expertise/power-capacity-in-warehouse-site-selection/), JLL (https://www.jll.com/en-us/newsroom/power-availability-becoming-key-driver-of-cre-value), and Utility Dive on power-ready facilities (https://www.utilitydive.com/news/big-power-ready-facilities-key-as-occupiers-drive-industrial-market-improv/822244/).\n- Equipment lead times are long. Large transformers average about 128 weeks (https://syaala.com/blog/transformer-lead-times-2026). Switchgear runs about 44 weeks on average and 90+ in some markets (https://usevawn.com/resources/electrical-equipment-lead-times/).\n- Undersized service is a common post-lease surprise, with upgrades of about 3-9 months and $50k-$500k+ (WareCRE-style industrial spec guidance, https://warecre.com/cre-insights/industrial-101/loading-docks-ceiling-heights-and-power-requirements-understanding-industrial-property-specs/; attribution is from a search snippet and not verified).\n- Customers already pay for power-availability reports. SCE sells an Engineering Analysis Report for about $3,000 covering power availability and time to build infrastructure (https://www.inboundlogistics.com/articles/utilities-and-site-selection-a-powerful-partnership/). The price sits inside your $1.5k-$3.5k band, but it is a utility-issued report, not a broker-paid one.\n- Investors are paying for the adjacent data layer: GridCARE's $64M Series A (https://www.latitudemedia.com/news/gridcare-raises-oversubscribed-64-million-series-a/) and Paces' $11M Series A.\n- Data centers are competing for existing energized industrial shells. Akron's former Goodyear plant now runs about 150 MW (https://signalakron.org/where-7-data-centers-operate-in-summit-county-and-why-it-matters/). TeraWulf and Anthropic signed a $19B lease on a shuttered aluminum plant (https://www.constructionaibrief.com/posts/2026-07-08-terawulf-anthropic-brownfield-aluminum-plant-data-center). Host Digital Infrastructure has a 45+ MW converted facility (https://www.globenewswire.com/news-release/2026/09/03/3356181/0/en/the-scarcest-thing-in-the-ai-buildout-is-a-site-that-already-has-power.html). Bisnow: https://www.bisnow.com/national/news/data-center/brownfield-data-centers-109798.\n\nCounter-evidence:\n- The 2026 Reshoring Initiative survey coverage I retrieved names workforce (66% rate technician hiring very difficult or crisis) and policy uncertainty (57% of OEMs) as the main challenges, and does not mention power or permitting (https://www.qualitymag.com/articles/99902-new-survey-us-reshoring-momentum-builds-despite-policy-and-workforce-challenges). The founder's claim that reshorers lose a year to power and permits is not backed by that survey.\n- Ohio EPA guidance says an ownership transfer needs only a notification letter within 30 days, and no permit modification unless the new owner requests one (https://epa.ohio.gov/static/Portals/27/eBusinessCenter/Agency/DAPC/GUIDANCE_tranownership.doc). Idle facilities can keep permits if fees and reports stay current. That makes 'transferable permit' real but easy to check, so the permit component is a weaker moat than the power component.\n- Ohio has 125+ data-center moratoriums (https://www.mahoningmatters.com/news/state/article317296239.html). That may ease competition for shells locally, but it also weakens the 'disappearing shells' urgency in Ohio.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Change who pays and drop the parts that are already crowded. Do not sell a scoring database to manufacturers, because LandGate, Enverus, Scout, Brownfield.ai and ZoomProspector cover parcel scoring and search. Sell an 'Electrical and Permit As-Built Record' to sellers and controllers of idle plants. That means bankruptcy trustees and liquidators, corporate real-estate divisions, county land banks, port and development authorities, and utility economic-development teams. They have a direct financial reason to prove a building's energized capacity, and the record supports a powered-shell premium.\n\n1. Core deliverable: the electrician-verified one-line diagram, nameplates, gear age and condition, spare capacity, and a utility will-serve or capacity letter. Add slab and crane-rail condition and the state of the existing air and wastewater permits (shutdown status, fee and renewal compliance). Sell it as a standardised, dual-use record that both a manufacturer and a data-center, battery or powered-shell buyer can underwrite. The record then serves both buyer types instead of betting on the poorer one.\n2. Channel: license the verified data as a white-label layer to AEP, FirstEnergy, JobsOhio and ZoomProspector-style databases. They list buildings but do not verify what is inside them.\n3. Lead generation: use public Ohio EPA permit and parcel data to find idle plants and offer the seller a first record.\n4. Drop the 0.5%-1% success fee. It likely needs a real-estate broker licence and creates conflicts with the seller-paid, buyer-trusted record. Charge per record and per data license instead.\n5. Validate before building: get 5 sellers or liquidators to pre-pay for a record, and confirm that brokers or sellers will pay $1.5k-$3.5k. I found no evidence yet that they will."
+}

@@ -1,0 +1,16 @@
+{
+ "title": "GLP-1 Palate Panel for Food R&D",
+ "angle": "contrarian",
+ "one_liner": "A managed panel of GLP-1 users and their households that food and restaurant companies rent to test products, portions and health claims.",
+ "customer": "R&D and insights teams at mid-size CPG (protein, snacks, frozen), restaurant chain menu teams, foodservice for hospitals and senior living, and supplement brands that need claim substantiation ($25-150k per study).",
+ "problem": "73% of GLP-1 users report taste changes and 70% lose joy in eating, so 'just add protein' fails. About 70% change what the household eats, and non-users adopt 30-50% of the changes, so the affected base is ~50% larger than the user count. Food companies are reformulating and launching 'GLP-1 friendly' labels on general-population panels and conflicting forecasts.",
+ "solution": "Recruit and maintain a segmented panel (drug, dose, weeks on therapy, aversion profile, household makeup). Run sensory, portion and format tests plus home-use tests and 8-12 week muscle and satiety claim studies. Deliver 'aversion maps' (which textures and smells trigger nausea at which dose) and household spillover models.",
+ "why_now": "Households with a GLP-1 user doubled from ~11% to 22% in under 3 years. Pills launched in 2026 broaden the base. CPG is mid-reformulation, and FTC claim scrutiny makes 'evidence-backed' labels valuable. Purchase-panel incumbents see what is bought, not why.",
+ "revenue_model": "$25-150k per study, plus $40-100k/year data subscription for 'aversion map' updates.",
+ "non_obvious_insight": "The 'GLP-1 consumer' is 5-6 sensory segments that shift with dose and week on therapy, not one persona. Forecasting from sales data cannot separate them, but a panel can. The picks-and-shovels of a reformulation wave are the testers, not the brands.",
+ "first_30_days": "Recruit 300 panelists from subreddits and Facebook groups with a $25 incentive, verified by photo of the pharmacy label. Publish a free 'taste change' survey report for press. Cold-email 30 CPG insights leads and land a first paid pilot of about $25k.",
+ "outside_box_score": 6,
+ "source": "idea:health-glp1-longevity:all4",
+ "kind": "idea",
+ "id": "I1258"
+}

@@ -1,0 +1,16 @@
+{
+ "title": "One Annual Fee for Every Mandatory EU Representative",
+ "angle": "boring-lucrative",
+ "one_liner": "A roll-up of small EU authorised-representative shops that bundles every legally required local presence (GDPR Art. 27, AI Act, Data Act, product safety, CRA) into one liability-bearing annual contract for non-EU companies.",
+ "customer": "US, UK, Israeli, Indian and Asian SaaS, AI and hardware companies ($2M-$200M revenue) selling in the EU without an EU entity. Bought by founders, GCs and ops leads.",
+ "problem": "Several EU regimes require non-EU companies to name someone in the EU who can be held to account: GDPR Art. 27, AI Act authorised representatives for high-risk and GPAI providers, Data Act legal representative, product-safety responsible person, an optional CRA authorised representative (background knowledge; verify each). Today each comes from a different vendor, many are one-person shops or law firms wary of liability, and none coordinate.",
+ "solution": "Acquire three to six small rep businesses (typically hundreds to a couple thousand clients on sticky annual fees), keep their brands, and rebuild operations with automation for inbound regulator and data-subject mail triage, translation and escalation. Add an EU law-firm panel as backstop and sell one bundle with a shared register of representations, one invoice and standard playbooks, priced for the liability.",
+ "why_now": "GPAI duties applied Aug 2025 with enforcement from Aug 2026, Data Act obligations arrived Sep 2025 and Sep 2026, and CRA reporting started 11 Sep 2026, so many non-EU firms suddenly face three or four rep obligations at once. AI lowers the cost of delivering the service.",
+ "revenue_model": "EUR 3-15k/year per client bundle, 70-80% renewal, acquisitions at roughly 1-2x revenue, and upsell to compliance retainers.",
+ "non_obvious_insight": "When AI makes drafting free, the scarce good is someone in the EU who can be sued. Liability-bearing presence has pricing power and stickiness, and becoming the address regulators write to is a distribution moat.",
+ "first_30_days": "List 30 small EU rep providers and approach five owners about a white-label or revenue-share deal that leads to acquisition. Sell the bundle to 10 US SaaS and AI firms through founder communities at EUR 4k and obtain a professional-indemnity quote.",
+ "outside_box_score": 5,
+ "source": "idea:legal-regtech:all4",
+ "kind": "idea",
+ "id": "I0812"
+}

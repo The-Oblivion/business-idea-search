@@ -1,0 +1,15 @@
+{
+ "title": "Contingency Recovery of Unpaid Implant Carve-Outs",
+ "one_liner": "Find and collect the implant and device carve-out payments that hospitals and surgery centers are owed but never bill, because the invoice lives in accounts payable and not in the billing office.",
+ "customer": "Physician-owned spine and orthopedic ASCs, plus small and mid-size hospital ortho/spine/cardiac service lines, with commercial payer contracts that carve out implants. Paid 20-30% of recovered dollars.",
+ "problem": "Many commercial contracts pay implants and high-cost devices separately, at invoice cost plus a markup, but only if the vendor invoice is submitted with the claim. The implant log is in the OR record, the invoice is in supply chain or AP, and the claim is built by billing. Nobody connects them. The claim goes out with L8699 or revenue code 027x lines at billed charges, and the payer pays $0 for the device or folds it into the case rate. The payment posts as 'paid', so nobody notices the loss. This is $5k-$50k per case for spine and joint work.",
+ "solution": "Ingest the implant log (manufacturer, catalog and lot numbers), AP invoice PDFs (parsed with an LLM), contract carve-out terms extracted from the PDFs, and the 837/835 files. Compute expected carve-out payment versus actual, auto-assemble invoice attachments per payer rules, and file corrected claims and appeals inside timely-filing windows. Run it as a service for the first clients (manual, coder-led), then automate the matching.",
+ "why_now": "CMS's CY2026 outpatient rule began phasing out the inpatient-only list and added many procedures, mostly musculoskeletal, to the ASC-covered list. More device-heavy spine and ortho cases are moving to ASCs whose small billing staffs have never dealt with carve-outs. Payers are also using AI-driven payment integrity that makes missing attachments an automatic zero.",
+ "revenue_model": "20-30% contingency on recovered carve-out payments. After the first recovery, convert to $1.5-4k/month prospective monitoring per facility.",
+ "non_obvious_insight": "The loss is invisible in every standard revenue-cycle KPI. Denial rate looks fine and AR looks fine because the line paid 'as billed under the case rate'. The only way to see it is to lay the supply chain invoice next to the contract term next to the 835. Billers know it happens. Supply chain does not know payers pay for it. Finance never audits it. That gap between three departments is the earned secret.",
+ "first_30_days": "Pick 10 physician-owned spine and ortho ASCs through ASCA chapters and surgeon-owner LinkedIn outreach. Offer a free 90-day lookback audit, since contingency means zero risk to them. Each needs to share 835s, implant logs, invoices and the top three commercial contracts. Do the first three audits by hand with a coder and a spreadsheet, and use the dollars found as the sales collateral. Then automate the invoice parsing.",
+ "outside_box_score": 4,
+ "source": "persona:p1-3",
+ "kind": "persona",
+ "id": "I0708"
+}

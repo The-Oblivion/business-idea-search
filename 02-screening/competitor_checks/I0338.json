@@ -1,0 +1,66 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "CattleMax",
+   "url": "https://www.cattlemax.com/",
+   "what_they_do": "Cloud cattle record-keeping software with inventory, pregnancy and breeding records, RFID-reader integration and income/expense tracking. Its homepage and pricing page (fetched) mention no lender/bank reports and no vet data sharing.",
+   "scale_or_funding": "Calls itself 'North America's Most Widely Used Cattle Software'. Pricing is $30/mo (Commercial) and $41/mo (Registered) for up to 250 head, and custom above 2,000 head. Funding not found.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "AgriWebb",
+   "url": "https://www.agriwebb.com/",
+   "what_they_do": "Livestock management software (movements, performance, cost of production, map) with hardware integrations. The homepage does not mention lender sharing or third-party verified counts.",
+   "scale_or_funding": "Over 17,000 producers and more than 25% of Australia's grazing animals, per its site. Funding not found.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "IMI Global / Where Food Comes From (Beef Passport)",
+   "url": "https://www.imiglobal.com/",
+   "what_they_do": "USDA-approved third-party verification of cattle age/source, breed, feed and sustainability claims, plus EID tags. 'Beef Passport' ties each EID to its verification records. Nothing on lender or herd-inventory verification appeared. This is the closest 'independent verifier with an EID data platform' and could add lender reports as a feature.",
+   "scale_or_funding": "Part of Where Food Comes From, a publicly traded verification company. Funding details not fetched.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Merck Animal Health (Allflex tags/readers, Vence)",
+   "url": "https://www.merck-animal-health-usa.com/species/cattle/vence",
+   "what_they_do": "Owns EID tag/reader hardware and cattle data platforms. The pages returned HTTP 403, so I could not confirm any lender or collateral offering. Big-vendor entry into 'verified inventory' is a plausible incumbent risk.",
+   "scale_or_funding": "Subsidiary of Merck & Co.; vet-channel distribution is already in place. Page not read.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Ceres Tag",
+   "url": "https://www.cerestag.com/",
+   "what_they_do": "Solar-powered satellite GPS ear tags for real-time location and behavior. It pitches traceability and supply-chain credibility, but the homepage mentions no lender or collateral use case. Continuous tracking is a different route to 'verified head count'.",
+   "scale_or_funding": "Says it operates in more than 30 countries. Funding not shown.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Halter",
+   "url": "https://halterhq.com/",
+   "what_they_do": "GPS collars, virtual fencing and herd monitoring for dairy and beef. The homepage mentions no lending or collateral features.",
+   "scale_or_funding": "Operates in the US, Canada, Australia, NZ, Argentina and Uruguay. Funding not shown on the page.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "HerdDogg",
+   "url": "https://herddogg.com/",
+   "what_they_do": "Bluetooth smart ear tags for health and heat detection at about 8 cents/day per animal. No lender or inventory-verification angle appeared.",
+   "scale_or_funding": "Scale and funding not stated on the page.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Gallagher Animal Management",
+   "url": "https://am.gallagher.com/en-us",
+   "what_they_do": "EID readers, scale heads and the Animal Performance software. The page mentions no lender reports or third-party verification.",
+   "scale_or_funding": "Established global hardware vendor; pricing not on the page.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Caveat first: the WebSearch budget (200 of 200) was already spent when I started, so I ran zero searches. I did direct fetches of about 15 vendor and agency pages, plus GitHub repo searches. Nothing here rules out a direct competitor. The biggest gap is that I could not identify the third-party collateral-inspection firms that lenders already pay for cattle counts, or any startup selling vet-verified herd inventory to lenders. Do not treat 'gap' as 'open'.\\n\\nWhat the direct fetches showed: none of the herd-software, EID, tracking or verification vendors I checked advertise a lender-facing 'independent count' product. The vendors were CattleMax, AgriWebb, IMI Global/WFCF, Ceres Tag, Halter, HerdDogg and Gallagher. Merck/Vence returned 403, so I could not check it. Every one of them is a producer-side management or supply-chain tool. GitHub searches turned up no open-source lender-verification tool, only hobby herd apps.\\n\\nThe unserved wedge is a lender-mandated, third-party-attested herd inventory built as a covenant workflow. It would cover the vet-signed chute-side count, a portfolio dashboard, and year-over-year anomaly flags such as head count down, pregnancy rate down, or tags missing versus last year.\\n\\nStructural weaknesses to be skeptical of:\\n- Adverse selection: 'borrower-initiated' verification means fraudulent borrowers never opt in. The product only works if lenders make it a loan condition.\\n- Coverage: a preg-check only counts animals brought to the chute that day, not cattle on other leases or sold or double-pledged since. It does not prove ownership or lien priority.\\n- Vet liability and willingness: vets may refuse to sign anything that reads as a collateral audit.\\n- Economics: $2-3/head split 50/50 leaves the vet about $1-1.50/head on top of a preg-check fee that is already several dollars.\\n- Entry by an existing vendor: IMI Global (WFCF) or Merck/Allflex could add this as a feature.",
+ "evidence_of_demand": "None verified this session, because I could not run searches. Two specific claims in the idea are unconfirmed: the '2026 roughly $9.4M fraud, including a $2.8M loan against 850 head', and the Nov 2024 federal EID rule. The EID claim is consistent with my prior knowledge but my APHIS fetch returned 404 (https://www.aphis.usda.gov/livestock-poultry-disease/traceability/cattle). The Eastern Livestock Wikipedia fetch also returned 404. The OCC Agricultural Lending handbook PDF (https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/agricultural-lending/pub-ch-agricultural-lending.pdf) fetched but did not extract as readable text. Farm Credit's homepage (https://www.farmcredit.com/) shows no verification tooling. It is background knowledge, not something I confirmed here, that lenders already do collateral inspections and that historic cattle-collateral frauds such as Eastern Livestock (2010) exist. That points to real spend on manual workarounds, but the founder should confirm it with lender interviews. No RFPs, forum complaints or paid-service pricing were found.",
+ "kill": false,
+ "kill_reason": "n/a. Nothing found shows a dominant or crowded direct competitor. The evidence is thin because no web searches were possible, so this is a provisional not-killed verdict pending a proper competitor search.",
+ "sharper_angle": "Skip the vet-as-attestor framing and sell to the lender as a covenant-compliance tool. Give the loan officer an 'inventory attestation' workflow they attach to the loan agreement, with three parts. (1) Accept attestations from any credible chute-side handler (vet, brand inspector, sale-barn or feedyard records, EID reader logs), not only vets, so a vet's reluctance does not block the product. (2) Reconcile each attestation against independent sources: the lender's prior-year counts, sale-barn and movement records, and EID or CVI data. The output is a reconciled 'expected vs. attested head' variance flag, which is what catches fraud. (3) Track the lien and ownership side (UCC and brand records) next to the count. Start with a single community-bank or Farm Credit association pilot that makes it a condition on new bred-heifer and operating-line loans. Have the bank pay, priced per loan or per portfolio, to avoid the 'honest borrower must opt in' adverse-selection trap. Before building, run 10-15 lender and vet interviews and a proper search for existing third-party inspection vendors. Also test whether IMI Global/WFCF (Beef Passport) or a big EID vendor would white-label this."
+}

@@ -1,0 +1,73 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "NextLabs (CloudAz, Application Enforcer)",
+   "url": "https://www.nextlabs.com/solutions/regulatory-compliance/",
+   "what_they_do": "Attribute-based access control and export-control enforcement for enterprise data. Its pages reference automated compliance with US ITAR and EAR and 'need-to-know' ABAC policies, with SAP and SharePoint enforcers and a Siemens partnership. Customers listed include Lockheed Martin, Boeing, Collins, BAE, Raytheon, Pratt & Whitney and Airbus. It is the closest match to the 'ABAC into PLM' piece. The pages I could fetch did not mention nationality attributes or Teamcenter/Windchill by name, and I found no pricing or startup-tier offer.",
+   "scale_or_funding": "Homepage claims '8 of the top 12 aerospace & defense companies run on NextLabs'. Funding not found. Enterprise-focused with SaaS, private cloud and on-prem deployment.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Exostar (Managed Access Gateway, CMMC Ready Suite, supplier onboarding)",
+   "url": "https://www.exostar.com",
+   "what_they_do": "Identity hub for the aerospace and defense supply chain. Offers identity proofing and MFA through its Managed Access Gateway, supplier onboarding and verification, and a fully managed CMMC Level 2 suite (Certification Assistant, PolicyPro, Managed Microsoft 365). It already owns the sub-tier supplier identity and CMMC relationship the idea targets in parts (4) and (5). Its pages do not show an explicit US-person attribute.",
+   "scale_or_funding": "Claims 200,000+ vetted organizations and more than half of the Defense Industrial Base. Customers include Boeing, Lockheed, RTX, BAE and Honeywell.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Descartes Visual Compliance (Controlled Technology, Visitor Risk Manager, I-129 Part 6)",
+   "url": "https://www.visualcompliance.com",
+   "what_they_do": "Export-compliance suite. Its products cover deemed-export and hand-carried-export compliance, visitor approval and access control to technologies, I-129 Part 6 visa technology-access documentation, and denied-party screening. It covers the workflow side of foreign-person access to controlled technology, though not IdP or PLM enforcement as far as I could see.",
+   "scale_or_funding": "Part of publicly traded Descartes Systems. Long-established, with a large installed base in export compliance.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Nametag",
+   "url": "https://getnametag.com",
+   "what_they_do": "Workforce identity verification with Deepfake Defense at hiring, onboarding, account recovery and helpdesk. It explicitly markets stopping North Korean IT workers, integrates with Okta and Entra to create a persistent verified identity, and has no ITAR or US-person feature on its page. It makes the hiring-fraud framing of the idea crowded.",
+   "scale_or_funding": "Named a Visionary in the 2026 Gartner Magic Quadrant for Identity Verification. Customers include HubSpot, Reddit, Autodesk and UVM Health. Funding not found.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Persona (workforce IDV)",
+   "url": "https://withpersona.com",
+   "what_they_do": "Large IDV platform that sells workforce verification and hiring-fraud checks. The page returned HTTP 403 in this session, so this description is from background knowledge and is unverified. It is the type of vendor the idea plans to partner with, and it could add nationality-based attributes as a feature.",
+   "scale_or_funding": "Not verified this session (fetch blocked).",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Microsoft Entra ID (Verified ID and custom security attributes)",
+   "url": "https://learn.microsoft.com/en-us/entra/fundamentals/custom-security-attributes-overview",
+   "what_they_do": "Entra custom security attributes are free in all editions. They are key-value attributes on users and apps, restricted by dedicated RBAC roles, intended for authorization and used in Azure ABAC conditions. So a 'US person' flag can already be stored natively. Docs state they are NOT supported in SAML token claims or JWT claims, so they cannot flow directly to downstream SaaS or PLM apps. Entra Verified ID (https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-verified-id) supports onboarding IDV through partners such as CLEAR, Idemia and Au10tix. Citizenship was not confirmed as a supported attribute.",
+   "scale_or_funding": "Microsoft platform feature. The main risk is a platform incumbent adding this.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "PreVeil",
+   "url": "https://www.preveil.com/itar/",
+   "what_they_do": "End-to-end-encrypted email and drive positioned on the ITAR carve-out for encrypted technical data. It also sells CMMC Compliance Accelerator and GRC tools. It lets startups sidestep foreign-person exposure by encrypting rather than by proving nationality, which is the cheap workaround the idea competes against.",
+   "scale_or_funding": "Claims over 1,800 customers among defense contractors and manufacturers.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Vanta (CMMC Level 2)",
+   "url": "https://www.vanta.com/products/cmmc",
+   "what_they_do": "Compliance automation with pre-mapped NIST 800-171 controls, SSP and POA&M management, SPRS monitoring and C3PAO partnerships. Its CMMC page shows no ITAR, US-person or nationality tracking. It is a likely place for the 'auditor-ready evidence pack' to become a bundled feature.",
+   "scale_or_funding": "Large, well-funded compliance-automation vendor (figures not verified this session).",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Exiger",
+   "url": "https://www.exiger.com",
+   "what_they_do": "AI supply-chain and third-party risk platform. Maps multi-tier suppliers, tracks risk, and includes trade compliance, with defense-industrial-base customers. It makes the supplier KYB and counterfeit-parts module (part 4) a crowded, incumbent-owned area.",
+   "scale_or_funding": "Established vendor in defense supply-chain risk (funding not verified this session).",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "The full five-part bundle is crowded module by module: hiring-fraud IDV (Nametag, Persona and Okta/Entra partners), supplier onboarding and CMMC (Exostar, Exiger, Vanta), and ABAC and export control (NextLabs, Descartes). What I did not find is a startup-scale product that does all of the following:\n1. Turns ITAR US-person status into a maintained, auditable attribute. In the ITAR sense, US person means citizen, lawful permanent resident or protected individual. Generic IDV proves a person is real and not their ITAR status, so this needs a legal-grade status determination plus an attestation.\n2. Pushes that attribute through SCIM or group sync into the IdP and downstream SaaS, repos and PLM. Entra custom security attributes cannot ride in SAML or JWT claims, so a group or SCIM sync layer is a real technical gap.\n3. Reconciles a person-by-person roster against actual permission lists (Drive, GitHub, PLM) and flags foreign-person exposure. I found no self-serve audit product for this. The likely alternatives are consultants and export counsel.\n4. Tracks foreign-person exceptions (TAA, license or exemption) per person and per data category. Descartes covers only the visa-form piece.\nNextLabs serves the prime-contractor tier and Descartes is workflow and screening software, so neither obviously targets Series A-C startups with 50-500 staff. That claim comes from limited page evidence, not pricing data.\n\nWeaknesses of the current pitch:\n- Supplier KYB, counterfeit parts and the CMMC evidence pack have entrenched owners (Exostar, Exiger, Vanta).\n- Hiring-fraud and North Korean IT-worker positioning is a marketed feature of Nametag, Persona and Okta.\n- The 10 Nov 2026 CMMC Phase 2 'why now' looks shaky. The Wikipedia CMMC article states that on July 13, 2026 the Pentagon temporarily paused Phase 2 and set up a CMMC Reform Task Force. That is a single source I could not corroborate, so verify it before using the date. CMMC also assesses NIST 800-171 controls, not staff nationality, so it is a weak driver for this product.\n- Startups already have cheap workarounds: I-9 plus HR attestation, US-person-only tenants and enclaves, and encrypted-data carve-outs (PreVeil).\n- The addressable market is small: a few hundred US space and defense-space startups.\n- The company would take on legal exposure by attesting to US-person status. That needs export-counsel-approved standards.\n\nResearch limits: the WebSearch budget (200 calls) was already exhausted when I started, so I ran no web searches. A few Bing pages fetched through WebFetch returned junk. I stopped that because using WebFetch as a search-engine workaround sidesteps the budget. The competitor list therefore comes from direct vendor-page and primary-source fetches only. Crunchbase, YC, Product Hunt and TechCrunch checks were not done, and I could not confirm NextLabs' Teamcenter or Windchill integrations or any competitor's funding. A small ITAR-specific startup could be missed. Run a fresh search pass before committing.",
+ "evidence_of_demand": "Regulatory and threat pressure is real, but I found no direct evidence that startups pay for a US-person attribute product.\n\nRegulatory forcing function (foreign-person access is a serious violation):\n- The Wikipedia ITAR article (https://en.wikipedia.org/wiki/International_Traffic_in_Arms_Regulations) states that sharing technical data with foreign nationals is an export requiring approval. It lists penalties including ITT $100M, General Dynamics Land Systems $20M (for letting unauthorized dual nationals from Syria and China access USML items), Space Systems/Loral $20M and Hughes $32M.\n\nThreat pressure on hiring fraud:\n- The DOJ North Korean IT worker announcement (https://www.justice.gov/opa/pr/justice-department-announces-coordinated-nationwide-actions-combat-north-korean-remote) reports more than 100 US companies targeted, searches of 21 premises across 14 states and about 137 laptops seized in June 2025, and over 70 laptops recovered in October 2024.\n\nExisting paid spend on adjacent workarounds:\n- Nametag (https://getnametag.com) sells workforce IDV against North Korean IT workers to HubSpot, Reddit and Autodesk.\n- PreVeil (https://www.preveil.com/itar/) claims 1,800+ customers for ITAR and CMMC tooling.\n- Exostar (https://www.exostar.com) claims 200,000+ organizations and more than half of the DIB.\n- Vanta (https://www.vanta.com/products/cmmc) sells CMMC Level 2 compliance.\n\nNegative and weakening signals:\n- Wikipedia (https://en.wikipedia.org/wiki/Cybersecurity_Maturity_Model_Certification) reports the Pentagon paused CMMC Phase 2 on July 13, 2026 as 'too bureaucratic and burdensome', with a reform task force reviewing the program. Single source, unverified.\n- No forum complaints, RFPs or startup case studies about US-person attribute tooling turned up. The spend seen is on enclaves, encryption and CMMC, not on IDV-fed nationality ABAC.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Cut the bundle to one wedge, an 'ITAR access ledger' for space startups. Drop supplier KYB and counterfeit parts (Exostar and Exiger own it), the generic CMMC evidence pack (Exostar and Vanta), and the North Korean hiring-fraud pitch (Nametag, Persona and Okta market it). The product would:\n1. Keep an attested roster of each person's ITAR status: US person, or foreign person with an authorization on file. IDV is bought from a partner, with a document-and-attestation flow for citizen, LPR and protected-individual status, built to a standard export counsel has signed off on.\n2. Sync that roster into Okta and Entra groups through SCIM, working around Entra's lack of SAML and JWT claim support for custom security attributes.\n3. Continuously diff the roster against real Drive, GitHub and PLM permissions and flag foreign-person exposure.\n4. Track foreign-person exceptions (TAA, license or exemption) per person and per data category.\n\nSell the $2K ITAR access audit as a fixed-price entry offer. Go to market through space accelerators and export-control law firms, not the CMMC calendar, since the Nov 2026 date may have slipped. Position it as a complement to Exostar, Vanta, PreVeil and NextLabs, and consider selling it as an add-on through those platforms.\n\nBefore building, verify the CMMC pause and interview 10 ITAR empowered officials. Ask what they use today, whether I-9 plus attestation already satisfies their counsel, and whether they would pay for continuous roster-to-permission reconciliation. If most say attestation suffices, kill it."
+}

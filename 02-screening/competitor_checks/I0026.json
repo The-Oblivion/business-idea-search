@@ -1,0 +1,52 @@
+{
+ "status": "crowded",
+ "competitors": [
+  {
+   "name": "FIDO Tech (Aqua Plus)",
+   "url": "https://www.fido.tech/aqua-plus",
+   "what_they_do": "UK/US AI acoustic leak-detection company whose Aqua Plus product is essentially this idea: a corporation states how much water it needs to replenish and where, FIDO pairs it with a pre-vetted local utility, deploys FIDO AI leak detection, monitors repairs for three years, and delivers 'transparent, traceable volumetric savings' independently validated by Bluerisk or Limnotech under WRI's VWBA 2.0 method. Pitched as going 'beyond traditional water stewardship' by supporting 'systemic water leakage outside the factory fence'. Named clients: Meta, Microsoft, Gap Inc. Meta funds FIDO AI across 300 km of pipe in Farmington NM for an estimated 250M gal/yr (https://sustainability.atmeta.com/water/). US case studies include Goodyear AZ and a Chicago utility (https://www.fido.tech/case-studies), and it just named a US business-development lead and a Head of Aqua Plus (https://www.fido.tech/news).",
+   "scale_or_funding": "Funding not verified (Crunchbase returned 403; the site discloses none). Has hyperscaler references (Meta, Microsoft), KPMG Global Tech Innovator and Future Fifty recognition, and a growing US team.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Hyperscaler in-house programs (Microsoft, Meta, Amazon)",
+   "url": "https://blogs.microsoft.com/on-the-issues/2026/01/13/community-first-ai-infrastructure/",
+   "what_they_do": "The buyers the idea targets already run this play themselves. Microsoft's Jan 2026 community-first pledge says it will 'fully fund the infrastructure required for growth', replenish more water than it withdraws in the same water districts, and run 'leak detection partnerships with local utilities' in the Phoenix area and Nevada; it is also funding $25M+ of water and sewer improvements in Leesburg VA so costs don't fall on ratepayers. Meta funds the FIDO leak project in Farmington NM. Amazon says Mexico City 'has already saved 1.8 billion liters using technology funded by Amazon' and is investing $235M in Oregon water infrastructure (https://sustainability.aboutamazon.com/natural-resources/water).",
+   "scale_or_funding": "Trillion-dollar-scale balance sheets and in-house water-stewardship teams. They are potential customers or channel partners, but they also have no need for an intermediary when they can contract FIDO or utilities directly.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Bonneville Environmental Foundation (Water Restoration Certificates)",
+   "url": "https://www.b-e-f.org/water-restoration-certificates/",
+   "what_they_do": "Nonprofit that sells third-party-verified, gallon-for-gallon Water Restoration Certificates to corporates. Its 'Efficiency Improvements' project type supports modernizing systems to 'stop leaks and wasted water'. Buyers include CyrusOne, a data-center operator.",
+   "scale_or_funding": "Established nonprofit with a multi-year track record. Funding not verified, and utility-leak-specific projects are not detailed on the page.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Miya Water",
+   "url": "https://www.miya-water.com",
+   "what_they_do": "Global non-revenue-water reduction contractor with 200+ projects on five continents. It runs utility efficiency programs and is known for performance-based NRW contracts, but the fetched page does not confirm the financing structure and shows no data-center angle.",
+   "scale_or_funding": "Established private company. Funding not verified.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "ASTERRA (Recover)",
+   "url": "https://asterra.io",
+   "what_they_do": "Satellite-radar (PolSAR) leak detection sold to utilities; a US case study covers Virginia's Henry County PSA. It sells to utilities, not to corporate funders, but it is a detection layer a competitor could resell inside a program like this.",
+   "scale_or_funding": "Funding not disclosed on the site.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Utility leak-detection incumbents (Xylem/Pure, Echologics/Mueller, etc.)",
+   "url": "https://www.xylem.com",
+   "what_they_do": "Sell leak-detection hardware, software and inspection services directly to utilities. The specific Xylem page I tried returned 404, so this entry rests on general industry knowledge rather than a verified fetch. They could add a 'sponsor-funded' offering, but no evidence found that they have.",
+   "scale_or_funding": "Large public companies.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "The core mechanism (corporation funds utility leak reduction, gets verified volumetric credit) is already a live product at FIDO Tech, is publicly promised by Microsoft, and is already funded by Meta and Amazon. The unserved space is narrower: (1) Permit-driven, same-source, same-year mitigation packaged for a specific permitting file and hostile local audience. FIDO's Aqua Plus is framed around ESG and 2030 replenishment targets, pairs the sponsor with a utility 'anywhere in the world', and Meta's Farmington project is not tied to a contested host-site permit. (2) Mid-size and non-hyperscale developers (colo, powered-land and build-to-suit developers, crypto and AI-cloud entrants) that have permit fights but no water-stewardship team, no FIDO relationship and no Microsoft-style pledge. (3) Turnkey execution: FIDO is detection SaaS and the utility does the repairs. Nobody found offers audit, ranked repair list, crews, procurement help for small utilities, and post-repair verification as one program. (4) Small utilities (under about 10k connections) with no district metered areas, where verification needs installed DMA meters, which detection vendors don't provide. (5) Local-politics tooling: neighbor-facing verified-gallons reporting, utility board resolutions, and rate-neutral capacity-to-serve framing. Not verified: the idea's Texas, Ohio, New York and Cheyenne claims, and whether mid-market developers actually pay for this.",
+ "evidence_of_demand": "Real, but mostly from the deep-pocketed buyers who already have a solution. (a) Microsoft's public pledge (Jan 2026) to fully fund growth-related water infrastructure, replenish in the same districts, and run utility leak-detection partnerships, including $25M+ of water and sewer work in Leesburg VA: https://blogs.microsoft.com/on-the-issues/2026/01/13/community-first-ai-infrastructure/ . (b) Meta paying FIDO to cut leakage across 300 km of pipe in Farmington NM, an estimated 250M gal/yr: https://sustainability.atmeta.com/water/ . (c) Amazon-funded leak technology in Mexico City (1.8B liters saved) and $235M for Oregon water infrastructure: https://sustainability.aboutamazon.com/natural-resources/water . (d) FIDO lists Meta, Microsoft and Gap as Aqua Plus clients and has hired a US business lead and a Head of Aqua Plus in 2026, which suggests demand is growing: https://www.fido.tech/aqua-plus and https://www.fido.tech/news . (e) CyrusOne, a colo operator, buys Water Restoration Certificates from BEF, so at least one mid-tier data-center buyer pays for offsets: https://www.b-e-f.org/water-restoration-certificates/ . (f) Regulatory data supply: Texas requires annual water-loss audits from retail systems with over 3,300 connections and every five years from smaller ones, with the next small-system deadline May 1, 2026, so the loss data used to target utilities is real and public: https://www.twdb.texas.gov/conservation/municipal/waterloss/index.asp . Not verified (WebSearch budget exhausted): the idea's claims about Texas criminalizing non-reporting, Ohio scrapping its general permit, the New York moratorium, the Cheyenne revocation, the Australian standards, and any mid-market developer paying for a $15-25k feasibility study. No RFPs or forum complaints were found.",
+ "kill": false,
+ "kill_reason": "n/a. The verdict is crowded, not dominated. FIDO Tech is one small direct competitor rather than an entrenched leader, and the permit-file wedge for mid-market developers plus turnkey execution for small utilities looks unserved. It is a close call. If a quick check of FIDO's US pipeline and funding shows it already selling permit-mitigation programs to non-hyperscale developers, this should flip to kill.",
+ "sharper_angle": "Do not pitch it as 'water-positive offsets via leak repair', because FIDO Aqua Plus already owns that framing with Meta and Microsoft as references. Sell a permit-mitigation compliance product to the developers with no water team: a 'Water Neutrality Condition Package' for a specific pending permit, covering a same-source, same-year commitment, a repair program sized to the project's projected demand, utility board sign-off, and an independent verified-gallons report written for the permitting file and public hearing. Start with small and mid-size utilities near pending or contested sites, where you can also install temporary DMA metering (the verification step FIDO's detection-only SaaS leaves to the utility) and handle repair procurement and crews. Position FIDO and Asterra as detection subcontractors rather than rivals, and pitch the hyperscalers as channel partners for their non-flagship sites. Before building, confirm one thing: whether any permitting board or state agency will accept a private leak-repair program as a formal permit condition. That determines whether this is a compliance product or just another ESG offset.\""
+}

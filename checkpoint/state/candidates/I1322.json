@@ -1,0 +1,16 @@
+{
+ "title": "Ghost-Student Fraud Defense for Community Colleges",
+ "angle": "boring-lucrative",
+ "one_liner": "Enrollment-fraud screening built into admissions and financial-aid workflows that separates real applicants from bot-driven ghost students before aid disburses.",
+ "customer": "Community-college districts' admissions, financial-aid and IT-security offices, plus state college systems. There are about 1,000 community colleges in the US.",
+ "problem": "Fraud rings use stolen or synthetic identities, and increasingly AI-completed coursework, to enroll and collect federal and state aid. California community colleges have reported large shares of applications as fraudulent and tens of millions of dollars lost. Regulators have tightened identity-verification requirements for aid recipients. Staff are overwhelmed by manual reviews, and consumer IDV tools do not fit education workflows.",
+ "solution": "Integrate with student information and learning management systems. Risk-score at application, enrollment and first-week activity using LMS login patterns, IP and ASN reuse, device farms, writing similarity and disbursement-account reuse. Send only high-risk cases to paid ID verification, place aid holds, produce OIG-ready reports, and give auditors a dashboard.",
+ "why_now": "The 2025-26 ghost-student wave hit colleges as AI agents got good enough to attend and submit work, and aid-verification rules tightened. State funding for fraud response exists.",
+ "revenue_model": "$25-100K per district per year, or $0.10-0.50 per application screened.",
+ "non_obvious_insight": "The budget owner is financial-aid compliance, driven by audit findings and risk to aid eligibility, not IT. The best signals (LMS behavior) exist only after enrollment, so this is behavioral IDV that consumer vendors cannot copy.",
+ "first_30_days": "Pilot with 2 colleges. Retro-score one semester of application logs to show dollars at risk, pitch through financial-aid and CIO associations, and price at $2K per month.",
+ "outside_box_score": 6,
+ "source": "idea:security-identity:all4",
+ "kind": "idea",
+ "id": "I1322"
+}

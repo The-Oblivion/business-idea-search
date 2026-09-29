@@ -1,0 +1,66 @@
+{
+ "status": "crowded",
+ "competitors": [
+  {
+   "name": "United Liquidations",
+   "url": "https://unitedliquidations.com/solutions/abandoned-refused-container-resolution/",
+   "what_they_do": "Aurora, IL liquidator that explicitly buys abandoned, refused and cancelled-order containers at port outright. Coordinates release with forwarders, terminals and ports, does drayage and extraction, and wires same-day funds to settle port fees and demurrage. It also markets to tariff-hit importers ('buys inventory outright when tariff changes or duty exposure make clearing cargo uneconomical'). It says it does not broker or consign. The page is silent on customs entry, importer-of-record, carrier demurrage waivers and trustees.",
+   "scale_or_funding": "Private, no funding data found. Multi-city landing pages (Chicago, Atlanta, NYC) suggest a small national operation.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Salvex",
+   "url": "https://www.salvex.com/listings/listing_detail.cfm/aucid/182995008/",
+   "what_they_do": "Houston marketplace (founded 2002) for surplus, salvage and bankruptcy inventory. Bloomberg Businessweek names it one of the ~10 main US cargo-salvage players. It has a 'director of transportation abandonment' and lists abandoned cargo and containers for carriers and forwarders. Listings are AS-IS, WHERE-IS, and title passes on a release order after funds clear. The buyer bears all duties, freight and logistics, so entry is pushed onto the buyer.",
+   "scale_or_funding": "Claims a '$5.2B marketplace' across 200 countries. Established and private. CB Insights lists it, with no venture round found.",
+   "overlap": "direct"
+  },
+  {
+   "name": "The Salvage Groups, Inc. (Michigan)",
+   "url": "https://salvagegroups.com/",
+   "what_they_do": "Buyer of damaged, distressed and abandoned cargo with worldwide agents. Named by Bloomberg Businessweek as a US cargo-salvage buyer.",
+   "scale_or_funding": "Private, longstanding ('300 years combined experience'). I could not fetch the site (503), so this rests on search snippets and the Businessweek mirror.",
+   "overlap": "direct"
+  },
+  {
+   "name": "JS Cargo & Freight Disposal / JS Global Group (UK)",
+   "url": "https://js-global.co.uk/stock-buying-selling/abandoned-cargo/",
+   "what_they_do": "Buys abandoned cargo from shipping lines and works with ports, forwarders, shipping lines and customs to clear, collect and deliver to warehouses. It is the closest analogue to the 'clear it and deliver it' service, but it is UK and Europe only.",
+   "scale_or_funding": "Small: 5-10 containers a week, about GBP 500k revenue, targeting GBP 1M, per Businessweek. Bootstrapped.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Globy (unclaimed cargo marketplace)",
+   "url": "https://globy.com/unclaimed-cargo-promo",
+   "what_they_do": "B2B marketplace where anyone can list abandoned or overstayed cargo at a 5-90% discount. It moderates listings against shipping documents, connects users to legal and logistics help (cargo release, lines, terminals) and 4,000+ logistics providers, and takes no commission. Only the snippet was reachable (site returned 403).",
+   "scale_or_funding": "Unknown funding. It is a global directory, not a US customs-entry operator.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Crown Salvage (UK)",
+   "url": "https://m.jctrans.com/en/store/home/53aac98b46b6da481ff81771acc046d8",
+   "what_they_do": "Buyer of surplus, damaged and abandoned cargo. Cited by Businessweek as a peer of the US salvage buyers.",
+   "scale_or_funding": "Small private UK firm.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Bankruptcy and inventory liquidators (Hilco, Gordon Brothers, Tiger Group, SellInventory, B-Stock, Liquidity Services)",
+   "url": "https://sellinventory.com/services/",
+   "what_they_do": "They already hold the trustee and assignee relationships and the off-price and closeout buyer networks, which are the two things the desk needs to build. SellInventory buys inventory from courts, assignees and creditors, and B-Stock and Liquidity Services run wholesale auctions to off-price buyers. None advertises cargo-at-port, customs-entry or carrier-lien work, but any of them could add it as a service line.",
+   "scale_or_funding": "Large and established. Hilco, Gordon Brothers and Tiger are joint-venture liquidators on Sports Authority, Borders and Forever 21. B-Stock is a San Mateo marketplace processing billions a year.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Carriers and CBP General Order auctions (the default channel)",
+   "url": "https://www.ecfr.gov/current/title-19/chapter-I/part-127",
+   "what_they_do": "Carriers enforce liens and sell abandoned cargo by public or private sale, or to salvage buyers. CBP sells General Order cargo at auction after about six months through contractors. This is the status-quo disposal path the desk would compete with on speed.",
+   "scale_or_funding": "Statutory and institutional (19 CFR Part 127, CBP GO auctions).",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "The core claim 'buyers cannot currently buy orphaned cargo' is wrong. About ten US salvage buyers (Salvex, United Liquidations, Salvage Groups and others) already buy abandoned boxes from carriers and forwarders and resell them, and carriers already run lien sales. A commodity 'buy boxes at port and flip' desk is a crowded, thin-margin business. The Businessweek example firm makes roughly GBP 500k on 5-10 containers a week.\n\nThe gap I could find is narrower and rests partly on things competitor sites do not mention, so it is unproven:\n- **Legally tangled, high-value branded cargo.** These are boxes with the bill of lading in a dead importer's name, a trustee and a carrier lien in play, and compliance exposure (CPSC, FCC, FDA, UFLPA, IPR). Salvage buyers work AS-IS and push entry, duties and logistics onto the buyer, and their public pages do not describe solving title, importer-of-record and compliance together.\n- **A trustee-facing offer.** None of the salvage buyers advertises one. Liquidators have the trustee relationships but no cargo-at-port capability that I could find.\n- **Broker-grade entry plumbing.** This means a single-transaction bond, purchaser-as-importer-of-record, ACE entry and pre-screening of what is legal to sell. Only a licensed customs broker can offer it credibly.\n- **Carrier waiver leverage under the FMC billing rule (46 CFR Part 541).** Carriers may bill only the party that contracted for carriage, and that party is now an insolvent estate. The carrier's real collection options are therefore the lien and cargo disposal, which strengthens a trade-a-waiver-for-removal pitch. This is inference from the rule, not tested.\n\nTwo risks to the wedge. First, right to make entry needs a genuine financial interest, and a nominal consignee or document-holder does not qualify (19 CFR Part 141, subpart B; CBP ruling H242069, whose text I could not fetch). The purchaser-as-IOR model must be structured with real title and purchase, not a service arrangement. Second, established liquidators could add a cargo module using their existing networks.",
+ "evidence_of_demand": "Real demand for an abandoned-cargo fix is documented, but I found no direct proof that anyone pays for a 'rescue desk' as specified.\n\nEvidence that the pain and spend exist:\n- TT Club StopLoss guidance 'TTC SL23 Abandoned Cargo' (updated Nov 2024) says abandonment 'creates considerable costs on container demurrage, detention, storage and disposal' and demands 'significant management resource'. It is aimed at forwarders, NVOCCs and terminals: https://www.ttclub.com/news-and-resources/publications/article/stoploss-abandonment-of-cargo/\n- Carriers and salvage buyers already transact in this space. Bloomberg Businessweek (2021) reports cargo-salvage buyers either pay for containers or charge a fee to dispose of them, and Salvex has a dedicated 'transportation abandonment' director: https://www.jeffwise.net/2021/11/30/businessweek-when-shipping-containers-are-abandoned-the-cargo-becomes-a-mystery-prize/\n- Demurrage and storage costs run at $75-$300+ per container per day (https://www.freightamigo.com/en/blog/logistics/understanding-demurrage-strategies-to-minimize-fees-in-global-shipping/). GO warehouse storage runs about $50-$150 per day, plus transfer fees of $950-$1,350 (search summary of https://docshipper.com/glossary/general-order-customs-definition-logistics/).\n- Statutory clock: 15 days to entry, then General Order, then sale after about 6 months (19 CFR 127: https://www.ecfr.gov/current/title-19/chapter-I/part-127; https://www.pcbusa.com/post/the-cbp-and-cargo-abandonment).\n- 2025-26 stress on small importers: https://www.seatrade-maritime.com/regulations/tariffs-stall-us-importers-small-businesses-warn-of-bankruptcy. The Feb 2026 Supreme Court IEEPA ruling and the CAPE refund portal (live Apr 20, 2026) created about $166B of refund claims, and bankruptcy estates are monetizing them (American Signature sold about $7.25M): https://www.mondaq.com/unitedstates/insolvencybankruptcy/1816290/tariffs-turmoil-and-tax-refunds-turning-uncle-sams-iou-into-cash-in-bankruptcy and https://fortune.com/2026/04/20/cape-tariff-refund-portal-small-business-challenges/\n- Suppliers are actively marketing tariff-driven cargo buyouts: https://unitedliquidations.com/solutions/abandoned-refused-container-resolution/\n\nWeak points:\n- Volume is unproven. A '700,000 loaded containers abandoned per year in the US (DOT)' claim appears in blog snippets, but I could not verify it and it looks unreliable.\n- I found no data on how many failed importers leave cargo with a trustee, and no RFP, forum thread or trustee demand signal.\n- Salvage margins look modest.",
+ "kill": false,
+ "kill_reason": "n/a. The commodity version of this idea is crowded and not worth building, but a narrow wedge (broker-grade title, entry and compliance for legally tangled, high-value orphaned cargo, sourced from trustees and stuck NVOCCs) is not visibly served. Salvex pushes entry to the buyer, and United Liquidations' page never mentions entry, importer-of-record or trustees. Proceed only if the pivot below is validated cheaply first.",
+ "sharper_angle": "Do not present it as a marketplace or a flip desk, because that is Salvex, United Liquidations and the Salvage Groups. Make it a customs-broker-run 'abandoned-cargo resolution agent' with three differences:\n\n1. **Sell to the stuck party, not the buyer.**\n   - The paying customers are NVOCCs, freight forwarders and carriers' demurrage desks, who hold the lien and liability and are exposed under TT Club-style guidance, plus bankruptcy trustees and assignees.\n   - Charge a flat resolution fee or a share of recovered value. The trustee, not the off-price buyer, is the client.\n   - Keep the salvage and liquidator firms as outlets for junk boxes, not as competitors.\n\n2. **Take only legally complex, compliance-screened, branded cargo.**\n   - Cargo that salvage buyers avoid is your lane: a dead consignee, a bill of lading in a bankrupt name, and CPSC, FCC, FDA, UFLPA or IPR risk.\n   - Advertise that you handle title transfer, carrier lien release, the single-transaction bond, purchaser-as-IOR entry and pre-screening as one package, in days, not months.\n   - Structure real purchaser financial interest to satisfy right-to-make-entry, and get a customs attorney to review it before the first deal.\n\n3. **Use the FMC billing rule as leverage.** Under 46 CFR Part 541, carriers can invoice only the contracting party. Build the standard 'remove the box in exchange for waiver and mitigation' offer around that, and package it as a repeatable playbook for carrier demurrage desks.\n\nValidate before building: get 5-10 calls with NVOCC and forwarder claims managers and 2-3 Chapter 7 trustees in C.D. Cal. to confirm that legally stuck, high-value cargo exists in volume and that they would pay. Also confirm with a broker or attorney that purchaser-as-IOR works on these facts. If neither holds, the honest outcome is that this is just a small salvage business."
+}

@@ -1,0 +1,35 @@
+PROCESS LOG - Space economy, lens: BORING BUT LUCRATIVE
+Date: 2026-09-28
+Purpose: record every step, idea and outcome (requested by the user).
+
+STEP 1 - Read the scout briefing (space-sat.md)
+  Result: file exists, 44 lines. Scout ran ZERO searches (budget exhausted), so section 2 pain points are
+  inferred/prior knowledge, not verified.
+  Key facts pulled for my lens:
+   - 321 orbital launches and 4,517 satellites deployed in 2025 (223 launches in 2023)
+   - Starlink: 12M subs (Jun 2026), ARPU $81 -> $66 in one quarter, ~10,413 satellites
+   - EchoStar spectrum: $23B to AT&T (closed 2026-07-28), $17B to SpaceX
+   - Rocket Lab buying Iridium ~ $8B (close mid-2027); CFO says more M&A coming
+   - Golden Dome: ~$37-38B funded, 1,000+ offerors, reported $2B SpaceX 600-sat award
+   - Hubble Network $200M Series C at $1.6B valuation; Stoke $1B; Exploration Co $450M; Impulse $808M
+   - Bus and payload integration looks capacity-constrained (EnduroSat $205M, Aerospacelab)
+   - Carriers "do not know how to price" D2D (Satellite Today, Sep 15) -> information gap
+   - Valor Equity distributing SpaceX stock -> secondary-market/liquidity signal
+  Observation: briefing is heavy on launch/constellations/funding; light on the dull operating layers
+  around them (finance, real estate, test, telecom deal data, airspace). That is my gap to mine.
+
+STEP 2 - Brainstorm long list (before any verification). Lens: picks-and-shovels, compliance, ops, roll-ups.
+  Candidates generated (with first-pass verdict):
+   A. Satellite asset surveillance + valuation for lenders/insurers/secondary buyers (the "AIS for satellite finance").
+      Public orbital data shows station-keeping/maneuvers -> objective health evidence without operator cooperation. KEEP.
+   B. "TowerCo for satellite gateways": site acquisition/hosting for LEO/D2C gateways; stranded legacy teleports
+      have the right permits/power/fiber. Start as siting broker. KEEP.
+   C. Space test and qualification exchange ("Xometry for TVAC/vibe/EMC/radiation"): test labs are capacity-bound. KEEP.
+   D. D2D deal desk + benchmark database for mobile carriers negotiating with SpaceX/AST/Lynk/Skylo: briefing says
+      carriers cannot price D2D; info asymmetry favors the satellite side. KEEP.
+   E. Launch/reentry airspace-impact feed for airline dispatch (externality of 321 launches/yr + Starship). KEEP (verify).
+   F. Landing-rights-as-a-service (country-by-country market access for NGSO/D2C). Compliance, but crowded by law firms and
+      policy consultancies (Access Partnership etc.). DROP-for-now (fallback).
+   G. CMMC/ITAR compliance kit for Golden Dome sub-tier suppliers. Urgent (CMMC phase 2 ~Nov 2026) but generic CMMC market
+      is crowded (Summit 7, PreVeil...). DROP (low originality).
+   H. Managed flight dynamics / conjunction desk ("MDR for space"). Crowded (Kayhan, Slingshot, Neura

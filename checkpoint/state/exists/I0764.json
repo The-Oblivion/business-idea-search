@@ -1,0 +1,73 @@
+{
+ "status": "crowded",
+ "competitors": [
+  {
+   "name": "Sims Metal (Sims Limited)",
+   "url": "https://www.simsmm.com/industrial-services",
+   "what_they_do": "Industrial services for manufacturers and machine shops: roll-off and drum container supply and pickup, processing of metal turnings, furnace-ready raw materials sold to mills, and reporting. This is the same physical loop as SwarfStack (bins, pickup, aggregate, sell to mills).",
+   "scale_or_funding": "230+ locations in North America, 38 shredders, 5,800+ employees (Sims' own site). Public company.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Cohen Recycling (Cohen USA)",
+   "url": "https://www.cohenusa.com/industrial-recycling/",
+   "what_they_do": "Industrial programs for manufacturers: custom containers, on-site chip and fluid recovery systems, weigh systems, scheduled dispatch, and 'strategic partnership' scrap-optimization consulting. Regional, based in the Ohio/Cincinnati area, so it sits in the founder's first market.",
+   "scale_or_funding": "Privately held regional family firm. Multi-state footprint (my recollection, not verified this session).",
+   "overlap": "direct"
+  },
+  {
+   "name": "OmniSource (Steel Dynamics)",
+   "url": "https://www.omnisource.com/services/scrap-management/",
+   "what_they_do": "On-site industrial scrap management to 'maximize returns for industrial manufacturers': facility design, logistics and transportation, environmental compliance and reporting. Vertically integrated with steel mills that consume the scrap.",
+   "scale_or_funding": "Subsidiary of Steel Dynamics (public, multi-billion revenue). Fort Wayne, IN HQ, so Midwest-adjacent to Ohio.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Cronimet",
+   "url": "https://www.cronimet.de/",
+   "what_they_do": "Global supplier of primary and secondary raw materials, including recycled stainless and nickel-alloy scrap sold to stainless and alloy mills. It is the kind of end buyer SwarfStack would sell to, and it also buys direct from generators.",
+   "scale_or_funding": "'More than 60 locations on four continents' (own site). Private, based in Karlsruhe, Germany.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Global Titanium Inc. and other specialty Ti/Ni alloy scrap dealers",
+   "url": "https://www.globaltitanium.com/",
+   "what_they_do": "Specialty dealers that buy segregated titanium and high-nickel turnings directly from aerospace machine shops. From memory, they price by assayed grade and reject mixed loads. Not verified this session because the site returned HTTP 503.",
+   "scale_or_funding": "Private, small and mid-size. Funding unknown.",
+   "overlap": "direct"
+  },
+  {
+   "name": "ScrapMonster marketplace",
+   "url": "https://www.scrapmonster.com/",
+   "what_they_do": "Online buy/sell listings and price data for scrap, with a directory of scrap yards. It does not appear to list turnings, titanium or nickel-alloy price categories, and it has no assay, pooling or certificate layer.",
+   "scale_or_funding": "Long-running, ad and subscription funded, international.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Circulor",
+   "url": "https://www.circulor.com/",
+   "what_they_do": "Metals traceability and digital product passports, focused on battery materials (cobalt, lithium, nickel, graphite). It has clients such as Volvo and a Bureau Veritas partnership. It could extend into recycled-content provenance for alloys, but nothing suggests swarf or machining scrap today.",
+   "scale_or_funding": "Venture-backed. Amount not confirmed in this session.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Recycle Track Systems (RTS)",
+   "url": "https://www.rts.com/",
+   "what_they_do": "Tech-enabled waste and recycling brokerage with on-demand collection. Scrap metal is not mentioned on its homepage, but it is the closest VC-backed 'Uber for industrial waste' model that could add a metals vertical.",
+   "scale_or_funding": "Says it operates at 20,000+ US and Canada locations and 'secured $40M' in financing (own site).",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "IperionX (potential buyer, not a competitor)",
+   "url": "https://iperionx.com/",
+   "what_they_do": "Makes titanium powder and alloys from titanium minerals or scrap titanium and runs a Salt Lake City pilot on 100% recycled titanium. It is a plausible offtaker for pooled titanium chips and shows demand for domestic-melted scrap feedstock.",
+   "scale_or_funding": "Public company (ASX/Nasdaq). Scale and scrap sourcing are not disclosed on its site.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Research limits: the WebSearch budget ran out (200/200) before any search, so I could not check Crunchbase, YC, Product Hunt, forums or RFPs. This verdict rests on direct fetches of incumbent sites and background knowledge, and confidence is medium-low. Many sites returned 503/403 or thin homepages.\n\nWhat I found. The physical model (bins, scheduled pickup, chip and fluid recovery, weigh systems, aggregating into loads for mills) is what Sims, Cohen and OmniSource already do as their core business. Specialty Ti/Ni alloy dealers already buy segregated turnings from aerospace shops at grade-based prices. I found no funded startup that combines all of these: RFID two-bin alloy segregation, an XRF-plus-scale route truck, a shared ledger across many small shops, and a digital chain-of-custody certificate. But I could not search Crunchbase or YC to rule one out.\n\nUnserved wedge:\n1. Independent transparency for the 20-300 employee shop. Incumbents make money on the information gap (the 'you left $X in your bin' claim). A neutral assayer who shows the shop what its bin is worth, and who does not own the truck or the mill relationship, is a conflict the dealers cannot copy.\n2. Prime and OEM revert or closed-loop chain-of-custody for tier-2 and tier-3 suppliers. I found no evidence of a productized, cross-dealer certificate for small shops. This is the only part of the idea that looks genuinely unserved.\n3. Small-shop Ti/Inconel/Hastelloy streams where the shop can't get mill-direct pricing.\n\nWeak parts. The claim that shops 'never see' their bin value is probably overstated for titanium and nickel alloys, where dealers already assay and pay premiums, so the mixed-lot penalty falls mostly on stainless, brass and tool-steel shops. The trucking, briquetting and coolant-recovery arms are capex-heavy and put a startup in head-on competition with incumbents that have 230+ yards. The revenue math ($1,500/month chip value per shop, 60 shops, 20-30% spread) yields a thin, working-capital-heavy hauling business. Incumbents can copy the 'transparency statement' cheaply, and I could not verify the Section 232 'US-melted content' premium (the CBP page returned 404).",
+ "evidence_of_demand": "No direct demand evidence found. No forum complaints, RFPs or willingness-to-pay data were retrieved, because the search budget was exhausted and the Practical Machinist search returned 403. Indirect evidence only: (1) Sims runs a machine-shop and turnings service line at 230+ locations (https://www.simsmm.com/industrial-services), (2) Cohen sells chip and fluid recovery plus scrap-optimization consulting to Ohio-area manufacturers (https://www.cohenusa.com/industrial-recycling/), (3) OmniSource markets on-site scrap management to 'maximize returns for industrial manufacturers' (https://www.omnisource.com/services/scrap-management/), (4) IperionX is building titanium production from scrap feedstock (https://iperionx.com/), and (5) traceability spending is real in batteries (https://www.circulor.com/). These show the market exists and is served, but not that small shops will pay for an independent assay, a pooled route or a certificate.",
+ "kill": false,
+ "kill_reason": "n/a. The physical scrap loop is owned by incumbents, so the full-stack version is close to a kill. It is not killed here because a narrow wedge appears unserved and could not be ruled out with the search budget available: neutral assay plus a prime/OEM chain-of-custody certificate for small Ti/Ni/stainless shops. Confidence is medium-low. Before building, run a low-cost test: get bid-outs for one shop's segregated versus mixed chips from 3-5 incumbents and specialty dealers, and check Crunchbase and YC for a startup I could not search.",
+ "sharper_angle": "Drop the trucks, briquetters and pooled-load resale, which compete head-on with Sims, Cohen and OmniSource. Become an asset-light, dealer-neutral 'swarf audit and bid-out' service plus a revert certificate for aerospace, medical and energy tier-2/3 suppliers of Ti, Ni, Co and high-grade stainless.\n1. Audit: a handheld XRF plus a photo and weight ledger per bin. Show the shop what its chips are worth by alloy, then run a competitive sealed bid among 3-5 dealers and mills, so the shop takes the best price without changing haulers.\n2. Revenue: a subscription per shop plus a 3-8% success fee on uplift over the shop's current dealer. Dealers can also pay for verified, segregated supply.\n3. Certificate: sell the digital chain-of-custody (alloy, weight, assay, dealer, melt destination) to primes that need supplier revert reporting, which is the one piece nobody was found to offer.\n4. Go to market: start with a single-metro cluster of titanium and Inconel shops, using a prime's supplier-diversity or sustainability program as the anchor customer.\n5. Only add physical pooling later, and only for streams a dealer will not serve."
+}

@@ -1,0 +1,16 @@
+{
+ "title": "AI Chat-History Exposure Assessments for Breach Counsel",
+ "angle": "second-order",
+ "one_liner": "When infostealers grab employees' AI sessions, tell breach counsel what the attacker could actually have read and whether notification is triggered.",
+ "customer": "Incident-response boutiques, privacy and breach law firms, cyber-insurer panel vendors, and enterprise DPOs. Priced per incident.",
+ "problem": "Infostealer logs exposed AI sessions tied to 80,000+ corporate domains, and 358 of 482 large companies analyzed had stolen ChatGPT/OpenAI sessions. A stolen session is a searchable archive of contracts, source code, and personal data, and it bypasses MFA. IR tooling was built for mailboxes and file shares, so nobody can say whether an AI-history breach triggers legal notification.",
+ "solution": "Ingest infostealer-feed hits mapped to employee AI accounts. Combine them with the customer's enterprise export or compliance-API data to classify the sampled chats after the theft window by data class (PII, PHI, credentials, deal information, source code). Deliver a notification-decision memo, an affected-person list, remediation steps (session revocation, key rotation), and an insurer-ready timeline.",
+ "why_now": "The 2026 infostealer data shows stolen AI sessions at scale. Enterprise AI adoption now puts sensitive work in chat, and insurers are adding AI exclusions, so they want scoping evidence before paying.",
+ "revenue_model": "$5-25K per incident, with $1-2K per month monitoring retainers and channel referral fees.",
+ "non_obvious_insight": "The breach is not the stolen cookie but the content behind it, and notification law turns on data, not credentials. No tool in the IR stack handles AI transcripts, so a small team can own the category before platform vendors bother.",
+ "first_30_days": "Sign 3 IR boutiques as channel partners. Build a classification pipeline over enterprise chat exports. Run the first paid assessments at a $7.5K flat fee using hits from commercial infostealer-intel feeds.",
+ "outside_box_score": 8,
+ "source": "idea:security-identity:all4",
+ "kind": "idea",
+ "id": "I1010"
+}

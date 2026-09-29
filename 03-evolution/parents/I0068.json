@@ -1,0 +1,84 @@
+{
+ "title": "Contingency Audit of Unbilled Plumbing Materials",
+ "one_liner": "Reconcile a trade shop's supply-house invoices against its customer invoices and catch both parts that were bought but never billed and quiet supplier price drift, paid a percentage of what gets recovered.",
+ "customer": "Plumbing, HVAC and electrical shops doing $1.5-15M in revenue with 5-40 techs, running ServiceTitan, Housecall Pro or Jobber plus QuickBooks, buying on account from Ferguson, Hajoca, Winsupply or a local supply house.",
+ "problem": "Shops lose margin in two places nobody watches. First, parts go out on a supply-house ticket with a job name, or come off the truck stock, and never make it onto the customer invoice. Techs charge the labor from the flat-rate book and forget the $6 valve, the wax ring, the supply lines, the $40 of fittings. In the shops I know, when the office finally reconciles a quarter it is typically a few percent of revenue. Second, supply houses price off list with a contractor multiplier, and list prices have moved several times since the Section 232 copper, steel and aluminum tariffs (50%, working through a long manufacturer-to-contractor lag). Surcharges appear, job-quoted prices are not honored, returns credits are never issued, and no owner has time to read 40 invoices a week.",
+ "solution": "Shops set up an email forwarding rule for supply-house invoices and statements and give us read access to their field-service software export. An LLM-based line-item parser ties supply-house lines to jobs and POs, then produces a weekly leak list for the office manager: (1) purchased-not-billed by job, (2) price versus the shop's own multiplier and versus the same SKU 30 days ago, (3) unclaimed return credits, (4) pricebook items where cost has risen past the target markup, with a repricing file ready to import. Later add a benchmark ('you pay 9% more than shops your size for PEX-A fittings') built from pooled anonymized invoices, which is the moat.",
+ "why_now": "Tariff-driven price volatility means flat-rate pricebooks are stale within a quarter, and owners know it. Invoice parsing with LLMs went from a custom-ML project to an afternoon. Field-service platforms expose APIs and exports. The trades are also ahead of everyone else in adopting software but behind in auditing it, so there is no incumbent audit product.",
+ "revenue_model": "Contingency fee of 25% of recovered and newly captured revenue for the first 12 months (no recovery, no fee), converting to a $199-499 per month subscription for continuous monitoring plus the pricing benchmark. Data licensing of the pooled price index to distributors and manufacturers later.",
+ "non_obvious_insight": "Owners obsess over lead cost and tech hiring while the highest-ROI dollar is sitting in the shoebox of paid invoices. Everything a tech installs was bought on a ticket with a job name on it, so the truth is already in two systems that have never been compared. This is the freight-audit and telecom-audit model, and no one has brought it to the trades because the people who feel the pain are too busy running trucks to build it.",
+ "first_30_days": "Offer a free 90-day audit to 10 shop owners from a peer group (a PHCC chapter, Nexstar or Service Roundtable style mastermind). Have them forward statements and give a one-time export. Turn each audit around in 48 hours with a single 'found money' number and a list of specific invoices. Convert the shops with the largest number to the contingency contract. A spreadsheet plus an LLM parsing script is enough for the first ten.",
+ "outside_box_score": 6,
+ "source": "persona:p0-0",
+ "kind": "persona",
+ "id": "I0068",
+ "tournament": {
+  "score": 0.989,
+  "overall_rank": 32,
+  "cluster": "Small trade and service firms underpricing and leaking margin",
+  "judge_notes": [
+   "operator: rank 1/25 - Found-money audit, no-risk contingency, reachable via owner peer groups; a spreadsheet plus LLM script serves the first ten.",
+   "vc: rank 4/24 - Contingency audit with obvious ROI, tariff price drift, and a pooled price-benchmark moat. Easiest to first revenue.",
+   "contrarian: rank 3/25 - Contingency audit (freight-audit playbook) for trades, no incumbent, fast proof, tariff volatility; pooled price benchmark is the moat."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "ServiceTitan Accounts Payable (bill inbox, 3-way matching, Manage Statements, Manage Credits, discrepancy flags)",
+    "url": "https://www.servicetitan.com/features/accounts-payable",
+    "what_they_do": "The dominant field-service platform for mid-size trade shops has an AP module. An automated inbox matches vendor bills to receipts and POs, and 3-way matching flags discrepancies. It captures non-PO bills, tracks vendor statements ('ensure no costs are missed') and vendor credits ('ensure costs are correct'), and says it will 'automatically flag discrepancies and potential fraud'. This directly covers the supplier-billing-error half of the idea (statements, credits, price variance) for any shop already on ServiceTitan. Bill pay is listed as coming Spring 2026. I could not confirm how well it handles supply-house ticket-to-job matching, or whether it reports 'purchased but not billed to the customer'.",
+    "scale_or_funding": "ServiceTitan is a public company (NASDAQ: TTAN), with 70+ integrations including Ferguson, per its homepage. This is the strongest overlap and platform-risk threat.",
+    "overlap": "direct"
+   },
+   {
+    "name": "Kojo",
+    "url": "https://www.usekojo.com/",
+    "what_they_do": "Construction material management for trade contractors. It offers AI invoice scanning, 3-way matching of POs, invoices and delivery slips, and 'supplier billing error detection' ('Only pay for what you receive'). Site claims: save 3.5% on materials, save 3% by catching invoice errors, and a customer that caught $1,200 in supplier billing errors in four weeks. It has 230+ supplier integrations, with Hajoca, Graybar, Wesco, Rexel, Mayer and Border States named as supplier partners. It also has a purchasing 'Sourcing Grid' with side-by-side supplier pricing. It targets larger electrical and mechanical contractors and does not list plumbing or HVAC service shops. It is a procurement and AP system, not a contingency audit, and I found no evidence of a customer-side 'unbilled materials' report.",
+    "scale_or_funding": "Well funded. Investors listed on its About page (https://www.usekojo.com/about): Tiger Global, Battery Ventures, 8VC, Schneider Electric, RXR, Tishman Speyer, Suffolk Construction, Bienville, Box Group, Abstract Ventures. Round sizes are not disclosed on the page. It was named to Inc.'s 2024 Best in Business list.",
+    "overlap": "direct"
+   },
+   {
+    "name": "BuildOps (Procurement and Payables)",
+    "url": "https://www.buildops.com/features/procurement-inventory",
+    "what_they_do": "Platform for commercial HVAC, plumbing and electrical contractors. Every PO, receipt and bill ties to the job, with 3-way matching ('AP pays only for what arrived'). OpsAI reads receipts and vendor bills and pre-fills them, claiming up to 80% less data entry. Its pages do not mention live supplier price feeds or catalog sync, or any audit of unbilled materials.",
+    "scale_or_funding": "Venture-backed vertical SaaS for commercial contractors. Funding not verified in this session. It targets larger commercial shops rather than the $1.5-15M residential and light-commercial segment.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Fergus",
+    "url": "https://fergus.com",
+    "what_they_do": "Job management software for plumbers and electricians, mainly in New Zealand and Australia. Its site says 'Get invoices automatically imported and matched to the right job with integrations to the suppliers you use everyday.' This shows that supplier-invoice-to-job auto-matching is already a shipping feature in trade software. Automatic supplier price updates are not mentioned.",
+    "scale_or_funding": "Not verified. Regional (ANZ) player, not a US supply-house incumbent.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Ramp AP automation",
+    "url": "https://ramp.com/accounts-payable",
+    "what_they_do": "General-purpose AP with 2-way and 3-way line-item matching against POs and receipts, to catch overbilling. There is no trades-specific logic, and no documented line-item price-change tracking against prior invoices.",
+    "scale_or_funding": "Large fintech. A general-purpose horizontal alternative, not a trade-shop audit.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "MarginEdge (restaurant analog)",
+    "url": "https://www.marginedge.com",
+    "what_they_do": "Automated invoice line-item capture with alerts on price changes in the most-used products. It proves the model of parsing vendor invoices, tracking SKU price changes and selling that as a subscription. It is not in the trades.",
+    "scale_or_funding": "Over 11,000 clients and 5.0M+ invoices processed, per its homepage. Funding not stated on the page.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Housecall Pro, Jobber, FieldEdge (target-customer platforms)",
+    "url": "https://www.housecallpro.com",
+    "what_they_do": "On the pages I checked, none mentions vendor-invoice matching or supplier price monitoring. Housecall Pro highlights expense cards, invoicing, accounting sync and job costing. Jobber's page (https://getjobber.com/) covers quoting, scheduling, invoicing and AI job-pricing assistance. FieldEdge (https://www.fieldedge.com) offers a flat-rate pricebook and QuickBooks sync, with no supplier price sync mentioned. This is the segment where the idea is least contested, though the platforms could add it later. I checked only their homepages, not help-center docs.",
+    "scale_or_funding": "Well-funded platforms (Housecall Pro, Jobber) or a PE-backed one (FieldEdge, part of Xplor). Funding not verified in this session.",
+    "overlap": "adjacent"
+   }
+  ],
+  "white_space": "Nobody I found offers a contingency-fee, done-for-you recovery audit for trade shops. What remains unserved is the customer-side leak: parts on a supply-house ticket with a job name, or pulled from truck stock, that never reached the customer invoice, plus supplier price drift and quoted-price violations tied back to the shop's own pricebook and markup targets. Existing tools (ServiceTitan AP, Kojo, BuildOps, Ramp) are software the shop must adopt and operate, and they focus on paying suppliers correctly. Three parts are open: (1) shops on Housecall Pro, Jobber, FieldEdge or Simpro, or ServiceTitan shops not using Procurement/AP, who have no PO-to-job workflow; (2) the done-for-you, no-recovery-no-fee commercial model, which no software vendor offers; (3) a cross-shop SKU price benchmark from pooled supply-house invoices. I found no evidence anyone has assembled that for residential and light-commercial trade shops. ServiceTitan's Manage Statements and Manage Credits are the closest overlap with the returns-credit and price-error pieces.",
+  "evidence_of_demand": "No direct evidence found: I could not run any WebSearch (the session budget was exhausted), so no forum complaints, RFPs, or Reddit or Facebook-group threads were located. Nothing I fetched shows shops paying a contingency audit provider. Indirect evidence: (1) ServiceTitan built and markets AP with bill matching, statements and credits tracking, so the vendor with the most trade-shop data judged supplier-invoice reconciliation worth building (https://www.servicetitan.com/features/accounts-payable). (2) Kojo, a well-funded competitor, sells the supplier-error catch as an ROI claim: 'Save 3% by catching invoice errors', a customer catching $1,200 in supplier billing errors in four weeks, and 'Save 3.5% on materials annually' (https://www.usekojo.com/). (3) The tariff price shock is real: the Section 232 proclamation set a 50% duty on the copper content of semi-finished and derivative copper products effective Aug 1, 2025 (https://www.whitehouse.gov/presidential-actions/2025/07/adjusting-imports-of-copper-into-the-united-states/). (4) The restaurant invoice-price-tracking analog shows subscription demand at scale: MarginEdge reports 11,000+ clients and 5.0M+ invoices (https://www.marginedge.com). The idea's own claim that unbilled materials run 'a few percent of revenue' is anecdotal and still unvalidated.",
+  "kill": false,
+  "kill_reason": "n/a",
+  "sharper_angle": "Do not pitch 'supplier invoice audit software'. That collides head-on with ServiceTitan AP, Kojo and BuildOps. Position as a done-for-you contingency recovery audit for shops outside the ServiceTitan AP/PO ecosystem: Housecall Pro, Jobber and FieldEdge shops, or ServiceTitan shops that never turned on Procurement/AP, running QuickBooks and buying on account from Ferguson, Hajoca, Winsupply or a local house. Lead with the customer-side leak (materials bought on job tickets or pulled from truck stock but never billed), which the AP-focused competitors do not market. Bundle the supplier-side recoveries (unclaimed return credits, quoted-price violations, tariff surcharges beyond agreed terms). Sell it like sales-tax or freight recovery: fee only on cash recovered, then convert to a low-cost monitoring subscription. Have the shop or its accountant sign off on each recovery, because recovered 'newly captured revenue' is hard to attribute and may be disputed. The moat is the pooled cross-shop SKU price benchmark, which no platform vendor is likely to build because it pits supplier against customer data. Before building, validate on the 10 free audits whether the leak is actually a few percent of revenue. Also check whether ServiceTitan job-costing reports already surface 'PO cost with no billed material', which would erode the wedge in that segment. Treat the verdict as provisional: WebSearch was unavailable, so competitor discovery relied on vendor pages, GitHub and known-vendor probing. Before committing, run manual searches on Crunchbase and Product Hunt, on Reddit r/HVAC, r/Plumbing and r/ServiceTitan, and on 'supply house invoice audit' and 'materials not billed' phrasing, to rule out small funded startups."
+ }
+}

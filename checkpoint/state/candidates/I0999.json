@@ -1,0 +1,16 @@
+{
+ "title": "FEOC and Cyber Passport for Batteries",
+ "angle": "boring-lucrative",
+ "one_liner": "A serial-number-level ledger of material-assistance content and firmware and comms attestations for storage projects, built for tax-credit buyers and insurers.",
+ "customer": "C&I and utility-scale storage developers and integrators, tax-credit transfer buyers (banks and insurers), and lenders.",
+ "problem": "FEOC rules require 55% non-FEOC content for storage starting construction in 2026, rising to 75% by 2030. About 80% of US cells are Chinese and non-compliant projects run about 43% pricier. IRS cost tables are not due until 2027, so nobody can prove compliance. Buyers of tax credits and insurers need evidence, and concern about undocumented radios in imported inverters adds a cyber layer.",
+ "solution": "A workflow and ledger that captures the bill of materials at cell and module level with supplier attestations and cost tables, then computes the material-assistance ratio conservatively. Each project gets an audit-ready evidence packet. Optional teardown, RF and firmware attestation runs through a partner lab. The 'passport' is what transfer buyers and insurers accept.",
+ "why_now": "FEOC applies to 2026 construction starts, the tax-credit transfer market is doing diligence at scale, and tariffs are rising.",
+ "revenue_model": "$15-50k per project, $2-5k a month SaaS per developer, verification fees from transfer buyers, and cost-plus lab attestation.",
+ "non_obvious_insight": "The burden is evidence, not sourcing. With IRS guidance missing, the first firm whose conservative methodology gets accepted becomes the de facto standard, and insurers will only underwrite recapture cover against that record.",
+ "first_30_days": "Publish a free MACR calculator with conservative assumptions. Interview 10 developers and three tax-credit transfer buyers. Sell three paid compliance-file builds at ~$15k for 2026-start projects. Pre-agree terms with an attestation lab.",
+ "outside_box_score": 4,
+ "source": "idea:energy-grid:all4",
+ "kind": "idea",
+ "id": "I0999"
+}

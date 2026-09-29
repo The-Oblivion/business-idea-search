@@ -1,0 +1,73 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "LanguageLine Solutions",
+   "url": "https://www.languageline.com",
+   "what_they_do": "Phone, video (VRI) and on-site interpreting in 240+ on-demand languages, with a healthcare vertical and telehealth interpreting, plus AI interpreting for low-risk calls. It is literal interpretation with no dementia validation or coaching layer. It could add a 'dementia-trained interpreter' tier cheaply, so it is the main incumbent threat.",
+   "scale_or_funding": "Largest US interpretation vendor. Per-minute pricing is not published. Funding not checked.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Boostlingo",
+   "url": "https://www.boostlingo.com",
+   "what_they_do": "On-demand VRI and OPI in 275+ languages with about a 5-second average connect time, sold to healthcare organizations. No dementia-specific offering was found on the page.",
+   "scale_or_funding": "Venture-backed interpretation platform. Amount not verified.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Alzheimer's Association 24/7 Helpline",
+   "url": "https://www.alz.org/help-support/resources/helpline",
+   "what_they_do": "Free 24/7 phone line (800.272.3900) staffed by master's-level dementia care consultants, with bilingual staff or interpreters in 200+ languages. It covers caregiver crisis and strategy advice, but by phone and chat only, with no live video at the bedside and no dialect-speaking specialist talking to the patient. It is a free substitute for the caregiver-coaching half of the idea.",
+   "scale_or_funding": "Large national nonprofit. Free to users.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "KindredMind (AI voice companion for caregiving families)",
+   "url": "https://kindredmind.ai",
+   "what_they_do": "AI voice companion for dementia caregiving families. The idea's claims of a caregiver voice clone, 12 languages and a May 2026 launch could not be verified: the page returned only its title, and kindredmind.com is a parked GoDaddy for-sale domain. It is the AI substitute for in-language calming, and it is weak for moderate-to-severe patients in live crises.",
+   "scale_or_funding": "Unknown",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "ElliQ (Intuition Robotics)",
+   "url": "https://www.intuitionrobotics.com",
+   "what_they_do": "AI companion robot for older adults, deployed through New York State, Broward County AAA, MetroPlus Health and Senior Resource Alliance. It shows that public payers and plans do buy loneliness and companionship tech. It is English-first and not built for dementia flashpoints.",
+   "scale_or_funding": "Established, with multiple state and plan contracts. Funding not disclosed on the site.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Sensi.ai",
+   "url": "https://www.sensi.ai",
+   "what_they_do": "AI operating system for home care agencies, used by a claimed 80%+ of major US home care networks (Visiting Angels, Senior Helpers, Griswold and others). It has multilingual agents, mostly for lead intake and operations, and a dementia-education tie-up with Teepa Snow. It holds the agency distribution channel this idea needs, so it could be a partner or an acquirer.",
+   "scale_or_funding": "Austin-based. Funding not disclosed on the site. Claims 80%+ of major US home care networks.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Papa",
+   "url": "https://www.papa.com",
+   "what_they_do": "Companion care and errands 'Papa Pals' sold to Medicare Advantage, Medicaid and special-needs plans, employers and consumers. It proves plans pay for non-clinical human companionship. It is not dementia-crisis or dialect-specific.",
+   "scale_or_funding": "Dozens of health-plan partners. Venture-backed.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Cariloop",
+   "url": "https://www.cariloop.com",
+   "what_they_do": "Employer-paid caregiver coaching by licensed professionals with a response time under 2 hours. It is not live at the bedside, not in-dialect and not dementia-crisis focused. Languages were not listed.",
+   "scale_or_funding": "Claims 2M+ covered employees.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Trualta",
+   "url": "https://www.trualta.com",
+   "what_they_do": "Caregiver education portal with peer live events and forums, offered free through Area Agencies on Aging, health plans and employers. It is content, not live intervention.",
+   "scale_or_funding": "Sold through government, plans and providers. Funding not verified.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Caveat on confidence: WebSearch hit its session budget (200 of 200) before any of my searches ran. The verdict rests on about 20 direct page fetches, not the 6-12 searches requested. I could not run the Crunchbase, Product Hunt, TechCrunch or YC queries. I also could not rule out a small direct competitor: a sub-$5M startup or a local agency-run in-language 'warm line' would not show up in these fetches. Within that limit, I found no product that puts a dementia-trained speaker of the patient's dialect on live video, speaking to the patient and coaching the English-speaking aide at the bedside. The gap is real but narrow. What remains unserved: (1) the crisis-moment human warm voice in long-tail dialects (Toisanese, Yiddish, Haitian Creole, Uzbek and similar) for moderate-to-severe patients; (2) a service sold per minute or per case to home care agencies and PACE programs rather than to families or employers; (3) validation and redirection training for bilingual retirees, where interpreters are trained to translate literally. Interpretation vendors are strong at language coverage and connect speed but have no dementia layer, and nothing stops them adding one. The Alzheimer's Association helpline is a free phone-only substitute. AI companions target mild cases. The main unproven parts are agency willingness to pay $1.25-1.75 per minute, and whether the Medicaid reimbursement structure lets agencies absorb it. At $1.50 per minute, a 6-minute session costs about $9, which is plausible per event, but agencies run on thin margins and no Medicaid code pays for it.",
+ "evidence_of_demand": "The clinical problem is well evidenced. Willingness to pay is not. (1) Mendez et al., PMC: 66 of 74 (89.2%) bilingual Alzheimer's patients had regressed to predominant use of their first language, both at home and outside it: https://pmc.ncbi.nlm.nih.gov/articles/PMC7195235/. (2) Squires et al. 2021, home health: non-English-speaking home health patients had higher 30-day readmission (20.4% vs 18.5% crude, highest for Spanish and Russian speakers). The authors cite research that non-English-speaking dementia patients got fewer nursing visits, and note home health records do not track interpreter use: https://pmc.ncbi.nlm.nih.gov/articles/PMC9282680/. (3) Public payers and plans already pay for adjacent non-clinical companionship and caregiver-support tech: Papa with Medicare Advantage and Medicaid plans (https://www.papa.com), ElliQ with New York State and MetroPlus Health (https://www.intuitionrobotics.com), Trualta through Area Agencies on Aging (https://www.trualta.com). (4) Agencies already buy per-minute video and phone interpreting from LanguageLine (https://www.languageline.com) and Boostlingo (https://www.boostlingo.com), so a per-minute purchase behavior exists, though the price is likely well below the idea's $1.50. (5) The Alzheimer's Association helpline offers free 200-language phone support, which shows caregiver demand for in-language crisis help but also sets a free anchor (https://www.alz.org/help-support/resources/helpline). Not found: any RFP, forum thread, regulation or agency purchase order specifically for live dialect-speaking dementia calming. No evidence that agencies pay for this today, so the $1.50 per minute price point and the agency-as-buyer thesis are unvalidated.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Do not sell 'on-demand video for everyone'. Sell a narrow, outcome-priced service to PACE programs and Medicaid MLTC plans, which carry full or partial risk. They gain directly from fewer agitation-driven ED visits, fewer aide injuries and quits, and fewer antipsychotic prescriptions. Agencies on Medicaid margins cannot absorb a $1.50 per minute cost, but PACE and MLTC plans can. Launch with one dialect and one metro, such as Toisanese and Cantonese in NYC through Chinatown-serving agencies, or Haitian Creole in Miami. Sell a per-member-per-month or per-case 'language-concordant backup' add-on and report against aide turnover and agitation incidents. Use a hybrid model to protect margin. Have each specialist record a family-specific calming library (name, lullaby, proverbs, era-specific phrases) at intake, so aides can play a familiar voice on a tablet at bath and bedtime. Reserve live human minutes for escalations. That cuts live minutes per case and builds a proprietary dialect and validation content set that an interpretation vendor or an AI voice clone cannot easily copy. Position the team as validation-trained 'cultural doulas', not interpreters, and license the training with an existing validation-therapy trainer. Also offer it as a white-label add-on to a home care software or agency channel such as Sensi.ai rather than fighting it for distribution. Before building, do 10 agency and PACE pilot conversations to test who pays and at what price, because willingness to pay is the least-evidenced assumption. Re-run the search-based competitor sweep (Crunchbase, Product Hunt, YC, local news) with a fresh search budget to confirm nobody small is already doing this.\""
+}

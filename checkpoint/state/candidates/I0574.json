@@ -1,0 +1,16 @@
+{
+ "title": "Aftermarket Support for Stranded DJI Fleets",
+ "angle": "boring-lucrative",
+ "one_liner": "Repair, rebuilt batteries, parts and firmware-independence retrofits for the many legally owned DJI drones that can no longer be replaced with new models.",
+ "customer": "Police and fire drone units, agricultural spray operators, land surveyors, roofing and solar inspectors, and small public-safety departments with grant money.",
+ "problem": "The FCC barred new DJI and Autel models in December 2025, US drone tariffs took effect in September 2026 (component tariffs follow in 2027), and China's export controls now cover motors, batteries, radios and sensors. Existing fleets stay legal to fly but face scarce parts and no assured US repair path.",
+ "solution": "A US repair depot with stocked parts, rebuilt batteries using allied-source cells, gimbal and camera swaps, and open flight-controller retrofits (ArduPilot/PX4) as a migration path. Offer a per-drone maintenance plan with predictive service, and trade-in credits toward US-made airframes, which also become a lead source for those makers.",
+ "why_now": "The December 2025 FCC action, September 2026 tariffs and export controls all landed within a year. The installed base is large and aging, and no one has a business focused on serving it.",
+ "revenue_model": "$150-800 per repair, $30-80 per drone per month for maintenance plans, battery and parts sales, and referral fees from US airframe makers on trade-ins.",
+ "non_obvious_insight": "Everyone debates who replaces DJI, while nobody serves the installed base for the next 5 years. Service earns higher margin than building a competing airframe, starts faster, and gives you the customer list every US-made airframe maker wants.",
+ "first_30_days": "Buy 20 broken Mavic and Matrice units on secondary markets and set up a bench. Pitch fixed-price maintenance plans to 30 sheriff drone units and agricultural spraying co-ops, and sell the first 10 plans.",
+ "outside_box_score": 5,
+ "source": "idea:logistics-robotics:all4",
+ "kind": "idea",
+ "id": "I0574"
+}

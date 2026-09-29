@@ -1,0 +1,87 @@
+{
+ "status": "crowded",
+ "competitors": [
+  {
+   "name": "DOTScreener (Lavallet Logistics LLC)",
+   "url": "https://dotscreener.com/blog/per-load-carrier-vetting-record-montgomery",
+   "what_they_do": "Sells nearly the exact Phase 1 product: per-load screening records at time of tender, timestamped live FMCSA snapshots, decision logs recording the reasoning behind any flag, tamper-evident audit-logged 'Carrier Selection Record' that captures the policy version applied, and discovery-ready exports. Also continuous monitoring and COI verification. Marketed explicitly on the Montgomery deposition-defense angle ('The Timestamp Is the Defense').",
+   "scale_or_funding": "$99/month plus $14.99 per extra user, unlimited carrier reviews, free trial (dotscreener.com). No funding, founder or headcount disclosed. Two case studies (HEAT Freight, Simple Car Shipping), so small. It undercuts the proposed $299/month by about 3x.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Cipher & Row",
+   "url": "https://www.cipherandrow.com/blog/carrier-vetting-audit-trails-2026-tms-highway-descartes-cipher-row",
+   "what_they_do": "Per-load snapshots that preserve the data reviewed, the flags raised and the human decision. Each scan is sealed with Ed25519 signatures and RFC 3161 trusted timestamps in an immutable event log with no post-seal edits. Sealed reports export to PDF, a 'Compliance Vault' lists all records, and public verify links let a third party confirm a record is unchanged. That matches the proposed 'hash-timestamp' and 'selection file export' features.",
+   "scale_or_funding": "$149/month dispatcher, $449/month brokerage (250 verification credits), higher tiers at $1,199 and $2,999; free carrier tier. Customers, founders and funding not disclosed. Likely small or early.",
+   "overlap": "direct"
+  },
+  {
+   "name": "SaferWatch",
+   "url": "https://www.saferwatch.com/AboutUs.php",
+   "what_they_do": "Change Log and Log View store the exact data snapshot of every carrier record any user views, retrievable years later, with DOT history back to 2004. Positioned as due-diligence documentation. This is an older, plainer form of tender-time evidence.",
+   "scale_or_funding": "Established incumbent monitoring vendor. Funding and pricing not found.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Descartes MyCarrierPortal AuditLog",
+   "url": "https://www.globenewswire.com/news-release/2026/06/23/3315805/0/en/New-AuditLog-Capability-from-Descartes-Helps-Organizations-Create-Auditable-Transparent-Carrier-Selection-Processes-Amidst-Rising-Regulatory-Scrutiny.html",
+   "what_they_do": "Launched June 23, 2026, explicitly in response to Montgomery. Records risk assessments, approvals, denials with comments, management escalation and future review dates as time-stamped 'snapshot in time' records. It covers the onboarding and review decision, not each tender. It does not mention overrides, export or per-load records. MyCarrierPortal is the dominant onboarding packet platform and is already in most brokers' workflow.",
+   "scale_or_funding": "Descartes Systems Group (NASDAQ: DSGX, public). AuditLog is free to existing MyCarrierPortal customers. MyCarrierPortal pricing is reported as roughly $515+/month.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Highway (Load Lock and Carrier Identity)",
+   "url": "https://highway.com/press-releases/highway-launches-load-lock-redefining-load-level-protection-and-compliance-for-freight-brokers",
+   "what_they_do": "Load Lock verifies carrier identity and compliance per load, from tender through delivery. It checks ELD activity, location and rate-con email tracking, and integrates with McLeod, Turvo, Revenova and Tai TMS. Post-Montgomery it required ELD hookups for all carriers by July 5, 2026. It targets the tendered-carrier-equals-pickup-carrier problem, not a discovery-format selection file.",
+   "scale_or_funding": "Growth equity round led by FTV Capital with Lead Edge Capital (Aug 2025, amount undisclosed). Claims 'thousands of freight brokers and 3PLs' and 5M+ loads protected. Founded 2022.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Carrier411 / RMIS (Truckstop) / Carrier Assure",
+   "url": "https://www.carrier411.com/",
+   "what_they_do": "Continuous monitoring of authority, insurance and BASIC score changes, FreightGuard incident reports, and packet/onboarding compliance. RMIS and Carrier Assure are integrated with MyCarrierPortal. They are the data layer brokers already pay for, and they are adding audit and documentation features. Not focused on per-tender defense files.",
+   "scale_or_funding": "Established incumbents (RMIS is part of Truckstop). Carrier Assure is integrated into MyCarrierPortal.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "CarrierOk",
+   "url": "https://www.carrierok.com/platform",
+   "what_they_do": "Carrier intelligence with 300+ data fields, all 7 BASICs and 50+ risk signals. It adds chameleon-carrier detection, same-day authority and insurance alerts, a Chrome extension and an API. Brokers use it to verify before tendering. No per-load sealed record found.",
+   "scale_or_funding": "$149/month Pro, $349 Team, $499 Business (published pricing).",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "BrokerSnapshot",
+   "url": "https://brokersnapshot.com/",
+   "what_they_do": "Archived carrier snapshots with 8+ years of history: authority, safety, insurance history and Secretary of State filings. Lets a broker reconstruct carrier state on a past date. It is a data-history source, not a workflow that ties to a tender. Page returned 403, so this is from search snippets only.",
+   "scale_or_funding": "Not found.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "PCS Software (TMS broker compliance module)",
+   "url": "https://pcssoft.com/products/tms/carrier/broker-compliance/",
+   "what_they_do": "TMS with FMCSA snapshot on the dispatch screen, auto-checks on carrier assignment, and 'every change audit-logged with before/after values and timestamps'. This is the TMS-native version of a tender-time check, the kind of feature the idea would have to out-integrate.",
+   "scale_or_funding": "Established TMS vendor. Pricing is demo-gated. Cipher & Row's comparison puts TMS platforms at $699 to $5,000+ per month.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Marsh BrokerSafe",
+   "url": "https://www.businesswire.com/news/home/20250813491549/en/Marsh-to-transform-freight-broker-auto-liability-market-with-launch-of-proprietary-US-insurance-facility-and-first-of-its-kind-analytics-solution",
+   "what_they_do": "Proprietary US insurance facility for freight brokers (launched Aug 2025). It offers up to $5M primary plus $5M London excess, backed by A-rated insurers. It uses a proprietary analytics tool that assesses the broker's full contingent auto exposure instead of pricing off revenue or broker-carrier agreements. This is the closest thing to the Phase 2 concept, but it is a large-broker channel. Business Wire page returned 403, so details come from search snippets.",
+   "scale_or_funding": "Marsh McLennan. Panel of A-rated insurers.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Loadsure",
+   "url": "https://www.cbinsights.com/company/loadsure",
+   "what_they_do": "Digital freight insurance MGA and Lloyd's coverholder with AI-driven underwriting. It is a natural buyer or partner for vetting-linked underwriting data, but is focused on cargo, not broker negligent-selection liability.",
+   "scale_or_funding": "Funded MGA (amount not verified).",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "The Phase 1 software (per-tender snapshot, hash or seal, override log, discovery export) is already sold by at least DOTScreener ($99/mo) and Cipher & Row ($149-$449/mo, with Ed25519 and RFC 3161). SaferWatch, Descartes AuditLog and Highway Load Lock each cover part of it. Selling it at $299/month with a 'Discovery Fire Drill' would be a price and feature race against products that are cheaper and already marketed on the same Montgomery deposition angle. Three narrow pieces look unserved, though I could not confirm that none exists. (1) Insurance-linked use of the data: I found no vendor that turns tender-level vetting data into a placed contingent-auto or broker-liability program with a documented premium credit for small brokers ($2M-$60M gross revenue). Marsh BrokerSafe is large-broker and analytics-based, and RPS says capacity is tightening. Underwriters and wholesalers say they want vetting evidence but publish no way to submit it. (2) Override discipline as an underwriting signal: no competitor sells 'who overrode which failed check, when and why' as a scored, benchmarked metric that underwriters can rate. Most only log it. (3) A counsel-authored written carrier-selection standard with per-rule pass/fail evidence. Competitors record 'what was checked', while the idea's 'which of the broker's own written rules the carrier passed' is more specific. I found no vendor bundling defense-counsel-drafted standards. TMS-agnostic ingestion via CSV or rate-con email forwarding is a small integration edge, but Highway already integrates with McLeod, Turvo, Revenova and Tai. Caveat: DOTScreener and Cipher & Row disclose no funding, founders or customer counts, so they may be thin, but a low-price entrant can copy the unserved pieces quickly.",
+ "evidence_of_demand": "Demand for the problem is strong. Demand for a stand-alone snapshot SaaS at $299/month is weak because cheaper products exist. Evidence: (1) RPS says Montgomery is creating a capacity issue for broker contingent liability (https://www.theinsurer.com/e-and-s/news/montgomery-ruling-creating-capacity-issue-for-freight-broker-contingent-2026-09-17/). The Insurer's Sept 24 piece says insurers are pushing broker exposure into the specialty market after a 'paradigm shift' (https://www.theinsurer.com/ti/news/insurers-push-freight-broker-exposure-into-specialty-market-after-paradigm-shift-2026-09-24/); I could only read that from search snippets. (2) Specialty Program Group says underwriters must now assess broker carrier-selection practices and vetting protocols, and brokers that can demonstrate rigorous vetting will get the most competitive pricing (https://www.specialtyprogramgroup.com/blog/underwriting-transportation/montgomery-v-caribe-transport-the-insurance-industry-needs-to-pay-attention/). (3) FreightWaves says documented, data-driven vetting will earn better rates and that contingent auto may become mandatory across about 28,000 brokerages (https://www.freightwaves.com/news/the-freight-broker-insurance-gap-is-now-real). (4) Vendors are spending on it: Descartes shipped AuditLog within six weeks of the ruling (https://www.stocktitan.net/news/DSGX/new-audit-log-capability-from-descartes-helps-organizations-create-grq09sy5c1cy.html), Highway mandated ELD hookups (https://www.freightwaves.com/news/highway-post-montgomery-requiring-eld-hookups-for-all-carriers), and a cluster of law-firm and vendor guides say to keep per-load records (https://www.brokerpro.com/posts/montgomery-caribe-carrier-vetting/, https://transfix.io/insights/carrier-vetting-after-montgomery-v-caribe-what-broker-compliance-now-requires). (5) TIA is lobbying FMCSA for a federal carrier-selection standard and a 'high risk' list (https://www.ttnews.com/articles/montgomery-ruling-unknowns), and Lockton notes the Court did not define reasonable scrutiny (https://global.lockton.com/us/en/news-insights/the-supreme-courts-montgomery-ruling-raises-the-stakes-for-freight-brokers), which raises demand for defensible written standards. Price anchors: DOTScreener $99, CarrierOk $149-$499, Cipher & Row $149-$449, Descartes MyCarrierPortal about $515+. No forum complaints from small brokers about lacking tender-time proof were found, and Reddit or Facebook-group evidence was not retrievable.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Do not build the snapshot-logger SaaS as the product. DOTScreener, Cipher & Row, SaferWatch, Descartes and Highway already cover it, mostly at lower prices. Treat the snapshot as a free or near-free data feed and make the business an insurance-distribution play for small brokers: 'the broker liability program that prices your tender-time discipline.' (1) Get a wholesaler or MGA (RPS, Falvey, Reliance Partners and Loadsure are candidates; Marsh BrokerSafe is the large-broker benchmark) to agree first to a filed premium credit or an easier underwriting path for brokers who pass an evidence standard. Sign that partner before writing software. (2) Define the evidence standard: counsel-drafted written carrier-selection rules, per-tender pass/fail against those rules, an override rate and override-approver metric, and an independently verifiable sealed record. Accept the record from any source, whether your logger or DOTScreener, Cipher & Row, Highway or SaferWatch, so you are the underwriting-evidence layer and not another vetting tool. (3) Earn commission on placed premium (10-15%), with the software as a lead-generation and retention tool. (4) Validate in the first 30 days by getting two wholesalers to state in writing what credit or capacity they would give. If none will, the Phase 2 thesis fails, and the fallback is a $99-$149 add-on or a counsel-authored standard-plus-template bundle that competes on cost with DOTScreener."
+}

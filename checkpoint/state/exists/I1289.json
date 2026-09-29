@@ -1,0 +1,94 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "Estructura (division of Dorado Services) - TerraIntel InSAR + GeoSIG sensors + GeoSMART",
+   "url": "https://www.globenewswire.com/news-release/2026/06/26/3318483/0/en/Five-Years-After-Surfside-New-Federal-Findings-Confirm-What-Structural-Intelligence-Could-Have-Prevented.html",
+   "what_they_do": "Bundles satellite InSAR (TerraIntel) with on-site ground sensors and an AI anomaly platform for high-rises and condo associations. Offices in Miami, San Juan and Lima. Their June 26, 2026 Surfside-anniversary press release pitches InSAR as an independent structural-risk layer for condos. It names no pricing, no customers and no per-building report product.",
+   "scale_or_funding": "Not disclosed. Backed by Dorado Services, a federal engineering contractor (Army Corps of Engineers, FEMA) since 1999. Marketing is very recent, so treat it as the closest direct threat.",
+   "overlap": "direct"
+  },
+  {
+   "name": "TRE ALTAMIRA (CLS Group; TRE Altamira Inc.)",
+   "url": "https://site.tre-altamira.com/insar-data-for-building-failure-analyses/",
+   "what_they_do": "World-leading commercial InSAR (SqueeSAR) provider. They ran the InSAR analysis behind the 2024 University of Miami Miami Beach to Sunny Isles subsidence paper. Services are bespoke, quote-based project work with no published per-building product. They could productize a Florida condo report at any time.",
+   "scale_or_funding": "Established multi-country firm owned by CLS Group (CNES/Ardian). Multi-year European public framework contracts.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Sixense Satellite / Atlas InSAR (Vinci group)",
+   "url": "https://northernamerica.sixense-group.com/services/monitoring-testing/satellite-monitoring/atlas-insar-monitoring",
+   "what_they_do": "Enterprise InSAR monitoring across construction, operation and maintenance, explicitly for urban adjacent-asset monitoring. Sells to contractors, utilities and owners, not to condo boards.",
+   "scale_or_funding": "Vinci-owned; global with a Northern America arm.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Fugro (InSAR high-rise settlement evaluation and prediction)",
+   "url": "https://www.fugro.com/expertise/technical-papers/evaluation-prediction-high-rise-building-settlements-satellite-data-fugro-technical-papers",
+   "what_they_do": "Publishes work using InSAR to measure current settlement rates of existing high-rise buildings, sold as bespoke geotechnical consulting. This is the high-end engineering incumbent for exactly this analysis. The page returned 404 on my fetch, so the claim rests on the search snippet.",
+   "scale_or_funding": "Large listed geo-data and engineering firm.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "SatSense (UK)",
+   "url": "https://satsense.com/our-sectors/property_and_insurance",
+   "what_they_do": "Sells per-property InSAR movement datasets and risk indices to insurers and property buyers. Data updates every 6 days and it supports subsidence-claim analysis. The focus is UK; US coverage is unspecified. It proves the per-property InSAR model has buyers, but not in Florida condos.",
+   "scale_or_funding": "Private UK company. Partnerships with Optera Structural Solutions (insurance claims) and B3 Insight (Permian). Funding not verified.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Detektia (Spain) - InSAR structural health monitoring, IRIS platform",
+   "url": "https://detektia.com/en/structural-health-monitoring/",
+   "what_they_do": "Per-structure InSAR reconstruction of past displacement (up to 25 years) with building health indexes and alerts, delivered through the IRIS platform. It also repackages NASA OPERA DISP data. Target markets and US coverage are unclear. Its site would not load on my direct fetch, so this comes from search snippets.",
+   "scale_or_funding": "Private European firm. Funding not verified.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "SkyGeo (Netherlands)",
+   "url": "https://www.skygeo.com/",
+   "what_they_do": "Decision-grade InSAR ground-motion monitoring for civil engineering, including building-induced deformation over the long term. Enterprise focus in Europe.",
+   "scale_or_funding": "Private Dutch firm. Funding not verified.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "NHAZCA (Italy) - structural health monitoring for buildings",
+   "url": "https://www.nhazca.com/en/structural-health-monitoring-services/",
+   "what_they_do": "InSAR-based monitoring services for buildings and heritage assets, sold as consulting.",
+   "scale_or_funding": "Private Italian firm (Sapienza spin-off). Small.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "SmartCore Systems (Florida)",
+   "url": "https://www.smartcore-systems.com/",
+   "what_they_do": "Wireless vibration and tilt sensors for condo towers. Eleven sensors are installed at Marenas Beach Resort in Sunny Isles, one of the 35 towers in the UM study. It has an engineer-facing data portal and is the ground-truth alternative to satellite screening.",
+   "scale_or_funding": "Founded 2021. Marenas reportedly spent about $20,000 on installation (Tampa Bay Times, Feb 2025). Funding not disclosed.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Domexa Labs (My Condo Health Score / My Condo Compliance)",
+   "url": "https://www.domexalabs.com/",
+   "what_they_do": "Miami PropTech that sells a condo health score to buyers, investors, brokers and insurers, plus a compliance platform for boards. Neither product uses satellite or subsidence data, but it owns the same board, buyer and insurer channel and could add InSAR as a data layer.",
+   "scale_or_funding": "Small private company (Skybridge Technology Solutions LLC). Funding not disclosed.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "CondoScan and CleanCondo (buyer-side Florida condo risk reports)",
+   "url": "https://www.condoscan.co/",
+   "what_they_do": "Low-priced ($49 for CondoScan) automated condo-risk reports for buyers, built from public records, reserves, SIRS status and violations, with no physical settlement data. They set a price anchor for buyer-side diligence and show how thin that segment's willingness to pay is.",
+   "scale_or_funding": "Tiny bootstrapped tools.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "NASA/JPL OPERA DISP-S1 (free Sentinel-1 displacement time series for North America)",
+   "url": "https://www.earthdata.nasa.gov/data/catalog/asf-opera-l3-disp-s1-v1-1",
+   "what_they_do": "Free InSAR displacement time series over the US from 2016, released May 2025 through ASF. It is coarser than per-building persistent-scatterer processing, but it is a free baseline that anchors price expectations. It is also a shortcut for any technical entrant.",
+   "scale_or_funding": "Free, government-funded. Not a company.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "No one found sells a productized, fixed-price, board-readable per-building InSAR settlement history for Florida condo towers, wholesaled to the engineers who already write milestone and SIRS reports. The InSAR firms (TRE Altamira, Sixense, Fugro, SkyGeo, Detektia) sell quote-based enterprise projects. SatSense does per-property InSAR but for the UK. Estructura (June 2026) pitches InSAR to condos but only as one part of a sensor bundle, with no disclosed price and no report artifact. The Florida condo-data players (Domexa, CondoScan, CleanCondo, PropFusion) have no physical-movement data. Specifically unserved: (1) a $400-$2,500 report an engineer can attach to a Phase 1 milestone inspection or SIRS; (2) a 10-30 year ERS/Envisat/Sentinel-1 history that shows a building is stable, for lenders and underwriters; (3) a pre-construction baseline for a neighbouring tower's pile driving; (4) a roll-up for management companies with many buildings. A strong caveat is that this is not a technology moat. TRE Altamira already processed this exact coastline, ISCE, MintPy and StaMPS are open source, and OPERA gives a free coarse baseline. Any incumbent or Estructura could productize this quickly, so the wedge is distribution through engineers, engineer sign-off, and price.",
+ "evidence_of_demand": "Regulatory spending is real, but I found no direct evidence that boards, carriers or lenders ask for or pay for InSAR.\n\nReal forced spend:\n- Milestone inspections and SIRS are mandatory. Phase 1 costs about $50K-$150K+ for large high-rises, Phase 2 adds $40K-$250K+, and special assessments commonly run $10K-$100K+ per unit (https://www.propertyexemption.com/hoa/blog/florida-condo-milestone-inspection-2026/ and https://truenorthmanaged.com/blog/condo-special-assessments-florida/).\n- Reserves can no longer be waived for the eight SIRS components as of 1 Jan 2026, and many milestone deadlines fall on Dec 31, 2026 (https://www.propfusion.com/law-guide/florida-sirs-requirements).\n- Citizens will not write or renew condos without a completed SIRS and milestone inspection, and private carriers are following (https://www.fsresidential.com/florida/news-events/articles/association-insurance/ and https://atesariskadvisors.com/blog/florida-condo-sirs-compliance-2026).\n- SB 722 (2026), which would have loosened SIRS, died in committee on March 13, 2026, so the mandate stands (https://www.flsenate.gov/Session/Bill/2026/722/?StartTab=BillText).\n\nPublic attention to subsidence:\n- The Dec 2024 UM/UH/GFZ InSAR paper covered 35 buildings, with 2-8 cm of subsidence over 2016-2023 (https://news.miami.edu/rosenstiel/stories/2024/12/new-study-finds-subsidence-hotspots-impacting-high-rise-buildings-in-south-florida.html).\n- FIU's Wdowinski found Champlain Towers South subsiding in the 1990s from ERS data (https://news.fiu.edu/2021/fiu-professor-collapsed-surfside-building-showed-signs-of-subsidence-in-90s-era-space-radar-data). He said no official had reason to know of it, which supports the archive-as-diligence idea.\n\nSpend on a physical-monitoring workaround:\n- Marenas Beach Resort in Sunny Isles spent about $20,000 on SmartCore sensors after nearby construction began (https://www.tampabay.com/news/florida/2025/02/23/sturdy-sinking-shaky-florida-company-offers-an-early-warning-sensor-system-condos/). That shows some boards will pay for movement data, at least when a neighbour is building.\n\nDirect-demand signals are weak or negative:\n- The Bisnow write-up of board and official reactions has no insurer, vendor or funding mention. The Sunny Isles mayor said she was \"100% confident everything is safe\" (https://www.bisnow.com/news/south-florida/construction-development/more-investigation-is-needed-to-learn-where-miamis-sinking-buildings-stand-128125).\n- Carrier Management quoted no insurers on InSAR (https://www.carriermanagement.com/news/2025/01/17/270768.htm). The Insurer says InSAR has had \"limited commercial use outside mining and infrastructure\" (https://www.theinsurer.com/ti/viewpoint/understanding-that-sinking-feeling-better-managing-subsidence-risk-2025-01-30/).\n- I found no RFPs and no condo-forum threads asking for satellite settlement reports.\n- Estructura's June 2026 launch suggests a vendor thinks the market exists, but no sales are evidenced (https://www.newsdirect.com/newsroom/five-years-after-surfside-new-federal-findings-confirm-what-structural-intelligence-could-have-prevented).\n- An adverse-selection and disclosure risk applies: a board that buys a report showing subsidence creates a discoverable document that can hurt resale values and insurance terms. Boards may prefer not to know.\n\nThe NISAR release itself is confirmed (July 20, 2026, https://www.earthdata.nasa.gov/data/alerts-outages/nisar-l-band-data-now-publicly-available). It only covers observations from June 17, 2026 onward, so it adds no long history yet.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Do not lead with a standalone board-facing \"passport\" and hope boards buy diligence they are not required to buy. Sell it as an engineer-channel wholesale data layer plus one forcing-event product.\n\n1. Lead product: a pre-construction settlement baseline and neighbour-construction watch for towers next to active pile-driving or foundation work (Sunny Isles, Edgewater, Brickell, Miami Beach). The UM study ties subsidence to nearby construction, and Marenas already spent about $20K on sensors for this reason. The buyer has a live threat and a legal need: dated, independent, pre-existing-condition evidence for claims against the developer and its carriers, at $2K-$5K per building, well below the $20K sensor route. Sell through construction-defect and condo attorneys as well as engineers.\n\n2. Wholesale layer: sell the same processing engine at about $400 to milestone and SIRS engineering firms and to reserve-study firms like PropFusion, as a one-page attachment to inspections they already bill. Their PE stamp answers the liability and credibility problem, which a data startup cannot fix alone. Do not sell direct to boards at first.\n\n3. Complements, not rivals: white-label to sensor vendors like SmartCore and to condo-data players like Domexa. Satellite screens for free, sensors confirm on the flagged buildings. A partner call to Estructura's TerraIntel side could also be worth it.\n\n4. Make the 1990s-to-present archive the second-wave product for lenders and underwriters: an \"evidence of stability\" page for the majority of buildings that are fine, so it is not only a warning label.\n\nBefore building, run a 2-week demand test: 10-15 calls to Florida milestone and SIRS engineers, 5 condo lawyers, and 3 master-policy underwriters. Ask whether they would attach a $400-$900 InSAR page to a file, and who signs it. If engineers will not attach it, the wedge fails. Also validate two technical points: persistent-scatterer density on the target towers, and that pre-2015 ERS/Envisat coverage of Miami is usable. Do not assume NISAR helps with history, because it starts in June 2026.\""
+}

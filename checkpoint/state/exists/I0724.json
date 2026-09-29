@@ -1,0 +1,66 @@
+{
+ "status": "crowded",
+ "competitors": [
+  {
+   "name": "Morado (morado1099.com)",
+   "url": "https://www.morado1099.com/resources/irs-form-1098-vli-guide",
+   "what_they_do": "Certified IRIS A2A transmitter that already sells the exact proposed product to credit unions and CUSOs. Its published guide says it ingests Pub 1220 files from Symitar, Corelation, Fiserv and FIS cores. It validates VIN check digit, U.S.-final-assembly status against NHTSA plant data, GVWR, TIN and SPVL allocation. A 'preflight' report lists each loan it cannot file cleanly, with borrower, field and root cause. It produces Copy B and files to the IRS. Credit-union page: https://morado1099.com/industries/credit-unions",
+   "scale_or_funding": "Funding unknown. Says it filed 94,000+ returns for a casino client with 0% IRS rejections; SOC 2 Type 2 shown as in progress; volume-tier seasonal pricing.",
+   "overlap": "direct"
+  },
+  {
+   "name": "TaxBandits (Span Enterprises)",
+   "url": "https://www.taxbandits.com/1099-forms/efile-form-1098-vli/",
+   "what_they_do": "1098-VLI e-file is live, aimed at auto lenders, dealers, finance companies and servicers. Offers bulk CSV upload, API, TIN matching, address validation, recipient portal, print/mail and free retransmission. Federal filing runs $2.75/form at 1-10 forms down to $0.80/form at 501-2,000+. I saw no VIN or final-assembly validation on the page. Its blog (https://blog.taxbandits.com/form-1098-vli-explained-vehicle-loan-interest-filing-requirements-for-lenders/) says built-in error checks and bulk filing were still 'coming soon', but the product page shows it live.",
+   "scale_or_funding": "Established multi-form IRS e-file platform; funding not found.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Tax1099 (Zenwork)",
+   "url": "https://www.tax1099.com/1098-forms/efile-form-1098-vli",
+   "what_they_do": "IRIS-native e-file for 1098-VLI with bulk Excel/CSV upload, API, real-time TIN match and USPS address validation, positioned for high-volume and enterprise filers. Publishes a lender guide at https://www.tax1099.com/blog/form-1098-vli-auto-lenders-vehicle-loan-interest-reporting/. The page says the form is still in draft and does not list VIN or final-assembly checks. Pricing is quote-only.",
+   "scale_or_funding": "Part of Zenwork; funding not found. Markets 40+ forms.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Vehicle Loan Interest / 1095EZ Online",
+   "url": "https://www.vehicleloaninterest.com/",
+   "what_they_do": "Purpose-built 1098-VLI filing site, 'Now Open for 2026 eFiling'. Lenders upload an Excel file; it calculates deductible interest, validates required fields, e-files to IRIS and optionally prints and mails borrower copies. Pricing is $3.00/form e-file or $4.50/form with print/mail, with a $750 annual minimum. Targets banks, credit unions, captive lenders and buy-here-pay-here dealers, which is the idea's customer list. It does not advertise VIN or final-assembly checks.",
+   "scale_or_funding": "Small; run by a Huntersville NC compliance shop (1095EZ Online); funding not found.",
+   "overlap": "direct"
+  },
+  {
+   "name": "IRS IRIS Taxpayer Portal (free)",
+   "url": "https://www.morado1099.com/resources/irs-form-1098-vli-guide",
+   "what_they_do": "Free IRS web filing with CSV upload of up to 250 records, per Morado's IRIS section. That is a zero-cost substitute for the smallest lenders' e-file step. The link is Morado's guide, not an IRS page, so the 250-record limit is unverified. Lenders still must furnish borrower statements.",
+   "scale_or_funding": "Government service; free.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "NHTSA vPIC VIN decoder (free API)",
+   "url": "https://vpic.nhtsa.dot.gov/api/",
+   "what_they_do": "Free API that I tested. It returned check-digit validation, PlantCountry, PlantCity and GVWR for a sample VIN. The final regulation explicitly says lenders may use the NHTSA VIN lookup and the plant of manufacture in the VIN (49 CFR 565), or the 583.5 label. This weakens the 'curated plant-to-final-assembly table' moat.",
+   "scale_or_funding": "Government service; free.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Core processors (Jack Henry, Fiserv, FIS, Corelation)",
+   "url": "https://www.jackhenry.com",
+   "what_they_do": "Incumbents that own the loan data and year-end tax-form runs for most credit unions and community banks. I found no public 1098-VLI announcement from any of them. Morado's page says it ingests their Pub 1220 extracts, which suggests the cores are not yet the full solution, but that is unverified. Client-only bulletins could easily hide their plans. Risk remains that they bundle 1098-VLI output as a standard feature.",
+   "scale_or_funding": "Public incumbents; hold the customer relationship.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Consumer eligibility explainers (SimpleDeduction, FinBarrow, ZeroCarbonDrive, TurboTax, H&R Block)",
+   "url": "https://simplededuction.com/guides/form-1098-vli-explained/",
+   "what_they_do": "Free borrower-facing content on whether a car loan qualifies for the deduction. This substitutes for the proposed white-label 'is my loan deduction-eligible' widget. Others: https://finbarrow.com/taxes/form-1098-vli-car-loan-interest-box-by-box-td-10054/ and https://zerocarbondrive.com/vehicle-loan-interest-statement/",
+   "scale_or_funding": "SEO content sites and large tax-software brands.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Narrow, and mostly not in what the idea sells. Form generation and e-filing are commoditized. TaxBandits lists $0.80-$2.75/form, 1095EZ $3/form with a $750 minimum, and the IRIS portal is free for small filers. The idea's $1,500 minimum and $2-4 per form sit above the market. Loan-tape ingestion, VIN check digit, NHTSA plant lookup and an exception report are already claimed by Morado, which also targets credit unions with core-file ingestion. What looks unserved:\\n- Fixing the data. Lenders whose loan systems lack a VIN, or have bad ones, need them recovered from titles, lien records and dealer contract packets, with borrower and dealer outreach tracked. Nobody visibly sells this as a managed service.\\n- Mixed-purpose SPVL allocation, meaning GAP, warranty and other add-ons financed in the loan, plus refinance and loan-acquisition edge cases.\\n- Original-use and new-versus-used determination for indirect paper, plus a defensible per-loan evidence record for 6721/6722 penalty defense.\\n- Selling any of the above white-label to e-file vendors, CUSOs and core-adjacent vendors that lack VIN features (TaxBandits, Tax1099), not per form to small lenders.\\nThe market is small even where it is unserved. Only new, U.S.-assembled, personal-use vehicles qualify, so buy-here-pay-here and used-car lenders will have few or no reportable loans. The deduction runs only 2025-2028, so there are at most about three filing seasons (2026, 2027 and 2028 tax years).",
+ "evidence_of_demand": "Demand for compliance is real and mandated. Willingness to pay is already being captured at low prices.\\n- Final regulations (TD 10054, 91 FR 57214, published 2026-09-08, effective 2026-11-09) require reporting on specified passenger vehicle loans of $600 or more of interest. Treasury acknowledged that commenters, including credit unions, said lenders lack the data. It said lenders 'may need to collect additional information', declined safe harbors and declined substitute or summary statements. This confirms the idea's premise. https://www.federalregister.gov/documents/2026/09/08/2026-18219/car-loan-interest-deduction (I read the text; the preamble also approves NHTSA VIN-lookup reliance.)\\n- Paid products already exist and are priced: TaxBandits https://www.taxbandits.com/1099-forms/efile-form-1098-vli/ ($0.80-$2.75/form), 1095EZ https://www.vehicleloaninterest.com/ ($3-$4.50/form, $750 minimum), Tax1099 https://www.tax1099.com/1098-forms/efile-form-1098-vli, and Morado https://morado1099.com/industries/credit-unions. Vendors do not build 1098-VLI products without expected buyers.\\n- Morado's guide says America's Credit Unions filed comment letters on the proposed regulations asking for lender safe harbors. It also calls the VIN/original-use/final-assembly data capture the hardest lender problem: https://www.morado1099.com/resources/irs-form-1098-vli-guide\\n- CU Today ran 'IRS Releases Final Form For New Car Loan Interest Deduction' on 2026-09-28; I found it only as a Google News listing, not the article, so it is a weak signal.\\n- I found no RFPs, forum complaints or spend data showing that lenders will pay a premium for VIN cleansing beyond the e-file price. I could not verify any core-processor plans. The WebSearch budget ran out and Bing scraping was inconsistent, so coverage of niche vendors and trade-group content is incomplete.",
+ "kill": true,
+ "kill_reason": "Crowded with no credible white space for the idea as written. At least four live direct competitors sell the same loan-tape-to-1098-VLI-to-IRIS flow. Morado already advertises the differentiators (VIN check digit, NHTSA U.S.-assembly lookup, GVWR, SPVL allocation, per-loan exception preflight) and targets credit unions and CUSOs with core-file ingestion. Filing is priced at $0.80-$3/form, or free via the IRS portal for small filers, against the proposed $2-4 with a $1,500 minimum. The plant-table moat is undercut by the free NHTSA vPIC API and Treasury's explicit approval of the NHTSA lookup. Buy-here-pay-here and used-car lenders will report little because only new, U.S.-assembled vehicles qualify. The deduction sunsets after 2028. Core processors could bundle the form output, though I found no announcement.",
+ "sharper_angle": "Do not build a per-form 1098-VLI filing service for small lenders. If any version is worth pursuing, make it a narrow B2B2B data-remediation layer that sits upstream of existing filers:\\n1. Sell an API or managed service that fixes VIN and collateral gaps and returns a per-loan evidence record. The record would cover recovered VIN, original-use basis, final-assembly source (plant code or label), and SPVL allocation for financed add-ons, plus refinance and acquisition handling.\\n2. Sell it white-label to TaxBandits-style e-file vendors, CUSOs and indirect-lending platforms, which lack VIN features, rather than to individual credit unions.\\n3. Lead with a paid readiness audit on a 500-loan tape, priced as a fixed fee rather than per form.\\nTreat it as a one-season, roughly three-year-sunset revenue opportunity, not a venture-scale company. Before building, run the free-audit test from the first 30 days. Check whether more than a handful of lenders actually have VIN gaps that Morado's preflight would not already flag, and whether lenders pay to close them rather than just fail loans out of the file."
+}

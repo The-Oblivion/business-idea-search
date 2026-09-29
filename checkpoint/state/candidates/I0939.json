@@ -1,0 +1,16 @@
+{
+ "title": "Rotor Rescue: Scrapyard Magnet Pick-and-Pay",
+ "angle": "contrarian",
+ "one_liner": "A price-sheet-plus-gauss-meter program that pays scrapyards for magnet-dense motors and rotors they currently sell as steel and copper.",
+ "customer": "Rare-earth magnet recyclers and magnet makers needing domestic recycled feed (they pay per kg with assay). Scrapyards, motor rebuilders and appliance/HVAC recyclers are the sellers.",
+ "problem": "The rare-earth bottleneck is 'collection and disassembly rather than recovery chemistry.' Hard-drive magnet removal often costs more than the material is worth. Yards sell EV drive units, servo and elevator motors, and e-bike hub motors by copper and steel weight, and the NdFeB rotors go into the steel shred.",
+ "solution": "Skip HDDs and target a short list of heavy, magnet-dense items. Yards get a phone app plus a $150 gauss meter that identifies magnet-bearing units and shows a payout per unit or per rotor. A mobile pull cell or the yard's own labor removes rotors. We aggregate and assay them, then sell a certified, traceable magnet-feed stream to recyclers.",
+ "why_now": "The IEA puts China at about 90% of material recovery capacity. The DoD-MP deal and the Texas magnet campus create domestic pull, and DOE announced $134M for critical-mineral demonstrations in June 2026. Recyclers such as Cyclic Materials and IonicRE are funded and need feed.",
+ "revenue_model": "Spread between the recycler's price per kg of assayed magnet feed and the yard payout plus pull cost. Optional premium for defense-traceable lots. Small SaaS fee for the identification and price app.",
+ "non_obvious_insight": "Rare-earth economics fail on tiny magnets (HDDs) but work on a few heavy items. No one publishes a price by motor model, so yards do not know a rotor holds hundreds of grams to kilograms of NdFeB. Price discovery is the missing product, not a new chemistry.",
+ "first_30_days": "Buy 5 gauss meters. Visit 10 auto shredders and motor shops and measure and photograph 200 units. Build a price sheet by model. Get an offtake LOI from one magnet recycler that needs feed. Pay 3 yards on the first 50 units and publish the results to recruit more.",
+ "outside_box_score": 6,
+ "source": "idea:circular-materials:all4",
+ "kind": "idea",
+ "id": "I0939"
+}

@@ -1,0 +1,106 @@
+{
+ "title": "Outsourced 24-Hour Vulnerability Reporting Desk (CRA)",
+ "angle": "boring-lucrative",
+ "one_liner": "A retainer service that acts as the manufacturer's PSIRT: it watches for actively exploited vulnerabilities in their products' components and files the 24-hour early warning, follow-up notification and final report to the EU platform.",
+ "customer": "Connected-device makers with 20-500 employees selling into the EU with no 24/7 security team: smart home, e-bikes and scooters, industrial sensors, routers, wearables, toys, EV chargers. Many are non-EU (US and Asian) firms.",
+ "problem": "CRA reporting obligations began 11 Sep 2026: 24-hour reporting to ENISA for actively exploited vulnerabilities and severe incidents, with fines up to EUR 15M or 2.5% of turnover. Small makers have no on-call rota, no SBOM monitoring and no idea what 'actively exploited' means for their firmware. The briefing found almost no visible tooling aimed at them.",
+ "solution": "A retainer that ingests each product's SBOM per firmware version, matches it continuously against exploited-vulnerability and threat feeds, triages 24/7 with a pre-agreed decision tree, and files the early warning, notification and final report with text approved by the client's named contact. It also runs coordinated disclosure and advisory publishing, plus quarterly tabletop drills. Software lets one analyst cover 30+ clients.",
+ "why_now": "The reporting duty went live 17 days ago and the full regime follows in Dec 2027. Firms are discovering that the deadline is a staffing problem, not a document problem.",
+ "revenue_model": "EUR 1,500-6,000/month retainer, incident surcharges, and EUR 5k annual tabletop exercises.",
+ "non_obvious_insight": "A 24-hour clock makes this a staffing obligation, which small firms cannot meet alone but a pooled desk can, like outsourced DPO services. Each reported vulnerability also gives a natural upsell into SBOM and technical-file work.",
+ "first_30_days": "Partner with two or three EU security consultancies or product-safety associations. Sell a EUR 2.5k one-day 'CRA reporting readiness audit' to 20 firms, convert 5-8 into EUR 2k/month retainers, and contract three part-time analysts across time zones.",
+ "outside_box_score": 4,
+ "source": "idea:legal-regtech:all4",
+ "kind": "idea",
+ "id": "I0374",
+ "tournament": {
+  "score": 0.976,
+  "overall_rank": 44,
+  "cluster": "EU digital product laws for small connected-device makers",
+  "judge_notes": [
+   "operator: rank 1/25 - Live deadline, fines, budgeted compliance; pooled-desk retainer sold via consultancies; paid readiness audit gives fast first revenue.",
+   "contrarian: rank 5/25 - Live 24-hour deadline turns compliance into a staffing problem; pooled desk is logical, but obvious to compliance crowd.",
+   "vc: rank 2/25 - Statutory 24-hour clock just went live; pooled managed desk mirrors outsourced DPO; consultancy channel gives fast first customers."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "TridentSec (PSIRT-as-a-Service)",
+    "url": "https://tridentsec.eu/services/psirt-consulting/",
+    "what_they_do": "Boutique consultancy selling a monthly PSIRT-as-a-Service retainer for connected-device makers: triage, CVE assignment, researcher relations, advisory publishing and 'ENISA coordination', with SLA-backed response times. Also sells a Fractional PSIRT Lead retainer. The site does not claim 24/7 coverage or publish prices.",
+    "scale_or_funding": "Small one-founder consultancy (Kris Barcewicz). No funding disclosed.",
+    "overlap": "direct"
+   },
+   {
+    "name": "Finite State (managed CRA service)",
+    "url": "https://finitestate.io/blog/cra-compliance-is-a-full-time-job",
+    "what_they_do": "Product-security platform with a 12-month managed CRA service: living SBOM from firmware binaries, continuous monitoring against 250+ intel sources, analyst prioritisation and disclosure calls, and draft 24h/72h/14d notifications. Aimed at teams with 'one or two people in product security, or no dedicated function'. Filing stays customer-owned and no 24/7 coverage is stated.",
+    "scale_or_funding": "Venture-backed US product-security vendor. I did not verify funding figures. Pricing is not published.",
+    "overlap": "direct"
+   },
+   {
+    "name": "Cybellum (managed PSIRT / incident response service)",
+    "url": "https://cybellum.com/incident-response-services/",
+    "what_they_do": "Product-security vendor with a service for outsourcing post-production monitoring, triage and analysis, run by product-security staff plus AI. It is pitched at manufacturers who want to outsource post-production risk management and lists EU CRA among the regulations. Positioned for automotive, medical and industrial enterprises. I could not load the page directly, so this comes from search snippets.",
+    "scale_or_funding": "Venture-funded enterprise vendor. Funding not verified.",
+    "overlap": "direct"
+   },
+   {
+    "name": "Patchstack (managed CRA Article 14 reporting for open source)",
+    "url": "https://patchstack.com/articles/launching-managed-cra-article-14-reporting-for-open-source-maintainers/",
+    "what_they_do": "Launched 11 Sep 2026. Free service that tracks exploited vulnerabilities, collects evidence and acts as the Assigned Representative to file Article 14 reports on the SRP for open-source stewards and maintainers. It shows the 'we file for you' model is legal and already being productised. It targets open source, not hardware makers.",
+    "scale_or_funding": "Established WordPress and open-source security company. Says it covers 1,000+ OSS products and projects. Currently free, per-report fee possible later.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "CVD Portal",
+    "url": "https://cvdportal.com/pricing",
+    "what_they_do": "SaaS for CRA compliance: white-label vulnerability intake portal, Article 14 workflow with 24h/72h/14d timers, SBOM registry, EUVD/NVD feeds and technical-file generation. Prices run from a free tier to EUR 99/mo (Reporting) and EUR 299/mo (Compliance). The final SRP filing stays a human action by the manufacturer. No 24/7 human service.",
+    "scale_or_funding": "Unknown, apparently small. Published pricing anchors software-only reporting tooling at EUR 99-299/mo.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "CRA Evidence",
+    "url": "https://craevidence.com/platform",
+    "what_they_do": "CRA compliance platform covering SBOM/HBOM, continuous CVE monitoring with EPSS, VEX, Annex VII technical file and ENISA deadline tracking. Also sells consulting engagements, including an 'Authority/Incident Response Plan' and a Programme Lead retainer. Pricing is custom.",
+    "scale_or_funding": "Unknown. Crunchbase profile exists but returned 403.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "EcoComply (EU Authorised Representative)",
+    "url": "https://ecocomply.ai/blog/cra-reporting-obligations-non-eu-manufacturers",
+    "what_they_do": "Acts as EU Authorised Representative for non-EU manufacturers, with a mandate drafted to cover Article 14 reporting. From EUR 1,500 per product category per year. Provides the reporting counterparty, not 24/7 triage.",
+    "scale_or_funding": "Small compliance startup (CEO John Iwueke). Funding not disclosed.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "H-X Technologies",
+    "url": "https://www.h-x.technology/news/mandatory-cra-reporting",
+    "what_they_do": "Consultancy offering 'CRA Article 14 Reporting Readiness': designs and tests workflows, and prepares draft notifications after technical analysis. The manufacturer or its authorised representative submits.",
+    "scale_or_funding": "European multi-domain compliance consultancy. Size not disclosed.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "SBOM/monitoring tool vendors (Seentrix, Zealience, Regulus, CRACI, ONEKEY, Cybeats)",
+    "url": "https://arcticstartup.com/craci-raises-e1-4-million-pre-seed/",
+    "what_they_do": "Software that ingests SBOMs, monitors CVEs and generates CRA documentation. Seentrix (https://seentrix.com/blog/vulnerability-disclosure-setting-up-your-first-psirt) explicitly sells monitoring feeding a PSIRT. Others: https://zealience.com/cyber-resilience-act-compliance/ , https://goregulus.com/ , https://www.onekey.com/ , https://www.cybeats.com/ . These commoditise the SBOM-matching layer of the idea.",
+    "scale_or_funding": "CRACI (Helsinki) raised a EUR 1.4M pre-seed led by Lifeline Ventures. ONEKEY and Cybeats are funded. Others unknown.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Large MSSPs and certification bodies (Kudelski Security, Bureau Veritas/Secura, TUV SUD, DEKRA)",
+    "url": "https://resources.kudelskisecurity.com/en/managed-security-services",
+    "what_they_do": "Kudelski sells 24x7 incident-response retainers and a managed SOC. Bureau Veritas/Secura, TUV SUD and DEKRA sell CRA gap analysis, testing and conformity advice. None was found marketing a CRA PSIRT desk. Each could add a retainer quickly and already owns the relationships with the target customers.",
+    "scale_or_funding": "Large established incumbents.",
+    "overlap": "adjacent"
+   }
+  ],
+  "white_space": "The genuinely unserved piece is a contractually guaranteed 24/7 desk that files as the client's named Assigned Representative on the SRP, priced for 20-500 person device makers.\n- Nobody found sells this in that form. TridentSec sells operations with no stated 24/7 and no published price. Finite State and H-X draft the notice but leave filing to the customer. Cybellum's service targets enterprises. CVD Portal, CRA Evidence and other tools stop at timers and packages, and their final filing is a human step by the customer. Patchstack files as AR but only for open source, and free.\n- The intake step is also unserved: nobody takes weekend and night hits on 'is this KEV/EUVD entry in our firmware' and makes the call inside the 24h window.\n\nWhat is not white space:\n- The SBOM-to-CVE matching layer is commoditised. CVD Portal's Reporting tier is EUR 99/mo, and CRACI, Zealience, Regulus and ONEKEY sell the same thing.\n- Boutiques and large consultancies can add 'PSIRT retainer' as a line item in weeks.\n- The idea's claim that there is 'almost no visible tooling' is wrong. The service layer is thin, but the tooling layer is crowded.\n\nStructural problems to plan around:\n- The CRA fine exemption for micro and small enterprises on the 24h deadline (Art 64(10), https://cra-facts.com/penalties) removes the sharpest fear driver for the smallest customers. The 72h and 14-day deadlines still carry fines up to EUR 15M or 2.5% of turnover.\n- The SRP requires each AR to use a personal EU Login with MFA (https://www.enisa.europa.eu/topics/product-security/single-reporting-platform-srp/frequently-asked-questions), so named analysts must sit in the loop.\n- Liability stays with the manufacturer, and the desk needs professional indemnity cover.\n- The 24h clock starts when the manufacturer becomes aware, so a desk that spots an exploit may start the client's clock.\n- An actively exploited vulnerability in one specific product's components is a low-frequency event. The retainer therefore risks being seen as insurance that customers only buy under audit pressure.",
+  "evidence_of_demand": "Real but soft and mostly supply-side. I found no RFPs, forum complaints from named small makers, or published customer counts.\n\nRegulatory push (strong):\n- Article 14 reporting applied from 11 Sep 2026 and the ENISA SRP went live the same day. Fines run up to EUR 15M or 2.5% of turnover. See https://www.crowell.com/en/insights/client-alerts/its-live-the-cyber-resilience-act-reporting-is-mandatory-as-of-today-11-september-2026 and https://cra-facts.com/penalties.\n- Law-firm and press coverage stresses that firms need a PSIRT-like process and that 24h is tight. See https://www.theregister.com/security/2026/09/11/eus-cyber-resilience-act-starts-the-24-hour-vulnerability-clock/5295821 (which says the pain is supply-chain visibility, not staffing), https://startupfortune.com/eus-cyber-resilience-act-now-requires-24-hour-hack-reporting/ and https://www.fisherphillips.com/en/insights/insights/eu-cyber-resilience-act-reporting-is-now-live.\n- An ENISA survey reported via a Mondaq/UpGuard search result found 66% of SME respondents had heard of the CRA and one in five were unsure it applied to them.\n\nVendors are already building for it:\n- Finite State markets its managed service to teams with 'one or two people in product security, or no dedicated function' (https://finitestate.io/blog/cra-compliance-is-a-full-time-job).\n- TridentSec sells a PSIRT-as-a-Service retainer (https://tridentsec.eu/services/psirt-consulting/).\n- Patchstack launched free managed Article 14 filing for OSS on day one (https://patchstack.com/articles/launching-managed-cra-article-14-reporting-for-open-source-maintainers/).\n- CRACI raised a EUR 1.4M pre-seed for CRA automation (https://arcticstartup.com/craci-raises-e1-4-million-pre-seed/).\n\nPrice anchors:\n- EcoComply charges from EUR 1,500 per product category per year for an authorised-representative mandate covering Article 14 (https://ecocomply.ai/blog/cra-reporting-obligations-non-eu-manufacturers).\n- CVD Portal charges EUR 99-299/mo for software (https://cvdportal.com/pricing).\n- Outsourced-DPO services are a comparable model at EUR 1,500-5,000/mo mid-range (https://www.engagecompliance.co/outsourced-dpo-cost-guide).\n- Regulus's calculator estimates only 16-32 hours (about EUR 1.4-2.7k) of internal effort to set up vulnerability handling and reporting readiness (https://goregulus.com/resources/cra-cost-calculator/). That suggests many small firms will do it in-house at low cost.\n\nNo evidence found that anyone pays EUR 1,500-6,000/mo for a filing desk today, because the regime is only 17 days old.",
+  "kill": false,
+  "kill_reason": "n/a",
+  "sharper_angle": "Do not launch as a generic 'PSIRT retainer'. TridentSec, Finite State, Cybellum and the consultancies already own that framing, and CVD Portal has pushed software-only reporting down to EUR 99/mo. Launch instead as the 24/7 Article 14 filing desk for non-EU connected-device brands, with three changes.\n\n1. Bundle the AR mandate with the filing SLA. Be the named SRP Assigned Representative plus EU authorised-representative mandate, with a written guarantee such as 'triage decision within 4h, early warning filed inside 24h including weekends'. That is the one deliverable competitors avoid because filing is 'customer-owned'. Price it as a low base fee (EUR 300-800/mo or EUR 2-4k/yr per product family, anchored to EcoComply's EUR 1,500/yr AR price) plus a per-incident fee (EUR 1-3k). Do not price it at EUR 1,500-6,000/mo up front.\n\n2. Pool the triage by shared component stack, not by client. Specialise in a few stacks that many small makers share: ESP-IDF/ESP32, OpenWrt/Qualcomm and Realtek router SDKs, Zephyr, Tuya and Matter modules, and Yocto Linux. An actively exploited entry in one SDK then gets analysed once and fanned out to 30-100 clients as pre-approved VEX and notice drafts. That is where the 30-clients-per-analyst economics come from, and it is hard for one-off consultancies to copy.\n\n3. Sell through channels that carry the liability, not to the makers directly. Target EU importers and marketplace sellers, ODM/contract manufacturers, and chip and module vendors' ecosystems. Also offer white-label wholesale 24/7 back-end capacity to TUV, DEKRA, Bureau Veritas, TridentSec and the SBOM platforms, so incumbents become distributors, not rivals.\n\nSequencing: sell the audit and drill first as the lead product, since reporting-readiness is what regulators and customers will ask for. Treat the monthly filing desk as the recurring add-on, and expect it to sell mainly to firms above the small-enterprise fine exemption (50+ staff or over EUR 10M turnover). Move fast: Patchstack shows platforms can ship managed filing within days, so the window before this becomes a checkbox feature is probably 6-12 months. Before committing, get a professional-indemnity quote and confirm with ENISA or a CSIRT that an external firm can serve as AR using personal EU Login accounts."
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "Maziwa ni School Fees (Uasin Gishu County + Space AI + Tuiyo Farmers Cooperative)",
+   "url": "https://educationnews.co.ke/uasin-gishu-county-launches-innovative-maziwa-ni-school-fees-programme/",
+   "what_they_do": "Closest direct analogue, but for dairy only. Parents deliver milk daily to a cooperative, each litre is credited toward school fees, and the monthly total is deducted as payment. Space AI provides the delivery-tracking platform. Piloted at Tuiyo Secondary School. Tuko coverage: https://www.tuko.co.ke/kenya/counties/580102-uasin-gishu-county-launches-program-parents-pay-school-fees-milk-supplies/ . The articles do not mention grains or other crops.",
+   "scale_or_funding": "County-government programme launched Feb-Mar 2025, not VC-funded. Stated target was 20 cooperatives and 50,000+ students across 6 sub-counties by mid-2026. I could not confirm whether that target was met.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Food4Education (Tap2Eat)",
+   "url": "https://www.food4education.org",
+   "what_they_do": "Runs school meal kitchens and Tap2Eat NFC wristband cashless wallets. Sources large volumes of local food, much of it from smallholders, and builds an ecosystem of farmers, suppliers, cooks, parents and schools. Coverage is mainly primary and junior schools. Nothing I found shows an in-kind fee ledger or secondary boarding supply. It is the incumbent for institutional school food, and a natural competitor if the idea moves into the supply side. Profile: https://educationnews.co.ke/wawira-njiru-and-food4education-feeding-a-generation-nourishing-a-nation/",
+   "scale_or_funding": "650,000+ children a day, targeting 1M by 2027. Funded by Rockefeller, Mulago and others. Founder won the 2026 German Africa Prize.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Zeraki (Zeraki Finance)",
+   "url": "https://zeraki.app",
+   "what_they_do": "School management and finance software: receipting, pledge tracking, expense tracking and reporting. Its site does not mention in-kind or produce receipts. It could add a 'goods received, valued at X' receipt type quickly, which is the main feature-substitution risk for the ledger.",
+   "scale_or_funding": "$1.8M seed (TechCrunch headline, Dec 2022). Operates in about 11 African countries.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "SchoolPay (Uganda, Kenya, Zambia)",
+   "url": "https://www.schoolpay.co.ug",
+   "what_they_do": "Digital fee collection and school ERP across banks and mobile money, with an S-Wallet. Airtel Money and Sanlam launched a fee savings scheme with it in Aug 2025 (chimpreports headline). No in-kind payment support is mentioned on its site.",
+   "scale_or_funding": "Site claims 8M+ parents and 30,000+ schools. Went through the UNDP timbuktoo fintech accelerator.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "eCitizen mandatory school-fee payment directive (Kenya government)",
+   "url": "https://www.the-star.co.ke/news/2026-05-07-ruto-defends-ecitizen-school-fees-policy",
+   "what_they_do": "January 2024 directive requiring all school fees to be paid through the government eCitizen platform. The High Court struck down mandatory use in April 2025 and the Court of Appeal upheld that in Nov 2025. The Star notes rural schools traditionally accept in-kind payments (maize, beans) that eCitizen cannot process. Regulatory risk, not a competitor: the state is still pushing to centralise fee collection.",
+   "scale_or_funding": "Government platform. Mandatory use currently blocked by court orders. The government is still defending the policy, so it could return.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "WFP-backed Home Grown School Feeding mobile tendering platform for farmer-based organisations",
+   "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2024.1476888/full",
+   "what_they_do": "Mobile phone platform through which farmer-based organisations bid for school food tenders under Kenya's HGSF programme. 60.9% of FBOs used it and 37.5% won contracts. Even so, 65% of school purchases still went to traders and brokers via manual tendering. Shows that supply-side aggregation for schools is an existing, donor-backed effort, mostly for primary school meals.",
+   "scale_or_funding": "UN and donor programme in selected counties. The study found only 22.8% of smallholders accessed the market.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Twiga Foods",
+   "url": "https://twigafoods.com",
+   "what_they_do": "B2B fresh-produce aggregation and distribution in Kenya, mainly to kiosks and retailers, with institutional customers as an option. It is not a school-fee product. I did not fetch its site, so the URL and funding are from memory.",
+   "scale_or_funding": "Historically well VC-funded. Techpoint reported it paused Nairobi operations to reset in June 2025 (headline seen only).",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Apollo Agriculture / One Acre Fund style input-credit lenders",
+   "url": "https://apolloagriculture.com",
+   "what_they_do": "Financing, inputs, training and insurance for Kenyan smallholders, repaid from harvest income. They could add grain-for-fees as a farmer retention product, but nothing on their sites suggests it. Their sites give no detail on school fee or grain offtake products.",
+   "scale_or_funding": "VC-backed. I did not verify the amounts.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Nobody I found offers a grain, bean or potato fee-credit ledger for schools. Google News, site fetches and GitHub search turned up no startup, cooperative product or open-source tool that gives standard weigh tickets, SMS receipts and a published reference price. The practice is real but informal, and it is ripe for a trust layer.\n\nUnserved specifics:\n(1) Secondary boarding and senior schools in maize, bean and potato zones. Uasin Gishu has taken dairy, and Food4Education owns primary school meals.\n(2) Fair valuation and receipts for staples. Principal Kegoro at Nyabisia Secondary (Kisii) says 'we accept them to bring maize or beans, then we value them and receipt them', which is exactly the informal, discretionary step to standardise.\n(3) A per-school reconciliation of in-kind credit against arrears lists. Zeraki Finance and SchoolPay show no in-kind receipt type.\n(4) Linking fee credit to the school's own kitchen demand, so the grain never needs to be sold on.\n\nRisks that shrink the white space:\n(a) The supply-side tender and AGPO piece is weak. IDRC reports only 1-2% of AGPO opportunities reach women, youth and disability-owned firms, with 90-day-plus payment delays and kickback demands. Schools buy 65% from brokers by manual tender.\n(b) 2026 is a maize shortage year. The deficit is about 5.4M bags, flour is at KES 153-163 per 2kg, and 53% of smallholders cite lack of surplus. Farmers may hold grain back, and valuation disputes will be sharp.\n(c) Tickets for day schools are small. The proposed day-school fee is KES 7,675, against KES 53k-88k for boarding.\n(d) One entity being fee-credit collector and tender supplier to the same school invites a conflict-of-interest problem.\n(e) Storekeepers and brokers benefit from the current opacity.\n(f) Absence from news is not proof of absence. WebSearch was exhausted and Crunchbase and Product Hunt were blocked, so a stealth or very small pilot cannot be ruled out.",
+ "evidence_of_demand": "Strong on problem and informal behaviour. Weak on willingness to pay a platform.\n\nCustomers already do this informally:\n- Nyabisia Secondary School, Kisii, Sept 2026. The principal says the school accepts maize or beans and 'we value them and receipt them', and also firewood and casual labour, while Form Four students stay away over unpaid fees: https://educationnews.co.ke/form-four-candidates-yet-to-report-to-school-in-kisii-as-national-exams-approach-says-worried-principal/\n- The Star, May 2026: rural schools traditionally accept in-kind payments (maize, beans). The eCitizen mandate that would have blocked this was struck down in April 2025 and the ruling upheld in Nov 2025: https://www.the-star.co.ke/news/2026-05-07-ruto-defends-ecitizen-school-fees-policy\n- Daily Nation, 2022: 'Ainabkoi school embraces barter trade to settle school fees': https://nation.africa/kenya/counties/uasin-gishu/ainabkoi-school-embraces-barter-trade-to-settle-school-fees-3805622 (403-blocked, headline only).\n- West Pokot governor Lonyangapuo asked schools to accept goats, chicken and food as fees, with no valuation system: https://educationnews.co.ke/lonyangapuo-asks-schools-to-accept-barter-trade-in-settling-school-fees/\n- Uasin Gishu government built a formal dairy version, 'Maziwa ni School Fees', which validates the model and shows government appetite: https://educationnews.co.ke/uasin-gishu-county-launches-innovative-maziwa-ni-school-fees-programme/\n\nCash pressure on schools:\n- Capitation shortfall. Schools received only 56% of expected capitation by Term 2 2026, and the per-learner deficit is KES 4,905 (received 17,339 of 22,244): https://eastleighvoice.co.ke/education/374040/parents-oppose-proposed-secondary-school-fee-hike-call-for-timely-release-of-capitation-funds and https://eastleighvoice.co.ke/education/339135/second-term-begins-monday-amid-deepening-school-funding-crisis\n- Principals in Nation coverage say 'we are still drowning in debt': https://nation.africa/kenya/news/education/-schools-drowning-in-debt-as-term-1-nears-end--5385870\n- Principals want fees raised to up to KES 87,781 for national boarding schools: https://www.money254.co.ke/post/fees-in-secondary-schools-rise-to-ksh87k-in-proposed-funding-model-news\n\nFood cost pressure:\n- Food and beverage inflation was 8.6% in June 2026, and planners are told to model +10% food costs. The article recommends home-grown school meals linked to local farmers: https://educationnews.co.ke/food-security-pressure-why-kenyan-schools-must-rethink-their-2027-budgets/\n- Only 22.8% of smallholders reach the school feeding market, and 65% of school purchases go to traders and brokers via manual tender. In that study 50.5% of farmers said prices did not match the market: https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2024.1476888/full\n- The School Feeding Bill and the KES 7.8-12.7bn annual funding need show policy momentum for local sourcing (People Daily article was 403-blocked, so I relied on The Star summary): https://www.the-star.co.ke/news/2026-08-26-ruto-at-4-school-feeding-how-far-has-the-promise-gone\n\nNo direct evidence of schools paying for such a platform. I found no RFPs, forum complaints about valuation, or paid software for in-kind receipting.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Drop the two-sided broker-replacement and AGPO tender play from the wedge. It is thin-margin, hits the documented AGPO payment-delay and kickback problems, creates a fee-collector-and-supplier conflict of interest, and puts you against Food4Education and entrenched brokers. Start with the trust layer: a 'Fee Credit Ledger' for boarding secondary and senior schools in maize, bean and potato zones such as Kisii, Nyamira, Bungoma and Trans Nzoia.\n\nProduct:\n- A standard weigh ticket (scale photo, moisture reading, grade).\n- A published reference price, for example the NCPB indicative price or county average, with a transparent handling deduction.\n- An SMS receipt to the parent.\n- A weekly school-side reconciliation that ties in-kind credit to the arrears list.\n- A board of management sign-off flow, so principals get an audit trail and cover against unapproved-levy accusations.\n\nRoute to market:\n1. Sell it as a module to schools already on Zeraki or SchoolPay, or partner with them, rather than competing on fee collection. That turns the biggest substitution risk into a channel.\n2. Copy the 'Maziwa ni School Fees' playbook for staples. Pitch a county government or a county cereals or SACCO structure to run 'Mahindi/Maharagwe ni School Fees' as a sibling programme, since dairy is already taken and county governments have shown they will fund this.\n3. Let the school consume the grain it receives (credit at the reference price, delivered to the school kitchen). That avoids tender bids, AGPO and the conflict-of-interest issue in phase one, and it is the direct bridge to the School Feeding Bill's home-grown sourcing agenda.\n\nRevenue: per-learner per-term ledger fee (KES 50-100) or a small handling percentage, with hermetic storage credit as an add-on. Add tender supply and receivables or arrears financing only after the ledger produces data.\n\nPilot design:\n- 2026 is a maize deficit year. Include beans and potatoes, and let parents choose the cash or commodity settlement option.\n- Target boarding schools first, because day-school fee tickets (about KES 7,675) are too small.\n- Time the pilot for Term 1 2027 and the Nov-Dec 2026 procurement planning window."
+}

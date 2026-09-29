@@ -1,0 +1,15 @@
+{
+ "title": "Peak-Load Call Service for Mid-Size Factories",
+ "one_liner": "Predict the handful of hours a year that set a facility's capacity charge and alert the plant manager to cut load, paid as a share of verified savings.",
+ "customer": "Commercial and industrial sites of 300 kW to 5 MW in PJM (and ERCOT 4CP) territories that demand-response aggregators ignore: cold storage, water and wastewater plants, plastics and aggregates producers, ice rinks and indoor farms. Energy brokers and consultants are the channel.",
+ "problem": "A customer's capacity tag (PLC) is set by usage during a few system-peak hours, and its cost then sits on every bill for a year. PJM capacity prices have risen roughly tenfold since 2024/25, with recent auctions clearing at the cap of about $330/MW-day, so a 1 MW site's tag is worth six figures. Owners either never curtail and overpay, or curtail on 20+ hot days and lose production. Aggregators skim 20 to 40% and focus on large accounts.",
+ "solution": "Model the probability that each upcoming hour ranks in the system's top peaks for the site's zone or utility rules. Use weather ensembles, load forecasts, calendar effects and, critically, the season's running maximum so far. Send a text or BMS signal with the expected value of curtailing against the plant's own curtailment cost. Cut curtailment days from about 25 to about 8 and stop alerting once the peaks have been 'caught'.",
+ "why_now": "Data-center load growth has pushed PJM capacity clearing prices to the cap two auctions in a row, and those costs are now hitting commercial bills. Open AI weather ensembles (ECMWF AIFS, NOAA) make sharper probabilistic forecasts cheap. The just-finished 2026 summer is fresh evidence for a backtest pitch.",
+ "revenue_model": "20 to 25% of verified savings (measured from the next year's PLC change), a $250 to $500 monthly alert subscription, and $2K to $5K paid load audits. Brokers and consultants get a channel rebate.",
+ "non_obvious_insight": "Quants see 'top 5 hours out of 4,000' as an order-statistics and optimal-stopping problem with asymmetric payoffs, not a pure forecasting problem. As the season's record load rises, the threshold to enter the top 5 becomes known, the option value of alerts collapses, and you can stop curtailing early. Incumbents earn more the more events they call, so their models over-alert. The savings show up a year later on an invoice nobody links to behavior, so customers underinvest without a counterfactual 'what your tag would have been' report.",
+ "first_30_days": "Use the off-season to pull public PJM hourly load and zonal data, backtest 2019 to 2026 peaks, and generate a free 'what your tag would have been' report for 100 facilities found through EIA and utility-tariff lists. Sell $3K load audits to the first five, sign shared-savings pilots for summer 2027, and recruit two energy brokers as channel partners.",
+ "outside_box_score": 7,
+ "source": "persona:p0-6",
+ "kind": "persona",
+ "id": "I0160"
+}

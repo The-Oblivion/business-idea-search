@@ -1,0 +1,87 @@
+{
+ "status": "crowded",
+ "competitors": [
+  {
+   "name": "Findigs",
+   "url": "https://www.findigs.com/solutions/reduce-fraud-delinquency-bad-debt",
+   "what_they_do": "Leasing decisioning platform. Its fraud layer cross-checks every applicant against 400-500K+ units of network history to catch reused identity documents and synthetic identities. Its product team also describes burner-phone and prior-fraud signals. It sells to SMB operators (100-3,000 units) up through enterprise, and offers a contractual fraud guarantee. This is the same network moat the idea claims, aimed at nearly the same customer size.",
+   "scale_or_funding": "$80M total raised, including a $32M Series C in June 2026 (https://www.globenewswire.com/news-release/2026/06/02/3305372/0/en/findigs-raises-32m-series-c-funding-to-redefine-leasing-decisioning.html). Hundreds of operators; customers include McKinley, Oakwood, Sentral.",
+   "overlap": "direct"
+  },
+  {
+   "name": "VERO (Fraud Shield)",
+   "url": "https://sayvero.com/insights/fraud-shield-multifamily-fraud-prevention",
+   "what_they_do": "Multifamily screening platform. When one property flags an application as fraud, Fraud Shield tags the bad actor. Reused phone numbers, shared addresses and document fingerprints then auto-flag or block matching applications at other VERO properties, using LLM entity resolution. It also integrates Persona, Argyle and Resistant AI signals. This is a cross-property shared-signal registry, sold inside the product.",
+   "scale_or_funding": "Funding not found. Integrated with Rent Manager and other PMS platforms (https://sayvero.com/insights/vero-announces-rent-manager-integration).",
+   "overlap": "direct"
+  },
+  {
+   "name": "Snappt",
+   "url": "https://snappt.com/blog/snappt-implements-know-your-business-checks/",
+   "what_they_do": "The market leader in rental document-fraud detection. It added Know Your Business (KYB) employer-legitimacy checks: manual in March 2024, automated via Middesk in January 2025. These check state registration, formation date, address type and website age. It also offers employer phone and email verification (https://snappt.com/verification-of-employment/). Its Landlord Verification cross-references property-ownership databases before contacting a prior landlord (https://snappt.com/blog/fake-landlord-references-problem/). It keeps a 'Known Threat List'. Its TurboTenant Pro integration puts it in front of small landlords (https://www.turbotenant.com/rental-screening/snappt/). The idea's signal 2, registry and domain checks, is already a shipped feature.",
+   "scale_or_funding": "About $152M raised per aggregator profiles (PitchBook/Crunchbase, https://pitchbook.com/profiles/company/265026-52). Serves 8 of the top 10 US property managers. 1.46M applicant submissions analyzed in 2025 (https://natlawreview.com/press-releases/snappt-releases-2026-multifamily-fraud-report-revealing-how-applicant-fraud).",
+   "overlap": "direct"
+  },
+  {
+   "name": "Renter, Inc.",
+   "url": "https://www.renterinc.com/how-to-spot-fake-landlords/",
+   "what_they_do": "Automated Verification of Rent (rental-history verification) since 2015. It validates prior landlords through property-ownership checks, business-registration validation, email and phone identity scoring, fraud-pattern detection and analyst review. This covers the fake-previous-landlord half of the idea.",
+   "scale_or_funding": "Operating since 2015. Customers include All County Property Management, BRICK+TIMBER, MAC Apartments and Revolution Property Management (https://www.renterinc.com/). Funding not disclosed.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Two Dots",
+   "url": "https://www.twodots.com/resources/offer-letter-fraud-how-to-spot-fake-employment-offers-and-protect-your-properties",
+   "what_they_do": "AI approval agent for multifamily. Its marketing claims automated employer verification, detection of recently created shell businesses and 'professional fraud ring detection' for offer-letter fraud.",
+   "scale_or_funding": "Funding and pricing not disclosed on the pages I could read. Small or early-stage.",
+   "overlap": "direct"
+  },
+  {
+   "name": "100 (formerly Hi Cavalry) + Cobblestone Labs",
+   "url": "https://siliconangle.com/2026/06/09/rental-screening-startup-100-acquires-fraud-detection-firm-cobblestone-labs/",
+   "what_they_do": "Rental screening startup 100 acquired the YC W23 fraud and income-verification company Cobblestone Labs in June 2026. Cobblestone targets identity, income and synthetic-identity fraud for institutional landlords. The consolidation the idea's 'why now' points to is happening, but the buyers are bundling fraud into full screening stacks.",
+   "scale_or_funding": "100 raised a $5.2M pre-seed in October 2024. Acquisition price undisclosed.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Funnel Leasing",
+   "url": "https://funnelleasing.com/ai-rental-applications-where-fraud-detection-actually-works/",
+   "what_they_do": "Leasing and application platform that markets portfolio-wide fraud detection. If an applicant is flagged at one property, the system blocks them at others in the portfolio. This is cross-property matching within one platform's customer base.",
+   "scale_or_funding": "Established leasing-software vendor. Funding not checked.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Point Predictive (fraud consortium)",
+   "url": "https://pointpredictive.com/press-releases/point-predictives-fraud-consortium-surpasses-650-financial-institutions-protecting-over-4-trillion-in-loan-originations/",
+   "what_they_do": "Shared fraud-intelligence consortium for auto lending: 650+ lenders, banks, fintechs and dealer groups, 270M applications, $4T in originations. Income and employment misrepresentation accounts for about 43% of its loss exposure. This occupies the idea's 'later customers' auto-lender vertical and proves the consortium model sells, but also shows that vertical is already taken (https://pointpredictive.com/press-releases/point-predictive-releases-2026-auto-lending-fraud-trends-report-fraud-exposure-reaches-record-10-4-billion/).",
+   "scale_or_funding": "650+ member institutions; $4T originations analyzed.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Socure / Telesign / LexisNexis phone-intelligence consortia",
+   "url": "https://www.socure.com/products/phone-risk",
+   "what_they_do": "Commodity phone-risk APIs (line type, age, ported status, consortium-derived reputation) that a competitor can bolt on cheaply. Telesign (https://www.telesign.com/products/intelligence) and LexisNexis (https://risk.lexisnexis.com/products/phone-intelligence) sell the same. The idea's signal 1, telecom line-type and age, is not defensible.",
+   "scale_or_funding": "Large established vendors.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Argyle / Truv / Plaid Income (payroll-connected verification)",
+   "url": "https://www.argyle.com/industries/tenant-screening",
+   "what_they_do": "Connects directly to the applicant's payroll or bank account to verify employment and income at the source, bypassing 'call the HR number' entirely. Truv: https://docs.truv.com/screening/products/income-employment. This attacks the same root problem (fake employer, accomplice-answered phone) from a different direction, and VERO already integrates Argyle.",
+   "scale_or_funding": "Well-funded infrastructure players.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "TurboTenant / RentSpree (independent-landlord distribution)",
+   "url": "https://www.rentspree.com/blog/best-tenant-screening-services",
+   "what_they_do": "Screening portals for small landlords. TurboTenant bundles Snappt at its Pro tier, and RentSpree offers bank-verified income for a $10 tenant-paid add-on. The bottom of the market is already reachable by the incumbents' existing channels.",
+   "scale_or_funding": "Established consumer and landlord platforms.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "The as-written product is mostly built. Signal 1 (phone line-type and age) is a commodity API. Signal 2 (registry, EIN and domain checks) ships in Snappt KYB via Middesk, Renter Inc. and Two Dots. Signal 3, the network moat, is what Findigs (400-500K units) and VERO Fraud Shield (reused phones and addresses flagged across customers) already sell. Findigs also sells to 100-3,000-unit operators, which overlaps most of the 50-5,000-unit target. The remaining white space is narrow and structural.\n\n1. Every network I found is a walled garden inside one vendor's customer base. Findigs sees roughly 400-500K units and VERO sees its own customers. A ring that hops between screening vendors or PMS platforms defeats each one. I found no vendor-neutral, cross-vendor entity registry. That is the actual ISO ClaimSearch analogy, but it is a data-consortium play sold to and through vendors, not a per-application Chrome extension sold to PMs.\n2. Managers under about 100 units are served only by bundles, such as TurboTenant plus Snappt, or by manual phone calls. Findigs starts at about 100 units and Snappt sells annual enterprise contracts. That tail is real but low-revenue, and $149 per month from a tiny PM with almost nothing to contribute makes the cold start hard.\n3. The verticals the idea lists as later customers are only partly open. Auto lending has Point Predictive (650+ members). Buy-here-pay-here dealers, gig and platform onboarding, and small-balance lenders have no comparable employer/reference-entity consortium that I found, but I did not verify that thoroughly.\n4. No competitor I found publishes intelligence on the fraud-service supply side. The employment-verification-for-hire operations with actors answering HR lines are described in the trade press, for example (https://www.leaserunner.com/blog/how-to-spot-fake-landlord-references). This could be tracked as its own threat-intel feed of the businesses selling the lie.\n\nCaveats. My web search budget ran out before I could run the last vendor checks (RealPage, Yardi, Entrata, TransUnion network features, Middesk-style APIs). PMS incumbents could already have or add this. The FCRA claim that entity-only data 'sidesteps' consumer-reporting rules is optimistic, because phone and email tied to applicants used for eligibility decisions tends to be treated as consumer-report data. Findigs and VERO handle this as internal fraud flags inside their own platforms.",
+ "evidence_of_demand": "Demand for fraud tooling is strong and already paid for. Demand for a new cross-vendor registry specifically is unproven: I found no forum, RFP or survey asking for one.\n\n- Fraud is prevalent. The NMHC/NAA survey reports 93.3% of large operators experienced fraud in the prior 12 months, 84.3% saw fabricated pay stubs, employment references or income documents, and 80% saw applicants misrepresent application information. Source: NMHC, https://www.nmhc.org/news/press-release/2024/rampant-increasing-fraud-impacting-rental-housing-costs/ (as summarized in search results; the full page did not load for me), plus https://www.nmhc.org/research-insight/research-report/nmhc-pulse-survey-analyzing-the-operational-impact-of-rental-application-fraud-and-bad-debt/.\n- Most fraud is caught late. More than 70% of operators did not catch it until after move-in (search-result summary of the NMHC survey). The 2025 Snappt fraud rate was 5.1% of 1.46M submissions, with 'template farms' accounting for 42,600+ cases. Source: https://natlawreview.com/press-releases/snappt-releases-2026-multifamily-fraud-report-revealing-how-applicant-fraud-is-scaling-across-the-industry. 61% of property managers say they lack confidence in preventing fraud.\n- Money is flowing. Findigs closed a $32M Series C (June 2026, $80M total, https://www.globenewswire.com/news-release/2026/06/02/3305372/0/en/findigs-raises-32m-series-c-funding-to-redefine-leasing-decisioning.html). Snappt has raised about $152M. 100 bought Cobblestone Labs in June 2026 (https://siliconangle.com/2026/06/09/rental-screening-startup-100-acquires-fraud-detection-firm-cobblestone-labs/).\n- PMs already spend on employer and landlord verification. Snappt sells employer phone and email verification and KYB. Renter, Inc. has sold rental-history verification since 2015 to named PM customers (https://www.renterinc.com/).\n- The consortium model sells. Point Predictive has 650+ lender members (https://pointpredictive.com/press-releases/point-predictives-fraud-consortium-surpasses-650-financial-institutions-protecting-over-4-trillion-in-loan-originations/).\n- The specific attack is documented. Trade sources describe verification-for-hire services with actors answering phones and a local number (https://www.leaserunner.com/blog/how-to-spot-fake-landlord-references), and Snappt's own Landlord Verification page confirms 'friends pretending to be landlords' (https://snappt.com/blog/fake-landlord-references-problem/).\n- Weak evidence that information sharing is wanted. Trade coverage says operators believe fraud is a place to make an exception to competitive secrecy (search-result summary of a NAA/NMHC-related query; unverified beyond that). Independent evidence that operators would pay a separate vendor for a neutral registry: none found. Willingness to pay for the idea's specific price of $1.50-3.00 per check or $149-499 per month: none found. Snappt publishes no per-application price.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Do not build the PM-facing per-application checker with a Chrome extension. Findigs, VERO, Snappt (KYB plus landlord verification), Renter Inc. and Two Dots already cover its three signals, and they sell inside the software PMs already use.\n\nInstead, build the vendor-neutral entity consortium as infrastructure, aimed at the walled gardens' blind spot. Track only entities (phones, emails, domains, EINs, 'landlord' contacts, addresses), never people, and sell the graph as an API and data feed to screening vendors, PMS platforms and small lenders. Suggested first customers are the mid-tier vendors and portals without their own network, such as RentSpree, TurboTenant, Zillow and Buildium-class platforms, plus the non-multifamily verticals Point Predictive does not obviously serve: buy-here-pay-here dealers, gig platforms and small-balance lenders. The pitch is that a ring hopping across vendors defeats any single network, and a neutral pool sees the hops.\n\nSeed it differently from the original plan. Start with a threat-intel feed on the fraud-service supply side: employment-verification-for-hire operations and template-farm sellers, meaning their phone banks, listing sites and domains, sold as a subscription. It needs no PM contributions to start and is what the competitors' blogs describe but do not sell as a feed.\n\nBefore committing, run two tests.\n1. Ask Findigs, VERO and Snappt whether they would ingest or contribute to a neutral feed. Their incentive is to keep data proprietary, so a 'no' from all three kills the model.\n2. Get an FCRA opinion on entity-linked data used in eligibility decisions.\n\nIf neither test passes, kill it. A reasonable falsifier: fewer than 3 of 10 vendor or lender conversations lead to a paid pilot."
+}

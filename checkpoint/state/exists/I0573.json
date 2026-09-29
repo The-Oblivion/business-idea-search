@@ -1,0 +1,73 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "CMS Emmy (Eligibility Made Easy) app and Emmy API",
+   "url": "https://www.cms.gov/medicaid-chip/community-engagement-support/eligibility-made-easy",
+   "what_they_do": "Free, open-source federal app that collects data and documentation from applicants and beneficiaries, plus a verification hub. It pulls student-enrollment and VA disability data, and CMS is folding it into the Federal Data Services Hub. States can adopt it at no licensing cost. I could not confirm whether it connects to bank or gig accounts.",
+   "scale_or_funding": "Federal, free. Adopted by CO, NC, WV and GA. PA, ND, VT, MO, SD, NY and IL chose private contractors instead (Nextgov: https://www.nextgov.com/digital-government/2026/07/cms-quietly-moved-medicaid-technology-project-federal-data-hub-new-eligibility-requirements-approach/415106/).",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "SteadyIQ (Income Passport / Verification Hub)",
+   "url": "https://www.steadyiq.com",
+   "what_they_do": "User-permissioned income verification covering bank data, W-2/1099 tax documents, payroll and gig platforms, and community engagement. It is sold to state agencies with an enrollee-facing flow and a caseworker-facing portal. CBPP describes it as connecting to payroll, gig platforms, digital wallets and bank accounts. This is the closest technical match to the proposed ingestion layer.",
+   "scale_or_funding": "Named as a state partner in the Nextgov piece; clients include Missouri DSS and Alabama DOL. Funding not disclosed on the site.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Digital Public Works",
+   "url": "https://www.governing.com/policy/new-tech-should-help-medicaid-enrollees-meet-work-requirements",
+   "what_they_do": "Nonprofit building a mobile-first income verification tool for Medicaid, started by former U.S. Digital Service staff (per Governing).",
+   "scale_or_funding": "Nonprofit. Funding source unclear beyond what Governing reports.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Maximus, Optum, Acentra, Deloitte, Gainwell, Conduent, Curam/Merative (state-side community engagement modules)",
+   "url": "https://www.medicaid.gov/resources-for-states/working-families-tax-cut-legislation/community-engagement/pledges-from-medicaid-tech-companies",
+   "what_they_do": "Pledged to CMS to deliver community engagement tracking portals and mobile apps, verification hubs and medical-frailty logic. Examples are Maximus's tracking tool with portal and mobile app, Optum's module, and Acentra's data collection portal. Several are free through 2028. Gainwell charges $50 per member per year for maintenance and offers medical-frailty logic at no cost.",
+   "scale_or_funding": "CMS-listed pledges; the search summary cites more than $600M of committed vendor support. Thirteen more vendors are seeking the GSA schedule. Pricing on the state side is being pushed toward free.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Findhelp (formerly Aunt Bertha)",
+   "url": "https://company.findhelp.com/blog/2026/03/31/modernizing-medicaid-infrastructure-for-community-engagement-requirements/",
+   "what_they_do": "Platform for state agencies, MCOs, providers and CBOs. It offers real-time eligibility data through Pull APIs and 'Eligibility-at-Risk' flags for members approaching redetermination or with compliance deficits. Navigators can view status and help members upload documents. It is already positioned to sell to the same MCO and provider buyers.",
+   "scale_or_funding": "Established, venture-backed social care platform; specific funding not verified in this research.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Pointcare",
+   "url": "https://www.pointcare.com",
+   "what_they_do": "Coverage management platform for community health centers. It provides lapse detection 60 to 90 days ahead of claim rejections, exemption-documentation tracking and outreach workflows. It also has a member-facing coverage app with virtual enrollment. It publishes content aimed at CHC finance leaders about the Medicaid work requirements (https://www.pointcare.com/blog/how-to-prevent-medicaid-coverage-gaps-in-2026). I found no gig-income ingestion or 80-hour/$580 packet tool.",
+   "scale_or_funding": "Site claims 130 CHC partners, 30 states and about 2.9M patients under management. Funding not disclosed on the site.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Propel (Propel for Plans)",
+   "url": "https://www.propel.app/",
+   "what_they_do": "Consumer benefits app for EBT/SNAP that already publishes Medicaid work requirement explainers, most recently Sept 24, 2026. Its nav lists a 'Propel for Plans' offering aimed at health plans; I could not load a page describing it. No Medicaid documentation or tracking tool is visible yet.",
+   "scale_or_funding": "Over 5M users, roughly a quarter of SNAP households. Raised $4M seed (a16z), $12.8M Series A and a $50M Series B led by NYCA Partners (https://en.wikipedia.org/wiki/Propel_(company)).",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "mPulse",
+   "url": "https://mpulse.com/blog/why-medicaid-communication-strategy-matters-for-compliance/",
+   "what_they_do": "Omnichannel member outreach (SMS, mail, phone) for health plans, marketed for the community engagement outreach requirements. It does notices and reminders, not income documentation.",
+   "scale_or_funding": "Established health plan engagement vendor; funding not verified.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "CareRoute (Healtheja, Inc.)",
+   "url": "https://www.careroute.ai/blog/medicaid-work-requirements",
+   "what_they_do": "Consumer-facing guides on work requirements, documentation tips and appeals resources. It is informational only.",
+   "scale_or_funding": "Unknown.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Nobody I found sells an enrollee-side monthly ledger to MCOs or FQHCs that ingests bank, gig and pay-stub data, computes $580 or 80 hours against a state's look-back rules, and produces a state-specific 30-day cure packet. Nothing turned up in searches, CMS vendor pledges or CBPP/KFF/Georgetown landscape coverage. Vendors sit on either side of that gap. State-side vendors (SteadyIQ, Emmy, Maximus, Optum, Deloitte) sell to state agencies. Provider and plan-side vendors (Pointcare, Findhelp, mPulse) sell eligibility monitoring and outreach without gig-income packet building. The clearest unserved segment is workers with no digital trail: cash, informal and 1099-below-threshold workers such as day labor, cleaning and landscaping. Consent-based verification (CBV) via payroll, bank or gig platforms cannot reach them. The 30-day cure step, meaning a compiled packet after a noncompliance notice, is also not addressed by any product I found. The wedge is narrow and could close quickly. States with CBV (SteadyIQ, Emmy) let the enrollee connect accounts directly, which makes a separate packet redundant there. MCOs may be poor buyers because the IFR bars plans from determining compliance and gives them only a supporting role. Pointcare and Findhelp already own the FQHC and MCO relationships and could add a module. Research limits: my web search budget ran out after four searches, so I relied on page fetches. I could not load the CBPP vendor landscape, the Health Affairs piece or the Federal Register text (all blocked), and I could not confirm what Propel for Plans does or any vendor's funding.",
+ "evidence_of_demand": "Problem evidence is strong; evidence that MCOs or health centers will pay for this specific tool is weak.\n- Documentation burden is acknowledged widely. Beyond the Basics says 'people who are gig workers or who are self-employed may have a difficult time verifying their income' (https://www.healthreformbeyondthebasics.org/medicaid-work-requirements-and-six-month-redeterminations/). The CBPP vendor landscape and SHVS guidance both flag gig and self-employed verification gaps and recommend CBV.\n- Georgetown CCF warns that even Nebraska's self-attestation year still leaves about 28,000 people documenting twice a year, and that the state plans to move to verification (https://ccf.georgetown.edu/2026/05/11/the-new-medicaid-work-reporting-requirements-are-here-dont-let-the-nebraska-soft-start-fool-you/).\n- State spending exists on the state side. Gainwell's pledge lists $2M per implementation plus $50 per member per year for maintenance, and Conduent lists $2M per state (https://www.medicaid.gov/resources-for-states/working-families-tax-cut-legislation/community-engagement/pledges-from-medicaid-tech-companies). Several other vendors pledged free tools through 2028, which pushes state prices toward zero.\n- MCOs are already allowed and expected to help. The rule lets MCOs 'provide education to enrollees on how to prepare and collect documents,' and states may require MCOs to support outreach and reporting (https://www.kff.org/medicaid/medicaid-work-requirements-federal-outreach-requirements-and-state-plans/ and https://www.mintz.com/insights-center/viewpoints/2146/2026-06-24-what-do-medicaid-community-engagement-requirements-mean).\n- Provider-side buyers exist. Pointcare markets retention to CHC finance leaders and claims 130 CHCs and an 84% average retention improvement.\n- Reuters headline 'Centene flags weakening Medicaid membership, shares fall' (Jul 28, 2026) suggests membership pressure at MCOs. I saw only the headline; the article was blocked.\n- No evidence found of an MCO or FQHC paying per member for an enrollee-side income-documentation tool, and no RFPs or funded startups for this exact product.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Do not compete with SteadyIQ, Emmy or the state portals on platform and bank-linked gig income; they will win those states for free. Build for the cash-and-informal cohort and the cure step, sold through health centers.\n1. Target workers CBV misses: cash, day-labor, cleaning and landscaping, and other informal or sub-threshold 1099 work. Give them a simple SMS ledger with client or employer attestations, receipt photos and volunteer or class hours, formatted to each state's accepted-evidence list. Keep Uber and DoorDash as a secondary import.\n2. Sell it as a navigator and assister workflow inside FQHCs and CHCs, not as a per-member MCO SaaS. The IFR limits plans to a supporting role, and MCO procurement is slow. Health centers hold the patient relationship and lose revenue when patients lapse. Start with the Pointcare-style buyer, but on a cure-packet and success-fee model, for example $50 to $150 per retained patient.\n3. Make the 30-day cure response the core product. Nebraska is the test market: about 28,000 people must document, the state plans to move from self-attestation to verification, and the move is where documentation gaps hurt.\n4. Treat Pointcare, Findhelp and mPulse as channel partners and offer the packet builder as an embedded module or API, rather than a competing dashboard.\n5. Keep the exemption-flagging feature from claims data. It is a differentiator, but Gainwell offers free medical-frailty logic to states, so it likely cannot stand alone.\n6. Validate before building: check which states will accept third-party-generated packets, and confirm Propel for Plans, Pointcare and Findhelp are not already building the same module. Also confirm in the IFR text that an MCO or health-center-funded tool does not violate the conflict-of-interest or inducement limits.\""
+}

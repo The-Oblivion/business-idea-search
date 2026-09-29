@@ -1,0 +1,126 @@
+{
+ "title": "Warranty Clock Recovery Audits for Idle Halls",
+ "one_liner": "A contingency-fee service that finds and files the warranty claims on energized-but-empty data halls before OEM warranty clocks silently expire.",
+ "customer": "Colocation developers, powered-shell landlords, neocloud operators and enterprise owners with phased or delayed-tenant builds, especially those with halls commissioned 6-14 months ago and not yet loaded. The owner pays a percentage of recovered value, plus an optional per-asset tracking subscription.",
+ "problem": "Warranty clocks on generators, UPS systems, chillers, CRAH/CDUs, switchgear, and batteries usually start at shipment or startup, not when a tenant loads the hall. With delayed leases and mid-build AI redesigns, halls sit energized and idle for months. Many defects only show under real load (UPS capacitors, chiller compressors, wet-stacking gensets, breaker trip curves, coolant chemistry). By the time the tenant ramps, the warranty has expired. The turnover package is 50,000+ pages of PDFs that ops never reads, the punch-list deferrals are lost, and OEM maintenance records required to keep coverage valid are often missing. Nobody owns the clock.",
+ "solution": "Ingest POs, OEM warranty terms, startup sheets, Cx reports, shipping documents and maintenance logs with an LLM pipeline to build a serial-number-level warranty ledger with real expiry dates and voiding conditions. Flag anything expiring within 120 days. Run a targeted load-dependent-defect inspection before expiry (thermography, oil and coolant samples, capacitor and battery checks, breaker testing). File claims, negotiate warranty start-date deferrals or extensions with the OEM while leverage still exists, and fix missing maintenance-record gaps. For new builds, sell a PO-stage clause pack that defers warranty start to beneficial occupancy.",
+ "why_now": "There is a glut of speculative shells and delayed tenant handoffs. Reporting in 2026 shows close to half of planned US builds slipping, with only about a third of 2026 target capacity under active construction. That means many halls are powered, commissioned and idle. Equipment was bought at peak prices with tariffs on steel, aluminum and copper, so each lapsed warranty is worth more. LLMs can now read messy closeout binders cheaply, which was the labor bottleneck for audits like this.",
+ "revenue_model": "25-30% of recovered value or avoided cost on claims and negotiated extensions, no fee if nothing is recovered. Optional $150-400 per asset per year tracking subscription. $15K-40K fixed-fee closeout audits for owners who want certainty. PO-stage clause-pack consulting for developers.",
+ "non_obvious_insight": "The warranty is the only major asset on a data center balance sheet that expires silently. OEMs will defer warranty start dates at PO time, but almost no one negotiates it because the project team is fighting for delivery slots, not paperwork. After the fact, the owner's ops team inherits the docs with no idea when the clocks started. The money is in the punch-list items that were 'to be fixed later' and the load-dependent defects that only appear after the hall is finally used.",
+ "first_30_days": "Find 3 owner-operators through PM and Cx network contacts with halls energized 8-11 months ago and not fully loaded. Offer a free 10-day scan of their closeout binders in exchange for a contingency agreement on any claims. Build the extraction pipeline on real binders (gensets, UPS, chillers first). Deliver a 'expiring within 90 days' hit list and file the first claims before the first invoice.",
+ "outside_box_score": 8,
+ "source": "persona:p2-2",
+ "kind": "persona",
+ "id": "I0229",
+ "tournament": {
+  "score": 0.988,
+  "overall_rank": 34,
+  "cluster": "Warranty claims left unfiled",
+  "judge_notes": [
+   "operator: rank 3/25 - Silent expiring asset worth millions, contingency removes budget friction, reachable via Cx networks; small target universe.",
+   "contrarian: rank 2/25 - Silently expiring warranty on idle data halls is sharp, high-dollar, contingency-priced, and the LLM binder-reading unlock is new.",
+   "vc: rank 1/25 - Silent-expiry warranties on multi-million-dollar AI halls; contingency pricing, LLM-readable binders, expands to all capital projects."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "Ethyco (data center commissioning, warranty-phase support)",
+    "url": "https://www.ethyco.com/services.html",
+    "what_they_do": "Data center Cx firm that sells warranty-phase support: a 10-month pre-expiry warranty review, deferred-items tracking, post-occupancy observation and warranty deficiency documentation. This is the closest thing to the audit half of the idea. It is not idle-hall-specific, has no contingency model that I could find, and does not negotiate OEM start-date deferrals. Any Cx firm could add the same line.",
+    "scale_or_funding": "Small boutique consultancy; no funding data found",
+    "overlap": "direct"
+   },
+   {
+    "name": "Anyset AI (agentic closeout / warranty tracking)",
+    "url": "https://www.anyset.ai/post/introducing-agentic-closeout",
+    "what_they_do": "AI agents that classify closeout submittals, O&Ms and warranties, cross-check warranty duration against spec, and run 'warranty tracking' from first submittal to final claim. Pulls from Procore, Autodesk and Trimble. General construction, not data-center-specific. It extracts documents and does not inspect equipment or file OEM claims.",
+    "scale_or_funding": "Venture-backed startup; round size not disclosed in anything I found",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Nomic (AEC document AI, closeout)",
+    "url": "https://www.nomic.ai/compare/best-ai-for-construction-closeout",
+    "what_they_do": "Domain-specific AI that parses drawings, specs and closeout packages, extracts warranty and O&M requirements, and builds searchable post-turnover repositories. Sells to owners and designers as a horizontal platform. This is the doc-extraction layer the idea depends on, so it is commoditizing.",
+    "scale_or_funding": "Funded AEC AI company (Crunchbase profile exists); amount not verified",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Trane delayed start-up warranty (OEM rider)",
+    "url": "https://www.trane.com/commercial/north-america/us/en/services/operate-maintain-repair/hvac-system-management/extended-warranty.html",
+    "what_they_do": "Trane sells an optional Delayed Start-up Warranty that postpones the first-year parts warranty start when startup is more than 6 months after shipment. Standard CenTraVac terms are 12 months from startup or 18 months from shipment, whichever is earlier. This weakens the idea's claim that nobody can defer the clock, because OEMs already package the fix as a product.",
+    "scale_or_funding": "OEM incumbent (Trane Technologies)",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Cummins and Eaton standard warranty terms",
+    "url": "https://www.cummins.com/sites/default/files/2018-08/A042E778.pdf",
+    "what_they_do": "Cummins stationary gensets: warranty starts at startup or 18 months after factory ship, whichever is sooner. Eaton 93E UPS: 12 months from startup or 18 from shipment. See https://www.eaton.com/us/en/catalog/services/startup--warranty-and-support-overview/eaton-93e-ups-startup--warranty-and-support-overview.html. These terms confirm the core premise: an outer-limit clock runs from shipment regardless of load.",
+    "scale_or_funding": "OEM incumbents",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "SGS / vHive / SkySpecs / WindGuard end-of-warranty inspections (wind analog)",
+    "url": "https://www.sgs.com/en-us/services/end-of-warranty-inspection",
+    "what_they_do": "Established, paid service in wind energy: independent inspection 6-12 months before OEM warranty expiry to surface defects and file claims, with owners buying it because OEMs reject claims filed after expiry. Proves the business pattern and the buyer behavior. Nobody has ported it to data center power and cooling that I could find.",
+    "scale_or_funding": "Multiple established vendors (SGS is a global inspection major)",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Sinovoltaics (PV and BESS warranty claim management)",
+    "url": "https://sinovoltaics.com/bess-claim-management-service/",
+    "what_they_do": "Technical warranty claim management for solar PV and battery storage: evidence, documentation, OEM dispute support. Closest 'claims for hire' analog in a neighboring asset class. Pricing model not disclosed.",
+    "scale_or_funding": "Established Hong Kong-based service firm; no funding data",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "TWAICE Warranty Manager (BESS)",
+    "url": "https://www.twaice.com/products/energy-storage-analytics/warranty-manager",
+    "what_they_do": "Analytics software that tracks battery warranty conditions and performance against OEM terms for storage owners. Software-only and battery-only.",
+    "scale_or_funding": "Venture-backed battery analytics company",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Equipment Warranty Log",
+    "url": "https://equipmentwarrantylog.com/",
+    "what_they_do": "AI extraction of warranty packets and expiry dates plus maintenance scheduling, $18.99/month flat. Shows the doc-to-ledger step is already a cheap SaaS commodity for facilities teams. No claim filing.",
+    "scale_or_funding": "Tiny SaaS; price point is the signal",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "CxPlanner and Bluerithm (data center commissioning software)",
+    "url": "https://cxplanner.com/data-centers",
+    "what_they_do": "Purpose-built commissioning, punch-list and issue tracking for data center L1-L5 Cx, with AI agents. Owns the punch-list and deferred-items data during construction. Warranty ledger and claims are not named features, but adding them is a small step. Bluerithm: https://bluerithm.com/the-best-commissioning-software-for-data-centers/",
+    "scale_or_funding": "Funded Cx SaaS; amounts not verified",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Device42 / Sunbird / NetZoom DCIM warranty tracking",
+    "url": "https://www.sunbirddcim.com/product/data-center-asset-management",
+    "what_they_do": "DCIM asset records with warranty expiry dates and alerts, mostly for IT gear (servers) via vendor APIs. Weak on facility-side MEP (gensets, chillers, switchgear) with real voiding conditions.",
+    "scale_or_funding": "Established DCIM vendors (Sunbird, Device42 under Freshworks)",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Warranty Consulting Services (WCS)",
+    "url": "https://www.warrantyconsultants.com/",
+    "what_they_do": "Warranty administration and claim recovery for heavy-equipment dealers, 150+ manufacturers, since 1997. Shows warranty claim recovery is a viable outsourced business. Serves the dealer side, not asset owners, and not data centers.",
+    "scale_or_funding": "Private consultancy, ~27 years operating",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Aggreko and Sunbelt Solomon (load bank commissioning and rental)",
+    "url": "https://www.aggreko.com/en-us/resources/data-centers/load-bank-testing-and-commissioning-key-to-data-center-performance",
+    "what_they_do": "Rent and run load banks for data center commissioning and IST. They already own the physical capability that the 'load-dependent defect inspection' step needs. Potential partners, or competitors if they package a warranty-expiry test. Sunbelt Solomon: https://sunbeltsolomon.com/data-center-commissioning-101-validating-critical-power-systems-with-load-banks/",
+    "scale_or_funding": "Large established rental and services companies",
+    "overlap": "adjacent"
+   }
+  ],
+  "white_space": "Nobody I found combines all of these for data center MEP: (1) a serial-number-level clock ledger built for idle or deferred-start halls, (2) a pre-expiry loaded stress test using the idle capacity, (3) OEM claim filing and start-date deferral negotiation, and (4) success-fee or fixed-fee pricing sold to the owner or its lender. The pieces exist separately. Anyset and Nomic do doc extraction. Ethyco-style Cx firms do a 10-month warranty review. Wind and solar have end-of-warranty inspection and claims firms. OEMs sell delayed-start riders. Load-bank vendors have the hardware. Data center power and cooling MEP has no dedicated end-of-warranty claims specialist that I could find. Three structural weaknesses limit the wedge. (a) The clocks mostly start at OEM startup, and startup plus IST with load banks already loads equipment in Cx, so the 'idle for 12+ months' exposure is narrower than the pitch implies. It mainly hits gear started early or shipped more than 18 months before use. (b) 'Recovered value' is really avoided repair cost. It is hard to measure and easy for OEMs to dispute, and OEMs can deny on storage or light-load grounds (wet stacking is explicitly excluded, https://cliffordpower.com/wet-stacking-why-its-important-to-load-bank-your-diesel-generator/). A pure 25-30% contingency model will be hard to collect. (c) Documents are the commodity step, so the moat has to be inspection plus OEM leverage, not the LLM pipeline.",
+  "evidence_of_demand": "Indirect only. I found no direct customer complaints, RFPs, or forum threads saying a hall's warranty lapsed while idle. Supporting evidence, weakest to strongest: (1) OEM terms create the shipment-based outer limit: Cummins (18 months from ship) https://www.cummins.com/sites/default/files/2018-08/A042E778.pdf, Eaton (18 months from ship) https://www.eaton.com/us/en/catalog/services/startup--warranty-and-support-overview/eaton-93e-ups-startup--warranty-and-support-overview.html, Trane (12 months from startup or 18 from ship, with a paid delayed-start rider) https://www.trane.com/commercial/north-america/us/en/services/operate-maintain-repair/hvac-system-management/extended-warranty.html. That OEMs sell a delayed-start rider shows the problem is real and priced. (2) Law firm guidance tells developers to make contractor warranties commence no earlier than Tier Certification, which shows owners think about warranty timing: https://www.womblebonddickinson.com/us/insights/alerts/critical-performance-guarantees-data-center-construction-contracts-and-risk. (3) Data center Cx firms already sell a 10-month pre-expiry warranty review, so owners pay for this kind of service: https://www.ethyco.com/services.html. (4) Wind energy shows a mature paid market for end-of-warranty inspections, because OEMs reject claims filed after expiry: https://www.sgs.com/en-us/services/end-of-warranty-inspection and https://skyspecs.com/blog/end-of-warranty-inspections/. (5) Fleet warranty recovery is a known leak: spreadsheet tracking recovers only ~15-22% of owed warranty value (https://fleetrabbit.com/industry/construction-management-system/construction-equipment-warranty-tracking-oem-claims), and outsourced warranty administration is an established business (https://www.warrantyconsultants.com/). (6) Idle-capital cost is large: $15-40M financing charges on a $500M build sitting idle (https://exto360.com/the-30-150m-problem-why-commissioning-delays-are-the-biggest-risk-in-data-center-construction/), which makes owners attentive but is a schedule pain, not a warranty pain. The 'why now' premise is contested. Reports say ~half of 2026 US capacity is not under construction (https://www.theregister.com/on-prem/2026/06/17/only-half-of-us-datacenter-capacity-planned-for-2026-is-actually-under-construction/5257781), but SemiAnalysis argues most of that is phantom announcements and shows no evidence of energized-but-empty halls (https://newsletter.semianalysis.com/p/stop-saying-half-of-2026-us-datacenter). The target population of 'commissioned 6-14 months ago and unloaded' is unproven and must be validated with real owners.",
+  "kill": false,
+  "kill_reason": "n/a",
+  "sharper_angle": "Drop the generic 'warranty recovery audit' and the 25-30% contingency lead. Position it as an end-of-warranty load-test sprint for energized-but-underloaded halls, the wind end-of-warranty inspection model ported to data center MEP. Product: 6-9 months before each OEM clock expires, rent load banks (Aggreko/Sunbelt-type partners) and use the hall's idle capacity to run staged loaded tests on gensets (avoiding wet-stacking exclusions), UPS/battery, chillers/CDUs and breakers while the OEM is still liable. Then file claims with OEM-grade evidence and negotiate deferral or extension riders (Trane-style delayed-start warranty). Lead with a fixed-fee audit ($15-40K) and add a success fee only on defects the test actually surfaces. Sell to whoever needs certainty on a dated event: the owner's lender or technical advisor, ABS or refinancing due diligence, and buyers of stabilized powered-shell assets. Put the document-extraction pipeline behind the scenes as an internal tool, since Anyset, Nomic and Equipment Warranty Log are commoditizing it. Partner with, or pre-empt, Cx firms like Ethyco rather than compete with them, and add a PO-stage clause pack plus deferred-start rider brokerage as a cheap top-of-funnel. Before building, do the one check the research could not complete: find 5-10 owners with halls actually energized and idle 8-14 months, and confirm from their OEM terms and startup dates that clocks are running out on unloaded equipment."
+ }
+}

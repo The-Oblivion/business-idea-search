@@ -1,0 +1,70 @@
+{
+ "title": "Orphan Fleet Depot for Bankrupt-Maker Electric Buses",
+ "one_liner": "Sustainment-as-a-service for school districts and transit agencies stuck with electric buses whose manufacturer went bankrupt, using the military's orphan-platform playbook (salvaged parts pool, configuration control, depot repair, availability guarantees).",
+ "customer": "School districts, regional education service agencies and small transit agencies that own buses from failed OEMs (Lion Electric US buses, Proterra, and similar EV truck and bus makers), plus state grant administrators and cooperative-purchasing bodies that want the taxpayer-funded fleets running.",
+ "problem": "When Lion Electric went through bankruptcy and its new owner voided prior U.S. warranties, districts were left with buses nobody would service. Some sourced parts themselves, some sidelined buses, and some went back to diesel. Proterra's transit business went through a similar handoff. Grant-funded buses that sit idle are a political and audit embarrassment. Dealers cannot fix proprietary battery, inverter and charge-port faults, and there is no parts channel.",
+ "solution": "Run it like a military orphan-platform sustainment program. (1) Buy the bankruptcy estate's remaining parts, tooling and diagnostics at liquidation. (2) Build a per-VIN configuration database and a reverse-engineered diagnostic library. (3) Stand up a regional depot and a mobile repair van for line-replaceable units: contactors, DC-DC converters, charge ports, battery management modules and pack modules. (4) Buy sidelined orphan buses cheaply as cannibalization donors. (5) Sell a fixed annual sustainment contract per bus that guarantees a morning-route availability rate, backed by a shared spares pool across districts sized with readiness-based sparing math.",
+ "why_now": "Lion's sale voided U.S. warranties (reported late 2025), so the 2025-26 school year is when the pain became real. The installed base of grant-funded EV buses is large and aging out of warranty, and subsidy rollbacks (the federal commercial clean vehicle credit ended for vehicles acquired after Sept 30, 2025) make further OEM failures likely. The parts estates of failed makers are cheapest to buy right now, before anyone else sees their value.",
+ "revenue_model": "Annual sustainment contract of roughly $4-8k per bus with an availability guarantee, plus time-and-materials for depot repairs, spares-pool membership fees for districts that want priority access, and salvage and refurbished battery pack sales. Sold through cooperative purchasing vehicles so districts do not each run a bid.",
+ "non_obvious_insight": "Orphaned does not mean unfixable. In most orphaned fleets, 5-10 recurring line-replaceable units cause most of the downtime. A small shared spares pool plus a configuration-controlled baseline can lift availability from a coin flip to about 90%. The right buyer is not one district's bus garage but a state agency or regional service center pooling many districts, because the sparing math only works at fleet-of-fleets scale. Military sustainers call this the DMSMS problem and solved it by owning the baseline instead of waiting for the OEM.",
+ "first_30_days": "Build a list of about 20 districts that took Lion or similar deliveries in 2022-24 from press coverage and grant award lists. Offer one district a free 'orphan health check' on a stranded bus using generic diagnostic tools and an EV-experienced transit mechanic. Register as a bidder in the relevant bankruptcy and liquidation processes and ask for the parts inventory lists. Hire 1-2 retired transit or heavy-duty EV technicians. Sign three districts to a per-bus quarterly pilot and use their fault logs to identify the top recurring failure modes.",
+ "outside_box_score": 7,
+ "source": "persona:p1-5",
+ "kind": "persona",
+ "id": "I0510",
+ "tournament": {
+  "score": 0.698,
+  "overall_rank": 365,
+  "cluster": "Customers stranded when a product's maker disappears",
+  "judge_notes": [
+   "operator: rank 8/25 - Real stranded-asset pain and fixed contracts, but small fleet count and capital-heavy depot; start as mobile service.",
+   "vc: rank 11/25 - Military sustainment playbook for orphaned buses is clever and timely, but market is small.",
+   "contrarian: rank 9/25 - Military DMSMS playbook for orphaned EV buses is a smart transplant. Real pain, but the prize is small."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "Highland Electric Fleets",
+    "url": "https://www.highlandfleets.com",
+    "what_they_do": "Electric-fleet-as-a-service for school districts: procures EV school buses, installs charging, manages the fleet, and offers a performance guarantee with downtime reimbursement. Nearest incumbent to the 'availability guarantee' pitch and already holds district relationships and grant know-how. Its homepage does not mention servicing orphaned buses from failed OEMs (Lion, Proterra), so this is an adjacent player and a possible acquirer or partner. It could add an orphan-service tier fast.",
+    "scale_or_funding": "Site claims 1,000+ electric school buses and chargers deployed, about $525M in grants and incentives secured for partners, and the #1 position as EV school bus owner/operator under contract in the US. Funding round details not found.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Hyroad Energy",
+    "url": "https://www.hyroadenergy.com",
+    "what_they_do": "Bought 113 Nikola hydrogen fuel-cell trucks plus spare parts, software platforms and IP out of Nikola's Feb 2025 Chapter 11 auction (per Wikipedia on Nikola). It sells them as an OEM-agnostic bundle of trucks, fuel, maintenance and software at pay-per-mile pricing, with maintenance and parts facilities. This is the same 'buy the estate, become the sustainer' playbook, but for hydrogen Class 8 trucks in California, not buses. It shows the model works and that others watch bankruptcy auctions. Its own site does not describe orphan-fleet sustainment.",
+    "scale_or_funding": "113 trucks acquired; funding not disclosed on its site. Source: https://en.wikipedia.org/wiki/Nikola_Corporation",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Phoenix Motor (Phoenix Motorcars) / Proterra transit",
+    "url": "https://en.wikipedia.org/wiki/Phoenix_Motorcars",
+    "what_they_do": "Bought Proterra's electric transit bus division for about $10M in Nov 2023 (Volvo bought the battery business for $210M), and builds the ZX5 at the former Greenville, SC plant. This makes Proterra transit buses only partly orphaned, since a successor OEM exists and issued a 2024 NHTSA recall on 2019-2022 ZX5 buses. The idea's Proterra half is therefore weaker than claimed. Parts and service quality under Phoenix was not verified.",
+    "scale_or_funding": "Public small-cap company; deal about $10M for the bus division.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Lion Bus (post-bankruptcy Lion Electric)",
+    "url": "https://electrek.co/2025/11/01/lion-electric-schools-bus-warranties-voided-leaving-districts-stuck/",
+    "what_they_do": "Successor entity, backed by Groupe MACH and the Saputo foundation. It refocused on Quebec school buses and withdrew from the US, and Deloitte Restructuring declared warranties on all Lion vehicles bought outside Quebec null and void. It does not serve US customers. Its own Quebec-only inspection bulletins (HVAC connector and fuse fixes) show which parts are failing. It is the natural source of a parts and IP deal, or a blocker if it refuses to sell the IP or diagnostics.",
+    "scale_or_funding": "Acquired for about C$6M in May 2025 (https://en.wikipedia.org/wiki/Lion_Electric_Company); US plants divested.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Complete Coach Works",
+    "url": "https://www.completecoach.com",
+    "what_they_do": "Established transit-bus refurbishment, repower, retrofit and powertrain-conversion shop that lists 'Zero Emission Solutions'. It is an incumbent that could plausibly do depot-level work on orphaned electric buses. Its site does not mention orphan or defunct-OEM support, and it is a mid-life overhaul shop, not a per-bus availability-guarantee contract with a spares pool.",
+    "scale_or_funding": "Established private company; funding not found.",
+    "overlap": "adjacent"
+   }
+  ],
+  "white_space": "Not found in this research: any player selling a brand-agnostic, per-bus sustainment contract with an availability guarantee and a pooled spares inventory for orphaned electric school buses. Highland offers a guarantee for buses it deploys and Hyroad does the estate-buying for hydrogen trucks, but neither was found serving orphaned Lion buses. Herscher CUSD (IL), Winthrop (MA) and Yarmouth (ME) are paying ad hoc 'alternate vendors' or have parked buses, and the Electrek piece names no third-party service provider. The wedge is Lion's US-orphaned school buses. That is a small installed base, described only as 'dozens of districts', and its sizing was not verified. Multi-district pooling through a state agency or regional service center is also unserved. Caveats: this verdict comes from a thin evidence base, because the WebSearch budget ran out (200 of 200) and only about a dozen direct page fetches worked. No search of Crunchbase, YC, Product Hunt or open-source tools was possible. Small independent EV repair shops, dealers or school-bus contractors may already do this informally and would not show up in homepage fetches. Weaknesses in the idea: (a) the 'buy the estate cheaply now' premise looks partly stale, since Lion's US facilities were divested by mid-2025 and its Chapter 15 dates to Dec 2024, so the parts and tooling may already be sold; (b) Proterra transit has a successor OEM in Phoenix Motor; (c) battery, BMS and inverter repair on reverse-engineered buses carries fire and liability risk, given the EPA investigation of Lion bus fires and Quebec pulling Lion buses out of service; (d) the buyer pool is small and public budgets are slow.",
+  "evidence_of_demand": "Partial evidence of pain, none of willingness to pay for a contract like this. (1) Electrek, Nov 1 2025: Deloitte Restructuring told owners that warranties on all Lion vehicles bought outside Quebec are null and void. Herscher CUSD No. 2 (IL) has 25 Lion buses (about half its fleet, about $10M in state and utility incentives), with 6 needing repair and 'alternate vendors' paid for by the district. Winthrop (MA) has 4 buses parked. Yarmouth (ME) reports sporadic service and recurring error codes. The article calls it 'dozens of US districts' and names no third-party servicer: https://electrek.co/2025/11/01/lion-electric-schools-bus-warranties-voided-leaving-districts-stuck/ (2) Wikipedia on Lion: Chapter 15 in Dec 2024, EPA examination of bus failures in Maine, US withdrawal by mid-2025: https://en.wikipedia.org/wiki/Lion_Electric_Company (3) The Nikola/Hyroad precedent shows that a buyer bought spares, software and IP at auction and built a maintenance service on them: https://en.wikipedia.org/wiki/Nikola_Corporation. Not found: RFPs for orphan-fleet sustainment, published prices, or a quantified US Lion fleet count. The $4-8k per-bus contract price is unvalidated.",
+  "kill": false,
+  "kill_reason": "n/a",
+  "sharper_angle": "Drop the broad 'military depot for all bankrupt makers' framing and the assumption that you can buy the estate. Start as a services and diagnostics company for Lion's US-stranded school buses (LionC and LionD) sold to state agencies and regional service centers in IL, MA, ME and neighbouring states, which pool many districts. Step 1 is a paid 'orphan health check' plus a per-VIN fault-code and failure-mode database built from the first 3 districts. Step 2 is a pooled spares kit for the 5-10 recurring line-replaceable units and a mobile van. Step 3 is the availability-guarantee contract, priced from the failure data, not a guess. Pursue the parts and IP from Lion Bus, Deloitte and the estate by licensing or negotiation, not by assuming a cheap liquidation. Add a second product aimed at grant administrators (EPA Clean School Bus, state VW-settlement programs): 'OEM-failure continuity' for funded fleets, meaning diagnostic and parts escrow plus a pre-qualified independent servicer, so the next OEM failure (Proterra-style or Lightning-style) is covered before it happens. Before committing, get liability and fire-safety counsel, and test partnering with Highland or a school-bus contractor with EV technicians instead of competing with them. Rerun a full competitor search (Crunchbase, YC, Product Hunt, open-source BMS tools) once web-search budget is restored."
+ }
+}

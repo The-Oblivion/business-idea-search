@@ -1,0 +1,106 @@
+{
+ "title": "Independent Referee for Survey Panel Data",
+ "angle": "second-order",
+ "one_liner": "An audit that tells research buyers what share of their online-panel responses came from bots, agents or fraud farms, and recalibrates the study against a verified-human control sample.",
+ "customer": "Insights heads at CPG, pharma and financial-services firms, UX-research teams, academic labs and pollsters who buy panel sample from third-party vendors at $5-500 per complete.",
+ "problem": "One prompt to a commercial AI agent now passes screeners and attention checks. A controlled evaluation found synthetic respondents passing 99.8% of 6,000 attention-check trials. As little as 3-7% contaminated responses can invalidate conclusions. Panel vendors both sell the sample and score its quality, so buyers cannot trust the referee.",
+ "solution": "A per-study data-quality audit. Response files (timings, paradata, device data, open-ends) go through a detection ensemble plus honeypot items. A subset of the same questionnaire goes to a small address-recruited, device-attested human panel as a ground-truth control. Deliver an audit stamp, contamination-adjusted estimates, and a vendor scorecard across suppliers.",
+ "why_now": "Survey-fraud research in 2025-26 shows agents beating attention checks. An MIT-run $50K challenge is testing detection, and NORC published a fraud literature review. Election-season polling and pharma sample budgets raise the stakes, and buyers are asking who audits the panels.",
+ "revenue_model": "$3-15k per study audit, $50-150k per year programmes for insights teams that spend $2-10M on sample, and vendor-scorecard subscriptions.",
+ "non_obvious_insight": "Most anti-fraud tooling is sold by panel sellers, whose incentive is to under-report fraud. The scarce asset is not detection code but an independent, verified-human comparison group, because you cannot prove what is fake without a known-real reference.",
+ "first_30_days": "Recruit about 2,000 verified humans by address-based mail or a university survey-centre partnership. Buy sample from six panel vendors yourself and publish a 'state of sample quality' benchmark. Offer free audits to five insights leaders who have posted about bad data.",
+ "outside_box_score": 7,
+ "source": "idea:trust-verification:all4",
+ "kind": "idea",
+ "id": "I0716",
+ "tournament": {
+  "score": 0.948,
+  "overall_rank": 65,
+  "cluster": "Gatekeepers drowning in AI-generated submissions and bot responses",
+  "judge_notes": [
+   "contrarian: rank 2/25 - Agents now beat attention checks; verified-human control panel is the scarce asset and independence is the moat.",
+   "operator: rank 7/25 - Independent referee is genuinely missing; benchmark report is a good lead magnet; audits priced within insights budgets.",
+   "vc: rank 1/25 - Acute, budgeted pain; independent verified-human control panel is a real, hard-to-copy asset and generalizes beyond surveys."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "Data Quality Co-op (DQC)",
+    "url": "https://www.research-live.com/article/news/data-quality-coop-platform-launches/id/5138053",
+    "what_they_do": "Self-described 'independent first-party data quality clearinghouse' (Salt Lake City, live since April 2025). Aggregates bot-detection, open-end and identity signals across studies and suppliers. Sells supplier benchmarking, automated vendor scorecards and a 0-1000 'Data Trust Score' (launched Jan 2026). Neutral by design. This is the closest match to the 'vendor scorecard' half of the idea. It does not audit individual studies, does not use a verified-human control sample, and does not produce contamination-adjusted estimates.",
+    "scale_or_funding": "Funding not disclosed in anything I could fetch (Crunchbase returned 403). Sold as a SaaS subscription with a free trial. Emporia's buyer guide lists it as a 'neutral clearinghouse'.",
+    "overlap": "direct"
+   },
+   {
+    "name": "Verasight",
+    "url": "https://www.verasight.io/",
+    "what_they_do": "Sells a 'verified' survey panel with 100% direct recruitment and identity checks (mobile validation, voter-file match, medical-licence check). Says it has run 2M+ interviews and serves 100+ institutions. Replicated Pew's bogus-respondent benchmarking study to show its own panel is cleaner (https://www.verasight.io/post/we-replicated-pew-research-centers-recent-benchmarking-study-verasight-outperformed-all-of-the-nonprobability-samples-pew-analyzed). It owns the 'known-real reference' asset the idea calls scarce, but it sells sample and is not neutral. I found no audit or control-sample service.",
+    "scale_or_funding": "Funding not disclosed on the site. Real operating business with academic and corporate customers.",
+    "overlap": "direct"
+   },
+   {
+    "name": "Verisoul",
+    "url": "https://www.verisoul.ai/industries/market-research-survey-panels",
+    "what_they_do": "Real-time device, behavioral and bot detection for panels, sold as an API. Customers include EMI Research, Suzy, InnovateMR, Precision Sample and Symmetric. Claims to catch 100% of current AI-agent respondents, including ChatGPT Operator and Atlas. Detection sits in front of the survey. It has no retrospective audit and no human control group.",
+    "scale_or_funding": "$9M Series A per its own site. Emporia's guide lists SaaS tiers at $99-350/month, or about $0.02 per monthly active user.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "CloudResearch (Sentry, Engage, Bot Olympics)",
+    "url": "https://www.cloudresearch.com/resources/blog/bot-olympics-50k-challenge-ai-agents-survey-fraud/",
+    "what_they_do": "Sentry is a 30-40 second prescreener for click farms and AI agents. Engage does in-survey behavioral monitoring. It runs the 'Bot Olympics' ($50K prize, quarterly, judged by MIT, 500 verified humans against 500 agents, results published). It claims 100% agent detection and under 1% false positives, but those numbers came from its own internal test (https://www.cloudresearch.com/resources/blog/ai-agent-detection/). Pew used Sentry as one of its three screening methods. It sells both sample and detection, and the Bot Olympics puts an 'independent referee' label on tests of its own tool.",
+    "scale_or_funding": "Established vendor. Says Sentry screens about 400M surveys per year. Private, funding not checked.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Roundtable (Alias / Proof of Human)",
+    "url": "https://surveys.roundtable.ai/",
+    "what_they_do": "Survey fraud and bot-detection API using behavioral biometrics, launched as a Show HN (https://news.ycombinator.com/item?id=39055716). Partners with Obsurvant for real-time AI detection. Detection only.",
+    "scale_or_funding": "Startup. Funding not verified because the site fetch returned only a title.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "dtect",
+    "url": "https://dtect.io",
+    "what_they_do": "Real-time fraud-risk scoring at survey entry, covering AI agents and AI usage. Explicitly independent: 'will never compete with you by selling sample or services.' Customers include Gazelle Global, Quest Mindshare and Source Global Research. It offers a free 30-day pilot. Detection only, with no post-hoc audit or benchmarking.",
+    "scale_or_funding": "Funding not disclosed. Small, supplier-facing.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Kantar Qubed / Rep Data Research Defender / PureSpectrum PureScore / Emporia Pori",
+    "url": "https://www.emporiaresearch.com/blog/a-buyers-guide-to-anti-fraud-tools-in-market-research-sampling",
+    "what_they_do": "Panel- or sample-owner fraud stacks. Kantar Qubed uses 5 deep neural networks over 300+ features per session, plus open-end validation and facial verification (https://www.kantar.com/inspiration/ai/is-panel-fraud-the-new-ad-fraud). Research Defender is owned by Rep Data, PureScore by PureSpectrum, Pori by Emporia. Emporia's buyer guide names this conflict and advises buyers to layer an independent third-party tool on critical studies. These are exactly the seller-scores-itself incentive the idea targets, but they are entrenched and bundled into sample prices.",
+    "scale_or_funding": "Kantar is a global incumbent. Rep Data, PureSpectrum and Emporia are established sample or research firms. Research Defender was reportedly acquired by Rep Data and then private equity.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "ReDem / OpinionRoute CleanID / DeviceForensIQ",
+    "url": "https://www.emporiaresearch.com/blog/a-buyers-guide-to-anti-fraud-tools-in-market-research-sampling",
+    "what_they_do": "Point solutions listed in the same buyer guide. ReDem scores open-ends. CleanID is a real-time entry firewall using about 800 data points. DeviceForensIQ does device forensics for anti-detect browsers. All are detection tools and none provide a verified-human control.",
+    "scale_or_funding": "Small vendors, funding not checked. Usage-based pricing with free trials.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Global Data Quality (GDQ) initiative, coordinated by MRS",
+    "url": "https://www.globaldataquality.org/",
+    "what_they_do": "Partnership of 12 industry bodies (MRS, ESOMAR, Insights Association, EPHMRA, AAPOR-adjacent groups and others) writing standards, shared definitions and fraud-mitigation guidance. No audit or benchmark products are described. It shows the industry wants standards. It could later spawn an accreditation scheme that a private referee would need to align with.",
+    "scale_or_funding": "Industry-association initiative, non-commercial.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Pew Research Center / NORC (public research on panel fraud)",
+    "url": "https://www.pewresearch.org/methods/2026/08/27/no-easy-fix-for-bogus-respondents-in-online-opt-in-polls/",
+    "what_they_do": "Pew (Aug 2026) benchmarked opt-in sources against address-recruited panels. By trap questions, 18% of 11,114 respondents were bogus. Sentry flagged nearly half, and voter-file matching removed 64% of respondents and worsened bias. Its 2020 study found 4-7% bogus respondents in opt-in sources against about 1% in address-recruited panels. NORC published the fraud literature review (https://www.norc.org/content/dam/norc-org/pdf2026/cpss-research-brief-fraud-lit-review.pdf). The methodology is essentially the idea's 'address-recruited control comparison', published free and not sold as a per-study service.",
+    "scale_or_funding": "Non-profit and academic research. Pew's American Trends Panel and NORC's panel are address-recruited and could be licensed as control samples (from background knowledge, not verified in this session).",
+    "overlap": "adjacent"
+   }
+  ],
+  "white_space": "Detection is crowded and getting cheap: Verisoul, Roundtable, dtect, CloudResearch, Kantar Qubed, Research Defender, PureScore, ReDem and CleanID all sell it, some at cents per respondent. Cross-supplier scorecards already exist too, since Data Quality Co-op is a neutral clearinghouse. Building a detection ensemble or a generic vendor scorecard would be a fifth-to-tenth entrant against funded players.\\n\\nWhat I did not find anyone selling:\\n1. A per-study ground-truth calibration. This means running a slice of the same questionnaire on a verified, address-recruited human control group and then reporting contamination-adjusted estimates with error bounds. Every vendor I found detects and removes. None quantifies how much bias survives the cleaning, and none re-estimates the result against a known-real reference. Pew's finding that voter-file matching removed valid respondents and made the error worse suggests 'remove the flagged' is itself a source of bias.\\n2. A neutral buyer-side referee that owns no sample. dtect is neutral but only sells entry-time detection. DQC is neutral but does not audit individual studies or supply a control sample. Verasight owns verified humans but sells sample.\\n3. Independent, third-party verification of the vendors' own accuracy claims. CloudResearch and Verisoul each claim 100% agent detection from internal or self-run tests. The Bot Olympics is MIT-judged but tests CloudResearch's own system.\\n\\nThe missing piece for a startup is the control panel. Building an address-recruited, device-attested panel of about 2,000 people is slow and expensive. The likelier route is to partner with or license an existing one (Verasight, NORC, Pew or Ipsos-style panels), not recruit from scratch.\\n\\nThis conclusion has limits. My WebSearch budget ran out at 200 calls, so I could not run the Crunchbase, YC or Product Hunt checks or search for a second wave of small startups. I also could not confirm funding for DQC, Roundtable, dtect or Verasight.",
+  "evidence_of_demand": "Problem demand is strong. Willingness to pay for a per-study, third-party audit is unproven, and I found no evidence of anyone paying $3-15k for one.\\n\\nProblem evidence:\\n- Kantar reports post-field reconciliation (rejected sample) rates up about 300% in three years, with some clients rejecting up to 40% of data, and 89% of buyers naming data quality their top concern. This is a vendor source: https://www.kantar.com/inspiration/ai/is-panel-fraud-the-new-ad-fraud\\n- Pew (Aug 2026) found 18% bogus respondents in an 11,114-person opt-in test. Standard speeder and straightliner checks miss most of them: https://www.pewresearch.org/methods/2026/08/27/no-easy-fix-for-bogus-respondents-in-online-opt-in-polls/\\n- A 6,000-trial attention-check result for synthetic respondents (99.8% pass) and 15-30% panel fraud figures are cited in NORC and trade coverage: https://trends.vc/synthetic-audiences-verified-humans-panel-fraud-consent-gap/. CloudResearch's own test found 91.6% of AI agents passed all four traditional checks against 88.4% of humans: https://www.cloudresearch.com/resources/blog/ai-agent-detection/\\n- Trade press describes the problem as existential. Greenbook says fed-up research leaders are 'auditing suppliers, bringing sampling in-house and demanding accountability': https://www.greenbook.org/insights/tags/market-research-fraud. YouGov withdrew findings from a Bible Society survey after finding fraudulent respondents (via Obsurvant): https://www.obsurvant.com/news-and-data/ai-agents-survey-fraud-detection/\\n\\nSpend on adjacent solutions:\\n- Buyers do pay for detection: Verisoul raised a $9M Series A, and EMI Research says post-survey removals fell from 30-40% to about 0. https://www.verisoul.ai/industries/market-research-survey-panels\\n- DQC sells a SaaS clearinghouse subscription, and CloudResearch says Sentry screens about 400M surveys a year.\\n- Emporia's buyer guide explicitly advises adding an independent third-party tool on critical studies because panel-owned tools carry a conflict: https://www.emporiaresearch.com/blog/a-buyers-guide-to-anti-fraud-tools-in-market-research-sampling\\n\\nCounter-signals:\\n- Detection is priced at cents per respondent or $99-350 a month (Emporia's guide).\\n- Greenbook's 'Panel Quality Stinks and Clients Are To Blame' argues buyers will not pay more for quality, and it proposes no third-party audit: https://www.greenbook.org/insights/research-methodologies/panel-quality-stinks-and-clients-are-to-blame\\n- Touchstone's 'top 10 data quality companies' page lists no independent audit or ground-truth service: https://touchstoneresearch.com/market-research-data-quality-companies/. That supports the gap but comes from a vendor.\\n- I found no RFPs, regulations mandating audits, or public examples of audit fees.",
+  "kill": false,
+  "kill_reason": "n/a",
+  "sharper_angle": "Do not sell detection and do not build a generic vendor scorecard, since both are crowded. Sell independent bias quantification for decisions that will be challenged: a verified-human control sample plus a contamination-adjusted estimate with error bounds.\\n\\nBuyers with a mandatory budget and an adversarial reader:\\n- Survey evidence in litigation and regulatory claim substantiation (Lanham Act, trademark and false-advertising surveys, FTC substantiation). Opposing experts attack panel quality here.\\n- Pharma quantitative studies used in market-access or pricing decisions.\\n- Polling publishers and journals that must defend their data.\\n\\nSuggested shape:\\n- Partner or license the control panel from an existing address-recruited or verified panel (Verasight, NORC, Pew or Ipsos-style) instead of recruiting 2,000 people yourself.\\n- Ingest detection signals from dtect, DQC or Verisoul instead of building an ensemble.\\n- Own the neutral statistical layer: a replicated mini-questionnaire, a contamination-adjusted estimate, a bias-bound report and a signed audit letter.\\n- Publish a free, recurring 'state of sample quality' benchmark, the same design as Pew's study but across vendors and AI agents, as the marketing engine.\\n- Price per high-stakes study at $10-50k, not $3-15k. Expect low willingness to pay for routine studies, given that detection costs cents per complete.\\n\\nBefore building anything, validate the price with 5-10 insights heads and 2-3 litigation survey experts."
+ }
+}

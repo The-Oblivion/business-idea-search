@@ -1,0 +1,9 @@
+{"type":"launched"}
+{"type":"started","key":"v2:0334f58fbca27f2eed910218a647cbfdab584d319e62c2b285a385463f7b3e4f","agentId":"a0ad3dc2d5ba5bcc8","label":"idea:aging-silver:moonshot","phase":"Ideate"}
+{"type":"started","key":"v2:69b4de0952967e1df7bf11b9ca4886650ce61a8d6593de2155a4d240c09aabcb","agentId":"aff933c0d7acbcbde","label":"idea:trades-housing:moonshot","phase":"Ideate"}
+{"type":"failed","key":"v2:69b4de0952967e1df7bf11b9ca4886650ce61a8d6593de2155a4d240c09aabcb","agentId":"aff933c0d7acbcbde"}
+{"type":"started","key":"v2:01d09a47e0e6d4a51405ee208102fa1d90eb11d4fd8e5ced60b9aaa3cb382b3e","agentId":"a5655877bbaf8fa9b","label":"idea:edu-credentials:moonshot","phase":"Ideate"}
+{"type":"failed","key":"v2:0334f58fbca27f2eed910218a647cbfdab584d319e62c2b285a385463f7b3e4f","agentId":"a0ad3dc2d5ba5bcc8"}
+{"type":"started","key":"v2:17155096fbbf5a2ca6b385a59105d9606302508f66a65503ba0f972b0ea51d90","agentId":"a3c8d4ea5d7572bcd","label":"idea:legal-regtech:moonshot","phase":"Ideate"}
+{"type":"failed","key":"v2:17155096fbbf5a2ca6b385a59105d9606302508f66a65503ba0f972b0ea51d90","agentId":"a3c8d4ea5d7572bcd"}
+{"type":"started","key":"v2:6c9992b54e5d5ef8cc2f2e798553d80b493a5e0644306b84c068ec61ae9ff014","agentId":"a9bf2e515743af091","label":"idea:logistics-robotics:moonshot","phase":"Ideate"}

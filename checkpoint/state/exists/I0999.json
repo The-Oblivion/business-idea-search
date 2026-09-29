@@ -1,0 +1,80 @@
+{
+ "status": "crowded",
+ "competitors": [
+  {
+   "name": "Empact Technologies (NexusIQ)",
+   "url": "https://www.prnewswire.com/news-releases/empact-launches-industrys-first-complete-feoc-compliance-solution-to-meet-obbba-requirements-for-clean-energy-tax-credits-302787847.html",
+   "what_they_do": "AI-native compliance platform launched June 2, 2026 covering all three FEOC tests (ownership, effective control, MACR). Automates supplier data collection, entity analysis and centralized evidence management. Sold to developers, tax equity investors, lenders and tax counsel. Also does prevailing wage, domestic content and beginning-of-construction. No lab, teardown or firmware element.",
+   "scale_or_funding": "Founded 2018. Claims 13 to 19 GW of projects under contract and over $3B in tax credits managed. Crunchbase snippet says no outside funding raised. Established incumbent in IRA compliance, so most direct threat.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Verdex",
+   "url": "https://verdex.app/resources/feoc-compliance",
+   "what_they_do": "FEOC compliance platform with entity-level supplier screening, automated MACR calculation (BOMs mapped to safe harbor tables) and supplier certification management. Targets developers, tax equity investors and tax advisors.",
+   "scale_or_funding": "Early stage. No pricing, funding or launch details disclosed.",
+   "overlap": "direct"
+  },
+  {
+   "name": "AltaScale FEOC Compliance Software",
+   "url": "https://altascale.tech/solutions/feoc-compliance-software",
+   "what_they_do": "Entity classification (recursive ownership traversal), MACR engine with annually rising thresholds, OFAC/BIS/UFLPA/DoD list sync, and an audit trail with 6 to 16 year record retention. Generates audit-ready documentation.",
+   "scale_or_funding": "Unknown. No customers, pricing or funding disclosed.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Carina Energy FEOC Compliance Support Practice",
+   "url": "https://www.globenewswire.com/news-release/2026/09/09/3358543/0/en/carina-energy-launches-feoc-compliance-support-practice-for-battery-storage-developers.html",
+   "what_they_do": "BESS developer that launched a BESS-specific FEOC practice on Sept 9, 2026. Tools: OEM master screen with cell provenance and ownership tracing, MACR calculator (Notice 2025-08 safe harbor method), Notice 2026-15 supplier certification template, effective-control contract language, beginning-of-construction memos, and a documentation retention system. Materials are validated by external counsel. Positions itself as an 'execution layer'. Also gives away a free FEOC guide, which undercuts the 'free MACR calculator' first-30-days tactic.",
+   "scale_or_funding": "Small Delaware firm. Pricing and funding not disclosed. No lab, insurer or buyer partnerships.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Novogradac and other accounting/legal advisers (Big-4 style MACR calculations and agreed-upon-procedures reports)",
+   "url": "https://www.novoco.com/podcast/march-3-2026-the-market-macr-playbook-who-wins-in-the-feoc-era",
+   "what_they_do": "CPA firms compute MACR, build 'reason to know' diligence packages and issue agreed-upon-procedures reports. Crux reports that in early PFE-exposed deals, law firms did PFE status analysis while accounting firms did MACR calculations. Novogradac also sells a FEOC regime guide. Reunion and other buyers write their own diligence memos.",
+   "scale_or_funding": "Established national firms. This is the incumbent 'evidence' provider that transfer buyers already accept.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Anza Renewables (Energy Storage Pro)",
+   "url": "https://pv-magazine-usa.com/2026/03/03/new-platform-feature-brings-tariff-and-feoc-risk-modeling-into-bess-procurement/",
+   "what_they_do": "Procurement data and modeling engine covering about 95% of US storage suppliers, with FEOC and tariff scenario modeling and supplier FEOC-exposure fields. Sits upstream of the idea at procurement time. No serial-level data or evidence packets.",
+   "scale_or_funding": "Established data subscription business. Funding not disclosed.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Enphase FEOC Compliance Tool",
+   "url": "https://enphase.com/support/feoc-compliance",
+   "what_they_do": "OEM serial-number lookup for microinverters and batteries that returns a 'FEOC Compliant' status with a timestamp. Distributor portal and bulk verification via account reps. Shows OEMs will self-publish serial-level compliance, which could commoditize the serial ledger.",
+   "scale_or_funding": "Public company (Enphase). Feature, not a product line.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Crux and Basis Climate (tax credit marketplaces)",
+   "url": "https://www.crux.com/insights/feoc-pfe-state-of-play-2q-2026",
+   "what_they_do": "Transfer marketplaces and advisers that publish FEOC guidance and price PFE risk. Neither offers a dedicated FEOC diligence tool today (Crux has a resource hub only, Basis is a marketplace). They are the buyer-side gatekeepers and could add or acquire tooling.",
+   "scale_or_funding": "Well-funded platforms. Crux estimates about $4B of PFE-exposed deals closed in H1 2026, about 20% of market volume.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "C2A Security (EVSec) and DOE/INL CESER",
+   "url": "https://c2a-sec.com/high-voltage-strengthening-u-s-cyber-defenses-against-battery-energy-storage-system-bess-threats/",
+   "what_they_do": "C2A sells software and SBOM vetting for BESS against Commerce Department prohibitions. DOE CESER and Idaho National Laboratory run BESS supply-chain risk assessments, and national labs examined about 30 inverters in early 2026. This is the cyber layer, and it is increasingly government-led.",
+   "scale_or_funding": "C2A is a venture-backed automotive and energy cybersecurity company. INL and DOE are free public resources.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "EticaAG, Kiwa PVEL, UL Solutions (OEM and testing-lab side)",
+   "url": "https://eticaag.com/feoc-and-the-itc-keep-your-bess-project-eligible/",
+   "what_they_do": "EticaAG is a US BESS maker that markets FEOC-ready systems with supplier attestations and an 'audit-ready architecture'. Kiwa and UL offer accredited battery testing, technical due diligence and cyber labs. None sells a FEOC-specific serial-level passport, but the labs are natural entrants for the teardown and attestation layer.",
+   "scale_or_funding": "Established manufacturer and testing majors.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "The core product as written (BOM ledger, supplier certificates, conservative MACR calculation, audit packet, plus a free calculator as a wedge) is already sold by at least four direct players: Empact, Verdex, AltaScale and Carina. Accounting firms like Novogradac already supply the MACR work that buyers accept. Empact also names tax equity and lenders as customers, so the buyer-facing framing is not open either.\\n\\nWhat I found no one doing:\\n1. Physical as-built verification. Every competitor works from paper (supplier certificates, BOMs, entity screening). Nobody reconciles installed serial numbers, cell lot codes and nameplates against those certificates. Notice 2026-15 makes the 'knows or has reason to know' standard the crux, and a mismatch between paper and hardware is the strongest red flag.\\n2. Physical or firmware attestation tied to tax credit deals. The rogue-radio, teardown and RF work exists only as national-lab and government activity. I found no commercial product that puts it into a transfer-buyer or lender file.\\n3. An independent verifier role, separate from the developer's own software. Buyers currently rely on seller reps, indemnities and counsel opinions. A neutral third party whose evidence format is accepted is unfilled, though the accounting firms are the natural incumbents.\\n\\nThe idea's premise needs correcting. It says IRS cost tables are not due until 2027 and 'nobody can prove compliance'. In fact Notice 2026-15 (Feb 2026) already gives interim safe harbors, allows reliance on Notice 2025-08 cost percentages and sets a certification safe harbor. Updated tables are expected before Dec 31, 2026 and proposed regulations by year-end 2026. The gap is diligence and evidence quality, not the absence of a method. The 'first firm whose methodology is accepted becomes the standard' thesis is also weaker, because accounting firms and Empact are already establishing de facto practice.\\n\\nTwo other headwinds:\\n- Insurance is not available. Crux says PFE insurance is not yet available and underwriters are waiting for counsel work product. The 'insurers will only underwrite against our record' claim is a hope, not a market.\\n- The cyber layer is being pre-empted by regulation. The FCC put foreign-produced inverters on its Covered List on July 28, 2026, with federal audits and a DHS/DoD conditional approval path. A Trump directive on Aug 27, 2026 bans foreign-made bulk-power BESS, with DOE implementation due by Dec 24, 2026. Private attestation may become redundant, or may become a niche for the portion of the market outside 69 kV+ bulk-power equipment.",
+ "evidence_of_demand": "Demand for FEOC compliance in general is real and paid. Demand for this specific serial-level passport and lab attestation is unproven.\\n\\nStrong general evidence:\\n- Crux reports PFE exposure became 'the dominant driver of tax credit pricing' in H1 2026, with about $4B of PFE-exposed deals closed (about 20% of market volume). Buyers rely on diligence packages, contract protections and indemnities because insurance is unavailable. https://www.crux.com/insights/feoc-pfe-state-of-play-2q-2026\\n- Crux data shows 27% of investors considered 45Y/48E deals in H1 2026 (up from 10%), and about 70% remain selective. Same source.\\n- Buyer checklists require supplier certifications under penalties of perjury, component-level detail from tier-one suppliers, six-year record retention and expanded indemnities. https://fallbrookfinancialservices.com/feoc-compliance-tax-credit-transfers/ and https://www.bakertilly.com/insights/treasury-releases-interim-feoc-macr-safe-harbor-guidance\\n- Vendors say developers lack the systems: 'most BESS developers lack dedicated infrastructure to screen OEMs, calculate MACR across a portfolio, or maintain documentation for tax equity diligence and the 10-year recapture window'. https://www.globenewswire.com/news-release/2026/09/09/3358543/0/en/carina-energy-launches-feoc-compliance-support-practice-for-battery-storage-developers.html\\n- Multiple firms launched paid products in 2026 (Empact in June, Carina in September, Verdex, AltaScale), and Novogradac and Basis publish FEOC playbooks stressing 'documentation is your only defense'. https://www.buildwithbasis.com/insights/understanding-feoc-what-clean-energy-developers-need-to-know-as-compliance-becomes-market-standard\\n- Empact claims 13 to 19 GW under management, which shows developers will pay for compliance workflow.\\n\\nCyber evidence:\\n- Reuters-reported undocumented radios in Chinese inverters and batteries (https://www.pv-magazine.com/2025/05/14/hidden-devices-found-in-chinese-made-inverters-in-the-us-reports-reuters/), DOE lab review of about 30 inverters with two documentation mismatches, the FCC Covered List action (https://pv-magazine-usa.com/2026/07/28/fcc-bans-foreign-produced-solar-inverters-grid-lockout-begins-today/), and the Aug 2026 BESS directive (https://www.ess-news.com/2026/08/27/us-bans-chinese-made-battery-energy-storage-in-new-trump-directive/). These prove concern, but they lead to government bans and federal audits rather than private buyer-paid attestation.\\n\\nNot found: any public pricing showing developers pay $15-50k per project or $2-5k per month, any transfer buyer or insurer asking for a 'passport', or any RFP for serial-level or RF attestation. The '80% of cells' and '43% pricier' figures were not verified here.",
+ "kill": false,
+ "kill_reason": "n/a. The idea as written is crowded and should not be built as a general FEOC/MACR ledger. It is not killed because the physical as-built and hardware-attestation layer, sold as an independent third-party verification, has no commercial competitor I could find. The white space is narrow, and it depends on private attestation surviving the federal bans and on buyers or lenders being willing to pay for it.",
+ "sharper_angle": "Drop the software ledger and the free MACR calculator. Empact, Verdex, AltaScale, Carina and the accounting firms already own that, and Carina already gives a guide away free. Reposition as an independent field-verification and attestation service that sits under those tools rather than against them.\\n\\n1. Product: at commissioning (or pre-shipment at the port or warehouse), a technician scans installed serial numbers, cell lot codes, BMS and PCS identifiers and nameplates, and reconciles them line by line against the supplier certificates and MACR file. The output is a signed as-built reconciliation report. It answers the 'reason to know' question that certificates alone cannot.\\n2. Optional cyber tier: an RF sweep for undocumented radios and a firmware and SBOM hash check against the vendor's declared image, run through a partner lab (INL-style methodology, Kiwa or UL as subcontractors). Frame it as evidence for the FCC Covered List and DOE bulk-power ban regimes and for the EU high-risk inverter funding rules. Sell it to lenders and utilities as well as tax buyers.\\n3. Customer and pricing: sell to tax-credit transfer buyers, tax equity and lenders who need independent evidence and can require it in the transfer agreement or as a closing condition, with the developer paying at their request. Use a per-project fee, not SaaS. Ship the report as a data export that Empact, Verdex or AltaScale can ingest, so you partner with them.\\n4. Validation before building: get two or three transfer buyers or tax equity funds to say in writing they would make an as-built verification a closing condition or a price concession. Also get one underwriter to say what evidence would move a PFE policy. Crux says underwriters are waiting for work product, so that conversation decides whether the insurer angle exists.\\n5. Watch the timing risk: DOE implementation is due Dec 24, 2026, and Treasury plans updated safe harbor tables by Dec 31, 2026 plus proposed regulations. Both could shift what buyers ask for. If federal audits fully replace private cyber attestation, keep only the serial-level reconciliation.\""
+}

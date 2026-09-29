@@ -1,0 +1,87 @@
+{
+ "status": "crowded",
+ "competitors": [
+  {
+   "name": "Coopra",
+   "url": "https://getcoopra.com/solutions/employee-cooperative/",
+   "what_they_do": "Nigerian cooperative management SaaS with a dedicated 'Employee Cooperative' product: member records, staff deduction tracking, thrift/savings, loan application through repayment, member statements, role-based officer access, and 'reduce manual reconciliation' of deductions. I read the page HTML directly. It shows no WhatsApp, OCR, AI or inter-cooperative lending.",
+   "scale_or_funding": "Not disclosed; no funding found. Site copy is generic and no customer counts are given.",
+   "overlap": "direct"
+  },
+  {
+   "name": "TrustCoop",
+   "url": "https://trustcoopapp.com/",
+   "what_they_do": "Search result describes it as built specifically for Nigerian staff multipurpose cooperative societies: member management, savings, loans and compliance. The page was unreachable when I fetched it (404 from WebFetch, Vercel DEPLOYMENT_NOT_FOUND from curl), so it may be defunct or moved.",
+   "scale_or_funding": "Unknown. Site currently appears down.",
+   "overlap": "direct"
+  },
+  {
+   "name": "ProbityCoop (Probity Software)",
+   "url": "https://probitysoftware.com/coop.html",
+   "what_they_do": "Cloud, LAN or SaaS cooperative society management: enrollment, savings and contributions with automated dues reconciliation, loan application and approval, guarantor verification, SMS alerts, investment management, reporting. Sold as SaaS, enterprise licence or self-hosted for 500+ members, with a 30-day free trial.",
+   "scale_or_funding": "Named clients include SterlingBank Staff Cooperative Society and Irorun MPCS. Bootstrapped software house; no funding disclosed.",
+   "overlap": "direct"
+  },
+  {
+   "name": "THRiFTy Cooperator",
+   "url": "https://thriftycoop.com/en/",
+   "what_they_do": "Cloud cooperative accounting platform with member mobile app and web portal. Claims one officer can manage 50+ societies. Testimonials come from staff and union cooperatives.",
+   "scale_or_funding": "Based in Abeokuta. Named users include NASUCOOP, AG Cooperative and OGTV Staff Cooperatives. No funding disclosed.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Cooperativ (a Codemania product)",
+   "url": "https://www.getcooperativ.com/",
+   "what_they_do": "Nigerian cooperative platform pitched against 'paper and WhatsApp records': digital contributions, loan application with wallet disbursement within hours, member dashboards, regulator-ready compliance reports, offline mode, and English, Yoruba, Igbo and Hausa support. It is on early access.",
+   "scale_or_funding": "Claims 500+ cooperatives (self-reported, early-access waitlist). No funding disclosed.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Hyves",
+   "url": "https://www.hyves.ng/",
+   "what_they_do": "Lagos-based cooperative ERP: loans, contribution tracking, member wallets, bookkeeping and statements, multi-branch support. Serves corporate staff cooperatives, trade associations, religious and agricultural groups.",
+   "scale_or_funding": "Not disclosed; no funding found.",
+   "overlap": "direct"
+  },
+  {
+   "name": "SmartTeller (cooperative banking solution)",
+   "url": "https://smartteller.tech/cooperative",
+   "what_they_do": "Digital banking stack for cooperatives, mini-banks and MFIs over web, mobile app and USSD, plus a POS 'SmartTeller Box'. Features include auto-repayment, an 'AI loan evaluator', investment modules and role-based teller, auditor and admin access.",
+   "scale_or_funding": "Claims 1,056 registered cooperatives, 388 MFBs and 245 thrift collectors (self-reported). Pricing is N50k/month for up to 1,000 customers and N100k/month for unlimited, which matches the idea's N25k-100k band. No funding disclosed.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Collectiva",
+   "url": "https://businessday.ng/life/article/ai-open-banking-is-set-to-reshape-nigerias-cooperative-lending-adeoti/",
+   "what_they_do": "SaaS for African cooperatives: contribution tracking, loan administration, ledger accounting and governance tools. Founder Praise Adeoti publicly pitches AI and open banking for the sector. He describes OCR extraction from bank statements and receipts, meeting minutes generated from audio, and open-banking payment notifications that reduce manual reconciliation. This is the closest match to the 'AI + open banking' thesis.",
+   "scale_or_funding": "Early stage; no funding or customer counts found. I could not fetch its own site.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Asusu",
+   "url": "https://techcabal.com/2019/08/09/meet-asusu-the-startup-digitising-informal-savings-and-credit-associations-in-northern-nigeria/",
+   "what_they_do": "Digital ledger and SMS-alert infrastructure for cooperatives, farmer groups and thrift associations in northern Nigeria (2018-2019). I could not fetch the source articles, so this comes from a search-result summary. Its domain now appears to be parked or for sale (asusu.com), so it is likely defunct. That is a cautionary precedent for this segment.",
+   "scale_or_funding": "Per search summary: about 100 cooperatives and roughly $2.5M in savings and credit processed. Funding not confirmed.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Other Nigerian cooperative and thrift software vendors (SoundThrift, Samphina CTCSS, Anush Tech, open-source GitHub apps)",
+   "url": "https://www.soundmindstech.com/ThriftSolution.php",
+   "what_they_do": "A long tail of licensed or one-off cooperative thrift and credit systems. Many are sold as one-time-purchase software, there are free GitHub thrift-society apps, and student project-topic sites publish CTCSS designs. This shows the basic ledger is commoditised.",
+   "scale_or_funding": "Small vendors; no funding.",
+   "overlap": "direct"
+  },
+  {
+   "name": "CREDICORP (Nigerian Consumer Credit Corporation)",
+   "url": "https://en.wikipedia.org/wiki/Nigerian_Consumer_Credit_Corporation",
+   "what_they_do": "Federal government wholesale financier created in April 2024. It provides capital lines and credit guarantees to banks, MFIs, fintechs and cooperatives that lend to salary earners, starting with federal civil servants. It competes with the 'wholesale line to cooperatives' layer and is a possible partner or funder.",
+   "scale_or_funding": "Government-owned DFI. About 1.6M applications by May 2024. Offers up to N2M interest-free consumer credit.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "1) The software layer is not white space. At least 8 Nigerian vendors sell ledger, loan and member-portal SaaS to cooperatives at N50-100k/month. Coopra targets staff cooperatives with deduction tracking. ProbityCoop claims automated dues reconciliation. SmartTeller has an AI loan evaluator. Collectiva is pitching OCR and open banking. 'Digitise books, member statements, digital guarantors' is table stakes.\n\n2) What I found no direct competitor doing:\n(a) WhatsApp-first member and treasurer interface. Cooperativ references WhatsApp only as the problem it replaces. I found no evidence of a WhatsApp-native product, but I could not verify every vendor's roadmap.\n(b) AI-vision migration of handwritten exercise books from phone photos as a day-one onboarding wedge. Collectiva mentions OCR only for statements and receipts, not handwritten ledgers.\n(c) Reconciliation of employer check-off remittances against the deduction schedule, to detect short or missing months. Vendors say 'deduction tracking' and 'reduce manual reconciliation', but I found no product built around employer-side reconciliation and dispute evidence. This is the strongest software-level differentiator, and it is defensible only if paired with employer relationships or payroll-file ingestion.\n(d) An inter-cooperative surplus-to-deficit wholesale or treasury market. I found none of the software vendors offering it, and no player doing it in the software layer. Only CREDICORP-style government wholesale lines exist, on the funding side.\n\n3) Layer (d) is the only place with real white space, but it is a different business. It is a credit, treasury and regulatory business and needs an MFB or bank partner. The legality and licensing of cooperative-to-cooperative lending under the Cooperative Societies Act and CBN rules is unverified here. It also depends on the software wedge reaching enough cooperatives with clean ledgers, and Asusu's apparent fade shows how hard that is.",
+ "evidence_of_demand": "Partial. The strongest evidence is that vendors sell and price this software:\n- SmartTeller lists N50k-100k/month plans and claims 1,056 registered cooperatives (https://smartteller.tech/cooperative). This is self-reported but validates the price band.\n- Cooperativ claims 500+ cooperatives (https://www.getcooperativ.com/).\n- ProbityCoop lists SterlingBank Staff Cooperative and Irorun MPCS as clients (https://probitysoftware.com/coop.html).\n- THRiFTy lists NASUCOOP and OGTV Staff Cooperatives, with a user quote about removing 'back-breaking stress' from ledger updates (https://thriftycoop.com/en/).\n- Asusu reportedly served about 100 cooperatives and about $2.5M in savings and credit around 2019, per a search-result summary (https://techcabal.com/2019/08/09/meet-asusu-the-startup-digitising-informal-savings-and-credit-associations-in-northern-nigeria/).\n- The federal government created CREDICORP in April 2024 to wholesale-finance cooperatives and others lending to salary earners; about 1.6M applications came in by May 2024 (https://en.wikipedia.org/wiki/Nigerian_Consumer_Credit_Corporation).\n- Salary-loan repayment by payroll deduction (IPPIS) is confirmed as the norm for bank and MFB loans (https://www.creditdirect.ng/blog/payday-loans-nigeria), which supports the check-off underwriting logic.\n\nNOT verified, because the WebSearch budget ran out at 200 calls mid-task and several pages returned 403 or 404:\n- The '~10% flat per year' cooperative rate.\n- Idle cooperative surplus earning 3-8% while other societies ration loans.\n- Embezzlement or unreconciled-remittance collapses.\n- Any demand signal specifically for inter-cooperative lending.\n- Any funded startup in this niche.\nAbsence of funding among direct competitors is itself a warning that ARPU or willingness to pay may be low.",
+ "kill": false,
+ "kill_reason": "n/a. The idea is not killed because no strong incumbent dominates and no funded leader was found. The software wedge as pitched is crowded and commoditised. The idea survives only if it is reframed around the unserved inter-cooperative treasury and wholesale layer, plus employer-remittance reconciliation. Both need validation before building. Confidence is moderate. The WebSearch budget ran out after 3 searches in this session and several pages could not be fetched, so absence-of-evidence claims are softer than they read.",
+ "sharper_angle": "Do not lead with 'operating system for staff cooperatives'. Lead with a narrow, hard-to-copy product and treat the ledger software as a low-cost onboarding tool.\n\n1) Employer check-off remittance audit. Ingest the employer's or IPPIS payroll deduction file and the coop's deduction schedule, then flag short-paid, late or missing months per member and produce dispute-ready evidence. Charge as a recovery fee or a flat audit fee. This is a measurable ROI wedge, unlike generic ledgers that Coopra, ProbityCoop and Hyves already sell.\n\n2) Handwritten-ledger migration by phone photo, delivered as a free service through WhatsApp. It reduces switching cost from the incumbent vendors and from Excel and exercise books.\n\n3) Use the resulting verified ledgers to build an inter-cooperative liquidity network, with an MFB or bank partner or a CREDICORP line as the regulated lender of record. Start with a pilot: 5-10 coops in one city or one union, surplus coops depositing with the partner, and the partner lending to constrained coops backed by check-off assignment. Check Cooperative Societies Act and CBN permissibility first.\n\n4) Go through channels the vendors ignore: cooperative federations, teachers' unions and state cooperative registrars, and possibly white-label into vendors such as Coopra or THRiFTy as a reconciliation and treasury add-on instead of competing head-on.\n\nBefore building, spend a week on customer interviews with 15-20 treasurers to validate the unverified claims: the actual flat rate, idle surplus, the frequency of remittance shortfalls, and willingness to lend to another society. Also re-run the search-based checks for WhatsApp-native and inter-coop lending products, since the search budget was exhausted early."
+}

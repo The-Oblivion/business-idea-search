@@ -1,0 +1,80 @@
+{
+ "status": "crowded",
+ "competitors": [
+  {
+   "name": "PurgeRite (acquired by Vertiv, Dec 2025)",
+   "url": "https://www.purgerite.com/",
+   "what_they_do": "Self-described leading dedicated flushing contractor. Mechanical flushing, purging, filtration and remediation of hydronic and liquid loops. Serves 10+ hyperscale data center clients, operates in 48 states, and has done 100+ data center flushes. Vertiv completed the acquisition and lists it as an expansion of its liquid-cooling services (https://en.wikipedia.org/wiki/Vertiv). Its pages do not mention rack-level quick-disconnect testing or per-fitting photo records.",
+   "scale_or_funding": "Acquired by Vertiv (NYSE: VRT) in Dec 2025. Milton Street Capital recapitalized it in 2023. The deal price is not shown in the sources I fetched; I recall roughly $1B but did not verify it.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Vertiv liquid cooling services",
+   "url": "https://en.wikipedia.org/wiki/Vertiv",
+   "what_they_do": "Largest CDU and thermal OEM in the segment. It has bought CoolTera (Dec 2023), PurgeRite (Dec 2025) and Strategic Thermal Labs (Apr 2026), which lets it bundle hardware, flushing and commissioning under one warranty. A Vertiv liquid-cooling services page appears in its nav (not fetched successfully).",
+   "scale_or_funding": "Public company. Acquisition history per Wikipedia.",
+   "overlap": "direct"
+  },
+  {
+   "name": "ChemTreat with Dow Coolant Care Network",
+   "url": "https://www.chemtreat.com/data-centers/",
+   "what_they_do": "Pre-operational cleaning for facility (FCS) and technology (TCS) cooling loops. Sells D2C treatment packages (propylene glycol coolants and biocides), sample analysis, personnel training, and remote monitoring with Dow. Covers the 'dirty new pipe' and coolant chemistry part of the idea.",
+   "scale_or_funding": "ChemTreat is part of Dover. It works with Dow's Coolant Care Network.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Ecolab plus CoolIT Systems",
+   "url": "https://en.wikipedia.org/wiki/Ecolab",
+   "what_they_do": "Ecolab announced a $4.75B acquisition of CoolIT (a direct-to-chip liquid cooling vendor) from KKR in March 2026, and the deal closed 2 July 2026. The stated aim is an end-to-end platform pairing CoolIT hardware with Ecolab's water chemistry, digital monitoring and global service (per https://www.datacenterfrontier.com/cooling/article/55381913/liquid-cooling-market-matures-innovations-acquisitions-and-modular-solutions-for-ai-infrastructure). This is a likely future entrant into field service and commissioning.",
+   "scale_or_funding": "$4.75B acquisition, closed 2 July 2026. Ecolab has a global field-service network.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Trane Technologies with LiquidStack",
+   "url": "https://www.datacenterfrontier.com/cooling/article/55356895/cooling-consolidation-hits-ai-scale-liquidstack-submer-and-the-future-of-data-center-thermal-strategy",
+   "what_they_do": "Trane bought LiquidStack to extend from central plant to chip-level cooling. It gets a global service, deployment and lifecycle-support organization for liquid cooling.",
+   "scale_or_funding": "Public company; deal announced per DCF.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Schneider Electric with Motivair",
+   "url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/liquid-cooling/",
+   "what_they_do": "Liquid cooling CDUs, reference designs and rack solutions. The page I fetched did not detail commissioning or leak-test services, but the OEM's own field service would typically cover startup.",
+   "scale_or_funding": "Public company. I recall Schneider paying about $850M for a majority stake in Motivair in 2024; not verified.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Chilldyne (now part of Daikin)",
+   "url": "https://www.chilldyne.com/",
+   "what_they_do": "Negative-pressure direct-to-chip cooling marketed as 'guaranteed leak-free'. It attacks the same leak risk by design instead of by testing, and could shrink demand for leak testing on its installed base.",
+   "scale_or_funding": "Part of the Daikin group since Nov 2025.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Viega (press-fit joining, sponsored DCF piece)",
+   "url": "https://www.datacenterfrontier.com/sponsored/article/55400568/installing-cooling-that-scales-why-pipe-joining-speed-and-integrity-are-the-bottlenecks-in-ai-infrastructure",
+   "what_they_do": "Sells press-fit joining that avoids hot work and debris contamination, and pitches it as a fix for pipe-fitter shortages and for 'catastrophic' late-stage leaks found during charging. It competes on prevention rather than crews.",
+   "scale_or_funding": "Viega is a large private manufacturer (the article cites 125 years of history).",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Large mechanical contractors (Comfort Systems USA, EMCOR, Limbach and similar)",
+   "url": "https://en.wikipedia.org/wiki/Comfort_Systems_USA",
+   "what_they_do": "They hold the mechanical scope on data center builds, including piping, flush, pressure test and closeout under the commissioning plan. Comfort Systems bought J&S Mechanical, a data center HVAC specialist, in Feb 2024. They are the natural in-house substitute and also the natural customer.",
+   "scale_or_funding": "Public companies with multi-billion-dollar data center backlogs. I did not fetch backlog figures.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "OEM rack integration and deployment services (Supermicro, Dell, HPE and similar)",
+   "url": "https://www.supermicro.com/en/solutions/liquid-cooling",
+   "what_they_do": "Racks such as GB200 NVL72 usually ship factory-integrated and leak-tested. Supermicro's DCBBS bundles rack integration and professional services. This shrinks the rack-internal share of the on-site problem to the manifold-to-CDU quick-disconnect connections.",
+   "scale_or_funding": "Public companies. I could not confirm the specifics of their on-site leak-test service pages.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "The unserved wedge is narrow. It is vendor-neutral, rack-level verification of the manifold and quick-disconnect layer after the facility loops are flushed, sold to neocloud owners, lenders and insurers who want independent proof. What I found does not cover it: PurgeRite covers facility and loop flushing, ChemTreat covers cleaning and chemistry, and OEMs cover the CDU and rack they sold. None of the fetched pages mention per-quick-disconnect photo, QR and serial records, re-test after thermal cycling, or an independent inspector-of-record. A second gap is small and mid-size neocloud and colo builds outside hyperscaler purchasing. Crews for hire is not white space: flushing, purging and pre-operational cleaning are already owned by funded consolidators (Vertiv/PurgeRite, Ecolab/CoolIT, Trane/LiquidStack, ChemTreat/Dow), and mechanical contractors and OEMs can quietly absorb pressure-testing. Caveat: WebSearch hit its session cap, so I did not check Crunchbase, YC, Product Hunt or other small firms. A tiny field-service specialist I missed (Compu Dynamics, Salute and similar) may already sell this.",
+ "evidence_of_demand": "Real, but this is inferred from adjacent evidence, and I found no RFPs or forum threads. (1) Buyers are paying for liquid-loop field services. Vertiv bought PurgeRite in Dec 2025 (https://en.wikipedia.org/wiki/Vertiv), and PurgeRite reports 10+ hyperscale clients and 100+ data center flushes (https://www.purgerite.com/about-us/). (2) Strategic capital is flowing into cooling plus service. Ecolab bought CoolIT for $4.75B (closed 2 July 2026, https://en.wikipedia.org/wiki/Ecolab), and Trane bought LiquidStack for its 'global service, deployment and lifecycle-support organization' (https://www.datacenterfrontier.com/cooling/article/55381913/liquid-cooling-market-matures-innovations-acquisitions-and-modular-solutions-for-ai-infrastructure). (3) Viega's sponsored DCF article states that 'certified pipe welders and specialized fitters are increasingly difficult to source' and that 'late-stage leaks discovered during system charging are catastrophic' (https://www.datacenterfrontier.com/sponsored/article/55400568/installing-cooling-that-scales-why-pipe-joining-speed-and-integrity-are-the-bottlenecks-in-ai-infrastructure). That article gives no dollar figures. (4) ChemTreat sells pre-operational cleaning for TCS loops (https://www.chemtreat.com/data-centers/). Not verified: the idea's $14M per month commissioning-delay figure and the July 2026 survey.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Drop the 'crew of plumbers' framing, because that is what Vertiv/PurgeRite, ChemTreat/Dow and the mechanical contractors already sell and finance. Sell independent third-party rack-level wet-work assurance instead. An inspector-of-record team, small and skilled, arrives after the mechanical contractor and the flushing vendor. It pressure-decay tests and borescopes every manifold and quick-disconnect pair and logs each one to a rack serial, QR tag and photo in a lender- and insurer-ready package. It then returns after thermal cycling (30, 90 and 180 days) for re-verification. Price it per rack plus a subscription to the record and a re-inspect option. Because it is independent, it does not compete with the flush vendors. It can also subcontract to them and to the mechanical contractors, who need cover for the rack layer. Start with neocloud and GPU-lender projects (GPU-backed debt draws create a demand for proof) in one metro. Before building, confirm with 5 to 10 owners that they will pay for the assurance layer and not just for labor. Also run the searches I could not: Crunchbase/YC, Compu Dynamics, Salute, and the OCP commissioning guidelines."
+}

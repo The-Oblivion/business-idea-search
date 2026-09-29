@@ -1,0 +1,59 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "RentsPaid",
+   "url": "https://www.rentspaid.com/",
+   "what_they_do": "Section 8-specific property management for small voucher landlords. Tracks HAP payments per PHA and auto-fills RFTA packets. Generates 'every Section 8 date' per unit, and its homepage lists rent-increase windows among them. This is the closest overlap on the reminder half of the idea. I could not confirm that it generates the rent-increase request itself.",
+   "scale_or_funding": "Bootstrapped, founded by Section 8 landlords. No funding found. Free during launch, pricing to be announced.",
+   "overlap": "direct"
+  },
+  {
+   "name": "HAPSecure",
+   "url": "https://hapsecure.app/",
+   "what_they_do": "Compliance ledger for voucher landlords and PM firms. Does AI/OCR ingestion of PHA notices, NSPIRE cure-deadline countdowns, split-ledger HAP reconciliation, multi-PHA portfolios and rent-reasonableness comps at $5 per use. Publishes a 'HCV Rent Increase Timeline' guide. A search-engine summary said it prompts a rent-increase submission about 60 days before the anniversary, but I could not confirm that on its own pages.",
+   "scale_or_funding": "No funding found. $39/mo for 1-15 units, $99/mo for 16-75 units, $249/mo for 76-250+ units. Extras: comps at $5 per use, certified mailing at $3.50 per use.",
+   "overlap": "direct"
+  },
+  {
+   "name": "TenantKeep",
+   "url": "https://tenantkeep.co/",
+   "what_they_do": "Rent-increase optimizer for independent landlords, Section 8 owners and small PMs with 1-50 units, the same customer band as this idea. Offers renewal reminders, conservative/recommended/aggressive rent strategies, HAP versus tenant split estimates and a PHA submission checklist. Its site mentions Section 8 PHA requirements and letter generation. Its own blog says: 'We don't file paperwork with the PHA'. Details at https://tenantkeep.co/blog/section-8-rent-increase-guide",
+   "scale_or_funding": "No funding found. Free tier for the first property; paid pricing not disclosed.",
+   "overlap": "direct"
+  },
+  {
+   "name": "VoucherReady",
+   "url": "https://voucherready.com/",
+   "what_they_do": "Independent educational publisher and toolkit for voucher lease-ups. The Landlord Kit is a PHA verification sequence, inspection source organizer and rent comparable log. It deliberately does not supply payment standards, saying it 'never invents your housing authority's numbers'. Also publishes landlord guides on Section 8 rent increases.",
+   "scale_or_funding": "No funding found. $49 one-time kit plus free tools.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Free voucher-data tools (LandlordVoucher, VoucherRents, Fair Market Rent Map)",
+   "url": "https://www.voucherrents.com/rent-increase-calculator",
+   "what_they_do": "Free ZIP-level payment standard and FMR lookups, HAP/tenant split calculators and a 'Will Your PHA Approve?' rent-increase calculator (voucherrents.com). Also https://landlordvoucher.com/ (payment standard lookup, trend charts) and https://fairmarketrentmap.com/ (run by a Section 8 landlord). None does deadline tracking, accounts or filing, but they commoditize the payment-standard lookup.",
+   "scale_or_funding": "Free, anonymous or solo operators, no funding.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "PHA owner portals (Yardi Rent Cafe and similar)",
+   "url": "https://www.hacla.org/en/Land-lords",
+   "what_they_do": "Many large housing authorities let owners submit rent-increase requests online. Examples: HACLA moving to Rent Cafe from Jan 2026, LACDA (https://www.lacda.org/section-8/owners/contracting-and-rent/lists/listsProvider25/section-8---owner-faqs---contracting-and-rent/rent-increases), Baltimore and Santa Clara. They cover submission but not cross-PHA calendar tracking. Some PHAs also proactively send increase forms, e.g. McHenry IL sends them 90 days before lease end.",
+   "scale_or_funding": "Incumbent PHA IT vendors (Yardi, Tenmast, Emphasys). Portal is free to owners.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "General landlord PM software (Buildium, AppFolio, TenantCloud, DoorLoop, Rentec)",
+   "url": "https://www.doorloop.com/blog/property-management-for-section-8",
+   "what_they_do": "Lease-expiry and renewal reminders and some voucher/HAP tracking, but no PHA-specific windows, forms or payment-standard database. HAPSecure explicitly positions against them as a gap for small voucher landlords (https://hapsecure.app/resources).",
+   "scale_or_funding": "Large, established incumbents. They could add a Section 8 rent-increase reminder as a feature, but none was found to have done so.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "The reminder and calendar layer is not open. RentsPaid, HAPSecure and TenantKeep already ship anniversary or rent-increase-window alerts at free to $39/mo, and TenantKeep advertises PHA letter generation. A plain tracker with alerts would be a fourth entrant selling against free. All of them are software-only and unfunded. What remains unserved is (1) actually filing the request and chasing it to approval, since TenantKeep says outright that it does not file; (2) a human-verified, authority-by-authority rulebook (window length, form, portal versus mail, comps requirement, tenant signature) in the Section 8-heavy investor markets: Memphis, Cleveland, St. Louis, Indianapolis; VoucherReady explicitly declines to supply PHA numbers; (3) contingency pricing tied to captured increase, when every competitor charges flat SaaS or free; (4) a portfolio leakage audit for small PM firms and out-of-state investors (units at or under the new payment standard with no filed request). Two caveats. Payment standard increases apply to the family's subsidy at the next regular reexam (24 CFR 982.505), not at the lease anniversary, so the pitch conflates two clocks. Rent reasonableness also caps the gain, and BiggerPockets commenters note many voucher units are already at the local maximum.",
+ "evidence_of_demand": "Weak-to-moderate, mostly indirect. Nobody was found paying for this specific outcome. (1) The source BiggerPockets post says most landlords will not collect the FY2027 increase because of the 60-day-before-anniversary window (https://www.biggerpockets.com/forums/52/topics/1301792-section-8-rents-went-up-for-fy2027-most-landlords-wont-collect-it). Commenters there recommend dedicated notice-deadline trackers and warn 'Agencies lose paperwork more than people think', and Memphis owners confirm the 60-day written notice plus rent-reasonableness approval. No commenter named a tool or service. (2) At least three small startups (RentsPaid, HAPSecure, TenantKeep) are building for the exact customer, and HAPSecure charges $39/$99/$249 per month with pay-per-use extras. That shows a paid price point exists for Section 8 compliance software, and that founders see demand (https://hapsecure.app/). (3) PHA request windows vary from 60 to 120 days and by form and portal, which is real complexity: https://www.gcrealtyinc.com/blog/requesting-a-section-8-rent-increase. Section 8-focused PM firms and PHAs publish step-by-step guides for it. (4) A separate thread shows friction with tenant signatures and paperwork (https://www.biggerpockets.com/forums/52/topics/1073997-section-8-tenant-refuses-to-sign-rent-increase-form). Not found: RFPs, regulations forcing spend, forum threads of landlords who lost a year of increase and paid to fix it, or any funded company. The claim of 'real money left uncollected' rests on one forum post.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Do not build a tracker: RentsPaid (free) and HAPSecure ($39/mo) already ship the alert, and TenantKeep advertises letter generation. Build a done-for-you rent-increase filing service on contingency pricing, with no monthly SaaS fee and about 50 to 100 percent of the first month of the approved increase as the fee. The landlord uploads the HAP contract and lease. You verify the anniversary, pull comps, prepare the PHA-specific packet, submit it by portal, mail or certified mail, and chase it to approval. Log every submission and contact so the landlord has proof if the PHA loses paperwork. Lead with a free 'unfiled increases' audit run on a rent roll plus HAP contracts, sold first to small PM firms and out-of-state investors in Memphis, Cleveland, St. Louis and Indianapolis. The moat is the human-verified per-PHA rulebook and a track record of approvals, not the reminder software. Fold in a mid-lease correction request for wrong bedroom count or square footage. To de-risk, first check on 10 to 15 real units whether rent reasonableness and the payment-standard cap leave a meaningful increase. Also confirm that success fees are collectible from 1-to-50-unit owners once the PHA raises the rent on its own."
+}

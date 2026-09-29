@@ -1,0 +1,70 @@
+{
+ "title": "Continuity Retainer for One-Licensee Funeral Homes",
+ "one_liner": "Key-person insurance for funeral homes: a bench of pre-credentialed licensed directors and embalmers who step in within 24-48 hours when the owner is sick, burned out or gone, with a built-in path to succession.",
+ "customer": "Independent and rural funeral homes with one or two licensed staff (roughly 30-150 calls a year), typically owner-operators aged 55-75. A second buyer is the family of an owner who has died or fallen ill and needs the home kept legal while it is sold.",
+ "problem": "States require a licensed funeral director or manager-in-charge, and often a licensed embalmer, for an establishment to operate. The owner is on call 24/7/365 and hasn't had a real week off in years. One heart attack, surgery or burnout means the home cannot legally operate, families get funneled to the consolidator down the road, and a business built over three generations is sold at a distressed price. Informal 'relief director' phone lists exist, but there is no bench, no contract, no reciprocity or board paperwork handled, and no guarantee anyone answers at 3 a.m.",
+ "solution": "Recruit retired and semi-retired licensed directors and embalmers, including many leaving consolidators, and pre-credential them in a target state cluster with background checks and reciprocity filings. Sell continuity retainers that guarantee a set number of coverage days a year (real vacations, weekends off) plus emergency activation within 24-48 hours at a day rate. The company handles the state-board notice of interim manager changes. A succession track lets an interim operator or next-generation licensed buyer convert into a partner or buyer with seller financing, so owners have an alternative to a roll-up.",
+ "why_now": "Consolidation keeps shrinking the independent pool (SCI alone bought about 22 funeral homes and 2 cemeteries for roughly $101M in 2025). The licensed workforce is aging while mortuary-school pipelines are thin. Rising cremation lowers revenue per case, making full-time second hires unaffordable for small homes. Rural closures are creating 'funeral deserts'. Many states have passed occupational-license recognition laws that make multi-state relief staffing easier.",
+ "revenue_model": "Retainer of $900-$2,000/month per home including N coverage days. Activation day rate of $800-$1,400 billed to the home, with a 25-30% margin over what the licensee is paid. Per-case fees for trade embalming and prep-room services. A 1-2% success fee on succession transactions.",
+ "non_obvious_insight": "The real asset of an independent funeral home isn't the building, it's one license holder with a phone, and that is a single point of failure. Consolidators know it and wait. Owners will pay to sleep: this is a wellness and continuity product disguised as staffing, and its best feature is the succession pipeline it creates once a trusted operator is already inside the home.",
+ "first_30_days": "Recruit eight retired licensed directors and embalmers through state association chapters and retiree groups. Check each state board's rules for temporary manager-in-charge designation. Pitch 20 one-licensee homes in two adjacent counties at a $1,200/month founding rate with a 'test weekend off' guarantee. Sign the first three, and run the first covered weekend within 30 days to produce a testimonial.",
+ "outside_box_score": 6,
+ "source": "persona:p3-0",
+ "kind": "persona",
+ "id": "I0667",
+ "tournament": {
+  "score": 0.919,
+  "overall_rank": 100,
+  "cluster": "Independent funeral homes facing key-person, overnight and consolidation pressure",
+  "judge_notes": [
+   "contrarian: rank 3/24 - One license holder is the single point of failure; owners pay to sleep. Consolidation creates a succession pipeline and easy association channel.",
+   "operator: rank 3/25 - Concrete buyer, reachable via state associations, good retainer economics, and a succession path that becomes the real prize.",
+   "vc: rank 6/25 - Sharp key-person insight, easy first sales, succession pipeline gives roll-up optionality; prize is modest."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "NFDA Funeral Career Hub and NFDA recruiting services",
+    "url": "https://www.nfda.org/your-business/recruiting/",
+    "what_they_do": "The trade association's job board for funeral homes to post openings. The page does not mention temporary or interim placement, relief job boards or staffing-shortage data. It only says staffing is consistently ranked among the top concerns for funeral home owners. A job board is a way to find a hire, not a guaranteed 24-48 hour bench.",
+    "scale_or_funding": "Not verified. The NFDA has about 20,000 members representing nearly 11,000 funeral homes (https://www.nfda.org/news/statistics).",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "NFDA succession planning member resources and SESCO HR consulting",
+    "url": "https://portal.nfda.org/Member-Resources/Operations-Management/Succession-Planning",
+    "what_they_do": "Member-only resources on ownership transitions and business continuity, plus phone HR consulting through SESCO. This is educational and advisory. It has no operators, no interim licensee and no transaction facilitation. The page content did not address staffing for a licensee who has died or is incapacitated.",
+    "scale_or_funding": "Member benefit of an association. No standalone funding. Portal is login-gated, so contents were not verified.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Selected Independent Funeral Homes (staff recruitment and Selected Transfer Services)",
+    "url": "https://www.selectedfuneralhomes.org/",
+    "what_they_do": "An association of independent funeral homes. It offers staff recruitment and retention tools, virtual job fairs, study groups and a Selected Transfer Services program. The site does not mention relief staffing, succession or continuity. This is the most natural distribution partner or the nearest incumbent that could bolt on a relief bench.",
+    "scale_or_funding": "Not verified.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "American Mortuary Service (trade embalming and removals, Dallas/Fort Worth)",
+    "url": "https://www.americanmortuary.com/",
+    "what_they_do": "Trade mortuary services since 1972: removals, embalming, cremation, shipping and death-certificate processing, with in-house licensed staff 24 hours a day. It supplies prep-room labor on a per-case basis, which competes with the idea's per-case embalming add-on. It does not offer relief funeral directors, interim managers or succession. It is one example of a regional trade-services type, and other markets likely have similar firms.",
+    "scale_or_funding": "Private regional operator. Scale not verified.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Informal relief director networks (state association lists, retirees, social media groups) and consolidator bench staff",
+    "url": "n/a - not verified this session",
+    "what_they_do": "The idea itself says informal relief-director phone lists exist. I could not verify any named commercial relief-staffing company or per-diem agency for funeral directors. My search budget was exhausted, and about eight guessed vendor domains either did not resolve or were unrelated. Consolidators such as SCI can also cover their own units from a regional bench. An independent home cannot buy that bench, which supports the idea.",
+    "scale_or_funding": "Unknown",
+    "overlap": "adjacent"
+   }
+  ],
+  "white_space": "Caveat first: this verdict has low-to-moderate confidence. The WebSearch budget for the session was already exhausted (200 of 200), so none of the planned 6-12 searches ran. I did not use WebFetch on a search engine to get around the limit. All I did was fetch about 15 specific vendor and industry URLs. Most guessed domains did not resolve, and the ones that resolved were adjacent players, not direct competitors. \"No direct competitor found\" therefore means \"not found with a very limited method\", not \"verified absent\".\n\nWhat the limited evidence supports as unserved: (1) A contracted, pre-credentialed, multi-state bench with a guaranteed activation SLA. The only related products I could confirm are a job board (NFDA), an association recruiting and transfer program (Selected), trade embalming vendors (American Mortuary Service) and member-only succession content (NFDA). None of them takes on the license-holder single point of failure. (2) The bundled path from interim operator to succession buyer with seller financing. I found nobody offering it, and it is the strongest differentiator because it turns a cost centre into a deal pipeline.\n\nRisks I could not verify and that could still kill or reshape the idea, all of which come from the idea file and general reasoning, not from research:\n- State law. Many boards tie the establishment license to a named manager-in-charge who must be there full-time or on premises, and some have short or no temporary-designation windows. If temporary designation is unavailable in the target states, the 24-48 hour activation promise fails legally. Check this first, state by state.\n- Adverse selection and price. $10.8k-24k a year is roughly 2-8% of revenue for a home doing 30-150 calls, and a retainer is bought mostly by owners who feel at risk.\n- Liability, insurance and non-solicit exposure when a stranger runs someone else's establishment.\n- Supply. A bench of eight retirees has to be dense enough to reach homes in rural counties within 24 hours, so density in one cluster matters more than breadth.",
+  "evidence_of_demand": "Partial, at the problem level only, and nothing about willingness to pay for this specific product. (1) NFDA states that staffing is one of funeral home owners' biggest challenges and is consistently ranked among their top concerns (https://www.nfda.org/your-business/recruiting/). (2) Market structure from NFDA: 15,401 US funeral homes, roughly 75% family- or privately owned, 105,300 employed, cremation projected at 63.4% in 2025 and 82.3% by 2045, which supports the pressure on revenue per case (https://www.nfda.org/news/statistics). (3) The NFDA and Selected each run recruiting or job-fair programs, so owners already spend association dues and time on staffing, but that is not the same as paying a retainer for coverage. (4) The idea file cites SCI buying about 22 funeral homes and 2 cemeteries for about $101M in 2025, which I did not verify. Not found in this session: forum complaints, RFPs, state-board temporary-manager rules, per-diem relief rates, or any customer paying for relief coverage. Analogous markets not checked here (locum tenens, relief pharmacists, dental and veterinary relief) suggest owner-operators do pay for relief, but that is background knowledge, not research from this session.",
+  "kill": false,
+  "kill_reason": "n/a",
+  "sharper_angle": "Do not lead with a $900-$2,000 a month retainer. Lead with the two moments an owner actually buys. First, emergency activation when an owner dies or is incapacitated, sold as a pre-arranged standby agreement that costs little or nothing until used, distributed through the NFDA and state associations, Selected, pre-need insurers and the estate and elder-law attorneys who serve funeral home owners. Second, planned time-off coverage sold per day, not per year. Use the emergency work to earn the trust and the succession relationship. Make the money come from the succession track: interim operator to buyer or partner, with the fee, seller financing and a home kept out of a consolidator's hands. Start in one state with a documented temporary manager-in-charge path (verify the statute before recruiting), keep the bench dense in a single cluster, and offer trade embalming only as a side service. Before committing, spend a day on the searches I could not run and log the results. Then interview about 15 one-licensee owners, and confirm with two or three boards that an interim manager can be designated within 48 hours."
+ }
+}

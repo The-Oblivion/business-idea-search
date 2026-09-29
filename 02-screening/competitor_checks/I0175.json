@@ -1,0 +1,59 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "Jumpstart Insurance (parametric earthquake, and reportedly wildfire smoke)",
+   "url": "https://www.jumpstartinsurance.com",
+   "what_they_do": "Parametric consumer/SMB insurance that pays a fixed sum quickly after a measured hazard trigger (earthquake shaking). Closest known analog for a fast fixed-sum payout to individuals, but the trigger is a physical measurement and it does not cover evacuation orders. Only verified this session: the domain now 302-redirects to neptuneflood.com (which returned 403), so ownership and current product status are unconfirmed.",
+   "scale_or_funding": "Unverified this session. The site redirects to Neptune Flood, which may indicate acquisition or rebrand.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "GiveDirectly (US and global disaster cash)",
+   "url": "https://www.givedirectly.org/disaster-relief/",
+   "what_they_do": "Nonprofit that sends emergency cash to disaster survivors within days after the event (2025 LA wildfires, Helene and Milton in 2024, 2025 Texas floods). The pages I fetched show no pre-evacuation or order-triggered payout and no predefined evacuee amounts. It is the closest philanthropic substitute, and a possible co-payer or partner.",
+   "scale_or_funding": "Large nonprofit; exact funding not verified this session.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Airbnb.org emergency stays",
+   "url": "https://www.airbnb.org/",
+   "what_they_do": "Free emergency housing for disaster evacuees. It substitutes for the lodging part of evacuation cost but pays no cash. It is a fixed-supply, donation-funded program.",
+   "scale_or_funding": "1.6M+ free nights since 2020; 126,000 nights across 78+ disasters in 2025 (from the site). Airbnb funds operating costs.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "FEMA Individual Assistance (IHP)",
+   "url": "https://www.fema.gov/assistance/individual/program",
+   "what_they_do": "Federal post-declaration aid that includes rental assistance or hotel reimbursement and funds for other serious needs. It is slow and claim-based, needs a presidential declaration, and does not pay pre-landfall on an evacuation order. A substitute that is weak on speed and certainty. The page I fetched did not confirm the $750 Serious Needs figure I remembered.",
+   "scale_or_funding": "Federal program.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Homeowners and renters ALE and civil-authority coverage (incumbent carriers)",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=INS&sectionNum=2060",
+   "what_they_do": "Existing policies already pay additional living expenses when civil authority restricts access. Verified: California Insurance Code 2060(c) requires ALE for at least 2 weeks, with 2-week extensions for good cause, when a state of emergency includes a civil-authority order restricting access related to a covered peril. This is receipt-based and needs a covered peril. Nothing verified says it is unconditional or pays fast. Renter uptake and hurricane pre-storm evacuation treatment are from my prior knowledge, not confirmed here.",
+   "scale_or_funding": "State Farm, Allstate, Citizens and others. Any of them could add a fixed evacuation benefit as an endorsement.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Genasys Protect (Zonehaven)",
+   "url": "https://www.genasys.com/genasys-protect",
+   "what_they_do": "Zone-based evacuation alerting and coordination used by emergency managers, with a public map at protect.genasys.com. It is the likely source of address-level evacuation-zone data. The page showed no payments and no insurance product, and gave no API terms. It could become a partner, a data gatekeeper, or a competitor if it added a payout layer.",
+   "scale_or_funding": "Public company (Genasys Inc.); county coverage not verified.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Kettle (wildfire reinsurance MGA) and other small parametric MGAs (unverified)",
+   "url": "https://www.getkettle.com",
+   "what_they_do": "From prior knowledge, not verified: tech-enabled wildfire underwriting and reinsurance for property, not evacuation-triggered cash. The site returned 503 this session. Listed as a capacity and MGA landscape marker only.",
+   "scale_or_funding": "Unverified this session.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Important caveat: the WebSearch budget (200 of 200) was exhausted before my first query, so none of the 6-12 planned searches ran. I checked only about 20 direct page fetches. Many returned 404, 503, 403 or DNS errors, and Crunchbase, YC, TechCrunch and Product Hunt could not be checked. This verdict is therefore low confidence. It shows no direct competitor in the pages checked. It is not proof that none exists.\n\nWithin that limit, no company found sells a fixed-sum, instant payout triggered by a mandatory evacuation order. What exists is adjacent: post-event philanthropic cash (GiveDirectly), free lodging (Airbnb.org), slow claim-based FEMA aid, and receipt-based ALE and civil-authority cover that is tied to a covered peril and a state of emergency (verified for California, Ins. Code 2060(c)). The unserved wedge is a no-receipt cash benefit for the pre-claim cost of leaving. It would target renters and hourly workers, and cover evacuations with no property damage (for example, precautionary hurricane surge-zone orders). Delivery would go through employers, credit unions or municipalities.\n\nRisks that decide viability: insurance licensing and rate filing state by state; adverse selection, since people buy when a storm is in the cone (expect binding moratoria and waiting periods); data access to evacuation zones (Genasys, county GIS, inconsistent zone-letter ordering); catastrophic correlation, since a single hurricane orders out an entire book at once and needs real reinsurance; and small-ticket unit economics ($3-15 per month, with 15-25% commission).",
+ "evidence_of_demand": "Weak, and only what I could verify. (1) Airbnb.org reports 1.6M+ free nights since 2020 and 126,000 nights across 78+ disasters in 2025, so evacuee housing need is large (https://www.airbnb.org/). (2) GiveDirectly runs post-disaster cash responses (LA fires 2025, Helene and Milton 2024, Texas floods 2025), so philanthropic payers exist, though only after the event (https://www.givedirectly.org/disaster-relief/). (3) California Ins. Code 2060(c) shows legislators treat evacuation living costs as compensable, but only with a covered peril and a state of emergency, which leaves a gap for no-damage or uninsured cases (https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=INS&sectionNum=2060). (4) Wikipedia's Hurricane evacuation article notes residents may skip evacuating because of cost, but it gives no figures (https://en.wikipedia.org/wiki/Hurricane_evacuation). Not found because searches could not run: any customer willingness-to-pay data, RFPs from cities or employers, forum complaints, or existing spend on workarounds. The claims of $1,000-$3,000 evacuation cost and that cost drives non-evacuation are plausible but unverified here.",
+ "kill": false,
+ "kill_reason": "n/a. Nothing verified shows a dominant incumbent or a crowd of direct competitors. Kill is false only by default, because the search budget ran out and the check is incomplete. Re-run the existence check with search access before committing money, especially for evacuation-triggered parametric or 'evacuation cash' products, 'evacuation insurance' MGAs, and Genasys/Everbridge/Watch Duty partnerships.",
+ "sharper_angle": "Skip the consumer app and the insurance license at the start. Sell an 'evacuation stipend' to employers of hourly workers in surge and wildfire zones (hospitals, nursing homes, hotels, grocers) and to cities and philanthropies. It is a pre-funded fixed payout triggered by the legal evacuation order, with payment by FedNow or RTP. Employers have their own reasons to pay: staff who leave safely come back to work, and staffing plans improve if workers can afford to go. Cities gain compliance and lives saved. Start as an administered employer benefit or a philanthropic anticipatory-cash program in the GiveDirectly mold, with a reserve or fronted capacity and no retail policies. Once the trigger data and payout rails are proven on one or two counties, layer on a licensed MGA and fronting carrier for group policies, then individual renter policies. The moat is not the payout speed. It is exclusive or clean access to address-level evacuation-order feeds and an employer or municipal distribution channel that avoids consumer adverse selection."
+}

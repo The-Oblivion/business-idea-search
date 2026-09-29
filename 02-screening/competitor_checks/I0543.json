@@ -1,0 +1,66 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "Bamboo Health OpenBeds (incl. Crisis Management System, Bamboo Bridge)",
+   "url": "https://bamboohealth.com",
+   "what_they_do": "Real-time behavioral health capacity management and closed-loop referral network. Used by state agencies and 988/crisis systems (Nevada 988, New Hampshire named on the page). Markets 'AI-powered, human-in-the-loop' behavioral health tools. I could not verify from the fetched pages whether it captures granular acceptance criteria, does ED-to-facility referral, or does any automated outreach.",
+   "scale_or_funding": "Page claims OpenBeds operates across '52 states and territories' and Bamboo Health solutions touch 1B+ patient encounters a year. Funding not found (Bamboo Health is a PE-backed merger of PatientPing and Appriss Health, from background knowledge).",
+   "overlap": "direct"
+  },
+  {
+   "name": "Juvare (EMResource plus new California behavioral health bed capacity work)",
+   "url": "https://www.juvare.com/thought-leadership/news/juvare-partners-with-california-to-strengthen-statewide-behavioral-health-bed-capacity-visibility/",
+   "what_they_do": "Emergency-management and hospital resource-status platform. A headline dated Sept 1, 2026 says Juvare partnered with California for statewide behavioral health bed capacity visibility. Article body did not load, so data model and update method are unverified.",
+   "scale_or_funding": "Established vendor; state-level contracts. Funding not found.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "ReddiNet",
+   "url": "https://www.reddinet.com",
+   "what_they_do": "Hospital/EMS information exchange with ED status and an automated real-time hospital bed availability module (HBEDS). No behavioral-health-specific or AI features on the home page.",
+   "scale_or_funding": "Regional incumbent network. Funding not found.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "TigerConnect Transfer",
+   "url": "https://www.tigerconnect.com",
+   "what_they_do": "Clinical communication vendor with a dedicated 'Transfer' product for cross-facility patient movement workflow. Details on acceptance-criteria capture not available.",
+   "scale_or_funding": "Established vendor with a large hospital installed base. Funding not found.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Infinitus",
+   "url": "https://www.infinitus.ai",
+   "what_they_do": "Healthcare voice AI agents making outbound calls to provider offices and payers (benefit verification, prior-auth status, collecting missing information). Proves the voice-agent-calling-healthcare-intake-lines pattern at scale. Not aimed at facility acceptance rules or transfers.",
+   "scale_or_funding": "Claims 350M healthcare interactions automated and 8 of the top 10 pharma manufacturers as customers. Funding not disclosed on the page.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Hippocratic AI",
+   "url": "https://www.hippocraticai.com",
+   "what_they_do": "Broad healthcare voice AI agents (patient intake, nurse co-pilot, chronic care). No facility-to-facility transfer or bed-availability calling found on its site.",
+   "scale_or_funding": "$444M raised per its site.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Assort Health",
+   "url": "https://www.assorthealth.com",
+   "what_they_do": "Voice AI for specialty practices: scheduling, intake, referral automation, after-hours coverage, 23+ specialties including behavioral health. Patient-to-provider, not provider-to-provider.",
+   "scale_or_funding": "Claims training on 250M+ interactions. Funding not disclosed on the page.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Qventus",
+   "url": "https://qventus.com",
+   "what_they_do": "Hospital operations AI (surgical growth, perioperative coordination, inpatient capacity and discharge). Internal flow only. No calls to external facilities on its site.",
+   "scale_or_funding": "Customers include Banner, Allina, Boston Medical Center and others. Funding not shown on the page.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Provisional. The WebSearch budget hit 200 of 200 before I could run any of the planned searches. This verdict rests on about 20 direct fetches of named vendor pages plus background knowledge, and several key sites returned 503 or 403 (Aidin, Ensocare, Central Logic, ACEP, GCAL). What I found: no company that uses voice agents to call receiving facilities on a schedule to extract tacit acceptance rules, the name and direct number of the decider, and the hours they answer, then serves that to rural ERs by SMS with a call script. The existing players (OpenBeds, Juvare, ReddiNet, TigerConnect) are registries or referral workflows that depend on facilities entering or updating their own data. The voice-AI companies (Infinitus, Hippocratic, Assort) call for payers, patients and practices, not for facility placement rules. GitHub repository searches returned zero open-source projects. The specific wedges that look unserved are: (1) observed rather than self-reported acceptance rules, including unwritten exclusions such as sitter, autism, weight, out-of-state Medicaid and IV drug history; (2) the identity of the human decider; (3) a nurse-facing SMS workflow with a script for rural critical access hospital charge nurses, who are not the buyers of registry products; (4) a rural-ER buyer that is not the state. Main risks: OpenBeds already sells to state behavioral health authorities in 52 states and territories and could add a 'verified criteria' layer. Facilities may refuse or resent AI intake-line calls. State call-recording and AI-disclosure rules apply. Stale or wrong rules could cause clinical harm and liability. RHTP money flows through state plans, so sales cycles are slow.",
+ "evidence_of_demand": "Indirect only; nothing found that shows anyone paying for tacit-criteria data specifically. (1) The Rural Health Transformation Program is confirmed at $50B over FY2026-2030 ($10B a year, half split equally among states). Permitted uses include IT infrastructure, technology and AI adoption, and substance use disorder and mental health treatment services, so the funding source is real: https://www.medicaid.gov/resources-for-states/rural-health. The page says nothing about vendor procurement, and I could not verify the claim that every state has posted RHTP funding opportunities. (2) States already pay for behavioral health bed visibility. OpenBeds is claimed in 52 states and territories (https://bamboohealth.com/solutions/openbeds/, redirected from openbeds.net). Juvare announced a California statewide behavioral health bed capacity visibility partnership on Sept 1, 2026 (https://www.juvare.com/thought-leadership/news/juvare-partners-with-california-to-strengthen-statewide-behavioral-health-bed-capacity-visibility/). That shows budget exists and that the registry category is active and well served. (3) Voice AI calling healthcare intake lines is a paid category at scale (https://www.infinitus.ai). Not found or verified: ED boarding statistics, forum complaints, RFPs, and evidence that registries fail on tacit criteria. ACEP returned 403 and no searches were possible. From memory only, unverified: ACEP and other sources report multi-day psychiatric boarding, and some crisis lines such as Georgia's GCAL phone around manually to find beds.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Do not pitch it as a better bed registry, because OpenBeds and Juvare already sell to states. Sell it as a verified-rules layer: a nightly voice-agent audit of how receiving facilities actually behave, scored against what the registry says, with the named decider and a script. Sequence it in three steps. (1) Start with one rural region and one high-pain vertical, pediatric and adolescent psychiatric placement, where the exclusions are unwritten and ED boarding is worst. Sell to critical access hospital EDs and the state hospital association or rural health office, funded from RHTP behavioral health or IT lines. (2) Ship as SMS and a call-sheet with a 'last verified' timestamp and the name of the person who decides, so it works alongside whatever registry the state uses and is not a rival to it. Start with the founder nurse's binder and use the voice agent to keep it current rather than to build it from nothing. (3) Longer term, offer receiving facilities a listing to pre-qualify referrals, and pitch the data to registry vendors (Bamboo, Juvare) as an accuracy feed or an acquisition target. Before building, validate two things I could not: that a few receiving-unit supervisors will answer an AI or human-assisted call and share their rules on the record, and that the registries do not already capture these criteria. To check the second, request an OpenBeds demo and read a state registry's facility-profile fields. Re-run the competitor search with a fresh web search budget to look for startups in voice-AI placement and transfer calling (post-acute placement vendors such as Aidin, Ensocare and Central Logic, and any new AI transfer-center entrants), because I could not do that here."
+}

@@ -1,0 +1,59 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "Harris Sliwoski (China Law Blog)",
+   "url": "https://harris-sliwoski.com/chinalawblog/molds-and-tooling-in-international-manufacturing-the-30-essential-faqs/",
+   "what_they_do": "Law firm that publishes the DIY playbook for the exact problem. It says to mark tools with permanent asset IDs, keep a Tooling Description Inventory Form (serials, photos, specs, location), audit quarterly, and write ownership and return clauses. Other posts cover a factory holding molds to force a 34% price hike, tooling recovery on exit, and factories selling the client's product online (a cease-and-desist worked). They sell legal services, not a tool census or forensic product. They are the likely referral channel or white-label partner, and also a substitute (contract plus DIY inventory).",
+   "scale_or_funding": "Established multi-office law firm; blog is prominent for China manufacturing, IP and contracts. No funding data (law firm).",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Alitheon (FeaturePrint)",
+   "url": "https://www.alitheon.com",
+   "what_they_do": "'Optical-AI object authentication': fingerprints manufactured items from natural surface microstructure with no tags, identified from a photo. Listed use cases are counterfeit electronic components, counterfeit aircraft parts, gray-market diversion, warranty fraud, inventory misidentification. Nothing on tool-cavity or mold-origin attribution or overruns. It is the closest technical cousin; a partner or licensee candidate, and a threat if it moves into consumer and industrial goods.",
+   "scale_or_funding": "Funding and customers not visible on the pages I fetched (unverified).",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Red Points",
+   "url": "https://www.redpoints.com",
+   "what_they_do": "AI brand-protection platform: detects and removes counterfeits, gray-market and unauthorized sellers. Claims 5,000+ marketplaces and a 'Mainland China Protection' focus. Also offers a zero-cost litigation revenue-recovery program. Commoditizes the 'Overrun Watch' monitoring and takedown layer. It has no tool-fingerprint attribution and no offline tooling census.",
+   "scale_or_funding": "1,300+ brands, 2.7B data points a month, offices in New York, Barcelona, Beijing, Salt Lake City; funding not shown on the page.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Corsearch (Zeal 2.0, Investigations 360, Distribution Control)",
+   "url": "https://www.corsearch.com",
+   "what_they_do": "Enterprise marketplace brand protection plus investigations ('uncover people and sources behind threats') and channel-policy enforcement against gray-market sales. It could package 'overrun investigation' as an add-on. Enterprise-priced; it is unclear whether it serves $50M-$500M mid-market OEMs or covers 1688.",
+   "scale_or_funding": "73+ Fortune 100 clients; established incumbent.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "QIMA (formerly AsiaInspection)",
+   "url": "https://www.qima.com",
+   "what_they_do": "Supplier audits, product inspections, lab testing across Asia, with a large China auditor network. The pages I fetched show no tooling audit, tooling ownership verification or unauthorized-production service. It could add tooling audits cheaply. It is also a possible subcontractor for the Tool Census field work.",
+   "scale_or_funding": "Large global inspection and audit provider; funding not checked.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "MoldTrax",
+   "url": "https://www.moldtrax.com",
+   "what_they_do": "Ashland, Ohio maker of mold and die maintenance-tracking software, built by mold technicians. It tracks performance and maintenance, not ownership, custody or forensics. It shows the 'tool asset record' category exists in software but is aimed at the molder's own shop floor, not at OEMs auditing an offshore supplier.",
+   "scale_or_funding": "Small niche vendor; no pricing or customers shown.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Sourcify",
+   "url": "https://www.sourcify.com",
+   "what_they_do": "Managed sourcing marketplace with a China factory network and content on moving production between countries. The blog and site fetched show no mold-ownership or tool-transfer content. It is a possible acquirer of the extraction layer, or a partner.",
+   "scale_or_funding": "Funded sourcing startup; details not verified.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Coverage caveat: the WebSearch quota (200 per session) was already used up when I started, so I could not run the planned 6-12 searches. I also could not check Crunchbase, YC, Product Hunt, TechCrunch or open-source repos. The findings below come from about 25 direct page fetches, so treat 'nobody does this' as unproven. The vendors most likely missed are the many small China-based QC and sourcing agents that sell 'mold audits' and 'mold relocation', plus PI and investigation firms (Kroll-type). Do a manual pass on those before committing.\n\nWhat I found: I found no productized, US-facing service that bundles (a) a serialized tool census, (b) cavity-level physical fingerprints, and (c) marketplace test-buy attribution of overruns to a specific tool. The problem is documented and treated as an unproductized legal-advice problem: Harris Sliwoski tells clients to keep an inventory form and audit quarterly, and never mentions a third-party vendor for it. Marketplace monitoring and takedown (Red Points, Corsearch, Alibaba's free IP platform) is commoditized and crowded. Object fingerprinting exists (Alitheon) but is aimed at electronics, aerospace and gray-market diversion, not tool-mark attribution.\n\nGenuinely unserved: (1) cavity-level 'which tool made this part' attribution that holds up as evidence; (2) a tooling census standard for mid-market OEMs, timed to the exit window; (3) an evidence pack designed for counsel that a brand-protection vendor's screenshot-and-takedown workflow does not produce.\n\nWeak points: Extraction (tool 3) is freight, customs and re-qualification work that sourcing agents and forwarders already do at low margin. Monitoring (tool 2, first half) is a commodity. Attribution is legally useful only when the overrun carries the client's IP (trademark, design patent, trade dress) and the client can enforce it. If the part is generic or unbranded, a match proves little. Chinese-court enforceability is unproven here.",
+ "evidence_of_demand": "Pain is real and well documented; willingness to pay is not yet evidenced.\n\nPain (all Harris Sliwoski China Law Blog):\n- https://harris-sliwoski.com/chinalawblog/china-manufacturing-contracts-when-one-agreement-is-not-enough/ describes a US company whose factory held its molds, designs and customer list and demanded a 34% price increase. Counsel advised against litigation because remaking the molds was 'cheaper, faster, and less risky', and the shutdown nearly bankrupted the client. The article warns that paying for tooling does not always prove ownership.\n- https://harris-sliwoski.com/chinalawblog/molds-and-tooling-in-international-manufacturing-the-30-essential-faqs/ says suppliers can use molds for third parties if the contract doesn't prohibit it. It lists mold release and storage fees as a warning sign and recommends permanent asset IDs, an inventory form with serials, photos and location, and quarterly audits. That is a manual checklist for the Tool Census, which confirms the job exists and is unproductized.\n- https://harris-sliwoski.com/chinalawblog/your-china-exit-strategy-is-also-your-ip-strategy/ says tooling disputes turn ugly fast and that 'your leverage is usually strongest before your China factory knows you are leaving'.\n- https://harris-sliwoski.com/chinalawblog/china-counterfeits-stop-knockoff/ says the legitimate manufacturer can be the biggest risk because it already has the tooling. It recommends buying samples to trace the source, and cites a case where a cease-and-desist stopped the factory's online sales. That matches the 'buy 10 units and compare' entry offer.\n\nSpend on adjacent workarounds: brand-protection vendors serve 1,300+ brands (Red Points, https://www.redpoints.com) and 73+ Fortune 100 companies (Corsearch, https://www.corsearch.com). Marketplace enforcement is an established budget line, though at the enterprise and consumer-brand end.\n\nNot found: no RFPs, pricing benchmarks, forum threads or regulations forcing spend on tool censuses or overrun forensics. I could not verify the Reshoring Initiative '36% of OEMs' statistic (reshoring.org returned 503). The $40k-$120k ACV and $6k-$15k census price are unvalidated assumptions. The Hacker News archive search returned zero hits, and Reddit could not be fetched, so there is no forum evidence either way.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Drop the three-product bundle and drop Extraction. Sell one specific thing: 'tool-of-origin' forensics. That means cavity-level fingerprint libraries plus test-buy matching that answers which tool, and therefore which supplier, made a part on the marketplace. Package it as counsel-ready evidence packs, and distribute it through China-facing law firms (Harris Sliwoski-type IP and dispute practices), who currently give the DIY inventory advice and have no evidence product to hand clients. Use the Tool Census as the pre-exit onboarding wedge: capture fingerprints of every cavity while the supplier is still cooperative, because that is when leverage peaks, and the fingerprints become the baseline for later attribution. Subcontract China field capture to an existing audit network (QIMA-type) rather than building it. Buy or white-label marketplace monitoring from Red Points or Corsearch rather than build it. Start with the $2,500 Marketplace Overrun Audit but qualify clients on owning enforceable IP on the part (trademark, design patent, trade dress), since attribution only pays when there is something to enforce. Consider licensing or partnering with an object-fingerprinting vendor such as Alitheon instead of building the vision stack. Before building, do the manual checks this pass could not: Crunchbase and YC for 'tooling audit' and 'mold tracking', and small China-based mold-audit and mold-relocation agencies. Also test willingness to pay with 5-10 COO and GC interviews."
+}

@@ -1,0 +1,66 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "Truveris (truAudit / truGuard / Marketplace)",
+   "url": "https://www.truveris.com",
+   "what_they_do": "Established employer- and consultant-facing PBM analytics firm. Sells independent PBM audits (truAudit), ongoing contract oversight (truGuard) and a PBM procurement marketplace. Claims $7B in savings for clients. The page does not say it uses pharmacy-side remittance data. Its audits appear to work from PBM-supplied claims.",
+   "scale_or_funding": "Funding not disclosed on the page. Clients cite 10+ year relationships and it claims $7B total savings, so it is established. Wilmington, DE.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Capital Rx (Judi Health)",
+   "url": "https://www.cap-rx.com/",
+   "what_they_do": "Transparent, pass-through PBM for employers. This is the 'move to a transparent PBM' destination the idea's audit output points to. The page mentions no pharmacy-side analytics or audit tool. It would more likely be a channel partner or a competitor for the employer's attention than a builder of this product.",
+   "scale_or_funding": "Funding not disclosed on the page. Founded 2017, Inc. 5000 and Deloitte Fast 500 (2024), claims 99.5% client retention, platform sized for 180M lives.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "AffirmedRx",
+   "url": "https://www.affirmedrx.com",
+   "what_they_do": "Transparent PBM for self-funded employers, URAC-accredited. Positioned as an alternative to the Big 3. The page gave no detail on claim-level paid-amount tie-outs or audits.",
+   "scale_or_funding": "Ranked #5 on the 2026 Inc. 5000 list. Funding not disclosed on the page.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "SmithRx",
+   "url": "https://www.smithrx.com",
+   "what_they_do": "'Radically transparent' PBM for employers. Gives employers a dashboard to track plan performance and savings. Claims 20% or more savings versus legacy PBMs. Nothing on pharmacy-side data.",
+   "scale_or_funding": "Not disclosed on the page.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "PQS (Innovaccer) / EQUIPP",
+   "url": "https://www.pharmacyquality.com",
+   "what_they_do": "Pharmacy quality and adherence platform connected to independent and chain pharmacies. It is a possible distribution route into pharmacies, but the page shows no reimbursement benchmarking or PBM contract modeling.",
+   "scale_or_funding": "65,000+ connected pharmacies in 50 states. Owned by Innovaccer.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "CPESN USA",
+   "url": "https://www.cpesn.com",
+   "what_they_do": "Clinically integrated network of community pharmacies. Sells enhanced-services and value-based contracts to payers. The page mentions no data pooling or PBM reimbursement benchmarking. It is a natural recruiting channel for the 15-pharmacy pilot.",
+   "scale_or_funding": "About 3,500 pharmacies in 47 states.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "46brooklyn Research",
+   "url": "https://www.46brooklyn.com",
+   "what_they_do": "Nonprofit that publishes drug-pricing data and visualizations. It is public research, not a commercial pharmacy or employer product.",
+   "scale_or_funding": "501(c)(3) nonprofit. Funding not disclosed.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "rx-gap-finder (open source)",
+   "url": "https://github.com/ridham0065/rx-gap-finder",
+   "what_they_do": "Browser-based, single-file tool that reads BestRx claim exports. It flags underwater prescriptions and payer spread by NDC. Runs entirely client-side. Shows the pharmacy-side reimbursement-gap idea is being built as a DIY tool.",
+   "scale_or_funding": "Hobby project created July 2026: 0 stars, 2 commits. No funding.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Caveat on confidence: my WebSearch budget (200 calls) was exhausted before I ran any query in this session. The verdict rests on direct fetches of about 20 competitor and source pages plus GitHub searches, not on a broad landscape scan. It is a provisional 'gap', not a confirmed one.\n\nWhat I did not find: no company that ingests pharmacy-side remits, benchmarks per-drug, per-PBM reimbursement against a peer pool, models Q4 network offers, and ties pharmacy-paid amounts to an employer's PBM claims file. The employer-side audit market is served: Truveris, benefits consultants, and transparent PBMs that market pass-through. Their audits appear to start from what the PBM hands over, and I found no sign they hold the pharmacy-paid half.\n\nThe pharmacy-side gap is plausible. PioneerRx, PQS and CPESN pages show no reimbursement-benchmarking or contract-modeling feature. Not verified: pharmacy services administrative organizations (PSAOs such as Cardinal, AmerisourceBergen Elevate, AAP, Health Mart Atlas) and pharmacy management system vendors may already offer contract review or reimbursement reports to members. Confirm this in customer interviews before building, because the PSAOs negotiate PBM contracts and already hold members' remits.\n\nThe specific unserved wedge is a claim-level reconciliation between the pharmacy's actual paid amount and the employer's PBM claims file, delivered as a spread and rebate pass-through gap in dollars per member.\n\nRisks that shrink the white space:\n- PBM provider-manual confidentiality clauses and possible antitrust or information-exchange concerns when pooling competitors' reimbursement rates.\n- Getting employer PBM claims files with sponsor consent.\n- Pharmacy remits are not uniformly 835 files.\n- The January 2027 contract window is roughly 3 months away and cannot be met by a product built from scratch.",
+ "evidence_of_demand": "Partial and mostly indirect. Nothing found this session shows pharmacies paying $99-199 a month for benchmarking, and no RFPs or forum threads.\n\nIndirect evidence:\n- FTC staff report (Jan 14, 2025) found the Big 3 PBMs reimbursed their own pharmacies more than unaffiliated ones for nearly every specialty generic analyzed, with $7.3B in excess dispensing revenue from 2017-2022. That supports the claim that pharmacy-side and employer-side ledgers diverge. https://www.ftc.gov/news-events/news/press-releases/2025/01/ftc-releases-second-interim-staff-report-prescription-drug-middlemen\n- Employers and consultants already pay for PBM audits. Truveris sells audits and oversight and claims $7B in client savings. https://www.truveris.com\n- Transparent PBMs are growing fast. AffirmedRx ranked #5 on the 2026 Inc. 5000, and Capital Rx is on the Inc. 5000 and Deloitte Fast 500. https://www.affirmedrx.com and https://www.cap-rx.com/\n- Independent pharmacies are building their own underwater-Rx analytics. rx-gap-finder (July 2026) reads BestRx exports to find payer spread. https://github.com/ridham0065/rx-gap-finder\n- Drug Channels (Aug 2026) ran 'The K-Shaped Pharmacy Shakeout: Consolidation in Cities, Lost Access in Rural America', which supports the closure-pressure premise. https://www.drugchannels.net\n\nNot verified: the ERISA lawsuits, state PBM transparency laws and 2026 federal PBM reform cited in the idea's why_now. Two fetches for them (NCSL, KFF) failed.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Drop the two-sided marketplace at launch and start with one narrow, seasonal pharmacy-side product, then use it to acquire the employer-side data.\n\n1. **Stay-or-leave modeler.** Sell it to state independent pharmacy associations and PSAOs as a member benefit, not to pharmacies one at a time. Process remits locally in the browser, as rx-gap-finder does, so the pharmacy keeps custody of its data. That defuses the confidentiality and antitrust objections. Pool only de-identified, aggregated, lagged benchmarks, and only with an attorney's sign-off. Check first that PSAOs and pharmacy management system vendors do not already do this.\n\n2. **Claim-level tie-out, sold to buyers who can compel or pay for the data.**\n   - Public plans: school districts, counties and state employee plans, where auditors, attorneys general and open-records rules can obtain PBM claims files.\n   - ERISA plaintiff and fiduciary counsel.\n   - Employer coalitions.\n\n3. **Partner with the transparent PBMs** (Capital Rx, AffirmedRx, SmithRx) and consultants such as Truveris. Give them a 'verified pass-through' proof point built from pharmacy remits, which they cannot produce from their own data. Take a referral fee or per-audit fee rather than competing with their audits.\n\nBefore building, validate the first 15 pharmacies and one public-plan pilot for willingness to hand over remits. Confirm that a claim-level join between pharmacy remits and an employer PBM file is technically possible."
+}

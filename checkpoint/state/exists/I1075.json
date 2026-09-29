@@ -1,0 +1,66 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "Vanta (compliance automation)",
+   "url": "https://en.wikipedia.org/wiki/Vanta_(company)",
+   "what_they_do": "Automates SOC 2, ISO 27001, HIPAA and GDPR compliance, and includes vendor risk assessment. It certifies that controls exist. The page I fetched does not describe any planted-data or outcome testing of vendors. Drata and Secureframe are peers, which I know from background and did not check.",
+   "scale_or_funding": "$504M raised, $4.15B valuation (Jul 2025 Series D), about $300M ARR and 16,000+ customers as of Apr 2026, per Wikipedia. Could add vendor-outcome testing as a feature, but nothing found says it does.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "SecurityScorecard",
+   "url": "https://securityscorecard.com/",
+   "what_they_do": "Continuous outside-in vendor monitoring and third-party risk ratings, with a cyber-insurance product line. Its evidence comes from passive external telemetry. The page says nothing about planted identities or deletion testing.",
+   "scale_or_funding": "Large funded vendor. Exact funding not confirmed from the fetch. UpGuard, BitSight and Black Kite are similar and I did not check them.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Transcend (privacy/DSR orchestration)",
+   "url": "https://transcend.io/",
+   "what_they_do": "Automates data-subject requests and deletions across a customer's systems and vendors, with consent and policy enforcement. The fetched page does not mention independently verifying deletion with planted identities. DataGrail, OneTrust and Ketch are similar and I could not verify them; the DataGrail fetch returned junk.",
+   "scale_or_funding": "Funded privacy-infrastructure vendor. Funding not shown on the page.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Age Check Certification Scheme (ACCS) and Age Verification Providers Association (AVPA) standards ecosystem",
+   "url": "https://avpassociation.com/",
+   "what_they_do": "The AVPA is a trade body of 35+ age-assurance providers and points to ISO/IEC 27566-1 and IEEE 2089.1 with conformity assessments. Certification bodies such as ACCS audit providers against these standards. These are paper and process audits. I could not fetch the ACCS site (it returned a bot-check page), and the AVPA page says nothing about retention testing.",
+   "scale_or_funding": "Non-profit trade body and certification bodies. These are the natural distribution channel or the most likely to copy the idea, and they have credibility with Ofcom.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Kantara Initiative (Assurance Framework)",
+   "url": "https://en.wikipedia.org/wiki/Kantara_Initiative",
+   "what_they_do": "Third-party assessment of identity-verification providers against NIST 800-63-3 IAL2 and AAL2. It is a paper and control-based assurance scheme. The fetched page does not say whether retention or deletion is tested.",
+   "scale_or_funding": "Non-profit certification body.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Thinkst Canary / Canarytokens and open-source honeytoken tools",
+   "url": "https://github.com/seccome/Ehoney",
+   "what_they_do": "Honeytokens and canary tokens detect intrusion in your own systems. Open-source projects include Ehoney (1.2k stars), honeyLambda and thumper. None of them plants real-person identities at third-party vendors. The Thinkst fetch returned no usable content, so this rests on my background knowledge.",
+   "scale_or_funding": "Mature security category. Open-source tools are free, and Thinkst is a bootstrapped profitable vendor from my background knowledge, which I did not verify.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Have I Been Pwned and breach-intel monitoring (SpyCloud, Constella, Flare, Recorded Future)",
+   "url": "https://en.wikipedia.org/wiki/Have_I_Been_Pwned%3F",
+   "what_they_do": "Monitor breach dumps, pastes and dark-market data for exposed emails and domains. This is the detection half of the idea, and it is commoditised. None of them plants identities or attests to vendor retention. HIBP is what I fetched. The other names are from background knowledge and I did not verify them.",
+   "scale_or_funding": "HIBP is free or cheap. Commercial breach-intel vendors are venture-backed.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Direct-marketing seed lists (Validity, Data Axle, Acxom style)",
+   "url": "https://en.wikipedia.org/wiki/Honeytoken",
+   "what_they_do": "Planting fake or seeded identities to catch list misuse is a decades-old practice in direct marketing. This shows the technique is not novel, and it also shows the method works. It is not applied to ID-verification vendors that I could find.",
+   "scale_or_funding": "Established practice, not a competitor product.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Research limits first. WebSearch hit its 200-call session cap before I could run any of the planned startup, Crunchbase, YC or Product Hunt searches, so I did not verify the absence of a direct startup. I used WebFetch on named pages and GitHub repo searches instead. Wikipedia and vendor-site fetches turned up no company that recruits real, consenting individuals, enrols them in a platform's live ID or age-check flow, files deletion and access requests with the vendor and its sub-processors, watches for the canary strings, and issues an attestation. GitHub searches for open-source tools returned nothing relevant.\n\nWhat is unserved: outcome-based, adversarial proof of the promise to forget. Incumbents cover the adjacent layers.\n- Compliance automation (Vanta) covers whether controls exist on paper.\n- Standards bodies (ACCS, Kantara, AVPA/ISO 27566) cover process and control audits.\n- SecurityScorecard covers passive outside-in ratings.\n- DSR orchestration (Transcend) covers a customer's own deletions.\n- Honeytoken vendors cover a customer's own intrusions.\n- HIBP-style monitors cover leaked-string detection.\n\nThe specific unserved piece is an independent, real-human, live-flow test with a public per-vendor retention benchmark.\n\nStructural weaknesses of the pitch:\n- Real government ID numbers cannot be unique canaries. Only emails, phones, addresses and name variants are. Leak detection depends on those fields surfacing in dumps, and image-only dumps are hard to search.\n- The base rate of any given vendor leaking in a quarter is low. Most attestations would say nothing found, which is weak evidence. Retention and deletion behaviour, tested through DSARs and access requests, is the part canaries can actually prove.\n- Vendors may treat the enrolments as terms-of-service violations. Customer consent helps but does not remove that risk.\n- Privacy-preserving designs such as on-device age estimation and reusable digital ID could shrink the retention problem that this idea audits.",
+ "evidence_of_demand": "Indirect demand is strong. Direct demand is unproven: I found no customer, RFP or budget line for canary-based vendor testing.\n- Vendor breaches are documented on Wikipedia's age-verification page (https://en.wikipedia.org/wiki/Age_verification_system). They are AU10TIX (2024), the Discord/Zendesk incident (2025), Persona (2026) and IDScan (2026, headlined as 150M+ driver's licences stolen). The Discord page (https://en.wikipedia.org/wiki/Discord) says about 2.1M ID photos were claimed stolen and Discord says 70,000 users were affected. The AU10TIX page (https://en.wikipedia.org/wiki/AU10TIX) says its admin credentials were exposed online since 2022, that the company learned of it in 2024, and that it held international security certifications since 2020. The AU10TIX record backs the point that certified vendors still leak. I did not verify the IDScan details from a primary article, because the BleepingComputer URL I guessed returned 404.\n- Regulator pressure is documented at https://en.wikipedia.org/wiki/Online_Safety_Act_2023. Ofcom fines include \u00a31M on AVS Group (Dec 2025), \u00a350k on Itai Tech, and \u00a320k plus \u00a3520k on 4chan. The Act's age-check deadline was 25 Jul 2025. That page has no guidance on platform liability for vendor data handling, so the pitch's claim that the platform owns its vendor's failure is not confirmed there.\n- Compliance spend is real. Vanta reports about $300M ARR and 16,000+ customers (https://en.wikipedia.org/wiki/Vanta_(company)). That shows buyers pay for attestations but says nothing about paying for outcome testing.\n- Not found: forum complaints from platforms about being unable to verify vendor deletion, cyber-insurer underwriting requirements for outcome testing, and pilot customers. The pitch's $25-100k per platform per vendor pricing is untested.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Narrow it to what canary humans can actually prove and sell it to the party that benefits most from independent proof.\n\n1. Lead with deletion and access-request verification, not leak detection. Each canary files real deletion and access requests with the vendor and its sub-processors on a schedule, and the product measures whether they were honoured, how fast and with what residue. This is deterministic and repeatable, and it does not depend on a breach happening. Leak monitoring becomes a bonus signal instead of the headline claim.\n2. Sell first to the vendors and to the certification ecosystem, not the platforms. ID and age-check vendors, AVPA and ACCS-audited providers and Ofcom-facing platforms all need independent evidence for sales and regulators. A vendor-commissioned, published retention-half-life attestation is sales collateral, as SOC 2 and ACCS marks are. That removes the ToS and consent problem, because the vendor consents. The platform-pays and insurer-pays tiers come later, as a buyer-commissioned unannounced audit.\n3. Position it as the outcome layer that plugs into Vanta, SecurityScorecard, ACCS and Kantara, not a rival to them. Compliance tools ingest the attestation as evidence.\n4. Publish the public per-vendor benchmark early, since none of the adjacent players has anything like it. Use it as the inbound engine and to build the insurer case.\n5. Keep real people only, with unique emails, phones, addresses and name variants. Do not promise detection through government ID numbers, and state the detection limits honestly.\n\nBefore building, re-run the direct-competitor searches I could not run (Crunchbase, YC, Product Hunt, 'KYC vendor audit startup' and 'DSAR mystery shopping') once the search budget is raised. The gap verdict rests on absence in the pages I fetched and could flip if a stealth startup exists."
+}

@@ -1,0 +1,16 @@
+{
+ "title": "Canary Humans: Leak-Testing ID Verification Vendors",
+ "angle": "contrarian",
+ "one_liner": "Put consenting, instrumented real people through a platform's ID and age checks, then prove whether the vendor kept, leaked or resold their documents.",
+ "customer": "Trust-and-safety, privacy and vendor-risk leads at platforms that outsource ID or age checks (dating apps, gig and rental marketplaces, cannabis and vape retail tech, crypto exchanges, adult and gaming operators), and the cyber insurers underwriting them.",
+ "problem": "Platforms pick verification vendors on a SOC 2 badge and a promise to delete images quickly, and customers cannot test that promise. AU10TIX, Discord's support vendor, Persona and IDScan were all breached in 2024-26. IDScan reported 150M+ licence scans stolen in Sept 2026. Ofcom and state AGs judge platforms on 'reasonable steps', so the platform owns its vendor's failure.",
+ "solution": "Recruit a few hundred paid 'canary humans' with unique emails, phones, addresses and ID numbers, and enrol them in the customer's live verification flow with the customer's consent. Then run scheduled tests: deletion requests, access requests to the vendor and its sub-processors, and monitoring of breach dumps, data-broker files, phishing and spam lists and dark-market listings for canary-unique strings. The deliverable is a quarterly retention and leakage attestation with evidence, usable in vendor contracts, cyber-insurance applications and regulator files. It also produces a public 'retention half-life' benchmark by vendor.",
+ "why_now": "IDScan's Sept 2026 breach (150M+ licences) and the Persona, AU10TIX and Discord-vendor incidents showed that certified vendors leak. The EU's 31 Dec 2026 age-verification rollout deadline will push thousands more sites to outsource checks. Ofcom has opened 90+ investigations and issued fines. The Delve scandal (Mar-Apr 2026) showed that paper compliance is not proof.",
+ "revenue_model": "$25-100k per year per platform per vendor tested, an insurer portfolio programme (per-insured fee), and a breach-forensics retainer. Later add an efficacy-proof product for privacy-removal services.",
+ "non_obvious_insight": "Compliance automation (Vanta is at roughly $300M ARR) certifies that controls exist on paper, and nobody tests outcomes. A verifier's product is a promise to forget, and the only way to audit a promise about data is to plant traceable data and watch where it surfaces. Security calls these honeytokens and direct marketers call them seed lists, but nobody has applied the trick to verification vendors.",
+ "first_30_days": "Recruit 50 privacy-minded volunteers at $100-200 each with signed consent and a legal review (no fake IDs, real people only). Pitch three mid-size dating, gig or cannabis-tech platforms and one cyber MGA. Offer a free 90-day pilot against one vendor under NDA. Publish an anonymised benchmark from the pilot to generate inbound.",
+ "outside_box_score": 8,
+ "source": "idea:trust-verification:all4",
+ "kind": "idea",
+ "id": "I1075"
+}

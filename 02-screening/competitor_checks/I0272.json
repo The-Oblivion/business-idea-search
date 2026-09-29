@@ -1,0 +1,59 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "Seven-Eleven Japan AI ordering plus HQ-led markdown (Eco da Ne)",
+   "url": "https://www.nikkei.com/article/DGXZQOUC1712R0X10C24A4000000/",
+   "what_they_do": "HQ-supplied AI order proposals at all stores since 2023 (https://www.nikkei.com/article/DGXZQOUC069680W3A100C2000000/). Since May 2024 HQ pushes markdown alerts and green stickers (20/30/50/100 yen) on about 300 items about 2 hours before expiry. Covers the same two outputs (order quantity, markdown timing) but is controlled by HQ and not optimized for owner payoff.",
+   "scale_or_funding": "All roughly 21,000 Seven stores. Incumbent feature.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Lawson AI.CO (ordering plus AI markdown recommendation)",
+   "url": "https://newswitch.jp/p/39768",
+   "what_they_do": "Recommends assortment and order quantities, and recommends markdown timing and amount for items nearing expiry. Nationwide rollout completed 2024 (https://kokusaishogyo-online.jp/2024/02/105105). Aimed at food-loss reduction, not owner take-home.",
+   "scale_or_funding": "About 14,500 stores. Incumbent feature.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "FamilyMart AI Recommend Ordering",
+   "url": "https://www.family.co.jp/company/news_releases/2025/20250710_01.html",
+   "what_they_do": "HQ AI giving day, delivery-slot and item-level order recommendations, with a model-store feature. Started June 2025 in 500 stores and expanding. Claims about 6 hours per week of labor saved.",
+   "scale_or_funding": "Rolling out nationally. Incumbent feature.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Sinops (sinops-CLOUD AI markdown) with Sato",
+   "url": "https://www.cloud.sinops.jp/product/discount/",
+   "what_they_do": "Subscription AI that sets markdown rate and timing for deli and bakery and prints stickers. Live in all 26 Fujimi supermarkets (https://www.nikkei.com/article/DGXZRSP704343_T10C26A3000000/). Sells to supermarket chains, not convenience-store franchisees.",
+   "scale_or_funding": "Sinops is listed on TSE Growth (4428). Sato is an established labeling vendor.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Wasteless / Afresh / Shelf Engine (Crisp)",
+   "url": "https://www.wasteless.com/",
+   "what_they_do": "Western fresh-food AI. Wasteless does dynamic markdowns (640 stores live), Afresh does fresh ordering, Shelf Engine does guaranteed-sale ordering. All sell to the retailer and inherit the retailer's payoff. No Japan convenience-store franchisee product found.",
+   "scale_or_funding": "Afresh raised $34M in April 2026 (https://www.afresh.com/resources/press-release/afresh-raises-34m), 12,500+ departments. Shelf Engine acquired by Crisp in March 2025.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Too Good To Go Japan (with FamilyMart)",
+   "url": "https://www.prnewswire.com/news-releases/worlds-largest-marketplace-for-surplus-food-too-good-to-go-launches-in-japan-302672081.html",
+   "what_they_do": "Surplus-food marketplace launched in Tokyo January 2026 with FamilyMart and NewDays. A demand-side outlet for near-expiry stock, not an ordering or payoff tool.",
+   "scale_or_funding": "About 80 launch partners in Japan. Global scale of hundreds of millions of meals.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Convenience Store Franchisee Union (Okayama) plus ex-HQ consultants and owner-consultants",
+   "url": "https://www.cvs-union.net/p/17/",
+   "what_they_do": "Union publishes free markdown know-how and coaching on defending markdowns against HQ pressure, with no calculators. Its collective bargaining case ended in a Supreme Court loss in July 2023 (https://www.nikkei.com/article/DGXZQOUE1399D0T10C23A7000000/). Ex-Seven OFC managers consult for owners (https://web-repo.jp/blog/1672). Owner-operator Fukita Sogo (https://note.com/fukita_ai/n/nf0af06d8f837) sells AI consulting to SMEs in Mie and Shiga and writes about HQ conflict of interest.",
+   "scale_or_funding": "Small. No funding. Advice and community, not software.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "No product found that is an independent owner-side payoff engine for Japanese convenience-store franchisees. Searches in Japanese and English returned no startup, SaaS or app that (a) uses the owner's actual royalty tier and disposal-share contract terms to compute order levels, (b) sets markdown timing from the owner's payoff, or (c) audits HQ AI recommendations against the owner's interest. HQ tools (Seven, Lawson, FamilyMart) cover order and markdown outputs but are HQ-controlled and aimed at waste or sales, not owner take-home. Supermarket AI-markdown vendors (Sinops/Sato, Wasteless) sell to retailers, not franchisees. The union and ex-OFC consultants give advice with no calculators or automation. The unserved wedge is: HQ says X, your own contract math says Y, the yen difference is Z, plus contract-aware multi-store economics. Caveats: (1) Seven-Eleven's new contract (announced June 2026, effective autumn 2027) raises HQ's disposal-loss share from 15% to 50% (with a cap), lowers charge to 53%/67%, applies only to newly opened stores with no conversion planned for existing stores (https://www.ryutsuu.biz/strategy/s061915.html, https://www.watch.impress.co.jp/docs/news/2118977.html). At 50/50 the owner critical ratio rises from about 22% to roughly 36%, so the asymmetry mostly fades on new-contract stores but persists on legacy stores for years. (2) Seven's HQ-led markdown push since 2024 partly commoditizes the markdown clock. (3) The 22% vs 70% math checks out for the 85/15 split, but contract terms differ by chain (Lawson subsidy formula is more complex, FamilyMart is about 15%), so each chain needs its own model. (4) Franchise-agreement limits on data use and third-party tools were not verified.",
+ "evidence_of_demand": "Strong evidence of the problem, weak evidence of willingness to pay for software. Structural pain is documented: disposal is excluded from the gross profit royalties are charged on, owners bear roughly 80-100% of disposal loss, and HQ profits more from disposal than markdown (https://toyokeizai.net/articles/-/653166, https://news.yahoo.co.jp/expert/articles/8f2ed94d4b1d69cf2fdc46e166d60e5c3b0175e4). The Yahoo article documents HQ telling owners not to apply stickers, tied to multi-store approval and renewal fears. Owners lose about 10,000-20,000 yen a day to food loss (https://medium.com/@jacobprakoso/optimization-of-food-loss-in-japan-convenience-stores-solver-model-857eb392cd28), and an Aichi University paper puts it at about 4.68M yen of food discarded per store per year (https://leo.aichi-u.ac.jp/~keisoken/research/journal/no117/a/001-117_KIMURA.pdf), which makes the 80-100k yen per month savings claim plausible. Labor squeeze: Osaka minimum wage rises 54 yen to 1,231 yen on 1 Oct 2026 (https://jsite.mhlw.go.jp/osaka-roudoukyoku/news_topics/press20260731_00002.html), and Diamond obtained a Seven internal simulation showing franchisee profit falling to about one third if wages rise with flat sales and margin (https://diamond.jp/articles/-/374011). The HQ AI ordering conflict of interest and fear of OFC retaliation are publicly discussed (https://note.com/fukita_ai/n/nf0af06d8f837, https://www.arc-hack.com/blog/convenience-store-ai-challenges/). HQ itself conceded the point by moving disposal share from 15% to 50% in the new contract (https://www.ryutsuu.biz/strategy/s061915.html), and METI runs a convenience-store review panel (https://www.meti.go.jp/policy/economy/distribution/2024fu_konbini_kentokai.pdf). Existing workaround spend: ex-HQ consultants serve owners (https://web-repo.jp/blog/1672, https://yamato-consulting.jp/management/convenience/), the union shares markdown know-how (https://www.cvs-union.net/p/17/), and a tool comparison cites a few tens of thousands of yen per month for small store AI tools (https://ai-keiei.shift-ai.co.jp/convenience-store-ai-tools/). Not found: any evidence owners pay a SaaS or gain-share fee to a third party for this, any RFP, or any franchisee-association purchasing program. The union is Okayama-based and lost its 2023 Supreme Court case, so the Osaka union channel is unverified.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Reposition from an ordering advice bot to an owner-side contract-economics and HQ-recommendation audit tool for multi-store Seven, Lawson and FamilyMart owners, where HQ tools cannot go. (1) Lead with a diff engine, not a competing AI: ingest the HQ AI's recommended order or markdown (from the printout or terminal screenshot) and show per item and delivery slot the expected yen gap between the HQ suggestion and the owner-payoff optimum under that store's own contract. The output doubles as the why-I-ordered-less printout for OFC meetings, lowers retaliation risk, and avoids the crowded better-AI-ordering space. (2) Make it contract-aware across a mixed portfolio: Seven's new C-type contract from autumn 2027 (50/50 disposal share, 53%/67% charge, no conversion of existing stores) means owners who add stores will run stores on different disposal shares and royalty schedules. Give each store its own critical ratio, and help the owner decide whether to open the next store on new terms or keep growing legacy stores, a multi-million-yen decision no HQ tool will help with. (3) Assume the ordering wedge shrinks over time and build toward durable assets: true hourly wage after royalty, contract-exit and renegotiation math, renewal-timing modelling, and anonymized peer benchmarks. Favor a flat monthly fee for audit and P&L, keeping gain-share only where a documented baseline exists. (4) Verify before building: read the franchise agreement clauses on confidentiality and third-party data use, confirm Lawson and FamilyMart subsidy formulas, confirm a handful of owners will pay, and distribute through owner associations, accountants and franchise lawyers who already serve owners rather than relying on the small Okayama-based union."
+}

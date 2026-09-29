@@ -1,0 +1,77 @@
+{
+ "title": "Referee Sampling for Black Mass and Battery Scrap",
+ "one_liner": "Independent sampling and assay of black mass lots, using Pierre Gy's Theory of Sampling from mining, so scrap sellers and recyclers stop fighting over 5-15% payable swings.",
+ "customer": "Battery-scrap sellers who are paid by assay: gigafactory scrap desks, EV and ESS dismantlers, and shredder pre-processors in Germany, Poland, the US Midwest, Ontario and Korea. Buyers are hydromet recyclers and trading houses that want defensible acceptance. Whoever needs the settlement pays $1.5-4k per lot or $15-40 per tonne, and often splits it.",
+ "problem": "Black mass is a worst-case heterogeneous powder: coarse Cu and Al foil flakes, plastic, residual electrolyte, graphite, and a nugget effect for Ni, Co and Cu. Payables are computed on the assay of a few grams. Anyone from mining knows 90% or more of assay error is sampling error (fundamental, segregation and grouping errors), not lab error. Sellers and buyers each sample their own way and get 5-15% differences on Ni, Co and Li. Disputes are settled by splitting the difference or sending to an 'umpire' lab that repeats the same bad sampling. On a $60-150k lot, that swing is $5-15k of pure noise, paid to whoever wins the argument. The industry's chemists treat it like a homogeneous chemical.",
+ "solution": "Build a containerised, safety-rated sampling and sample-prep station (dryer, rotary divider, splitter, pulverizer, inert handling) and a written ToS-based protocol: incremental sampling from a falling stream or drum auger, particle-size and moisture control, and duplicate-sample bias checks. Send splits to an accredited lab and issue a 'referee certificate' with a stated sampling variance. Provide a two-line settlement clause template that buyer and seller adopt (for example, 'referee result binds') and tie lot IDs to the recycled-content and material-recovery documentation the EU Battery Regulation requires. Extend later to PCB e-waste, catalyst scrap and mixed copper scrap.",
+ "why_now": "Black mass volumes are ramping with European and US gigafactory ramp-up scrap (often 10-30% early yield loss). EU regulation is pushing black mass toward hazardous-waste treatment and export limits, and Battery Regulation recovery and recycled-content rules are phasing in. Several Western recyclers restructured or were bought out in 2025 (Li-Cycle into Glencore, for example), so sellers now fear counterparty and assay risk. Payables have become the main margin lever as Co and Ni prices swing.",
+ "revenue_model": "Per-lot referee fee ($1.5-4k) or $15-40 per tonne, annual retainers for large scrap generators, leasing or operating sample-prep stations at recycler gates, and certification and training for recyclers' in-house sampling.",
+ "non_obvious_insight": "The fight looks like an assay-accuracy problem but it is a sampling problem, and the solution is 1950s-1990s sampling theory that only mining and metallurgy people internalise. Recycling companies are staffed by chemists and process engineers who sample like it is a solution. A person who has been burned by a bad grade-control sample sees the whole market as one giant unsampled stockpile.",
+ "first_30_days": "Rent time on a commercial sample-prep lab or buy used splitting and pulverizing gear (about $40-60k). Offer a free duplicate-sampling study to three scrap generators or dismantlers: take 10 lots, sample each with the seller's method and yours, and send blind splits to two labs. Show them the between-protocol bias, then sell a 6-month referee retainer. A local mining-lab partner and one senior sampling consultant give instant credibility.",
+ "outside_box_score": 7,
+ "source": "persona:p0-9",
+ "kind": "persona",
+ "id": "I1326",
+ "tournament": {
+  "score": 1.004,
+  "overall_rank": 20,
+  "cluster": "Recycling quality, distressed capacity and battery/EPR compliance",
+  "judge_notes": [
+   "contrarian: rank 1/25 - Real non-obvious insight: mining sampling theory applied to chemist-run scrap. Cheap proof via duplicate-sampling study; neutral-referee trust is defensible.",
+   "vc: rank 2/25 - Sharp, contrarian insight (sampling error, not lab error); cheap to start; referee becomes a settlement standard.",
+   "operator: rank 4/25 - Real $5-15k per-lot disputes and genuine sampling-theory insight; concentrated buyers, credibility depends on founder."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "SGS (independent inspection, sampling and assay)",
+    "url": "https://www.sgs.com",
+    "what_they_do": "Global inspection and testing major with a commodities and minerals division that runs independent sampling, weighing, sample prep and assay for concentrates, scrap and, from my background knowledge, battery materials and black mass. UNVERIFIED this session: the site returned 403 and the search budget was exhausted. This is the most likely incumbent to already offer black-mass sampling plus assay, though probably under generic ISO-style or contract-specific protocols and not a Gy/TOS-based variance-certified referee product.",
+    "scale_or_funding": "Public company; roughly CHF 6-7bn annual revenue (background knowledge, not verified this session)",
+    "overlap": "direct"
+   },
+   {
+    "name": "Bureau Veritas / Inspectorate (commodities inspection)",
+    "url": "https://group.bureauveritas.com",
+    "what_they_do": "Inspectorate is the metals and minerals inspection arm. Its business is umpire-grade sampling and analysis for traded metals and ores. From background knowledge it markets black mass and battery-material sampling and analysis. UNVERIFIED: the group homepage I fetched had no black mass mention, and a guessed black-mass URL returned 404.",
+    "scale_or_funding": "Public company; roughly EUR 6bn revenue (background knowledge, not verified this session)",
+    "overlap": "direct"
+   },
+   {
+    "name": "Intertek (Caleb Brett / minerals and battery testing)",
+    "url": "https://www.intertek.com",
+    "what_they_do": "Testing and inspection major with commodity inspection and a battery testing business. Plausibly offers black mass sampling, assay and inspection at ports and recycler gates. UNVERIFIED: the site returned 403.",
+    "scale_or_funding": "Public company; roughly GBP 3bn+ revenue (background knowledge, not verified this session)",
+    "overlap": "direct"
+   },
+   {
+    "name": "Alex Stewart International",
+    "url": "https://www.alexstewartinternational.com",
+    "what_they_do": "Independent commodity inspection, sampling and assay group. I fetched the site: it lists lab testing of ores, concentrates, minor metals, PGMs, ferro-alloys and 'recycled scrap metal', with no explicit black-mass or battery-scrap page. It is a natural umpire-lab candidate for black mass disputes and a likely channel partner or competitor.",
+    "scale_or_funding": "Private; scale not verified",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "ALS Global (assay and inspection)",
+    "url": "https://www.alsglobal.com",
+    "what_they_do": "Large mining and commodities assay lab group. The battery-materials page I guessed returned an error page, so nothing about black mass is verified. It is the type of lab that would run the assay leg of a referee scheme, and is more likely a partner than a competitor.",
+    "scale_or_funding": "Public company; scale not verified this session",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Sampling equipment vendors (Multotec, Metso and similar)",
+    "url": "https://www.multotec.com",
+    "what_they_do": "Sell industrial cross-stream and falling-stream samplers, rotary dividers and sample-prep plant to mining and metallurgy customers. They do not sell an independent referee service. They are relevant because they could supply or copy the hardware part of the idea. Background knowledge only, not verified this session.",
+    "scale_or_funding": "Established industrial equipment companies",
+    "overlap": "adjacent"
+   }
+  ],
+  "white_space": "Provisional, because the research was severely constrained: the session's WebSearch budget (200 calls) was exhausted before any search ran, and the direct fetches of incumbent sites returned 403, 404 or no relevant content. Nothing below is web-verified. Likely unserved: (1) A sampling-variance-certified referee product, meaning a Gy/TOS-based protocol with a stated sampling variance, heterogeneity characterisation (variography, sampling nomogram) and a binding-settlement clause. Inspection majors sell 'independent sampling and assay' as a commodity service, but I found no evidence that they publish or guarantee sampling uncertainty for black mass. (2) On-site, containerised, inert-atmosphere sample prep at the recycler or gigafactory gate. Black mass is being pushed toward hazardous-waste treatment in the EU, which makes shipping bulk samples to distant labs harder. (3) Tying lot-level sampling data to EU Battery Regulation material-recovery and recycled-content documentation. The main risk is that SGS, Bureau Veritas/Inspectorate, Intertek or Alex Stewart already offer black-mass sampling and umpire assay and would call this an existing service. The whole wedge depends on their protocols being meaningfully worse than TOS practice, which is unproven and is exactly what the free duplicate-sampling study would test.",
+  "evidence_of_demand": "None verified this session. The search budget was exhausted before any query ran, and the fetches of RFPs, forums or competitor pricing yielded nothing usable. Background-knowledge indicators only, which I could not confirm: the EU Battery Regulation (EU) 2023/1542 (https://eur-lex.europa.eu/eli/reg/2023/1542/oj, my fetch returned empty) sets recycling-efficiency, material-recovery and recycled-content requirements that force mass-balance documentation. Black mass is widely traded on payables tied to Ni/Co/Li assay, and umpire-lab clauses in offtake contracts are common in metals trading, which suggests sellers and buyers already pay for third-party assay. The claim of 5-15% between-party assay differences and the willingness to pay $1.5-4k per lot comes from the idea file itself and is unvalidated. Before building, validate with 5-10 conversations with scrap desks and recyclers, and by checking whether existing supply contracts already name an inspection company as umpire.",
+  "kill": false,
+  "kill_reason": "n/a. The evidence does not support a kill, but it does not support confidence either. No verified dominant incumbent offers a TOS-rigorous, variance-certified black mass referee product, but the research could not rule out that the major inspection companies already sell black-mass sampling and umpire assay. Treat this as 'gap, unverified'. Rerun the existence check with web search budget restored before committing capital.",
+  "sharper_angle": "Do not compete head-on with SGS, Bureau Veritas or Intertek as a fourth inspection company, and do not lead with the $40-60k station. Sell 'sampling uncertainty' as the product, aimed at the party who loses on payables. (1) Start with the free duplicate-sampling study of 10 lots, which tests the premise of a 5-15% between-protocol bias cheaply and yields the sales evidence. (2) Package the output as a heterogeneity and sampling-variance audit (Gy nomogram, variography, duplicate-sample bias checks) plus a published referee protocol and a two-line contract clause that names a sampling variance limit. Sell it to gigafactory scrap desks and dismantlers, who are paid by assay and have the most to gain. (3) Position the protocol as the standard the inspection majors and umpire labs run, licensing or certifying their sampling crews and the recyclers' own, so the majors become channel partners and not rivals. (4) Add containerised gate-side prep only after a paying anchor customer, and target the EU hazardous-waste shipping constraint as the reason for on-site sample prep. (5) Feed the lot-level sampling data into EU Battery Regulation material-recovery and recycled-content reporting to make the service recurring and compliance-driven. Pick one corridor first, for example Germany and Poland scrap to hydromet recyclers."
+ }
+}

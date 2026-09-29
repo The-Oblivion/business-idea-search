@@ -1,0 +1,52 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "PayHOA",
+   "url": "https://www.payhoa.com/pricing",
+   "what_they_do": "Verified this session. Self-serve HOA software for self-managed associations and small property managers: online dues payments, accounting and budgets, violations, document storage, voting, mass messaging. Its site never mentions road associations or private roads, and it has no bid procurement, reserve planning or lien tooling.",
+   "scale_or_funding": "Claims 6,000+ communities. Self-managed plans start at $49/month billed annually for 0-25 units, which is about $2 per household per month against the idea's $12-25. Funding not found (site cites TechCrunch, USA Today and Inc. coverage). This is the main price anchor for the dues-admin layer.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Mainstream HOA and community-association platforms (Buildium, AppFolio, FrontSteps, Vantaca, CINC and similar)",
+   "url": "https://www.buildium.com/",
+   "what_they_do": "Not verified this session: my Buildium fetch returned 404 and I did not fetch the others. From prior knowledge they are HOA and property-management software for incorporated associations with managers. They are the incumbents that could add a small-road-association tier, but they are not aimed at 5-60 home gravel-road groups.",
+   "scale_or_funding": "Established, well-funded vendors (unverified here)",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "DIY legal templates and local real estate attorneys (Nolo, US Legal Forms, LegalZoom-style forms, local attorney drafting)",
+   "url": "https://www.nolo.com/legal-encyclopedia/private-road-maintenance-agreement.html",
+   "what_they_do": "Not verified: Nolo returned 403 and US Legal Forms returned 410. From prior knowledge, the maintenance agreement itself is a commodity. Attorneys draft and record road maintenance agreements as a routine closing task, and templates are cheap. The idea's $1,500-3,000 formation fee competes with these, and the attorneys it wants as referral partners are also its substitute.",
+   "scale_or_funding": "Fragmented; many small law firms plus national form sites (unverified)",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Public alternatives: state road-association statutes and county road or special-assessment districts",
+   "url": "https://www.mainelegislature.org/legis/statutes/23/title23sec3101.html",
+   "what_they_do": "Verified for Maine. Under Title 23 section 3101, owners of 4 or more parcels on a private road can hold a notary-called meeting, vote one vote per parcel, elect a commissioner or board, set fair-and-equitable assessments and award contracts. Board members get civil-liability immunity. This makes formation a DIY-able statutory process, but the excerpt I retrieved says nothing about lien enforcement. I did not verify county road districts (for example Montana RSIDs), only recall them.",
+   "scale_or_funding": "Government or statutory, no vendor",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "NC Emergency Management Private Road and Bridge Program (post-Helene)",
+   "url": "https://www.ncdps.gov/Helene/PRB",
+   "what_they_do": "Verified. Funds repair of Helene-damaged private roads, bridges and culverts, prioritizing sole-access roads and roads serving multiple homes. Community groups must name a single point of contact, and the state works with HOAs or community managers. There is a 50% cost share with the HOA for construction, and applicants need proof of ownership and residency. It is a demand signal and a possible funnel, not a competitor.",
+   "scale_or_funding": "$175M in the Disaster Recovery Act of 2025, of which $25M is set aside to reimburse 50% of costs to homeowners and HOAs. Interest-form deadline was Sept 1, 2025 and reimbursement applications closed Feb 28, 2026.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Unidentified local road-association managers, bookkeepers and HOA management firms",
+   "url": "none found",
+   "what_they_do": "Could not be enumerated: my WebSearch budget (200 of 200) ran out before I searched, and guessed vendor URLs mostly 404'd or failed DNS. Small regional firms that keep books, collect dues and hire plowers for road associations very likely exist, particularly in Maine, Vermont, New Hampshire and Washington. This is the biggest gap in my research.",
+   "scale_or_funding": "unknown",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Tentative. Coverage was thin, so absence of a dedicated venture-backed product is not proven. What I found unserved:\n1. No product I could find bundles the closing-triggered legal package (state-specific maintenance agreement, county recording, a lightweight entity) with the ongoing administration for informal neighbor groups. PayHOA covers dues admin generically and cheaply; the statutes and the law-firm and forms market cover formation; nobody stitches them together for the 5-60 home private road.\n2. Competitively bid, pooled procurement of plowing and gravel across many associations. I found no tool for it.\n3. Storm-damage documentation and an organized entity ready for state or FEMA private-road aid. NC's program required a single point of contact, ownership proof and a 50% HOA cost share, so unorganized roads were poorly placed to claim.\n4. The transaction-channel distribution (attorneys, title agents and listing agents at a stalled closing) looks unowned by software vendors.\n\nWeak points:\n- The recurring $12-25 per household per month is 6-12 times PayHOA's roughly $2 per household.\n- Lien-based enforcement is state-dependent. NC's G.S. 136-102.6 only requires disclosure of who maintains private streets, and my Maine excerpt covered assessment authority but not liens.\n- Holding dues float triggers trust-accounting and money-handling rules.\n- The 5-8% procurement fee creates a conflict of interest.",
+ "evidence_of_demand": "Partial and mostly indirect.\n- Verified: NC's Helene Private Road and Bridge Program (https://www.ncdps.gov/Helene/PRB) shows governments will pay for private-road repair but only through an organized counterparty. It has $175M in the Disaster Recovery Act of 2025, $25M reserved for 50% reimbursement to homeowners and HOAs, a single point of contact for community groups, a 50% HOA cost share, and proof-of-ownership requirements. The application windows have closed, so this validates the pain rather than a live funnel.\n- Verified: Maine Title 23 section 3101 (https://www.mainelegislature.org/legis/statutes/23/title23sec3101.html) creates a statutory road-association mechanism for 4 or more parcels, so the formation problem is real enough for legislatures to have addressed it. It also makes formation self-serve.\n- Not verified this session, from prior knowledge: the claim that lenders and title insurers (FHA, Fannie Mae, Freddie Mac) require a legally enforceable maintenance agreement for private-road access. My fetches of HUD, Fannie Mae and Freddie Mac pages failed or returned nothing usable, so the founder should confirm this directly. Willingness to pay for forum complaints, closing-rescue fees or RFPs is also unverified because I could not search.",
+ "kill": false,
+ "kill_reason": "n/a. Research was constrained: the WebSearch budget was exhausted before any search ran, so the verdict rests on about 25 direct page fetches and prior knowledge. The one verified adjacent competitor (PayHOA) does not target road associations and I found no dedicated road-association product, so this is not dominated or crowded. Re-run this check with web search before committing capital.",
+ "sharper_angle": "Do not lead with dues software or a procurement fee, because PayHOA already anchors dues admin at about $2 per household per month. Lead with a closing-rescue product sold through real estate attorneys and title agents. It would be a white-label, per-closing, flat-fee package: a state-specific maintenance agreement, a county recording, a light entity or statutory association filing, and a road-condition and cost-share record. Start in one state whose statute supports assessments (Maine's Title 23 section 3101 is verified). Pair it with a storm-readiness bundle: a pre-formed association with a named point of contact, ownership documentation and a cost-share mechanism, which is exactly what NC's Helene private-road program demanded. Treat dues collection as a thin integration with existing tools such as PayHOA rather than something to build. Add pooled contractor bidding later, once a county has 30 or more associations. The moat is the attorney and title-agent referral channel plus state-by-state legal templates, not the software. Test first whether attorneys will refer these closings instead of drafting the agreement themselves."
+}

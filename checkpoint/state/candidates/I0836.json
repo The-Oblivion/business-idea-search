@@ -1,0 +1,16 @@
+{
+ "title": "Air-Permit Unlock for Idle Data Center Diesel",
+ "angle": "contrarian",
+ "one_liner": "Turn the ~55 GW of idle data center backup generators into dispatchable capacity by solving the air-permit problem instead of the hardware problem.",
+ "customer": "Colo and hyperscale operators in PJM (Northern Virginia, Ohio, Illinois) with 20-500 MW of backup gensets. Secondary buyers are utilities and capacity buyers who need fast MW.",
+ "problem": "Data centers hold about 55 GW of backup diesel (Virginia alone has about 27 GW permitted), and it runs 10-30 minutes a month. PJM cleared 6.8 GW short and wants large loads to bring their own capacity or be curtailed. Air permits cap non-emergency run hours, so nobody can legally count these engines as capacity.",
+ "solution": "Fixed-price 'permit-to-dispatch' packages. They cover a state-specific permit modification strategy (run-hour caps, synthetic-minor limits), engineering and financing for emissions retrofits on the subset of engines that need them, and paralleling/telemetry upgrades. Enrollment in PJM's on-site backup (IRAS-style) and demand-response programs comes with third-party measurement and verification. Runtime is capped at a few dozen to ~100 hours a year, dispatched only in system emergencies, with community disclosure built in.",
+ "why_now": "PJM's July auction shortfall, the proposed backstop auction (15-year terms, $555/MW-day cap) and the curtailment-or-bring-capacity rule make backup generation valuable for the first time. Turbines are sold out until 2029-30, so this fleet is the only large block of capacity that exists today.",
+ "revenue_model": "$40-150k fixed fee per site for permit and engineering work, plus 10-20% of the first five years of capacity revenue. At the $325/MW-day cap a 20 MW fleet is worth very roughly $1.5-2M a year after derating, so the fee is easy to justify. Retrofit financing adds a spread.",
+ "non_obvious_insight": "The cheapest big block of new PJM capacity is not new. It is already built and sitting behind a fence, and the barrier is air-permit lawyering that VC-backed hardware companies ignore. A repeatable per-state permit playbook is the moat. Emergency-only runtime is why it works: at under 1% of hours, the capacity value dwarfs the emissions.",
+ "first_30_days": "Pull public Title V and minor-source permit files for ~30 colo sites in VA, OH and IL. Build a 'permit headroom map' showing run-hour caps and engine tiers. Retain one air-permitting consultant. Offer 25 facility and sustainability leads a $15k fixed-fee dispatch-readiness audit of a 20+ MW fleet and aim to close two paid pilots.",
+ "outside_box_score": 8,
+ "source": "idea:energy-grid:all4",
+ "kind": "idea",
+ "id": "I0836"
+}

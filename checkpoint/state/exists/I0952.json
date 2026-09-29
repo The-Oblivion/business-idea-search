@@ -1,0 +1,73 @@
+{
+ "status": "crowded",
+ "competitors": [
+  {
+   "name": "Sekond (Evergreen Liquidity Monitor, Sekond Ratings, Research Platform)",
+   "url": "https://sekond.co/pricing",
+   "what_they_do": "Boston startup founded Nov 2024 by Rasmus Goksor, who previously co-founded Cobalt and Bison (acquired by Hamilton Lane and FactSet). Aimed at the same buyer: wealth advisors, home offices and sponsors. Launched a FREE liquidity monitor for advisers in April 2026 with a redemption supply-and-demand tracker, redemption calendar, redemption waterfall analysis, a 'liquidity runway' metric, news and alerts, and liquidity profiles for 50+ funds. Paid tiers are $499/mo per user (140+ funds, fund comparison, quality-of-return, fee modeling, XLS downloads, AI assistant) and Enterprise from $20K/yr (API, MCP connector to Claude/OpenAI/Copilot). Also publishes quarterly runway benchmarks and evergreen fund ratings. Its runway metric is supply-side only (cash, credit facilities, net income). I found no gate-probability forecast, fill-rate forecast, shadow NAV or 'request X, get Y' calculator. Closest overlap: same buyer, same price point ($499/mo vs. the idea's $400 to $1,500/mo), same API and platform channel, and the free tier undercuts the tracker.",
+   "scale_or_funding": "Funding amount not disclosed; 'support from world-class investors'. Claims trusted by 50 wealth teams and 15 fund sponsors, research teams representing over $100B AUM, and 140 to 148 funds tracked (about $450B net assets). Covered by InvestmentNews and PR Newswire.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Trading Market Signals: Private Credit Redemption Monitor",
+   "url": "https://tradingmarketsignals.com/private-credit-redemption-monitor/",
+   "what_they_do": "Free per-fund table for non-traded BDCs, interval funds and tender-offer funds sold through wealth platforms: quarterly cap, latest requests as % of shares, fill rates, payout outcomes and NAV signals (discounts, writedowns). It avoids ratings but computes an 'exit clock', the number of quarterly windows needed to recover 90% of capital at the current fill rate (4 to 7 quarters). It is backward-looking, with no forecast of the next tender. The exit clock is a rough cousin of the 'if I request X, expect Y' calculator.",
+   "scale_or_funding": "Operator describes itself as an independent AI-native wealth intelligence platform founded 2020; funding not disclosed; monitor is free.",
+   "overlap": "direct"
+  },
+  {
+   "name": "EvergreenLink (Institutional Link Inc., the SecondaryLink team)",
+   "url": "https://finance.yahoo.com/news/team-behind-secondarylink-launches-market-143000541.html",
+   "what_they_do": "Launched Feb 2026. Market-intelligence platform for semi-liquid evergreen funds ('40 Act interval and tender-offer, BDC, REIT, 3(c)(7)) selling to wirehouses, RIAs, family offices, platforms and managers. Tracks holdings, capital flows (subscriptions, redemptions, distributions), returns and fund reference data, with web, Excel and API delivery. Covers hundreds of funds and over $250B in assets. Not a forecast product, but it competes for the same platform and API buyer.",
+   "scale_or_funding": "Funding and pricing not disclosed; CEO Brian McGrath.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Blue Vault Partners",
+   "url": "https://bluevaultpartners.com/who-we-are/nontraded-bdc-research/",
+   "what_they_do": "Independent research house since 2009 selling subscriptions (the 'Vault' portal: 1,500+ research pages, 18+ quarterly reviews) to broker-dealers and RIAs on non-traded REITs, BDCs, interval and tender-offer funds. Tracks repurchase history, redemption requests, NAV trends and credit quality. Descriptive only; no gate prediction found.",
+   "scale_or_funding": "Established, profitable-looking niche vendor since 2009; Crunchbase profile exists; pricing undisclosed.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Robert A. Stanger & Co. (The Stanger Report, Chairman's Report, Stanger Indices)",
+   "url": "https://www.rastanger.com/publications/the-stanger-report",
+   "what_they_do": "Incumbent (founded 1978) publisher of the industry's benchmark non-traded REIT and BDC sales-and-redemption data and total-return indices. Source of the widely cited 'requests hit 12.4% of NAV, 38% filled' figure. Sells to sponsors, broker-dealers and advisers. Owns the historical aggregate redemption dataset; descriptive, not predictive.",
+   "scale_or_funding": "Established investment bank and data publisher, 45+ years.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Interval Fund Tracker / Tender Offer Funds (Ockham Data Group)",
+   "url": "https://intervalfundtracker.com/register/tender-offer-basic/",
+   "what_they_do": "Data and research on unlisted closed-end funds (fees, launches, terms, empirical repurchase-request studies). Basic membership is $450 per YEAR, with CSV downloads and custom research. No proration or gate prediction. Useful as a price anchor: legacy data for this niche sells for a small fraction of $400 to $1,500 per month.",
+   "scale_or_funding": "Small independent operator.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Yardeni Research: Private Credit Monitor",
+   "url": "https://yardeni.com/tools/private-credit-monitor",
+   "what_they_do": "Chronology of the private-credit liquidity crisis (128 events across 9 firms) with per-fund redemption-request and cap data (e.g. Apollo ADS 14.7% requests vs 5% cap, HLEND 13.3%, Cliffwater 17%). Tracks events after the fact; no gate forecasts.",
+   "scale_or_funding": "Established independent macro research brand.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Morningstar (Medalist Rating for Semiliquid Funds, State of Semiliquid Funds report, Morningstar-PitchBook evergreen indexes)",
+   "url": "https://newsroom.morningstar.com/news/news-details/2026/Morningstar-Report-Finds-Semiliquid-Fund-Market-Nears-600-Billion-as-Private-Credit-Loses-Steam/default.aspx",
+   "what_they_do": "Incumbent adviser-research brand. Rates semiliquid funds (since May 2025), publishes liquidity and fee comparisons, and co-runs evergreen fund indexes with PitchBook. Could add liquidity-stress features to Morningstar Direct. Not currently forecasting gates.",
+   "scale_or_funding": "Public company; the semiliquid universe it covers is about $600B.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "iCapital / CAIS / Addepar (wealth-platform incumbents)",
+   "url": "https://icapital.com/insights/investment-market-strategy/bdc-redemptions-looking-beyond-the-gates/",
+   "what_they_do": "The distribution platforms where advisers buy and monitor these funds. iCapital already publishes free BDC-redemption commentary for advisers ('Looking Beyond the Gates', 'Looking Beyond the Redemptions II'); Addepar has private-fund look-through and liquidity dashboards; CAIS has an API connector for TAMPs. They are the most likely to bolt a liquidity-risk score on as a feature and are also the natural API buyers.",
+   "scale_or_funding": "Large late-stage platforms (CAIS reportedly raised a $170M Series D in July 2026).",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Descriptive tracking of redemption requests, caps, fill rates, runway and alerts is already covered, some of it free (Sekond's free tier, Trading Market Signals, Yardeni), so the tracker and paywalled alerts as pitched are not defensible. Nothing I found covers these pieces, and each is still open. (1) A forward-looking fill-rate forecast. Sekond's runway is a supply-side cash metric, Trading Market Signals' exit clock extrapolates the last fill rate, and Stanger and Blue Vault report history. Nobody publishes a next-window forecast with a timestamped track record. (2) A shadow NAV against reported NAV. Only commentary exists (Mercer Capital, LSEG, Octus, Blue Vault), plus Cox Capital's secondary bids as an implicit haircut; no product sells a per-fund adjusted NAV. (3) A decision tool for the choice advisers face now: wait through proration, or sell into a discounted mini-tender. Cox Capital has open offers at 12.5% to 35% below NAV on BCRED, HLEND, ADS, ASIF, OCIC and OTIC. I found no tool that puts expected fill, time to exit and the discount side by side. (4) Client-book-level output: per-client liquidity ladders, what to file, and compliance-file letters or memos tied to SEC exam and Reg BI liquidity-disclosure priorities. Sekond surfaces 'documents for redemption processing' but I found no client-letter or due-diligence-memo product. Cautions: the non-obvious insight (advisers over-request to offset expected proration) is already published by BofA and Khan Capital, so it is not proprietary. Binary gate probability is also low-information in this regime, because almost every large fund with requests above 10% gates at 5%; the value is in fill rate and time to exit. The category is cyclical, so the product has to extend to all evergreen wrappers (PE, real estate, infrastructure) to survive a calmer tape.",
+ "evidence_of_demand": "Real but thinner than the idea assumes, and mostly for free products. (a) The pain is documented. PitchBook reports advisers 'must rely solely on periodic communications from fund managers' and are looking for independent information (https://pitchbook.com/news/articles/private-debt-liquidity-education-wealth-advisers). Sekond's launch coverage says the same (https://www.investmentnews.com/alternatives/fintech-startup-sekond-wants-to-bolster-advisors-private-markets-arsenal-with-liquidity-monitoring-tool/265980). (b) The stress is confirmed. BCRED gated at 5% in June 2026 after requests above 10% (https://www.readthedrift.com/blackstone-bcred-redemptions-explained/). Stanger recorded Q2 non-traded BDC requests at a record 12.4% of NAV with 38% filled (https://www.privatedebtinvestor.com/non-listed-bdc-fundraising-momentum-slowing-redemption-requests-rising-stanger/). BCRED capped again in Q3 with requests near 10% (https://altswire.com/bcred-caps-q3-repurchases-at-5-as-requests-hit-4-3b-about-10-of-shares/). Blue Owl's OCIC and OTIC saw requests of 22% and 41% (https://pitchbook.com/news/articles/blue-owl-holds-bdc-withdrawals-at-5-after-redemption-requests-of-41-22). (c) Regulation is pushing spend on this. The SEC's FY2026 exam priorities stress liquidity, valuation and disclosure of illiquid products, and FINRA and Reg BI require due diligence and liquidity-risk disclosure for non-traded BDCs (https://www.sec.gov/newsroom/press-releases/2025-132-sec-division-examinations-announces-2026-priorities). (d) Existing spend and price points. Sekond lists $499/mo per user and $20K/yr enterprise (https://sekond.co/pricing) and claims 50 wealth teams and 15 sponsors, though most use the free tier. Blue Vault sells subscriptions to broker-dealers and RIAs (https://bluevaultpartners.com/who-we-are/nontraded-bdc-research/). Interval Fund Tracker charges $450 per year (https://intervalfundtracker.com/register/tender-offer-basic/). Mini-tender bidders such as Cox Capital price off listed-BDC discounts (https://altswire.com/cox-capital-launches-discounted-tender-offers-for-bcred-hlend-shares/), which shows demand for a shadow-NAV view. Missing evidence: I found no proof that RIAs pay $400 to $1,500 per month for redemption analytics. The cheapest legacy data is $450 per year and the good free tools are already out there.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Drop the tracker and the alert paywall, since Sekond, Trading Market Signals and Yardeni give that away. Build only the decision layer nobody has: a fill-rate and time-to-exit forecast plus shadow NAV, wrapped in a 'wait, tender, or sell into a mini-tender' calculator run against the adviser's actual client book. Ingest holdings from Addepar, Orion or custodian feeds. For each client, show expected fill this window, cumulative liquidity over the next 4 to 6 windows, and the expected-value comparison against live secondary bids (Cox Capital offers at 12.5% to 35% below NAV, which expire and so create urgency). Auto-generate the compliance-file letter and Reg BI liquidity-disclosure memo for each recommendation. Publish every forecast with a timestamp and score it each quarter to build a public track record, which no competitor has. Sell to RIA compliance heads and CIOs at $500 to $1,500 per month, and license the forecast API to Addepar, Orion, iCapital and CAIS, or to Sekond, instead of competing with their trackers. Widen to all evergreen wrappers so it survives a calmer market. Before building, run a two-week test: publish next-window fill-rate forecasts for about 15 funds ahead of Q4 tender results and check accuracy, then see whether 10 RIAs will pay $500 per month for the client-level output over Sekond's free tier."
+}

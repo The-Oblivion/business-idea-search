@@ -1,0 +1,87 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "KETOS (SHIELD / KELP data-center water monitoring)",
+   "url": "https://ketos.co/data-centers-water-quality",
+   "what_they_do": "Continuous water-quality monitoring plus chain-of-custody lab testing. Their data-center page pitches 'the missing baseline': independent measurement at wells, outfalls and streams before and after a facility is built. Buyers named are operators, utilities and residents. Testing packages start at $469. No neighbor payout or escrow guarantee.",
+   "scale_or_funding": "About $44.8M raised over 9 rounds (Crunchbase/CB Insights via search); latest $10M round led by Tenfore Holdings (https://igrownews.com/ketos-secures-10-million-in-funding/)",
+   "overlap": "direct"
+  },
+  {
+   "name": "Aethair (Aethair PRO, Environet, Thiamis)",
+   "url": "https://aethair.io/resources/air-quality-near-data-centers/",
+   "what_they_do": "Air-quality and noise monitoring hardware plus dashboards. They publish a data-center guide that recommends 'a baseline before construction starts' and address both operators and communities. Their platform can also ingest third-party water sensors. No guarantee or escrow product.",
+   "scale_or_funding": "Operating since 2017 in 45+ countries; reported as unfunded (PitchBook/Tracxn snippets: https://pitchbook.com/profiles/company/267793-66)",
+   "overlap": "direct"
+  },
+  {
+   "name": "Envirosuite (ASX:EVS)",
+   "url": "https://envirosuite.com/noise-monitoring",
+   "what_they_do": "Listed environmental-monitoring SaaS for airports, mines, ports and industrial sites. Offers community-facing public noise and air dashboards and resident complaint intake. Its air monitors are powered by Kunak. This is the strongest incumbent that could add a data-center 'community trust' package.",
+   "scale_or_funding": "About $59.3M revenue, 89.9% contractually recurring (https://envirosuite.com/insights/news/our-fy24-annual-report)",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Kunak",
+   "url": "https://kunakair.com/",
+   "what_they_do": "Outdoor air-quality sensor stations. Virginia DEQ placed five Kunak/APEX sensors in Loudoun 'data center alley' in Feb 2026, so this is a public-sector baseline already running.",
+   "scale_or_funding": "Established hardware vendor; supplies Envirosuite and Virginia DEQ (https://www.deq.virginia.gov/news-info/shortcuts/topics-of-interest/data-center-air-monitoring-project)",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Clarity",
+   "url": "https://www.clarity.io/blog/data-center-air-quality-monitoring-standards",
+   "what_they_do": "Low-cost networked air-quality nodes and a data-center air monitoring guide. Sells to municipalities, consultants and NGOs. No payout mechanism.",
+   "scale_or_funding": "Established venture-backed sensor company (funding not verified)",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Larson Davis and Soundtrace (acoustic monitoring)",
+   "url": "https://www.larsondavis.com/applications/environmental-noise-monitoring/data-center-noise-monitoring",
+   "what_they_do": "Professional noise-monitoring instruments and cloud compliance dashboards marketed to data centers. Soundtrace: https://www.soundtrace.com/blog/data-center-noise-monitoring-osha-compliance-guide. Commodity hardware the idea would buy, or that a consultant could bundle.",
+   "scale_or_funding": "Established instrument vendors (funding not verified)",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "CEDS (Community & Environmental Defense Services)",
+   "url": "https://ceds.org/data-center-monitoring/",
+   "what_they_do": "Non-profit that helps residents design citizen monitoring programs (noise, PurpleAir PM2.5, USGS well data) and advises that pre-construction, construction and post-construction baselines be collected. It sits on the opposition side, so it is not a neutral steward. It also says applicants should fund expert and drilling costs via payments to local government.",
+   "scale_or_funding": "Small non-profit, no listed fees",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Engineering and environmental consultancies (TRC, Salas O'Brien, Trinity, SCS)",
+   "url": "https://www.trccompanies.com/insights/understanding-noise-and-vibration-in-data-center-development-and-operations/",
+   "what_they_do": "Already sell developers baseline noise, air and hydrogeology studies as part of permitting. Salas O'Brien: https://salasobrien.com/news/data-centers-acoustics-environmental-noise-control/. They are the default vendor for the baseline layer, but they are developer-hired and therefore not trusted as neutral.",
+   "scale_or_funding": "Large incumbent firms",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Prevolt and Jambo (developer-side community-risk software)",
+   "url": "https://www.prevolt.ai/",
+   "what_they_do": "Prevolt sells community and political risk screens to infrastructure and data-center developers. Jambo sells stakeholder-relationship software for data-center community engagement (https://www.jambo.cloud/blog/build-data-center-community-support-before-public). Neither does monitoring or guarantees. They compete for the same 'social license' budget line.",
+   "scale_or_funding": "Early-stage, funding not disclosed",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Developer-run substitutes: NorthPoint $10k checks, Mason County 'Good Neighbors' buyout, Microsoft Community-First pledge",
+   "url": "https://www.tomshardware.com/tech-industry/data-centers/data-center-developer-offers-usd10-000-checks-to-4-500-households-if-the-1-300-acre-facility-is-approved-locals-push-back-over-noise-and-bribe-concerns",
+   "what_they_do": "Developers already spend directly on neighbors, with no neutral administrator and no evidence layer. Buyout: https://wchstv.com/news/local/voluntary-buyout-offers-rolled-out-for-meadowlands-estates-homes-near-data-center. Microsoft: https://blogs.microsoft.com/on-the-issues/2026/01/13/community-first-ai-infrastructure/. Residents call the lump sums a 'bribe'. This is the budget the idea would redirect, and it is not a competing product.",
+   "scale_or_funding": "NorthPoint offer: $45M across 4,500 households; Microsoft: $25M+ for Virginia water and sewer upgrades",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Eno Scientific and ParemTech (well-level sensors)",
+   "url": "https://enoscientific.com/residential-well-monitoring/",
+   "what_they_do": "Off-the-shelf well water-level loggers for homeowners, agriculture and municipalities. No data-center product. This is commodity hardware for the well-monitoring node, and it lowers the barrier for anyone copying the sensor layer.",
+   "scale_or_funding": "Small hardware vendors",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Nobody found sells the bundle, so the status is 'gap' and not 'open'. The sensor and baseline layer is not open: KETOS (about $45M raised) pitches an independent baseline for data centers, Aethair pitches pre-construction baselines, Envirosuite has community dashboards, and consultancies bundle baselines into permitting. The unserved wedge is what sits on top of the sensors. (1) A neutral administrator holding escrowed, tamper-evident data whose governance the county and community accept, unlike developer-hired consultants and unlike opposition-side groups such as CEDS. (2) The Neighbor Guarantee: an automatic, no-litigation payout to households from a developer-funded escrow when a pre-agreed trigger is hit. No vendor, insurer, county ordinance or developer program found does this. The nearest things are Franklin County, Indiana's draft rule (escrow for 24-hour emergency potable water to impacted neighbors, plus developer-funded monitoring wells), one-off buyouts and lump-sum checks. (3) A 10-year, multi-parameter (wells, noise, PM2.5, voltage) record packaged as a permit-condition template that regulators can adopt. Weak points: the sensor baseline will commoditize; attribution is hard, because well drawdown from drought or other pumping is indistinguishable from data-center drawdown unless the design uses upgradient control wells and pumping records; automatic payouts may look like insurance under state law; and developer counsel may resist a pre-committed payout as an admission of liability. Note: the web-search budget ran out before I could check Crunchbase/YC directly for a startup doing exactly the escrow-plus-parametric bundle, so 'nobody found' means no evidence in about 25 searches, not proof of absence.",
+ "evidence_of_demand": "Strong on policy pull and on the problem, thin on proof anyone pays for the exact bundle.\n- Regulators are writing developer-funded independent monitoring into rules. Franklin County, IN draft ordinance: developer-paid real-time monitoring wells, a licensed-hydrogeologist impact assessment, and an escrow for 24-hour potable water to impacted neighbors (https://www.franklincounty.in.gov/wp-content/uploads/2026/03/Data-Center-Regulations-Draft-v3.0-03.30.26-1.pdf and https://citizenportal.ai/articles/8103901/indiana/franklin-county/franklin-county-workgroup-seeks-strict-water-protections-for-proposed-data-centers). Shenandoah County, VA officials back independent third-party testing funded by the applicant (https://citizenportal.ai/articles/9504403/virginia/shenandoah-county/officials-ask-stronger-noise-air-quality-monitoring-and-enforcement-for-future-data-centers). St. Louis's permit requires an annual third-party noise report and a developer-funded hydraulic model study (https://www.stlouis-mo.gov/government/departments/mayor/news/data-center-permit-approved.cfm).\n- A live baseline-less dispute: Meta's Newton County, GA neighbors say their wells went dry or silted up. Meta's own study says groundwater flows away from them, and families sued in Sept 2026 (https://www.ajc.com/news/2026/09/georgia-families-sue-meta-accuse-its-data-center-of-tainting-their-water/, https://www.pressdemocrat.com/2025/07/15/meta-built-a-new-data-center-in-georgia-their-neighbors-water-ran-dry/). This shows developer-commissioned studies are not believed. Cheyenne's Meta-contractor wastewater contamination led to a $10k fine (https://fortune.com/2026/07/10/wyoming-officials-meta-715000-square-foot-data-center-responsible-contaminating-water-system-rare-bacterium/).\n- Developers are already spending on neighbors with no neutral mechanism, and residents reject it. NorthPoint's $10k-per-household offer ($45M) was called a bribe, with residents wanting property-value protection instead (https://reason.com/2026/09/28/data-centers-and-their-discontents/, https://propmodo.com/cash-to-residents-is-the-newest-tool-in-the-data-center-fight/). Propmodo expects future versions to be 'tied to utility bill credits or property value guarantees rather than lump sums'. The Mason County developer offers buyouts at the highest of three independent valuations plus a premium, with no independent oversight (https://wchstv.com/news/local/voluntary-buyout-offers-rolled-out-for-meadowlands-estates-homes-near-data-center).\n- Precedent that baseline mandates create a paid vendor category: Pennsylvania Act 13 (oil and gas) makes operators pay third-party pre-drill water tests for wells within 1,000 ft, and a rebuttable presumption of liability applies when no baseline exists (https://www.pa.gov/agencies/dep/programs-and-services/oil-and-gas/related-topics/act-13/act-13-faq). No equivalent presumption exists yet for data centers, so developers currently lack a legal reason to buy.\n- The 'why now' facts check out. NY Executive Order 62, July 14, 2026, pauses DEC discretionary permits for 50 MW+ data centers (https://www.dwt.com/blogs/energy--environmental-law-blog/2026/07/ny-data-center-permitting-pause-executive-order-62). Texas ordered TCEQ to halt data-center permits on Sept 21, 2026 (https://www.cnbc.com/2026/09/21/texas-governor-abbott-ai-data-center-permits.html). Reuters/Ipsos: 14% comfortable with a data center nearby, 57% opposed (https://www.usnews.com/news/politics/articles/2026-06-11/americans-wary-of-ai-driven-data-center-boom-reuters-ipsos-poll-shows). I could not verify the 'local pauses in at least 14 states' claim.\n- Vendor signals (marketing, not proof of spend): KETOS's 'missing baseline' pitch (https://ketos.co/data-centers-water-quality) and a groundwater-marketing blog saying monitoring and hydrogeology services are 'being specified in RFPs right now' (https://groundwatermarketing.com/blog/data-centers-groundwater-demand/).\n- Not found: any developer or county publicly paying a neutral party for a parametric neighbor payout, or any RFP for one.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Do not sell 'Baseline-in-a-Box' as a sensor product, because KETOS, Aethair, Envirosuite and the developer-hired consultancies already cover it and it will commoditize. Sell neutral trusteeship of a neighbor-protection covenant, starting with well water only.\n\n1. Be the escrow and trust administrator plus an independent technical panel, with governance the county co-approves. Buy commodity sensors and labs from KETOS, Kunak or Eno Scientific-type vendors instead of competing with them.\n2. Lead with a well-drawdown guarantee, because dry or silted wells drive the lawsuits and hearings (Meta Newton County). Fix the attribution problem in the trigger design. Use upgradient control wells, pumping records and a difference-versus-control test, so the developer pays only for excess drawdown and not for drought. Bring in an MGA or carrier partner for capacity so the payout is legally clean and does not run into state insurance law.\n3. Sell it to counties as a ready-made permit-condition and development-agreement template, aimed first at jurisdictions already drafting escrow-for-neighbors language (Franklin County, IN; Shenandoah, VA). The county mandates it, the developer funds it, and you skip the developer's reluctance to volunteer a payout.\n4. Add noise, PM2.5 and voltage as paid extensions later. Enroll per household instead of pricing bespoke $75-150k builds.\n\nFirst proof to get: one county or developer willing to put the guarantee escrow in writing, and a counsel opinion on whether the structure is insurance. If neither exists within about 90 days, the idea collapses into the crowded monitoring market and should be dropped."
+}

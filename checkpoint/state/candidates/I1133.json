@@ -1,0 +1,16 @@
+{
+ "title": "Renewal Radar for Silent AI Exclusions",
+ "angle": "1",
+ "one_liner": "Track carriers' filed AI exclusions and tell brokers, 90 days before renewal, which clients just lost AI coverage, then place the affirmative buy-back.",
+ "customer": "Independent agencies and regional brokers (10-200 staff) with commercial books, their E&O carriers, and MGAs.",
+ "problem": "Since January 2026 ISO-style generative-AI endorsements (CG 40 47 and CG 40 48) and far broader carrier forms, such as W. R. Berkley's 'absolute' AI exclusion, are attached at renewal, often buried. Clients use AI in ways they never disclosed. Brokers carry E&O exposure for failing to warn, and no tool maps which of a broker's 300 clients face AI exclusions or what AI each client actually uses.",
+ "solution": "A rate and form filing scraper (public SERFF filing access) plus an endorsement parser that normalises exclusion breadth: gen-AI only versus any AI, bodily injury versus advertising injury, vendor-supplied AI. It feeds a renewal calendar imported from agency-management CSVs. A 12-question client AI-use questionnaire, optionally backed by an SSO or expense-report scan for AI tools. Output is a one-page 'AI coverage gap letter' plus a list of affirmative AI markets for placement.",
+ "why_now": "1 Jan 2027 renewals are the first big cycle after the Verisk endorsements became available, and AIG, Great American and Berkley filings landed through 2026. Affirmative AI capacity now exists (Armilla via Lloyd's, AIUC, Munich Re aiSure), so a gap and its fix can be sold together.",
+ "revenue_model": "$250-800 per month per agency, $150-600 per gap letter for non-subscribers, 10-15% commission on affirmative cover placed, and $2-5k per month filing-intelligence subscriptions for MGAs and carriers.",
+ "non_obvious_insight": "The buyer is triggered by their own E&O fear, not curiosity about AI. The filings are public but unreadable, so the moat is a normalised exclusion database nobody at a brokerage has time to build. Silent AI cuts both ways: an unexcluded policy is a reason to ask for affirmative cover, so the gap letter also works as a sales tool for the broker.",
+ "first_30_days": "Scrape SERFF filings in five large states and build the tracker. Start a free weekly 'AI exclusion tracker' newsletter aimed at 500 brokers. Offer 10 agencies a $500 concierge gap audit on their five biggest accounts. Sign one affirmative-AI MGA for placement referrals.",
+ "outside_box_score": 6,
+ "source": "wild:g9+g10",
+ "kind": "wild",
+ "id": "I1133"
+}

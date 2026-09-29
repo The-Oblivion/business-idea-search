@@ -1,0 +1,59 @@
+{
+ "status": "crowded",
+ "competitors": [
+  {
+   "name": "Carefull",
+   "url": "https://www.getcarefull.com",
+   "what_they_do": "Financial safety platform for older adults and families (account monitoring, ScamCheck message analysis, identity and credit monitoring). It is sold B2B2C through banks, credit unions and wealth firms as a member benefit. Partners named on the site include Synovus, Merck FCU, C&N Bank, OceanAir FCU and Edward Jones. It has a US-based care team 7 days a week, and consumers pay $29.99 per month if the institution does not cover it. It is the closest match on buyer, pitch and channel, but it is monitoring plus support rather than a real-time call-back verification line.",
+   "scale_or_funding": "Founded 2019, New York. Backed by Commerce Ventures, TTV Capital, Bessemer Venture Partners, Montage Ventures and Fin Capital. The site does not give the round size or the number of institution partners.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Scamnetic",
+   "url": "https://www.scamnetic.com",
+   "what_they_do": "AI scam detection (KnowScam, Scan&Score, IDeveryone) plus a 24/7 US-based Scam Hotline for scam resolution and victim services. It says it serves banks, credit unions and other financial institutions. I could not confirm white-labelled hotline pricing or named credit union customers.",
+   "scale_or_funding": "Not disclosed on the pages fetched.",
+   "overlap": "direct"
+  },
+  {
+   "name": "EverSafe",
+   "url": "https://www.eversafe.com",
+   "what_they_do": "Monitors bank, investment and credit accounts for suspicious activity, with trusted-contact alerts and US-based 24/7 fraud support staff. Users can forward suspicious emails for expert review. It sells to banks, credit unions and advisors (Raymond James and Key Financial are named).",
+   "scale_or_funding": "Funding not found. The company is established, with a lifetime price guarantee and $1M identity theft coverage.",
+   "overlap": "direct"
+  },
+  {
+   "name": "AARP Fraud Watch Network Helpline",
+   "url": "https://www.aarp.org/money/scams-fraud/helpline/",
+   "what_they_do": "Free helpline at 877-908-3360, Mon-Fri 8am-8pm ET, staffed by trained fraud specialists and volunteers. It gives guidance and support, not investigation or recovery. This is a free substitute for the 'is this a scam?' call, though it is not embedded in a bank workflow and has no safe-word or relative call-back step.",
+   "scale_or_funding": "Non-profit, national brand, free to callers.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "DOJ National Elder Fraud Hotline",
+   "url": "https://ovc.ojp.gov/program/stop-elder-fraud/providing-help-restoring-hope",
+   "what_they_do": "Free hotline (833-372-8311), Mon-Fri 10am-6pm ET, for people 60 and older. Case managers help victims report fraud and connect to resources. It is aimed at after-the-fact reporting, not real-time pre-payment verification.",
+   "scale_or_funding": "Federal program (DOJ Office for Victims of Crime).",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Pindrop",
+   "url": "https://www.pindrop.com/solutions/",
+   "what_they_do": "Voice deepfake detection and caller authentication for bank and credit union contact centers. It protects the institution's inbound calls, not the member's own phone, so it is a different side of the call. It shows that banks and credit unions spend real money on voice-clone fraud.",
+   "scale_or_funding": "Enterprise scale. Says it serves 14 of the top 20 banks, and MSUFCU is a named credit union customer.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Hiya",
+   "url": "https://blog.hiya.com/",
+   "what_they_do": "AI voice detection and spam call protection sold mainly to mobile carriers (Telenor, DNA, Vodafone UK), plus consumer apps (Hiya AI Phone, Spam Blocker). It is automated and not sold to credit unions. It is a substitute for the 'AI detector' route, which the idea argues against.",
+   "scale_or_funding": "Established company with carrier deployments in several countries.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Nobody I could verify sells the specific mechanism in this idea. It has four parts: (1) a real-time pre-transaction pause line the senior calls when someone is pressuring them; (2) a live out-of-band check that includes a pre-registered family safe word and a call-back to the real relative through a stored circle; (3) a teller workflow that warm-hands a member making a large cash withdrawal or wire to that line, with the credit union's flag visible to the desk; and (4) in-person enrollment at branches and senior centers. Carefull, EverSafe and Scamnetic sell monitoring, alerts, message checking and after-the-fact victim support. AARP and DOJ run free reporting or advice lines that sit outside any bank workflow. Pindrop and Hiya are automated detection. The unserved piece is an outsourced 'intervention desk' that small credit unions ($300M-$5B) cannot staff themselves, with a documented human check at the moment of the withdrawal or wire. Caveat: this is a thin wedge. Carefull's care team or Scamnetic's hotline could add a call-back script quickly, and the free AARP line is a real substitute for the pure 'is this a scam?' call. The wedge only holds if the value sits in teller integration, the family call-back and the audit trail. A generic hotline will not hold it.",
+ "evidence_of_demand": "Partial. Positive signals: (1) Credit unions and banks already pay for or offer elder-fraud protection as a member benefit. Carefull lists Synovus, Merck FCU, C&N Bank, OceanAir FCU and Edward Jones (https://www.getcarefull.com), and EverSafe and Scamnetic also sell to credit unions and banks (https://www.eversafe.com, https://www.scamnetic.com). (2) Carefull has raised VC money (Bessemer, TTV, Commerce Ventures, Fin Capital, Montage) on this B2B2C model. (3) Institutions spend on voice-clone defense. Pindrop says it serves 14 of the top 20 banks and MSUFCU (https://www.pindrop.com/solutions/). (4) Free human lines with real call volume exist, AARP at 877-908-3360 and DOJ at 833-372-8311, which shows people want to talk to a human about a suspicious contact (https://www.aarp.org/money/scams-fraud/helpline/, https://ovc.ojp.gov/program/stop-elder-fraud/providing-help-restoring-hope). (5) The UK PSR requires 50:50 reimbursement of authorised push-payment fraud between sending and receiving firms, which is the regulatory direction the idea cites (https://www.psr.org.uk/our-work/app-scams/). (6) The CFPB publishes dedicated tools for banks and credit unions on elder exploitation (https://www.consumerfinance.gov/consumer-tools/educator-tools/resources-for-older-adults/). Not verified: the FBI figure of about $352M in AI-linked losses among people over 60 in 2025. The IC3 PDF was unreadable through the fetch tool. I found no evidence of any credit union paying $3-6 per enrolled member per month for a live call-back line, and no evidence that US rules make credit unions liable for authorised scam transfers. The free AARP and DOJ lines cap what a $12 per month direct-to-family tier can charge. Research limit: the session's WebSearch budget (200 calls) ran out before I could run the planned searches. Coverage of funded startups (Crunchbase, YC, Product Hunt), RFPs, forum complaints and open-source tools is therefore incomplete, and other competitors may exist.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Do not sell a general 'scam hotline' or a monitoring app. Carefull, EverSafe, Scamnetic and the free AARP and DOJ lines already cover those. Sell an outsourced 'elder exploitation intervention desk' for community credit unions that cannot staff one. It is triggered at the point of loss: the teller sees a large cash withdrawal, wire or crypto-linked pattern and warm-transfers the member to a trained human. That person runs the safe-word check and a call-back to the real relative, then logs a documented intervention record that helps the credit union with elder-exploitation reporting, member-loss reviews and examiner questions. Price per intervention or as a flat desk fee, not $3-6 per enrolled member, so the credit union pays for saves and the desk's cost stays tied to call volume. Distribute through credit union service organizations (CUSOs), state leagues and core or online-banking providers rather than one CEO at a time. Consider partnering with Carefull or EverSafe as their live human layer instead of competing head-on. Run the 60-day pilot first and record dollars withdrawn, interventions and confirmed scams stopped, because that data is the only proof that a credit union will pay for this and not use a free hotline."
+}

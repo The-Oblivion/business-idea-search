@@ -1,0 +1,15 @@
+{
+ "title": "Cube Receipt: Win LTL Reclass and Reweigh Disputes",
+ "one_liner": "A 45-second phone-based dimension-and-weight capture at the shipper's dock produces a timestamped, tamper-evident record attached to the BOL, then used to contest LTL carrier reclass and reweigh charges on contingency.",
+ "customer": "Small and mid-size B2B shippers with $50K-$2M in annual LTL spend (furniture and home-goods makers, craft food and beverage, DTC brands shipping pallets, HVAC and parts distributors), plus small brokers who arrange LTL and absorb the adjustments when customers refuse to pay.",
+ "problem": "The NMFC update on July 19, 2025 moved a large number of item numbers to density-based classification. Carriers reweigh and re-dimension freight at terminals with automated dimensioners and bill the corrected class, commonly a $30-$75 fee plus a 20-50% rate uplift. The shipper has no evidence of what actually left the dock, so the carrier's inspection is judge and jury. Most shippers just pay, and brokers who booked the load eat a share when the customer will not.",
+ "solution": "A mobile app (iPhone LiDAR or camera) walks the packer through a pallet capture: dimensions with a reference marker, weight from a scale photo or entry, density and class check, wrap-bulge and overhang warnings, then hash and timestamp. It generates a QR sticker and a PDF appended to the BOL. When an adjustment invoice arrives (ingested from carrier emails or the freight audit feed), it auto-files the dispute with the evidence, tracks the carrier response, and takes a share of money recovered. It also flags pre-shipment problems, such as stretch-wrap bulge and pallet lip that inflate carrier-measured cube.",
+ "why_now": "The July 2025 NMFC density shift is still generating adjustment invoices in 2026, and shippers are still learning the new classes. Phone LiDAR is ubiquitous, and carrier dimensioners are now the default at terminals, which makes source-side evidence the missing counterweight.",
+ "revenue_model": "25-30% of recovered adjustment charges (contingency), or $99-$299/month per dock. White-label to brokers at about $0.75 per shipment.",
+ "non_obvious_insight": "Reclass is an evidence-asymmetry game, not a classification problem. The carrier's dimensioner records at the terminal and the shipper has nothing from the source. Terminal cube often includes bulging wrap and the pallet lip. A record made at tender time beats an after-the-fact photo inside the dispute window. Brokers see this daily in adjustment invoices but treat it as a cost of doing business rather than a product.",
+ "first_30_days": "Approach 10 brokers who place LTL for small shippers. Each has adjustment invoices sitting in AR. Take six months of them, run manual disputes on contingency using whatever photos the shippers have, and log win rates by carrier. Build a no-code capture form (photo checklist plus timestamp) and put it on 3 shippers' docks. Use the win-rate data to sell the app.",
+ "outside_box_score": 6,
+ "source": "persona:p3-3",
+ "kind": "persona",
+ "id": "I0926"
+}

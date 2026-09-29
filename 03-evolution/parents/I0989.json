@@ -1,0 +1,77 @@
+{
+ "title": "Orphan Lien Clearance Desk for Title Agents",
+ "one_liner": "A flat-fee curative service that proves dead solar fixture filings and other zombie liens are dead (or gets them released) so home closings stop stalling.",
+ "customer": "Independent title and escrow agencies and real estate attorneys in high-solar states (AZ, CA, FL, TX, NJ, NC, NV, CO), billed per file and usually paid by the seller at closing. Listing agents in solar-heavy markets are a second channel.",
+ "problem": "Sunnova filed Chapter 11 in June 2025 (500,000+ customers), Mosaic and PosiGen followed, and the residential solar credit ended for 2026 installs, so thousands of homes carry UCC-1 fixture filings and recorded solar-lease notices held by dead, merged or reassigned entities. Title examiners flag every one. Agents can't tell who holds the debt now, whether the filing is even still legally effective, or how to get a termination, so closings slip days or weeks. The people currently serving this are consumer SEO and lead-gen sites, not the title agents who actually need it solved on a deadline.",
+ "solution": "Per-file lien autopsy delivered in 48 hours. (1) Pull the recorded instrument and any continuation or termination filings from the county index and the Secretary of State. (2) Compute lapse under UCC 9-515 (five years unless continued in the six-month window). (3) Trace the assignment and servicer chain through bankruptcy dockets and servicer notices. (4) Deliver either an underwriter-ready 'lapsed, no exception' memo, or a payoff/estoppel request plus a pre-drafted termination (UCC-3, or debtor-filed termination where the statute allows) recorded in that county's required format. Recorded memoranda of lease, which do not lapse, get a release workflow instead. Later expand the same engine to satisfied-but-never-released mortgages, expired judgment liens, dead PACE liens and resurfaced zombie second mortgages.",
+ "why_now": "2025-2026 solar installer bankruptcies (Sunnova, Mosaic, PosiGen) and the end of the residential solar credit produced the largest single wave of orphaned fixture filings ever recorded. 2018-2021 installs are now hitting their five-year lapse dates just as those homes come to market. Title agents are short-staffed and want to outsource curative work, and an LLM can read county index entries and bankruptcy docket text cheaply.",
+ "revenue_model": "Flat fee of about $395-$900 per cleared file, contingent on clear-to-close. Agencies with volume pay $299/month plus a reduced per-file rate. White-label API for underwriters and closing software later.",
+ "non_obvious_insight": "Half the 'problem liens' in solar-heavy counties are already legally dead, but the county index never shows lapse, so examiners treat a 2019 fixture filing as live forever. Clerks watch continuation filings come in, and most small installers never filed one. The work is proof of death, not payoff. Insiders also know the recorded 'notice of lease' is a different animal that never lapses, and that a clerk must record a debtor-filed termination on its face, since the office is ministerial.",
+ "first_30_days": "Offer the first five files free to 3-5 independent title agencies in Phoenix, Tampa and Sacramento. Build the lapse calculator and county-index lookups for about 10 counties. Get one regional agent underwriter to accept a standard lapse-memo format. Then price at $495 per file and ask each agency for a testimonial and two referrals to listing agents.",
+ "outside_box_score": 6,
+ "source": "persona:p0-5",
+ "kind": "persona",
+ "id": "I0989",
+ "tournament": {
+  "score": 0.947,
+  "overall_rank": 71,
+  "cluster": "Residential solar leftovers: orphaned systems, leases and liens",
+  "judge_notes": [
+   "operator: rank 1/25 - Deadline-driven pain, seller pays at closing, $395-900 per file, reachable title agents, clear first-10 path.",
+   "vc: rank 7/25 - Sharp insider insight that lapsed fixture filings are dead; scrappy, paid per file; expands to zombie liens.",
+   "contrarian: rank 1/25 - Insider insight that dead liens stay 'live' in county indexes. Real solar-bankruptcy wave, urgent buyer, fast cash."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "SunStrong Management (successor servicer for the Sunnova book)",
+    "url": "https://sunstrongmanagement.com",
+    "what_they_do": "Took over Sunnova's residential customers after the bankruptcy asset sale. The site (fetched) has a 'Sell My Home' transfer flow, so Sunnova liens are NOT orphaned. There is a live, contactable holder. The site publishes nothing on UCC-3 terminations or title-agent processes, so requests go through customer service.",
+    "scale_or_funding": "Acquirer of substantially all Sunnova assets and operations (per sunnova.com resource page). Sunnova filed Chapter 11 on June 9, 2025; the plan was approved in Nov 2025 (per Wikipedia).",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Wolters Kluwer Lien Solutions / CSC (UCC search, filing, continuation and termination vendors)",
+    "url": "https://www.wolterskluwer.com/en/solutions/lien-solutions",
+    "what_they_do": "Incumbent UCC search, filing, monitoring and termination services for lenders and lessors. They could add a lapse-analysis or fixture-filing product, but nothing solar-specific or title-agent-facing was confirmed. The URL returned 403 to my fetch, so this is from background knowledge and unverified. CSC (cscglobal.com) is the other large UCC vendor.",
+    "scale_or_funding": "Large public-company and private incumbents",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Qualia (title/escrow closing platform)",
+    "url": "https://www.qualia.com",
+    "what_they_do": "Dominant cloud closing software for title agents (Core, Connect, Shield). The homepage I fetched shows no lien-release, curative or UCC-clearing feature. It is the natural distribution channel or acquirer, and a possible future feature-copier.",
+    "scale_or_funding": "Venture-backed, large (funding not verified in this session)",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Nationwide Title Clearing / national title-clearing and lien-release outsourcers (ServiceLink, etc.)",
+    "url": "https://www.nationwidetitleclearing.com",
+    "what_they_do": "Established outsourced title-clearing and mortgage-satisfaction/lien-release shops serving lenders and underwriters. They do the same kind of curative work (chasing releases and payoffs) at scale, but I found no solar-fixture-specific offering. From background knowledge; the URL was not fetched or verified.",
+    "scale_or_funding": "Established, mid-to-large (unverified)",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "RealPact (YC S2026)",
+    "url": "https://www.ycombinator.com/companies/industry/real-estate",
+    "what_they_do": "AI agents that pull deeds, tax records and parcel data and fill out contracts for brokerages. It is on the YC real-estate list I fetched, and no other YC company there does title curative or lien release. It shows an AI-for-property-records wave, but it targets brokerages, not lien clearing.",
+    "scale_or_funding": "YC-backed, seed stage",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Consumer solar-lien removal SEO/lead-gen sites and installer-side 'UCC removal' services",
+    "url": "none verified",
+    "what_they_do": "The idea's own premise says consumers are served by SEO and lead-gen sites, not title agents. I could not verify or name any specific site because the search budget ran out and the URLs I guessed 404'd. Treat this as an unverified assumption.",
+    "scale_or_funding": "unknown",
+    "overlap": "direct"
+   }
+  ],
+  "white_space": "Research limits: the session's WebSearch budget (200 of 200) was exhausted, so I ran no searches. I used direct fetches of known URLs (Wikipedia, Cornell LII for the UCC text, SunStrong, Sunnova, Qualia, TitleCapture, Simplifile, the YC directory) and a GitHub repo search. Several guessed URLs 404'd or returned 403. Competitor coverage is therefore thin, and I found no funded startup doing solar-specific lien-lapse analysis and curative for title agents. Absence in my results is weak evidence, not proof.\n\nUnserved as far as I could tell: a title-agent-facing, per-file workflow that (a) classifies the instrument (UCC-1 fixture filing vs. SOS-only filing vs. recorded memorandum or notice of lease vs. PACE vs. mortgage), (b) computes lapse under UCC 9-515, and (c) routes the file to the current servicer with a pre-formatted payoff, estoppel or UCC-3 request. Incumbent UCC vendors and general title-clearing outsourcers do not appear to package this for solar.\n\nSubstantive weaknesses to weigh against the gap:\n- Lapse is not death. Cornell LII (https://www.law.cornell.edu/ucc/9/9-515) confirms that on lapse the interest becomes unperfected, and is deemed never perfected only as against a purchaser for value. The debt and the interest against the debtor survive. In a lease or PPA the lessor owns the equipment, so a lapse memo does not clear ownership or the lease. The buyer still needs an assumption or buyout. Underwriters may therefore refuse to rely on 'lapsed, no exception' memos, and getting one to accept a format is the make-or-break step.\n- Debtor-filed terminations are narrow. UCC 9-509(d)(2) (https://www.law.cornell.edu/ucc/9/9-509) requires the secured party to have failed to comply with 9-513, plus debtor authorization and a statement on the form. That generally means a demand and a wait, and it only works where no obligation is still secured. That conflicts with a 48-hour SLA.\n- The 'orphan' premise is overstated for Sunnova, the biggest name. Its assets went to new owners and SunStrong runs a home-sale transfer process. The truly orphaned pool (Mosaic, PosiGen, small defunct installers) is smaller and messier. Sunnova is confirmed only via Wikipedia and the SunStrong and Sunnova sites. I could not fetch a Mosaic or PosiGen page.\n- Unauthorized-practice-of-law exposure for underwriter-facing lapse opinions unless an attorney of record signs.\n- Per-county recording quirks make it operations-heavy, not pure software.",
+  "evidence_of_demand": "Weak and mostly indirect. I found no forum threads, RFPs, or published spend figures because search was unavailable, and Reddit is blocked to WebFetch.\n\nWhat I could confirm:\n- Title insurers require curative steps such as releases before issuing clean policies, and otherwise except the item (https://en.wikipedia.org/wiki/Title_insurance). This confirms the general workflow exists and is paid for.\n- The solar wave is real. Sunnova filed Chapter 11 on June 9, 2025 (https://en.wikipedia.org/wiki/Sunnova).\n- Sunnova customers have a live successor with a home-sale transfer process (https://sunstrongmanagement.com), which shows sale-time transfers are a recognized friction point.\n- The SunStrong page has no title-agent or UCC-3 guidance, so agents are pointed at a customer-service form. That leaves a real service gap and is the best demand signal I found.\n\nNot found and not verifiable this session: customer complaints about solar UCC liens blocking closings, title-agent willingness to pay $395-$900 per file, or any underwriter bulletin accepting lapse memos. The 'consumer SEO sites serve this' claim in the idea is also unconfirmed.",
+  "kill": false,
+  "kill_reason": "n/a",
+  "sharper_angle": "Do not sell 'lien autopsy as a service' with a lapse memo as the product. It rests on a legally soft claim (lapse is not extinguishment, and leases and PPAs survive it). Instead build a solar-exception resolver for title agents and underwriters:\n\n1. Classify every solar item found in a title search (UCC-1 fixture filing, SOS-only filing, recorded notice or memorandum of lease, PACE, loan vs. lease vs. PPA) and give the correct resolution path for each. Lapse is one branch, alongside payoff, buyer assumption or buyout, and subordination.\n2. Keep a living directory of current holders and servicers (SunStrong for the Sunnova book, Sunrun, Tesla, Mosaic and PosiGen successors, etc.), with each one's actual transfer, payoff and UCC-3 contact and turnaround.\n3. Auto-generate the request packets (payoff or estoppel request, 9-513 authenticated demand, UCC-3, county-format cover sheets) and chase them with tracking.\n4. Get one title underwriter to pre-approve the decision tree and memo format, and have a licensed attorney of record countersign to avoid the unauthorized-practice-of-law problem.\n\nDistribution and pricing: sell to underwriters and agency groups first, since they carry the claims risk and feel the pain of exceptions, and integrate with Qualia or SoftPro. Price per resolved exception, with a subscription for the servicer directory and tracking, rather than a per-file contingency on unpredictable outcomes. A later, stronger wedge is selling the transfer-request intake to the servicers themselves (SunStrong and the other post-bankruptcy servicers), who are absorbing thousands of home-sale requests through a customer-service form. Before building, validate demand with 10 to 15 title-agent and underwriter interviews, and run a real search pass for competitors, because this session's research was budget-limited."
+ }
+}

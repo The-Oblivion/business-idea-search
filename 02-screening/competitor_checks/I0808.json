@@ -1,0 +1,45 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "High Mobility",
+   "url": "https://www.high-mobility.com",
+   "what_they_do": "Berlin-based API that streams OEM vehicle data (location, diagnostics, charging) from 22+ car brands with owner consent, normalised into one data model. It sells to fleets, rental and leasing firms. This is the closest proof that consent-based, multi-OEM data normalisation is a paid business. It is cars only, has no Data Act request-filing layer, and its site does not mention the Data Act.",
+   "scale_or_funding": "22+ OEM partnerships, over 100M data point updates per day, named customers such as Sixt and Avrios, freemium ('pay when going live'). Funding not stated on the pages I could fetch.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "agrirouter (cross-manufacturer agricultural data exchange)",
+   "url": "https://agrirouter.com/en/",
+   "what_they_do": "Neutral platform for exchanging machine data (TaskData, telemetry) between agricultural machines and software from different manufacturers. It is free for farmers. It targets farmer workflows, not fault-log access for independent workshops. Ag is therefore partly served on the telemetry side.",
+   "scale_or_funding": "Operator not stated on the fetched page (I believe it is an OEM-backed consortium but did not verify). Free to end users, so revenue presumably comes from partners.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Jaltest / Cojali (Jaltest Diagnostics and Jaltest Telematics)",
+   "url": "https://www.jaltest.com/en",
+   "what_they_do": "All-makes diagnostic tools for independent workshops covering agricultural, construction, material-handling (forklift) equipment and trucks, plus telematics with remote diagnostics and predictive maintenance. This is the incumbent workaround for independent tractor and forklift shops: on-site diagnostic access, not remote OEM-data access.",
+   "scale_or_funding": "Established multi-brand vendor with a commercial product line. Pricing and brand counts not published on the fetched page.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "OEM-owned platforms (KONE API portal; Otis ONE, Schindler Ahead and TK Elevator MAX are from my background knowledge and not verified this session)",
+   "url": "https://dev.kone.com/",
+   "what_they_do": "Elevator OEMs run their own connected-service platforms and open APIs for building integration and people flow. They keep the diagnostics and fault-log advantage the idea wants to unlock. I could not confirm whether any of them expose maintenance or fault data to competing maintainers. They are incumbents that could add a Data Act portal as a compliance feature.",
+   "scale_or_funding": "Global OEMs, the dominant service-market holders.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Open-source Data Act kits (plusultra-tools/data-act-iot-kit, smiledoneholy/iot-data-access-checker)",
+   "url": "https://github.com/plusultra-tools/data-act-iot-kit",
+   "what_they_do": "Reference code for manufacturers (the data holder side) to implement Article 4-5 access endpoints and readiness checks. No user-side or third-party-requester tooling appeared in my GitHub searches. This is supply-side compliance, not a competitor, but it lowers OEM cost of compliance and may standardise formats.",
+   "scale_or_funding": "Hobby scale (0-1 stars, created 2026).",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Caveat first: the WebSearch budget (200 calls) was already exhausted when this check started, so I ran 0 of the 6-12 planned searches. Crunchbase, YC, TechCrunch and Product Hunt were not checked, and Crunchbase returned 403. The verdict rests on direct page fetches and GitHub searches only, so treat 'gap' as moderate-to-low confidence. Re-run with the budget raised before committing money.\n\nWithin those limits, I found no product that files Data Act Article 4/5 requests on an equipment owner's behalf, tracks OEM responses, and normalises the returns across OEMs for independent service shops. Every adjacent player is either an OEM platform, cars-only (High Mobility), farmer-facing (agrirouter), on-site diagnostics (Jaltest), or OEM-side compliance code (GitHub kits). Genuinely unserved: (1) the owner-mandate plus request workflow, (2) an OEM-by-OEM response and refusal log, (3) a cross-OEM schema for lifts, heat pumps and forklifts, (4) the independent maintainer as the paying customer.\n\nStructural weaknesses to fix in the idea:\n- No fixed response deadline. As I recall Articles 4-5, data holders must respond 'without undue delay'. I could not fetch EUR-Lex to confirm (its WAF blocked me), but the idea's 'track statutory response deadlines' looks wrong.\n- Article 5(1) lets 'a party acting on behalf of a user' request data. The independent shop can therefore file the request itself with a signed mandate. The broker's moat is then normalisation and OEM knowledge, not legal standing. Model letters and the Commission FAQ (v1.4, 22 Jan 2026) will commoditise the templates.\n- Article 9 lets OEMs charge data recipients reasonable compensation, with a cost cap for SMEs, so OEMs may bill the shops you serve.\n- Only 'readily available data' is covered. OEMs will argue that diagnostics are derived data, or invoke trade-secret and security refusals under Article 4(6)-(8). Safety-critical elevators are the likeliest place for a security argument.\n- Article 4(1) design-by-default applies only to newly placed products, and old lifts often have no OEM connectivity.\n- Tractors and other ag machinery may already have sector-specific repair-information access rules under type-approval law (Reg. 167/2013, from memory, unverified), which weakens ag as a beachhead.",
+ "evidence_of_demand": "Verified evidence is thin. I found nothing showing independents pay a broker to exercise Data Act rights.\n\nIndirect and analog evidence:\n(1) High Mobility shows companies pay for consent-based, multi-OEM data normalisation. It has 22+ OEMs, 100M+ daily updates and paying fleet and leasing customers (https://www.high-mobility.com).\n(2) Jaltest shows independent workshops already spend on all-makes diagnostics for ag, forklift and construction equipment, so there is a paid workaround (https://www.jaltest.com/en).\n(3) The Commission confirms the Data Act has applied since 12 Sep 2025, that users may direct data to third parties of their choice, and that it publishes implementation FAQs (v1.4, 22 Jan 2026). Those pages do not mention independent repairers or parties acting on behalf of users (https://digital-strategy.ec.europa.eu/en/factpages/data-act-explained and https://digital-strategy.ec.europa.eu/en/library/commission-publishes-frequently-asked-questions-about-data-act).\n(4) Wikipedia documents ongoing repair-access friction (Deere, the consumer-only EU Directive 2024/1799 with transposition by 31 Jul 2026), which suggests demand for B2B equipment access but does not prove it (https://en.wikipedia.org/wiki/Right_to_repair).\n\nI did not verify elevator-specific complaints, RFPs, or forum threads because search was unavailable. The FTC v. Deere case is from memory, and the FTC press-release URL I tried returned 404.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Drop the generic 'broker across four verticals' framing. Build the 'High Mobility for lifts and heavy equipment', with the Data Act as the legal door-opener.\n\n1. Pick lifts as the single beachhead, in DE and NL. That is where OEM lock-in is worst and independents are organised through trade associations. Treat heat pumps and forklifts as later expansion.\n2. Do not sell the request-filing service on its own, because Article 5(1) lets the shop act for the user and templates are copyable. Sell the defensible parts: the accumulated OEM-by-OEM response, refusal and format library, and the cross-OEM fault-code schema and health feed.\n3. Go through the asset owner's leverage. Hospitals, housing companies and facility managers can write Data Act data-access clauses into maintenance tenders, so the OEM has to deliver data to whichever maintainer wins. Sell 'tender clause plus mandate kit' to owners and portfolio managers, and the normalised feed to the winning independent.\n4. Turn OEM refusals into a public response-time scorecard aimed at trade associations and national authorities. This is the marketing and lobbying asset, and it is cheap.\n5. Before building any normalisation, validate manually. File about 20 requests through a Data Act lawyer, log what each OEM returns and its format, and confirm that diagnostics count as 'readily available data' and what the OEMs charge under Article 9.\n6. Before investing, re-run the existence check with the search budget restored. Cover Crunchbase, YC and Product Hunt, plus elevator-IoT and 'Data Act' startups in DACH and NL. Also check whether Otis, KONE, Schindler or TK Elevator already give independents Data Act portals."
+}

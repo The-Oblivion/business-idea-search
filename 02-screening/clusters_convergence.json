@@ -1,0 +1,3193 @@
+[
+ {
+  "cid": "C005",
+  "name": "Proving AI controls and human review to insurers, auditors and clients",
+  "n_ideas": 20,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 5,
+  "n_source_agents": 16,
+  "ideas": [
+   "I0937",
+   "I0125",
+   "I0980",
+   "I0050",
+   "I0022",
+   "I0047",
+   "I0323",
+   "I1029",
+   "I1092",
+   "I0389",
+   "I1133",
+   "I1219",
+   "I1090",
+   "I1214",
+   "I0726",
+   "I1333",
+   "I0754",
+   "I1304",
+   "I0651",
+   "I0235"
+  ]
+ },
+ {
+  "cid": "C104",
+  "name": "Small trade and service firms underpricing and leaking margin",
+  "n_ideas": 19,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 5,
+  "n_source_agents": 12,
+  "ideas": [
+   "I1331",
+   "I0340",
+   "I1113",
+   "I0006",
+   "I1330",
+   "I1087",
+   "I0202",
+   "I0777",
+   "I0783",
+   "I0645",
+   "I0272",
+   "I0610",
+   "I1306",
+   "I0068",
+   "I0900",
+   "I0674",
+   "I0254",
+   "I0871",
+   "I0877"
+  ]
+ },
+ {
+  "cid": "C122",
+  "name": "Investors, lenders and venues wanting real-economy ground truth",
+  "n_ideas": 18,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 5,
+  "n_source_agents": 16,
+  "ideas": [
+   "I0522",
+   "I1154",
+   "I0950",
+   "I1337",
+   "I0958",
+   "I1184",
+   "I0069",
+   "I1149",
+   "I0365",
+   "I1088",
+   "I0952",
+   "I1235",
+   "I0147",
+   "I0881",
+   "I1262",
+   "I0171",
+   "I0878",
+   "I1329"
+  ]
+ },
+ {
+  "cid": "C061",
+  "name": "Recycling quality, distressed capacity and battery/EPR compliance",
+  "n_ideas": 18,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 5,
+  "n_source_agents": 10,
+  "ideas": [
+   "I0664",
+   "I1051",
+   "I1326",
+   "I0545",
+   "I1163",
+   "I0409",
+   "I0819",
+   "I0380",
+   "I0718",
+   "I0170",
+   "I0917",
+   "I0140",
+   "I0642",
+   "I0488",
+   "I0120",
+   "I1081",
+   "I0767",
+   "I0299"
+  ]
+ },
+ {
+  "cid": "C063",
+  "name": "Recovering IEEPA tariff refunds and surcharges",
+  "n_ideas": 16,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 5,
+  "n_source_agents": 13,
+  "ideas": [
+   "I0721",
+   "I0133",
+   "I0580",
+   "I0755",
+   "I0727",
+   "I0236",
+   "I1300",
+   "I0104",
+   "I0632",
+   "I0649",
+   "I0307",
+   "I0214",
+   "I1277",
+   "I0725",
+   "I0633",
+   "I1122"
+  ]
+ },
+ {
+  "cid": "C035",
+  "name": "Benefit-rule changes: Medicaid work rules, SNAP and ACA cliffs",
+  "n_ideas": 15,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 5,
+  "n_source_agents": 11,
+  "ideas": [
+   "I0648",
+   "I1118",
+   "I0704",
+   "I0399",
+   "I0772",
+   "I0061",
+   "I0702",
+   "I0822",
+   "I0071",
+   "I0243",
+   "I1240",
+   "I0573",
+   "I0193",
+   "I1164",
+   "I0705"
+  ]
+ },
+ {
+  "cid": "C079",
+  "name": "Flood and fire survivors: mapping, buyouts, claims and rebuilding",
+  "n_ideas": 14,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 5,
+  "n_source_agents": 9,
+  "ideas": [
+   "I0233",
+   "I0222",
+   "I0287",
+   "I1011",
+   "I0715",
+   "I0330",
+   "I0973",
+   "I0584",
+   "I0591",
+   "I1103",
+   "I0067",
+   "I1212",
+   "I0532",
+   "I0556"
+  ]
+ },
+ {
+  "cid": "C009",
+  "name": "Rights-cleared human data and vetted expert workers for AI labs",
+  "n_ideas": 13,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 5,
+  "n_source_agents": 11,
+  "ideas": [
+   "I0757",
+   "I0630",
+   "I0353",
+   "I0753",
+   "I1170",
+   "I0843",
+   "I1124",
+   "I0004",
+   "I1171",
+   "I0600",
+   "I0161",
+   "I1027",
+   "I0256"
+  ]
+ },
+ {
+  "cid": "C053",
+  "name": "Localities, utilities and landowners facing speculative data-center demand",
+  "n_ideas": 12,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 5,
+  "n_source_agents": 11,
+  "ideas": [
+   "I0568",
+   "I0444",
+   "I0442",
+   "I0605",
+   "I0335",
+   "I1172",
+   "I1246",
+   "I0806",
+   "I1099",
+   "I0079",
+   "I0765",
+   "I0938"
+  ]
+ },
+ {
+  "cid": "C075",
+  "name": "Landlords in soft markets: vouchers, evictions, vacancies and retention",
+  "n_ideas": 9,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 5,
+  "n_source_agents": 6,
+  "ideas": [
+   "I0403",
+   "I0206",
+   "I0677",
+   "I1157",
+   "I0540",
+   "I0367",
+   "I0588",
+   "I0153",
+   "I0382"
+  ]
+ },
+ {
+  "cid": "C027",
+  "name": "Houses caught in death, divorce or care transitions",
+  "n_ideas": 9,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 5,
+  "n_source_agents": 7,
+  "ideas": [
+   "I0314",
+   "I0038",
+   "I0506",
+   "I0583",
+   "I1321",
+   "I0620",
+   "I1196",
+   "I1272",
+   "I1314"
+  ]
+ },
+ {
+  "cid": "C089",
+  "name": "Unclaimed money: settlements, refunds, penalties and unpaid invoices",
+  "n_ideas": 8,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 5,
+  "n_source_agents": 7,
+  "ideas": [
+   "I0955",
+   "I1089",
+   "I0109",
+   "I0201",
+   "I0663",
+   "I0278",
+   "I0095",
+   "I0795"
+  ]
+ },
+ {
+  "cid": "C011",
+  "name": "Buyers unable to verify vendor, algorithm or AI-safety claims",
+  "n_ideas": 21,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 17,
+  "ideas": [
+   "I1252",
+   "I0712",
+   "I0969",
+   "I0219",
+   "I1045",
+   "I0275",
+   "I0479",
+   "I1324",
+   "I0264",
+   "I0213",
+   "I0739",
+   "I0862",
+   "I0100",
+   "I0746",
+   "I0804",
+   "I1256",
+   "I1065",
+   "I0136",
+   "I0390",
+   "I1075",
+   "I0841"
+  ]
+ },
+ {
+  "cid": "C121",
+  "name": "Novel environmental and infrastructure data from satellites and crowd-sensing",
+  "n_ideas": 17,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 10,
+  "ideas": [
+   "I1111",
+   "I0608",
+   "I0197",
+   "I1085",
+   "I0763",
+   "I0333",
+   "I1253",
+   "I0858",
+   "I0196",
+   "I0647",
+   "I0618",
+   "I1289",
+   "I1280",
+   "I1283",
+   "I0744",
+   "I0484",
+   "I1142"
+  ]
+ },
+ {
+  "cid": "C021",
+  "name": "Small firms and property managers defending against fraud and impersonation",
+  "n_ideas": 16,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "signal"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 10,
+  "ideas": [
+   "I1016",
+   "I1197",
+   "I0356",
+   "I0565",
+   "I0354",
+   "I0064",
+   "I0673",
+   "I0058",
+   "I0250",
+   "I0434",
+   "I0162",
+   "I0455",
+   "I0401",
+   "I1068",
+   "I0205",
+   "I0349"
+  ]
+ },
+ {
+  "cid": "C054",
+  "name": "Getting power for large loads and storage",
+  "n_ideas": 16,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 8,
+  "ideas": [
+   "I0833",
+   "I0836",
+   "I0040",
+   "I1080",
+   "I0065",
+   "I0336",
+   "I0996",
+   "I0707",
+   "I0008",
+   "I0625",
+   "I0491",
+   "I0107",
+   "I1147",
+   "I0091",
+   "I0347",
+   "I0977"
+  ]
+ },
+ {
+  "cid": "C068",
+  "name": "New defense and drone suppliers: compliance and financing hurdles",
+  "n_ideas": 15,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "signal"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 8,
+  "ideas": [
+   "I1296",
+   "I0520",
+   "I0453",
+   "I1153",
+   "I0931",
+   "I0994",
+   "I0267",
+   "I0295",
+   "I0089",
+   "I0288",
+   "I1058",
+   "I1273",
+   "I0849",
+   "I0547",
+   "I0553"
+  ]
+ },
+ {
+  "cid": "C065",
+  "name": "EU digital product laws for small connected-device makers",
+  "n_ideas": 15,
+  "kinds": [
+   "collide",
+   "idea",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 11,
+  "ideas": [
+   "I1309",
+   "I1244",
+   "I0747",
+   "I1000",
+   "I0780",
+   "I0814",
+   "I0374",
+   "I0808",
+   "I0518",
+   "I0419",
+   "I0490",
+   "I0717",
+   "I0320",
+   "I0737",
+   "I0888"
+  ]
+ },
+ {
+  "cid": "C067",
+  "name": "US machine shops and reshoring manufacturers",
+  "n_ideas": 15,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "signal"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 6,
+  "ideas": [
+   "I0321",
+   "I0818",
+   "I0513",
+   "I0820",
+   "I1249",
+   "I0672",
+   "I0892",
+   "I0054",
+   "I0180",
+   "I0850",
+   "I1083",
+   "I0461",
+   "I0552",
+   "I1234",
+   "I0270"
+  ]
+ },
+ {
+  "cid": "C057",
+  "name": "Households upgrading homes: electrification, roofs and solar loans",
+  "n_ideas": 14,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 10,
+  "ideas": [
+   "I0992",
+   "I0863",
+   "I0911",
+   "I0828",
+   "I0075",
+   "I0169",
+   "I0076",
+   "I0318",
+   "I0257",
+   "I0985",
+   "I0752",
+   "I0533",
+   "I0141",
+   "I1078"
+  ]
+ },
+ {
+  "cid": "C050",
+  "name": "Smallholders and rural households in emerging markets",
+  "n_ideas": 13,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 6,
+  "ideas": [
+   "I0037",
+   "I1332",
+   "I0953",
+   "I0635",
+   "I0028",
+   "I1276",
+   "I1265",
+   "I1006",
+   "I0473",
+   "I0766",
+   "I0505",
+   "I0714",
+   "I0971"
+  ]
+ },
+ {
+  "cid": "C117",
+  "name": "Pet owners and insurers squeezed by rising vet bills",
+  "n_ideas": 13,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "signal"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 6,
+  "ideas": [
+   "I0676",
+   "I0720",
+   "I0414",
+   "I1056",
+   "I0970",
+   "I0661",
+   "I0291",
+   "I0451",
+   "I0304",
+   "I0682",
+   "I0691",
+   "I0366",
+   "I0165"
+  ]
+ },
+ {
+  "cid": "C069",
+  "name": "Aircraft and drone operators: maintenance, parts, permits and navigation",
+  "n_ideas": 13,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 7,
+  "ideas": [
+   "I1278",
+   "I0904",
+   "I0044",
+   "I0886",
+   "I0742",
+   "I0082",
+   "I1290",
+   "I1064",
+   "I0698",
+   "I0728",
+   "I0574",
+   "I0998",
+   "I0910"
+  ]
+ },
+ {
+  "cid": "C083",
+  "name": "Informal finance and payment frictions in emerging markets",
+  "n_ideas": 13,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "signal"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 7,
+  "ideas": [
+   "I0927",
+   "I0549",
+   "I0876",
+   "I0294",
+   "I0611",
+   "I0929",
+   "I0671",
+   "I0346",
+   "I0117",
+   "I0394",
+   "I1228",
+   "I0237",
+   "I0238"
+  ]
+ },
+ {
+  "cid": "C031",
+  "name": "Home and residential care: labor supply, family caregivers and small-scale models",
+  "n_ideas": 13,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 7,
+  "ideas": [
+   "I0311",
+   "I0978",
+   "I1285",
+   "I0452",
+   "I0341",
+   "I0279",
+   "I1182",
+   "I0332",
+   "I0155",
+   "I0057",
+   "I1229",
+   "I1270",
+   "I0135"
+  ]
+ },
+ {
+  "cid": "C012",
+  "name": "Gatekeepers drowning in AI-generated submissions and bot responses",
+  "n_ideas": 13,
+  "kinds": [
+   "idea",
+   "persona",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 11,
+  "ideas": [
+   "I0555",
+   "I1322",
+   "I1323",
+   "I1328",
+   "I1135",
+   "I0559",
+   "I0375",
+   "I0716",
+   "I1115",
+   "I0469",
+   "I0156",
+   "I0030",
+   "I1224"
+  ]
+ },
+ {
+  "cid": "C056",
+  "name": "Lenders and investors unable to verify collateral exists",
+  "n_ideas": 12,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 12,
+  "ideas": [
+   "I0218",
+   "I0163",
+   "I0832",
+   "I0924",
+   "I0158",
+   "I0392",
+   "I0342",
+   "I0790",
+   "I1315",
+   "I0338",
+   "I1281",
+   "I1268"
+  ]
+ },
+ {
+  "cid": "C097",
+  "name": "Colleges and training programs under new federal loan caps and earnings tests",
+  "n_ideas": 12,
+  "kinds": [
+   "collide",
+   "idea",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 8,
+  "ideas": [
+   "I0629",
+   "I0916",
+   "I1069",
+   "I0111",
+   "I1121",
+   "I0515",
+   "I0105",
+   "I0454",
+   "I0149",
+   "I0116",
+   "I0271",
+   "I0410"
+  ]
+ },
+ {
+  "cid": "C072",
+  "name": "Small builders' crew coordination, permits and speed",
+  "n_ideas": 12,
+  "kinds": [
+   "collide",
+   "idea",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 5,
+  "ideas": [
+   "I0433",
+   "I1190",
+   "I0842",
+   "I0854",
+   "I1067",
+   "I1271",
+   "I0800",
+   "I1310",
+   "I0957",
+   "I0735",
+   "I0529",
+   "I0348"
+  ]
+ },
+ {
+  "cid": "C048",
+  "name": "Farm and ranch risks: disease, cash, storage and machinery",
+  "n_ideas": 12,
+  "kinds": [
+   "idea",
+   "persona",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 7,
+  "ideas": [
+   "I0305",
+   "I0541",
+   "I1327",
+   "I0791",
+   "I0015",
+   "I0029",
+   "I0483",
+   "I0296",
+   "I0249",
+   "I1176",
+   "I0199",
+   "I0617"
+  ]
+ },
+ {
+  "cid": "C018",
+  "name": "Recorded and AI-created data exposure for small firms",
+  "n_ideas": 11,
+  "kinds": [
+   "idea",
+   "persona",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 10,
+  "ideas": [
+   "I1010",
+   "I0572",
+   "I1183",
+   "I1222",
+   "I0115",
+   "I1138",
+   "I1059",
+   "I0883",
+   "I0138",
+   "I0080",
+   "I0984"
+  ]
+ },
+ {
+  "cid": "C093",
+  "name": "Microschools, homeschoolers and shrinking districts",
+  "n_ideas": 11,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 7,
+  "ideas": [
+   "I0145",
+   "I1130",
+   "I0210",
+   "I0343",
+   "I0024",
+   "I0593",
+   "I1032",
+   "I0495",
+   "I1022",
+   "I0856",
+   "I0895"
+  ]
+ },
+ {
+  "cid": "C052",
+  "name": "Small water utilities: staffing, revenue leakage, lead lines and nitrate",
+  "n_ideas": 11,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 7,
+  "ideas": [
+   "I1050",
+   "I0703",
+   "I1335",
+   "I1072",
+   "I0665",
+   "I0463",
+   "I1110",
+   "I0429",
+   "I1211",
+   "I0585",
+   "I0388"
+  ]
+ },
+ {
+  "cid": "C101",
+  "name": "Trade-shop succession and buyouts",
+  "n_ideas": 11,
+  "kinds": [
+   "collide",
+   "idea",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 9,
+  "ideas": [
+   "I0626",
+   "I1167",
+   "I0001",
+   "I0921",
+   "I0557",
+   "I0582",
+   "I0456",
+   "I1220",
+   "I0447",
+   "I0948",
+   "I0255"
+  ]
+ },
+ {
+  "cid": "C074",
+  "name": "Home closings, condo boards and HOAs tangled in title and records rules",
+  "n_ideas": 10,
+  "kinds": [
+   "idea",
+   "persona",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 8,
+  "ideas": [
+   "I0048",
+   "I0776",
+   "I0027",
+   "I1117",
+   "I0363",
+   "I0489",
+   "I1203",
+   "I1210",
+   "I0723",
+   "I0381"
+  ]
+ },
+ {
+  "cid": "C058",
+  "name": "Utilities avoiding costly network upgrades with distributed flexibility",
+  "n_ideas": 9,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 6,
+  "ideas": [
+   "I0055",
+   "I0526",
+   "I0160",
+   "I0325",
+   "I0936",
+   "I1215",
+   "I0837",
+   "I1018",
+   "I1132"
+  ]
+ },
+ {
+  "cid": "C081",
+  "name": "Fast parametric cash for weather and disaster shocks",
+  "n_ideas": 9,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 5,
+  "ideas": [
+   "I1038",
+   "I0427",
+   "I0796",
+   "I1086",
+   "I1150",
+   "I0866",
+   "I0175",
+   "I0816",
+   "I1114"
+  ]
+ },
+ {
+  "cid": "C109",
+  "name": "Customers stranded when a product's maker disappears",
+  "n_ideas": 9,
+  "kinds": [
+   "idea",
+   "persona",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 8,
+  "ideas": [
+   "I0641",
+   "I0658",
+   "I0151",
+   "I0313",
+   "I0855",
+   "I0947",
+   "I0510",
+   "I0906",
+   "I0268"
+  ]
+ },
+ {
+  "cid": "C087",
+  "name": "Gig, tipped and cash workers unable to prove income",
+  "n_ideas": 9,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 9,
+  "ideas": [
+   "I1320",
+   "I0793",
+   "I1259",
+   "I0425",
+   "I0227",
+   "I0637",
+   "I0662",
+   "I0046",
+   "I0383"
+  ]
+ },
+ {
+  "cid": "C123",
+  "name": "Autonomous and AI-directed labs: infrastructure, safety and access",
+  "n_ideas": 9,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 4,
+  "ideas": [
+   "I1005",
+   "I0017",
+   "I1298",
+   "I1026",
+   "I0212",
+   "I1305",
+   "I1098",
+   "I0230",
+   "I0868"
+  ]
+ },
+ {
+  "cid": "C102",
+  "name": "Owner wind-down, sudden death and tacit-knowledge handoff",
+  "n_ideas": 9,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 8,
+  "ideas": [
+   "I0898",
+   "I0628",
+   "I0669",
+   "I0146",
+   "I0232",
+   "I0581",
+   "I0241",
+   "I1039",
+   "I1264"
+  ]
+ },
+ {
+  "cid": "C125",
+  "name": "Biotech capital: diligence and salvage",
+  "n_ideas": 8,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 4,
+  "ideas": [
+   "I1195",
+   "I0535",
+   "I0616",
+   "I1070",
+   "I0400",
+   "I1146",
+   "I1187",
+   "I0861"
+  ]
+ },
+ {
+  "cid": "C041",
+  "name": "Businesses adapting to GLP-1 users' changed consumption",
+  "n_ideas": 8,
+  "kinds": [
+   "collide",
+   "idea",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 6,
+  "ideas": [
+   "I0396",
+   "I1046",
+   "I0002",
+   "I0679",
+   "I1204",
+   "I0831",
+   "I0200",
+   "I1258"
+  ]
+ },
+ {
+  "cid": "C019",
+  "name": "Seniors targeted by impersonation scams and the institutions that bear the losses",
+  "n_ideas": 8,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 7,
+  "ideas": [
+   "I0350",
+   "I0523",
+   "I0918",
+   "I0501",
+   "I0652",
+   "I0168",
+   "I0032",
+   "I1066"
+  ]
+ },
+ {
+  "cid": "C026",
+  "name": "Making family estate plans fair and contest-proof",
+  "n_ideas": 7,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 5,
+  "ideas": [
+   "I1223",
+   "I0653",
+   "I0049",
+   "I0378",
+   "I0751",
+   "I1275",
+   "I0137"
+  ]
+ },
+ {
+  "cid": "C039",
+  "name": "Behavioral health and addiction care capacity",
+  "n_ideas": 7,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 6,
+  "ideas": [
+   "I0761",
+   "I0602",
+   "I0844",
+   "I1041",
+   "I1033",
+   "I1312",
+   "I0730"
+  ]
+ },
+ {
+  "cid": "C066",
+  "name": "Exporters meeting foreign sustainability and representation rules",
+  "n_ideas": 7,
+  "kinds": [
+   "collide",
+   "idea",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 5,
+  "ideas": [
+   "I0659",
+   "I0280",
+   "I1303",
+   "I0801",
+   "I0439",
+   "I0935",
+   "I0812"
+  ]
+ },
+ {
+  "cid": "C047",
+  "name": "Food and beverage producers facing new rules and safety risks",
+  "n_ideas": 7,
+  "kinds": [
+   "collide",
+   "idea",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 7,
+  "ideas": [
+   "I1318",
+   "I0189",
+   "I0373",
+   "I0546",
+   "I0768",
+   "I0103",
+   "I0385"
+  ]
+ },
+ {
+  "cid": "C085",
+  "name": "Households in debt distress",
+  "n_ideas": 6,
+  "kinds": [
+   "collide",
+   "idea",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 5,
+  "ideas": [
+   "I0144",
+   "I1049",
+   "I1100",
+   "I0448",
+   "I0370",
+   "I1311"
+  ]
+ },
+ {
+  "cid": "C119",
+  "name": "Pets at risk: owner crises, shelters and transport paperwork",
+  "n_ideas": 6,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 6,
+  "ideas": [
+   "I0010",
+   "I1293",
+   "I0509",
+   "I1023",
+   "I1129",
+   "I0891"
+  ]
+ },
+ {
+  "cid": "C022",
+  "name": "Independent funeral homes facing key-person, overnight and consolidation pressure",
+  "n_ideas": 6,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 5,
+  "ideas": [
+   "I0667",
+   "I1108",
+   "I1188",
+   "I0982",
+   "I0421",
+   "I1194"
+  ]
+ },
+ {
+  "cid": "C092",
+  "name": "Diaspora families managing death, care and property across borders",
+  "n_ideas": 4,
+  "kinds": [
+   "idea",
+   "persona",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 4,
+  "n_source_agents": 4,
+  "ideas": [
+   "I0474",
+   "I0126",
+   "I0033",
+   "I0242"
+  ]
+ },
+ {
+  "cid": "C078",
+  "name": "Homeowners and communities losing property insurance in high-risk areas",
+  "n_ideas": 21,
+  "kinds": [
+   "collide",
+   "idea",
+   "signal"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 8,
+  "ideas": [
+   "I1119",
+   "I0244",
+   "I0507",
+   "I1191",
+   "I0781",
+   "I1158",
+   "I0951",
+   "I0567",
+   "I1148",
+   "I0492",
+   "I0516",
+   "I1107",
+   "I1019",
+   "I0097",
+   "I0131",
+   "I1009",
+   "I1294",
+   "I0134",
+   "I1189",
+   "I0157",
+   "I0797"
+  ]
+ },
+ {
+  "cid": "C049",
+  "name": "Water scarcity: irrigation allocation and new supply",
+  "n_ideas": 16,
+  "kinds": [
+   "collide",
+   "idea",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 6,
+  "ideas": [
+   "I0183",
+   "I0785",
+   "I0784",
+   "I0813",
+   "I0339",
+   "I1053",
+   "I1245",
+   "I0943",
+   "I1155",
+   "I0290",
+   "I0173",
+   "I1251",
+   "I0840",
+   "I0026",
+   "I0446",
+   "I1057"
+  ]
+ },
+ {
+  "cid": "C010",
+  "name": "Real-world skill and object data for robot and industrial-AI builders",
+  "n_ideas": 15,
+  "kinds": [
+   "collide",
+   "idea",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 13,
+  "ideas": [
+   "I0779",
+   "I1233",
+   "I0802",
+   "I0458",
+   "I0897",
+   "I0494",
+   "I0211",
+   "I1109",
+   "I1232",
+   "I1263",
+   "I0908",
+   "I1267",
+   "I0508",
+   "I0760",
+   "I0194"
+  ]
+ },
+ {
+  "cid": "C094",
+  "name": "Childcare shortage: providers, buildings and employer funding",
+  "n_ideas": 13,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 5,
+  "ideas": [
+   "I0220",
+   "I1274",
+   "I0098",
+   "I0857",
+   "I1288",
+   "I0912",
+   "I0872",
+   "I0106",
+   "I0732",
+   "I1339",
+   "I0331",
+   "I0198",
+   "I1001"
+  ]
+ },
+ {
+  "cid": "C008",
+  "name": "Creators proving authorship and stopping unauthorized AI use of their work",
+  "n_ideas": 13,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 5,
+  "ideas": [
+   "I0500",
+   "I0293",
+   "I0398",
+   "I0357",
+   "I0875",
+   "I1002",
+   "I1185",
+   "I0990",
+   "I0993",
+   "I0000",
+   "I1141",
+   "I0564",
+   "I0009"
+  ]
+ },
+ {
+  "cid": "C113",
+  "name": "Independent game studios and creator businesses",
+  "n_ideas": 12,
+  "kinds": [
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 6,
+  "ideas": [
+   "I1020",
+   "I1313",
+   "I1225",
+   "I0130",
+   "I0741",
+   "I0184",
+   "I0685",
+   "I1302",
+   "I1308",
+   "I0308",
+   "I0997",
+   "I0949"
+  ]
+ },
+ {
+  "cid": "C006",
+  "name": "Defensible authenticity evidence for disputed digital media",
+  "n_ideas": 12,
+  "kinds": [
+   "collide",
+   "idea",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 9,
+  "ideas": [
+   "I1096",
+   "I0053",
+   "I0386",
+   "I0132",
+   "I0208",
+   "I0086",
+   "I1036",
+   "I0003",
+   "I1334",
+   "I0464",
+   "I0246",
+   "I1299"
+  ]
+ },
+ {
+  "cid": "C001",
+  "name": "Accountability and guardrails for AI agents acting for others",
+  "n_ideas": 12,
+  "kinds": [
+   "collide",
+   "idea",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 8,
+  "ideas": [
+   "I0884",
+   "I0956",
+   "I0247",
+   "I0852",
+   "I0524",
+   "I0152",
+   "I0379",
+   "I0944",
+   "I0598",
+   "I0706",
+   "I0371",
+   "I0991"
+  ]
+ },
+ {
+  "cid": "C071",
+  "name": "Condition monitoring for asset owners and their service contractors",
+  "n_ideas": 12,
+  "kinds": [
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 9,
+  "ideas": [
+   "I0919",
+   "I0867",
+   "I1060",
+   "I1134",
+   "I1260",
+   "I1095",
+   "I1101",
+   "I0324",
+   "I0127",
+   "I0060",
+   "I0563",
+   "I0945"
+  ]
+ },
+ {
+  "cid": "C030",
+  "name": "Dementia and Alzheimer's care at home and in memory care",
+  "n_ideas": 11,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 5,
+  "ideas": [
+   "I1179",
+   "I1061",
+   "I0981",
+   "I0225",
+   "I0932",
+   "I1030",
+   "I1071",
+   "I0188",
+   "I1230",
+   "I0034",
+   "I1074"
+  ]
+ },
+ {
+  "cid": "C099",
+  "name": "Employers restructuring for AI: layoffs, severance and displaced workers",
+  "n_ideas": 11,
+  "kinds": [
+   "collide",
+   "idea",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 6,
+  "ideas": [
+   "I1257",
+   "I0437",
+   "I0590",
+   "I1017",
+   "I0571",
+   "I0655",
+   "I0902",
+   "I0063",
+   "I0826",
+   "I0940",
+   "I0550"
+  ]
+ },
+ {
+  "cid": "C118",
+  "name": "Veterinary practices: capacity, workforce, diagnostics and drugs",
+  "n_ideas": 11,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 3,
+  "ideas": [
+   "I0384",
+   "I0668",
+   "I1193",
+   "I0203",
+   "I1073",
+   "I1161",
+   "I0166",
+   "I0825",
+   "I0693",
+   "I0607",
+   "I0172"
+  ]
+ },
+ {
+  "cid": "C042",
+  "name": "GLP-1 patients' transitions: procedures, medication changes, quitting and aftercare",
+  "n_ideas": 11,
+  "kinds": [
+   "collide",
+   "idea",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 6,
+  "ideas": [
+   "I0967",
+   "I0391",
+   "I0638",
+   "I0749",
+   "I1336",
+   "I1213",
+   "I0014",
+   "I0062",
+   "I0687",
+   "I0281",
+   "I0615"
+  ]
+ },
+ {
+  "cid": "C032",
+  "name": "Loneliness and purpose: belonging programs for isolated adults and elders",
+  "n_ideas": 11,
+  "kinds": [
+   "collide",
+   "idea",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 7,
+  "ideas": [
+   "I0644",
+   "I0051",
+   "I0102",
+   "I0824",
+   "I0018",
+   "I1255",
+   "I0934",
+   "I0445",
+   "I0589",
+   "I0306",
+   "I0923"
+  ]
+ },
+ {
+  "cid": "C060",
+  "name": "Critical minerals and rare-earth supply chain recovery and provenance",
+  "n_ideas": 11,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 5,
+  "ideas": [
+   "I0764",
+   "I0301",
+   "I1247",
+   "I0810",
+   "I0694",
+   "I0695",
+   "I0939",
+   "I0123",
+   "I0025",
+   "I0922",
+   "I0762"
+  ]
+ },
+ {
+  "cid": "C004",
+  "name": "AI builders' dependency risk: model retirement, cost blowouts and platform death",
+  "n_ideas": 11,
+  "kinds": [
+   "idea",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 7,
+  "ideas": [
+   "I0498",
+   "I0684",
+   "I1198",
+   "I1227",
+   "I1292",
+   "I0066",
+   "I0511",
+   "I1201",
+   "I0387",
+   "I1286",
+   "I0154"
+  ]
+ },
+ {
+  "cid": "C003",
+  "name": "Payments, escrow, disputes and human fulfilment for agent transactions",
+  "n_ideas": 11,
+  "kinds": [
+   "collide",
+   "idea",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 7,
+  "ideas": [
+   "I1319",
+   "I1015",
+   "I0838",
+   "I0835",
+   "I0402",
+   "I0946",
+   "I0224",
+   "I0586",
+   "I1180",
+   "I0531",
+   "I0879"
+  ]
+ },
+ {
+  "cid": "C108",
+  "name": "Autonomous-vehicle fleets' ground infrastructure and stakeholders",
+  "n_ideas": 10,
+  "kinds": [
+   "collide",
+   "idea",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 6,
+  "ideas": [
+   "I1202",
+   "I1231",
+   "I0527",
+   "I1237",
+   "I0099",
+   "I0548",
+   "I0514",
+   "I0688",
+   "I1162",
+   "I1112"
+  ]
+ },
+ {
+  "cid": "C129",
+  "name": "Freight brokers, carriers and shippers: fraud, liability and disputes",
+  "n_ideas": 10,
+  "kinds": [
+   "collide",
+   "persona",
+   "signal"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 5,
+  "ideas": [
+   "I0896",
+   "I0930",
+   "I1338",
+   "I1097",
+   "I0926",
+   "I0215",
+   "I0750",
+   "I0787",
+   "I0631",
+   "I0475"
+  ]
+ },
+ {
+  "cid": "C114",
+  "name": "Small venues, performers and event vendors",
+  "n_ideas": 10,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 4,
+  "ideas": [
+   "I1008",
+   "I0599",
+   "I0551",
+   "I0077",
+   "I0277",
+   "I1106",
+   "I0613",
+   "I0789",
+   "I0657",
+   "I0525"
+  ]
+ },
+ {
+  "cid": "C124",
+  "name": "Wet-lab reagents and screens for AI-designed therapeutics",
+  "n_ideas": 10,
+  "kinds": [
+   "collide",
+   "idea",
+   "signal"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 3,
+  "ideas": [
+   "I0369",
+   "I1181",
+   "I1024",
+   "I0150",
+   "I0733",
+   "I0443",
+   "I0770",
+   "I0536",
+   "I0823",
+   "I0362"
+  ]
+ },
+ {
+  "cid": "C106",
+  "name": "Teleoperated labor and remote pilot workforces",
+  "n_ideas": 10,
+  "kinds": [
+   "collide",
+   "idea",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 8,
+  "ideas": [
+   "I0226",
+   "I0395",
+   "I0303",
+   "I0121",
+   "I0909",
+   "I0880",
+   "I0853",
+   "I0118",
+   "I0560",
+   "I0650"
+  ]
+ },
+ {
+  "cid": "C029",
+  "name": "Adult children managing aging parents from afar",
+  "n_ideas": 10,
+  "kinds": [
+   "collide",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 8,
+  "ideas": [
+   "I1013",
+   "I0285",
+   "I0907",
+   "I1031",
+   "I1145",
+   "I0092",
+   "I1125",
+   "I0966",
+   "I0101",
+   "I0457"
+  ]
+ },
+ {
+  "cid": "C091",
+  "name": "Immigrant households and workers: status deadlines and paperwork",
+  "n_ideas": 9,
+  "kinds": [
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 5,
+  "ideas": [
+   "I0424",
+   "I1173",
+   "I0217",
+   "I0411",
+   "I1062",
+   "I0013",
+   "I1282",
+   "I0817",
+   "I0925"
+  ]
+ },
+ {
+  "cid": "C070",
+  "name": "Skilled-trades labor gap",
+  "n_ideas": 9,
+  "kinds": [
+   "collide",
+   "idea",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 6,
+  "ideas": [
+   "I1261",
+   "I1084",
+   "I0326",
+   "I0209",
+   "I0007",
+   "I1307",
+   "I0829",
+   "I1052",
+   "I0228"
+  ]
+ },
+ {
+  "cid": "C007",
+  "name": "Small litigation practices lacking evidence, records and benchmark tools",
+  "n_ideas": 9,
+  "kinds": [
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 7,
+  "ideas": [
+   "I0248",
+   "I0864",
+   "I0428",
+   "I0412",
+   "I0920",
+   "I0459",
+   "I0690",
+   "I0782",
+   "I0432"
+  ]
+ },
+ {
+  "cid": "C100",
+  "name": "Workforce compliance for remote, tipped and platform workers",
+  "n_ideas": 9,
+  "kinds": [
+   "collide",
+   "idea",
+   "signal"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 9,
+  "ideas": [
+   "I0905",
+   "I0846",
+   "I0112",
+   "I0179",
+   "I0471",
+   "I0143",
+   "I0407",
+   "I0987",
+   "I0627"
+  ]
+ },
+ {
+  "cid": "C002",
+  "name": "Merchants and bureaucracies that AI agents cannot reach or navigate",
+  "n_ideas": 9,
+  "kinds": [
+   "collide",
+   "idea",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 5,
+  "ideas": [
+   "I0449",
+   "I0901",
+   "I0794",
+   "I0534",
+   "I0070",
+   "I0577",
+   "I0078",
+   "I1007",
+   "I1178"
+  ]
+ },
+ {
+  "cid": "C095",
+  "name": "Out-of-school time, phone-free play and youth sports safety",
+  "n_ideas": 9,
+  "kinds": [
+   "collide",
+   "idea",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 7,
+  "ideas": [
+   "I0364",
+   "I1226",
+   "I0187",
+   "I1208",
+   "I1137",
+   "I1035",
+   "I0329",
+   "I0960",
+   "I0740"
+  ]
+ },
+ {
+  "cid": "C111",
+  "name": "Resellers and liquidators of surplus and fandom goods",
+  "n_ideas": 9,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 7,
+  "ideas": [
+   "I0436",
+   "I1206",
+   "I0656",
+   "I0566",
+   "I0873",
+   "I0312",
+   "I0995",
+   "I0636",
+   "I0185"
+  ]
+ },
+ {
+  "cid": "C105",
+  "name": "Cash-flow gaps from slow-paying institutions",
+  "n_ideas": 8,
+  "kinds": [
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 8,
+  "ideas": [
+   "I0052",
+   "I0159",
+   "I0259",
+   "I1254",
+   "I1128",
+   "I0142",
+   "I1248",
+   "I0792"
+  ]
+ },
+ {
+  "cid": "C062",
+  "name": "Brands substantiating origin, recycled-content and green claims",
+  "n_ideas": 8,
+  "kinds": [
+   "collide",
+   "idea",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 6,
+  "ideas": [
+   "I0544",
+   "I0423",
+   "I0999",
+   "I1209",
+   "I1239",
+   "I0597",
+   "I0928",
+   "I1168"
+  ]
+ },
+ {
+  "cid": "C115",
+  "name": "Independent gyms, studios and racquet venues",
+  "n_ideas": 8,
+  "kinds": [
+   "idea",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 4,
+  "ideas": [
+   "I0885",
+   "I0686",
+   "I0874",
+   "I0827",
+   "I1156",
+   "I0164",
+   "I1043",
+   "I0274"
+  ]
+ },
+ {
+  "cid": "C116",
+  "name": "Shrinking institutions with idle buildings",
+  "n_ideas": 8,
+  "kinds": [
+   "collide",
+   "idea",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 6,
+  "ideas": [
+   "I0621",
+   "I0450",
+   "I0404",
+   "I0839",
+   "I0234",
+   "I1169",
+   "I1317",
+   "I0036"
+  ]
+ },
+ {
+  "cid": "C055",
+  "name": "Data center build quality, commissioning and waste-heat reuse",
+  "n_ideas": 8,
+  "kinds": [
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 7,
+  "ideas": [
+   "I0482",
+   "I0186",
+   "I0894",
+   "I0361",
+   "I0699",
+   "I0719",
+   "I1174",
+   "I0485"
+  ]
+ },
+ {
+  "cid": "C038",
+  "name": "Preventive and longevity care outside conventional insurance",
+  "n_ideas": 8,
+  "kinds": [
+   "collide",
+   "idea",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 4,
+  "ideas": [
+   "I0440",
+   "I0870",
+   "I0799",
+   "I0612",
+   "I0914",
+   "I0848",
+   "I0190",
+   "I1014"
+  ]
+ },
+ {
+  "cid": "C025",
+  "name": "Executors and small probate firms drowning in estate paperwork",
+  "n_ideas": 8,
+  "kinds": [
+   "collide",
+   "idea",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 5,
+  "ideas": [
+   "I1159",
+   "I0521",
+   "I1297",
+   "I0481",
+   "I1166",
+   "I0623",
+   "I0020",
+   "I0675"
+  ]
+ },
+ {
+  "cid": "C014",
+  "name": "Verifying real human skill, identity and authorship in hiring and education",
+  "n_ideas": 8,
+  "kinds": [
+   "collide",
+   "idea",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 8,
+  "ideas": [
+   "I0417",
+   "I0569",
+   "I0420",
+   "I0073",
+   "I0438",
+   "I0012",
+   "I0562",
+   "I1199"
+  ]
+ },
+ {
+  "cid": "C082",
+  "name": "Heat, fire and evacuation protection for vulnerable people",
+  "n_ideas": 8,
+  "kinds": [
+   "collide",
+   "idea",
+   "persona"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 7,
+  "ideas": [
+   "I0805",
+   "I0502",
+   "I0821",
+   "I1316",
+   "I0416",
+   "I0005",
+   "I0276",
+   "I0466"
+  ]
+ },
+ {
+  "cid": "C028",
+  "name": "Solo agers without family to act as proxy, executor or guardian",
+  "n_ideas": 7,
+  "kinds": [
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 7,
+  "ideas": [
+   "I0681",
+   "I0081",
+   "I0045",
+   "I0554",
+   "I0933",
+   "I0865",
+   "I0319"
+  ]
+ },
+ {
+  "cid": "C126",
+  "name": "Rural sheriffs, jails and small police agencies",
+  "n_ideas": 7,
+  "kinds": [
+   "idea",
+   "persona",
+   "signal"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 5,
+  "ideas": [
+   "I0129",
+   "I0786",
+   "I1063",
+   "I1025",
+   "I1042",
+   "I0903",
+   "I0360"
+  ]
+ },
+ {
+  "cid": "C080",
+  "name": "Cover and data for emerging or neglected risks",
+  "n_ideas": 7,
+  "kinds": [
+   "collide",
+   "idea",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 7,
+  "ideas": [
+   "I1301",
+   "I0476",
+   "I0851",
+   "I0745",
+   "I0265",
+   "I0646",
+   "I1037"
+  ]
+ },
+ {
+  "cid": "C127",
+  "name": "City and county governments: thin staff, grants and vendor oversight",
+  "n_ideas": 7,
+  "kinds": [
+   "collide",
+   "idea",
+   "signal"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 4,
+  "ideas": [
+   "I1269",
+   "I0441",
+   "I0788",
+   "I1093",
+   "I1127",
+   "I0759",
+   "I1250"
+  ]
+ },
+ {
+  "cid": "C059",
+  "name": "Residential solar leftovers: orphaned systems, leases and liens",
+  "n_ideas": 6,
+  "kinds": [
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 5,
+  "ideas": [
+   "I0619",
+   "I0989",
+   "I0497",
+   "I1325",
+   "I1175",
+   "I0204"
+  ]
+ },
+ {
+  "cid": "C046",
+  "name": "Restaurants' idle hours, used oil and credit risk",
+  "n_ideas": 6,
+  "kinds": [
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 4,
+  "ideas": [
+   "I0108",
+   "I0968",
+   "I0084",
+   "I0890",
+   "I0961",
+   "I1021"
+  ]
+ },
+ {
+  "cid": "C096",
+  "name": "K-12 districts' legal service duties: IEPs, attendance, nutrition and Title I",
+  "n_ideas": 6,
+  "kinds": [
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 4,
+  "ideas": [
+   "I0177",
+   "I0289",
+   "I0178",
+   "I0148",
+   "I0869",
+   "I0803"
+  ]
+ },
+ {
+  "cid": "C034",
+  "name": "Independent pharmacies squeezed by PBMs, refund floats and deserts",
+  "n_ideas": 6,
+  "kinds": [
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 5,
+  "ideas": [
+   "I0426",
+   "I0273",
+   "I1266",
+   "I0499",
+   "I0709",
+   "I1287"
+  ]
+ },
+ {
+  "cid": "C013",
+  "name": "Trusted online signals from verified real people",
+  "n_ideas": 6,
+  "kinds": [
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 4,
+  "ideas": [
+   "I0530",
+   "I0337",
+   "I1295",
+   "I0297",
+   "I0847",
+   "I0570"
+  ]
+ },
+ {
+  "cid": "C132",
+  "name": "Land and property facts trapped in county records",
+  "n_ideas": 5,
+  "kinds": [
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 4,
+  "ideas": [
+   "I0496",
+   "I0253",
+   "I0711",
+   "I0773",
+   "I0988"
+  ]
+ },
+ {
+  "cid": "C023",
+  "name": "Families choosing direct cremation with no ritual",
+  "n_ideas": 5,
+  "kinds": [
+   "collide",
+   "idea",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 5,
+  "ideas": [
+   "I0223",
+   "I1003",
+   "I0771",
+   "I0778",
+   "I1192"
+  ]
+ },
+ {
+  "cid": "C090",
+  "name": "Warranty claims left unfiled",
+  "n_ideas": 5,
+  "kinds": [
+   "idea",
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 5,
+  "ideas": [
+   "I0195",
+   "I0229",
+   "I0074",
+   "I0743",
+   "I0974"
+  ]
+ },
+ {
+  "cid": "C036",
+  "name": "Provider revenue leaks and payer denials",
+  "n_ideas": 5,
+  "kinds": [
+   "persona",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 4,
+  "ideas": [
+   "I0042",
+   "I0512",
+   "I0708",
+   "I0093",
+   "I0640"
+  ]
+ },
+ {
+  "cid": "C017",
+  "name": "Emotional-AI companions: dependence, harm and continuity",
+  "n_ideas": 5,
+  "kinds": [
+   "collide",
+   "idea",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 3,
+  "ideas": [
+   "I0913",
+   "I0286",
+   "I0614",
+   "I1242",
+   "I0266"
+  ]
+ },
+ {
+  "cid": "C040",
+  "name": "Health-tech and device makers needing regulatory-grade validation evidence",
+  "n_ideas": 5,
+  "kinds": [
+   "idea",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 4,
+  "ideas": [
+   "I0310",
+   "I1152",
+   "I0696",
+   "I0666",
+   "I0418"
+  ]
+ },
+ {
+  "cid": "C076",
+  "name": "Small commercial tenants and renters facing landlord leverage",
+  "n_ideas": 5,
+  "kinds": [
+   "collide",
+   "idea",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 4,
+  "ideas": [
+   "I0355",
+   "I0368",
+   "I0406",
+   "I0088",
+   "I0094"
+  ]
+ },
+ {
+  "cid": "C016",
+  "name": "Parents and adults managing phones, screens and AI toys",
+  "n_ideas": 5,
+  "kinds": [
+   "collide",
+   "idea",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 5,
+  "ideas": [
+   "I1076",
+   "I0734",
+   "I0128",
+   "I0538",
+   "I1207"
+  ]
+ },
+ {
+  "cid": "C088",
+  "name": "Small firms facing serial-plaintiff, troll and patent exposure",
+  "n_ideas": 5,
+  "kinds": [
+   "idea",
+   "signal",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 5,
+  "ideas": [
+   "I0975",
+   "I0191",
+   "I0592",
+   "I0462",
+   "I0351"
+  ]
+ },
+ {
+  "cid": "C086",
+  "name": "Consumer lenders' compliance and loss pressures",
+  "n_ideas": 5,
+  "kinds": [
+   "idea",
+   "persona",
+   "signal"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 3,
+  "ideas": [
+   "I1218",
+   "I0815",
+   "I0263",
+   "I1151",
+   "I0724"
+  ]
+ },
+ {
+  "cid": "C037",
+  "name": "Follow-up gaps and anxiety after consumer scans and mega-panels",
+  "n_ideas": 4,
+  "kinds": [
+   "collide",
+   "idea",
+   "wild"
+  ],
+  "n_kinds": 3,
+  "n_source_agents": 4,
+  "ideas": [
+   "I0377",
+   "I0697",
+   "I0470",
+   "I0252"
+  ]
+ },
+ {
+  "cid": "C128",
+  "name": "Overtouristed destinations, tour operators and independent hotels",
+  "n_ideas": 19,
+  "kinds": [
+   "collide",
+   "idea"
+  ],
+  "n_kinds": 2,
+  "n_source_agents": 4,
+  "ideas": [
+   "I0327",
+   "I1082",
+   "I0468",
+   "I0692",
+   "I0965",
+   "I1054",
+   "I0561",
+   "I0430",
+   "I0680",
+   "I0122",
+   "I1120",
+   "I0487",
+   "I0860",
+   "I1241",
+   "I0422",
+   "I0087",
+   "I0231",
+   "I0882",
+   "I0284"
+  ]
+ },
+ {
+  "cid": "C120",
+  "name": "New-space economy: operator gaps and LEO service users' risks",
+  "n_ideas": 14,
+  "kinds": [
+   "collide",
+   "idea"
+  ],
+  "n_kinds": 2,
+  "n_source_agents": 2,
+  "ideas": [
+   "I0493",
+   "I0124",
+   "I0372",
+   "I0595",
+   "I0700",
+   "I1077",
+   "I0964",
+   "I0283",
+   "I1040",
+   "I0110",
+   "I1126",
+   "I1105",
+   "I0435",
+   "I1044"
+  ]
+ },
+ {
+  "cid": "C024",
+  "name": "Hospice, dying and the first weeks of bereavement",
+  "n_ideas": 12,
+  "kinds": [
+   "idea",
+   "persona"
+  ],
+  "n_kinds": 2,
+  "n_source_agents": 5,
+  "ideas": [
+   "I0710",
+   "I0345",
+   "I0413",
+   "I0056",
+   "I0477",
+   "I1055",
+   "I0085",
+   "I0176",
+   "I0035",
+   "I0334",
+   "I0322",
+   "I0889"
+  ]
+ },
+ {
+  "cid": "C015",
+  "name": "Youth online safety and age-assurance compliance for small platforms",
+  "n_ideas": 12,
+  "kinds": [
+   "idea",
+   "wild"
+  ],
+  "n_kinds": 2,
+  "n_source_agents": 5,
+  "ideas": [
+   "I0059",
+   "I1205",
+   "I0736",
+   "I0963",
+   "I0114",
+   "I0090",
+   "I0729",
+   "I1279",
+   "I0245",
+   "I0302",
+   "I0660",
+   "I0182"
+  ]
+ },
+ {
+  "cid": "C107",
+  "name": "Deploying robots in the real world",
+  "n_ideas": 10,
+  "kinds": [
+   "idea",
+   "wild"
+  ],
+  "n_kinds": 2,
+  "n_source_agents": 5,
+  "ideas": [
+   "I0260",
+   "I0634",
+   "I0537",
+   "I1200",
+   "I0415",
+   "I0011",
+   "I1284",
+   "I0587",
+   "I1165",
+   "I0606"
+  ]
+ },
+ {
+  "cid": "C073",
+  "name": "Repricing softening property markets",
+  "n_ideas": 9,
+  "kinds": [
+   "idea",
+   "signal"
+  ],
+  "n_kinds": 2,
+  "n_source_agents": 2,
+  "ideas": [
+   "I0845",
+   "I0139",
+   "I0031",
+   "I0774",
+   "I1091",
+   "I1079",
+   "I1012",
+   "I0722",
+   "I0798"
+  ]
+ },
+ {
+  "cid": "C045",
+  "name": "Protein and fermentation capacity squeeze",
+  "n_ideas": 9,
+  "kinds": [
+   "idea",
+   "wild"
+  ],
+  "n_kinds": 2,
+  "n_source_agents": 3,
+  "ideas": [
+   "I0713",
+   "I0670",
+   "I0624",
+   "I1216",
+   "I0654",
+   "I0261",
+   "I0986",
+   "I0542",
+   "I0221"
+  ]
+ },
+ {
+  "cid": "C020",
+  "name": "Banks and platforms disrupting scam networks and recovering victims' funds",
+  "n_ideas": 8,
+  "kinds": [
+   "collide",
+   "idea"
+  ],
+  "n_kinds": 2,
+  "n_source_agents": 3,
+  "ideas": [
+   "I1243",
+   "I0486",
+   "I0317",
+   "I0738",
+   "I0775",
+   "I0504",
+   "I0282",
+   "I0731"
+  ]
+ },
+ {
+  "cid": "C051",
+  "name": "PFAS exposure, testing and disposal",
+  "n_ideas": 8,
+  "kinds": [
+   "idea",
+   "signal"
+  ],
+  "n_kinds": 2,
+  "n_source_agents": 5,
+  "ideas": [
+   "I0174",
+   "I1160",
+   "I0262",
+   "I0976",
+   "I0594",
+   "I0758",
+   "I1004",
+   "I0309"
+  ]
+ },
+ {
+  "cid": "C064",
+  "name": "Tariff cost, classification and customs for small importers",
+  "n_ideas": 7,
+  "kinds": [
+   "idea",
+   "persona"
+  ],
+  "n_kinds": 2,
+  "n_source_agents": 5,
+  "ideas": [
+   "I0576",
+   "I0769",
+   "I0344",
+   "I0181",
+   "I0701",
+   "I0748",
+   "I0528"
+  ]
+ },
+ {
+  "cid": "C131",
+  "name": "Language, hearing and communication barriers in services and workplaces",
+  "n_ideas": 7,
+  "kinds": [
+   "idea",
+   "wild"
+  ],
+  "n_kinds": 2,
+  "n_source_agents": 5,
+  "ideas": [
+   "I0859",
+   "I0239",
+   "I0579",
+   "I0959",
+   "I0622",
+   "I0517",
+   "I0954"
+  ]
+ },
+ {
+  "cid": "C043",
+  "name": "Access, affordability and supply integrity for GLP-1 and compounded drugs",
+  "n_ideas": 7,
+  "kinds": [
+   "idea",
+   "signal"
+  ],
+  "n_kinds": 2,
+  "n_source_agents": 4,
+  "ideas": [
+   "I0358",
+   "I0683",
+   "I0604",
+   "I0979",
+   "I0019",
+   "I0558",
+   "I0043"
+  ]
+ },
+ {
+  "cid": "C084",
+  "name": "Cross-border money movement and stablecoin rails",
+  "n_ideas": 7,
+  "kinds": [
+   "collide",
+   "idea"
+  ],
+  "n_kinds": 2,
+  "n_source_agents": 4,
+  "ideas": [
+   "I0480",
+   "I1291",
+   "I0609",
+   "I0941",
+   "I0503",
+   "I1047",
+   "I0292"
+  ]
+ },
+ {
+  "cid": "C112",
+  "name": "Crowdfunded hardware makers and indie product brands",
+  "n_ideas": 6,
+  "kinds": [
+   "persona",
+   "signal"
+  ],
+  "n_kinds": 2,
+  "n_source_agents": 3,
+  "ideas": [
+   "I1131",
+   "I0887",
+   "I1034",
+   "I0915",
+   "I0519",
+   "I0575"
+  ]
+ },
+ {
+  "cid": "C033",
+  "name": "Rural and underserved patients who cannot reach care",
+  "n_ideas": 6,
+  "kinds": [
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 2,
+  "n_source_agents": 4,
+  "ideas": [
+   "I0472",
+   "I0405",
+   "I1136",
+   "I0016",
+   "I0328",
+   "I0543"
+  ]
+ },
+ {
+  "cid": "C077",
+  "name": "Housing for workers priced out of tight markets",
+  "n_ideas": 6,
+  "kinds": [
+   "collide",
+   "idea"
+  ],
+  "n_kinds": 2,
+  "n_source_agents": 6,
+  "ideas": [
+   "I1217",
+   "I0397",
+   "I0899",
+   "I0830",
+   "I1104",
+   "I0216"
+  ]
+ },
+ {
+  "cid": "C130",
+  "name": "Fisheries and ecosystem-service operators",
+  "n_ideas": 5,
+  "kinds": [
+   "persona",
+   "wild"
+  ],
+  "n_kinds": 2,
+  "n_source_agents": 2,
+  "ideas": [
+   "I1123",
+   "I1143",
+   "I0240",
+   "I1116",
+   "I0601"
+  ]
+ },
+ {
+  "cid": "C044",
+  "name": "Recovery-studio and peptide businesses needing safety evidence and insurability",
+  "n_ideas": 5,
+  "kinds": [
+   "collide",
+   "idea"
+  ],
+  "n_kinds": 2,
+  "n_source_agents": 3,
+  "ideas": [
+   "I0983",
+   "I0039",
+   "I0962",
+   "I0639",
+   "I0809"
+  ]
+ },
+ {
+  "cid": "C098",
+  "name": "Entry-level pipeline broken by AI",
+  "n_ideas": 4,
+  "kinds": [
+   "idea",
+   "wild"
+  ],
+  "n_kinds": 2,
+  "n_source_agents": 3,
+  "ideas": [
+   "I0251",
+   "I0972",
+   "I0315",
+   "I0192"
+  ]
+ },
+ {
+  "cid": "C103",
+  "name": "Private-equity roll-up aftermath",
+  "n_ideas": 4,
+  "kinds": [
+   "idea",
+   "signal"
+  ],
+  "n_kinds": 2,
+  "n_source_agents": 3,
+  "ideas": [
+   "I1221",
+   "I0807",
+   "I0258",
+   "I1094"
+  ]
+ },
+ {
+  "cid": "C110",
+  "name": "Trading cards and collectibles market infrastructure",
+  "n_ideas": 7,
+  "kinds": [
+   "idea"
+  ],
+  "n_kinds": 1,
+  "n_source_agents": 2,
+  "ideas": [
+   "I1048",
+   "I1186",
+   "I0023",
+   "I1139",
+   "I0834",
+   "I0269",
+   "I0539"
+  ]
+ }
+]

@@ -1,0 +1,52 @@
+{
+ "status": "crowded",
+ "competitors": [
+  {
+   "name": "Incode (Education / ghost-student fraud solution)",
+   "url": "https://www.incode.com/industries/education",
+   "what_they_do": "Dedicated higher-ed page: document, biometric and liveness ID checks at enrollment and 'before aid is released', cross-institution duplicate-identity and fraud-ring intelligence, deepfake detection. Claims alignment with ED identity-verification rules at NIST IAL2. Cites an unnamed US community college screening a 50K-applicant funnel with an 88% cut in fraudulent applications in a year. The page does not mention SIS/LMS integration or behavioral signals.",
+   "scale_or_funding": "Established, well-funded IDV vendor (funding not verified this session). Vendor-claimed outcomes only.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Socure (Higher Education industry page)",
+   "url": "https://www.socure.com/industries/higher-education",
+   "what_they_do": "Names ghost students, synthetic-identity application fraud, account takeover and financial-aid or refund disbursement fraud as target problems. Offers document and biometric verification, real-time identity proofing, and behavioral and anomaly analytics. Claims it verifies 96% of Gen Z. Logos shown include 'California Government'. The page does not describe SIS/LMS integrations or pricing.",
+   "scale_or_funding": "Large, well-funded identity-fraud vendor with a public-sector go-to-market (exact funding not verified this session).",
+   "overlap": "direct"
+  },
+  {
+   "name": "Jumio (Education vertical)",
+   "url": "https://www.jumio.com/industries/education/",
+   "what_they_do": "Explicitly markets biometric selfie verification to 'prevent ghost students': enrollment selfie template, re-check at class attendance or exams, liveness detection. Covers distance learning, colleges, proctoring and continuing ed. No named education customers or LMS integrations on the page.",
+   "scale_or_funding": "Established IDV vendor (funding not verified this session).",
+   "overlap": "direct"
+  },
+  {
+   "name": "Anthology / Blackboard, now Ellucian: 'Student Verification' (Enterprise Operations)",
+   "url": "https://www.anthology.com/",
+   "what_they_do": "The Anthology homepage lists 'Student Verification' as a product under Enterprise Operations, described as formerly Anthology's and now under Ellucian. The product page was not retrievable (301 to blackboard.com, then 404), so its ghost-student scope is unverified. The signal is that the incumbent SIS/LMS vendors already have a verification SKU.",
+   "scale_or_funding": "Incumbent SIS/LMS vendor. Ellucian is the dominant SIS vendor in higher ed.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Instructure (Canvas)",
+   "url": "https://www.instructure.com/resources/blog/disease-and-cure-technology-and-academic-fraud-generative-age",
+   "what_they_do": "No ghost-student product found. Instructure publishes on credential and diploma fraud. It owns the LMS behavioral data that the idea depends on, so it is a plausible native-feature threat, or a gatekeeper on API access, if it decides to build.",
+   "scale_or_funding": "Dominant LMS vendor in US community colleges; owns the data source.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Microsoft higher-ed community open reference build (fraud-detection agent, 'ghost student' specs)",
+   "url": "https://github.com/msftsean/hied-2026-msft-edu-cab-cohort1",
+   "what_they_do": "A public repo from a Microsoft higher-ed advisory-board cohort with a fraud-detection agent, spec and build prompts (Python and .NET), returned by a GitHub code search for 'ghost student' fraud. I could not open other hit repos, because they are outside this session's allowed repos. Not a product, but evidence that DIY and hyperscaler-ecosystem reference builds are appearing, which caps pricing power on generic scoring.",
+   "scale_or_funding": "Open source, unfunded. GitHub code search returned 1,262 files matching 'ghost student' fraud.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Nothing in the pages I fetched shows a vendor doing the idea's core differentiator: risk-scoring on post-enrollment LMS/SIS behavior (login cadence, IP/ASN and device reuse across students, first-week activity, AI-agent-style sessions, writing similarity) combined with disbursement-account reuse, then gating aid holds and producing OIG-ready evidence. The Socure, Incode and Jumio pages are all point-in-time identity proofing (ID, selfie, liveness, duplicate-identity network). None of their pages mention SIS/LMS integration or aid-office workflow. Three things remain unserved: (1) the aid-disbursement and financial-aid-compliance layer (holds, R2T4 or never-attended evidence, audit trail, referral packets) as a workflow product rather than an ID check; (2) detecting ghost students who pass ID checks, such as real stolen identities, verified mules, or AI agents that attend class; (3) a vendor-neutral orchestrator that sends only high-risk cases to whichever IDV vendor the college or state already pays for, so the college avoids lock-in. The claim that consumer vendors 'cannot copy' this is weak. Incode and Socure can add LMS signals through partnerships, and Instructure and Ellucian own the data and could ship it natively. The wedge is real but narrow and time-limited. Coverage caveat: the WebSearch budget was exhausted, so ed-specific startups, Crunchbase, YC and Product Hunt were not checked, and other ed-specific point solutions may exist that I did not find.",
+ "evidence_of_demand": "Supply-side signals I verified this session: (a) Incode's education page says the US Department of Education flagged roughly 300K suspicious FAFSA applications in 2025, and cites a community college with a 50K-applicant funnel that cut fraudulent attempts 88% in a year (vendor claim, https://www.incode.com/industries/education). (b) Socure runs a dedicated Higher Education page naming ghost students and aid-disbursement fraud, with a 'California Government' logo (https://www.socure.com/industries/higher-education). (c) Jumio markets ghost-student prevention to colleges (https://www.jumio.com/industries/education/). (d) GitHub code search returned 1,262 files mentioning 'ghost student' fraud, including a Microsoft higher-ed cohort fraud-agent spec and a threat-intel write-up titled 'ghost student financial aid botnets', which suggests the problem is widely recognized (I could not open those files). Not verified this session, recalled from prior knowledge and to be confirmed before relying on it: California community colleges reported very large shares of applications as fraudulent, with roughly tens of millions of dollars in aid lost across recent years (CalMatters and EdSource coverage), and ED tightened identity verification for aid in 2025-26. I found no RFP, budget line item or price list, and the CCC Chancellor's Office press page I fetched showed no fraud items. Buyer willingness to pay per application or per district is therefore unverified.",
+ "kill": false,
+ "kill_reason": "n/a. Verdict is 'crowded' at the identity-verification layer, but the LMS/SIS behavioral-signal plus aid-compliance workflow wedge appears unserved in the pages checked. Confidence is moderate-low because web search was unavailable. Treat this as a conditional pass: the pitch as written (generic 'fraud screening for admissions and aid') is not defensible against Socure, Incode and Jumio, and only the narrower wedge below is.",
+ "sharper_angle": "Do not sell identity verification, since Socure, Incode and Jumio already market ghost-student ID checks to colleges. Build the vendor-neutral 'disbursement gate' for financial-aid compliance. It ingests post-enrollment Canvas and SIS activity (Banner, Colleague, PeopleSoft) plus refund and disbursement-account data, and it scores the first 2-3 weeks before census date and aid release. Its distinct output is an aid-hold decision with an audit-ready evidence package (never-attended and non-academic-attendance evidence, OIG and ED referral packets). It routes only ambiguous cases to whichever IDV vendor the college or state already contracts, and it aims at ghosts who pass ID checks, such as stolen real identities, mules and AI agents. Sell to a state system first, not 1,000 districts. California's Chancellor's Office has 116 colleges hit by the same rings, and shared cross-college signals on device, ASN and bank or card reuse are stronger than any single college's data. Pilot on retro-scored semester logs to quantify dollars at risk. Before building, confirm two things: that Instructure and Ellucian API terms allow this use, and that an ed-specific point solution has not already taken the wedge."
+}

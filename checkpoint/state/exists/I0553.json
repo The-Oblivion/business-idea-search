@@ -1,0 +1,122 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "archTIS NC Protect",
+   "url": "https://www.archtis.com/itar-and-ear-compliance-in-microsoft-365-and-sharepoint/",
+   "what_they_do": "Attribute-based access control for M365/SharePoint/GCC High and file shares. Sells ITAR/EAR policies keyed on user nationality, location, device and file classification. It consumes a nationality attribute and does not verify it, and I found no Windchill/PLM connectors.",
+   "scale_or_funding": "ASX-listed small-cap (AR9, OTCQB: ARHLF). Revenue and funding not verified.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Persona (Candidate Verification)",
+   "url": "https://withpersona.com/solutions/candidate-verification/",
+   "what_they_do": "Dedicated hiring-fraud product launched 11 Mar 2026. Government ID plus live selfie plus device, behavioral and network signals, with a Workday Recruiting integration. Persona is also an Okta identity-verification integration partner. No US-person or ITAR attribute found.",
+   "scale_or_funding": "Venture-backed IDV leader. Ranked highest for execution ability in a 2026 Gartner IDV assessment cited in search results. Round sizes not verified.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Incode Candidate Verification",
+   "url": "https://incode.com/candidate-verification/",
+   "what_they_do": "Smart-link ID check, selfie match, passive liveness, deepfake detection and a fraud score for job applicants.",
+   "scale_or_funding": "Venture-backed IDV vendor. Amount not verified.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Socure (workforce and candidate verification)",
+   "url": "https://www.socure.com/use-cases/workforce-verification",
+   "what_they_do": "Candidate fraud detection aimed at North Korean IT-worker schemes and other hiring impostors.",
+   "scale_or_funding": "Large venture-backed identity company. Figures not verified.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Nametag (VerifiedHire)",
+   "url": "https://getnametag.com/use-case/employee-verification",
+   "what_they_do": "Deepfake-resistant employee onboarding verification, helpdesk and account-recovery verification, and workforce IDV. It lists IT plants and DPRK-worker defense as a use case.",
+   "scale_or_funding": "Venture-backed. Amount not verified.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "CLEAR (workforce identity verification)",
+   "url": "https://identity.clearme.com/workforce",
+   "what_they_do": "Workforce IDV for onboarding and privileged-access workflows, with a technical guide for integrating it into IdP flows.",
+   "scale_or_funding": "Public company.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Endorsed",
+   "url": "https://fortune.com/2026/09/01/north-korean-it-worker-remote-job-applications/",
+   "what_they_do": "AI screening of job applicants for impostor and North Korean IT-worker patterns. It has analyzed more than 11M applications and reports 47% of recent remote-IT applications carrying DPRK-like patterns. Fortune's article does not mention ITAR.",
+   "scale_or_funding": "Seed-stage. Backed by Liquid 2 Ventures (Joe Montana), Pioneer Fund and angels. Amount undisclosed.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Microsoft Entra Verified ID with Face Check",
+   "url": "https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-verified-id",
+   "what_they_do": "Incumbent feature. Remote onboarding verification with a liveness selfie matched to a government ID, plus partner IDV vendors onboarded via the Entra portal, feeding Entra access decisions. It does not assert US-person status.",
+   "scale_or_funding": "Microsoft. Bundled or add-on to Entra.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "BEMO (managed ITAR/CMMC IT)",
+   "url": "https://www.bemopro.com/compliance-requirements/itar-background-check",
+   "what_they_do": "Managed service that wires Rippling/Checkr onboarding and screening into an Entra/Purview/Intune stack restricted to authorized ITAR personnel. Also writes the Technology Control Plan and runs a vCISO and SOC. This is the closest thing to the full workflow today, delivered as services.",
+   "scale_or_funding": "About $4,800/month with about 8 months to implement, per its own page. Company scale not verified.",
+   "overlap": "direct"
+  },
+  {
+   "name": "ATX Defense CMMC Space",
+   "url": "https://atxdefense.com/capabilities/cmmc-compliance/",
+   "what_they_do": "Hardened Google Workspace or M365 GCC High enclave built for CMMC Level 2. It has a per-user ITAR add-on and targets small contractors and space startups.",
+   "scale_or_funding": "About $299/user/month (5 users is $17,940 per year per the ATX overview). ITAR add-on is $30/user/month annual or $36 month-to-month.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Kiteworks / Virtru / PreVeil (ITAR-compliant collaboration)",
+   "url": "https://www.kiteworks.com/regulatory-compliance/itar-compliant-collaboration-platforms/",
+   "what_they_do": "Data-layer ITAR compliance: US data residency, FedRAMP, customer-managed keys, audit logs and access restricted to US persons. They rely on the customer to say who is a US person.",
+   "scale_or_funding": "Established, funded vendors.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "PLM-native export controls (PTC Windchill, Siemens Teamcenter, Dassault)",
+   "url": "https://www.appliedcax.com/how-can-itar-compliance-be-achieved-with-siemens-teamcenter/",
+   "what_they_do": "Built-in access-control policies, Teamcenter ADA/TAA and Dassault IP Export Classification and Enforcement. The attribute is set by admins and is not identity-proofed.",
+   "scale_or_funding": "Incumbent enterprise PLM vendors. Startups often use lighter tools (Onshape, Duro, Cofactr and similar).",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Descartes, Amber Road (E2open) and eCustoms export compliance suites",
+   "url": "https://www.descartes.com/solutions/global-trade-intelligence/export-compliance",
+   "what_they_do": "Restricted-party screening, ECCN/USML classification, license management and audit trails. Transaction-focused, with limited workforce-access control.",
+   "scale_or_funding": "Established GTM vendors.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Exiger / Kharon / Sayari (defense supply-chain risk)",
+   "url": "https://sayari.com/enterprise/aerospace-defense/",
+   "what_they_do": "Supplier KYB, beneficial ownership, sanctions and counterfeit or fraud risk for the defense industrial base. This owns the supplier-onboarding piece of the idea.",
+   "scale_or_funding": "Well-funded incumbents. See also https://www.exiger.com/industries/supply-chain-transparency-to-bolster-the-defense-industrial-base/ and https://www.kharon.com/",
+   "overlap": "direct"
+  },
+  {
+   "name": "CMMC and compliance automation platforms (Secureframe Defense tier, Vanta CMMC, ClearanceIQ)",
+   "url": "https://silentsector.com/blog/drata-vs-vanta-secureframe",
+   "what_they_do": "Continuous evidence collection and audit packs for CMMC Level 2. They cover the evidence-pack piece of the idea. They do not verify US-person status or fill an access attribute.",
+   "scale_or_funding": "Well-funded scale-ups. ClearanceIQ is an early-stage launch, at https://www.openpr.com/news/4640153/clearanceiq-launches-ai-powered-cmmc-compliance-platform-as",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "CaseMark ITAR Technology Control Plan generator",
+   "url": "https://casemark.com/workflows/itar-compliance-technology-control-plan-tcp",
+   "what_they_do": "AI drafting of Technology Control Plans for defense contractors. Documentation only, with no enforcement.",
+   "scale_or_funding": "Early-stage. Details not verified.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Verdict is gap, and a narrower one than the pitch implies. No product found does the specific loop the idea describes: proof of US-person status, the attribute written to an IdP through SCIM, enforcement in Drive, GitHub and PLM, and continuous drift detection. Four things fill the space today. IDV vendors (Persona, Incode, Socure, Nametag, CLEAR, Entra Verified ID) prove someone is real but do not assert or record ITAR eligibility. archTIS NC Protect enforces nationality-based access but only inside Microsoft 365 and file shares, and it trusts whatever attribute it is given. Managed-service shops (BEMO at about $4,800/month, ATX CMMC Space plus $30/user/month) deliver it as consulting with 8-month timelines. PLM vendors enforce access to an admin-typed attribute that no one has proven.\\n\\nWhat is genuinely unserved:\\n- A lightweight, startup-priced system of record for US-person and permitted-data-category status, with the Empowered Official sign-off, that syncs to Okta, Entra and Google Workspace groups.\\n- Continuous deemed-export exposure scanning across the Drive, GitHub, Slack and PLM permission lists that startups actually use. Many are on commercial Google Workspace, which is not ITAR-compliant, and they cannot afford a GCC High or enclave migration.\\n- A managed workflow for licensed or TAA-scoped foreign-person exceptions, which is where hiring friction really sits.\\n\\nParts of the pitch that are not white space:\\n- Supplier KYB and counterfeit screening is owned by Exiger, Kharon and Sayari.\\n- CMMC evidence packs are owned by Secureframe, Vanta and Drata.\\n- Candidate and DPRK fraud detection is crowded and moving fast (Persona, Incode, Socure, Nametag, Endorsed).\\n\\nBiggest structural risks:\\n1. The 'why now' is broken. DoD suspended CMMC Phase 2, due 10 Nov 2026, on 13 Jul 2026 and launched a 60-day reform review. Phase 1 self-assessments remain. Do not build the go-to-market around a Nov 2026 CMMC cliff.\\n2. Legal and product risk. The Clifford Chance settlement ($132K) shows DOJ IER penalizes employers who over-apply ITAR into citizenship discrimination. ITAR does not require hiring only US persons. Under INA 274B, employers cannot demand specific documents or run citizenship checks unevenly. A biometric 'US person' scanner sold to HR is legally delicate. Verifying green-card, asylee and refugee status by document scan is harder than a citizen passport check, and the I-9 already exists as the system of record.\\n3. Easy DIY. An IT admin can put an I-9-derived flag into an Okta group, so the paid value must be audit and drift detection plus the exception workflow, not the attribute itself.\\n4. Coverage limit. WebSearch is US-only and Crunchbase and YC searches surfaced nothing, so a stealth or very early startup on this exact wedge cannot be ruled out.",
+ "evidence_of_demand": "Real spend and regulatory pressure exist, but I found no direct evidence that anyone pays for a US-person identity attribute as a standalone product. I found no RFPs, forum threads or Reddit complaints asking for one.\\n\\nEnforcement pressure:\\n- DDTC fined BAE Systems $36M in Aug 2026 (half suspended, 3-year consent agreement). Violations included unlicensed technical-data exports to China and Canada: https://exportcompliancedaily.com/article/2026/08/14/ddtc-fines-bae-systems-36-m-for-export-violations-stemming-from-compliance-issues-2608130044?BC=bc_6a7e5b887dca1\\n- Legal commentary says space startups often first meet ITAR when they try to hire foreign nationals: https://spacenews.com/op-ed-attention-silicon-valley-the-exposure-of-space-startups-to-us-export-control-rules/ and https://newspaceeconomy.ca/2026/09/11/are-u-s-space-export-controls-protecting-technology-or-surrendering-overseas-markets/\\n- Compliance guidance repeatedly warns that I-9 proves work authorization, not export-control status, and that Google Drive and Dropbox are not ITAR-compliant: https://www.myisoconsultants.com/post/understanding-itar-compliance-verifying-us-person-status-my-iso-consultants and https://casrai.org/guides/us-person-status-foreign-national-access\\n\\nExisting spend on workarounds:\\n- BEMO managed ITAR/CMMC IT costs about $4,800/month: https://www.bemopro.com/compliance-requirements/itar-background-check\\n- ATX CMMC Space is $299/user/month, plus $30/user/month for ITAR: https://atxdefense.com/capabilities/cmmc-compliance/\\n- CMMC Level 2 is estimated at $100-200K for space startups: https://satnews.com/2026/02/11/compliance-becomes-the-new-gatekeeper-for-space-startups/\\n\\nHiring fraud demand is real but served by others:\\n- Endorsed reports 47% of recent remote-IT applications with DPRK-like patterns: https://fortune.com/2026/09/01/north-korean-it-worker-remote-job-applications/\\n- Persona launched Candidate Verification on 11 Mar 2026: https://www.prnewswire.com/news-releases/persona-launches-candidate-verification-to-stop-hiring-fraud-before-day-one-302711200.html\\n\\nCounter-evidence on timing and legal risk:\\n- CMMC Phase 2 suspended 13 Jul 2026: https://www.nationaldefensemagazine.org/articles/2026/7/13/breaking-pentagon-suspends-phase-2-of-cmmc-program and https://federalnewsnetwork.com/cybersecurity/2026/07/pentagon-suspends-cmmc-phase-two-requirements-launches-review-of-program/\\n- DOJ IER citizenship-discrimination penalties tied to ITAR misreadings: https://www.justice.gov/archives/opa/pr/justice-department-settles-immigration-related-discrimination-claim-against-international-law\\n\\nThe SatNews piece on space-startup compliance pain does not mention US-person verification or vendors.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Narrow it and drop three of the five modules.\\n\\nReposition as 'deemed-export drift control for startups on Google Workspace, GitHub and Okta': a system of record for US-person and permitted-data-category status, plus continuous detection of foreign-person exposure.\\n\\nWhat to build:\\n1. An attestation layer, not a biometric citizenship scanner. Pull I-9 and HRIS data (Rippling, Gusto, Deel) and let an Empowered Official sign off and record the US-person determination with an evidence trail. Keep verification human-in-the-loop and uniform for all hires to stay clear of INA 274B and DOJ IER risk. Use a partner IDV (Persona, Incode) only for the 'is this person real' step. Do not rebuild IDV, and do not lead with DPRK fraud, which Persona, Incode, Socure, Nametag and Endorsed already own.\\n2. A permissions scanner and SCIM writer. Write a 'US person' attribute and data-category groups to Okta, Entra and Google Workspace. Continuously diff them against Drive, GitHub, Slack and PLM ACLs. Alert when a non-US-person account, or a vendor or contractor account, can reach an ITAR folder or repo. The paid $2K audit becomes the wedge and a recurring scan is the subscription. It is cheap to sell and undercuts the $4,800/month managed services and the $30/user/month enclave add-on.\\n3. A licensed-exception workflow. Track foreign-person hires with a DSP-5, TAA or license in place, scope which technical data they may see, and expire access when the license ends. This turns the legal hiring blocker into a managed process and is the feature IDV vendors, archTIS and the PLM tools do not offer. Note that startups are typically reluctant to hire foreign nationals into ITAR roles at all.\\n4. An investor-diligence and DDTC-audit evidence export, replacing the CMMC pitch.\\n\\nGo-to-market:\\n- Sell through space-startup export counsel (for example Aegis Space Law and Promise Legal), accelerators, and Series A-B diligence checklists instead of the Nov 2026 CMMC deadline.\\n- Treat CMMC as a tailwind only if the reform task force reinstates dates. Re-check its recommendation, due around mid-September 2026.\\n- Skip supplier KYB and counterfeit screening. Integrate Exiger, Kharon or Sayari data if needed.\\n- Position as complementary to archTIS, Entra and PLM enforcement by being the trusted attribute source they consume.\\n\\nFirst validation step: run 10 audits and confirm at least 3 pay for a recurring scan. If they will not, the standalone-product thesis fails and this is a services business."
+}

@@ -1,0 +1,85 @@
+{
+ "title": "IEP Chief of Staff for Special-Ed Parents",
+ "angle": "2",
+ "one_liner": "Rich parents win school disputes with a paid educational advocate and paper trail; for $20/mo, give parents of the roughly 7.5M US students with IEPs a chief of staff who watches the legal clocks and logs every missed service minute.",
+ "customer": "Parents of children with IEPs (autism, ADHD, dyslexia, speech and language delay), sold through state and local special-ed parent groups, parent training centers, pediatric practices, disability law clinics and credit unions.",
+ "problem": "Districts arrive with a team; wealthy families bring an advocate ($150-400/hr) and an attorney. Federal enforcement was hollowed out (mass OSEP layoffs in October 2025, and reported moves of oversight to HHS and civil-rights enforcement to DOJ in June 2026), so parents are effectively on their own. Most violations are procedural (late evaluations, missing prior written notice, services not delivered) and go unnoticed because nobody keeps the clocks.",
+ "solution": "Parent uploads the IEP and evaluations. The system builds the legal calendar (evaluation timelines from consent, meeting-notice windows, annual and triennial reviews, progress-report cadence), drafts records requests, creates a one-page pre-meeting brief (top asks plus data), and sends a same-day 'memorializing' follow-up email with prior-written-notice requests after meetings. It logs service minutes delivered vs promised, quantifying missed minutes for a compensatory-services claim, and scans the IEP for defects (no baselines, unmeasurable goals). Advocates are on-demand at $75 per 30 minutes, with a path to state complaint and due process.",
+ "why_now": "The federal special-ed enforcement vacuum is documented and new as of late 2025 and mid-2026. IEP counts are rising, and LLMs can parse messy IEP PDFs and draft procedurally precise letters. Parent communities are organized on Facebook and Reddit and actively looking for help.",
+ "revenue_model": "$20/mo per family; $75 advocate sessions with a revenue split to a vetted advocate co-op; $3-6 per member per month from parent centers, pediatric groups and credit unions; district-facing analytics sold only with parent consent, later.",
+ "non_obvious_insight": "What the rich buy is not better argument but continuous procedural pressure: dated, written, specific requests. The subscription funds clock-watching and documentation, not advice. Parents who log service minutes turn 'I feel they're not delivering' into a quantified claim, and the paper trail is the evidence in any later dispute, so value compounds over time.",
+ "first_30_days": "Publish a free IEP clock calculator and letter templates. Partner with admins of 10 state-level special-ed Facebook groups and concierge 30 families manually, measuring violations found. Convert those families to $20/mo and recruit 5 advocates for the on-demand tier.",
+ "outside_box_score": 5,
+ "source": "wild:g3+g4",
+ "kind": "wild",
+ "id": "I0289",
+ "tournament": {
+  "score": 0.9,
+  "overall_rank": 122,
+  "cluster": "K-12 districts' legal service duties: IEPs, attendance, nutrition and Title I",
+  "judge_notes": [
+   "contrarian: rank 8/24 - Big prize with a real enforcement vacuum. Sound insight that continuous dated paper trail is what rich families buy. Several AI-IEP tools already exist.",
+   "vc: rank 2/25 - Large motivated multi-year consumer base, reachable via parent groups, real enforcement vacuum; paper trail compounds.",
+   "operator: rank 2/24 - Acutely motivated parents, organized Facebook communities, concierge-first validation, $20/mo plus advocate upsell. First 10 customers within weeks."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "IEP Advocate.ai",
+    "url": "https://www.iepadvocate.ai",
+    "what_they_do": "AI IEP advocacy assistant for parents. Uploads IEPs, evaluations and progress reports. Auto-extracts 17 deadline types with reminders at 14/7/3/1 days by text and email. Generates letters of concern, evaluation requests, meeting requests and state complaint filings. Produces meeting prep guides, an 'IEP Report Card', a meeting recorder/transcriber with AI recap, and a cited chatbot grounded in IDEA, 504 and all 50 states' law. This overlaps most of the pitch except service-minute logging, compensatory-services math and human advocates. The pages I could fetch do not mention those. Its pricing page pitches against human advocates at $300-600 per session. Founder is Joel Wetzstein, whose family spent about $200k on a due process hearing (https://iepadvocate.ai/about).",
+    "scale_or_funding": "Funding and user count not disclosed. Pricing is $30/mo or $300/yr with a 14-day free trial, 2 student profiles included and +$15/mo per extra child. No B2B or organization plan and no human-advocate tier listed (https://iepadvocate.ai/pricing). Two testimonials on the site.",
+    "overlap": "direct"
+   },
+   {
+    "name": "ChatGPT and general LLMs (endorsed by CADRE's parent guide)",
+    "url": "https://cadreworks.org/resources/cadre-materials-for-family-members/parents-guide-using-ai-for-advocacy-special-education",
+    "what_they_do": "CADRE, the federally funded national dispute-resolution center, published 'A Parent's Guide to Using AI for Advocacy in Special Education' and names ChatGPT as the example tool. Parents already use free or $20/mo general LLMs to draft letters and IEP-meeting prep. This is the main substitute for the letter-drafting and pre-meeting-brief features. Generic LLMs have no calendar, no service ledger and no case memory.",
+    "scale_or_funding": "Free to $20/mo. Adoption is 'more anecdotal than empirical' per K-12 Dive, but AI-drafted state complaints are visibly raising complaint volume.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Parent Training and Information Centers (PTIs/CPRCs)",
+    "url": "https://www.parentcenterhub.org/find-your-center/",
+    "what_they_do": "Federally funded network of nearly 100 parent centers across the US and territories. They train and help families of children with disabilities (birth to age 26) to take part effectively in education decisions. They are the free incumbent for parent support and also the ideal distribution channel named in the idea.",
+    "scale_or_funding": "Federally funded (IDEA Part D). Exposed to the same federal restructuring, since Parts B, C and D grant management is moving to HHS. The fetched page did not state cost.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Wrightslaw",
+    "url": "https://www.wrightslaw.com",
+    "what_they_do": "The long-standing parent and advocate reference: books ('All About IEPs'), training seminars, an advocacy library, a free newsletter and an online store. Sells education and templates, not software.",
+    "scale_or_funding": "Established brand. No software product found on the homepage.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Understood.org IEP Guide",
+    "url": "https://www.understood.org",
+    "what_they_do": "Large nonprofit content hub with a free 'IEP Guide for Parents' walking through each stage. The homepage snippet did not show deadline tools or AI assistants.",
+    "scale_or_funding": "Free, well-funded nonprofit with heavy SEO and awareness.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Human educational advocates and special-ed attorneys (COPAA network)",
+    "url": "https://www.copaa.org",
+    "what_they_do": "Paid advocates and attorneys, the incumbent the idea wants to displace at the low end and partner with at the high end. IEP Advocate.ai's pricing page claims advocates charge $300-600 per session and attorneys $300-500/hr. COPAA is the national advocate/attorney association. My fetch returned 403, so its offerings are unverified.",
+    "scale_or_funding": "Fragmented, local, cash-pay market. No dominant platform found.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "IEP Companion (unverified)",
+    "url": "https://www.iepcompanion.com",
+    "what_they_do": "Tagline 'Navigating IEPs Together'. The pages I could fetch showed only a contact form, so I could not determine whether it is a product, a service or a dormant site.",
+    "scale_or_funding": "Unknown",
+    "overlap": "adjacent"
+   }
+  ],
+  "white_space": "Confidence is moderate-low. The WebSearch budget hit 200/200 before I could run the planned 6-12 searches, so I found competitors mostly by fetching guessed and known URLs. More direct competitors probably exist that I did not see, and this should be re-run once the search limit is raised.\n\nThe core pitch is NOT white space. Deadline extraction, procedural letter generation, meeting prep briefs and state-complaint drafting are already live at IEP Advocate.ai for $30/mo. Free ChatGPT covers much of the rest. A $20/mo 'AI IEP chief of staff' would be a cheaper copy.\n\nSpecific gaps I could not find served in the pages I reached:\n1. A service-delivery ledger. This means logging minutes promised vs delivered per IEP service line and turning the shortfall into a compensatory-services claim packet. IEP Advocate.ai's fetched pages do not describe service-minute logging or comp-ed calculation.\n2. Human-in-the-loop verification. CADRE and K-12 Dive document AI-drafted complaints with fabricated case law and wrong IDEA readings. A product that combines grounded output with vetted advocate or attorney review, at $75 per 30 minutes, is unserved. IEP Advocate.ai has no human tier.\n3. B2B2C distribution through parent centers, disability law clinics, pediatric practices and credit unions at $3-6 per member per month. IEP Advocate.ai lists only individual pricing. The channel is unproven.\n4. Evidence-grade record keeping. Time-stamped, tamper-evident logs that a hearing officer will accept, rather than chat history.",
+  "evidence_of_demand": "Demand is real and rising, and a direct competitor already charges for it.\n- K-12 Dive, Sept 9 2026: written state complaints rose 56% between 2023-24 and 2025-26 (35 states surveyed) and due process complaints rose 7%. State dispute agencies say AI has changed the quantity and complexity of filings. CADRE issued a parent AI-advocacy guide. https://www.k12dive.com/news/whats-ai-role-in-the-special-education-dispute-resolution-process/829823/\n- Federal oversight shift (confirmed): a June 2026 interagency agreement moves IDEA grant management, compliance monitoring and state performance reviews to HHS. The proposed budget cuts special-ed staff from 163 to 31. Advocates warn of reduced accountability for families. Acting OSERS head Kelly Rogers acknowledged 'significant concerns remain' about persistent IDEA noncompliance. https://www.k12dive.com/news/special-educators-oppose-education-department-breakup-interagency-agreement-Health-Human-Services/825821/ and https://www.k12dive.com/news/education-department-promotes-special-education-shakeup-OSEP-conference/826981/ (I did not verify the October 2025 layoffs or the civil-rights move to DOJ.)\n- Willingness to pay: IEP Advocate.ai sells at $30/mo or $300/yr. It cites advocate costs of $300-600 per session and attorneys at $300-500/hr, and its founder's family spent about $200k on due process. https://iepadvocate.ai/pricing and https://iepadvocate.ai/about\n- Parent testimonials on IEP Advocate.ai describe scattered records turned into something usable. This supports the record-keeping value proposition. https://www.iepadvocate.ai\n- Not found: RFPs, Reddit or Facebook complaint threads and Crunchbase funding data. Reddit was blocked, Crunchbase returned 403, and the search budget was exhausted.\n- Counter-signal: CADRE warns of AI hallucinations and privacy exposure, and staff AI use for writing IEPs hit 57% in 2025. Parents can also get generic-LLM help free.",
+  "kill": false,
+  "kill_reason": "n/a",
+  "sharper_angle": "Do not build a generic 'AI IEP advocate' with letters and a deadline calendar. IEP Advocate.ai already has that at $30/mo and free ChatGPT covers much of it. Reposition as the evidence and service-delivery ledger, meaning the system of record for whether the district delivered what the IEP promised.\n\nCore product: the parent enters or forwards provider session notes, missed-session emails and school-portal data. The system maps them to each IEP service line, computes minutes owed vs delivered per period, and outputs a compensatory-services claim packet with a tamper-evident timeline and dated, written requests. The AI drafting is a commodity feature. The ledger and the packet are the product.\n\nAdd a human-verified tier ($75 per 30 minutes with a vetted advocate or attorney) to answer the fabricated-citation problem CADRE and K-12 Dive flag. Wrap it in a 'reviewed before filing' step so complaints are accurate. State agencies and districts are absorbing a 56% rise in AI-drafted complaints and have a reason to welcome well-formed filings.\n\nGo to market through parent centers, disability law clinics and credit unions at $3-6 per member per month, which IEP Advocate.ai has no B2B offer for. Start with one or two states with strong complaint processes.\n\nBefore building, run the planned searches again once the search limit is raised. Then have 10 parents try IEP Advocate.ai's 14-day trial to see whether service-minute tracking and comp-ed math are actually missing."
+ }
+}

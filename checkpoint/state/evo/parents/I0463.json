@@ -1,0 +1,98 @@
+{
+ "title": "Pay Home Inspectors to Find Lead Pipes",
+ "one_liner": "A micro-bounty network that pays home inspectors, plumbers and water-heater installers to photograph where the service line enters the basement, with AI classification, so utilities can clear 'unknown material' lines for about $40 each instead of $500-3,000 each.",
+ "customer": "Mid-size municipal and district water utilities (20k-300k connections) with a large 'unknown material' share in their published lead service line inventory. The buyer is the utility director or the lead program manager. A secondary payer is the home buyer, who pays about $29 for a 'Lead Line Certificate' add-on at inspection.",
+ "problem": "Since the lead and copper inventory requirement, every system has had to classify each service line as lead, galvanized-requiring-replacement, non-lead or unknown. Unknowns are a legal and financial liability, and they are hard to shrink. The only sure verification is potholing or excavation, which costs hundreds to thousands of dollars per line. Customer self-ID by mailer gets a response rate of roughly 10-25%. Absentee landlords and LLCs almost never answer. Utility crews can't look inside private basements, so tens of thousands of unknowns sit in the spreadsheet for years.",
+ "solution": "A mobile app with a fixed 3-photo protocol: the pipe where it enters the building, a scratch or magnet test close-up, and the meter serial number with the address. A vision model classifies the pipe as copper, galvanized, lead, PEX, PVC or HDPE, or flags it as unresolved. Humans QA the low-confidence cases. Each submission is geo-verified and tamper-evident, and exports in the format the state inventory portal expects. Inspectors and plumbers earn $15-25 per verified line, and the platform earns the spread. The utility gets a reconciled inventory feed and a dashboard showing unknowns falling by ZIP code. The consumer add-on (inspector-branded certificate, sold to the buyer) pays the inspector while giving the utility free data.",
+ "why_now": "The first inventories were filed in late 2024, and public analyses showed millions of lines still classified 'unknown'. The Lead and Copper Rule Improvements set a 10-year replacement clock that starts around 2027, though federal details keep being revisited and litigated. Several states have their own replacement statutes that don't depend on the federal rule. The $15B in dedicated infrastructure-law lead line money is moving through state revolving funds under spend-down pressure. Vision models are only now accurate enough to classify pipe photos. (Regulatory details are from memory. Verify state acceptance rules before pitching.)",
+ "revenue_model": "Utilities pay $30-60 per verified line, sold as a per-line contract that fits under small-purchase thresholds. A $10-25k pilot is typical, followed by annual contracts. The consumer-paid certificate ($29) is split with the inspector. Later products are inventory-reconciliation SaaS and an access-agreement workflow for replacement crews.",
+ "non_obvious_insight": "Utilities think they have a data problem, but they have an eyeballs-in-basements problem. Every home sale (an inspector visits) and every water heater swap (a plumber stands three feet from the service entry) already puts a paid expert next to the exact pipe that matters. Nobody has paid them for a photo yet. Excavation is the wrong tool for a question that visual inspection answers for almost nothing.",
+ "first_30_days": "Pick one state that accepts documented visual or contractor verification. Pick two utilities in it whose public inventories are more than 40% unknown. Recruit 30 inspectors through local InterNACHI and ASHI chapter meetups and Facebook groups, and pay a launch bonus per photo set. Run a 200-line pilot. Have the utility pothole 30 of those lines as ground truth, then publish the accuracy numbers. Close a $15-25k pilot purchase order with the first utility, using the small-purchase limit that many cities set at $25-50k so no council vote is needed.",
+ "outside_box_score": 7,
+ "source": "persona:p2-8",
+ "kind": "persona",
+ "id": "I0463",
+ "tournament": {
+  "score": 1.017,
+  "overall_rank": 15,
+  "cluster": "Small water utilities: staffing, revenue leakage, lead lines and nitrate",
+  "judge_notes": [
+   "contrarian: rank 1/25 - Non-obvious eyeballs-in-basements reframe, funded compliance clock, cheap verification vs excavation, small-purchase pilot path.",
+   "operator: rank 2/25 - Mandated, funded, sub-threshold POs. Sharp insight: pay experts already at the pipe. Two-sided supply is reachable via inspector chapters.",
+   "vc: rank 2/25 - Sharp wedge: paid experts already stand next to the pipe; mandated liability, funded buyer, cheap proof."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "BlueConduit",
+    "url": "https://blueconduit.com/",
+    "what_they_do": "Category leader in machine-learning prediction of lead service line material. Products include LSL Predictions and LSL Unknown Management (representative field investigations, statistical classification of unknowns, auto-formatted state inventory templates). They claim 2-3 months to classify unknowns vs 3-10+ years by physical verification, and over $4.5M saved for a system with 5,000 unknowns. Does not appear to run a photo, contractor or crowdsourced verification network. It competes for the same 'shrink the unknowns' budget by reducing how many lines need any field check.",
+    "scale_or_funding": "Over 1M lines inventoried, 50+ US/Canadian cities (Detroit, South Bend, Flint), NSF partnership, Sourcewell contract vehicle; Bloomberg Law says Detroit avoided about $380M of excavation. Funding amount not confirmed (search budget ran out).",
+    "overlap": "direct"
+   },
+   {
+    "name": "VODA.ai (Lead Finder / Lead Zero / Lead Management Dashboard)",
+    "url": "https://voda.ai/lead-management/",
+    "what_they_do": "ML prediction of public and private lead laterals, sampling and replacement targeting, and a dashboard tracking inventory and replacement goals for LCRR/LCRI compliance. Their page shows no photo, self-ID or contractor verification features.",
+    "scale_or_funding": "Funding and customer count not verified.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Trinnex leadCAST (used by Durham, NC)",
+    "url": "https://trinnex.cloud/",
+    "what_they_do": "Lead service line management portal. Durham residents upload photos of where the pipe enters the building and get a $30 water-bill credit once the utility approves the verification. Utility staff review submissions, and city-authorized inspectors do right-of-entry visits. It already covers customer-photo intake, incentive payment and utility review. It has no vision AI or trade-professional bounty network that I could confirm.",
+    "scale_or_funding": "Vendor size and funding not found. Product family is assetCAST, leadCAST, waterCAST and dataCAST.",
+    "overlap": "direct"
+   },
+   {
+    "name": "Esri ArcGIS Lead Service Line Inventory solution",
+    "url": "https://doc.arcgis.com/en/arcgis-solutions/11.1/reference/use-lead-service-line-inventory.htm",
+    "what_they_do": "Free template inside the GIS most utilities already own. It includes a public 'Water Service Line Material Survey' where residents submit material plus a photo, and an ArcGIS Field Maps app where crews record 'Utility Side Verified' and 'Customer Side Verified'. Any utility can stand up basic photo intake and field capture at near-zero software cost.",
+    "scale_or_funding": "Incumbent GIS platform bundled with existing Esri utility licenses. No incremental funding needed.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Electro Scan Inc. (Swordfish probe, Critical H2O cloud app)",
+    "url": "https://trenchlesstechnology.com/identifying-water-service-line-pipe-materials-using-machine-intelligent-technology/",
+    "what_they_do": "Insertion probe that measures electrical resistance to identify copper, galvanized, lead or plastic service lines without excavation. Results upload to a cloud app and GIS. Rock Hill, SC bought two full units and focused on about 14,000 pre-1989 homes; the EPA has done verification calls on its results.",
+    "scale_or_funding": "Per-line pricing not disclosed. Rock Hill purchased two complete units.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Echologics / Mueller Water Products PipeScreen Service Line Analyzer",
+    "url": "https://www.muellerwaterproducts.com/news/analyzing-lead-service-lines",
+    "what_they_do": "Acoustic two-sensor tool that detects lead service lines in minutes without entering the home or excavating. It is sold by a large public water-products incumbent that could bundle verification services.",
+    "scale_or_funding": "Sold by Mueller Water Products (public company). Pricing not disclosed.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "RCAP / Great Lakes Community Action Partnership in-home inspection service",
+    "url": "https://www.glcap.org/programs/community-rural-development/rural-community-assistance-program-rcap/lead-service-line-inventory/",
+    "what_they_do": "Non-profit technical assistance that does door-to-door in-home inspections to verify customer-side service line material for rural systems, described as 'cost-effective' with minimal equipment. It is the human-visual-inspection model this idea proposes, but centrally staffed and not a marketplace or AI product.",
+    "scale_or_funding": "Grant-funded non-profit network. No pricing published.",
+    "overlap": "direct"
+   },
+   {
+    "name": "Stantec and other engineering firms (machine learning plus field verification programs)",
+    "url": "https://www.stantec.com/en/ideas/how-can-machine-learning-help-water-utilities-find-lead-service-lines",
+    "what_they_do": "Engineering consultancies bundle predictive modeling (Stantec partners with BlueConduit) with field verification crews for utilities. They are the usual channel for utility inventory work and will likely subcontract or compete with any verification vendor.",
+    "scale_or_funding": "Large public engineering firm. Page text could not be fetched, so details are from the search snippet only.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "DIY self-ID forms (Chesterfield County VA on Cognito Forms; Massachusetts DEP crowdsourcing application)",
+    "url": "https://www.chesterfield.gov/5763/Water-Service-Line-Inventory-and-Self-Id",
+    "what_they_do": "Utilities and states run free web forms where customers submit pipe material with photos, with a signed affidavit in some states. This is the zero-cost substitute the product must beat on accuracy and response rate. Chesterfield offers no incentive and relies on voluntary participation.",
+    "scale_or_funding": "Free or cheap. Built on commodity form tools and Smartsheet.",
+    "overlap": "adjacent"
+   }
+  ],
+  "white_space": "Nobody I found runs the specific thing proposed: a paid supply-side network of trade professionals (inspectors, plumbers, water-heater installers) who photograph the service entry under a fixed protocol, with vision-AI classification, tamper-evident geo-verification, human QA, and export to state inventory formats, sold to utilities per verified line. Players fall into four groups. (1) Predictive modelers (BlueConduit, VODA.ai) reduce digs statistically but still need ground-truth field samples, and Texas does not accept predictive modeling for official inventories. (2) Customer self-ID portals (Trinnex leadCAST, Esri Survey123, Cognito Forms) collect photos and reach only the 10-25% of owners who respond, and absentee landlords and LLCs almost never do. (3) Hardware probes (Electro Scan, Echologics) need a utility crew at each line. (4) Door-to-door inspection programs (RCAP, engineering firms) are staffed centrally and slowly. The unserved wedge is professional-grade evidence for the non-responding, owner-absent lines at about $30-60 per line, collected by people already inside the building. Two sub-gaps stand out: states that reject modeling but accept documented visual verification, and small or mid-size utilities with no field crews. Caveats: (a) my WebSearch budget ran out after 4 searches, so Crunchbase, YC, Product Hunt and GitHub sweeps were not done and a stealth or very early startup in this niche could exist; (b) the search snippet says physical identification methods 'must be conducted or overseen by water system personnel' (state-dependent), so third-party photos may only count as self-ID-grade evidence unless the utility or state accepts contractor verification; (c) the idea's own note that regulatory details are from memory still applies; (d) per-utility supply is limited to home sales and water-heater swaps, so density per utility could be slow; (e) inspectors may resist liability for calling a pipe lead (my recollection, unverified); (f) Trinnex or Esri could add a 'contractor submission' role cheaply.",
+  "evidence_of_demand": "Moderate to strong for the problem, and only indirect for this specific mechanism. (1) Utilities already pay households to submit pipe photos. Durham offers a $30 water-bill credit for a verified self-ID with photos, which validates the incentive price point and the photo-as-evidence approach (https://www.durhamnc.gov/5184/Water-Service-Line-Inventory-and-Verific). The same page tells residents to check their home-inspection report because 'the home inspector may have identified your service line material and included a photo', so inspector photos are already used ad hoc but nobody pays for them. (2) Verification cost and time pain are quantified by a vendor: BlueConduit claims physical verification takes 3-10+ years and that a system with 5,000 unknowns can save over $4.5M and 5 years, which implies roughly $900 per unknown by digging (https://blueconduit.com/lsl-unknown-management/). (3) Utilities buy verification technology. Rock Hill, SC purchased two Swordfish units and targeted about 14,000 homes (https://trenchlesstechnology.com/identifying-water-service-line-pipe-materials-using-machine-intelligent-technology/), and Detroit's use of BlueConduit avoided an estimated $380M of excavation (https://news.bloomberglaw.com/environment-and-energy/ai-speeds-cities-lead-pipe-search-with-epa-deadline-weeks-away). (4) Regulatory pressure and the modeling gap: the EPA's October 2024 LCRI requires identifying and replacing lead pipes within 10 years (https://www.epa.gov/ground-water-and-drinking-water/lead-and-copper-rule-improvements). Bloomberg Law reports many systems filed substantial 'unknown' counts, the NRDC calls it a fundamental problem, and Texas does not accept predictive modeling for official inventories, which forces physical or visual verification. (5) Funding tie-in: BIL provides $15B for LSL replacement through state revolving funds, and BlueConduit notes systems win funding most often when they minimize unknowns first (https://blueconduit.com/post/what-funding-is-available-for-replacing-privately-owned-lead-service-lines/). Not found: any RFP, forum thread or purchase order for per-line paid third-party photo verification, or any home inspector asking to be paid for this. That demand is unproven.",
+  "kill": false,
+  "kill_reason": "n/a",
+  "sharper_angle": "Do not lead with a consumer-facing inspector bounty marketplace, where free Esri and Survey123 forms and leadCAST-style portals with a $30 credit already cover the customer-photo layer. Position as the verification-grade evidence and field-sampling layer that plugs into the tools utilities and consultants already use. Three moves. (1) Sell to the predictive modelers and engineering firms first (BlueConduit, VODA.ai, Stantec, Hazen-type consultants). Their models require 'representative field investigations' and ground-truth samples, and states like Texas require physical verification. Offer a per-line, tamper-evident, professionally collected photo sample at a fraction of potholing cost, so you are the channel partner rather than a competitor with a 6-12 month municipal sales cycle. (2) Replace recruit-and-pay-each-inspector with distribution through chokepoints that already put a trade professional next to the pipe. That means embedding the 3-photo protocol as a module in home-inspection report software, and as a water-heater or plumbing-permit closeout requirement that utilities or cities can mandate for near-zero bounty. Target absentee-landlord and LLC-owned rentals through rental registration and inspection programs, the cohort self-ID portals cannot reach. (3) Start in one state that explicitly accepts documented contractor or visual verification and rejects pure modeling. Get a written acceptance letter from the state drinking-water program before selling anything, and publish potholed ground-truth accuracy on the first 200 lines. Integrate outputs into Esri and leadCAST rather than replacing them. Before building, confirm with 3-5 state programs whether third-party photo verification can reclassify an 'unknown' line to non-lead or lead, and with 10 inspectors whether they will accept the liability and effort for $15-25 per line."
+ }
+}

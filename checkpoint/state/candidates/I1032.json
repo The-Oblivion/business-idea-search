@@ -1,0 +1,16 @@
+{
+ "title": "AltSchool Without Buildings: Disability Programs in Host Schools",
+ "angle": "1",
+ "one_liner": "AltSchool burned $170M+ building its own schools; in Texas, the new voucher money can only reach accredited schools with two years of history, so rent that eligibility by running clinician-led disability programs inside half-empty accredited private schools.",
+ "customer": "Payer: Texas families with children on IEPs holding Texas Education Freedom Accounts (about $10k standard, up to $30k for IEP students at accredited private schools). Partner: small accredited private schools, often church schools, with empty classrooms. Supply: speech-language pathologists, BCBAs and dyslexia therapists who want to run a program.",
+ "problem": "TEFA rules require private schools to be accredited and to have operated two consecutive school years, and microschool or learning-pod students get only $2,000. Families holding $30k accounts cannot find seats with real special-ed capacity. Eligible incumbents have buildings but no special-ed expertise. Clinicians have expertise but no eligibility.",
+ "solution": "An operating company signs a host agreement with an accredited school. The school enrolls the students as school of record and receives the TEFA funds. We supply a clinical director, staff, structured-literacy or ABA-informed curriculum, IEP compliance, the annual norm-referenced testing TEFA requires for grades 3-12, and ESA billing reconciliation. Start with 8-10 student cohorts (dyslexia and autism support). Confirm with each host's accreditor that a program-within-a-school structure is acceptable.",
+ "why_now": "TEFA's first year is starting (2026-27): $1B in funding, more than 130,000 applications in the first three weeks, roughly 100,000 families expected. Texas public schools lost about 76,000 students this year and are closing dozens of campuses. Federal special-ed enforcement was hollowed out (OSEP layoffs in October 2025, with the office reportedly moving to HHS in June 2026), so parents are looking for alternatives.",
+ "revenue_model": "Management fee of about 20-25% of ESA revenue per student ($6-7.5k per $30k student, so $60-75k per 10-student program per year), with a 15-20% host share; one-time program-design fee ($3-5k) per host; compliance and reconciliation SaaS later.",
+ "non_obvious_insight": "AltSchool's mistake was building schools. In Texas the moat is accreditation plus a two-year operating history, which are other people's assets, so partner instead of build. Empty church-school classrooms, underemployed clinicians and $30k accounts form a three-way arbitrage that only exists because of the new rules.",
+ "first_30_days": "List about 150 small accredited private schools in DFW, Houston, San Antonio and Austin using accreditor directories. Send heads of school a one-page economics sheet. Recruit 10 clinicians via LinkedIn and SLP/BCBA Facebook groups. Sign 1-2 pilot hosts for a January 2027 cohort and collect pre-enrollment interest from TEFA parent groups. First revenue is host design fees, with per-student revenue starting once enrollments transfer.",
+ "outside_box_score": 7,
+ "source": "wild:g3+g4",
+ "kind": "wild",
+ "id": "I1032"
+}

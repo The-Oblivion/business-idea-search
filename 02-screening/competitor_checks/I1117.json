@@ -1,0 +1,45 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "PayHOA",
+   "url": "https://www.payhoa.com/pricing",
+   "what_they_do": "Self-serve HOA management SaaS (dues invoicing, ACH/card collection, accounting, document storage, violation tracking, owner portals, voting) aimed at small self-managed associations. The pages I fetched had no road-association, private-road or closing-workflow content. It already covers the recurring dues layer of this idea.",
+   "scale_or_funding": "Established SaaS. Pricing verified this session: $49/mo for 0-25 units ($54 on monthly billing), $59 for 26-50 units, ACH $2.45 per transaction, card 3.5% + $0.50. Funding not checked.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Other small-HOA software (Buildium, AppFolio, HOA Start, Vantaca, Cinc and similar)",
+   "url": "https://www.hoamanagement.com/",
+   "what_they_do": "General HOA and condo dues, accounting and communications platforms that a road association could use as-is. The hoamanagement.com directory page I fetched had no road-association content. I could not fetch the vendor pages (guessed URLs returned 404 or empty), so this row rests on background knowledge and is unverified.",
+   "scale_or_funding": "Several are large and venture- or PE-backed (background knowledge, not verified this session).",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Local real-estate attorneys and title/escrow companies (the incumbent workaround)",
+   "url": "none found - no single site; this is a fragmented, offline service",
+   "what_they_do": "Draft and record a road maintenance agreement per deal, with the agent or escrow officer chasing neighbor signatures by hand. This is the status quo the idea would replace. I did not find prices. The $2-3k template-review cost in the idea is the idea's own estimate.",
+   "scale_or_funding": "Many small firms, no scaled product found.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Generic legal-form sellers (LegalZoom, US Legal Forms, Rocket Lawyer)",
+   "url": "https://www.uslegalforms.com/",
+   "what_they_do": "Sell downloadable road maintenance agreement templates with no neighbor outreach, notarization, recording or lender cover letter. I could not verify the specific product pages (guessed URLs returned 404/410), so this is unverified.",
+   "scale_or_funding": "Large, established consumer legal-document companies (background knowledge).",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Closing-infrastructure vendors (Qualia, Notarize/Proof, Simplifile e-recording, DocuSign)",
+   "url": "https://www.notarize.com/",
+   "what_they_do": "Provide the RON, e-sign and e-recording rails the idea would build on. As far as I know none offers a private-road neighbor-consent product, but any could add a template workflow. Unverified this session.",
+   "scale_or_funding": "Funded, scaled platforms (background knowledge).",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Only partly verified: the WebSearch budget (200/200) was exhausted before I could run any searches, so I could not check for a funded startup, Product Hunt or YC listing, or forum demand. I used direct page fetches and a GitHub search instead. What I found: (1) No direct competitor turned up in direct fetches, and GitHub has no open-source project for this. (2) The per-deal neighbor-consent workflow (identify benefiting parcels from county GIS, outreach script, multi-party RON/e-sign, e-record, lender cover letter) appears unserved by software. Today it is handled by attorneys and title officers by hand, with generic templates from form sellers. (3) The recurring association layer is NOT white space. PayHOA serves 0-25 unit associations at $49/mo with $2.45 flat ACH, against the idea's $29/mo plus 3% + $3 per household (about $3.45-4.20 on a $15-40 dues payment), so the idea's layer costs more per household than the incumbent. (4) The lender-demand premise is weaker than stated. The HUD Handbook 4000.1 text I could read (2019 edition, p.184 and p.566 of the PDF) requires private streets to be protected by a permanent recorded easement, ownership interest, or HOA ownership, says shared driveways do NOT require a joint maintenance agreement, and only has the appraiser ask whether a maintenance agreement exists and comment on road condition. So for FHA the real deal-killer is a missing recorded easement (a title/access cure), not the maintenance agreement. I did not verify VA, USDA or conventional rules or any newer HUD revision. The defensible unserved wedge is a title-partner-distributed neighbor-consent and recording workflow for lenders and loan types that do require the agreement, plus an easement/access cure.",
+ "evidence_of_demand": "Weak and mostly unverified. Verified: HUD Handbook 4000.1 (2019 edition; https://www.hud.gov/sites/dfiles/OCHCO/documents/4000.1hsgh.pdf) makes private-street access a Minimum Property Requirement issue. It needs a permanent recorded easement, ownership interest, or HOA maintenance, and the appraiser must ask about a maintenance agreement and report on road condition. That confirms the appraiser flags private roads, but it does not confirm that FHA requires a recorded maintenance agreement, and it says shared driveways do not need one. Verified: PayHOA sells dues software to associations of 25 units or fewer for $49/mo (https://www.payhoa.com/pricing), so small associations do pay for dues tooling. Not found: forum complaints, RFPs, agent or title-officer willingness to pay $400-750 per transaction, or any counts of private-road listings. I could not run those searches because the search budget was exhausted. Treat demand as unproven until 15-20 title officers and listing agents in Larimer/Boulder CO or Flathead MT are interviewed, and until the VA, USDA and conventional-lender requirements are read directly. My unverified recollection is that USDA and many lender overlays do require a recorded maintenance agreement.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Drop the association-software upsell as a core pillar, since PayHOA and similar tools already do dues cheaper. Position as a per-deal closing-cure product sold through title/escrow officers and rural real-estate attorneys: neighbor-consent orchestration (parcel and owner discovery from county GIS, outreach script, multi-party RON, e-recording) that resolves BOTH the recorded easement and the maintenance agreement, mapped to each lender's or loan program's actual condition (USDA, VA, conventional and portfolio lenders; FHA mainly for easement gaps). Sell it white-label per state through local counsel to limit unauthorized-practice-of-law risk. Trigger it at appraisal or contract stage by watching for private-road flags, not 7 days before closing. Monetize the road afterward by integrating with existing dues tools such as PayHOA, or only where a road wants a managed reserve fund. Before building, confirm loan-program rules directly from the VA Lender's Handbook, USDA HB-1-3555 Ch.12 and the Fannie/Freddie guides, and run the demand searches that this session could not."
+}

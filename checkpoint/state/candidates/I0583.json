@@ -1,0 +1,16 @@
+{
+ "title": "Keep-the-House Buyout Desk for Divorcing Spouses",
+ "angle": "2",
+ "one_liner": "A divorce-specific mortgage desk that keeps the low-rate first mortgage alive, gets the leaving spouse released, and funds the equity buyout with a small second lien instead of a full high-rate cash-out refinance.",
+ "customer": "Divorcing homeowners, mostly aged 40 to 65, who want to keep the house. Channels: mediators, divorce attorneys, CDFAs and DIY-divorce platforms.",
+ "problem": "A divorce decree cannot release a co-borrower from the mortgage. Only a formal assumption with release, which requires servicer underwriting of the keeping spouse, or a refinance can do that. Many conventional loans are not assumable, though a transfer to a spouse under a decree is exempt from due-on-sale, while FHA, VA and USDA loans can be assumed. Servicers often mishandle these requests. Many homeowners hold first mortgages far below today's rates, so a full refinance wrecks affordability and the house gets sold.",
+ "solution": "Intake on loan type, rate, equity and incomes, then a one-page keep versus sell versus refinance model showing blended-rate math. Then execute the sequence: title transfer under the divorce exemption, an assumption-with-release packet built for the servicer, buyout financing through a partner HELOC or closed-end second lien (or a shared-equity note from the leaving spouse), and suggested decree language for attorneys, such as a buyout-financing contingency and a release deadline.",
+ "why_now": "Millions of borrowers still hold sub-4% mortgages while current rates are higher, and tappable home equity is large. The share of divorces involving people over 50 keeps growing, and those couples have the most equity. DIY-divorce platforms now produce decrees with no mortgage plan.",
+ "revenue_model": "A flat $495 to $995 planning fee. Broker compensation of about 1% to 2% on second-lien or HELOC originations (requires an NMLS-licensed loan officer or partner). Licensing to DIY-divorce platforms and mediation firms. Avoid referral fees to attorneys because of fee-splitting rules.",
+ "non_obvious_insight": "Lawyers treat the house as a property-division problem when it is a loan-portability problem. The low-rate first mortgage is often the most valuable asset in the marriage. Illustratively, keeping $300k at 3% and borrowing $100k at 8.5% blends to about 4.4%, versus about 6.5% on a $400k cash-out refinance, roughly $300 to $400 a month less in payment. Nobody in the divorce process is paid to run that comparison.",
+ "first_30_days": "Partner with one NMLS-licensed loan officer and two HELOC or second-lien lenders. Publish the calculator and a 'divorce and your mortgage' guide. Offer 5 mediators, divorce attorneys or CDFAs a free house model for their next 10 clients. Process 5 live cases and build servicer-by-servicer playbooks on assumption timelines and release requirements. Then sell the flat-fee plan to DIY-divorce customers.",
+ "outside_box_score": 6,
+ "source": "wild:g15+g16",
+ "kind": "wild",
+ "id": "I0583"
+}

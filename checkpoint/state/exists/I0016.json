@@ -1,0 +1,66 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "MIDAS Healthcare Solutions (MidasVIEW / Anytime Witness, aka V.I.E.W.)",
+   "url": "https://midashs.com/midas-view/",
+   "what_they_do": "Waste workstation with 360-degree HD cameras, chain of custody and AI anomaly detection. Anytime Witness lets the caregiver waste alone while a witness reviews the recorded video later on a desktop, which removes the need for a live second person. It is asynchronous video, not a staffed remote-RN pool. I found no live remote witnesses and no critical access hospital targeting. Pilots announced in Oct 2023 were at tertiary adult hospitals and a children's hospital.",
+   "scale_or_funding": "$2M Series A extension (Oct 2023) from MCPC Healthcare Investment; founded 2017. Customer count undisclosed. https://www.newswire.com/news/midas-healthcare-solutions-extends-series-a-round-with-new-investment-22156357",
+   "overlap": "direct"
+  },
+  {
+   "name": "BD Pyxis Med Link Queue & Waste",
+   "url": "https://www.bd.com/en-no/products-and-solutions/products/product-families/bd-pyxis-med-link-queue-waste",
+   "what_they_do": "Incumbent cabinet vendor. Lets nurses queue meds and document waste remotely, and lets a witness sign from any PC without returning to the cabinet. Visual documentation hardware can capture waste steps. It still needs a colleague on the unit to act as witness, so it does not supply the missing second person.",
+   "scale_or_funding": "Becton Dickinson (large public company). Pyxis is one of the two dominant dispensing-cabinet platforms, alongside Omnicell.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Avel eCare",
+   "url": "https://www.avelecare.com/",
+   "what_they_do": "Sioux Falls-based virtual health system with a 24/7 clinical hub that serves rural and critical access hospitals: eICU, virtual hospitalist, telepharmacy, emergency telemedicine. It already holds the CAH night-shift relationships and could add a remote witness or double-check service. I found no evidence it sells one today.",
+   "scale_or_funding": "Established non-profit-rooted operator serving hundreds of rural facilities. It is pitching itself for Rural Health Transformation funding. https://www.avelecare.com/rural-healthcare-workforce-stabilization/",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "VirtuAlly (with Teledigm Health)",
+   "url": "https://virtually.io/blog/virtually-and-teledigm-health-forge-partnership-to-bring-virtual-nursing-to-rural-healthcare-systemsnbsp/",
+   "what_they_do": "Outsourced, staffed virtual nursing service aimed at rural systems and critical access hospitals, Joint Commission telehealth accredited. The partnership with Teledigm targets rural Midwest CAHs. Its listed scope is admissions, discharges and admin tasks. Medication verification and waste witnessing are not mentioned.",
+   "scale_or_funding": "Private, funding undisclosed. Claims an average 20% reduction in partner-hospital nurse turnover.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Nesa Solutions (Virtual RN Co-Sign in Epic)",
+   "url": "https://nesasolutions.com/double-medication-verification/",
+   "what_they_do": "Epic-integrated software so a hospital's own virtual nurse can double-verify medications and confirm IV bags via in-room clinical-grade cameras. It is a software workflow for hospitals that already run virtual nursing, not a staffed pool. It does not cover controlled-substance waste.",
+   "scale_or_funding": "Listed in Epic Toolbox 2026; funding and size not found.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Virtual nursing platforms: AvaSure, Caregility, Teladoc Health, Artisight",
+   "url": "https://avasure.com/virtual-nursing/",
+   "what_they_do": "Bedside camera and video platforms for in-hospital virtual nurses, with room cameras, EHR integration and AI monitoring. They are pitching Rural Health Transformation dollars to CAHs. No documented waste-witness feature. Med double-checks are mentioned only generically. A witness or double-check module is a small feature add for any of them.",
+   "scale_or_funding": "Established, well-funded vendors. Teladoc is public. AvaSure and Caregility are large private vendors. https://avasure.com/blog/rhtp-how-virtual-care-can-benefit-rural-hospitals/",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "CPS TELEpharmacy and Cardinal Health Remote Pharmacy Services",
+   "url": "https://www.cardinalhealth.com/en/services/hospital-pharmacy/remote-pharmacy-services.html",
+   "what_they_do": "Staffed 24/7 remote pharmacists for order verification at small and rural hospitals. Pharmacists are eligible controlled-substance witnesses in most states, so these vendors already have the remote staff, CAH contracts and video links to add a witness line. I found no evidence they offer one.",
+   "scale_or_funding": "Cardinal Health is a Fortune-500 distributor. CPS is an established telepharmacy provider. Cardinal cites a sub-20-minute average order turnaround and 20-30% lower cost than hiring staff. https://cps.com/our-solutions/telepharmacy",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Bluesight ControlCheck, Wolters Kluwer Sentri7 and Imprivata Drug Diversion Intelligence",
+   "url": "https://bluesight.com/drug-diversion-monitoring/",
+   "what_they_do": "After-the-fact diversion analytics that match cabinet, EHR and waste data. Bluesight reports about 1,500 hospitals on ControlCheck and Wolters Kluwer about 700 on Sentri7. They detect anomalies and do not supply a witness. Any of them could partner with a witness service or bundle one.",
+   "scale_or_funding": "Bluesight is backed by private equity and merged with Omnicell's Kit Check. 94% of surveyed hospital pharmacies use diversion software. https://www.statnews.com/2026/08/25/ai-drug-diversion-software-human-oversight-controlcheck-sentri7/",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Nobody I found sells a shared, pooled, live remote-RN witness subscription to critical access hospitals. The specific gaps are:\n(1) Live human supply. MidasVIEW replaces the second person with recorded video reviewed later. Pyxis remote witness still needs a colleague on shift. Virtual-nursing vendors cover admissions, discharges, sitters and documentation. Remote pharmacy vendors cover order verification. Nobody provides a licensed second person on demand at 3am.\n(2) Transfusion, high-alert and pediatric double-checks. Asynchronous video cannot substitute for a live independent check before administration. Remote IDC is documented as feasible but under-evidenced, and only a few institutions do it (ONS 2024).\n(3) Small-hospital fit. MidasVIEW pilots are at tertiary and children's hospitals. Small facilities lag on diversion controls: only 57% of single facilities actively monitor camera footage, and CAHs lack pharmacy staff to review video the next day.\n(4) Insurer-linked audit trail. No diversion vendor sells to liability or captive insurers.\nThe wedge is narrow and time-limited. Avel eCare, VirtuAlly and the telepharmacy vendors could add a witness line quickly, and MidasVIEW could add live witness routing.",
+ "evidence_of_demand": "Pain is well documented. Willingness to pay for this specific service is not, and I found no RFPs, forum posts asking for a paid remote witness, or vendor pricing.\nPain evidence:\n- Bluesight 2026 Hospital Pharmacy Operations Report (437 respondents): about 63% of leaders reported at least one diversion event in the past year. https://bluesight.com/news/bluesight-releases-2026-hospital-pharmacy-and-privacy-reports/\n- Peer-reviewed: \"a significant barrier to the destruction of controlled substances was the availability of a second witness\", worst on overnight shifts. https://pmc.ncbi.nlm.nih.gov/articles/PMC11392538\n- Peer-reviewed: waste stream is \"one of the weakest links in the controlled substance chain of custody\". https://pmc.ncbi.nlm.nih.gov/articles/PMC8958124/\n- Survey of US hospital pharmacies: smaller single facilities lag on diversion controls, and only 57.1% actively monitor camera footage. https://pmc.ncbi.nlm.nih.gov/articles/PMC11676067/\n- Nurse and staffing sources note that \"virtual waste\", where the witness signs without watching, is a known diversion tactic, and that some rural facilities have only one licensed person on nights so techs co-sign. https://www.medicalsolutions.com/blog/clinician/narcotic-waste/ and https://www.myamericannurse.com/drug-diversion-in-healthcare/\nMoney and regulatory signals:\n- MIDAS raised outside capital for video-witness waste (a $2M Series A extension in 2023), so some investors see a market. https://www.newswire.com/news/midas-healthcare-solutions-extends-series-a-round-with-new-investment-22156357\n- Rural Health Transformation Program: $50B over 2026-2030, about $200M average first-year award per state, with virtual nursing and workforce named as aligned uses. https://www.cms.gov/newsroom/press-releases/cms-announces-50-billion-awards-strengthen-rural-health-all-50-states and https://avasure.com/blog/rhtp-how-virtual-care-can-benefit-rural-hospitals/\n- Massachusetts allowed a virtual two-person count and disposal waiver for its long-term-care Medication Administration Program, provided an in-person count happens at least every 7 days. This shows regulators can accept virtual witnessing in limited settings. https://www.mass.gov/doc/map-virtual-two-person-count-and-disposal-of-countable-controlled-substances-waiver-notice/download\nCounter-evidence and risks:\n- Some state rules require both people to personally witness destruction, for example Ohio Admin. Code 4729:5-3-01. The rule text I saw covers disposal generally and I did not confirm how it applies to point-of-care waste. https://codes.ohio.gov/ohio-administrative-code/rule-4729:5-3-01\n- Remote double-check evidence is thin. https://www.ons.org/publications-research/voice/news-views/04-2024/remote-independent-double-check-has-benefits-we-need\n- Cheaper substitutes exist: async video review, or a tech or supervisor co-sign.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Do not lead with live remote witnessing of narcotic waste. MidasVIEW's async video review already competes on that use case, and state or board rules may block live remote witnessing in some places. Reposition as a live \"second licensed person on demand\" service for critical access hospitals, sold as a pooled night-shift subscription. Lead with what video review cannot replace:\n1. Transfusion verification, high-alert double-checks (insulin, heparin) and pediatric dosing, each needing a live independent check before administration.\n2. Waste witnessing as a bundled add-on. Use a $150 tablet that records every event so the hospital gets the audit trail, with the live RN taking the call when no colleague is free.\nGo to market through channels that already hold CAH night-shift trust rather than selling cold to 1,300 CAHs:\n- White-label or partner with Avel eCare, VirtuAlly, Teledigm, or CPS/Cardinal remote pharmacy. Pharmacists are eligible witnesses too, so a pharmacist-plus-RN pool widens supply.\n- Pilot in one Nurse Licensure Compact state with a written board of pharmacy and nursing opinion in hand before the first sale.\n- Sell the audit log to the hospital's liability or captive insurer, and pay for pilots from a state Rural Health Transformation workforce or quality grant.\nBefore building, get two or three CAH pharmacy directors or CNOs to sign a paid pilot letter. Also confirm that P&T policy plus state rules allow live video witnessing. Willingness to pay is the least-proven part."
+}

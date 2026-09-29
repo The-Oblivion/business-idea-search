@@ -1,0 +1,91 @@
+{
+ "title": "Contingency Hunters for Unbilled Water Revenue",
+ "one_liner": "Find the 'ghost parcels' and slow big meters that leak revenue out of a utility, using assessor rolls, building footprints, imagery and billing data, and get paid 20-30% of what is recovered so the city risks nothing.",
+ "customer": "City, county and district water and sewer utilities with 10k-200k connections. The buyer is the finance director or utility director who is facing a council fight over the next rate increase.",
+ "problem": "Utilities are raising rates 5-10% a year to fund PFAS treatment, lead line replacement and aging pipes, and councils are pushing back on affordability. Meanwhile revenue leaks out in places nobody owns: structures with no water account (unpermitted ADUs on shared meters, converted garages, fire and irrigation taps never billed), commercial compound meters that are 20-30 years old and under-register at low flows, meters swapped without the account being updated, stopped or zero-read accounts that never get investigated, and sewer-only accounts billed off a bad water read. The customer information system, the GIS parcel layer and the assessor roll sit in different departments. Nobody owns the join, and nobody has staff to do it.",
+ "solution": "Join the utility's account list and consumption history to the assessor roll (building sq ft, units, use code), permits, open building-footprint datasets and aerial imagery (pools, irrigated area, added structures). Build an expected-consumption model by parcel. Rank the mismatches: no account at all, consumption far below expected, sudden step-downs after a meter change, and large meters whose low-flow profile looks wrong. A small field crew and a meter-test partner verify the top leads. The utility gets a documented recovery list with legal-ready evidence, back-billing calculations that respect the state's limits, and a meter-replacement plan. The firm takes 20-30% of first-year recovered incremental revenue.",
+ "why_now": "Rate shock and affordability politics in 2025-26 make 'recover what we're owed before raising rates' an easy story for council. Open building-footprint datasets and cheap vision AI make expected-consumption modeling accessible to a two-person team, and utilities that finished smart-meter rollouts now have interval data that has never been analyzed for revenue. Contingency work also clears procurement easily because there is no upfront cost.",
+ "revenue_model": "Contingency of 20-30% on the first 12-24 months of recovered annualized revenue, plus a fixed fee for a meter-testing and replacement plan. Later, a recurring SaaS monitor ($1-3 per 100 accounts per month). Optional referral fees from meter and test vendors.",
+ "non_obvious_insight": "The leak that matters is not in the pipe. Large commercial meters are about 10-20% of accounts but 40-60% of revenue, and the oldest ones quietly under-register the low flows that hospitals, hotels and factories use all night. The utility never sees this loss because the meter is the thing measuring it.",
+ "first_30_days": "Pick a county whose assessor roll and building footprints are downloadable and whose utility publishes or will release account addresses (public-records request). Run a free scan and generate 20 named addresses with expected versus billed usage. Cold-email finance directors at five utilities with 'we'll show you 20 unbilled addresses before you sign anything'. Sign the first contingency contract with a city that has a rate hearing scheduled, and verify leads with a hired meter-testing subcontractor.",
+ "outside_box_score": 6,
+ "source": "persona:p2-8",
+ "kind": "persona",
+ "id": "I0388",
+ "tournament": {
+  "score": 1.003,
+  "overall_rank": 24,
+  "cluster": "Small water utilities: staffing, revenue leakage, lead lines and nitrate",
+  "judge_notes": [
+   "contrarian: rank 2/25 - Contingency-fee revenue recovery with a free named-address scan. Real rate-shock why-now, big buyer pool, easy procurement, credible 6-month path.",
+   "vc: rank 2/25 - Zero-risk contingency, real hidden revenue, data-join insight; recovery-audit playbook proven elsewhere; easy pitch before rate hearings.",
+   "operator: rank 2/25 - Contingency fee removes buyer risk; ROI is provable with 20 named addresses; cold-email pitch is concrete and scrappy."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "Itron (Temetra Analysis / Non-Revenue Water portfolio)",
+    "url": "https://na.itron.com/what-we-offer/non-revenue-water",
+    "what_they_do": "AMI/AMR incumbent. Its NRW page says it targets 'unbilled authorized consumption, apparent or commercial losses, and real losses'. Temetra Analysis prioritizes real and apparent losses, and Temetra manages read data for billing accuracy. It is sold as software attached to Itron meters and networks. There is no contingency model and no assessor-roll or parcel join.",
+    "scale_or_funding": "Public company. Its page cites 45M+ endpoints on Temetra and claims a 15-35% average NRW reduction. The Rogers Water case study reports NRW cut from 18% to 5%, worth about $200k a year.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Badger Meter (BEACON, OneNetwork)",
+    "url": "https://www.badgermeter.com/",
+    "what_they_do": "Meters plus BEACON cloud analytics. The homepage does not market revenue recovery or under-registration detection explicitly. From memory, BEACON has no-usage and continuous-flow alerts, but I could not verify that here. This is the most likely place for a 'revenue assurance' feature to appear.",
+    "scale_or_funding": "Public (NYSE: BMI), large installed AMI base",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Master Meter (Harmony Encore MDM)",
+    "url": "https://www.mastermeter.com/",
+    "what_they_do": "Meters and meter data management. It lists 'Improve Revenue' as a solution category under 'Solving Challenges', but the page gives no detail on under-registration or unbilled-account detection.",
+    "scale_or_funding": "Private, established vendor",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Metron-Farnier (WaterScope)",
+    "url": "https://metron-us.com/",
+    "what_they_do": "Smart meters and WaterScope cloud analytics for leak detection and billing integration. No meter-accuracy audit or revenue-recovery service was found on the page.",
+    "scale_or_funding": "Private, established vendor",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "EagleView (imagery and property intelligence for government)",
+    "url": "https://www.eagleview.com/",
+    "what_they_do": "Aerial imagery and property intelligence sold to public agencies for tax assessment and zoning enforcement, which is the same kind of data behind 'ghost structure' detection. The page does not mention water-utility revenue recovery, but EagleView could package this as a utility use case. Nearmap and Vexcel are similar imagery suppliers, and I did not verify them.",
+    "scale_or_funding": "Established private vendor, funding not verified",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Ameresco (AMI plus performance contracting)",
+    "url": "https://www.ameresco.com/water/",
+    "what_they_do": "Offers AMI and AssetPlanner for water utilities and runs energy savings performance contracts (ESPC). The water page does not describe revenue-recovery performance contracts. Bundled 'meter replacement paid from recovered revenue' deals from ESCOs are a plausible substitute for a contingency fee, but I could not confirm any.",
+    "scale_or_funding": "Public (NYSE: AMRC)",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "AWWA Free Water Audit Software v6.1 and M36 manual",
+    "url": "https://www.awwa.org/Resources-Tools/Resource-Topics/Water-Loss-Control",
+    "what_they_do": "The free industry-standard water audit tool. It quantifies apparent losses (customer metering inaccuracy, unauthorized consumption, data-handling errors) at system level. It does not identify individual accounts or addresses, and many consultants and staff use it as the DIY substitute.",
+    "scale_or_funding": "Free, near-universal among utilities that do audits",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "BlueConduit",
+    "url": "https://www.blueconduit.com/",
+    "what_they_do": "ML and parcel-data modeling for utilities, focused on lead service line inventory and main condition. It has no revenue-recovery or unbilled-account offering. It shows that utilities buy ML built on parcel data, and its team could pivot into this space.",
+    "scale_or_funding": "Ann Arbor startup, funding not stated on the page",
+    "overlap": "adjacent"
+   }
+  ],
+  "white_space": "Important caveat: my WebSearch budget was exhausted (200/200) before any of my searches ran. This verdict rests on about 20 direct page fetches and GitHub repo searches, not on broad web, Crunchbase, YC or Product Hunt sweeps. Treat 'no direct competitor found' as unconfirmed, and do a manual pass on Crunchbase, YC and RFP portals before committing. What I did verify: (1) I found no vendor selling a contingency-fee service that joins assessor roll, footprints, imagery and the billing system to produce named unbilled addresses for water utilities. (2) The metering and analytics incumbents (Itron, Badger, Master Meter, Metron) sell software tied to their own hardware, with no evidence of a ranked, dollar-denominated, legal-ready recovery list or contingency pricing. (3) The GitHub search for open-source tools found nothing relevant. Unverified, from background knowledge: engineering and rate consultancies (Raftelis, FCS, Hazen and similar) do apparent-loss audits and revenue-protection reviews on a fee basis. Contract meter-testing firms and meter distributors run large-meter testing and right-sizing programs, usually to sell replacement meters. Small local billing-audit shops may exist. Genuinely unserved: an independent, outcome-priced screen of large-account meter accuracy that ranks specific accounts by expected dollars using consumption history, and that does not depend on one meter vendor's hardware. Ghost-parcel discovery is the weaker half. A structure with no account is rare where permits trigger taps, and an ADU on a shared meter is usually already billed on consumption. Back-billing is politically and legally messy, and some jurisdictions restrict contingency contracts. The larger risk is structural (yield, procurement law, optics), not competitive.",
+  "evidence_of_demand": "Real demand for apparent-loss control, but no evidence found that utilities pay contingency for it. (1) Regulation forces spending: Texas requires annual water loss audits from systems with 3,300+ connections, with certified training for auditors (https://www.twdb.texas.gov/conservation/municipal/waterloss/index.asp). California's SB 555 is a similar mandate from memory, but I could not confirm it because the DWR page had moved. (2) AWWA calls its Free Water Audit Software v6.1 (2025) 'the industry standard tool for conducting the annual water audit', and it explicitly covers apparent losses, so utilities are trained to look for this leakage (https://www.awwa.org/Resources-Tools/Resource-Topics/Water-Loss-Control). (3) Itron markets apparent-loss and NRW analytics with a claimed 15-35% average NRW reduction and a customer case (Rogers Water, NRW 18% to 5%, about $200k a year), which shows vendors sell on this ROI (https://na.itron.com/what-we-offer/non-revenue-water). Not found: any RFP, forum thread or contract showing a water utility paying a 20-30% contingency for unbilled-revenue discovery. I also did not verify the idea's claim that large meters are 10-20% of accounts but 40-60% of revenue.",
+  "kill": false,
+  "kill_reason": "n/a",
+  "sharper_angle": "Drop 'ghost parcels' as the headline and lead with large-commercial-meter revenue assurance. Screen the top 10-20% of accounts, which carry the most revenue, using read or interval history. Look for step-downs after meter changes, low-flow profiles that look wrong against use-code and NAICS peers, and zero-read accounts. Rank accounts by expected dollars. Verify the top leads with an independent ASTM/AWWA-style field test, so the firm has no meter-sales conflict. Get paid a contingency on documented incremental billed revenue after replacement or correction. Use ghost parcels and sewer-only mis-billing as add-on lead types, since they are the least defensible. Target utilities of 10-50k connections that already have AMI data nobody analyzes and no rate consultant on retainer, and time the pitch to rate hearings. The durable moat is a cross-utility dataset of large-meter degradation and recovery yield by meter model and age. Long term, license the screening engine to AMI and MDM vendors or consultancies, because Itron, Badger and Master Meter can add a 'revenue assurance' analytics tab. Before building, check which states allow contingency contracts and what back-billing limits apply, and pre-sell one paid pilot."
+ }
+}

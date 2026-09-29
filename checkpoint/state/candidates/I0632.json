@@ -1,0 +1,15 @@
+{
+ "title": "Tariff Refund Claim Files for Small Importers",
+ "one_liner": "Turn a small importer's messy customs data into a refund-ready, financeable claim ledger, paid by success fee or on sale of the claim.",
+ "customer": "US importers of record with roughly $50K to $5M of IEEPA duties who lack in-house customs staff, plus the licensed customs brokers serving them. Claim-buying funds and lenders are the second payer, paying a per-file diligence fee.",
+ "problem": "The Supreme Court struck down the IEEPA tariffs in February 2026 and the CIT ordered refunds. CBP's CAPE tool has accepted about $134.7B of the roughly $166B pool as of September 11, 2026. The tail sits with the smallest importers. Their ACE accounts are unapproved, they missed the 90-day request window, or their entries are liquidated beyond the 80-day reprocessing window, which the DOJ is appealing at the Federal Circuit. Phase 3, for liquidated entries, was slated for October 6 but delayed. Many are selling claims at deep discounts out of fear or confusion.",
+ "solution": "Ingest ACE entry-summary reports, broker CSVs and payment records. Map every line to the IEEPA HTS 9903 lines. Compute per-entry phase eligibility, liquidation dates and protest deadlines. Flag duplicate or wrong importer-of-record entries, drawback and FTZ overlaps, and interest owed. Output CAPE-ready batches plus a chain-of-title 'claim data room' with a probability-weighted value for the appeal-dependent entries. A licensed broker partner files, so the product stays software plus workflow. The same engine reprocesses future tariff refunds and exclusions.",
+ "why_now": "The window is open now: CAPE phases run through fall 2026, the Federal Circuit appeal will set the value of the liquidated tail, and hedge funds and lenders are already buying refund claims. Successor tariffs under other statutes create the same entry-level data problem next year.",
+ "revenue_model": "8 to 12% success fee on refunds recovered. A 2 to 4% origination fee when a claim is sold or financed. $500 to $2,000 per-claim diligence files sold to buyers. A subscription for customs brokers who use it across their book.",
+ "non_obvious_insight": "Distressed-claims desks (Lehman, FTX, Celsius trade claims) know a claim's price is set less by the underlying merits than by documentation quality, chain of title and timing. Whoever standardizes the data room becomes the market's gatekeeper. The small-importer tail is mispriced because sellers can't prove what they are owed, and buyers can't underwrite what they can't verify. The moat is the underwriting file, not the filing.",
+ "first_30_days": "Build an ES-003 and ACE CSV parser with two or three friendly licensed customs brokers. Offer a free 'refund gap audit' to 30 small importers found through public importer lists. Sign 10 on contingency. Get letters of intent from one or two claim buyers wanting standardized diligence files.",
+ "outside_box_score": 6,
+ "source": "persona:p0-6",
+ "kind": "persona",
+ "id": "I0632"
+}

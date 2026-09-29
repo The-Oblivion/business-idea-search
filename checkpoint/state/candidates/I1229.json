@@ -1,0 +1,16 @@
+{
+ "title": "Shared-Aide Pods for 55+ Apartment Buildings",
+ "angle": "contrarian",
+ "one_liner": "One on-site aide team serves 6-10 residents in the same building, delivering assisted-living-style help at a fraction of 1:1 home-care cost.",
+ "customer": "Owners and operators of independent-living and 55+ apartment buildings (market-rate, senior LIHTC and HUD-202 properties). The payers are middle-income residents and their families, who can't afford $75-130k a year and are stuck on waitlists.",
+ "problem": "Home care is sold as one aide per client per hour ($35 an hour, about $80k a year for 44 hours a week) only because of legacy billing. Assisted living is at 90% occupancy with almost no new supply before 2030. Residents who age past independent living either move out or go without.",
+ "solution": "A licensed home-care agency subsidiary (or partnership with one) posts 2-3 aides per shift inside the building. They run scheduled 15-45 minute ADL, medication-reminder, meal-setup and toileting visits, plus overnight response. Dispatch software handles acuity tiers and in-building routing (floors, elevators). Residents buy monthly tiers of about $1,800-3,500, and the property gets a retention amenity.",
+ "why_now": "NIC MAP shows 57 of 99 metros above 90% occupancy, units under construction at a 2012 low, and no meaningful new supply before 2030. Medicaid HCBS is walled off by 15-month waitlists and labor is scarcer after the 2026 visa pause, so stretching each aide across more clients is the only lever left.",
+ "revenue_model": "Monthly resident subscription by care tier, with a revenue share or amenity fee to the property owner. Later, Medicaid HCBS or managed-care billing for pods in affordable senior buildings.",
+ "non_obvious_insight": "Aide hours are cheap to make dense (no drive time, no client-hour minimums) but are priced as if they were mobile. The gap between 1:1 pricing and 1:8 cost is the whole business, and only a property-anchored operator can capture it. Assisted-living-without-the-license is a real category nobody has scaled.",
+ "first_30_days": "Sign a 90-day pilot with one 100-200 unit 55+ property in a tight market. Subcontract to an existing licensed agency to move quickly, staff a two-aide pod, and target 15 residents at about $2,200 a month. Track aide minutes per resident and move-out avoidance.",
+ "outside_box_score": 7,
+ "source": "idea:aging-silver:all4",
+ "kind": "idea",
+ "id": "I1229"
+}

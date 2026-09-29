@@ -1,0 +1,66 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "Caregility (staffed Virtual Nursing)",
+   "url": "https://caregility.com/telehealth-programs/virtual-nursing",
+   "what_they_do": "Staffed virtual nursing service. Its page lists 'medication second signature verification and EHR documentation for bedside nurses'. Virtual nurses work 'remotely from home or from an on-premises centralized virtual care center', pitched as 'an alternative to travel nurses'. There is a separate rural page at https://caregility.com/rural-health-transformation/. Neither page mentions controlled-substance waste witnessing, blood transfusion checks or night-only coverage, and the rural page does not mention medication verification.",
+   "scale_or_funding": "Established telehealth company. Customer count and funding not disclosed on the pages fetched.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Avel eCare",
+   "url": "https://www.avelecare.com/",
+   "what_they_do": "Virtual health system serving rural hospitals since 1993. Offers 24/7 pharmacy support with pharmacists partnering with local facilities, tele-ED, tele-ICU and hospitalist services. It already has night-time remote clinicians on video at critical access hospitals, so it could add a witness or verify service. The page does not mention waste witnessing, second-nurse verification or virtual nursing.",
+   "scale_or_funding": "'Over 200 emergency rooms' and '3M+ patients treated every year', per its site. Funding not disclosed.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "VitalChat",
+   "url": "https://www.vitalchat.com/",
+   "what_they_do": "Software-led virtual care and virtual nursing platform. Positions itself as 'purpose-built to perform in the realities of rural healthcare' and calls itself a founding member of the RHT Alliance (Rural Health Transformation). The page does not mention medication verification or waste witnessing.",
+   "scale_or_funding": "Not disclosed on the page.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "NESA Solutions (Nesa ONE)",
+   "url": "https://nesasolutions.com/double-medication-verification",
+   "what_they_do": "Epic-integrated inpatient virtual care platform. Markets 'double-medication verification' through remote nurses using clinical-grade cameras at IV-bag level, and is listed in Epic Toolbox for 2026. The page does not mention waste witnessing or blood checks. It does not say who staffs the remote nurses, and it shows no rural focus.",
+   "scale_or_funding": "Customers named on its site include Duke Health, Baptist Health, Catholic Health, John Muir Health and University Health San Antonio. Funding not disclosed.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Artisight Virtual Nursing",
+   "url": "https://artisight.com/what-virtual-nurses-do-and-why-hospitals-need-them",
+   "what_they_do": "Virtual nursing platform. A search snippet says it can 'assist with medication verification and safety checks through live video and screen review'. I could not load the page itself because it sat behind a bot-check, so this is snippet-level evidence only.",
+   "scale_or_funding": "Not verified.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "LookDeep Health Virtual Nursing",
+   "url": "https://lookdeep.health/solutions/virtual-nursing/",
+   "what_they_do": "Virtual nursing and AI room monitoring. A search snippet says it provides a 'second set of eyes for key processes (e.g. medication verification)'. The page returned HTTP 500 when I fetched it, so this is snippet-level evidence only.",
+   "scale_or_funding": "Not verified.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Cardinal Health Remote Pharmacy Services",
+   "url": "https://www.cardinalhealth.com/en/services/hospital-pharmacy/remote-pharmacy-services.html",
+   "what_they_do": "24/7 remote pharmacist coverage, including prospective medication review before administration, for hospital pharmacies that are short-staffed or closed overnight. In most states a pharmacist can also witness narcotic waste (https://www.medicalsolutions.com/blog/clinician/narcotic-waste/), so telepharmacy vendors are the most plausible incumbent to bolt on 'remote witness'. I found no evidence any of them do this today.",
+   "scale_or_funding": "The search snippet says it serves 'over 450 inpatient pharmacies'. Other telepharmacy vendors (PipelineRx, Telepharm) are in the same space and were not investigated.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Bluesight (ControlCheck)",
+   "url": "https://www.bluesight.com/",
+   "what_they_do": "Diversion analytics that reviews 100% of controlled-substance transactions for anomalous patterns. Its own article says staff exploit the 'waste buddy' system, but it offers no video or remote witness. This is the detect-after-the-fact category the idea positions itself against, and it is the natural channel partner or acquirer.",
+   "scale_or_funding": "Established vendor. Its site says '66% of hospitals surveyed' experience diversion. I could not find the '63%' figure from the idea's 2026 report, whose page returned 404.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Verdict is a 'gap' with moderate confidence. I found no product or startup that sells remote-RN witnessing of controlled-substance waste, or a remote-RN transfusion or high-alert double-check, as a narrow night-shift service for critical access hospitals. Two related searches (a narrow 'remote/virtual witness waste' query and a startup-plus-diversion query) returned zero such vendors. What exists is broad virtual-nursing platforms and telepharmacy (Caregility, NESA, Artisight, LookDeep, VitalChat, Avel eCare, Cardinal). Some of these list 'second signature / medication verification' as a feature. Their sales motion is a large virtual-care program with a hospital or health system, not a $1,500/month drop-in night witness with a $150 cart and PDF audit log for a 25-bed hospital. Unserved wedge: the waste-witness event itself, with time-stamped video matched to cabinet waste records for the diversion committee, sold with an insurer angle.\n\nThreats to the wedge:\n1) Caregility, VitalChat and telepharmacy vendors (Avel, Cardinal) already have remote clinicians on video and rural relationships, and could add witnessing as a feature.\n2) Legal risk is the biggest unknown. 21 CFR 1317.95 requires 'two employees of the registrant' to 'personally witness' destruction (https://www.law.cornell.edu/cfr/text/21/1317.95). That rule is written for inventory destruction and I could not confirm whether it governs patient-dose waste. A contracted third-party remote RN might not count as an employee or as 'personally' present. State boards vary and I did not check any. Medical Solutions says 'in most states any licensed nurse or pharmacist can be a witness' and stresses direct in-person observation.\n3) A camera at the cabinet proves the waste happened on camera. It does not prove the syringe contents (swap or saline substitution), which is the gap that waste-testing vendors address.\n4) Hospitals may prefer barcode or electronic transfusion verification, or a remote pharmacist, over a new vendor.\n\nResearch limits: the WebSearch budget was exhausted (200/200) before my first query. I ran a handful of search-engine result pages through WebFetch (Brave and Bing) and stopped after rate limiting. I did not scrape further. I therefore did NOT check Crunchbase, YC, Product Hunt or TechCrunch, open-source tools, state board rules, RFPs or RHTP funding notices. I also could not fetch Cactus Smart Sink (a camera-equipped waste-sink product I recall but could not verify), Omnicell or BD Pyxis pages. Someone should check those before committing.",
+ "evidence_of_demand": "Demand for the problem is well evidenced. Willingness to pay for this specific service is not.\n\nProblem evidence:\n- American Nurse Journal: 'drug diversion most commonly occurs during wasting', and 'frequently asking colleagues to sign off on waste they didn't witness' is a listed red flag. It advises documenting 'not visualized' in the cabinet comment field (https://www.myamericannurse.com/drug-diversion-in-healthcare/).\n- Bluesight: staff exploit the 'waste buddy' system in an 'overworked and understaffed' environment, and '66% of hospitals surveyed' experience diversion (https://www.bluesight.com/news/drug-waste-often-equals-drug-diversion/ and https://www.bluesight.com/). I could not verify the idea's 63% figure.\n- Minnesota Hospital Association security material, seen only as a search snippet, flags 'virtual waste where another nurse signs but doesn't actually witness' (URL not fetched).\n\nSpend on comparable remote-staffing workarounds:\n- Hospitals already pay for staffed virtual nursing that includes second-signature verification (Caregility: https://caregility.com/telehealth-programs/virtual-nursing).\n- They pay for 24/7 remote pharmacist coverage (Cardinal Health remote pharmacy, 'over 450 inpatient pharmacies' per its search snippet; Avel eCare, https://www.avelecare.com/).\n- Rural-focused vendors are actively pitching Rural Health Transformation money (VitalChat's RHT Alliance, https://www.vitalchat.com/; Caregility, https://caregility.com/rural-health-transformation/). I did not verify RHTP dollars or that any state funds this use case.\n\nMissing:\n- No RFP, forum post or budget line found from a critical access hospital asking for a remote witness.\n- No regulator guidance found that accepts remote video witnessing.\n- No published pricing found for any comparable service.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Do not pitch 'remote second-RN' as a general service, because that is what Caregility and other virtual-nursing vendors already list. Pitch a compliance-first 'Night Verification Desk' for critical access hospitals, and start with the pieces least exposed to the DEA and state-board risk.\n\n1) Lead with blood transfusion and high-alert drug double-checks. These are hospital-policy and P&T decisions, not DEA destruction rules. Use waste witnessing as the second step, once you hold written opinions from two or three boards.\n\n2) Before building, get written positions from the boards of pharmacy and nursing in 2-3 telepharmacy-friendly states, such as Nebraska, Iowa, the Dakotas or Montana. Get an attorney read on whether a contracted remote RN can be the 'employee' witness under 21 CFR 1317.95.\n\n3) Use a licensed pharmacist or RN pool. In most states a pharmacist can also witness, and remote pharmacists are already accepted in rural telepharmacy.\n\n4) Make the artifact the product. Deliver a tamper-evident, time-stamped clip plus attestation matched to cabinet waste records, formatted for the diversion committee and the malpractice or captive insurer. Price it as risk reduction with an insurer premium credit or co-pay. Do not price it as staffing.\n\n5) Consider selling the workflow and audit log as a white-label add-on to Avel eCare, Cardinal, VitalChat or Bluesight rather than competing with them on nurse supply. They are the likeliest fast followers and the natural distribution channel.\n\n6) Handle the swap-off-camera weakness by pairing the camera with a waste-capture container or waste-testing step, or by partnering with a waste-testing vendor, so the video plus verified contents closes the loop."
+}

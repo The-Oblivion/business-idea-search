@@ -1,0 +1,38 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "Circana (GLP-1s and Consumer Behavior insights hub)",
+   "url": "https://www.circana.com/insights-hub/glp-1s-consumer-behavior",
+   "what_they_do": "Household-level purchase tracking plus survey capability for GLP-1 households. Publishes reports on spend shifts (23% of US households use GLP-1s; users projected to be 35% of F&B sales by 2030) and sells advisory and custom research. It shows what is bought, not why, and I found no product-testing panel.",
+   "scale_or_funding": "Established syndicated-data incumbent (Circana, formerly IRI+NPD); large private company",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Numerator (GLP-1 People Groups and GLP-1 Custom Analysis)",
+   "url": "https://www.numerator.com/glp-1/",
+   "what_they_do": "Uses its existing Omnipanel and survey panel to segment GLP-1 users ('People Groups') and run custom analyses. Also publishes a restaurant GLP-1 behavior report and a Morgan Stanley webinar. Its page says these are built on existing data infrastructure, not a dedicated panel, and I saw no sensory or home-use testing.",
+   "scale_or_funding": "Established panel and purchase-data vendor; large private company",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "The Hartman Group - 'GLP-1s: Seizing Opportunity in a New CPG Landscape'",
+   "url": "https://www.hartman-group.com/reports/272892157/glp-1s-seizing-opportunity-in-a-new-cpg-landscape",
+   "what_they_do": "A $10,000 syndicated report published June 2026. It is based on an April 2026 online survey of 2,268 US adults with an oversample of 1,103 GLP-1 users, plus 12 online ethnographies and 6 interviews. It covers 12 food categories and 8 channels with attribute, benefit and occasion guidance. This is the closest thing found to a GLP-1 user research product. It is survey-based, one-off and not a managed panel, and it does no product testing.",
+   "scale_or_funding": "Established consumer-insights consultancy; private",
+   "overlap": "direct"
+  },
+  {
+   "name": "Tastewise (GLP-1 CPG Playbook, TasteGPT)",
+   "url": "https://tastewise.io/report/glp-1-us",
+   "what_they_do": "AI food-intelligence platform that uses menu, social, recipe and retail signals to publish GLP-1 playbooks and answer GLP-1 questions in a chat interface. It also markets an AI survey agent and consumer panels as general features. It is signal-based, and I could not confirm any direct testing with verified GLP-1 users.",
+   "scale_or_funding": "VC-backed food-tech startup (funding amount not verified in this run)",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Limited to what I could check: I found no vendor, on the pages I fetched, that runs a managed, longitudinal panel of verified GLP-1 users segmented by drug, dose and weeks on therapy. I also found none that does physical product testing on that panel (sensory, portion and format tests, home-use tests) or maps aversions by texture and smell against dose. The players found are all survey, signal or purchase-data based: Circana and Numerator show what GLP-1 households buy, Hartman sells a one-off $10k survey report, and Tastewise sells AI trend signals. Nothing found covers household spillover modeling tied to a panel. Nothing found offers claim-substantiation studies (8-12 week muscle and satiety) for 'GLP-1 friendly' labels. Big gaps in my evidence: the WebSearch budget was exhausted, so I could not run general web searches and relied on direct fetches of vendor pages. I did not check startups, YC or Crunchbase entries, sensory CROs (Sensory Spectrum showed no GLP-1 content; Tragon and Eurofins fetches failed), generic panel vendors (Cint, Toluna showed no GLP-1 content; Dynata unchecked), telehealth companies (Ro, Noom, WeightWatchers) that could monetize their own user bases, or flavor houses (Givaudan, Kerry and dsm-firmenich showed no GLP-1 content on the pages retrieved; IFF returned 403). Any of these could already offer a GLP-1 screener or a similar service, so treat the gap verdict as medium-low confidence.",
+ "evidence_of_demand": "Real, paid spend on GLP-1 consumer intelligence exists, but it is on a different deliverable. (1) Hartman Group sells a $10,000 GLP-1 report with a 1,103-user oversample, so CPG insights teams pay five figures for GLP-1 user data: https://www.hartman-group.com/reports/272892157/glp-1s-seizing-opportunity-in-a-new-cpg-landscape. (2) Circana reports 23% of US households use GLP-1s and projects users at 35% of F&B units by 2030, which shows the market is large and the data vendors have made it a marquee topic: https://www.circana.com/post/glp-1-medication-users-to-represent-35-percent-of-u-s-food-and-beverage-sales-by-2030 (published 18 Nov 2025). Circana notes GLP-1 users still outspend non-users overall. (3) Numerator has productized 'GLP-1 People Groups' and 'GLP-1 Custom Analysis' and published a restaurant GLP-1 report, showing incumbents are investing in the segment: https://www.numerator.com/glp-1/. (4) Tastewise reports that Conagra, Nestle (Vital Pursuit) and Smoothie King have launched GLP-1-targeted lines, and the page cites 82.8% of GLP-1 users prioritizing protein (page stats are unattributed): https://tastewise.io/report/glp-1-us. That supports the claim that CPG is mid-reformulation and needs tests. Not found: any RFP, forum complaint or budget line showing that R&D teams want or pay for GLP-1 sensory or home-use testing panels or claim-substantiation studies. The idea's stats (73% taste change, 70% lose joy in eating, $25-150k per study) are unverified here. Demand for GLP-1 insight is proven at about $10k per report, and demand at $25-150k per study is not proven.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Do not start as a general 'GLP-1 panel', because Hartman, Circana and Numerator already own GLP-1 survey insights and can add a screener. Start with a tighter, harder-to-copy wedge: a longitudinal, dose- and week-on-therapy-tagged aversion panel for physical products, sold first to protein, frozen and foodservice (hospital and senior-living) R&D teams. The first product is fast, cheap sensory and portion tests that mail samples to verified users and return aversion maps by texture and smell, priced as a $40-100k/year subscription with pay-per-test add-ons. Recruit through GLP-1 dietitian and telehealth partners, so dose and duration are verified by a provider and not self-reported from Reddit. That solves both credibility and privacy or health-data risk. Treat the 8-12 week claim-substantiation studies as a later phase delivered with a CRO partner and IRB oversight, since they are a clinical business and not a panel business. Position against survey vendors as 'what they will actually eat at dose X, week Y', which purchase panels and surveys cannot produce. Before building, do the checks I could not: search for sensory CROs and panel vendors already selling GLP-1 audiences, YC and Crunchbase entries, and telehealth companies that could offer the same panel themselves."
+}

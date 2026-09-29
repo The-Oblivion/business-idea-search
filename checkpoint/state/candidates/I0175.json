@@ -1,0 +1,16 @@
+{
+ "title": "Evac Cash: Payout When Ordered to Evacuate",
+ "angle": "1",
+ "one_liner": "A few dollars a month buys a $500-$2,500 wire within hours of an official mandatory evacuation order for your address, covering hurricane, wildfire and burn-scar flood orders.",
+ "customer": "Renters and lower-to-middle-income homeowners in evacuation zones: Gulf and Florida surge zones, Western wildfire-urban-interface neighborhoods, and LA burn-scar areas. Sold to individuals, through employers of hourly staff (hospitals, hotels, nursing homes, grocers), and through credit unions or municipal 'evac funds'.",
+ "problem": "Evacuating costs $1,000-$3,000 (gas, hotel, lost shifts, pet boarding) and the money is needed before any claim exists. Cost is a common reason people stay, so the people most exposed are least able to leave. Civil-authority and additional-living-expense cover is slow, receipt-based, often conditional on nearby damage, and many renters lack it.",
+ "solution": "A parametric contract whose trigger is a legal act. If your geocoded address sits inside a polygon under a mandatory evacuation order, or an NWS flash-flood emergency for a burn scar, the platform pays via FedNow/RTP or a push-to-card within hours. Zone data comes from county emergency-management systems (evacuation-zone platforms and state zone maps). Tiers are priced by zone frequency, with one payout per event per address and a simple app that alerts you and shows your zone. Underwritten via a licensed MGA and fronting carrier, first as employer group policies.",
+ "why_now": "Address-level, machine-readable evacuation zones are now common. FedNow/RTP make hours-not-weeks payouts cheap. The LA fires of January 2025 made burn-scar exposure vivid, and NOAA CPC/IRI's September 2026 outlooks show a greater than 90% chance of a very strong El Ni\u00f1o this winter, which means heavy rain on fresh burn scars and flash-flood/debris-flow evacuation orders. Parametric reinsurance capacity is plentiful and MGAs want small-ticket distribution.",
+ "revenue_model": "Premium of roughly $3-$15 per month depending on how often each zone is ordered out (about 1.3-1.5x expected payout), or $1-$3 per employee per month on group plans. The company keeps an MGA commission of 15-25%, plus municipal, nonprofit and employer-funded policies for vulnerable residents. Later it can sell zone-frequency data to emergency managers.",
+ "non_obvious_insight": "The best parametric trigger is a legal act, not a physical measurement. An evacuation order is binary, public, address-specific and timestamped, so basis risk nearly vanishes. Paying people to leave also changes behavior and saves lives, which makes employers and governments willing co-payers, so the product has two buyers instead of one.",
+ "first_30_days": "Sign a parametric MGA and fronting carrier. Build the polygon match and instant-payout flow on public evacuation-zone data. Pilot a group policy for about 200 hourly workers at one Gulf hospital or hotel employer and one credit union serving a LA burn-scar community. Offer emergency-management agencies a free 'what zone am I in' tool for distribution. Goal: 500 covered addresses before peak rain season.",
+ "outside_box_score": 7,
+ "source": "wild:g31+g32",
+ "kind": "wild",
+ "id": "I0175"
+}

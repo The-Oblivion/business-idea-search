@@ -1,0 +1,84 @@
+{
+ "title": "Ground-Truth Diligence for GPU-Backed Lenders",
+ "one_liner": "Independent-engineer-style diligence and monthly monitoring on the part of a data center build that satellites cannot see: the last 90 days before ready-for-service.",
+ "customer": "Private credit funds, banks and ABS investors lending against GPUs and neocloud contracts; insurers underwriting delay risk; AI labs and enterprises signing take-or-pay capacity who need to know if the promised RFS date is credible.",
+ "problem": "GPU-backed loans and offtake contracts are priced on a ready-for-service date. Satellite vendors (SynMax and Industrial Info Resources now cover 2,600+ projects weekly) can show steel, cooling towers and generator yards, but they cannot see the failure zone: utility permission to energize, MV switchgear energization, Level 4/5 commissioning and IST results, liquid-cooling flush and pressure tests, fiber-plant acceptance, OEM startup-tech availability. Percent complete on pay applications is front-loaded and misleading. Meanwhile GPUs costing millions per rack sit idle and depreciate while interest accrues, and lenders are capping neocloud exposure. Traditional IEs are power-plant-oriented, slow and expensive.",
+ "solution": "A 'Readiness Ladder' of about 40 binary, evidence-backed milestones (utility energization letter, gear serials and bills of lading, Cx level sign-offs, IST pass/fail counts, CDU flush logs, open-punch burn-down rate, OEM startup-tech calendar). Score each project and re-score monthly. Output a probability of RFS by date and covenant or draw-release triggers. Staff it with a bench of ex-data-center PMs and Cx leads who do desk review plus quick site visits. Sell as a 2-week second-opinion product first, then monthly monitoring, integrating vendor satellite feeds as an input rather than competing with them.",
+ "why_now": "Neocloud credit risk is now the topic. Lenders are capping exposure, deals are stalling on credit risk, and GPU-debt structures (including vendor backstops) are proliferating. Analyses show roughly 40% of AI data center sites with possible delays and about half of 2026 capacity slipping, while operators publicly deny it. Satellite monitoring has commoditized the exterior, which makes the interior truth the scarce and valuable part.",
+ "revenue_model": "$25K fixed-fee 2-week second opinions; $40K-120K full pre-close diligence; $8K-20K/month per facility monitoring; optional success-based fee for delay-risk insurance placement. Adjacent product: retained RFS-credibility scoring for AI labs choosing between capacity offers.",
+ "non_obvious_insight": "Percent complete is the wrong metric. The last 5% of a data center can consume 25% of the calendar, and it is dominated by unbounded tasks: the commissioning punch-list burn-down rate and whether the OEM has a startup technician free that month predict RFS far better than construction progress. You can only read those signals if you have run an IST. Also, the RFS date on a marketing sheet is a sales number, not a schedule.",
+ "first_30_days": "Recruit 6 retired or between-jobs Cx leads and PMs on 1099 contracts. Publish a free 'RFS credibility checklist' and a teardown of one publicly delayed project. Approach 5-10 private credit and infrastructure funds with data center or GPU-lending desks. Offer a fixed-fee $25K second opinion on one live deal, delivered in two weeks, and ask permission to reference the engagement anonymously.",
+ "outside_box_score": 5,
+ "source": "persona:p2-2",
+ "kind": "persona",
+ "id": "I0365",
+ "tournament": {
+  "score": 1.032,
+  "overall_rank": 5,
+  "cluster": "Investors, lenders and venues wanting real-economy ground truth",
+  "judge_notes": [
+   "contrarian: rank 1/25 - Non-obvious wedge: commissioning burn-down predicts RFS, satellites commoditized the exterior. Fast $25K sales, expert bench, urgent credit fear.",
+   "operator: rank 3/25 - Big tickets and real interior-truth insight; three customers fund the business, but trust-gated sales make ten hard.",
+   "vc: rank 1/24 - Rich buyers, acute timely pain, sharp insight (punch-list burn-down beats percent complete), a fast $25K wedge, and a path to a ratings-style monitor."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "SynMax Vulcan (with Industrial Info Resources data partnership)",
+    "url": "https://www.businesswire.com/news/home/20260630003161/en/Industrial-Info-Resources-and-SynMax-Partner-to-Deliver-Weekly-Satellite-Monitoring-Across-2600-Data-Center-Projects",
+    "what_they_do": "Weekly satellite and thermal-drone monitoring of 680+ data center locations and 2,600+ projects, fused with IIR's facility database (ownership, contractors, substation info). Sells to investors, developers, utilities and tech companies. Publishes 'paper GW vs real progress' research (2026 at least 4 GW short of a 22.6 GW target). The press release does not claim commissioning, energization or RFS-date prediction, and does not name lenders as customers. This is the exterior layer the idea says it would integrate rather than compete with. A thermal signature could creep toward the 'interior' truth, so watch it.",
+    "scale_or_funding": "Founded 2021, Houston. Funding not confirmed in this session. The IIR partnership was announced 2026-06-30.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Currence (formerly Sightline Climate)",
+    "url": "https://www.currence.ai/",
+    "what_they_do": "Project-level intelligence on 30,000+ power and data center projects (power, equipment, participants, milestones, costs), built from 1M+ AI-processed signals. It markets 'derisked pipelines' and market outlooks to financial institutions. It is desk and data based and has no site-level commissioning evidence.",
+    "scale_or_funding": "Customers listed on its site include HSBC, BBVA and Jefferies. Funding not confirmed.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Epoch AI Frontier Data Centers Hub",
+    "url": "https://epoch.ai/data/data-centers",
+    "what_they_do": "Free, CC-licensed tracker of major AI data centers using satellite imagery, permits and drone imagery. It estimates construction start and operation dates with about 80% confidence of falling within 6 months of actual. Covers 93 sites, about 13.5 GW, roughly 44% of global AI compute as of Sept 2026. It gives a free baseline for the exterior-based RFS estimate and does no commissioning-level diligence.",
+    "scale_or_funding": "Nonprofit research org. Coverage is 93 sites.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "SemiAnalysis (consulting, AI Datacenter Model, ClusterMAX)",
+    "url": "https://newsletter.semianalysis.com/p/nvidia-gpu-debt-backstop-unleashes",
+    "what_they_do": "Its own article says lenders are 'now utilizing SemiAnalysis to scrutinize Neoclouds' operational quality, go to market plan, customer book and pricing strategy.' It has GPU pricing indices, ClusterMAX neocloud ratings and a datacenter model. It already sits in lender workflows for neocloud credit diligence but is not construction or commissioning diligence. It is the most likely brand to add an RFS-credibility product.",
+    "scale_or_funding": "Well-known paid research and consulting shop. Size not verified.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Traditional lender's independent engineers and technical advisors (Sapient Services shown in results; large EPC/engineering firms such as Sargent & Lundy, Black & Veatch, DNV and Burns & McDonnell are known IE/LTA providers)",
+    "url": "https://www.sapientservices.com/lenders-independent-engineer/",
+    "what_they_do": "The standard project-finance IE role: construction monitoring, draw certification, completion and performance test review, and review of the financial model's technical inputs. IEs are typically lender-selected and borrower-paid. This is the closest direct substitute for the idea, and the founder's claim that 'traditional IEs are power-plant-oriented, slow and expensive' is UNVERIFIED. I could not load these firms' data center pages, and several large engineering firms are likely to already market data center IE and technical advisory. Only the Sapient result was seen in search, and its page did not load (blocked).",
+    "scale_or_funding": "Established incumbents. Data-center-specific scope and pricing not verified.",
+    "overlap": "direct"
+   },
+   {
+    "name": "Technical advisors used in GPU-cluster financings (as described by Peony)",
+    "url": "https://www.peony.ink/blog/gpu-cluster-financing-data-room",
+    "what_they_do": "Peony (a data-room vendor) describes lenders engaging specialist technical advisors focused on 'the fleet file, the utilization telemetry, and the facility and power documents,' validating 'that the chips exist, run, and stay powered.' The scope is fleet, telemetry and power documents, not Level 4/5 commissioning or IST evidence. This shows a lender-side technical advisor role exists in GPU deals, so the buyer behavior is real, and the scope is narrower than the idea's. Peony says it does not itself provide diligence.",
+    "scale_or_funding": "Advisors unnamed. Peony is a small data-room startup.",
+    "overlap": "direct"
+   },
+   {
+    "name": "Uptime Institute Tier Certification of Constructed Facility",
+    "url": "https://uptimeinstitute.com/tier-certification",
+    "what_they_do": "Independent on-site verification that a facility was built as designed and meets performance requirements, including witnessed demonstrations across electrical and mechanical systems. It is a certification, not a schedule-probability or monitoring product, and it is not aimed at lenders. It is adjacent evidence that third-party physical verification is an accepted purchase.",
+    "scale_or_funding": "Established industry body. Tier Certification is a long-running offering.",
+    "overlap": "adjacent"
+   }
+  ],
+  "white_space": "The unserved wedge is narrow but real. (1) No product found in this session combines a binary, evidence-backed 'Readiness Ladder' for the last 90 days before RFS (utility energization letter, MV gear energization, Cx Level 4/5 and IST pass/fail counts, CDU flush and pressure tests, fiber acceptance, punch-list burn-down, OEM startup-tech availability) with a probabilistic RFS-by-date output and draw or covenant triggers. (2) Satellite and database vendors (SynMax, IIR, Currence, Epoch) cover the exterior and the announced schedule, and their materials do not claim commissioning or energization evidence. (3) GPU-deal technical advisors, as described by Peony, focus on fleet, telemetry and power documents rather than data hall commissioning. (4) Traditional IEs are slow, tied to a single lender or borrower, and priced for large project-finance deals. A fixed-fee, two-week, desk-plus-site 'second opinion' for a private credit desk, insurer or offtaker appears unserved. (5) The offtaker and backstop side (AI labs signing take-or-pay capacity, Google or Nvidia-style backstop providers) is structurally underserved because IEs work for lenders. Risks: incumbent IEs and Cx firms can add this as a service line, SemiAnalysis could bolt it on, and the business is people-bound (bench of ex-Cx leads) with limited software moat. Access to sites, contractors and Cx records depends on borrower cooperation, which means lender-imposed information covenants or offtaker leverage.",
+  "evidence_of_demand": "Real, but indirect. No RFP, price list or forum complaint asking specifically for commissioning-level RFS diligence was found. Note: the web search budget ran out after 4 searches, so this is a thin evidence base. What was found: (1) Delay risk is contractually decisive. Quinn Emanuel's client alert says financing triggers, lease commencements and credit support are all keyed to milestone completion dates, that a CoreWeave securities complaint alleges months of Denton, TX delay flagged by a building partner nine months before disclosure, that Fitch called one project schedule 'a bit aggressive or accelerated', and that under Google's Fluidstack backstop a construction delay of more than 180 days lets Fluidstack terminate leases so the backstop would never trigger: https://www.quinnemanuel.com/the-firm/publications/client-alert-emerging-litigation-risks-in-financing-ai-data-centers-boom/ (2) Credit tightening is real: Data Center Knowledge (2026-04-06) reports neocloud deals stalling, quotes 'Investment Grade credit is the price of admission,' and says some operators demand letters of credit or parent backing: https://www.datacenterknowledge.com/cloud/neocloud-storm-gathers-as-data-center-deals-stall-over-credit-risk (3) Lenders already buy third-party scrutiny: SemiAnalysis says lenders are using it to scrutinize neoclouds (https://newsletter.semianalysis.com/p/nvidia-gpu-debt-backstop-unleashes), and Peony describes lenders engaging technical advisors on GPU deals (https://www.peony.ink/blog/gpu-cluster-financing-data-room). (4) Paying market for exterior monitoring exists: the SynMax/IIR partnership targets investors, developers, utilities and tech firms (https://www.businesswire.com/news/home/20260630003161/en/Industrial-Info-Resources-and-SynMax-Partner-to-Deliver-Weekly-Satellite-Monitoring-Across-2600-Data-Center-Projects), and Currence lists HSBC, BBVA and Jefferies as customers (https://www.currence.ai/). (5) SynMax reports 2026 at least 4 GW short of a 22.6 GW target, with 79% of tracked sites in 'None' status: https://blog.synmax.com/vulcan-exclusive/paper-gws-vs.-real-progress-the-growing-shortfall-in-data-center-build-outs. Discrepancy: the idea's 'about half of 2026 capacity slipping' and '40% of sites delayed' were not verified. SynMax's number is roughly 18% shortfall by capacity. Also unverified: willingness to pay $25K to $120K, and $8K to $20K per month.",
+  "kill": false,
+  "kill_reason": "n/a",
+  "sharper_angle": "Do not position as 'a better IE' (incumbent territory, and liability, insurance and independence requirements favor big firms). Position as a buyer-side 'Delivery Gate' and RFS-credibility service for the parties who hold RFS-date risk but have no IE working for them: (a) AI labs and enterprises signing take-or-pay capacity, (b) backstop providers and insurers underwriting delay (for example where a backstop only triggers if construction is under about 180 days late), and (c) private credit desks deciding when to release GPU-purchase tranches. The core product is a go/no-go gate 60 to 90 days before GPU delivery and payment, based on data-hall-level evidence (energization letter, MV gear serials, Level 4/5 and IST pass counts, CDU flush logs, punch burn-down, OEM startup-tech calendar), scored as a probability of RFS by date. That directly prevents the costly failure mode of GPUs arriving and idling while interest accrues. Ingest SynMax, IIR, Currence and Epoch as free or licensed exterior inputs and be their ground-truth layer, and consider a white-label or referral partnership with a satellite vendor. Build the credibility case with anonymized post-mortems of publicly delayed projects. Before building, verify with 5 to 10 direct lender, offtaker and insurer conversations that the buyer will pay for commissioning-level evidence, and check whether big-engineering IE arms (Sargent & Lundy, Black & Veatch, etc.) already sell a data center IE product, since that check could not be completed in this session because the search budget ran out.\""
+ }
+}

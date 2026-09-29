@@ -1,0 +1,16 @@
+{
+ "title": "Nonrenewal Cure: Rebutting Insurer Cancellations",
+ "angle": "second-order",
+ "one_liner": "Nonrenewal notices often cite fixable issues like roof condition, tree overhang or debris. Sell homeowners a fast diagnosis, repair and evidence packet to get re-underwritten instead of dumped on a FAIR plan.",
+ "customer": "Homeowners in CA, FL, TX, CO, UT and NM who have received a nonrenewal notice, plus independent brokers who lose those clients.",
+ "problem": "Nonrenewals are at records and homeowners have 30-75 days to react. Carriers are structurally conflicted about helping, and the FAIR plan is pricey with thin cover. Homeowners can't decode the reason code, can't tell which items are cheap to fix, and can't produce the evidence a carrier re-inspection accepts.",
+ "solution": "Upload the notice. The service decodes the stated reason using state disclosure rules, dispatches vetted local contractors for the fix (patch, trim, vent screens), and produces a time-stamped photo and invoice packet. It files for reinspection or appeal, and gives the broker a clean file to re-market the risk. For wildfire-score cases it documents mitigation credits available under state rules.",
+ "why_now": "Record nonrenewals, California passed three claims and nonrenewal bills on 2026-09-03, and insurance now rivals mortgage payments. Carriers rely more on aerial-imagery flags that homeowners rarely see or contest.",
+ "revenue_model": "$149 diagnostic, $250-$500 evidence packet, 10-15% contractor referral fee, and broker referral fees on re-placed policies.",
+ "non_obvious_insight": "Many cancellations are cheap to cure, but the homeowner has no language, time or evidence, and the carrier won't help. A homeowner who has just been rescued becomes a lifetime referral source for brokers.",
+ "first_30_days": "Post in local nonrenewal threads and neighborhood groups, and partner with three independent brokers. Handle 20 cases by hand, track how many carriers reinstate, and use the win rate to set pricing.",
+ "outside_box_score": 5,
+ "source": "idea:fintech-insurance:all4",
+ "kind": "idea",
+ "id": "I0781"
+}

@@ -1,0 +1,59 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "AppFolio (HUD/affordable housing operations)",
+   "url": "https://www.appfolio.com/markets/affordable-housing",
+   "what_they_do": "Public-company property management platform with a HUD operations module (TRACS connectivity, HAP voucher reconciliation, Gross Rent Changes, special claims). Built for owners of subsidized multifamily portfolios, not small HCV landlords. No lease-anniversary or PHA rent-increase-request tracking was described on the page.",
+   "scale_or_funding": "Publicly traded (NASDAQ: APPF). Page cites customer portfolios of 4,000+ units.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Yardi RentCafe / securecafe PHA landlord portal (example: CMHA Cleveland)",
+   "url": "https://applications-cmha.securecafe.com/landlord/cuyahoga-metropolitan-housing-authority/login.aspx",
+   "what_they_do": "PHA-side landlord portal that housing authorities deploy for their owners. It is the channel through which a PHA could add online rent-adjustment requests. CMHA still takes rent adjustment requests by email (RentAdjustment@cmha.net) per its landlord FAQ, so this incumbent has not automated the request. The portal feature set could not be verified because the vendor page returned 403.",
+   "scale_or_funding": "Yardi is a large private vendor. Portal adoption varies by PHA.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "MRI Software (Tenmast) and Emphasys Software, PHA voucher-management suites",
+   "url": "https://www.mrisoftware.com/solutions/public-affordable-housing-management/",
+   "what_they_do": "Back-office software PHAs use to run voucher lease-up, recertification and HAP. They do not appear to sell landlord-side deadline tracking. Owner-portal features were not detailed on either vendor page. They hold the PHA data and could add owner-facing reminders.",
+   "scale_or_funding": "Established vendors selling to PHAs (MRI is a large private company). No funding data checked.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Landlord Studio, Rentec Direct and similar small-landlord PM software",
+   "url": "https://www.landlordstudio.com",
+   "what_they_do": "Generic small-landlord software for rent collection, screening, accounting and e-signatures. Neither homepage mentions Section 8/HCV features, HAP tracking or PHA rent-increase workflows. Rentec lists affordable housing as a supported portfolio type. Generic lease-renewal reminders let a landlord approximate the deadline piece, as would a spreadsheet or calendar.",
+   "scale_or_funding": "Established bootstrapped or VC-backed SaaS. Free tiers exist (Landlord Studio GO tier).",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "GoSection8 / AffordableHousing.com",
+   "url": "https://www.affordablehousing.com/",
+   "what_they_do": "Voucher-tenant listing marketplace with prospect management, document storage and a rental estimate tool. No rent-increase, HAP-tracking or PHA integration features are visible. It holds the most natural existing audience of voucher landlords if a competitor wanted to bolt on such a feature.",
+   "scale_or_funding": "Long-running marketplace (gosection8.com redirects to it). Funding not checked.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Voucher-specialist property managers (example: the Memphis operator who wrote the BiggerPockets post, a few hundred doors, majority Section 8, owns a management company)",
+   "url": "https://www.biggerpockets.com/forums/52/topics/1301792-section-8-rents-went-up-for-fy2027-most-landlords-wont-collect-it",
+   "what_they_do": "Full-service PMs in Memphis, Cleveland and St. Louis handle HAP paperwork and rent-increase requests inside a percentage-of-rent management fee. This is the real substitute for the out-of-state investor segment and needs no new software. Turnkey firms such as REI Nation (https://www.reination.com/) manage out-of-state investor homes in Memphis, though their page did not mention Section 8 or rent-increase handling.",
+   "scale_or_funding": "Fragmented local PM firms. Fee level not verified.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "PHA-published request forms and landlord briefings (SLHA, CMHA)",
+   "url": "https://www.slha.org/partner-with-slha/landlords/",
+   "what_they_do": "Housing authorities publish the request form (SLHA Request for Rental Increase and Schedule PDF), explain the process in landlord FAQs, and run landlord briefings. It is free and makes the letter-generation feature a commodity. Only the per-PHA rules database and the reminders add value.",
+   "scale_or_funding": "Public agencies, free.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "No product found that does what this idea describes: a landlord-side tracker mapping each voucher unit to a PHA-specific rent-adjustment window, then generating and logging the request. Product Hunt search returned no Section 8 landlord products, GitHub search returned zero repos, and no vendor homepage checked advertised the feature. The unserved gap is a per-PHA rules database (notice window, form or email channel, eligibility gates) for small voucher landlords, small PM firms, or turnkey and investor-PM channels lacking this workflow. Caveat: the 200-call WebSearch budget was already exhausted, so the competitor sweep used direct page fetches only. Absence of competitors is a weaker finding than usual, and a manual Crunchbase, YC and Google check is still needed before building. The premise is also shakier than the idea states. CMHA's landlord FAQ (https://www.cmha.net/housing/landlords/landlord_faq.php) describes a rolling process, not a once-a-year forfeiture. Requests go by email to RentAdjustment@cmha.net, and the effective date is the 1st of the month after 60 days from receipt. The HAP contract must be at least one year old, a passed annual inspection is needed within 12 months of the effective date, at least 12 months must have passed since the last approved adjustment, the request must be signed by landlord and tenant, and the amount must be rent-reasonable. At CMHA a missed window costs some months, not a full year, and a higher payment standard does not by itself justify a higher rent because rent reasonableness caps the request. The forfeit-a-year claim comes from one forum post that itself warns that HUD publishing a number is not the same as your authority paying it and that each PHA adopts its own schedule. It may be true in some PHAs and false in others, so it needs validation per authority. The business model is also weak: the value is one action per unit per year, so retention after the first cycle is doubtful, the $5 per unit per month fee is small, and the success fee is hard to attribute because a landlord can send one email once shown the rules.",
+ "evidence_of_demand": "Weak. The idea's own source is one BiggerPockets thread, Section 8 rents went up for FY2027. Most landlords won't collect it (https://www.biggerpockets.com/forums/52/topics/1301792-section-8-rents-went-up-for-fy2027-most-landlords-wont-collect-it). It had 1 upvote, 6 replies and 902 views. The author is a professional Memphis operator (few hundred doors, mostly Section 8, owns a management company), not a small landlord asking for a tool, and the post has no product pitch. One commenter said anything tied to a lease anniversary should go in one tracker with the notice deadline counted back, which signals a DIY spreadsheet or calendar habit, not spend. Other commenters warned that fighting for the last 30 dollars a month risks a 60-day vacancy and that tenants resist increases because their share rises. The other two BiggerPockets threads cited in the idea (https://www.biggerpockets.com/forums/963/topics/1302305-furnace-and-water-heater-on-wood-platforms-cleveland-section-8-inspection and https://www.biggerpockets.com/forums/963/topics/1302138-how-realistic-is-it-to-raise-rents-100-on-existing-tenants) mention no tool, deadline-tracking need or willingness to pay. The Cleveland thread is about a furnace inspection problem. No RFPs, no evidence of existing spend on workarounds and no regulation forcing spend were found. Mild positive signals: PHAs run recurring landlord briefings (SLHA, https://www.slha.org/partner-with-slha/landlords/), so the audience is reachable, and CMHA still handles requests by email with strict eligibility gates, so there is manual friction to remove. Overall this is a plausible pain, not a validated purchase.",
+ "kill": false,
+ "kill_reason": "n/a. No direct funded competitor or dominant incumbent was found, so the verdict is gap, not crowded or dominated. It is a marginal gap: the pain is real but thin (one forum thread), the forfeit-a-year premise looks overstated for at least CMHA, and the recurring-revenue model is weak. Web search was capped, so the competitor sweep was limited and the founder should validate before building.",
+ "sharper_angle": "Do not build a generic deadline-tracker SaaS. Sell a per-PHA voucher rent-adjustment audit and filing service instead of a subscription. The landlord or PM uploads a rent roll and HAP contracts and gets a per-unit report of the collectible increase after PHA rules and rent reasonableness. It shows which units are eligible now and prepares the PHA-specific packet (form or email, tenant and landlord signatures), for a flat fee or a percentage of the first-year captured increase. Chain the deadlines the way the PHA does: CMHA requires a passed inspection within 12 months of the effective date, at least 12 months since the last adjustment, and a rent-reasonable amount, so one tool should track inspection readiness, rent-reasonableness comps and the rent-adjustment window together. That bundle is worth more than a calendar reminder, and it connects to the inspection failures seen in the Cleveland thread. Distribute through channels that already hold voucher doors: turnkey and investor-PM firms in Memphis, Cleveland and St. Louis, plus PHA landlord briefings, selling a per-door white-label add-on before selling to individual landlords. Hand-build rules for 3 PHAs and verify the forfeit premise against each PHA's actual policy (rolling request versus anniversary-tied) before writing any software."
+}

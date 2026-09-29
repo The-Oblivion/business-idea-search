@@ -1,0 +1,16 @@
+{
+ "title": "Remote Load Calcs That Avoid Panel Upgrades",
+ "angle": "second-order",
+ "one_liner": "A photo-and-utility-bill service that proves an existing electrical panel can take a heat pump or EV charger, with load-management devices when it cannot.",
+ "customer": "HVAC and heat-pump contractors, EV-charger installers and solar-plus-storage installers without in-house electricians. Later: state and utility electrification programs.",
+ "problem": "Data centers are absorbing electricians (nearly a third of the shortage; Texas builders report electrical delays of up to 2 months). Residential electrician time becomes the scarcest input, so panel upgrades stall every electrification job. HVAC contractors selling heat pumps are blocked by work they do not do and cannot schedule. The HVAC rebound expected in 2027 will make it worse.",
+ "solution": "Installer uploads a photo of the panel label plus 12 months of utility data. The service returns a permit-ready load calculation under the existing-load method, stamped by a remote licensed engineer or electrician. It recommends the cheapest path: no upgrade, a load-management or circuit-pausing device allowed by recent NEC editions, or a smart panel, with the material list for the installer's quote.",
+ "why_now": "Electrician scarcity from data-center overtime ($130-170K, vendor stat), 2027 HVAC rebound with A2L certification adding friction, and a 110K technician shortage. Load-management devices and energy-management provisions are now commercially available and code-recognized in many places.",
+ "revenue_model": "$79-149 per calculation billed to installers. Annual contracts with programs. Referral margin from load-management device makers.",
+ "non_obvious_insight": "The bottleneck for electrification is neither the heat pump nor the HVAC tech, it is the panel and the electrician-days it consumes. Avoiding electrician hours is worth more than adding them, and the existing truck-roll panel check can be done as a $99 desk job by one remote engineer serving many installers.",
+ "first_30_days": "Sign 20 HVAC contractors in one state. Contract a licensed PE or master electrician for templates and stamps. Deliver 50 calculations by hand. Measure the percentage that avoided an upgrade.",
+ "outside_box_score": 6,
+ "source": "idea:trades-housing:all4",
+ "kind": "idea",
+ "id": "I0863"
+}

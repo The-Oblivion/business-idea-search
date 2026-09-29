@@ -1,0 +1,16 @@
+{
+ "title": "China-Asset Diligence Desk for Pharma BD",
+ "angle": "boring-lucrative",
+ "one_liner": "A bilingual scientist-plus-software sprint that verifies China-sourced drug packages (raw data, GLP and CMC standing, ownership chain) in 72 hours for US buyers.",
+ "customer": "Pharma BD&L teams, NewCo-building VCs, royalty funds and mid-cap biotechs in-licensing Chinese assets.",
+ "problem": "About one-third of 2025 licensing spend involved China-sourced drugs (Jefferies) and the pace accelerated in 2026 (Lilly-InnoCare up to $3.35B, Merck-SciBrunch $2.1B). Diligence infrastructure looks thin (inference): data packages are in Chinese formats, raw-data and audit-trail norms differ, and CRO and CDMO GLP or GMP standing is hard to verify. BIOSECURE, enacted Dec 18, 2025, requires OMB to publish the list of biotechnology companies of concern by December 2026 and FAR rules follow, adding an ownership and supply-chain axis.",
+ "solution": "A fixed-price 'Asset Verification Sprint'. LLM-assisted translation and structured extraction of study reports. Bilingual scientists spot-check raw data and audit trails. Verify CRO and CDMO inspection histories (NMPA, FDA, EMA) and check ownership chains against the BIOSECURE lists. Deliver a Western-format gap analysis for IND-enabling needs (GLP tox acceptability, CMC comparability).",
+ "why_now": "Deal flow is at record levels, BIOSECURE list publication is due in about three months, and biopharma layoffs (15,000+) free bilingual ex-pharma scientists.",
+ "revenue_model": "$25-70k per sprint, $150-300k annual retainers for NewCo-builder VCs, and supply-chain mapping as a second product once the BIOSECURE lists land.",
+ "non_obvious_insight": "The gap is not legal or financial diligence. It is data literacy and tacit standards, for example what counts as GLP-grade raw data, and Western deal associates cannot read the packages. The same team and database serve a second product, supply-chain mapping, when the lists arrive.",
+ "first_30_days": "Recruit 3-4 bilingual ex-pharma scientists. Price a $20k pilot sprint. Approach 5 NewCo VC platforms and 5 mid-size pharma BD heads. Build a CRO and CDMO inspection database from public regulator records.",
+ "outside_box_score": 6,
+ "source": "idea:synbio-biotools:all4",
+ "kind": "idea",
+ "id": "I0861"
+}

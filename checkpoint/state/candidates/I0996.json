@@ -1,0 +1,16 @@
+{
+ "title": "Grid-Code Models for AI Data Centers",
+ "angle": "second-order",
+ "one_liner": "Validated dynamic load models and ride-through test packages so data centers can pass the same grid-code exams that generators pass.",
+ "customer": "Interconnection teams at hyperscalers, neoclouds and colo developers, and their EPCs. Transmission owners and ISOs need the models validated, and the developer pays.",
+ "problem": "About 1.5 GW of Northern Virginia data center load tripped offline together during a 2024 fault. AI training loads swing tens of MW in seconds, and xAI buys Megapacks largely to smooth them. Texas SB 6 and NERC large-load work now push for ride-through and dynamic models, but no standard model library or test lab exists for GPU cluster, power-supply and UPS stacks.",
+ "solution": "Build a parametric EMT and PSS/E model library for common facility architectures (UPS topologies, PSU behavior, 800V DC). Validate it with hardware-in-the-loop tests at a partner lab. Sell per-project model packages, ride-through study reports and compliance-ready certification letters. Charge a subscription to keep models current as hardware changes.",
+ "why_now": "Multi-GW campuses, NERC's large-load task force and Texas and PJM interconnection rules in 2025-26 are turning load models from optional into a gating item.",
+ "revenue_model": "$75-300k per project for the model and study, an annual model-maintenance subscription, and test or certification fees paid by UPS and power-shelf OEMs.",
+ "non_obvious_insight": "Everyone frames data centers as demand. The grid now treats them as a dynamic device, like a giant inverter-based generator. Inverter-generator modeling became a consulting industry after events like the 2016 Blue Cut fire, and large-load modeling will follow. The model library is the moat.",
+ "first_30_days": "Recruit one or two power-electronics engineers from a utility or ISO. Publish an open primer on GPU-load oscillation. Contact interconnection leads at 10 neoclouds and 5 TO planners. Sell a $15k 'large-load model gap analysis'. Sign a university hardware-in-the-loop lab as a partner.",
+ "outside_box_score": 7,
+ "source": "idea:energy-grid:all4",
+ "kind": "idea",
+ "id": "I0996"
+}

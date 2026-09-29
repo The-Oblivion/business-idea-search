@@ -1,0 +1,87 @@
+{
+ "status": "crowded",
+ "competitors": [
+  {
+   "name": "Amperon (Coincident Peak Forecasting)",
+   "url": "https://www.amperon.co/products/load-forecasting/coincident-peak-forecasting",
+   "what_they_do": "Dedicated PJM 5CP (PLC tag) and 1CP models, plus ERCOT 4CP, MISO, NYISO and ISO-NE. Delivers up to 7-day-ahead alerts by email or API. Uses a continuous score rather than binary alerts, so users can curtail in graduated steps. Claims 92% day-ahead accuracy. Targets manufacturers, data centers and crypto miners.",
+   "scale_or_funding": "$30M total raised, including a $20M Series B led by Energize Capital in Oct 2023 (https://www.amperon.co/newsroom/amperon-raises-20-million-series-b-to-accelerate-energy-analytics-and-grid-decarbonization). Skews to large loads (its example is per 50 MW).",
+   "overlap": "direct"
+  },
+  {
+   "name": "Edgecom Energy (pTrack PJM, NeuraCharge)",
+   "url": "https://edgecom.ai/pjm-energy-market/",
+   "what_they_do": "AI 5CP/PLC prediction with a 12-day outlook, day-before standby notices and same-day SMS, email and phone alerts. Claims a 99% peak-prediction success rate with fewer false alarms and fewer unnecessary curtailments. Also sells a dashboard and DER/BMS automation for peak shaving. Serves industrial, commercial and data-center sites already paying capacity charges. Subscription model with a 24/7 NOC.",
+   "scale_or_funding": "Funding not found (Crunchbase returned 403). Pricing not public. Implementation takes 4-8 weeks.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Enverus (Coincident Peak Prediction)",
+   "url": "https://www.enverus.com/blog/precision-power-forecasting-enverus-summer-2025-coincident-peak-prediction-results/",
+   "what_they_do": "CP alerts and 15-day load forecasts for PJM, ERCOT, ISO-NE and NYISO. It says it caught all five 2025 PJM coincident peaks with at least one day of notice while issuing only 8 calls all summer. It reports 1.81% MAPE against PJM's own 2.24%.",
+   "scale_or_funding": "Large established energy-data company. Pricing not public.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Voltus (Peak Saver / predictive intelligence)",
+   "url": "https://www.voltus.co/press/voltus-peak-prediction-pjm-2024",
+   "what_they_do": "AI trained on each customer's own schedule to predict PJM peaks and avoid capacity charges. Claims $98K to $279K per MW-year saved. Includes a customer case study (Four Seasons Produce, a produce distributor with a cold-chain profile) with five years of participation. It is a demand-response aggregator, so it earns on revenue share.",
+   "scale_or_funding": "One of the four leading C&I DR/VPP operators (CPower, Enel X, AutoGrid, Voltus), which together hold about 4 GW (https://www.utilitydive.com/news/virtual-power-plants-california-wood-mackenzie/646503/). Venture-backed; amount not verified here.",
+   "overlap": "direct"
+  },
+  {
+   "name": "GridBeyond (5CP prediction and BTM demand-side response)",
+   "url": "https://gridbeyond.com/lp/whitepaper-predicting-peaks-pjms-5cp-program/",
+   "what_they_do": "Publishes 5CP forecasting content and sells behind-the-meter flexibility and energy management. Positions forecasting as the key to monetizing flexibility for energy users.",
+   "scale_or_funding": "Established European-origin flexibility company. Funding not verified here.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Vistra Commercial (5CP Service)",
+   "url": "https://commercial.vistracorp.com/resources/pjms-2028-2029-capacity-auction-what-large-energy-users-should-know/",
+   "what_they_do": "A retail energy supplier giving customers a 5CP Service. It sends 9 a.m. ET emails with High/Medium/Low probability, a weekly outlook and same-day updates if a peak develops.",
+   "scale_or_funding": "Large public retail energy supplier. The alert is bundled with supply.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Freedom Energy Logistics (PJM Peak Notification Program)",
+   "url": "https://felpower.com/pjm-peak-notification-program/",
+   "what_they_do": "Energy broker and supplier that sends email and text alerts before likely 5CP hours. Targets manufacturers, municipal buildings, schools, hospitals and similar sites. The page says 'no fee to join'.",
+   "scale_or_funding": "Private broker. Alerts are free as a customer-acquisition tool. This is the exact channel the idea plans to sell through.",
+   "overlap": "direct"
+  },
+  {
+   "name": "SmartestEnergy (Peak Alerts)",
+   "url": "https://www.smartestenergy.com/en_US/insights2/stay-ahead-of-rising-capacity-costs-with-smartestenergys-peak-alerts/",
+   "what_they_do": "Peak alerts for PJM, ISO-NE and NYISO for AMI-metered customers. Alerts fire at 85% or higher probability, up to 48 hours ahead.",
+   "scale_or_funding": "Large retail supplier and aggregator. Alerts are bundled with supply.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Energy by 5, Diversegy, Ampica, Muirfield (broker and consultant alert services)",
+   "url": "https://www.energyby5.com/blogs/coincidental-peak-alerts",
+   "what_they_do": "Brokers and consultants that send weekly outlooks and daily coincident-peak alerts with load-reduction tips such as pre-cooling. Diversegy states 'several services, including some from Diversegy, can alert you 24 hours in advance' (https://diversegy.com/5-ways-to-reduce-pjm-capacity-tags-2025-2026/). Muirfield posts PJM Peak Demand Alerts (https://muirfieldenergy.com/news/pjm-peak-demand-alert-july-15-2026/). Ampica has a Peak Demand Alerts product (https://ampica.com/solutions/peak-demand-alerts/), but its page would not load, so it was not verified.",
+   "scale_or_funding": "Small to mid-size brokers. Alerts are typically free or bundled to win and keep supply and consulting contracts.",
+   "overlap": "direct"
+  },
+  {
+   "name": "PJM (official notifications) and open academic method (PLProb)",
+   "url": "https://arxiv.org/html/2407.04081v1",
+   "what_they_do": "PJM issues its own hot-weather and peak notifications. The public arXiv paper describes a Monte Carlo coincident-peak probability engine (PLProb) with a 10-year backtest: PJM 5CP detects 4.9-5.0 of 5 peaks with about 13-24 false alerts a year. Curtailing 4 hours per alert day captures the peaks. This is the core forecasting idea, already public.",
+   "scale_or_funding": "Public research and public ISO data. Free.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "CPower / Enel X (C&I demand-response aggregators)",
+   "url": "https://www.utilitydive.com/news/virtual-power-plants-california-wood-mackenzie/646503/",
+   "what_they_do": "Incumbent aggregators that could add or bundle peak-tag management for existing customers. The idea's own problem statement says they skim 20-40%.",
+   "scale_or_funding": "About 4 GW combined with Voltus and AutoGrid. Not verified whether their minimum size excludes 300 kW to 1 MW sites.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "The forecasting-and-alert layer is not white space. Six or more vendors sell it and at least five brokers and suppliers give it away. Enverus reports 8 calls in a season while catching all 5 peaks, which is essentially the idea's claimed drop from about 25 curtailment days to about 8. Edgecom and Voltus already claim personalised, fewer-false-alarm alerts. Amperon already gives graded scores. The academic PLProb method is public.\n\nWhat remains thin and unverified is a few pieces.\n(1) A decision layer that turns a probability into a per-site dollar call. It would compare the expected value of curtailing against that plant's own curtailment cost, for plants whose cost varies by hour and process, such as a cold-storage defrost cycle, a wastewater aeration schedule or an ice-rink compressor. It would include a stop-alerting rule once the season's running maximum makes the peak threshold known. No competitor was found advertising this, but Amperon's continuous score and Voltus's 'customer schedule' AI are close. Marketing pages do not show what the models do internally.\n(2) A 'what your tag would have been' counterfactual report, which is a credible sales and verification asset. It is a feature, not a company.\n(3) Sub-1 MW sites in the 300 kW to 1 MW range. Alert vendors mostly quote per-50-MW savings, and the aggregators' minimum sizes are unknown. At about $330/MW-day, a 300 kW site's tag is worth roughly $36K/yr, so a 20-25% share is about $7-9K, which is too little to support a sales cycle.\n(4) Independent, auditable, brokerage-neutral verification. Every free alert is sold by a party whose main revenue is supply, so an unconflicted counterfactual auditor could exist. It is a thin business.",
+ "evidence_of_demand": "Demand for the outcome (lower capacity tags) is strong and documented. Willingness to pay specifically for alerts is weak, and that is the core problem for this idea.\n\nCost pressure is real and rising:\n- PJM RTO clearing prices are $270.35/MW-day for 2025/26, $329.43 for 2026/27, $333.44 for 2027/28 and $325.00 for 2028/29. The 2028/29 result hit the auction collar, and uncapped it would have been $554.72 (https://commercial.vistracorp.com/resources/pjms-2028-2029-capacity-auction-what-large-energy-users-should-know/).\n- Capacity charges went from about $10,560/MW-year in 2024/25 to about $120,147/MW-year in 2026/27, roughly 10x (search summary citing the Vistra page above).\n- Diversegy's worked example is a 1,000 kW tag going from about $18K to about $100K a year, with about $10K/yr saved per 100 kW shed (https://diversegy.com/5-ways-to-reduce-pjm-capacity-tags-2025-2026/).\n- Voltus claims $98K-$279K per MW-year in savings and has a five-year cold-chain-type customer case study (https://www.voltus.co/press/voltus-peak-prediction-pjm-2024).\n\nSpend and activity on this exist:\n- Amperon has raised $30M in total, with coincident-peak forecasting as one of its products (https://www.amperon.co/newsroom/amperon-raises-20-million-series-b-to-accelerate-energy-analytics-and-grid-decarbonization).\n- Enverus, Edgecom and GridBeyond sell CP or 5CP products.\n- 2026 summer alerts went out from multiple brokers (https://muirfieldenergy.com/news/pjm-peak-demand-alert-july-15-2026/).\n- ERCOT 4CP is a mature avoidance market, with alert products from Amperon and others (https://www.amperon.co/blog/navigating-ercot-4cp).\n\nCounter-evidence on paying for alerts:\n- Freedom Energy states 'no fee to join' (https://felpower.com/pjm-peak-notification-program/).\n- Vistra and SmartestEnergy bundle alerts with supply.\n- Diversegy and Energy by 5 offer alerts as part of broker services.\n\nBecause the brokers the idea wants as a channel give the core product away, a $250-$500 per month alert subscription faces a $0 substitute. I found no forum complaints or RFPs about alert quality, and none showing mid-size sites paying for better forecasts.",
+ "kill": true,
+ "kill_reason": "As written, this is an existing, crowded category. Enverus (8 calls, all 5 PJM peaks caught in 2025), Edgecom (99% claim), Amperon ($30M raised, 92% day-ahead, graded scores), Voltus (per-customer AI plus revenue share) and GridBeyond all sell PJM 5CP prediction. Vistra, Freedom Energy, SmartestEnergy, Energy by 5 and Diversegy give it away or bundle it, and those brokers are the planned distribution channel. The headline improvement (about 25 curtailment days down to about 8) is already delivered by Enverus's 8-call season, and the forecasting method is published as an open academic paper. The remaining wedges (per-site curtailment-cost economics, an optimal-stopping rule, a counterfactual report) are thin, unproven against competitors' internals, and small in dollar terms for 300 kW to 1 MW sites. Caveat: the session's web-search budget ran out mid-research. I did not verify Ampica, Edgecom funding, CPower or Enel X minimum sizes, or Tangent, and I found no open-source repo on GitHub.",
+ "sharper_angle": "Drop 'better alerts' as the product. If the founder proceeds, use the alert as a free loss-leader and sell an independent 'capacity-tag optimizer and auditor' for brokers and multi-site owners in the roughly 1-5 MW band, meaning portfolios of small mid-size sites that aggregators and enterprise forecasters skip.\n\nVersion A (white-label decision engine for brokers): Take the broker's free peak signal and add a per-site expected-value curtailment recommendation. It would use each plant's own hourly curtailment cost, thermal-storage headroom (cold storage, ice rinks, wastewater tanks) and an optimal-stopping rule that ends alerts once the season's peak threshold is known. Price it per site per year to the broker, since brokers already give the alert away. The broker's rebate then comes from retention and supply margin.\n\nVersion B (audit and verification product): Sell the counterfactual 'what your tag would have been' report plus an independent post-season PLC audit, catching billing and tag errors. Portfolio owners and lenders or ESCOs can use it to justify shared-savings contracts. Price it as a flat fee of $2K-$5K per site audit, not a 20-25% share, because savings on sub-1 MW sites are too small for a sales cycle.\n\nBefore building anything, validate two things. First, that customers will pay for fewer curtailment days, by backtesting against Enverus's published 2025 call log and PJM's public 2019-2026 peaks. Second, that brokers will pay for a decision layer on top of the free alert.\n\nA fallback pivot is to skip PJM and pick a market where alerts are thin or where one-peak-hour risk is higher (NYISO or ISO-NE ICAP tags, or utility-specific coincident peaks such as PSEG 1CP), and test whether small sites there are underserved."
+}

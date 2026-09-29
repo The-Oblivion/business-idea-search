@@ -1,0 +1,73 @@
+{
+ "status": "crowded",
+ "competitors": [
+  {
+   "name": "LTLflow (Pinnacle Logistics Group)",
+   "url": "https://ltlflow.com/home",
+   "what_they_do": "Dockside mobile app that captures weight (AI reads scale display), dimensions, class and geo-stamped photos before pickup. It generates a 'Weight and Dimension Certificate' per shipment, timestamps and stores the data, and builds the BOL from it. It is pitched explicitly to contest carrier reweigh/reclass charges. Pinnacle backs it with a 'no reclass, no reweigh' quote-matches-invoice guarantee (https://www.pinnacleteam.com/pallet-shipping-how-to-ship-pallets-costs-best-practices/). Free tier (75 shipments/mo, 1 location), Pro $200/mo, Scale $300/mo + $2K scale, Enterprise $1,300/mo (https://ltlflow.com/pricing). It targets furniture and manufacturing shippers, which is the same ICP as this idea. It does NOT appear to auto-file disputes, ingest adjustment invoices, or take a contingency fee.",
+   "scale_or_funding": "Claims 180+ active warehouses; funding undisclosed (bootstrapped by a 3PL, so it is subsidised by $8/shipment credits)",
+   "overlap": "direct"
+  },
+  {
+   "name": "Lighthouz AI",
+   "url": "https://lighthouz.ai/shipment-types/ltl",
+   "what_they_do": "YC S24 AI back-office for small and mid-size freight brokers and 3PLs. It audits LTL/FTL freight bills and, when a reweigh or reclass charge lacks supporting inspection or weight certificates, automatically builds a dispute packet and files it with the carrier. It also automates AR and invoicing to the broker's customers. This is the dispute-filing half of the idea, aimed at the broker segment. It does not capture dock evidence itself, and pricing is not public.",
+   "scale_or_funding": "YC S24; about $500K raised per aggregator data (https://www.cbinsights.com/company/lighthouz-ai, https://www.ycombinator.com/launches/P41-lighthouz-ai-ai-to-automate-ap-and-ar-for-freight-brokers-and-3pls)",
+   "overlap": "direct"
+  },
+  {
+   "name": "Evos",
+   "url": "https://www.getevos.ai/resources/blog/ltl-invoice-audit-operations-problem",
+   "what_they_do": "Autonomous AI operator that audits LTL carrier invoices before payment. It recalculates class from BOL weight and dimensions, flags reclass/reweigh charges, and drafts disputes with supporting documents. It is aimed at mid-market freight desks and was marketed around the 2025 NMFC density overhaul. It cites 82% decision accuracy over 143 processed exceptions.",
+   "scale_or_funding": "Early-stage; funding not found",
+   "overlap": "direct"
+  },
+  {
+   "name": "vMeasure",
+   "url": "https://vmeasure.ai/mobile-dimensioning/",
+   "what_they_do": "Free iOS app that uses iPhone Pro LiDAR to dimension palletized freight in about a second (about +/-0.2-0.4 in). Scans carry timestamps and images. It pairs with floor and forklift scales and integrates with carrier, WMS and rate-shopping systems. It sells paid pallet-scanner subscriptions. This is the phone-LiDAR capture idea, already shipped and free.",
+   "scale_or_funding": "Not disclosed; commercial subscription product",
+   "overlap": "direct"
+  },
+  {
+   "name": "Optioryx Flux",
+   "url": "https://www.optioryx.com/blog/mobile-pallet-dimensioning",
+   "what_they_do": "LiDAR mobile dimensioning app (iPhone/iPad Pro, Zebra devices). It captures timestamped photos and metadata alongside pallet dimensions and markets 'documented proof for dimensional weight disputes'. Pricing is $0.50-2.00 per scan or a subscription, with WMS/TMS APIs. It is warehouse-focused rather than dispute-focused.",
+   "scale_or_funding": "Ghent, Belgium; about $624K raised (https://www.crunchbase.com/organization/optioryx)",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "FreightSnap (with Shiplify partnership)",
+   "url": "https://freightsnap.com/ltl-freight-measurement/",
+   "what_they_do": "NTEP-certified pallet dimensioner and scale with a record of measurements, photos and weight per shipment, sold explicitly to dispute reweigh and reclass. The dimensioners cost about $8K-15K. A partnership with Shiplify (accessorial intelligence) aims at fewer invoice surprises (https://freightsnap.com/freightsnap-and-shiplify-partner-to-build-greater-trust-in-ltl-freight/). It is a certified-hardware alternative whose evidence is more credible than an uncertified phone scan.",
+   "scale_or_funding": "Established hardware vendor; also resold via LTLflow Enterprise",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Cubiscan, Cargo Spectre, Packizon, AAA Weigh (dimensioner vendors)",
+   "url": "https://cubiscan.com/the-role-of-dimensioning-to-win-freight-disputes-with-ltl-shippers/",
+   "what_they_do": "Established hardware and software dimensioner vendors that all market timestamped dimension/weight records with photos as dispute evidence against LTL reclass and reweigh charges. Cargo Spectre: https://www.cargospectre.com/freight-dimensioning-technology-disputes/. Packizon has a subscription-only, no-hardware model: https://packizon.com/ltl-freight-dimensioning-freight-class-nmfc-accuracy/.",
+   "scale_or_funding": "Established vendors (Cubiscan is a long-standing hardware maker); mostly private",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Contingency freight audit firms (Intelligent Audit, Eller Audit, ClearLane and similar)",
+   "url": "https://www.intelligentaudit.com/case-studies/reducing-ltl-spend-through-freight-class-accuracy-and-audit-controls",
+   "what_they_do": "Established third-party audit and recovery firms that dispute LTL class and weight adjustments. Most work on contingency and keep roughly 25-50% of recovered savings (per https://www.elleraudit.com/ltl-freight-audit and https://blog.glifreight.com/ltl-freight-audits-your-key-to-cutting-shipping-costs). They typically skew toward larger spend than the $50K-$2M segment, but the contingency model is already normal and understood by buyers.",
+   "scale_or_funding": "Multiple established firms; not startups",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "MyCarrier, Warp and other LTL platforms",
+   "url": "https://go.mycarrier.io/blog/avoid-freight-class-mistakes-with-nmfc-verification",
+   "what_they_do": "Incumbent platforms attacking the same pain earlier in the flow. MyCarrier is rolling out NMFC Verification inside the quote flow and publishes reweigh/reclass prevention guidance. Warp (https://www.wearewarp.com/avoid-ltl-reclass-reweigh-fees) offers per-pallet pricing that removes reclass exposure and a free Reweigh and Reclass Audit tool. Either could add capture or dispute features cheaply.",
+   "scale_or_funding": "MyCarrier is a large multi-carrier LTL TMS; Warp is venture-backed (funding not verified)",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Two halves of the idea are each served, but nobody has clearly closed the loop between them.\n\nAlready served:\n- Source-side dock capture with certificates and geo-stamped photos: LTLflow (free tier, 180+ warehouses, same furniture/manufacturing ICP), vMeasure and Optioryx (phone LiDAR), and FreightSnap/Cubiscan (certified hardware).\n- Automated dispute filing: Lighthouz (broker-focused) and Evos.\n- Contingency recovery: established freight-audit firms.\n\nWhat remains unserved, specifically:\n1. Nobody found combines origin evidence with automatic invoice ingestion, filing, follow-up and a pay-on-recovery fee. LTLflow leaves the dispute manual. Lighthouz starts from missing certificates and does not create evidence at the dock.\n2. Small shippers who will not buy a scale or dimensioner and are not on Pinnacle. LTLflow's free tier and Pinnacle's per-shipment credits exist mainly to lock shippers into Pinnacle freight.\n3. Carrier-specific dispute intelligence: win rates by carrier, inspection-report retrieval, and arguments on dimensioner behaviour (wrap bulge, pallet lip, rounding). No competitor publishes this.\n4. Broker AR for adjustments already invoiced, worked retroactively with whatever photos exist. This is the first-30-days plan. It needs no app and no competitor advertises it.\n\nThe credible weakness is evidence quality. Sources say the best evidence is a photo of the pallet on a certified, calibrated scale, and that carriers want certified measurements. An uncertified iPhone LiDAR scan is likely a weaker exhibit than the idea assumes. The capture app itself is a commodity; the white space is the contingency dispute-and-data layer, not the capture.",
+ "evidence_of_demand": "Pain is real and well documented. Buyer willingness to pay for a dispute-first product is only indirectly evidenced, and I found no verified customer quotes or RFPs.\n\nSupporting evidence:\n- The NMFC density overhaul took effect July 19, 2025. FreightWaves reports carriers gained explicit authority to re-measure with automated dimensioners, and shippers were surprised when a pallet that ran as class 85 all year rated class 100: https://www.freightwaves.com/news/new-ltl-freight-class-rules-take-effect-on-saturday and https://www.freightwaves.com/news/nmftas-freight-classification-overhaul-surprising-shipper-preparedness. Vendors say the changes roll through about 2,000 commodities into 2026.\n- Multiple sources say most shippers never dispute because they lack origin paperwork: https://www.dtsone.com/breaking-down-the-july-2025-nmfc-changes/ and https://go.mycarrier.io/blog/why-accurate-freight-dimensions-are-becoming-critical-in-ltl-shipping. The dispute window is often about 30 days from invoice. Recovery rates of 60-82% with documentation are quoted by audit vendors (https://www.elleraudit.com/ltl-freight-audit). These are marketing figures, not neutral data.\n- Brokers and shippers do absorb un-passed-through reclass fees: https://www.myfreightworld.com/can-you-fight-freight-reclassification-fees/ and https://shiptli.com/logistics/ltl-reclassification-how-to-avoid-costly-fees/.\n- Existing spend and paid products prove willingness to pay for adjacent workarounds:\n  - LTLflow claims 180+ paying and free warehouses and $200-$1,300/month plans (https://ltlflow.com/pricing).\n  - FreightSnap dimensioners cost about $8-15K.\n  - Optioryx charges $0.50-2.00 per scan.\n  - Contingency audit firms take 25-50% of recoveries.\n  - Lighthouz raised YC S24 money to auto-file disputes for brokers.\n  - Evos launched an LTL-invoice-audit agent citing the density change.\n\nCaveats:\n- Two DEV Community posts pitching 'agent-led LTL reclass recovery' (https://dev.to/candie_joseph_203d326e211/when-a-class-55-pallet-becomes-class-125-overnight-the-case-for-agent-led-ltl-reclass-recovery-hf7 and https://dev.to/barbey_hendricks_59d1fe4c/the-reclass-email-that-eats-your-margin-why-ltl-freight-dispute-packets-fit-an-agent-better-than-3hnl) are AI-agent bounty-style write-ups. They contain no customer validation, so do not count them.\n- I found no Reddit or forum threads or RFPs quoting real shipper complaints, so the demand evidence is mostly vendor content.\n- Per-shipment recoveries are small: reclass fees run about $30-$150 plus a 10-20% rate uplift, and one source puts the average dispute at about $145. A 25-30% contingency therefore yields roughly $35-45 per win, which makes unit economics hard without heavy automation.",
+ "kill": false,
+ "kill_reason": "n/a. This is a borderline call, not a clean pass. The capture app as written already exists: LTLflow does the same job for the same furniture and manufacturing shippers, and its free tier undercuts the proposed $99-$299/month. vMeasure gives away phone LiDAR capture. Automated dispute filing exists at Lighthouz and Evos. I did not kill it because the combined loop (evidence, invoice ingestion, auto-filing, contingency) is not clearly served for small shippers and brokers outside Pinnacle, and the retroactive broker-AR contingency service in the first-30-days plan has no visible direct competitor. If the plan requires building and selling the capture app as the core product, the answer is closer to kill.",
+ "sharper_angle": "Drop the capture app as the headline and lead with the contingency dispute service. Build the app only as a thin evidence layer.\n\n1. Product: a pay-on-recovery service that works broker AR and shipper adjustment invoices. It ingests carrier adjustment emails and the audit feed, pulls the carrier's inspection report (measured dimensions, weight, photos and NMFC item), and files and chases the dispute.\n2. Evidence: do not compete with LTLflow, vMeasure or FreightSnap on capture. Accept certificates and scans from all of them (and from scale-ticket photos, BOLs and packing slips) through integrations. Offer a free checklist capture for shippers who have nothing. Position it as evidence-agnostic and carrier-facing.\n3. Moat: a carrier-by-carrier, lane-by-lane, item-by-item win-rate and argument database that only comes from running disputes at volume. It covers which carriers reverse on certified weights, how each carrier's dimensioner treats wrap bulge and pallet lip, and which NMFC density-tier boundary cases are most contestable. Neither LTLflow (prevention) nor Lighthouz (broker AP/AR) is building it.\n4. Wedge customer: small LTL brokers and 3PLs with adjustment charges stuck in AR, plus shippers in density-edge commodities such as furniture, foam and craft beverage packaging. Start with services-heavy manual disputes, as the first-30-days plan says, and automate what repeats. Lighthouz serves brokers, so validate early whether brokers prefer it, and consider selling to shippers directly.\n5. Kill tests before building anything:\n   - Run 200 historical adjustment invoices through manual disputes. If the net win rate is under about 40%, or the average recovery after the fee is under about $40 per case, stop.\n   - Ask 3-5 carriers' claims desks whether they accept uncertified phone scans. If they only accept certified scale and dimensioner records, phone LiDAR is a dead end as evidence.\n   - Confirm that LTLflow and Lighthouz have not shipped the missing half."
+}

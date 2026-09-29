@@ -1,0 +1,126 @@
+{
+ "title": "Rural Vet Call Logs as Outbreak Early Warning",
+ "one_liner": "Producers call the vet before they call the state. Anonymized weekly counts of abortions, maggot wounds, sudden deaths and respiratory clusters are a leading indicator that traders, insurers and packers will pay for.",
+ "customer": "Buyers: cattle and feeder analytics desks, market advisory and commodity funds, packer and feedlot risk managers, livestock and dairy insurers or reinsurers, animal health company territory teams, and state animal health boards (contracts or grants). Suppliers are participating rural vets, who get free early regional alerts and a small revenue share.",
+ "problem": "Official disease data lags by weeks because it waits on lab confirmation, and ranchers hesitate to report to the state because a quarantine costs them money. Screwworm was confirmed in a Texas calf in June 2026 after roughly 60 years without a US case, and H5N1 in dairy cattle was spreading for months before detection in 2024. Cattle futures at record prices with a 70-year low herd move violently on rumor, and nobody has a systematic ground-level feed.",
+ "solution": "A 30-second end-of-week SMS or one-tap tally where each vet reports counts by syndrome (abortion clusters, navel or wound maggots, sudden deaths, neurological, respiratory, milk drops) and ZIP3 or county. Counts are aggregated with k-anonymity (no client identity, minimum practice thresholds) and compared to seasonal baselines. Outputs are a weekly 'Rural Vet Pulse' regional index, push alerts when a region deviates, and an API for institutional subscribers. Vets get the regional alerts free, which is the give-to-get hook.",
+ "why_now": "New World screwworm has been confirmed in Texas and New Mexico since June 2026, with the first infested horse reported in September 2026, and movement restrictions plus sterile-fly shortages make the outbreak's trajectory the biggest driver of cattle risk. H5N1 in dairy is ongoing, federal animal health staffing is stretched, and academic syndromic surveillance systems exist in Europe (Netherlands, France, Great Britain) but I found no commercial equivalent built from US rural vet practices.",
+ "revenue_model": "$2-10K per month per institutional data subscriber (analytics desks, insurers, packers), enterprise API tiers, sponsored regional alerts from animal health companies, state or regional government pilots, and a $100-300 per month revenue share to each contributing practice.",
+ "non_obvious_insight": "Ranchers under-report to the state because reporting costs them money, but they do not hide problems from their vet because they need the vet's drugs and help. The vet's phone is the earliest sensor in the system, and vets cannot share client data but can share counts. Contrarian point: the absence of calls is also a signal, because call volume drops when producers hide problems during a quarantine.",
+ "first_30_days": "Recruit 25 large-animal practices in Texas, Oklahoma, New Mexico, Kansas and Nebraska through state VMA lists and large-animal vet Facebook groups. Build the weekly tally as a plain SMS survey, with no software integration. Publish a free regional weekly newsletter to the vets as the hook. Backtest screwworm lead time against USDA confirmation dates and pitch 3 market-advisory or cattle analytics shops for a $1-2K per month paid pilot.",
+ "outside_box_score": 8,
+ "source": "persona:p3-1",
+ "kind": "persona",
+ "id": "I0199",
+ "tournament": {
+  "score": 0.933,
+  "overall_rank": 85,
+  "cluster": "Farm and ranch risks: disease, cash, storage and machinery",
+  "judge_notes": [
+   "vc: rank 2/25 - Sharp non-obvious sensor (vet phone), screwworm timing, testable by SMS in 30 days, alt-data business.",
+   "contrarian: rank 3/24 - Vet phone is the earliest sensor; screwworm makes the timing real. Panel is a moat; small but rich market.",
+   "operator: rank 6/25 - Screwworm timing and non-obvious sensor insight, but lead-time proof is thin and paying data buyers few."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "SAVSNET / FAVSNET (University of Liverpool)",
+    "url": "https://www.liverpool.ac.uk/savsnet/",
+    "what_they_do": "Academic syndromic surveillance built on de-identified electronic health records from participating UK vet practices, with real-time dashboards. SAVSNET covers companion animals. Sister projects EVSNET (horses) and FAVSNET (farm animals) are mentioned on the site, but I could not load a FAVSNET page to verify scope. This is the closest technical analog to the idea.",
+    "scale_or_funding": "Academic, non-commercial, UK-only. No pricing or paid tier found.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Morrison Swine Health Monitoring Project (Univ. of Minnesota) and Swine Health Information Center (SHIC)",
+    "url": "https://mshmp.umn.edu/",
+    "what_they_do": "A voluntary, producer-run disease reporting project (PRRS, PED and PDCoV charts) since 2011. SHIC runs domestic and global disease monitoring reports (https://www.swinehealth.org). It is the best US proof that industry participants will share disease counts, but it covers swine, relies on producer and lab data rather than vet call logs, and appears to be industry-funded and free.",
+    "scale_or_funding": "Nonprofit and academic. Funding details not verified because the funding and report pages returned 404.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Equine Disease Communication Center (US Equestrian)",
+    "url": "https://equinediseasecc.org/",
+    "what_they_do": "Real-time outbreak alerts for horses, using reports from owners and vets. Free email alert signup, run by the national governing body. It shows the free alerts give-to-get model exists, but it is outbreak-report based (not weekly syndromic counts) and equine only.",
+    "scale_or_funding": "Non-commercial, powered by US Equestrian. No paid tier found.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "USDA APHIS / NAHLN and Texas Animal Health Commission (mandatory reporting)",
+    "url": "https://www.tahc.texas.gov/emergency/nws.html",
+    "what_they_do": "Screwworm is a 24-hour mandatory report for Texas vets and producers (TAHC Veterinarian on Call line). TAHC shows 41 premises across 17 counties, with movement restrictions in named counties. Detection and confirmation flow through government channels, and the H5N1 dairy program uses National Milk Testing. These are free public substitutes, and they make the private feed less valuable for confirmed cases. They do not publish pre-confirmation syndromic counts.",
+    "scale_or_funding": "Government, federally funded, with emergency funding pledged for NWS response.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Animalytix (ALYX, VetWatch)",
+    "url": "https://www.animalytix.com/",
+    "what_they_do": "Sells aggregated vet-practice and distributor data as business intelligence to animal health manufacturers and distributors. It proves animal health companies buy practice-level data. Its product set is companion-animal focused, with no disease surveillance or livestock product visible.",
+    "scale_or_funding": "32,000+ practices and shelters in its marketplace. Funding not found.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Vetsource Data Services (formerly VetSuccess)",
+    "url": "http://vetsource.com/",
+    "what_they_do": "Practice benchmarking and trend data, including weekly industry revenue and visit stats summarized from 6,000+ vet practices. It is a possible entrant, but it is companion-animal oriented and has no surveillance product visible.",
+    "scale_or_funding": "6,000+ practices. Funding not found.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Kynetec Animal Health and Nutrition",
+    "url": "https://www.kynetec.com/",
+    "what_they_do": "Market research firm with panels of farmers and veterinarians in 80 countries. It sells survey-based insight to animal health companies. It could field a disease-incidence panel, but nothing on the site shows epidemiological tracking.",
+    "scale_or_funding": "Established incumbent (10B+ data points a year, per its site).",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Halter (smart collars)",
+    "url": "https://www.halterhq.com/",
+    "what_they_do": "Virtual fencing collars with health and behavior alerts, operating in the US, Canada, Australia and NZ. This is a competing ground-truth sensor layer at the animal level. It does not aggregate for regional disease early warning.",
+    "scale_or_funding": "Funding not verified on the page.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Merck Animal Health (SenseHub, Allflex)",
+    "url": "https://www.merck-animal-health-usa.com/",
+    "what_they_do": "Herd monitoring hardware and software. An animal health incumbent could in principle aggregate herd health signals as a feature. I found no such surveillance product.",
+    "scale_or_funding": "Large public-company subsidiary.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "BlueDot and Airfinity Biorisk",
+    "url": "https://bluedot.global/",
+    "what_they_do": "Commercial outbreak intelligence sold to governments, pharma and enterprises. BlueDot's site is human-focused and shows no livestock, agriculture, insurer or trader offering. Airfinity Biorisk (https://airfinity.com/) also has no verified livestock or finance customers. They are the type of vendor that could add livestock, and they already sell to funds and corporates.",
+    "scale_or_funding": "Venture-backed or established. Specific funding not verified.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "CattleFax",
+    "url": "https://www.cattlefax.com/",
+    "what_they_do": "Incumbent cattle market analytics and membership data for producers and the trade. It is the natural channel or competitor if a vet-sourced disease index proves valuable. I could not verify its product list or whether it has any disease data, because the pages returned only a footer or a 404.",
+    "scale_or_funding": "Established incumbent. Pricing not verified.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "GD Animal Health (Netherlands)",
+    "url": "https://www.gdanimalhealth.com/",
+    "what_they_do": "Holds the statutory animal health surveillance appointment in the Netherlands for the next 10 years. The homepage does not confirm a vet-sourced syndromic signalling product or a commercial arm.",
+    "scale_or_funding": "Statutory body, Netherlands only.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Free public NWS trackers (GitHub hobby dashboards)",
+    "url": "https://github.com/rmkenv/hominivorax",
+    "what_they_do": "At least six open-source screwworm dashboards and models appeared on GitHub between May and September 2026, for example hominivorax and screwworm-tracker. They show public-data tracking is being commoditized. None use vet call logs.",
+    "scale_or_funding": "Hobby projects with 0 stars.",
+    "overlap": "adjacent"
+   }
+  ],
+  "white_space": "Verdict basis: I found no commercial or non-commercial system that turns weekly counts from US large-animal (cattle) vet practices into a regional syndromic index sold to institutional buyers. I could not test that claim against Crunchbase, YC, TechCrunch or Product Hunt, so treat it as unconfirmed on the startup side.\n\nWhat exists today:\n- Academic systems, mostly in Europe (SAVSNET/FAVSNET in the UK).\n- A 2025 scoping review of 126 animal syndromic systems: 67 percent were still proof-of-concept, only 20 percent were fully operational, and it noted that even established systems are vulnerable to loss of funding. Operational ones were mostly government run. This is a nearby-review finding, not proof that nobody is building this in the US. Source: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=40327964\n- Free industry models such as MSHMP (swine) and the equine EDCC.\n- Companion-animal practice data businesses (Animalytix, Vetsource).\n- Government mandatory reporting, which now covers confirmed and suspected screwworm within 24 hours in Texas.\n\nUnserved, specifically:\n1. Pre-confirmation, syndromic, cattle-specific signals: abortion clusters, maggot wounds, sudden deaths and milk drops, at ZIP3 or county level, weekly. Government reporting only covers confirmed or suspected reportable disease.\n2. A denominator and absence-of-calls signal that no current system produces.\n3. A decision-grade product for private actors who face NWS movement restrictions and have no ground-level feed: sale barns, order buyers, feedlots, packers, insurers and animal health territory teams.\n\nStructural risks that keep this a gap rather than open:\n- Government and free alternatives (TAHC and USDA public case counts, EDCC-style free alerts) satisfy much of the need.\n- Vets are legally obligated to report suspects to TAHC, so a private feed adds little for confirmed cases.\n- Privacy and trade-implication concerns were the top barrier in an Australian stakeholder study (https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=40037116).\n- Selling vet-sourced early disease signals to commodity funds carries legal and ethics exposure (material non-public information, duty-to-report conflicts).",
+  "evidence_of_demand": "Demand for the problem is strong. Demand for this product as a paid subscription is unproven, and I found no direct buyer evidence. WebSearch hit its session limit of 200 calls, so I ran no live searches. Everything below comes from direct page fetches, so no forum complaints, RFPs, Crunchbase records or news coverage of market moves were checked.\n\nEvidence the problem is real and expensive:\n- Screwworm was first confirmed in Texas on June 3, 2026 (a Zavala County calf). By Aug 23, 2026 USDA reported 45 cases across 16 Texas counties plus 1 in Lea County, NM. USDA estimated a Texas outbreak could cost $1.8 billion. Source: https://en.wikipedia.org/wiki/New_World_screwworm\n- Texas now requires vets and producers to report suspected NWS to TAHC within 24 hours, with 41 premises and 17 counties affected and movement restrictions in named counties. Source: https://www.tahc.texas.gov/emergency/nws.html\n- H5N1 in dairy cattle: USDA confirmed the first premises in March 2024 and now runs the National Milk Testing Strategy and a Dairy Herd Status Program. Source: https://www.aphis.usda.gov/livestock-poultry-disease/avian/avian-influenza/hpai-detections/livestock\n- USDA's own guidance tells producers to call their veterinarian first, which supports the vet-as-first-sensor premise. Source: https://www.aphis.usda.gov/livestock-poultry-disease/cattle/ticks/screwworm\n- The American Association of Bovine Practitioners (AABP) runs dedicated NWS and H5N1 resource pages for members, which points to vet-side information demand. Source: https://www.aabp.org/\n- A qualitative Australian study found all livestock stakeholders valued early detection and wanted to discuss involvement in syndromic surveillance (https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=40037116).\n- Public interest is high: multiple free NWS trackers appeared on GitHub in 2026 (e.g. https://github.com/rmkenv/hominivorax).\n\nEvidence against willingness to pay:\n- I found no evidence of traders, insurers or packers buying vet-sourced disease data.\n- The 2025 scoping review found most animal syndromic systems depend on government funding and struggle to sustain.\n- Existing US analogs (MSHMP, EDCC) are free.\n- Animal health companies do buy practice data (Animalytix from 32,000+ practices), but only companion-animal products were visible.",
+  "kill": false,
+  "kill_reason": "n/a",
+  "sharper_angle": "Drop \"sell to commodity funds first\". It is the riskiest and least proven buyer, and it creates duty-to-report and material-non-public-information exposure. Rebuild it as a vet-owned NWS movement-risk sentinel network for the ring of counties around infested zones.\n\n- Supply: partner with AABP, the state VMAs and TAHC-certified inspectors. Use the free regional alert as the give-to-get hook, and treat 25 practices in south and west Texas plus New Mexico as the real beachhead, not five states.\n- Product: a weekly \"pressure index\" plus a call-volume and non-participation signal that shows where reporting is being suppressed. Position it as a pre-confirmation supplement to TAHC, never a replacement, and let vets forward suspect cases to TAHC through the tool so it never competes with mandatory reporting.\n- Buyers, in order: (1) government pilots (TAHC, USDA emergency and surveillance funding, SBIR), which are the funded anchor; (2) animal health company territory and marketing teams, who buy practice data today and want disease-pressure maps; (3) sale barns, order buyers, feedlots and livestock insurers facing movement restrictions; (4) analytics desks such as CattleFax-type shops, later, once the index has a track record.\n- Legal design: publish only lagged, k-anonymized regional indices, get counsel to review data-sharing agreements, and time-delay institutional feeds relative to the free vet and state alerts.\n- Proof point: a retrospective backtest against the June 3, 2026 first case and later county detections, which needs historical vet records that may not exist, so start collecting now.\n\nBefore building, run the checks I could not: Crunchbase, YC, Product Hunt and TechCrunch searches, and 5 to 10 buyer interviews to confirm anyone will pay $2-10K a month."
+ }
+}

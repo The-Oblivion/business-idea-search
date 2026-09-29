@@ -1,0 +1,52 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "NaphCare (STATCare 24/7 telehealth)",
+   "url": "https://www.naphcare.com",
+   "what_they_do": "Large correctional health vendor. Its homepage lists 'Telehealth (STATCare 24/7)' as a service line alongside medical, pharmacy, MAT and EHR. The homepage gives no detail, and my attempts at a STATCare page returned 404. I could not confirm whether it covers booking-desk clearance of arrestees or only care for people already in custody. This is the most likely incumbent feature-overlap and needs a direct check.",
+   "scale_or_funding": "Private, established national vendor; funding not checked.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Wellpath",
+   "url": "https://wellpathcare.com",
+   "what_they_do": "Largest US correctional healthcare contractor, providing medical and mental healthcare in jails and prisons. The homepage says nothing about telehealth, remote intake or pre-booking clearance. It is built around contracted on-site staffing.",
+   "scale_or_funding": "Private, large national scale; funding not checked.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Southern Health Partners",
+   "url": "https://www.southernhealthpartners.com",
+   "what_they_do": "Chattanooga-based jail healthcare contractor with 30+ years in correctional healthcare. It sells medical, mental health, dental and education programs customized per facility. From memory it targets small and mid-size county jails, which I did not verify. The site lists no telehealth or medical-clearance product. It is the closest existing seller to the same county-jail buyer.",
+   "scale_or_funding": "Private, established regional and national vendor; jail count not stated on the page.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Turn Key Health",
+   "url": "https://www.turnkeyhealth.com",
+   "what_they_do": "Jail healthcare contractor that, from my prior knowledge, sells to small and rural county jails. Fetches returned HTTP 503 twice, so I could not verify its services and it is not confirmed as offering telehealth or clearance.",
+   "scale_or_funding": "Private; not verified this session.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "ViaPath Technologies (formerly GTL) - Enhanced Telehealth Solutions",
+   "url": "https://www.viapath.com",
+   "what_they_do": "Jail communications vendor. It lists 'Enhanced Telehealth Solutions' among its facility offerings. The page does not say whether these support intake or medical clearance. They are likely a video-visit layer for in-custody care.",
+   "scale_or_funding": "Established private vendor with jail contracts nationwide; funding not checked.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Avel eCare (Crisis Care and Emergency tele-services)",
+   "url": "https://www.avelecare.com",
+   "what_they_do": "Rural tele-emergency and tele-behavioral-health provider supporting 200+ emergency rooms nationwide. It offers Crisis Care, 'a virtual co-responder solution that supports Law Enforcement with 24/7 access to behavioral health experts', plus EMS support. Jail medical clearance is not listed. It already sells 24/7 virtual clinicians to law enforcement and rural ERs, so it is a credible entrant into this space.",
+   "scale_or_funding": "Nonprofit tele-health arm (Sioux Falls); supports 200+ ERs nationwide.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Caveat first: the WebSearch budget (200 calls) was exhausted before I could run any searches, so this verdict rests on about 14 direct page fetches. That is far short of the 6-12 searches the task called for, and I found no startup-specific evidence either way. I found no vendor whose page shows a tele-clearance product for booking desks, meaning a remote RN/NP screening arrestees before booking with a time-stamped disposition (fit for booking, needs ER now, re-check in 2 hours). Incumbent jail-health vendors (Wellpath, NaphCare, Southern Health Partners) sell on-site staffing or in-custody care. Avel eCare sells 24/7 virtual clinicians to rural ERs and to law enforcement, but only for behavioral crisis. The unserved wedge is a pre-booking, per-county-per-month subscription for jails too small to justify a contracted health vendor, priced against deputy-hours and ER bills. Hospital-run or jail-staff-run tele-clearance programs may already exist locally and I could not check.\\n\\nTwo structural risks weaken the wedge and need validating early. First, the pitch says the Nurse Licensure Compact makes cross-state night staffing workable, but the NLC covers RNs, not NPs. As far as I know the APRN Compact was not yet operational, so NP staffing likely needs per-state licenses. Second, a remote clinician clearing an intoxicated or injured person on vitals and video alone shifts head-injury and withdrawal liability onto the vendor. That is a malpractice-insurance and clinical-governance problem, and a risk pool may or may not accept it. Revenue is also thin: 12 counties at $2-3.5k a month is roughly $290k-500k a year, with slow county sales cycles.",
+ "evidence_of_demand": "Partial, and indirect only. No RFP, forum thread or purchase of tele-clearance was found, because searching was not possible.\\n\\n1. Prison Policy Initiative, October 2025 (fetched from https://www.prisonpolicy.org/blog/2025/10/): about 25% of jail populations and 58% of prison populations are held in rural counties, and over 25% of rural hospitals are at risk of closure under the Medicaid cuts in the 2025 budget law. It documents one Michigan example of 'upwards of $430,000' for 224 ambulance trips to a rural correctional facility. It also says facilities increasingly avoid transporting sick people because of cost. This supports the cost pain and the trend of counties avoiding ER runs, but it is not evidence of demand for tele-clearance specifically.\\n2. Incumbents already market telehealth to jails (NaphCare STATCare 24/7 at https://www.naphcare.com, ViaPath Enhanced Telehealth at https://www.viapath.com), which shows counties and vendors accept remote clinical care in corrections. It also means a bundled competitor could add the feature.\\n3. Avel eCare Crisis Care (https://www.avelecare.com) shows law enforcement will buy a 24/7 virtual clinician co-responder, but only behavioral health.\\n\\nNot found: risk-pool or insurer programs funding this, sheriff complaints about ER clearance waits, and any county contract for a tele-clearance service.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Sell risk-pool-first, in one state. Make the state association-of-counties liability pool the economic buyer, so the pool funds or discounts the service as a loss-control benefit, and counties adopt it as a covered risk-reduction measure rather than a line-item purchase. The pool also underwrites the liability question and shortens the county-by-county sales cycle. Consider partnering with or white-labeling for a critical-access hospital's ER and telehealth group, so the licensed clinicians and malpractice coverage already exist and the hospital recovers ER boarding capacity. Anchor the product on a defensible, time-stamped record for the risk pool (withdrawal-watch checklists, CIWA/COWS-style monitoring, scheduled re-checks) rather than 'clearance'. Report deputy hours returned to patrol as the headline metric. Before building, do three things. (1) Confirm whether NaphCare STATCare 24/7, Turn Key Health and Avel eCare cover booking-desk screening. (2) Have a lawyer check whether NP licensure per state and the remote-clearance liability model are viable. (3) Get one risk pool to say in writing that it would fund a pilot."
+}

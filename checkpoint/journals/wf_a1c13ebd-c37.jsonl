@@ -1,0 +1,9 @@
+{"type":"launched"}
+{"type":"started","key":"v2:279e34ee096a8b1e602b5e04ec5702d012c47891df018fb84595a861b9ba90b3","agentId":"abb580f8c723cb891","label":"idea:aging-silver:boring-lucrative","phase":"Ideate"}
+{"type":"started","key":"v2:b77a8a09f3814710443418fbcb5985edddf4208fbebcb616e25ca6f0319d196d","agentId":"ae6ac5e227ef9fd24","label":"idea:trades-housing:boring-lucrative","phase":"Ideate"}
+{"type":"failed","key":"v2:b77a8a09f3814710443418fbcb5985edddf4208fbebcb616e25ca6f0319d196d","agentId":"ae6ac5e227ef9fd24"}
+{"type":"started","key":"v2:758d986d3a49fa15d2a22f67168f4d7e5973c1e1120cacaa1a6520945fa32753","agentId":"a5e07ed672d9f7522","label":"idea:edu-credentials:boring-lucrative","phase":"Ideate"}
+{"type":"failed","key":"v2:758d986d3a49fa15d2a22f67168f4d7e5973c1e1120cacaa1a6520945fa32753","agentId":"a5e07ed672d9f7522"}
+{"type":"started","key":"v2:385040d6643086ebcf5591c24516a75705841e680a6f8eb73a1d10192298f92e","agentId":"a5d35ab2b84a36c87","label":"idea:legal-regtech:boring-lucrative","phase":"Ideate"}
+{"type":"failed","key":"v2:385040d6643086ebcf5591c24516a75705841e680a6f8eb73a1d10192298f92e","agentId":"a5d35ab2b84a36c87"}
+{"type":"started","key":"v2:2a7e6c6777b9c74c92f6127c33dbce6662fb056e1a91aeeebcdb38365d08ed45","agentId":"a6a8e6b95a5057896","label":"idea:logistics-robotics:boring-lucrative","phase":"Ideate"}

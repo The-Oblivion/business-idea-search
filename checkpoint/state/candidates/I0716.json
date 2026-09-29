@@ -1,0 +1,16 @@
+{
+ "title": "Independent Referee for Survey Panel Data",
+ "angle": "second-order",
+ "one_liner": "An audit that tells research buyers what share of their online-panel responses came from bots, agents or fraud farms, and recalibrates the study against a verified-human control sample.",
+ "customer": "Insights heads at CPG, pharma and financial-services firms, UX-research teams, academic labs and pollsters who buy panel sample from third-party vendors at $5-500 per complete.",
+ "problem": "One prompt to a commercial AI agent now passes screeners and attention checks. A controlled evaluation found synthetic respondents passing 99.8% of 6,000 attention-check trials. As little as 3-7% contaminated responses can invalidate conclusions. Panel vendors both sell the sample and score its quality, so buyers cannot trust the referee.",
+ "solution": "A per-study data-quality audit. Response files (timings, paradata, device data, open-ends) go through a detection ensemble plus honeypot items. A subset of the same questionnaire goes to a small address-recruited, device-attested human panel as a ground-truth control. Deliver an audit stamp, contamination-adjusted estimates, and a vendor scorecard across suppliers.",
+ "why_now": "Survey-fraud research in 2025-26 shows agents beating attention checks. An MIT-run $50K challenge is testing detection, and NORC published a fraud literature review. Election-season polling and pharma sample budgets raise the stakes, and buyers are asking who audits the panels.",
+ "revenue_model": "$3-15k per study audit, $50-150k per year programmes for insights teams that spend $2-10M on sample, and vendor-scorecard subscriptions.",
+ "non_obvious_insight": "Most anti-fraud tooling is sold by panel sellers, whose incentive is to under-report fraud. The scarce asset is not detection code but an independent, verified-human comparison group, because you cannot prove what is fake without a known-real reference.",
+ "first_30_days": "Recruit about 2,000 verified humans by address-based mail or a university survey-centre partnership. Buy sample from six panel vendors yourself and publish a 'state of sample quality' benchmark. Offer free audits to five insights leaders who have posted about bad data.",
+ "outside_box_score": 7,
+ "source": "idea:trust-verification:all4",
+ "kind": "idea",
+ "id": "I0716"
+}

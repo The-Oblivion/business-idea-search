@@ -1,0 +1,16 @@
+{
+ "title": "Settlement Passports for Florida High-Rise Condos",
+ "angle": "Climate adaptation x Space economy",
+ "one_liner": "A satellite-radar settlement history for every Florida condo tower, sold as the cheap first page of the milestone-inspection and reserve-study file.",
+ "customer": "Florida condo associations and the licensed engineers and property managers who run their milestone inspections and structural integrity reserve studies; secondary buyers are master-policy underwriters, lenders and buyers' agents doing condo diligence.",
+ "problem": "Carriers want structural documents before they bind a master policy, SIRS and milestone inspections are mandatory for 3+ story buildings, and special assessments run $50K-$200K+ per unit. Boards cannot tell whether their building is stable or sinking until an engineer bills for scoping. A 2024 University of Miami InSAR study found 35 Miami Beach to Sunny Isles buildings subsiding 2-8 cm over 2016-2023, and no commercial product packages this for boards.",
+ "solution": "Process free Sentinel-1 radar (2015 onward), ESA archive radar for the 1990s-2010s, and newly public NISAR L-band data into a per-building vertical-motion trend. Add differential tilt across the footprint and a comparison against neighbours built on similar fill. Deliver a 3-page Settlement Passport plus a monitoring feed, positioned as a screening indicator that sharpens inspection scope, with an engineer partner signing off. It is not a substitute for the inspection.",
+ "why_now": "Florida's post-Surfside SB 4-D inspection and reserve-study mandates are now enforced and carriers demand documents. NISAR L-band data has been free through ASF since the July 20, 2026 public release, adding to the Sentinel-1 record. Peer-reviewed proof that InSAR resolves individual Miami towers exists but has not been productized. Reinsurance is softening while condo retail insurance is still squeezed.",
+ "revenue_model": "$900-$2,500 per building for the initial passport and $300/yr for monitoring. Wholesale price of about $400 to engineering firms who bundle it into SIRS work. $100/building/yr portfolio contracts for management companies.",
+ "non_obvious_insight": "InSAR is treated as an academic or pipeline-monitoring tool, but the buyer with a legal deadline and a real budget is a condo board that must assemble a structural file. Persistent-scatterer InSAR works best on concrete high-rises, the exact asset at issue. The 10-30 year archive can also show a building has been stable for decades, which makes it a positive underwriting asset for the many buildings that are fine, not just a warning label.",
+ "first_30_days": "Run the free Sentinel-1 stack for about 400 buildings on the Miami-Dade and Broward barrier islands. Offer one free passport to each of 15 engineering firms and 5 management companies, and sign 2 engineers as resellers. Then charge the first 10 boards facing reserve-study or insurance-renewal deadlines.",
+ "outside_box_score": 7,
+ "source": "collide:climate-adaptxspace-sat+food-agxtravel-hospitality",
+ "kind": "collide",
+ "id": "I1289"
+}

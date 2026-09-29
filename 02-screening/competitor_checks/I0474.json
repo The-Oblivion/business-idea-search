@@ -1,0 +1,52 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "Luru (open-source 'Kenya's Digital Succession Copilot')",
+   "url": "https://github.com/CoolCerebralTech/luru",
+   "what_they_do": "Hobbyist NestJS/React app that scores succession readiness, builds family trees, does estate inventory and checks Cap 160 (Law of Succession Act) compliance. It is software only, with no field agents, consent collection, advocates or asset-discovery letters. I could not read its README because the repo is not in this session's allowed list. My description comes from the search-result blurb.",
+   "scale_or_funding": "0 stars, 0 forks, created Sept 2025, no funding signal",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Wakili-Intel (AI drafting copilot for Kenyan advocates)",
+   "url": "https://github.com/fab679/wakili-intel",
+   "what_they_do": "Open-source AI copilot that researches Kenya Law and drafts pleadings for advocates. It is a possible substitute for the document-drafting step of the idea, but it does no client intake, heir mapping or field work.",
+   "scale_or_funding": "0 stars, created July 2026, hobby or hackathon project",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Unclaimed Financial Assets Authority (UFAA)",
+   "url": "https://www.ufaa.go.ke/claiming-instructions/",
+   "what_they_do": "Government register of unclaimed assets. Beneficiary claims for a deceased owner use Form 4B and require a Certificate of Confirmation of Grant from the High Court or a Certificate of Summary Administration from the Public Trustee. Agent claims (Form 4D) are allowed only for living owners and need a registered power of attorney. It is an incumbent channel for the asset-discovery piece, not a competitor for the whole bundle.",
+   "scale_or_funding": "State agency, free to use as far as I could see. The FAQ pages I fetched say nothing about fees or intermediaries either way.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Ardhisasa (Ministry of Lands digital land registry)",
+   "url": "https://ardhisasa.lands.go.ke",
+   "what_they_do": "Government online land registry for searches and dealings. It is the system of record the idea depends on, and a possible future incumbent if it adds guided succession or transmission workflows. The fetch returned only the site name, so I could not confirm which services or counties it covers, or whether transmission by succession runs end-to-end there.",
+   "scale_or_funding": "State platform",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Kenya Judiciary e-filing / Case Tracking System",
+   "url": "https://efiling.court.go.ke",
+   "what_they_do": "Court e-filing portal used by advocates. My recollection, unverified, is that it accepts succession causes. The URL returned HTTP 503 when I fetched it. It lowers the cost of filing but does nothing about heir coordination.",
+   "scale_or_funding": "State platform",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Fixed-fee Kenyan succession advocates and private-client law firms (category, no single firm verified)",
+   "url": "n/a - could not be verified because the web search budget ran out",
+   "what_they_do": "Advocates already file successions for clients, and some serve diaspora clients over WhatsApp or email. They are the real incumbent substitute. None of them was checked for a productised, flat-fee, consent-collecting offer, and I did not confirm any funded startup doing this.",
+   "scale_or_funding": "Fragmented. Not researched.",
+   "overlap": "direct"
+  }
+ ],
+ "white_space": "Provisional, because the web search budget hit its 200-call cap before any search returned results. My evidence comes only from direct page fetches and GitHub repo searches. I found no funded startup, product or open-source project that combines (a) diaspora-paid flat-fee intake, (b) heir mapping across Kenyan name variants, (c) field-agent collection of chief's letters and thumbprint or video consent from 8-20 relatives, and (d) hand-off to partner advocates. The software pieces (family tree, readiness score, drafting copilots) exist only as zero-star hobby repos. Government platforms (Ardhisasa, court e-filing, UFAA) cover filing and claiming but not multi-heir coordination. UFAA's beneficiary claim rule makes succession a prerequisite for claiming a dead person's unclaimed assets, so a succession-first product that unlocks those assets has a logical hook. The unserved wedge is the coordination and evidence-gathering layer sold to the paying sibling abroad. It is still unproven whether ordinary advocates or land-buying-company agents already do this informally, because I could not search for them.",
+ "evidence_of_demand": "Thin and mostly structural. I could not run the searches for forum complaints, press coverage, RFPs or spend on workarounds. (1) UFAA requires a Certificate of Confirmation of Grant (High Court) or a Public Trustee summary administration certificate before beneficiaries can claim a deceased person's unclaimed assets, and beneficiary claims take up to 90 days versus 30 for owners: https://www.ufaa.go.ke/claiming-instructions/ and https://www.ufaa.go.ke/faqs/. This confirms that succession gates asset release. (2) Several open-source Kenyan succession and legal-AI projects exist, which shows builder interest: https://github.com/CoolCerebralTech/luru and https://github.com/fab679/wakili-intel. That is not evidence of customers paying. Not verified: the size of the 'land in a dead person's name' backlog, diaspora willingness to pay KES 15-25k, and the idea's ~US$5bn remittance figure. From memory, the remittance figure is about right and the backlog is widely reported. The idea's claim that UFAA 'discourages middlemen taking a share' was not confirmed on the UFAA pages I fetched, which say nothing about fees or intermediaries.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "(1) Fix the legal structure first. From memory, and it must be verified with a Kenyan advocate, the Advocates Act restricts non-advocates from preparing court documents or conveyancing instruments for a fee. Selling a 'court-ready bundle of forms and affidavits' from a non-lawyer company is the main structural risk. Make a partner law firm the contracting entity of record, or sell only the non-legal layer (heir map, name-variant reconciliation, official searches, consent and thumbprint capture with video proof). The advocate then bills for the filing. (2) Sell the coordination layer, not the paperwork: a 'Family Consent Ledger' that gets 8-20 heirs to sign and tracks days from intake to gazettement. That avoids competing with advocates and with Ardhisasa or e-filing. (3) Start with cohorts that share one registry and chief: members of the same 1960s-80s land-buying company or settlement scheme in one county. Batch searches and field trips give better unit economics than single estates. (4) Keep the SACCO and coop B2B lane as a second channel, sold as cleared-estate throughput. (5) Treat asset discovery as a flat add-on, since UFAA claims need a confirmed grant first. That makes it an upsell after succession, not a lead product. (6) Before building, do the searches I could not run: Kenyan legal-tech startups, land-buying-company succession help desks, diaspora land-services firms, and whether Ardhisasa handles transmission by succession end-to-end."
+}

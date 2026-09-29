@@ -1,0 +1,77 @@
+{
+ "title": "Fifteen-Minute Court Reporting for Family Law Hearings",
+ "one_liner": "Remove the half-day minimum by dispatching remote stenographers into many short hearings per day, so a family-law litigant gets a certified record of a 15-minute hearing for about $100.",
+ "customer": "California family law and probate attorneys and solo practitioners. Self-represented litigants reached through DV legal aid organizations and family law facilitators. Legal aid groups buying bulk credits. Later, county courts contracting to meet the new duty to provide records to indigent litigants.",
+ "problem": "California logged roughly 3 million civil, family and probate hearings without a verbatim record between April 2023 and March 2026, about 7 in 10. Without a record, appeals of custody and restraining-order rulings fail, because the appellant cannot show error. Private reporters charge $250-$500+ appearance minimums, since a reporter can wait 2-3 hours for a 12-minute calendar item. Nobody pays that for a routine hearing. In 2026 the California Supreme Court (Family Violence Appellate Project v. Superior Court) held that courts must give indigent litigants an official verbatim record on request, and courts do not have the reporters to comply.",
+ "solution": "A dispatch platform that reads court calendars, predicts when each matter will be called from historical hearing-type durations per department, and pages a remote reporter into the court's Zoom or Teams feed only for the minutes needed. One reporter covers 8-12 short hearings a day across departments. Deliver a certified transcript in 24-72 hours, with an AI first draft for the reporter to scope. Price is a flat $95 for hearings up to 15 minutes and about $8 per page beyond that. Start where remote appearance and remote reporting are allowed (California's AB 3013 authorizes remote reporting, and each court's procedures need checking). Pitch courts on per-department-day capacity at a discount to staffing a full-time reporter.",
+ "why_now": "The 2026 California Supreme Court ruling creates a legal duty courts cannot currently meet. AB 3013 (2024) opened remote reporting. The workforce is projected to be about 5,500 reporters short by 2030. Family courts are widely on video. Reporter dead time is a scheduling problem that software can solve.",
+ "revenue_model": "Per-hearing fees paid by attorneys and litigants. Bulk credits funded by legal aid and foundation grants. Later B2G contracts priced per courtroom-day. The reporter keeps about 55-60% of each hearing fee, which beats their typical hourly yield because dead time is eliminated.",
+ "non_obvious_insight": "The reporter shortage is partly a utilization problem. In a busy family calendar department, a reporter may write 2-3 hours of a 7-hour day and wait the rest. Remote hopping sells that dead time to several litigants at once, so the price can fall 70% while the reporter earns more.",
+ "first_30_days": "Sign 3-5 remote-capable freelance or semi-retired reporters. Pick one county whose family departments run on Zoom and cover it manually with a shared spreadsheet and a text pager. Offer 10 solo family law attorneys and two DV appellate nonprofits (start with the Family Violence Appellate Project) at-cost coverage of their next 5 hearings. Track wait time per hearing so the prediction model has real data.",
+ "outside_box_score": 6,
+ "source": "persona:p1-6",
+ "kind": "persona",
+ "id": "I0248",
+ "tournament": {
+  "score": 0.961,
+  "overall_rank": 57,
+  "cluster": "Small litigation practices lacking evidence, records and benchmark tools",
+  "judge_notes": [
+   "vc: rank 1/25 - Court ruling creates a legal duty. Utilization arbitrage cuts the price 70% while reporters earn more. Attorneys can pay within weeks.",
+   "operator: rank 5/25 - Fresh utilization insight after a court ruling, reporter supply is workable, and legal aid can fund bulk credits. B2G upside.",
+   "contrarian: rank 2/25 - Reporter shortage reframed as utilization arbitrage, anchored in the 2026 Cal. Supreme Court duty; clean manual start."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "Steno (Steno Agency Inc.)",
+    "url": "https://steno.com/",
+    "what_they_do": "Tech-enabled court reporting agency with a Job Marketplace for reporters, a Provider Dashboard, Steno Connect for remote depositions, and AI transcript analysis (Transcript Genius). It publishes CA-shortage content (brief.steno.com). I found no per-hearing, short-hearing or family-law product. Its marketplace is the most likely base for a fast follower.",
+    "scale_or_funding": "$49M Series C in March 2026, about $190M raised in total (SiliconANGLE, Crunchbase). https://siliconangle.com/2026/03/26/steno-raises-49m-change-court-reporting-ai-enabled-transcript-analysis/",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "DirectDep",
+    "url": "http://directdep.com/",
+    "what_they_do": "'Uber for court stenographers' app for instant 24/7 booking of reporters on real-time availability. Aimed at attorneys, mainly depositions. It has been covered since 2017 and relaunched in 2025. It has no family-hearing pricing and no calendar-prediction dispatch that I could find.",
+    "scale_or_funding": "Funding not found. Live product, launched 2017 (Law.com Legaltech News) and relaunched 2025 (thejcr.com/2025/06/27/new-on-demand-court-stenographer-app-launched/)",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "StenoScout",
+    "url": "https://stenoscout.com/",
+    "what_they_do": "Directory and quote-matching marketplace for court reporters, covering depositions, hearings and proceedings. Requests go to up to 5 providers, with most replies in 24 hours. It publishes rate guides ($250-1,500+ per session), which corroborate the price floor the idea attacks. It does not offer flat per-hearing pricing.",
+    "scale_or_funding": "Small directory, no funding found",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Incumbent agencies (Veritext, Esquire, Combs Reporting, Coalition Court Reporters)",
+    "url": "https://www.veritext.com/losangeles-2/",
+    "what_they_do": "Traditional agencies that supply pro tem reporters for California hearings on half-day or per-diem terms. This is the status quo the idea undercuts. They could add a short-hearing SKU, but half-day minimums are structural to their model.",
+    "scale_or_funding": "Established national and regional players",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "California courts' own AB 3013 remote reporting pilot",
+    "url": "https://sjud.senate.ca.gov/system/files/2024-06/ab-3013-maiesnchein-sjud-analysis.pdf",
+    "what_they_do": "The only lawful remote-reporting channel in California. 13 counties (LA, San Diego, Orange, San Bernardino and others) may use full-time, court-employed official reporters located in a court facility, capped at 10-20% of reporters and running in family and probate calendars. AB 2783 would extend the pilot to July 2028. It is a government-run substitute for the B2G pitch.",
+    "scale_or_funding": "Public program, 13 counties. Pilot originally ended 7/1/2026, extension AB 2783 passed the Assembly on 5/26/2026, and I could not confirm it was signed.",
+    "overlap": "direct"
+   },
+   {
+    "name": "Electronic recording plus certified transcription (eScribers, court-run recording)",
+    "url": "https://www.marin.courts.ca.gov/general-information/court-reporters-transcript-requests",
+    "what_they_do": "The 2026 Supreme Court ruling makes electronic recording the sanctioned fallback for indigent litigants. Vendors such as eScribers already transcribe court recordings for CA superior courts. This is the cheap substitute that undercuts the legal-aid and B2G segments. Verbit also holds a Judicial Council master agreement (MA-SF2026-01) for court captioning from 7/1/2026, which shows the court-tech vendor set is already engaged.",
+    "scale_or_funding": "Verbit is a funded public-scale vendor. eScribers is established.",
+    "overlap": "adjacent"
+   }
+  ],
+  "white_space": "Nobody offers flat-fee coverage of 15-minute California family-law hearings. That is because the core mechanic, private reporters dialing in from anywhere, is currently barred. Gov. Code 69959 says 'Remote court reporting shall not be used by courts to make the record of any court proceedings' and defines it as a stenographer not present in the courtroom (https://codes.findlaw.com/ca/government-code/gov-sect-69959/). The only exception, Gov. Code 69959.5, allows remote reporting only by 'full-time official reporters ... employed by the participating superior court', physically in a court facility, in 13 pilot counties, capped at 10-20% of reporters (https://codes.findlaw.com/ca/government-code/gov-sect-69959-5/). San Diego's court page states 'the court is prohibited by law from allowing remote court reporting for any court proceeding' (https://sdcourt.ca.gov/sdcourt/generalinformation/resourcelists/courtreporterinformation). The idea's claim that AB 3013 'opened remote reporting' to a private platform is wrong. Unserved and still legal: (1) physical-presence short-hearing coverage, where one pro tem covers several departments in the same courthouse using calendar-based duration prediction, and no vendor markets a per-hearing SKU; (2) a scheduling and utilization layer sold to courts to fill pro tem and official reporter slots, aimed at hiring and retention (the ruling names 'pro tem reporters paid by the court' as a compliance route, and court reporter counsel is calling on courts to lift hiring freezes); (3) fast certified transcripts of court electronic recordings for attorneys who need appellate-grade records. The white space is real but is a legal-regime bet on remote reporting being opened to private reporters, plus a narrow physical-hopping wedge. It is not a software-only wedge. Court reporter unions opposed AB 3013 and are a political headwind.",
+  "evidence_of_demand": "Problem and price evidence is strong. Payer evidence for private paying customers is weak, and the ruling may shrink the legal-aid and indigent segment.\n\nProblem scale:\n- More than 3 million civil, family and probate hearings had no verbatim record from April 2023 to March 2026 (Law360 https://www.law360.com/pulse/courts/articles/2529851; CalMatters https://calmatters.org/politics/2026/08/court-reporter-california-supreme-court/).\n- About 72% of unlimited civil, family and probate hearings had no reporter (Steno brief https://brief.steno.com/californias-court-reporter-shortage-is-leaving-millions-of-hearings-off-the-record).\n- FVAP's shortage page says the lack of a record makes appeals 'practically impossible' (https://fvaplaw.org/court-reporter-shortage/).\n\nPrice pain:\n- Private pro tem costs run about $450-500 for a half day, and a trial reporter costs about $3,300 per day (Law360, KALW https://www.kalw.org/bay-area-news/2026-08-13/california-supreme-court-rules-that-courts-must-allow-electronic-recordings-of-hearings, StenoScout https://stenoscout.com/blog/how-much-does-court-reporter-cost/).\n- Courts tell family litigants 'There will be no court reporter available. If you want the case reported, you will need to make arrangements for your own' (Sacramento https://www.saccourt.ca.gov/court-reporters/court-reporters.aspx).\n- Some counties charge only $30 for under one hour of an official reporter (San Bernardino fee schedule), which shows how far below market the subsidized price sits.\n\nRegulation forcing spend:\n- FVAP v. Superior Court, S288176 (Aug 10, 2026) holds courts have a mandatory duty to give indigent litigants an official verbatim record on request, including 'pro tem reporters paid by the court' or electronic recording (https://law.justia.com/cases/california/supreme-court/2026/s288176.html; https://fvaplaw.org/case-alert-fvap-et-al-v-superior-courts-et-al-2026-california-courts-have-a-mandatory-duty-to-provide-a-verbatim-record-of-all-court-proceedings-for-parties-who-cannot-afford-to-pay-for-a-privat/).\n- Courts pay under that ruling, not legal aid credits, and the Chief Justice wrote that 'a verbatim record created by electronic recording is better than no record at all'. The cheap fallback is recording, not a reporter.\n\nDemand not found: no RFP, forum thread or paid pilot showing attorneys or litigants will pay about $95 per hearing. The idea itself concedes 'nobody pays that for a routine hearing' at today's price. The only market signals for cheaper on-demand reporters are deposition-side products (DirectDep, Steno Job Marketplace).",
+  "kill": false,
+  "kill_reason": "n/a on competition grounds. No funded direct competitor offers flat-fee short family-law hearing coverage, so the idea is not crowded or dominated. Caveat for the founder: the remote-dispatch mechanic is currently illegal for private reporters in California (Gov. Code 69959), so the idea as written cannot launch without a legislative change or a court-run structure.",
+  "sharper_angle": "Drop the private remote-dispatch model for California, because Gov. Code 69959 bars remote reporting outside court-employed pilot reporters in a court facility. Build one of two versions instead. (A) Courthouse-hopping pro tem service. Reporters are physically present and cover 6-10 family departments in one big courthouse, using the calendar-duration prediction. Sell a flat per-hearing fee to attorneys, and sell pay-per-department-day capacity to courts as a lawful way to meet the FVAP mandate with 'pro tem reporters paid by the court'. (B) Scheduling and utilization software for courts and their AB 3013 remote pilots, meaning reporter-to-calendar matching, dead-time reduction and retention analytics, sold B2G to the 13 pilot counties. Pair either with a certified-transcript upsell on court electronic recordings (the eScribers model, priced for appeals) so revenue survives courts shifting to audio. Alternatively, launch first in a state that allows remote reporting by private reporters, where the mechanic is legal and the same shortage exists, and come back to California if the legislature opens it. Before spending money, run a one-week legal check (Judicial Council, and a court reporter licensing attorney) on whether any local rule lets a pro tem attend a video family hearing remotely."
+ }
+}

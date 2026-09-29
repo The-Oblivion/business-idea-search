@@ -1,0 +1,87 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "LIA Administrators (Appraisal Institute-endorsed E&O program)",
+   "url": "https://www.liability.com/appraiser-errors-and-omissions/",
+   "what_they_do": "Appraiser E&O carrier/administrator insuring 20,000+ valuation professionals. Offers FREE lifetime retirement tail coverage to sole-appraiser policyholders who retire after 5+ continuous years in the program and are over 65 or have 20 years of experience. This directly weakens the 'costly tail' pain point for many veteran appraisers. It does nothing for workfile custody, subpoena response or practice handoff.",
+   "scale_or_funding": "Established insurer/administrator; 20,000+ insureds; Appraisal Institute endorsed",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "OREP (Appraisal Insurance)",
+   "url": "https://orep.org/appraisal-insurance/",
+   "what_they_do": "Appraiser E&O provider. Free tail for appraisers continuously insured 5+ years who are of retirement age and meet eligibility. Landy and others sell paid ERP at roughly 100-150% of the last annual premium.",
+   "scale_or_funding": "Established niche insurer",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "a la mode TOTAL / Cotality (also ACI, ClickFORMS)",
+   "url": "https://www.alamode.com/appraiser/total/",
+   "what_they_do": "Dominant appraisal software with built-in digital workfile archiving. A retiring appraiser can already store workfiles in the software or in generic cloud storage. Nothing in the results shows a custody, subpoena-response or board-inquiry service for retired appraisers, but the incumbent could add one cheaply.",
+   "scale_or_funding": "Cotality-owned; among the most widely used appraisal platforms",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Aloft Appraisal",
+   "url": "https://www.prnewswire.com/news-releases/aloft-raises-20m-series-a-to-accelerate-transformation-of-the-real-estate-appraisal-industry-301428490.html",
+   "what_they_do": "Tech-enabled appraisal company with in-house appraisers and proprietary workflow software, doing desktop and hybrid valuations. Certified appraisers coach up to 3 trainees each and are paid per trainee report. It gives its toolkit free to US trainees. This is the closest existing 'supervisor-of-record plus trainee' model, but it is a centralized AMC-style model, not a local practice-succession model.",
+   "scale_or_funding": "$20M Series A (PR Newswire); operates in the US and Canada",
+   "overlap": "direct"
+  },
+  {
+   "name": "Valligent Appraiser Training Program (Veros)",
+   "url": "https://www.veros.com/veros-and-valligent-launch-the-valligent-appraiser-training-program-for-increased-appraiser-diversity",
+   "what_they_do": "Lender-sponsored trainee program. Lenders commit to order from trainees and supervisors at no cost to the lender. Valligent hires certified supervisors as full-time employees and salaries the trainees. It already solves 'supervisors are scarce, so pay them' for lender-backed coverage.",
+   "scale_or_funding": "Backed by Veros Software; lender partners such as New American Funding",
+   "overlap": "direct"
+  },
+  {
+   "name": "Solidifi Appraiser Trainee Mentorship Program",
+   "url": "https://www.solidifi.com/solidifi-launches-appraiser-trainee-mentorship-and-scholarship-program/",
+   "what_they_do": "AMC-run mentor and supervisor matching plus scholarships. It has facilitated 90+ supervisor-trainee relationships in its network.",
+   "scale_or_funding": "Established national AMC; 90+ trainees matched as of the 2021 announcement",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "AXIS Appraisal Management / Collateral Risk Network trainee initiative",
+   "url": "https://www.axis-amc.com/trainees/general-information.php",
+   "what_they_do": "An AMC pushing lenders and GSEs to let trainees inspect without the supervisor also inspecting, to lower the barrier for supervisors taking trainees. If it succeeds, supervisor capacity gets cheaper and the 'supervisors are the scarce resource' thesis weakens.",
+   "scale_or_funding": "Established AMC",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "PAREA (Appraisal Foundation / Appraisal Institute)",
+   "url": "https://appraisalfoundation.org/pages/parea",
+   "what_they_do": "AQB-approved simulated-experience pathway that lets a trainee earn qualifying experience without a supervising appraiser. It reduces demand for human supervisors and competes for career-changer trainees.",
+   "scale_or_funding": "Appraisal Foundation-sanctioned; multiple approved providers",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "AppraiseItNow",
+   "url": "https://www.appraiseitnow.com/sell-appraisal-business",
+   "what_they_do": "Actively acquires appraisal practices for up to $1M, but only personal-property, machinery/equipment, business and specialty appraisal. Explicitly not owner-reputation firms. No real-estate residential practices, and no mention of workfile custody or E&O tail. It is proof that 'we buy your appraisal practice' exists in non-real-estate niches.",
+   "scale_or_funding": "Private, no funding data found",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Reggora",
+   "url": "https://appraisalbuzz.com/how-tech-is-working-on-the-solution-to-the-appraiser-shortage/",
+   "what_they_do": "Appraisal-workflow and 24-hour appraisal platform with its own appraiser network, competing for the same lenders. It absorbs the retiring appraisers' lender demand through a platform rather than a personal handoff.",
+   "scale_or_funding": "About $45M raised (per Appraisal Buzz and Appraisers Blogs)",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Class Valuation, Atlas VMS and other AMC consolidators",
+   "url": "https://www.classvaluation.com/latest_news/class-valuation-expands-valuation-capabilities-with-acquisition-of-allstate-appraisal/",
+   "what_they_do": "AMCs acquiring other AMCs and valuation firms (Class Valuation bought Allstate Appraisal; Atlas VMS bought First Appraisal Management in Texas). They are consolidating AMC-side capacity, not individual retirees' practices, workfiles or direct lender relationships.",
+   "scale_or_funding": "Established AMCs; deals reported Aug 2026",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "No company found that bundles the four pieces (workfile custody plus subpoena and board-inquiry response, tail, local-knowledge capture, direct-lender client handoff to a supervised successor). Searches for retiring-appraiser succession services, workfile custodian services, and appraiser practice brokers returned only DIY articles from WorkingRE, McKissock, Appraisal Today and NAR.\\n\\nSpecific white space that survives:\\n(1) Third-party workfile custody and retrieval (agent-of-record for subpoenas and board requests) for retired or deceased appraisers. USPAP requires retention and retrievability for 5+ years, with regulators able to act later, and no dedicated vendor was found. Software vendors and cloud storage only store files, and nobody answers a subpoena for you.\\n(2) Local, rural or community-lender-funded succession. Aloft, Valligent and Solidifi are national or AMC-centric, not local continuity for a single county.\\n(3) The retiree-as-mentor stipend and earn-out structure, which none of the trainee programs use.\\n\\nSpecific weaknesses in the idea:\\n(a) The 'tail is frightening and costly' pain is largely solved for long-tenured appraisers by free LIA and OREP retirement tails. The paid pain is limited to those with short E&O tenure, gaps, or sub-5-year policies. Tail brokerage commissions are therefore thin.\\n(b) Fee-splitting and finder's-fee rules. Minnesota (82B.20) bans commission-splitting, rebates and finder's fees with appraisers, and other states have similar rules. An earn-out on inherited client revenue and a 20-30% take on trainee fees may be illegal in some states unless structured as a sale of a business or as employment.\\n(c) Supervisor-of-record is not passive. State rules limit trainee counts (Aloft cites 3 per supervisor), require certification in good standing and the supervisor's own E&O, and make the supervisor take full responsibility. A retiree who stays on as supervisor is not really retired and keeps license, CE and E&O costs.\\n(d) Client transferability is weak. Appraisal Today notes practices under $200K are 'buying a job', and residential lender relationships are 'fickle'. Most practices sell at 0.33-0.5x revenue with seller financing, and AMC-dependent revenue is not transferable.\\n(e) Pipeline substitutes are growing: PAREA, AXIS/CRN trainee-inspection reform, Valligent and Aloft paying supervisors.",
+ "evidence_of_demand": "Demand for exit is strong. Demand to PAY for this bundle is not proven, and I found no example of a retiree paying for workfile custody or a succession service.\\n\\nEvidence the exit wave is real:\\n- WorkingRE 2026 Appraiser Survey: 31% plan to leave within 3 years, about 50% within 5 years, 57% of active appraisers are over 60, first-time test takers down 70% since 2009 (4,790 to 1,421 in 2025), and only 820 passed in 2025. https://www.workingre.com/2026-appraiser-survey-state-of-the-profession/\\n- Workforce fell from about 92,000 in 2016 to about 65,000 in June 2025. https://www.workingre.com/the-decline-of-appraisers/\\n- UAD 3.6 mandatory Nov 2, 2026, with commentators saying some veterans will exit rather than retool. https://www.mckissock.com/blog/appraisal/the-future-is-now-fannie-mae-and-freddie-mac-announce-uad-3-6-implementation-timeline-and-policy-changes/ and https://remdamno557947.substack.com/p/the-ones-who-are-leaving-and-the\\n- Only 16% of appraisers are willing to train, and lack of compensation is the top reason. https://nationalmortgageprofessional.com/news/lending-hand-appraiser-trainees\\n- Regulator and lender pressure: EO 14393 (Mar 13, 2026) directs simplified appraiser qualifications and more alternative valuation. https://www.federalregister.gov/documents/2026/03/18/2026-05384/promoting-access-to-mortgage-credit. AQB second exposure draft (June 22, 2026) proposes dropping the college requirements. https://appraisaltoday.com/2026/06/25/aqb-exposure-draft-removes-college-degree-requirement/. Reported comment deadlines conflict (Aug 30 vs July 27). ABA Banking Journal and CSBS document rural appraiser shortages. https://bankingjournal.aba.com/2026/06/effective-strategies-for-managing-an-appraiser-shortage/\\n- USPAP retention and retrievability duties survive retirement; guidance says keep files longer than the minimum because regulators can act after it lapses. https://www.mckissock.com/appraisal/uspap/understanding-uspap/uspap-record-keeping-rule/ and https://memberships.theappraisercoach.com/blog/workfiles-beyond-retirement\\n- Forum activity about retirement, tail and workfile worries. https://appraisersforum.com/forums/threads/retiring-from-appraisal-tail-end-coverage.240529/page-4\\n- Practices do sell, at 0.25-1.4x revenue (mostly 0.33-0.5x, seller-financed, 6-12 month transition). https://appraisaltoday.com/biz-tips/can-you-sell-your-appraisal-business/\\n\\nEvidence against or missing:\\n- Free tail from LIA and OREP for eligible veterans, as noted in the competitors.\\n- Nothing found showing that retirees pay for custody, that credit unions pay for 'coverage guarantees', or that trainee-farm supervisor fees are accepted.\\n- Retirees' stated alternatives are DIY: keep the files, keep the tail, let the license lapse. Also, about 15% of residential appraisers are already not actively practicing (ABA Banking Journal).",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Drop the trainee farm, the earn-out and the tail brokerage, and narrow to the one piece nobody serves. Make it a records-custodian and regulatory-response service for retired and deceased appraisers, sold through the channels that already reach them.\\n\\nWhat it is: a third-party workfile custodian and agent-of-record that stores the files, holds retrievability under USPAP, and answers subpoenas and board requests on the retiree's behalf. Price it at about $29/month or a one-time lifetime fee, and offer an estate and heirs version.\\n\\nWhy this wedge:\\n- Free LIA and OREP retirement tails already cover the money risk but do not preserve or produce the workfile, which is the main defense in a claim.\\n- E&O carriers, the Appraisal Institute, state boards and estates have an incentive to fund it as a loss-control benefit. That gives a distribution channel and avoids selling to 58-year-olds one by one.\\n- It avoids fee-splitting law and supervisor-licensing problems entirely.\\n\\nWedge 2, only after custody has traction: a lender-funded 'local coverage continuity' program for rural community banks and credit unions. The retiree is paid a fixed mentor or reviewer fee, not a percentage of the successor's revenue, to hand a named successor (an existing trainee or certified appraiser) the local-knowledge playbook and direct-client introductions. This keeps out of Aloft's and Valligent's national AMC-style lane by staying single-county and bank-sponsored.\\n\\nBefore building, validate with 20 retiring appraisers on willingness to pay for custody, and get one E&O administrator (LIA or OREP) to say they would refer or co-brand. If neither is true, the idea collapses to a free feature.\""
+}

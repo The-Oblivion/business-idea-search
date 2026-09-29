@@ -1,0 +1,16 @@
+{
+ "title": "IEP Chief of Staff for Special-Ed Parents",
+ "angle": "2",
+ "one_liner": "Rich parents win school disputes with a paid educational advocate and paper trail; for $20/mo, give parents of the roughly 7.5M US students with IEPs a chief of staff who watches the legal clocks and logs every missed service minute.",
+ "customer": "Parents of children with IEPs (autism, ADHD, dyslexia, speech and language delay), sold through state and local special-ed parent groups, parent training centers, pediatric practices, disability law clinics and credit unions.",
+ "problem": "Districts arrive with a team; wealthy families bring an advocate ($150-400/hr) and an attorney. Federal enforcement was hollowed out (mass OSEP layoffs in October 2025, and reported moves of oversight to HHS and civil-rights enforcement to DOJ in June 2026), so parents are effectively on their own. Most violations are procedural (late evaluations, missing prior written notice, services not delivered) and go unnoticed because nobody keeps the clocks.",
+ "solution": "Parent uploads the IEP and evaluations. The system builds the legal calendar (evaluation timelines from consent, meeting-notice windows, annual and triennial reviews, progress-report cadence), drafts records requests, creates a one-page pre-meeting brief (top asks plus data), and sends a same-day 'memorializing' follow-up email with prior-written-notice requests after meetings. It logs service minutes delivered vs promised, quantifying missed minutes for a compensatory-services claim, and scans the IEP for defects (no baselines, unmeasurable goals). Advocates are on-demand at $75 per 30 minutes, with a path to state complaint and due process.",
+ "why_now": "The federal special-ed enforcement vacuum is documented and new as of late 2025 and mid-2026. IEP counts are rising, and LLMs can parse messy IEP PDFs and draft procedurally precise letters. Parent communities are organized on Facebook and Reddit and actively looking for help.",
+ "revenue_model": "$20/mo per family; $75 advocate sessions with a revenue split to a vetted advocate co-op; $3-6 per member per month from parent centers, pediatric groups and credit unions; district-facing analytics sold only with parent consent, later.",
+ "non_obvious_insight": "What the rich buy is not better argument but continuous procedural pressure: dated, written, specific requests. The subscription funds clock-watching and documentation, not advice. Parents who log service minutes turn 'I feel they're not delivering' into a quantified claim, and the paper trail is the evidence in any later dispute, so value compounds over time.",
+ "first_30_days": "Publish a free IEP clock calculator and letter templates. Partner with admins of 10 state-level special-ed Facebook groups and concierge 30 families manually, measuring violations found. Convert those families to $20/mo and recruit 5 advocates for the on-demand tier.",
+ "outside_box_score": 5,
+ "source": "wild:g3+g4",
+ "kind": "wild",
+ "id": "I0289"
+}

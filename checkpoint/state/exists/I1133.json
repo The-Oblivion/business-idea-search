@@ -1,0 +1,122 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "Patra (AI Policy Checking)",
+   "url": "https://www.patracorp.com/insurance-outsourcing-services/insurance-policy-checking-ai/",
+   "what_they_do": "Established outsourcing and AI policy-checking vendor for retail agencies, wholesalers, MGAs and carriers. Checks commercial policies against a 900+ point checklist across 12 commercial lines (~85% of volume) and says it 'automatically extracts and flags hidden exclusions, restrictive line of business language, and reduced coverage limits'. It reads the actual policy, which is stronger evidence than a filing. The page does not mention AI exclusions by name, and it does not check new versus expiring forms.",
+   "scale_or_funding": "Established firm with a large agency customer base. Funding not disclosed on the page.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Quandri",
+   "url": "https://www.crunchbase.com/organization/quandri",
+   "what_they_do": "AI renewal-review platform inside Epic AMS. For every renewing policy it flags coverage changes, year-over-year shifts, new or removed coverages and premium moves. It also requotes and drafts client outreach. Its US positioning is mostly personal lines. The page does not mention exclusions or AI exclusions. Adding an 'AI exclusion added' flag would be a small feature.",
+   "scale_or_funding": "About US$22M raised (Series A US$12M in July 2025, led by Framework Venture Partners). More than 100 agencies and brokerages including Brokerlink, Western Financial and BlueRidge Risk Partners.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Zywave Apex / Advisor Agent",
+   "url": "https://www.zywave.com/ai/advisor-agent/",
+   "what_they_do": "Flags every account entering the 90-day renewal window from AMS data. Scores accounts by churn risk, coverage-gap severity and revenue, and hands the producer an action plan. Its Summer 2026 release adds coverage-gap analysis and contract comparison. This is almost the same workflow as the idea (a 90-day trigger plus a gap flag), and the incumbent already owns the agency data. The page does not say it reads endorsements or AI exclusions. Early access began 23 June 2026.",
+   "scale_or_funding": "Zywave is a large PE-backed broker-software incumbent. Advisor Agent is in early access from June 2026.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Testudo",
+   "url": "https://www.testudo.co/brokers",
+   "what_they_do": "Lloyd's Lab-backed MGA (launched January 2026) selling standalone AI liability cover through brokers only. It offers brokers a free 'portfolio review' that maps a book to AI use cases within two business days. It also gives conversation starters for renewals and a gap matrix against CGL, E&O and cyber. It overlaps the idea's AI-use questionnaire and its 'placement' half. The carrier owns the placement commission.",
+   "scale_or_funding": "Lloyd's Lab-backed. Up to US$10M limits on E&S paper, 50 states. Standard producer agreement, no volume minimums, onboarding in 3-5 days.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Armilla AI (with Chaucer 'Vanguard AI')",
+   "url": "https://medium.com/@purdyhouse/the-first-ai-liability-insurance-product-has-25-million-in-coverage-five-exist-worldwide-575a2903b17b",
+   "what_they_do": "Lloyd's coverholder selling affirmative AI liability cover with up to US$25M limits. In February 2026 it launched a structure with Chaucer that pairs the cover with cyber and tech E&O. It is one of the 'affirmative AI markets' the idea plans to place with, and it sells through brokers directly.",
+   "scale_or_funding": "Lloyd's coverholder. Limits up to US$25M. Funding not confirmed in my research.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "AIUC (Artificial Intelligence Underwriting Company)",
+   "url": "https://medium.com/@purdyhouse/the-first-ai-liability-insurance-product-has-25-million-in-coverage-five-exist-worldwide-575a2903b17b",
+   "what_they_do": "Affirmative AI-agent insurer and certifier (AIUC-1 standard). It is a placement destination, not a tracker.",
+   "scale_or_funding": "US$15M seed led by Nat Friedman's NFDG (July 2025).",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Munich Re aiSure (via Mosaic)",
+   "url": "https://agentinsured.eu/articles/munich-re-aisure-ai-performance-insurance-europe",
+   "what_they_do": "AI performance insurance, now offered through Mosaic at up to US$15M. It is a placement destination.",
+   "scale_or_funding": "Munich Re, with the program running since 2018.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Gridex AI Exclusion Map / Endorsement Tracker",
+   "url": "https://gridex.dev/ai-exclusion-map/",
+   "what_they_do": "Publishes a free tracker of AI exclusion forms by carrier, policy line, scope, filing status and source. It covers Verisk, W. R. Berkley PC 51380, Hamilton, D&O, E&O, CGL and cyber. It is a small Los Angeles AI-operations shop using the tracker as content marketing. It shows the raw exclusion database is easy to publish for free.",
+   "scale_or_funding": "Small, unfunded as far as I can tell. Free.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Certian AI Insurance Filings Index",
+   "url": "https://certian.com/filings",
+   "what_they_do": "Free public registry of AI exclusion and affirmative AI filings with 62 entries, from 8 state filing systems (42 states not yet read). Data is downloadable as CSV and JSON under CC BY 4.0. Launched 12 August 2026 and updated by hand with no schedule. It is a direct free substitute for the 'exclusion database' moat, though it is thin today.",
+   "scale_or_funding": "Unknown operator. Free and open data (CC BY 4.0).",
+   "overlap": "direct"
+  },
+  {
+   "name": "Vorp Labs AI Insurance Exclusions Ledger",
+   "url": "https://vorplabs.com/ai-insurance-exclusions",
+   "what_they_do": "Free searchable ledger of AI exclusion forms as CSV and JSON. It has 5 verified records and 7 watchlist entries (Hamilton, Philadelphia Indemnity, Cincinnati, Chubb, Berkshire, AIG, Travelers), plus a broker renewal-review checklist. A small dev-tools company running it as a side project.",
+   "scale_or_funding": "Small. Free.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Trades Coverage (Generative AI Exclusion Report)",
+   "url": "https://www.insurancebusinessmag.com/us/news/professional-liability/isos-generative-ai-exclusion-is-already-on-thousands-of-cgl-policies-589971.aspx",
+   "what_they_do": "Licensed producer and marketplace for contractors. It already did the SERFF work: 4,078 state-level AI exclusion records across 49 states plus DC through 31 July 2026, with 2,369 in force, drawn from admitted SERFF plus Florida I-File. It publishes a free report and 70+ free tools, including an AI Endorsement Request Checklist. This proves the scraping step is feasible, replicable and already done for free.",
+   "scale_or_funding": "Licensed agency. Free research and tools.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "ShadowLock Cyber Insurance & AI Tracker",
+   "url": "https://shadowlock.io/resources/cyber-insurance-ai-tracker",
+   "what_they_do": "A shadow-AI detection vendor for MSPs and IT teams that publishes a free living tracker of carrier AI exclusions and affirmative endorsements as lead generation. Its paid product discovers unsanctioned AI tools on endpoints and browsers. It is a competitor for the optional 'scan for AI tools' feature.",
+   "scale_or_funding": "Private vendor. Pricing not disclosed.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Rosella",
+   "url": "https://www.startupdaily.net/topic/funding/ai-insurance-broker-platform-rosella-raises-3-7-million-in-pre-seed/",
+   "what_they_do": "AI-native commercial brokerage whose document intelligence reads and compares policies across carriers, flags coverage gaps and surfaces exclusions automatically. It targets US SMB and mid-market construction, manufacturing and logistics. It competes as a brokerage, not as software sold to brokers.",
+   "scale_or_funding": "A$3.7M pre-seed (April 2026) led by Peak XV Partners and Intact Private Capital.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "FurtherAI",
+   "url": "https://www.furtherai.com/blog/policy-analysis-software-insurers",
+   "what_they_do": "AI workspace for commercial insurance covering policy comparison, policy checking, submission intake and loss runs for carriers and brokers. Its own comparison says it documents no regulatory change monitoring, so it is not tracking exclusion filings today.",
+   "scale_or_funding": "Backed by Andreessen Horowitz, Y Combinator, Nexus Venture Partners, South Park Commons and Converge.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "InsuranceFiling / Comply Filing360 / FilingRamp",
+   "url": "https://www.insurancefiling.com/",
+   "what_they_do": "SERFF filing-intelligence tools. InsuranceFiling is a 50-state SERFF database with 173+ carriers across 16 insurance types. Comply's Filing360 is a filing intelligence platform. FilingRamp is a filing submission platform with a two-way SERFF API. They sell to actuaries, compliance teams and carriers, not to brokers. Any of them could add an AI exclusion facet, and they show that SERFF scraping is a crowded, commodity layer.",
+   "scale_or_funding": "Small to mid-size insurtech and regtech vendors. Funding not disclosed.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Mount (YC)",
+   "url": "https://www.ycombinator.com/companies/mount",
+   "what_they_do": "YC-backed carrier that explicitly cites the wave of AI exclusions as its thesis. It scans and red-teams AI deployments, then insures the residual risk. It is another affirmative-cover destination that could compete for the placement commission.",
+   "scale_or_funding": "YC-backed. Amount not confirmed.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "A real gap remains, but it is much narrower than the pitch. Nobody found sells a commercial-lines, broker-facing workflow that (1) takes a book's actual renewal forms schedules, quotes and binders (not just carrier-level filings), (2) detects and normalises AI exclusion breadth for each client, including bespoke wording such as Berkley PC 51380 and unnamed 'AI' language, (3) ties it to a 90-day renewal calendar, and (4) hands the producer a client-ready gap letter and a matched affirmative placement. Pieces exist separately. Patra reads commercial policies for hidden exclusions but is not AI-specific. Quandri and Zywave own the 90-day renewal trigger but show no exclusion-level AI flagging. Testudo and Armilla offer AI-use mapping and placement but only for their own paper.\n\nThree parts of the plan are weak. (a) The SERFF scraper and exclusion database are not a moat. Trades Coverage already compiled 4,078 records for free. Gridex, Certian, Vorp Labs and ShadowLock publish free trackers, and Certian even ships CC BY 4.0 CSV and JSON. (b) A filing shows a carrier adopted a form in a state. It does not show the form is attached to client X's policy, so the real signal is the policy document, not the filing. (c) SERFF filing access covers admitted markets only. Surplus lines is where most E&O, D&O and tech-E&O AI exclusions sit, and it is largely invisible to SERFF.\n\nWedge that looks unserved: commercial professional-liability and tech-E&O accounts (design firms, law, accounting, software, agencies) where exclusions are broadest and most bespoke, for independent agencies without an in-house risk-advisory team, priced as a renewal-review add-on rather than a filings database.",
+ "evidence_of_demand": "Strong evidence that the problem is real and urgent. Direct evidence that brokers pay for this specific tool is thin.\n\nProblem and urgency:\n- ISO CG 40 47, CG 40 48 and CG 35 08 took effect 1 Jan 2026, and W. R. Berkley introduced an 'absolute' AI exclusion for D&O, E&O and fiduciary lines (https://natlawreview.com/article/continued-proliferation-ai-exclusions).\n- Trades Coverage counted 4,078 state-level filing records across 49 states plus DC, with 2,369 in force by 31 July 2026 (https://www.insurancebusinessmag.com/us/news/professional-liability/isos-generative-ai-exclusion-is-already-on-thousands-of-cgl-policies-589971.aspx). Substack coverage reports Berkshire, Chubb, Travelers and AIG got over 80% of filings approved, with Florida, Connecticut and Maryland leading volume (https://insuranceintel.substack.com/p/berkshire-and-chubb-just-won-approval).\n- Exclusions arrive silently: the renewal invoice can be almost identical while the policy is materially different, because an exclusion endorsement usually does not change the premium (https://techsavvyinsurance.com/blog/ai-eo-exclusion-insurance-agents-2026/).\n- The Independent Insurance Agents & Brokers of America ('Big I') published the Verisk rollout as a resource for agents (https://www.independentagent.com/vu_resource/verisk-to-roll-out-new-general-liability-exclusions-for-generative-ai-exposures/). Agent-association and trade content now urges agents to review renewals for AI exclusions (https://agentsunited.org/ai-exclusions-are-coming/, https://www.iamagazine.com/2026/09/09/5-ways-insurance-agencies-can-reduce-ai-driven-eo-exposures/).\n- Gallagher says it is 'watching this very closely' because gaps may emerge (https://www.businessinsurance.com/insurers-brokers-adjust-as-ai-exclusions-emerge/).\n\nWillingness to pay for adjacent tooling:\n- Quandri raised about US$22M and has 100+ agencies paying for renewal policy checking (https://betakit.com/quandri-secures-16-5-million-cad-to-help-north-american-insurance-firms-automate-renewals-with-ai/).\n- Zywave launched a renewal and coverage-gap agent for the 90-day window (https://www.zywave.com/ai/advisor-agent/).\n- Patra sells commercial policy checking that flags hidden exclusions (https://www.patracorp.com/insurance-outsourcing-services/insurance-policy-checking-ai/).\n- Rosella raised A$3.7M on policy comparison that surfaces exclusions (https://www.startupdaily.net/topic/funding/ai-insurance-broker-platform-rosella-raises-3-7-million-in-pre-seed/).\n- Affirmative AI capacity is being built for the placement half: Testudo, Armilla, AIUC and Munich Re aiSure (https://www.testudo.co/brokers, https://medium.com/@purdyhouse/the-first-ai-liability-insurance-product-has-25-million-in-coverage-five-exist-worldwide-575a2903b17b).\n\nCaveats:\n- The founder's premise that brokers carry E&O exposure for failing to warn is weaker than stated. In most states an agent has no duty to advise on every exclusion in a policy (per the Tech Savvy Insurance article above, which reports the duty-to-advise rule as varying by state).\n- I found no evidence that anyone pays for a standalone AI-exclusion tracker. Every tracker found is free and used as lead generation.\n- Small business owners are largely unaware of the exclusions (business insurance blog claim: https://www.businessinsuranceusa.com/blog/insurance/ai-coverage-gap-small-business-insurance-2026/).",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Do not lead with the SERFF scraper or exclusion database as the product or moat. Free trackers (Gridex, Certian, Vorp Labs, ShadowLock) and Trades Coverage's 4,078-record dataset already commoditise it. Use the public filings only as a free enrichment and validation layer, and win on the document layer plus the workflow.\n\nBuild an 'AI exclusion diff' for commercial professional-liability renewals (E&O, D&O, cyber, tech E&O and CGL for professional-services clients, including design, law, accounting, software and marketing firms). The producer forwards the renewal quote, binder or policy PDF, and the tool returns a per-client breadth score covering: gen-AI only versus any AI, BI/PD versus advertising injury, and vendor-supplied AI. Where a carrier's exclusion is bespoke, it matches the wording against the filing library. A diff against the expiring policy shows whether an AI exclusion is new, and it ships a client-ready gap letter. Because it works from the policy document, it also covers surplus-lines paper, which SERFF does not.\n\nSell it per renewal ($150-600 per client gap letter) or as a small monthly plan, and design it as an add-on or partner integration for Epic and Zywave rather than a competing AMS or dashboard. Zywave's Advisor Agent and Quandri already own the 90-day trigger, and a specialist AI-exclusion classifier is a feature they may buy or copy. Make the placement side neutral: route to several affirmative markets (Testudo, Armilla, AIUC, Mount, Munich Re/Mosaic, Coalition-style endorsements) and earn referral revenue. Test the 10-15% commission assumption first, because the carriers courting brokers directly may not pay it.\n\nValidate first with 10 agencies that have professional-services or tech books: run their real last three renewals through a manual version and measure how many contain an AI exclusion the broker had not flagged. If that hit rate is high, sell to those agencies. If most already knew, the wedge is gone.\""
+}

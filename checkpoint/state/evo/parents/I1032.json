@@ -1,0 +1,99 @@
+{
+ "title": "AltSchool Without Buildings: Disability Programs in Host Schools",
+ "angle": "1",
+ "one_liner": "AltSchool burned $170M+ building its own schools; in Texas, the new voucher money can only reach accredited schools with two years of history, so rent that eligibility by running clinician-led disability programs inside half-empty accredited private schools.",
+ "customer": "Payer: Texas families with children on IEPs holding Texas Education Freedom Accounts (about $10k standard, up to $30k for IEP students at accredited private schools). Partner: small accredited private schools, often church schools, with empty classrooms. Supply: speech-language pathologists, BCBAs and dyslexia therapists who want to run a program.",
+ "problem": "TEFA rules require private schools to be accredited and to have operated two consecutive school years, and microschool or learning-pod students get only $2,000. Families holding $30k accounts cannot find seats with real special-ed capacity. Eligible incumbents have buildings but no special-ed expertise. Clinicians have expertise but no eligibility.",
+ "solution": "An operating company signs a host agreement with an accredited school. The school enrolls the students as school of record and receives the TEFA funds. We supply a clinical director, staff, structured-literacy or ABA-informed curriculum, IEP compliance, the annual norm-referenced testing TEFA requires for grades 3-12, and ESA billing reconciliation. Start with 8-10 student cohorts (dyslexia and autism support). Confirm with each host's accreditor that a program-within-a-school structure is acceptable.",
+ "why_now": "TEFA's first year is starting (2026-27): $1B in funding, more than 130,000 applications in the first three weeks, roughly 100,000 families expected. Texas public schools lost about 76,000 students this year and are closing dozens of campuses. Federal special-ed enforcement was hollowed out (OSEP layoffs in October 2025, with the office reportedly moving to HHS in June 2026), so parents are looking for alternatives.",
+ "revenue_model": "Management fee of about 20-25% of ESA revenue per student ($6-7.5k per $30k student, so $60-75k per 10-student program per year), with a 15-20% host share; one-time program-design fee ($3-5k) per host; compliance and reconciliation SaaS later.",
+ "non_obvious_insight": "AltSchool's mistake was building schools. In Texas the moat is accreditation plus a two-year operating history, which are other people's assets, so partner instead of build. Empty church-school classrooms, underemployed clinicians and $30k accounts form a three-way arbitrage that only exists because of the new rules.",
+ "first_30_days": "List about 150 small accredited private schools in DFW, Houston, San Antonio and Austin using accreditor directories. Send heads of school a one-page economics sheet. Recruit 10 clinicians via LinkedIn and SLP/BCBA Facebook groups. Sign 1-2 pilot hosts for a January 2027 cohort and collect pre-enrollment interest from TEFA parent groups. First revenue is host design fees, with per-student revenue starting once enrollments transfer.",
+ "outside_box_score": 7,
+ "source": "wild:g3+g4",
+ "kind": "wild",
+ "id": "I1032",
+ "tournament": {
+  "score": 0.934,
+  "overall_rank": 80,
+  "cluster": "Microschools, homeschoolers and shrinking districts",
+  "judge_notes": [
+   "vc: rank 3/25 - Rents eligibility others own; $30k IEP accounts; large if ESA states copy Texas.",
+   "operator: rank 2/25 - $30k funded IEP accounts, empty classrooms, idle clinicians; big prize, pre-funded demand, but regulatory-interpretation risk.",
+   "contrarian: rank 6/25 - Renting other people's accreditation to reach $30k IEP vouchers is real regulatory arbitrage; operationally heavy, revenue starts later."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "Fusion Academy (Nord Anglia)",
+    "url": "https://www.fusionacademy.com/",
+    "what_they_do": "Accredited 1-to-1 private school (grades 4-12) built around students with learning differences, ADHD, anxiety and dyslexia. Runs its own campuses, so it is a build model, not a host-school model. Sells to families and does not serve IEP-heavy autism or ABA populations. Whether its Texas campuses accept TEFA was not checked.",
+    "scale_or_funding": "80+ campuses nationwide per its site. Owned by Nord Anglia, so well capitalized. No funding figure checked.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Brightmont Academy",
+    "url": "https://www.brightmontacademy.com/",
+    "what_they_do": "Accredited 1-to-1 private school (grades 1-12) for students with learning differences, ADHD, anxiety and 2e. Its site lists ESA acceptance in AZ, NC, FL, GA and WA. No Texas campus is listed on its site, and no TEFA mention was found. It could expand into Texas.",
+    "scale_or_funding": "Campuses in about 11 states per its site. Funding not disclosed.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Prenda (microschool platform)",
+    "url": "https://prenda.com/",
+    "what_they_do": "K-8 microschool platform: curriculum, enrollment and payments software, and coaches. Charges $2,199 a year for state-scholarship students. It does not address special needs or Texas on its homepage. Its students would get only the $2,000 microschool-tier TEFA amount unless a school of record enrolls them.",
+    "scale_or_funding": "Over 1,000 guides, thousands of parents per its site. Funding not checked.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "KaiPod Learning",
+    "url": "https://www.kaipodlearning.com/",
+    "what_they_do": "Directory and Catalyst program that helps educators start microschools (legal setup, enrollment, operations). ESA use is mentioned only generically. The site shows no special-needs or host-school angle.",
+    "scale_or_funding": "150+ microschools in 30+ states, 500+ founders enrolled. No venture funding disclosed.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Primer Schools",
+    "url": "https://www.primer.com/",
+    "what_they_do": "Teacher-led K-8 small campuses that use state scholarships to keep tuition accessible. The homepage does not mention special needs or Texas.",
+    "scale_or_funding": "Not disclosed on the homepage.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Alpha School",
+    "url": "https://alpha.school/",
+    "what_they_do": "AI-driven private school network (2-hour learning) with Texas campuses. Not disability-focused. It shows that well-funded operators are already capturing Texas voucher demand for mainstream students.",
+    "scale_or_funding": "Multi-state campuses. Funding not checked.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Presence (formerly PresenceLearning)",
+    "url": "https://presence.com/",
+    "what_they_do": "Teletherapy and special-ed staffing marketplace: SLP, OT, psychoeducational and behavioral services delivered remotely to public districts and private schools. This is an existing way to buy clinician capacity, and it could add an ESA-paid offering. It does not run programs or act as school of record.",
+    "scale_or_funding": "11,000+ schools, 400,000+ students, 2,000+ clinicians per its site.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Catapult Learning",
+    "url": "https://www.catapultlearning.com/",
+    "what_they_do": "Delivers federally funded reading/math intervention and student services inside private schools through LEA partnerships. Its site does not list special education as a distinct offering. It is the existing model of an outside operator delivering services inside host private schools, funded through Title I and IDEA equitable services rather than ESAs.",
+    "scale_or_funding": "15,000+ educators per its site.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Rawson Saunders School (Austin) and Fairhill School (Dallas)",
+    "url": "https://www.rawsonsaunders.org/",
+    "what_they_do": "Established Texas dyslexia and learning-differences private schools that already have accreditation, operating history and clinical expertise (Rawson Saunders bills itself the only full-curriculum dyslexia school in central Texas). They hold the eligibility and expertise the idea assumes are split between two parties. Their limit is likely seats and space, not eligibility. Fairhill: https://www.fairhillschool.org/. Neither site mentioned TEFA, expansion or waitlists, so those are unverified.",
+    "scale_or_funding": "Small nonprofit-style schools, founded 1971 (Fairhill). Rawson Saunders is Cognia-accredited.",
+    "overlap": "adjacent"
+   }
+  ],
+  "white_space": "Research caveat: the WebSearch budget (200 calls) was exhausted before any searches ran, so this verdict rests on about 30 direct page fetches, not the planned 6-12 searches. Google-style discovery of funded startups was not possible, and the negative finding below is unproven. Crunchbase (403), the Comptroller TEFA program pages (404), TEPSAC (503) and several news sites failed.\n\nWhat the fetches found: no direct competitor was located that runs clinician-led disability programs inside host accredited private schools as the school-of-record structure and bills against TEFA. Adjacent players cover each piece separately.\n- Learning-differences schools that build their own campuses: Fusion, Brightmont, Rawson Saunders, Fairhill.\n- Microschool platforms: Prenda, KaiPod, Primer.\n- Clinician marketplaces: Presence.\n- Outside operators embedded in private schools: Catapult.\n\nThe unserved wedge is the three-way structure itself. It is a management company that supplies the clinical director, staff, IEP compliance, norm-referenced testing and ESA reconciliation inside a host school. It targets IEP families holding up to $30k accounts in metro Texas in the first TEFA year.\n\nThree risks decide whether the white space is real, and none is resolved:\n1. **Legality and accreditor acceptance.** Statute text says a private school must be accredited by a TEPSAC-recognized organization and have continuously operated a campus for at least two school years. It does not address programs within a school or microschools. If the Comptroller, TEA or the accreditor treats a hosted program as a separate campus, or as renting accreditation, the model fails. A 100% pass-through of the ESA to the host with a 20-25% management fee could also draw scrutiny.\n2. **Incumbents and hosts.** Existing specialist schools already have eligibility and expertise and may simply expand. Host schools take on IEP compliance liability and reputational risk.\n3. **Unit economics.** A 10-student cohort at 20-25% yields $60-75k a year, before clinician cost. Whether that covers a BCBA or dyslexia therapist plus a clinical director was not tested.",
+  "evidence_of_demand": "Partial. Program demand and funding are confirmed, but demand specific to special-ed seats and to this structure was not confirmed.\n\n- Statute (SB 2, 89R) text confirms the rules the idea relies on: accreditation by a TEPSAC-recognized body, two years of continuous operation, a $2,000 cap for homeschool students, and up to $30,000 for students with disabilities (base amount plus special-ed funding). It also requires annual nationally norm-referenced testing for grades 3-12: https://capitol.texas.gov/tlodocs/89R/billtext/html/SB00002F.htm\n- The Comptroller's news page lists \"100,000 students receiving Texas Education Freedom Accounts\" (August 2026), about 73,000 accounts funded July 1, 2026, and 53,000+ additional awards in May 2026: https://comptroller.texas.gov/about/media-center/news/\n- Alpha School has Texas campuses and Prenda prices a state-scholarship tier at $2,199 a year. Both suggest operators are already building for ESA money: https://alpha.school/ and https://prenda.com/\n- Brightmont lists ESA acceptance in AZ and NC, so a specialist operator already monetizes ESA accounts in other states: https://www.brightmontacademy.com/\n- No forum complaints, news articles or RFPs showing that parents with $30k accounts cannot find seats were retrieved. That claim is unverified. Nothing was found on how many TEFA students have IEPs or on what share of the 100,000 hold the higher disability funding. The idea's AltSchool figure ($170M+) is also unverified; a Wikipedia fetch showed $33M plus $100M raised and Altitude Learning stopping operations in 2025.",
+  "kill": false,
+  "kill_reason": "n/a",
+  "sharper_angle": "Do two things before building. (1) Get written confirmation from the Comptroller or TEA and from a TEPSAC-recognized accreditor that an operator-run program within an accredited school can enroll students under the host's accreditation and receive TEFA funds. The whole business depends on this. If it fails, the fallback is to acquire (asset purchase) a small accredited school that already has two years of history, rather than rent one. (2) Narrow the scope to structured-literacy and dyslexia programs first. That is one licensed profession (certified academic language therapists), one curriculum, and one testable outcome (norm-referenced gains). Autism/ABA programs carry much higher compliance and staffing risk and can wait.\n\nReconsider who the host is. The existing Texas specialist schools (Rawson Saunders, Fairhill and similar) already hold the accreditation, history and expertise. A more defensible version licenses or operates satellite campuses for those schools in underserved metros. Their brand is the trust signal and the space is other people's (church or empty school wings). Alternatively, sell the same operator as a fixed-fee special-ed department for mainstream church schools, priced per program instead of as a percentage of ESA revenue, to reduce regulatory optics and fee-splitting concerns.\n\nIf someone reruns this check, do it with working web search. Look for Texas startups formed in 2025-26 around TEFA and special education, host-school partnership offerings, TEFA vendor lists, and parent-forum complaints about special-ed seat shortages, because those could not be searched here.\""
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "title": "Data Centers Fund Their Host Utility's Leak Repairs",
+ "angle": "contrarian",
+ "one_liner": "A turnkey program where a data-center developer pays to cut real water losses in the host utility's own system and gets a signed, metered, same-source volume to show regulators and neighbors.",
+ "customer": "Data-center developers and colo operators fighting permit resistance (Cheyenne, Ohio, New York, Texas), plus the small and mid-size host utilities that receive the repairs. The developer pays.",
+ "problem": "Insiders think 'water positive' means wetland or agricultural offsets in some other watershed. Locals and regulators now want physical relief on the same source in the same year. Meanwhile many small utilities lose 20-30% of what they treat, and can't fund repairs.",
+ "solution": "Run an AWWA-style water audit of the host utility. Rank repairs by gallons saved per dollar (main breaks, service leaks, failed valves and meters). Fund local crews and verify the savings with district-metered-area flow data. Deliver a signed 'verified gallons saved' report to both the utility and the permitting file. The utility gets capacity to serve the new load without new supply.",
+ "why_now": "Texas is making data-center non-reporting a crime and a bar to permits. Ohio scrapped its general discharge permit after more than 7,000 comments, New York has a moratorium, and Cheyenne revoked a permit. Australia's planned standards explicitly cover funding extra water infrastructure. Developers need mitigation that neighbors can verify.",
+ "revenue_model": "10-15% program-management fee on repair spend, margin on crew contracts, and a performance bonus per verified 1,000 gallons saved. A $15-25k paid feasibility study is the door-opener.",
+ "non_obvious_insight": "The cheapest same-source gallon is one the utility already treated and lost. This turns the data center from the utility's rival for water into its capital source, and 'water positive' gets judged by neighbors and permitting boards, not by sustainability reports.",
+ "first_30_days": "Use public loss-audit filings (Texas, Georgia and California require them, in my understanding) to rank utilities near contested or pending data-center projects by real losses per connection. Write a 10-page 'loss-to-offset' report on three of them. Send it to the developers, and to the utilities as a free mailer. Aim for one paid feasibility study within 30 days.",
+ "outside_box_score": 7,
+ "source": "idea:water:all4",
+ "kind": "idea",
+ "id": "I0026"
+}

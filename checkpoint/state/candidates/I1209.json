@@ -1,0 +1,16 @@
+{
+ "title": "Real-Factory Credentials From Customs Shipping Records",
+ "angle": "2",
+ "one_liner": "Turn public US import records into supplier-owned reputation credentials and audit-ready reasonable-care dossiers that prove a factory is a real manufacturer.",
+ "customer": "Small and mid-size US importers of record (Amazon and Shopify brands, furniture, hardware and apparel distributors) re-sourcing to Vietnam, India, Mexico and Turkey. Customs brokers are a channel, and factories are the second payer.",
+ "problem": "The importer of record is investigated first, and liability turns on whether it exercised reasonable care about the supplier's origin claims. In August 2026 the White House published a report on transshipment, a 40% penalty tariff applies, and CBP has expanded inspections of shipments from Vietnam, Thailand, Malaysia, Indonesia and Mexico. Small importers cannot tell a real factory from a trading company or a re-labeller, and sourcing agents' claims are unverifiable.",
+ "solution": "Supplier Proof. Build a profile per factory from three or more years of US import records (shipper and consignee names, volumes, product codes, ports, cadence) plus corporate registry and location data, flag anomalies such as volume beyond plausible capacity, mismatched product codes or shell-company addresses, and add optional local inspector visits. Factories claim and verify their profile and can consent to name repeat buyers as references. The output is a dossier the importer can hand to a broker or to CBP.",
+ "why_now": "Tariff enforcement moved in 2025-26 from headline rates to origin verification, and the August 2026 transshipment report has put importer liability on every compliance officer's desk. Sourcing shifts away from China are happening now, so millions of dollars of orders are going to unfamiliar factories.",
+ "revenue_model": "Importer subscriptions of $149-499 per month, $150-400 per dossier, inspector visits passed through at a margin, and $600-1,200 per year from factories for a verified credential once importers demand it.",
+ "non_obvious_insight": "Import records are the only unforgeable cross-border reputation ledger for factories, but they are sold as raw rows to analysts. Repackaged as supplier-owned credentials with a reasonable-care wrapper, a data product becomes a compliance product with a real budget line: avoiding a 40% penalty.",
+ "first_30_days": "Buy 12 months of import records for two categories (for example furniture and hardware from Vietnam and India). Auto-build about 1,000 factory profiles and hand-audit 20. Send 200 emails to sourcing managers and customs brokers. Sell the first 10 dossiers at $250 each and use them to refine the scoring.",
+ "outside_box_score": 6,
+ "source": "wild:g35+g36",
+ "kind": "wild",
+ "id": "I1209"
+}

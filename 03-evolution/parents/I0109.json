@@ -1,0 +1,63 @@
+{
+ "title": "Payoff-Triggered Refund Recovery for Credit Unions",
+ "one_liner": "A payoff-desk plug-in that finds the unearned GAP and service-contract refunds the moment a member pays off, and applies unearned add-on credits in repossession deficiencies. It goes through lenders, not SEO, so it reaches the borrowers the consumer refund sites can't.",
+ "customer": "Credit unions and regional auto lenders (payoff and collections departments). The lender pays a small SaaS fee or takes a share of recovered money. Second wedge: consumer bankruptcy and debt-defense attorneys and legal aid, at $99 per deficiency audit.",
+ "problem": "When a borrower pays off early, trades in, or has the car totaled or repossessed, they are owed the unearned pro-rata part of GAP, service contracts and other financed add-ons. Refunds are not automatic. Not the dealer, not the lender and not the administrator processes them, and consumer-refund sites exist because so few people claim. The incentives point the wrong way. The dealer suffers a commission chargeback, so it stalls. The administrator profits from non-cancellation. The lender never owned the product. The borrower doesn't know. In repossession, unearned add-on credits should reduce the deficiency the borrower is sued for, and they rarely appear on deficiency notices. Roughly 3M repossessions a year and subprime 60+ day delinquency at a 32-year record of 6.9% in January 2026 make this a very large pool of missed money.",
+ "solution": "Ingest the closed-loan document image or loan tape, read the itemized products and financed amounts from the retail installment contract, and match each to its administrator. Compute the pro-rata or earned-basis refund by state rule (New Jersey, for example, requires an automatic refund within 60 days). Auto-generate the cancellation packet with the lender's payoff letter, odometer statement, signature or letter of authority, and the state statute citation, then track it to payment. Stalled cases escalate to the state insurance department with a complaint file. The moat is a database of roughly 60 administrators' actual cancellation requirements and response behavior, plus the 50-state rule set. The repossession product reconciles deficiency notices against the same data and outputs an attorney-ready exhibit.",
+ "why_now": "Record delinquencies and about 3M repossessions a year, roughly 84-month loans with about 30% of trade-ins underwater, and long terms mean most loans die early and carry stacked add-ons. Credit unions are under member-experience and fee-optics pressure, and California's SB 766 now requires dealers to keep refund and cancellation records. LLMs can finally read messy contract images and cancellation forms cheaply enough to run at scale.",
+ "revenue_model": "Credit union pays $3 to $6 per payoff processed, or 20 to 30% of recovered money with no upfront fee. Attorneys pay $99 per deficiency audit or a $499 per month subscription. Later, sell aggregated administrator refund-speed benchmarks to dealer groups and regulators.",
+ "non_obvious_insight": "The consumer refund sites that exist all have the same weakness: they wait for the borrower to show up. The one moment every party knows the loan ended is the payoff, and the lender's payoff desk is the only place that sees all of them. The refund itself comes from the administrator's pool, and the dealer's chargeback is a fight between the dealer and the administrator. The borrower's claim doesn't depend on the dealer cooperating, so the dealer stalling does not need to hold up the refund.",
+ "first_30_days": "Build the administrator playbook for the 20 largest GAP and service-contract administrators and the 10 highest-population states. Offer 3 credit unions a free retrospective audit of 500 payoffs from the last 12 months and show them the dollar total of unclaimed refunds. Take a 30% success fee on live recoveries. Simultaneously give 5 consumer bankruptcy attorneys the repossession deficiency audit free on their next 3 cases in return for case studies.",
+ "outside_box_score": 6,
+ "source": "persona:p2-3",
+ "kind": "persona",
+ "id": "I0109",
+ "tournament": {
+  "score": 1.004,
+  "overall_rank": 19,
+  "cluster": "Unclaimed money: settlements, refunds, penalties and unpaid invoices",
+  "judge_notes": [
+   "operator: rank 2/25 - Found-money product with success-fee pricing. Attorney $99 audit gives a fast wedge, and the lender payoff-desk angle is non-obvious.",
+   "contrarian: rank 4/25 - Payoff desk is the one moment all parties see loan end; contingency pricing lowers adoption risk, big unclaimed-money pool.",
+   "vc: rank 1/25 - Real unclaimed money, success-fee model, lender payoff desk is the one choke point; LLM contract reading now makes it viable."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "Origence (formerly CU Direct) - loan origination/indirect platform (CUDL)",
+    "url": "https://origence.com/",
+    "what_they_do": "Dominant credit-union auto LOS and indirect-lending network. I fetched the homepage and found no GAP or service-contract refund or payoff-triggered refund product. It lists LOS, document processing and lending-services outsourcing, so it is the most natural incumbent to bolt this on as a feature. That is a distribution threat, not a current competitor.",
+    "scale_or_funding": "Established CU-industry vendor; funding and scale not verified in this session.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Assurant (F&I administrator and TPA)",
+    "url": "https://www.assurant.com",
+    "what_they_do": "Large GAP and vehicle-service-contract administrator and insurer serving dealers, F&I agents and TPAs. The homepage shows no lender-facing payoff refund automation. As an administrator it holds the cancellation process the idea would route around, and its incentive (per the idea) is to keep the product in force, so it is a counterparty rather than a competitor.",
+    "scale_or_funding": "Public company; automotive is one of several segments.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Unverified: consumer GAP/VSC refund-claim services (contingency)",
+    "url": "none verified - search budget exhausted",
+    "what_they_do": "The idea's own text says consumer refund sites exist. I could not identify or verify any by name. Note that refundretriever.com, which I checked, is a FedEx/UPS shipping-refund recovery firm and is unrelated. The consumer-side category is therefore unverified, not confirmed absent.",
+    "scale_or_funding": "unknown",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Unverified: in-house lender recovery and collections teams and BPO vendors",
+    "url": "none verified - search budget exhausted",
+    "what_they_do": "From domain knowledge, not verified this session: large auto lenders already work unearned add-on refunds in repossession and charge-off recovery, because the refund lowers their own loss. This is the existing workaround the deficiency product would displace for lenders. The consumer-attorney version is the less contested part.",
+    "scale_or_funding": "unknown",
+    "overlap": "direct"
+   }
+  ],
+  "white_space": "Verification was limited. The WebSearch budget (200 of 200) was exhausted before I could run any queries, and only about 15 direct URL fetches were possible, many of which 404'd or were blocked. That leaves three points.\n\n1. I found no direct competitor selling a payoff-triggered GAP/VSC refund plug-in to credit unions. Origence, the dominant CU indirect-lending platform, and Assurant, a major administrator, show no such product on their homepages.\n\n2. Genuinely unserved and specific, if the market read holds:\n   - A per-payoff, lender-integrated refund workflow for dealer-sold, financed add-ons at credit unions.\n   - A 50-state pro-rata rules engine combined with an administrator-by-administrator cancellation-requirements database.\n   - An attorney-ready audit of repossession deficiency notices that reconciles unearned add-on credits. Consumer-bankruptcy and debt-defense attorneys and legal aid are plausible buyers, because the lender's or dealer's incentive runs against the borrower.\n\n3. Weaknesses in the idea as written, from reasoning rather than found evidence:\n   - The claim that the lender never owned the product is shaky. Under many state retail installment sales acts, and under the FTC Holder Rule, the assignee or holder can carry refund and credit obligations. That helps demand, as a compliance and UDAAP driver, but it changes the pitch from 'find hidden money' to 'reduce liability'.\n   - A 20-30% success fee taken from a member's own refund has poor fee optics for a credit union. It also conflicts with the idea's own member-experience rationale.\n   - On payoff, the refund goes to the borrower, so the CU gets no direct economic benefit. The CU's incentive is goodwill and compliance, not revenue.\n   - CU vendor due diligence and core/LOS integration will make the sales cycle slow.\n   - The California SB 766 citation in the idea did not check out. The leginfo summary I fetched for the 2023-24 bill described an unrelated social-worker licensing bill. Do not rely on that cite until it is confirmed.",
+  "evidence_of_demand": "Little verified. The only sourced item is background: Wikipedia states that a purchaser is usually entitled to a refund of the unused portion of GAP premium when the vehicle is sold or refinanced early (https://en.wikipedia.org/wiki/Gap_insurance). That supports the underlying entitlement but not spend or willingness to pay. I found no forum complaints, RFPs, or documents showing lender spend on this workaround. My recollection is that CFPB Supervisory Highlights and enforcement actions have cited auto servicers for failing to refund unearned add-on premiums, but I could not fetch or confirm it here (the CFPB URLs I tried returned 404). Treat that as a lead to check. Consumer-facing demand is described in the idea but not verified by URL.",
+  "kill": false,
+  "kill_reason": "n/a - no dominant incumbent or crowded set of direct competitors was found. Confidence is only low to moderate because search was unavailable. The idea's lender-side wedge is unconfirmed as unserved, and the repossession-deficiency side may overlap with lenders' in-house recovery.",
+  "sharper_angle": "Lead with the repossession-deficiency wedge and the compliance framing, not the payoff-desk success-fee play.\n\n(1) Sell an attorney-ready deficiency and add-on-credit audit to consumer-bankruptcy and debt-defense firms and legal aid. Buyers there have no in-house tooling, the incentives run in the borrower's favor, and statutory damages and fee-shifting under UCC Article 9 can fund the audit fee. Validate this first, since it needs no CU integration.\n\n(2) For credit unions, reposition the payoff product as a flat-fee holder-liability control. It would be a retrospective audit quantifying unrefunded add-ons on paid-off loans, then a per-payoff automation with an audit trail that satisfies examiners. Do not take 20-30% from members' refunds.\n\n(3) Start in one or two states with statutory automatic-refund rules, such as New Jersey. Build the administrator playbook there and use the data as the moat.\n\n(4) Approach Origence or similar LOS vendors as a partner or acquirer early, before they build it as a feature.\n\nBefore committing, re-run the competitor and demand research with search restored. The checks: named consumer refund services, lender BPO vendors, F&I-cancellation tools from Reynolds, RouteOne and Dealertrack, and CFPB supervisory findings."
+ }
+}

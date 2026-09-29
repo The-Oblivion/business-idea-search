@@ -1,0 +1,87 @@
+{
+ "status": "crowded",
+ "competitors": [
+  {
+   "name": "Divorce Lending Association (CDLP certification + Divorce Mortgage Planning Report)",
+   "url": "https://www.divorcelendingassociation.com/",
+   "what_they_do": "Standards body and credentialing organization for divorce mortgage planning. Its Divorce Mortgage Planning Report is sold to attorneys and mediators. It covers keep vs sell vs refinance feasibility, whether the existing loan is assumable, and buyout structures (owelty lien, cash-out refi, deferred payment, hybrid). It also gives decree-drafting guidance (refinance deadlines, indemnification, assumption obligations). Its library explains that a decree cannot release a co-borrower and that assumption is separate from release. It offers a free strategy review and a public directory of certified loan officers. This is the same planning and decree-language layer the idea proposes, and it has been in market for over a decade.",
+   "scale_or_funding": "Founded 2014. Claims 1,000+ certified CDLPs in all 50 states. No outside funding found, and it does not need any because its loan-officer members earn origination commissions. DLA-administered advisory fees are reported at $1,295 to $2,500 per case.",
+   "overlap": "direct"
+  },
+  {
+   "name": "DivorceHousing.com (consumer arm of DLA)",
+   "url": "https://divorcehousing.com",
+   "what_they_do": "Consumer site started in 2011 by the founder of the CDLP designation. It has a Home Equity and Buyout Calculator, Debt Division Simulator, Housing Budget Calculator and Divorce Housing Snapshot. It routes users to the Divorce Mortgage Planning Report and free 20-minute strategy reviews with certified loan officers. This is the consumer calculator and intake product the idea would ship in its first 30 days.",
+   "scale_or_funding": "Part of the DLA network. No funding disclosed.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Divorce Mortgage Advisors (Burlingame, CA)",
+   "url": "https://www.divorcemortgageadvisors.com/heloc-divorce-buyout-options/",
+   "what_they_do": "Divorce-only mortgage advisory run by a CDLP and a CFA/CFP/CDFA. Services include home buyouts, assumption after divorce, HELOC and home-equity-loan buyouts, and litigation, mediation and professional consulting. Its site publishes content on using a second lien to keep the first mortgage.",
+   "scale_or_funding": "Small California boutique. No funding found.",
+   "overlap": "direct"
+  },
+  {
+   "name": "DNVR Lending (divorce lending practice)",
+   "url": "https://www.dnvrlending.com/divorce-lending",
+   "what_they_do": "Lender that runs a three-step divorce process (consultation, application and strategy, review and implementation). It works with attorneys, mediators and financial professionals before the settlement is finalized, and covers buyout structuring and support-income qualification.",
+   "scale_or_funding": "Regional lender. No funding data. Typical of many CDLP-staffed lenders.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Contour Mortgage (divorce refinance and buyout content and lending)",
+   "url": "https://www.contourmortgage.com/home-financing-through-divorce-the-complete-guide",
+   "what_they_do": "Licensed mortgage banker (NMLS 34384, since 1993) with a large content library on keeping the house, buying out an ex, and HELOC or second-mortgage buyouts. It offers cash-out buyout refinances, support-income qualification and FHA/VA/USDA/non-QM products.",
+   "scale_or_funding": "Established multi-state lender.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Hello Divorce",
+   "url": "https://hellodivorce.com/marital-home/mortgage-assumption",
+   "what_they_do": "DIY and flat-fee online divorce platform, and the most likely licensing channel for this idea. It publishes detailed guides on mortgage assumption, refinance buyouts, HELOC buyouts and buyout calculators. It sells hourly expert services (CDFA, divorce real estate) and has staff with residential lending experience. It has no branded mortgage product or lender program that I could find. It could build or partner for this itself.",
+   "scale_or_funding": "Raised over $5M seed (Artemis Fund, Alumni Ventures, Lightbank, Northwestern Mutual Future Ventures, Gaingels). $3.25M round in Oct 2022: https://www.lawnext.com/2022/10/hello-divorce-raises-3-25m-to-span-more-of-the-divorce-lifecycle-including-financial-planning.html",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Roam (assumable mortgage platform)",
+   "url": "https://www.withroam.com/assumable-mortgages/",
+   "what_they_do": "VC-backed startup that helped homebuyers take over sellers' low-rate assumable loans for a 1% fee. It also launched a second-mortgage program to bridge the equity gap, the same assume-plus-second-lien mechanic. It targeted purchases, not divorce. One search result says it no longer provides home discovery or assumption processing, but I could not confirm this on its own site.",
+   "scale_or_funding": "$11.5M Series A (Khosla Ventures, Founders Fund) in April 2025, after roughly $4.25M seed: https://finance.yahoo.com/news/roam-raises-11-5m-series-180437589.html",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Assumable.io and AssumeList",
+   "url": "https://assumelist.com/",
+   "what_they_do": "Databases and tools for finding homes with assumable low-rate mortgages. AssumeList charges $29 a month for buyers and $79 for agents. Assumable.io claims over 7M assumable-rate homes and has a guide to the divorce case. They do not execute divorce assumptions.",
+   "scale_or_funding": "Small subscription businesses. No major funding found.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Home equity investment (HEI) companies: Hometap, Unlock, Point, Unison",
+   "url": "https://www.hometap.com/",
+   "what_they_do": "No-monthly-payment shared-equity products of up to about $500K to $600K. They are an alternative way to fund the buyout without a second lien. They are not divorce-specific.",
+   "scale_or_funding": "Well funded, national scale.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "HELOC and second-lien lenders with divorce content (Achieve and others)",
+   "url": "https://www.achieve.com/learn/home-equity-loans/heloc-divorce",
+   "what_they_do": "Large consumer lenders that market HELOCs and home equity loans for divorce buyouts and explain that the first mortgage rate stays untouched. The blended-rate story is already common marketing content.",
+   "scale_or_funding": "Large, funded lenders.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Certified Divorce Real Estate Experts (Ilumni Institute CDRE) and CDFAs",
+   "url": "https://www.ilumniinstitute.com/",
+   "what_they_do": "Certified agent and financial-analyst networks that sit in the same attorney, mediator and CDFA referral channel. They compete for the same trust and referral relationships and refer clients to CDLPs. CDFAs bill $150 to $450 an hour or flat fees, and sometimes run keep-vs-sell math.",
+   "scale_or_funding": "Fragmented professional networks.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "The planning, calculator and decree-language layer is taken by DLA's CDLP network (1,000+ loan officers, a paid planning report, a free consumer site). A flat-fee planning desk would compete against free CDLP strategy sessions, so it should not be the core product. What looks unserved is narrower.\n\n1. Execution of the assumption-with-release step. I found only advice on assumption. I found no firm that assembles the packet, tracks the servicer, chases release of liability and reports status to the attorney and the client. The CFPB documents servicers demanding refinances, months-long delays, repeated document requests and denials: https://www.consumerfinance.gov/data-research/research-reports/homeowners-face-problems-with-mortgage-companies-after-divorce-or-death-of-a-loved-one/. Fannie Mae's servicing guide makes release of liability contingent on servicer and mortgage-insurer approval: https://servicing-guide.fanniemae.com/svc/f-1-17/processing-transfer-ownership. A servicer-by-servicer playbook and workflow is a data and operations asset that the CDLP model, which is commission-driven and loan-centric, does not provide.\n\n2. New statutory rights that need help exercising. Maryland HB 1018 (effective Oct 1, 2025) makes conventional-loan assumption on divorce a right, applies retroactively to existing loans above FHA limits, and applies to decrees entered on or after that date: https://labor.maryland.gov/finance/advisories/advisory-ind-marylandlawmortgageassumptionupondivorce.shtml. Virginia HB 304 (July 1, 2026) and California AB 3100 (Jan 1, 2027) cover only newly originated loans, so they do not help the existing low-rate book. None of the three laws guarantees release of the departing spouse. Maryland, and FHA/VA/USDA loans nationwide, are therefore the addressable base for a release-focused execution service.\n\n3. The assume-plus-second-lien sequence as one packaged workflow. Consumer content on HELOC buyouts is everywhere. DLA's public pages, the mortgage-info.com lender roundup, and Contour's guide do not describe a joint assumption-plus-second-lien product. That may be a gap in what I could fetch, so verify it with a few CDLP interviews.\n\n4. A white-label or API layer for DIY-divorce platforms and mediation firms. Hello Divorce (over $5M raised) publishes guides and has no mortgage-execution product. Its guides send users to expert services.\n\nAlso unserved: the attorney-side deadline and enforcement tooling. An example is a release-deadline tracker with a fallback such as a forced refinance or sale. I did not find this offered as software.",
+ "evidence_of_demand": "Strong evidence that the problem is real and that professionals get paid for it. Weaker evidence that consumers will pay $495 to $995 to a new entrant.\n\nPain and regulation:\n- The CFPB's Issue Spotlight on complaints from Dec 2021 to Aug 2024 documents servicers wrongly demanding refinances at today's rates, assumption delays of months or years, assumption denials for creditworthy spouses, and refusal to release original borrowers even when a decree requires it: https://www.consumerfinance.gov/data-research/research-reports/homeowners-face-problems-with-mortgage-companies-after-divorce-or-death-of-a-loved-one/\n- Three states legislated in response: Maryland HB 1018 (Oct 2025, retroactive to existing loans), Virginia HB 304 (July 2026) and California AB 3100 (Jan 2027, new loans only). Sources: https://natlawreview.com/article/ca-md-va-force-lenders-hand-divorce-triggered-mortgage-assumptions and https://infobytes.orrick.com/2024-09-27/california-enacts-mortgage-law-co-borrowing-divorces/\n- Axios reported on how divorcees try to keep 3% mortgages: https://www.axios.com/2024/03/09/mortgage-rates-divorce. Practitioner blogs and law-firm posts about keeping a sub-4% rate are common.\n\nMarket size:\n- The CDC counted 673,989 US divorces and annulments in 2022. Roughly 36% to 40% of divorces now involve people 50 or older (sources: https://www.cdc.gov/nchs/data/dvs/marriage-divorce/national-marriage-divorce-rates-00-22.pdf, https://www.modernfamilylaw.com/resources/top-10-divorce-statistics-you-need-to-know/).\n- No source I found gives the share of divorces with a below-4.5% first mortgage and a keeping spouse who qualifies alone. That number sets the real addressable market and needs its own estimate.\n\nExisting spend and professional adoption:\n- DLA claims 1,000+ CDLPs in all 50 states, a paid Divorce Mortgage Planning Report sold to attorneys and mediators, and $1,295 to $2,500 per-case advisory fees alongside commissions: https://www.divorcelendingassociation.com/practice_areas/cdlp-divorce-mortgage-planning-lending-certification-course.cfm\n- CDFAs bill $150 to $450 an hour or flat fees from about $3,500: https://sandiegofamilymediation.com/what-does-it-cost-to-work-with-a-cdfa/ and https://www.feeonlynetwork.com/resources/certified-divorce-financial-analyst-cdfa/\n- Hello Divorce has raised over $5M for DIY divorce and has in-house lending expertise: https://www.lawnext.com/2022/10/hello-divorce-raises-3-25m-to-span-more-of-the-divorce-lifecycle-including-financial-planning.html\n\nCaveat: I found no evidence that consumers pay a standalone $495 to $995 fee for this. The proven payers are loan officers (commissions) and attorneys or mediators (report fees). I found no dedicated forum threads showing consumers asking for a paid execution service. The Bogleheads thread on release of liability after divorce was blocked by a paywall (HTTP 402), so its contents are unverified.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Do not build a divorce mortgage planner. That is the DLA and CDLP business, with 1,000+ loan officers giving away the analysis to win the loan, and a $495 to $995 planning fee would compete against free sessions.\n\nBuild assumption-and-release execution infrastructure for the people who already own the divorce relationship. Call it something like a release desk.\n\n- **Product:** a per-case service that handles the servicer side. It builds the assumption and release-of-liability packet, applies a servicer-by-servicer playbook (required documents, timelines, mortgage-insurer approval, escalation paths including Reg X successor-in-interest and CFPB complaints), tracks the file to a signed release, and gives the attorney a dashboard and a decree-language and deadline generator.\n- **Loan wedge:** start with the loans where assumption is a right or a norm. That means FHA, VA and USDA loans in every state, and Maryland conventional loans (decrees on or after Oct 1, 2025, retroactive to existing loans above FHA limits). Add Virginia and California as those laws phase in for newly originated loans.\n- **Buyer:** the attorney, mediator, CDFA or DIY-divorce platform, paying per case or per seat, or a platform license. Consumers only see it through their professional. This avoids fee-splitting problems with attorneys and avoids competing with free CDLP consultations.\n- **Financing:** stay unlicensed. Route the second-lien or HELOC step to CDLP loan officers and HELOC lenders under a compliant referral or co-marketing arrangement, so you complement DLA members. The optional NMLS-licensed broker layer can come later if the volume justifies it.\n- **Data asset:** the servicer playbook database of assumption and release outcomes (time to release, denial reasons, required documents). It compounds with every case, and neither DLA's planning report nor lender blogs provide it.\n\n**Validation before building.**\n1. Interview 10 to 15 CDLPs and 10 family-law attorneys or mediators. Ask who does the servicer chase today, whether they get paid for it, and what release rates look like.\n2. Run 5 to 10 live FHA, VA or Maryland cases for free to measure real servicer behavior and turnaround.\n3. Check whether Hello Divorce or a similar DIY platform would license a mortgage-execution module.\n4. Confirm the wedge is not already a paid add-on inside the Divorce Mortgage Planning Report.\n5. Estimate the size of the assumable and Maryland segment, since it is a fraction of the roughly 674K annual divorces."
+}

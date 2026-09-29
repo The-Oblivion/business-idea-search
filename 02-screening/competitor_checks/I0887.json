@@ -1,0 +1,87 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "CBP e-Recordation and free CBP/IPR Center resources (DIY substitute)",
+   "url": "https://www.cbp.gov/trade/priority-issues/ipr/protection",
+   "what_they_do": "CBP lets any rights-holder record a USPTO-registered mark or registered copyright for $190 per class (renewal $80), upload a Product Identification Guide, request officer training at ports, and file e-Allegations. The IPR Center runs IP Protect, a free SME resource program. This is the real substitute: the core lever is cheap and first-party, so customers only pay for labor and speed on top of it.",
+   "scale_or_funding": "Government program. FY2024: nearly 33M counterfeit items seized, about $5.42B MSRP (https://www.cbp.gov/trade/priority-issues/ipr). CBP best practices tell rights-holders to answer authentication requests within 24 hours (https://www.cbp.gov/trade/priority-issues/ipr/bestpractices).",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Corsearch (Brand Protection)",
+   "url": "https://www.corsearch.com/",
+   "what_they_do": "Trademark screening and monitoring, marketplace and domain counterfeit takedowns, content protection. The homepage does not mention customs, CBP or border enforcement.",
+   "scale_or_funding": "Large PE-backed enterprise vendor. Homepage lists Mondelez, Reckitt, New Era and Lionsgate. Demo-led sales, no public pricing.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Red Points",
+   "url": "https://www.redpoints.com/",
+   "what_they_do": "Automated counterfeit, fake-site and gray-market takedowns on marketplaces, sites and social. Offers a Revenue Recovery Program with zero-cost litigation, so contingency-style enforcement already exists in the online channel. No customs or CBP product found on the homepage.",
+   "scale_or_funding": "Claims 1,300+ brands of all sizes. Funding not on the page; from memory it has raised tens of millions (unverified). Skews mid-market and enterprise.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "OpSec Security / Crane Authentication",
+   "url": "https://www.craneauthentication.com/",
+   "what_they_do": "Authentication technologies, high-security labels, traceability, online brand protection and digital intelligence. Nothing on CBP recordation, customs enforcement or product ID guides was found on the page.",
+   "scale_or_funding": "opsecsecurity.com now redirects to Crane Authentication. Large industrial, enterprise and government seller.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "CSC Digital Brand Services",
+   "url": "https://www.cscglobal.com/",
+   "what_they_do": "Domain, online brand monitoring, phishing and counterfeit enforcement for large portfolios. No customs recordation offering visible on the homepage.",
+   "scale_or_funding": "Says it serves 90% of the Fortune 500 and 90% of Interbrand's top 100 brands. Enterprise-only.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "MarkMonitor / Clarivate IP",
+   "url": "https://clarivate.com/intellectual-property/",
+   "what_they_do": "Enterprise brand protection and trademark services. The markmonitor.com fetch returned 403, so whether it offers customs recordal is unverified.",
+   "scale_or_funding": "Public parent (Clarivate). Enterprise pricing.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Trademark Engine",
+   "url": "https://www.trademarkengine.com/",
+   "what_they_do": "Low-cost trademark and copyright registration ($49 plus USPTO fees of about $350 per class), search and monitoring. CBP recordation is not listed. It is the natural upstream funnel or channel partner, and also a likely place for a bolt-on CBP upsell.",
+   "scale_or_funding": "Self-serve SMB filing platform. Funding not found.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Gerben IP (boutique trademark firm)",
+   "url": "https://www.gerbenlaw.com/",
+   "what_they_do": "Trademark registration ($3,000 package plus government fees), monitoring, litigation and enforcement. CBP recordation is not listed. Represents the law-firm route, where recordation is a one-off filing rather than a monitored subscription.",
+   "scale_or_funding": "Boutique law firm.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Panjiva (S&P Global) and other bill-of-lading data vendors (ImportGenius, ImportYeti, Datamyne)",
+   "url": "https://www.panjiva.com/",
+   "what_they_do": "Searchable US import shipment records (Panjiva claims 2B+ shipment records), importer and supplier identification, and shipment alerts. This is the data layer the port exposure scan depends on. They sell data, not enforcement. ImportYeti returned 403 so its free-tier claims are unverified.",
+   "scale_or_funding": "Panjiva is owned by S&P Global. It advertises 9M companies and about 35% of global trade flows.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Altana AI (supply-chain intelligence)",
+   "url": "https://www.altana.ai/",
+   "what_they_do": "Trade and supply-chain intelligence platform sold to governments and enterprises. My fetch was truncated, so this is from prior knowledge and unverified. It is the most plausible entrant for the later port-level counterfeit intelligence tier.",
+   "scale_or_funding": "Unverified here. From memory it is a well-funded venture-backed company. Confirm before relying on it.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "IACC (International AntiCounterfeiting Coalition)",
+   "url": "http://iacc.org/",
+   "what_they_do": "Trade association with an SME membership tier, an SME Brand Protection Toolkit, RogueBlock (payment processors), MarketSafe (Alibaba) and law-enforcement IP training. An educational and community substitute, not a done-for-you customs service.",
+   "scale_or_funding": "Non-profit. Dues not listed on the page.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Confidence caveat: every WebSearch call was refused because the session's 200-search budget was already spent, so this verdict rests on about 35 direct WebFetch pulls plus prior knowledge. I found no funded startup or incumbent selling a done-for-you, small-brand, monitored CBP program (recordation, ID guide, 24-hour authentication desk, detention monitoring, evidence packaging). That is weaker evidence than a clean search sweep, so rerun searches for customs recordation subscription services, and for the CBP offerings of Red Points, Corsearch and IP boutiques, before building. What looks unserved: (1) Enterprise vendors (Corsearch, CSC, OpSec/Crane, MarkMonitor) sell online takedowns to large brands and none of their homepages mention customs; sub-$30M brands are not their customer. (2) Law firms treat recordation as a one-off filing, not a monitored program with an authentication desk; CBP asks for responses within 24 hours (https://www.cbp.gov/trade/priority-issues/ipr/bestpractices), so speed of response is the real product and it is an operations business. (3) Nobody found connects marketplace lookalike listings to bill-of-lading importers for small brands. Skeptical flags, most severe first: (1) Fee-sharing and unauthorized practice of law: a non-lawyer company taking 20-30% of settlements and receiving referral fees from IP counsel likely conflicts with ABA Model Rule 5.4-style bans on splitting fees with non-lawyers in most US states; get a legal opinion before fixing pricing. (2) CBP acts on counterfeit marks and recorded copyrights, not on look-alike dupes or trade-dress copies, so many indie-brand clones (copied design, no logo) are out of reach and the addressable pain is smaller than the pitch implies. (3) Importer identity: before seizure CBP typically does not give the trademark owner the importer name and address; unredacted images or samples come only after the importer gets notice and 7 business days to respond, and full importation details including importer name and address follow seizure within 30 business days (19 CFR 133.21, https://www.law.cornell.edu/cfr/text/19/133.21). BOL matching is the workaround, but public BOL data covers mostly ocean cargo, importers can request confidentiality (from memory, unverified), and much knockoff volume moves as parcels or via forwarders and non-resident importers. (4) Recordation needs a USPTO registration (about $350 per class) or a registered copyright, and many $1-30M brands lack full coverage. (5) The lever is $190 per class and the recordation, ID guide and training routes are free on cbp.gov, so the subscription must sell speed, labor and outcomes, not access. (6) Lever-rule (19 CFR 133.23, https://www.law.cornell.edu/cfr/text/19/133.23) covers gray-market goods that are physically and materially different; it does not address knockoffs and is a niche add-on.",
+ "evidence_of_demand": "Thin and mostly indirect. I found no forum complaints, RFPs or quotes from small brands asking for this specific service; Reddit fetch was blocked, the HN lookup returned zero hits, and Product Hunt and YC returned nothing relevant. Supportive adjacent signals: (1) CBP FY2024 seized nearly 33M counterfeit items, about $5.42B MSRP, handbags and wallets the top category (https://www.cbp.gov/trade/priority-issues/ipr). (2) CBP best practices say record, keep the point of contact current, submit a product identification guide, and respond to authentication requests within 24 hours (https://www.cbp.gov/trade/priority-issues/ipr/bestpractices); this confirms the responsiveness bottleneck exists but not that small brands miss it. (3) The government runs free SME IP resources (IP Protect at https://www.iprcenter.gov/ and STOPfakes at https://www.stopfakes.gov/), which signals a recognized small-brand gap and also means some education is free. (4) Paying demand exists for online brand protection at SMB scale: Red Points claims 1,300+ brands and offers a zero-cost-litigation recovery program (https://www.redpoints.com/). (5) IACC has an SME tier and toolkit (http://iacc.org/). I could not verify the de minimis timeline (CBP page 404) or Long Beach volumes. Willingness to pay $299-799 a month for customs monitoring is untested; the 30-brand free-scan outreach in the 30-day plan is the right test.",
+ "kill": false,
+ "kill_reason": "n/a. Adjacent players are enterprise and online-focused, none showed a small-brand customs offering, and a real wedge remains. However all WebSearch calls were refused (budget exhausted), so confidence is low-to-moderate, and the settlement-share model looks legally unworkable for a non-law-firm and should be restructured.",
+ "sharper_angle": "Drop the settlement-share and pitch a flat-fee customs desk for copyright- and mark-heavy indie brands, where the 24-hour authentication desk is the product. (1) Target brands whose products CBP can act on: original prints and patterns, illustrations, character and toy designs, jewelry and sculptural designs (recordable copyrights), plus brands with copied logos or labels; skip brands whose only problem is dupes without the mark. Bundle fee-only copyright and trademark registration so recordation is possible. (2) Sell a flat subscription (roughly $199-499 a month) for recordation, a maintained product ID guide, an on-call authentication desk meeting CBP's 24-hour expectation, and detention and seizure monitoring. Avoid revenue shares and referral fees until counsel approves the structure. (3) Route enforcement through a licensed IP firm on its own flat or contingency terms with the client contracting directly with counsel, or operate as a law-firm-owned or Arizona-ABS-style entity. (4) Use the free port exposure scan (lookalike listings matched to BOL importers) purely as lead generation and do not promise importer identity from CBP before seizure. (5) Distribute by white-labeling the desk to trademark-filing platforms (Trademark Engine and similar), Shopify and Brand Registry agencies, and IP-insurance or IP-lawyer networks that own the customer but lack customs operations. (6) Later, sell aggregated port-level counterfeit intelligence to marketplaces and insurers, watching Altana and the BOL vendors. Before committing, rerun a full search sweep for direct competitors and get a legal opinion on fee-sharing."
+}

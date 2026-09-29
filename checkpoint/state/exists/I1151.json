@@ -1,0 +1,52 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "ComplyAuto (exclusively licensed by CNCDA)",
+   "url": "https://www.complyauto.com/",
+   "what_they_do": "Cloud compliance automation for dealers. It runs a 'CA CARS Act Resource Center' with ad and website scanning, pre-delivery deal verification, generated disclosures, 4-year record retention and training. The fetched pages did not mention cancellation or unwind workflows, so it is the most likely incumbent to add a 3-day-cancel checklist and the compliance file.",
+   "scale_or_funding": "Claims 10,000+ dealers nationwide. Funding not found.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "CDK Global (DMS)",
+   "url": "https://www.cdkglobal.com/insights/what-cdk-dealers-need-know-about-california-cars-act",
+   "what_they_do": "Published a CARS Act report and webinar and is updating forms and documents for compliance. The fetched article gave no detail on how cancellations, refunds or unwinds are handled, and no unwind product was found.",
+   "scale_or_funding": "Large incumbent DMS vendor. Funding not applicable.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "CNCDA (California New Car Dealers Association)",
+   "url": "https://www.cncda.org",
+   "what_they_do": "Runs a members-only 'CARS Act Resources' hub and Comply Dashboard, and lists a Licensed Vendors directory. Its members are franchised dealers, not independents. It is the gatekeeper for franchised-dealer compliance vendors, and a rival association would play the same role for independents.",
+   "scale_or_funding": "Trade association. Membership figures not found.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "DealerCenter (DMS for independent dealers)",
+   "url": "https://www.dealercenter.com/",
+   "what_they_do": "DMS with Contracts & Forms and Deal Stipulation Management for independents. No unwind or CARS Act feature was described on the fetched page. It owns the independent-dealer workflow and could bundle an unwind module.",
+   "scale_or_funding": "Claims 20,000+ dealerships. Funding not found.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "RouteOne and Dealertrack (Cox Automotive) eContracting",
+   "url": "https://www.routeone.com/",
+   "what_they_do": "The rails between dealers and lenders for eContracts, e-sign, compliance and document storage. They are the natural place to embed a lender-notification and contract-cancellation step. No cancellation product was found on the RouteOne page. The Dealertrack site redirected to a login page or returned 403, so it is unverified.",
+   "scale_or_funding": "Incumbent platforms. Funding not applicable.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Vitu",
+   "url": "https://www.vitu.com/",
+   "what_they_do": "Digital titling and registration for lenders and dealers, with APIs. It partners with CNCDA and the California Motorcycle Dealers Association. It covers the DMV and title-reversal leg, but no unwind product was found.",
+   "scale_or_funding": "Funding not found.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Research limitation: the WebSearch budget was exhausted (200 of 200), so no searches were run. That means no Crunchbase, YC, Product Hunt or forum searches, and no search for startups by name. Everything below comes from direct WebFetch of about 30 primary and vendor URLs, with model-generated page summaries. I found NO dedicated 'unwind-as-a-service' for CARS Act cancellations, but I cannot rule out a small startup. Re-run the startup and forum searches before committing.\n\nThe idea's premise is weaker than written. Statute text (SB 766, Civ. Code 1784.43, 1784.31(g), 1784.44, as returned by WebFetch and quoted verbatim by the summarizer):\n1. The 48-hour duty is only to cancel the contract and refund the buyer. The dealer 'is not responsible for any delays outside the control of the dealer, including delays attributable to the processing of a refund by a bank, credit card company, or other financial institution.' Check payments get a 2-business-day delay. Lender and administrator lag therefore does not create violation exposure. The exposure is the dealer's cash float and its own process failures.\n2. The statute lists no duty to cancel service contracts or GAP within 48 hours. The add-on cascade is a business and recovery problem, governed by existing law and contract terms. It is not a statutory deadline.\n3. Permitted deductions are formulaic: a restocking fee of 1.5% of price (min $200, max $600), plus $1 per mile over 250 (capped at $150), plus trade-in liens. They are not damage-based. The claim that permitted deductions depend on condition documentation, which justifies the photo and video capture bundle, does not hold up. What does matter is the 400-mile eligibility gate and the trade-in refund rule. If the trade-in is already sold or in title transfer, the refund is the greater of the agreed value, the sale price, or fair market value.\n4. Remedies are non-exclusive (1784.22). No explicit private right of action or civil penalty was found. Enforcement runs through DAs, city attorneys and the DMV, plus existing consumer laws.\n5. Dealers already run unwinds. California had a 2-day contract cancellation option with a 2-day refund including sales tax (Veh. Code 11713.21), repealed effective Oct 1, 2026. Failed-financing spot-delivery unwinds are also routine (from my background knowledge, not verified here). Buy-here-pay-here lots hold their own paper, so they have no lender cascade at all. The $195 to $250 per-return price competes with a title clerk or F&I manager plus a DMS 'reverse deal' function.\n\nWhat remains unserved:\n(a) Independent, indirect-financed dealers with no back-office bench. Compliance vendors and associations found are aimed at franchised dealers or at pricing, ad and disclosure compliance.\n(b) A per-return calculator and checklist: restocking fee, mileage, the trade-in 'greater of three' refund, lender payoff, F&I commission chargeback, and the administrator-by-administrator cancellation basis, with timers and a 2-year compliance file.\n(c) Above all, the dealer's economic loss per return. Dealers lost the fee they could charge for the old cancellation option ($75 to $250 or 1%). Restocking is now capped at $200 to $600, against recon, carrying cost and resale loss. Nobody was found pricing or covering that loss.",
+ "evidence_of_demand": "The regulation is real and imminent. That is evidence of forced spending on CARS Act compliance in general, not on unwinds in particular.\n- SB 766 (CARS Act, Sen. Allen) was chaptered Oct 6, 2025 as Ch. 354, effective Oct 1, 2026. It passed 76-1 in the Assembly and 30-8 in the Senate: https://leginfo.legislature.ca.gov/faces/billHistoryClient.xhtml?bill_id=202520260SB766\n- Bill text with the 3-day cancel right, 48-hour refund and restocking formula: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB766\n- The prior 2-day option, repealed Oct 1, 2026, shows dealers already handled fast refunds: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=11713.21\n- Dealers and vendors are mobilizing on pricing, disclosure and recordkeeping. CNCDA has a members-only CARS Act hub (https://www.cncda.org/publications/). ComplyAuto has a resource center (https://www.complyauto.com/ca-cars-act/ returned 404, but the CARS page was fetched via the homepage). CDK published a report and webinar (https://www.cdkglobal.com/insights/what-cdk-dealers-need-know-about-california-cars-act). CBT News ran 'California dealers face new pricing and disclosure rules Oct. 1' on 9/28/26 (https://www.cbtnews.com/).\n- No evidence found that dealers want or would pay $195 to $250 per return for outsourced unwinds, and no forum complaints or RFPs about unwinds. No data on expected return rates. The 'payment shock' thesis is untested. Evidence of demand for the unwind service specifically: none found.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Do not sell 'unwind concierge' as a compliance-clock product, because the statute excuses bank and lender delays and does not mandate an add-on cancellation cascade. Reposition it as return-loss management for independent, indirect-financed California dealers, and treat the first 30 days as a demand test.\n\n1. Start with a free or low-cost tool: a 3-day-cancel calculator and checklist. It covers restocking fee, mileage over 250, the 400-mile gate, the trade-in 'greater of three' refund, lender payoff, commission chargebacks, and a lender and administrator cancellation directory with forms and timers, plus an auto-generated 2-year record file. Distribute it through an independent-dealer association and DMS marketplaces such as DealerCenter, not through CNCDA or the franchised-dealer vendors.\n2. Exclude buy-here-pay-here lots at first, since they have no lender cascade. Target indirect-financed independents selling 30 to 200 cars a month.\n3. Charge for the money problem, not the paperwork. Log actual dollar loss per return (recon, carrying cost, resale loss, chargebacks) and offer a per-unit return-loss cover or a replacement for the lost cancellation-option revenue, through a licensed administrator or MGA partner. The dataset is the wedge, so instrument the manual first 20 returns as planned.\n4. Go to the F&I administrators and lenders as potential buyers or channel partners. They receive the cancellations and would benefit from standardized intake.\n5. Kill criteria for the 30-day test: fewer than about 10 paying independents pre-committed, or observed return rates too low (under roughly 1 to 2% of used sales) to support a $195+ per-return fee. Also verify that ComplyAuto and CDK have not shipped a cancel workflow by the time returns begin."
+}

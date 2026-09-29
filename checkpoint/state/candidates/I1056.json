@@ -1,0 +1,15 @@
+{
+ "title": "Unbundling Edits for Pet Insurance Claims",
+ "one_liner": "Give pet insurers the claim-edit engine human health has had for 30 years: canonical procedure codes, bundling rules, and price benchmarks for messy vet invoices.",
+ "customer": "Pet insurance MGAs, carriers and TPAs adjudicating roughly 100k to 2M claims a year, the mid-size players without in-house claims data science. Later, corporate veterinary groups and pet-owner pre-treatment estimate checks.",
+ "problem": "Veterinary invoices are free-text line items exported from practice-management systems, with no universal procedure code set and no NCCI-style edits. Adjusters hand-review them. Insurers cannot tell that the vet billed anesthesia monitoring, an IV catheter, fluids and the e-collar as separate lines on top of a surgery fee, or what a routine dental cleaning costs in a given ZIP code. Claim severity is inflating with vet consolidation, and insurers answer with blanket premium hikes instead of line-level accuracy.",
+ "solution": "An API that ingests invoice PDFs or line items. An LLM plus a hand-built taxonomy of the top ~300 vet procedures (about 80% of spend) normalizes each line to a canonical code. A rules layer, built the way NCCI and medically-unlikely edits work, flags unbundling, duplicates and implausible units. A benchmark layer returns usual-and-customary ranges by ZIP and practice type. The adjuster sees pay, reduce or review, with reason codes.",
+ "why_now": "There are roughly 7 million insured US pets, and the segment is growing at double-digit rates with loss-ratio and price-hike pressure. Corporate vet consolidation is raising invoice complexity. LLMs make invoice line-item normalization, the hard part that took human-health edit vendors years, cheap enough for a two-person team.",
+ "revenue_model": "Per-claim fee of $0.25-$0.75, or 10-15% of validated savings. A 500k-claim MGA is worth $150-350k a year. Add a benchmark-data license for vet chains and an owner-facing estimate checker later.",
+ "non_obvious_insight": "Every automation wave in healthcare billing started with standardized codes and claim edits, not with AI. Cotiviti and Optum are basically edit libraries with sales teams. Pet insurance is at the pre-CPT stage. Someone who has spent years living inside code sets, bundling logic and 'this is included in the global fee' arguments can build the missing layer in weeks. Insurers will not fund a fight with vets. They will fund a neutral, consistent, explainable edit that does not vary by adjuster.",
+ "first_30_days": "Recruit one ex-coder (CPC) and a vet tech consultant. Build the 300-line taxonomy from public estimate sheets and a few hundred sample invoices. Approach 10 pet-insurance MGAs and TPAs with a free retrospective: run 5,000 of their anonymized past invoices and report the dollar share found in bundled, duplicate or out-of-range lines. Convert the best result into a paid pilot on per-claim pricing.",
+ "outside_box_score": 8,
+ "source": "persona:p1-3",
+ "kind": "persona",
+ "id": "I1056"
+}

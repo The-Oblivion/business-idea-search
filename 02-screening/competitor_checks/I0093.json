@@ -1,0 +1,52 @@
+{
+ "status": "crowded",
+ "competitors": [
+  {
+   "name": "ElevatePFS (formerly MedData)",
+   "url": "https://elevatepfs.com/",
+   "what_they_do": "Outsourced patient-financial-services firm. Its Medicaid Eligibility & Enrollment service screens uninsured and underinsured patients against 2,000+ assistance programs and files the applications, using patient advocates plus a predictive scoring model. Its Self-Pay/Early-Out service contacts patients after care and before bad debt, and routes hardship patients into Medicaid, financial assistance, Marketplace or disability screening. It cites 'hospital and physician first-party collections' expertise and claims 90% application approval. This is the exact mechanism in the idea, sold to hospitals and physician groups. Its pricing is not published, but this model is normally contingency-based. The pages I read do not name EMS or ambulance customers.",
+   "scale_or_funding": "2,500+ client facilities, 22M patient accounts a year, 1,550+ eligibility client sites, 95% client retention. KLAS-recognized Eligibility & Enrollment top performer (2023). Established incumbent, funding not stated.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Cedar (Cedar Cover)",
+   "url": "https://www.cedar.com/solutions/cedar-cover",
+   "what_they_do": "Patient-billing platform with a 'Cedar Cover' module that matches patients to Medicaid and ACA coverage and supports applications pre-visit, in the ED at the point of care, and post-visit. Credentialed advocates help by chat or phone. It also handles Medicaid renewal and coordination-of-benefits denials. It claims a 97% Medicaid approval rate. It serves 'Health Systems & Hospitals' and 'Clinician Services Providers' (physician groups).",
+   "scale_or_funding": "58M patients served, $13.6B in patient payments processed, founded 2017. Backed by Andreessen Horowitz, Tiger Global, Founders Fund and Kinnevik.",
+   "overlap": "direct"
+  },
+  {
+   "name": "Conduent (state Medicaid eligibility and enrollment)",
+   "url": "https://www.conduent.com/",
+   "what_they_do": "Runs Medicaid eligibility and enrollment solutions for state agencies. It sits on the payer side, not the provider side, so it does not compete on the sale. It shows that eligibility navigation is an established outsourced function.",
+   "scale_or_funding": "Public company, large government-services vendor.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Experian Health (Patient Access Curator and patient financial clearance)",
+   "url": "https://www.experian.com/healthcare",
+   "what_they_do": "Insurance discovery, eligibility and COB verification at registration. It could extend into Medicaid screening. The page I fetched did not show Medicaid enrollment filing.",
+   "scale_or_funding": "Division of Experian plc (public). Sold to hospital access teams.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "EMS billing platforms and billers (Digitech, ESO Logis Billing, ImageTrend Billing Bridge, Wittman/EMS Management & Consultants)",
+   "url": "https://www.digitechcomputer.com",
+   "what_they_do": "These are the incumbents in the ambulance niche. Their public pages show revenue-cycle management, real-time payer eligibility checks and collections. I found no public Medicaid enrollment-filing or retro-window product. They are the most likely channel partners, and could add a partner feature if the niche proves out. Other pages: https://www.eso.com/ems/billing and https://www.imagetrend.com/solutions/billing/",
+   "scale_or_funding": "Established EMS billing vendors. I could not confirm their customer counts.",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Dollar For (nonprofit)",
+   "url": "https://dollarfor.org",
+   "what_they_do": "Helps patients apply for hospital charity care. It is patient-facing and nonprofit, not a provider-paid vendor. It shows patient-side demand for the 'find the real payer' framing.",
+   "scale_or_funding": "Nonprofit, funding not stated on the page I read.",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "Research limits first. The WebSearch budget was exhausted (200 of 200) before I could run any searches. This verdict rests on direct fetches of about 25 vendor and reference pages. I found no Crunchbase, YC or Product Hunt data, no RFPs and no forum complaints. I did not verify Conifer, R1, Optum, Ensemble or other large RCM firms, because their pages returned 403, 503 or 404 or showed no relevant content. Treat the 'unserved' claims below as unproven.\\n\\nWhat looks unserved:\\n1. Ground-ambulance agencies and their EMS billers. I found no public Medicaid-enrollment offering from Digitech, ESO, ImageTrend or the Wittman page I could reach. ElevatePFS and Cedar mention hospitals and physician groups, not EMS.\\n2. Small-dollar, high-volume accounts served by software rather than advocate labor.\\n3. A retro-window clock built specifically around the January 2027 cut. I did not see the incumbents' pages mention it.\\n\\nWhat is NOT white space: ER, anesthesia and radiology physician groups. ElevatePFS explicitly serves 'hospital and physician first-party collections', and Cedar serves 'Clinician Services Providers'. Rural hospitals are also the incumbents' core market.\\n\\nThere is also an unit-economics red flag. Medicaid pays fee-schedule rates, often a few hundred dollars per ambulance transport, not the $800-$2,500 billed amount. A 15-20% contingency is then roughly $30-$80 per recovered account, against multi-touch outreach and a 45-90 day caseworker chase. The '10-30x a debt buyer' claim is likely overstated for EMS. A back-test on real accounts must show what Medicaid would actually have paid.",
+ "evidence_of_demand": "Demand for outsourced Medicaid eligibility and enrollment is proven, but I found no evidence specific to ambulance or EMS.\\n- ElevatePFS serves 2,500+ facilities and 22M accounts a year, with 1,550+ eligibility client sites and a KLAS top-performer recognition: https://elevatepfs.com/ and https://elevatepfs.com/medicaid-eligibility/\\n- Its self-pay/early-out product reports clients typically improve self-pay approvals by 20-40%: https://elevatepfs.com/self-pay-early-out/\\n- Cedar, which has raised venture funding from a16z, Tiger Global and Founders Fund, built Cedar Cover for Medicaid and ACA enrollment, including at the ED point of care: https://www.cedar.com/solutions/cedar-cover\\n- Regulation: I recall the 2025 budget law (OBBBA) cutting Medicaid retroactive coverage from 3 months to 1 month for expansion adults and 2 months for others, for applications from January 2027. I could not fetch the statute or a source for the exact months and date. The Wikipedia summary confirms only a reduction from three months to one month, with no date: https://en.wikipedia.org/wiki/One_Big_Beautiful_Bill_Act\\n- Not found: RFPs, forum complaints or EMS-agency spend data. The demand link for the EMS niche is inferred, not evidenced.",
+ "kill": false,
+ "kill_reason": "n/a. The idea is not dominated in the EMS niche, and a narrow, specific wedge appears open. But the general form (contingency Medicaid enrollment for self-pay accounts) is already sold at scale by ElevatePFS and Cedar. The EMS wedge and its economics are unverified, so this is a conditional pass, not a clean one.",
+ "sharper_angle": "Drop the broad pitch to hospitals and physician groups, where ElevatePFS and Cedar already sell. Become the EMS-only retro-window layer. The idea below has not been tested.\\n1. Sell it as a white-label or per-recovered-claim add-on through EMS billing companies (Digitech, Wittman/EMSMC, ESO, ImageTrend users) rather than direct to county agencies.\\n2. Attack the low unit economics with data matching instead of advocate-led outreach. Transported patients are usually taken to a hospital, and that hospital's eligibility team (or an ElevatePFS-type vendor) often gets them onto Medicaid. Match self-pay ambulance accounts against those outcomes and state eligibility lookups, then re-bill the ambulance date of service inside the retro window. Only fall back to patient outreach for the remainder. Pair this with a dashboard showing days left per account.\\n3. Price per recovered claim against the actual Medicaid ambulance fee schedule, not billed charges.\\n4. Start in expansion states that still have a 3-month retro window, and use the 2026 filing rush before January 2027 as the sales urgency. Verify the statutory details first.\\n5. Gate the whole idea on a back-test. Take 12 months of self-pay ambulance accounts from 2-3 billers and show recovered dollars per account after costs. If it is under roughly $100 net per account, do not build it."
+}

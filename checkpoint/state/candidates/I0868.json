@@ -1,0 +1,16 @@
+{
+ "title": "Human Bench Network for AI Agents",
+ "angle": "contrarian",
+ "one_liner": "An API-fronted network of laid-off expert bench scientists who run ad hoc wet-lab experiments for AI agents and return machine-readable execution records.",
+ "customer": "AI-first biotechs, AI-for-science startups and university groups (5-60 people, seed to Series B) that run agent swarms but have no wet lab; later, programs adjacent to frontier labs.",
+ "problem": "Agent swarms now propose far more experiments than anyone can run. Anthropic's run went from 200,000+ reverse transcriptases to 20 candidates using ~950 agents in 21 hours. Stanford's Virtual Biotech (37,000 agents, Science, Sept 17, 2026) says the next step is testing findings in real labs. Cloud labs and robots handle fixed assays, but not ad hoc molecular biology: Anthropic itself found robotics less conducive to ad hoc workflows and kept human scientists at the bench. Human review and bench work are the bottleneck.",
+ "solution": "Ticketed experiments through an API or MCP endpoint. The agent proposes a protocol and a senior scientist does feasibility triage. A vetted contractor then runs it at sublet or surplus benches, BSL-1/2 only. Each job returns a signed record that separates AI proposal, human edit and physical execution (deviations, photos, instrument logs, raw data). Fixed price per experiment. Start with commodity molecular biology: cloning, small-scale expression and purification, ELISA/BLI/qPCR, enzyme activity, bacterial and cell-culture assays.",
+ "why_now": "Frontier labs and Stanford now say publicly that bench execution is the bottleneck. BioSpace tracks 15,000+ biopharma job cuts across 50+ companies in 2026, which supplies skilled hands. The OpenAI Foundation plans to distribute $1B by year-end through Public Data for Health, which creates grant-funded demand for data generation. Lab Manager notes there is no sign-off standard for AI-directed experiments, and this record format supplies one. Anthropic has said it wants to work with other scientists.",
+ "revenue_model": "$1.5-8k per experiment at roughly 35-45% gross margin, monthly retainers with minimum volumes for agent-heavy customers, and a premium for 48-hour turnaround. The platform keeps a take rate on contractor labor.",
+ "non_obvious_insight": "Compute is now nearly free compared with bench throughput, and robots failed as the universal answer because real biology is ad hoc. The defensible assets are a pre-vetted pool of humans and a structured execution record that agents can learn from. Humans become the last-mile actuator for AI. Adaptyv and cloud labs cover single fixed assays; nobody sells the long tail of one-off experiments.",
+ "first_30_days": "Recruit 10-15 laid-off molecular biologists in Boston, SF and San Diego through layoff trackers and alumni groups. Rent 2-3 sublet benches or surplus CRO benches. Define three ticket types with fixed prices. Pitch 10 AI protein-design and agent startups and close 3-5 pilots. Aim for the first 20 paid experiments and publish the sample record schema.",
+ "outside_box_score": 7,
+ "source": "idea:synbio-biotools:all4",
+ "kind": "idea",
+ "id": "I0868"
+}

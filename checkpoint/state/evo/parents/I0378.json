@@ -1,0 +1,71 @@
+{
+ "title": "Family Bank: Bank of Mom and Dad, Papered",
+ "angle": "2",
+ "one_liner": "A family office's real job is governance and records, not investing; for $20/mo, give ordinary parents and adult children a promissory-note, autopay and sibling-fairness ledger for the money that already flows between them.",
+ "customer": "Parents aged 55-75 who lend or give money to adult children (down-payment help, car, tuition, debt payoff, business start), sold as a pair with the adult child (28-45). Elder-law attorneys, mortgage brokers and credit unions are referral channels.",
+ "problem": "Family lending is handshake-based. Zero-interest loans over $10k invite imputed-interest questions. Gifts above the $19,000 annual exclusion (2026) need Form 709 filings. Medicaid's 60-month look-back treats gifts and forgiven loans as transfers. Mortgage lenders want documented gift letters. Siblings fight at inheritance over who got what because nobody kept records. NAR's 2025 profile shows the median first-time buyer is 40 and 22% received a gift or loan from relatives or friends.",
+ "solution": "A guided flow decides gift vs loan and generates a note at or above the AFR (August 2026: 4.10% short, 4.35% mid, 4.92% long). ACH autopay collects and pays, and both sides get annual interest statements. A December 'forgiveness engine' forgives up to the exclusion with proper letters. A sibling ledger records every advancement so estates can equalize. Flags fire for Form 709 and Medicaid look-back exposure, and there is a mortgage-ready gift-letter generator plus one-click export to the family's estate attorney. Attorney review is an add-on.",
+ "why_now": "Median first-time buyer age hit 40 (a record), housing costs push more family help, and long-term-care costs make the Medicaid look-back a live worry for boomer parents. Instant-payment and bank-linking rails make autopay cheap. The 2026 federal estate exemption is $15M, so for most families the value is peace and records, not tax planning.",
+ "revenue_model": "$20/mo per family (up to 3 active loans); $49 document packs for the free-to-paid funnel; $149 attorney review add-on with referral fees; optional servicing fee; later, a pooled family reserve product.",
+ "non_obvious_insight": "The killer feature is not the loan, it is the sibling ledger. Most family money fights are about unequal treatment nobody can prove, and family offices solve this with an advancement ledger that ordinary families never get. The loan-vs-gift label is also the pivot point for tax and Medicaid consequences, so classification is the paid moment.",
+ "first_30_days": "Ship a free AFR calculator and note generator aimed at 'family loan agreement' searches, and sell $49 document packs. Convert 5% to the $20/mo servicing tier. Line up 3 elder-law attorneys who receive leads and review notes. Target 50 paying families.",
+ "outside_box_score": 7,
+ "source": "wild:g3+g4",
+ "kind": "wild",
+ "id": "I0378",
+ "tournament": {
+  "score": 0.767,
+  "overall_rank": 273,
+  "cluster": "Making family estate plans fair and contest-proof",
+  "judge_notes": [
+   "vc: rank 3/25 - Huge, unserved handshake-lending market; sibling ledger is genuine insight; SEO funnel and document packs sell fast.",
+   "operator: rank 12/25 - Sibling-ledger insight is nice; doc packs might sell, but subscription retention looks doubtful.",
+   "contrarian: rank 8/25 - Sibling advancement ledger is the sharp insight; big latent market, but low defensibility and weak retention."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "LoanBack",
+    "url": "https://www.loanback.com",
+    "what_they_do": "DIY promissory note and loan agreement builder for friends and family loans. LoanBuilder ($29.95 one-time) auto-calculates interest, payments and amortization, and adds online collaboration, payment reminders and alerts, and a transaction history. Blank Word forms cost $14.95. Payments are logged manually. Its how-it-works page (https://www.loanback.com/how-it-works) says it does not collect payments. I found no AFR or imputed-interest engine, gift-vs-loan flow, forgiveness letters, Form 709 or Medicaid flags, or sibling ledger. Its media page (https://www.loanback.com/media-center) cites Newsweek, CNN Money, Barron's, SmartMoney and Bankrate.",
+    "scale_or_funding": "Site claims $1.8B to $2.1B in loans formalized and more than 10 years in market (two pages give different figures). Founded by the team behind Yahoo! Finance. Funding not verified.",
+    "overlap": "direct"
+   },
+   {
+    "name": "FamZoo",
+    "url": "https://famzoo.com",
+    "what_they_do": "Family prepaid card and finance app aimed at kids and teens. It lists 'Family Loan Tracking' and 'Parent Paid Interest'. I found no mention of adult children, AFR compliance, promissory notes, tax or Medicaid flags, or sibling equalization.",
+    "scale_or_funding": "$5.99/mo per family ($4.99/mo on annual prepay). Funding not verified.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Wealth.com",
+    "url": "https://www.wealth.com",
+    "what_they_do": "AI estate and tax planning platform for wills, trusts and powers of attorney, with scenario modeling. It is advisor-led only: clients can access it only through an advisor or attorney. The homepage does not mention intrafamily loans, gift tracking or promissory notes, but it could add them as a feature.",
+    "scale_or_funding": "Says it serves firms with more than $15T in combined AUM. Funding not verified.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Vanilla",
+    "url": "https://www.justvanilla.com",
+    "what_they_do": "Estate planning software for advisors and RIAs, with an estate health check, document builder, AI plan review and GRAT/SLAT modeling. The homepage does not mention intrafamily loans or gift ledgers. It sells to advisors, not consumers.",
+    "scale_or_funding": "Pricing not displayed. Funding not verified.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "LoanWell (institutional, not family)",
+    "url": "https://www.loanwell.com",
+    "what_they_do": "Loan origination and servicing software for CDFIs, credit unions and community banks, including ACH payments and e-sign closing. It is not a family-loan product, but it shows the servicing rails exist as B2B software that a credit-union channel could use.",
+    "scale_or_funding": "Not disclosed on its site.",
+    "overlap": "adjacent"
+   }
+  ],
+  "white_space": "Research was limited: the WebSearch budget was exhausted (200 of 200) before any planned search ran, so I worked only from direct fetches of specific pages. I did not search Crunchbase, YC, Product Hunt, forums or RFPs, and I could not check LegalZoom, Rocket Lawyer or Nolo because those URLs returned 404 or 403. What the evidence shows: (1) The document layer is already commoditized. LoanBack sells a note plus amortization schedule for $15 to $30 and has 10+ years of traction, so the free AFR calculator and $49 note pack in the 30-day plan would compete head-on with it. (2) Nothing I found does the parts that are the real product. I checked LoanBack, FamZoo, Wealth.com and Vanilla, and none advertises these: real ACH autopay between parent and adult child; annual interest statements for both parties; a December forgiveness engine that applies the annual gift exclusion; a gift-vs-loan classification flow tied to Form 709 and Medicaid look-back flags; a mortgage gift-letter generator; a sibling advancement ledger that estates can equalize from; a one-click export to the family's estate attorney. (3) The sibling ledger and the classification audit trail appear genuinely unserved for ordinary families. The advisor-only estate tools (Wealth.com, Vanilla) do not sell to a 62-year-old parent or her adult child. (4) Coverage gap: I could not confirm the absence of niche competitors. Private-note servicers, small startups and attorney-firm tools may exist that my fetches missed.",
+  "evidence_of_demand": "Moderate, and mostly indirect. (1) LoanBack's site claims $1.8B to $2.1B in loans formalized over 10+ years, and press (Newsweek, CNN Money, Barron's, SmartMoney, Bankrate) recommends it for family loans. It charges $14.95 to $29.95 one-time, so people do pay to paper family loans, but at a low price point. Sources: https://www.loanback.com and https://www.loanback.com/media-center. (2) NAR's Profile of Home Buyers and Sellers (July 2024 to June 2025) reports a record median first-time buyer age of 40 and a first-time buyer share of 21%, and notes gifts or loans from relatives or friends as an important source of down payment help. I could not confirm the idea's 22% figure. Source: https://www.nar.realtor/research-and-statistics/research-reports/highlights-from-the-profile-of-home-buyers-and-sellers. (3) Wikipedia cites a Federal Reserve study that around 30% of first-time buyers received direct parental help with a down payment (2009 to 2016), and puts UK family help at about 52% of first-time buyers. Source: https://en.wikipedia.org/wiki/Bank_of_Mum_and_Dad. (4) The IRS publishes AFRs monthly, and October 2026 is the latest posted, which supports the below-market-loan compliance point. Source: https://www.irs.gov/applicable-federal-rates. (5) FamZoo charges $5.99/mo per family and lists family loan tracking, which suggests some willingness to pay a monthly fee for family money tools. Source: https://famzoo.com. Not found: any direct evidence (forum complaints, RFPs) that families will pay $20/mo for servicing. The Medicaid look-back and Form 709 claims are legally plausible, but I could not verify them from sources in this session because the Elder Law Answers page returned no usable content.",
+  "kill": false,
+  "kill_reason": "n/a",
+  "sharper_angle": "Do not lead with the loan. Lead with the sibling advancement ledger and a gift-vs-loan classification record, sold as an estate-ready evidence file. (1) Drop the free AFR calculator and $49 note pack as the acquisition wedge, since LoanBack already owns that search intent at $15 to $30. (2) Offer a free or cheap ledger of every gift, loan, forgiveness and gift letter, with a timestamped classification audit trail. Its purpose is to prove, at the estate or Medicaid look-back stage, what was a loan and what was a gift. No competitor I found offers this. (3) Make the elder-law and estate attorney the primary channel (B2B2C), with per-client-seat pricing and a record the client can export straight into the attorney's file. The advisor-only platforms (Wealth.com, Vanilla) do not reach mass-affluent families. (4) Avoid money movement at launch: detect payments through bank-link transaction matching instead of collecting ACH. That sidesteps loan-servicing licensing, money-transmission and unauthorized-practice-of-law exposure until there is a licensed servicer or credit-union partner, and real autopay can be added later through that partner. (5) Price the paid moment on year-end and estate events (forgiveness letters, interest statements, attorney export) rather than a flat $20/mo, because LoanBack shows one-time pricing is the norm in this category. Before building, rerun the search pass once the search budget is restored (Crunchbase, Product Hunt, r/personalfinance, elder-law attorney forums), and specifically look for private-note servicers and attorney-firm tools that might already bundle an advancement ledger."
+ }
+}

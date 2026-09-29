@@ -1,0 +1,73 @@
+{
+ "status": "gap",
+ "competitors": [
+  {
+   "name": "IBHS Wildfire Prepared Home",
+   "url": "https://wildfireprepared.org/",
+   "what_they_do": "Insurer-backed nonprofit designation. Homeowner works a mitigation checklist, submits photos, and a third-party in-person evaluator documents completed work (60 days to fix deficiencies). Operates in CA, CO, FL, NM, TX, UT and 8 other states, with State Farm, Farmers, Mercury, CIG, USAA and others listed as supporting insurers. It is the closest thing to an accepted evidence standard, not a homeowner concierge. Discount amounts and renewal benefits are not stated on the page.",
+   "scale_or_funding": "Nonprofit (IBHS), 14 states, multiple major carriers",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "My Safe Florida Home (state program)",
+   "url": "https://mysafeflhome.com/",
+   "what_they_do": "Florida-funded program offering free wind-mitigation inspections and grants up to $10,000 for roof and opening hardening. The report can be shared with the carrier for statutory discounts. It undercuts any paid diagnostic in Florida, though it is wind-focused and does not mention nonrenewal.",
+   "scale_or_funding": "State-funded, statewide FL",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Frontline Wildfire Defense",
+   "url": "https://www.frontlinewildfire.com/",
+   "what_they_do": "Sells an exterior sprinkler and foam system and markets it explicitly as helping homeowners avoid nonrenewal and win coverage from preferred carriers, with financing. It monetizes the same fear but sells one product, not diagnosis, evidence or appeal.",
+   "scale_or_funding": "Private, funding not verified",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "California Department of Insurance: Safer from Wildfires + Request for Assistance",
+   "url": "https://www.insurance.ca.gov/01-consumers/200-wrr/Safer-from-Wildfires.cfm",
+   "what_they_do": "The regulator publishes ten mitigation actions (Class A roof, ember-resistant vents, 5-ft zone, enclosed eaves, and others) that qualify for mandated discounts. It runs a free hotline and complaint route for nonrenewals. The page does not say who verifies the work or how to document it, which is the gap the idea targets, but it is the free public baseline.",
+   "scale_or_funding": "State regulator, free",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "ZestyAI",
+   "url": "https://www.zesty.ai/",
+   "what_they_do": "B2B aerial-imagery and AI risk models (wildfire, hail, roof age and condition) sold to carriers such as Allstate, Amica and Berkshire Hathaway Homestate, and to FAIR Plans. It produces the flags that trigger many nonrenewals. The site shows no homeowner-facing view, contest or remediation tool, so this is the unserved counter-party, not a competitor today.",
+   "scale_or_funding": "Venture-backed; funding not verified in this pass",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Porch Group (iRoofing, Inspection Support Network, Hire a Helper)",
+   "url": "https://www.porchgroup.com/",
+   "what_they_do": "Public home-services, inspection and home-insurance group. It already owns a roofing marketplace, an inspection network and a repair marketplace, and could bolt on a nonrenewal-cure flow. The homepage did not show a homeowner-facing cure product.",
+   "scale_or_funding": "Public company",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Hippo (agency)",
+   "url": "https://www.hippo.com/",
+   "what_they_do": "Home insurance agency placing with 70+ carriers and 500K+ customers per its site. It is a natural re-placement channel and a possible incumbent feature owner, but it shows no cure or evidence service.",
+   "scale_or_funding": "NYSE-listed; 500K+ customers",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "Wildfire Partners (Boulder County, CO)",
+   "url": "https://wildfirepartners.org/",
+   "what_they_do": "County-run individual home assessments, mitigation rebates and community chipping in parts of Boulder County. Local and government-run, and the page shows no insurer tie-in.",
+   "scale_or_funding": "Local government program",
+   "overlap": "adjacent"
+  },
+  {
+   "name": "California FAIR Plan",
+   "url": "https://www.cfpnet.com/",
+   "what_they_do": "Insurer of last resort and the destination the idea aims to keep people out of. It advertises wildfire hardening discounts for its policies.",
+   "scale_or_funding": "645,987 policies as of Sept 2025, up from 123,657 in Jan 2019 (per https://www.efsurvivors.net/fix-insurance)",
+   "overlap": "adjacent"
+  }
+ ],
+ "white_space": "CAVEAT ON CONFIDENCE: the session's WebSearch budget ran out (200 of 200) before any of my searches ran. All findings come from direct page fetches of known sites (regulators, IBHS, competitors, Consumer Watchdog, leginfo). I could not sweep Crunchbase, YC, Product Hunt or Reddit (blocked or unfetchable). The claim that no funded startup sells a homeowner-facing, end-to-end nonrenewal cure service is therefore unverified. Re-run with a raised CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION before committing.\n\nWhat looks unserved: nobody found does the execution layer end to end. That means decoding the notice, dispatching a vetted local contractor, producing a carrier-format evidence packet, scheduling the reinspection and handing the broker a clean file. IBHS supplies a checklist and evaluator but no contractors or concierge. State and regulator programs are free but fragmented. Frontline sells one product. ZestyAI and Porch sit adjacent without a homeowner cure flow. Non-CA states (FL, TX, CO, UT, NM) lack an SB 1301-style mandate, and California has a roughly 15-month window before its rules bite.\n\nImportant erosion of the pitch as written: CA SB 1301 (Allen), signed 09/27/2026 as Chapter 693, Statutes of 2026 (https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB1301). Per the bill text, from Jan 1, 2028 insurers must give at least 90 days notice of nonrenewal. They must give a detailed plain-language explanation of remediation that would allow renewal, and at least 90 days to cure. They must hand over all non-aerial imagery and inspection reports within 15 days on request, and may reinspect at their own expense. Protections reach wildfire scores. Consumer Watchdog also says the bill prohibits nonrenewal for roof age alone. That commoditizes the paid diagnose-the-reason step and the time-pressure pain in CA. It leaves the fix, evidence and coordination step, which is the contractor referral and broker-placement revenue, not the $149 diagnostic. The campaign page (https://www.efsurvivors.net/fix-insurance) says six months notice while the enrolled text says 90 days, so treat the exact notice period as unverified. Other weak spots: many flags are area-level wildfire scores or roof age and are not cheaply curable. Contractor lead-gen has thin margins and trust risk. Whether negotiating or filing appeals with carriers needs an insurance producer or adjuster license is unverified and needs legal review.",
+ "evidence_of_demand": "Strong evidence of the pain and of political and market demand. I found no direct evidence that homeowners pay for a $149 diagnostic or $250-500 packet: no forum or RFP evidence was retrievable (Reddit blocked, search budget exhausted).\n\n1) Legislative validation. SB 1301 was signed 09/27/2026 to give homeowners explained reasons, a repair path and time to cure (https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB1301). Consumer Watchdog's release of Sept 2, 2026 quotes a homeowner dropped after spending $8,000 on repairs saying 'If those protections had been in place, we would likely still have our policy today,' and cites a claim that over 90% of Californians support longer notice and time to improve (https://consumerwatchdog.org/insurance/california-legislature-approves-three-bills-to-require-fair-and-timely-home-insurance-payouts-and-improve-access-to-coverage/). Its 'Homeowners Dropped by Insurers' page profiles 26+ affected homeowners (https://consumerwatchdog.org/insurance/homeowners-dropped-by-insurers/).\n\n2) Scale of displacement. FAIR Plan policies grew from 123,657 (Jan 2019) to 645,987 (Sept 2025) (https://www.efsurvivors.net/fix-insurance). The CDI's 2026 nonrenewal moratoria covered about 150,000 Californians after the Gifford Fire (Jan 9, 2026) and 64,000 after the Gann Fire (Aug 14, 2026) (https://www.insurance.ca.gov/0400-news/0100-press-releases/2026/).\n\n3) Vendors already monetize the fear. Frontline Wildfire Defense markets its system as a fix for nonrenewal, with financing (https://www.frontlinewildfire.com/). Florida spends state money on cure-side hardening: free inspections and up to $10K grants (https://mysafeflhome.com/). IBHS runs an insurer-backed evidence program across all six target states (https://wildfireprepared.org/).\n\n4) Regulator route. CDI tells nonrenewed homeowners to ask the insurer for reinstatement and then file a Request for Assistance (https://www.insurance.ca.gov/01-consumers/140-catastrophes/MandatoryOneYearMoratoriumNonRenewals.cfm), which shows there is no private cure service to point to.",
+ "kill": false,
+ "kill_reason": "n/a",
+ "sharper_angle": "Drop the consumer-paid $149 diagnostic and sell the fix-and-verify workflow to the people who now have a legal or commercial duty to offer a cure path: independent brokers and agencies first, then carrier or MGA underwriting teams (this is my inference from the SB 1301 findings). Under SB 1301 carriers must supply a plain-language remediation list, 90+ days to cure, and reinspection at their own expense. The bottleneck moves to getting the homeowner's fix done and proved in the format the underwriter accepts. Build a white-label, per-case remediation system with a vetted contractor network. Format evidence to the carrier's guideline and to public checklists (CDI Safer from Wildfires, IBHS Wildfire Prepared Home, which already runs in all six target states). Include reinspection scheduling and a clean re-marketing file for the broker. Charge a success fee per verified cure, or a per-case SaaS fee to the broker, with a contractor referral fee as secondary revenue. Keep the decode step free as the top-of-funnel hook, since CA will mandate it from 2028. Move the wedge earlier to underwriting-inspection 'fix by X date' letters that precede nonrenewal, which are far higher volume and carry no reason-code fight. Prioritize FL, TX, CO, UT and NM plus CA before 2028. Consider becoming a fulfillment or accredited-evaluator partner to IBHS rather than a competitor. Before building, verify with the 20 hand-worked cases whether carriers accept third-party packets, and get counsel on producer or adjuster licensing.\""
+}

@@ -1,0 +1,16 @@
+{
+ "title": "WhatsApp Voice-Note Superintendent for Spec Builders",
+ "angle": "boring-lucrative",
+ "one_liner": "A bilingual coordinator-plus-AI service that runs daily crew confirmations, headcounts and re-sequencing for a builder's two dozen subs over WhatsApp voice notes, priced per house.",
+ "customer": "Small private and spec builders (20-300 homes a year) in Texas, Florida and the Southeast, and remodelers who juggle many subs.",
+ "problem": "A typical home needs about two dozen subs. Foundations sit 30+ days waiting for crews, and one executive described 15-20 houses stuck 6+ weeks. Builders learn a crew is not coming days too late. Project software requires English typing and logins, and workers are wary of anything that looks like tracking. Procore's 20 agents serve larger GCs.",
+ "solution": "Foremen keep sending Spanish voice notes on WhatsApp. The system transcribes them, extracts headcount, phase status and photos, and updates the schedule. A nearshore bilingual coordinator confirms tomorrow's crews by 5 p.m., calls backup crews when there is a gap, and sends the builder one exception report each morning. Privacy by design: counts and progress only, no IDs or location.",
+ "why_now": "ICE arrests rose from 32,545 in May to 49,571 in July 2026. Crews can shrink overnight (a Minnesota roofing crew went from 80 to 6). Multilingual speech models and the WhatsApp Business API are mature, and PM incumbents are focused on big GCs.",
+ "revenue_model": "$300-500 per active house per month, or $3-6K per month per builder. One coordinator handles 25-40 houses, so gross margin is high.",
+ "non_obvious_insight": "The bottleneck is not scheduling math, it is that the people who know whether tomorrow's crew is coming do not use the software. The interface must be the phone and language they already use. The daily headcount is the leading indicator, and knowing a day earlier lets a builder re-sequence trades instead of idling a foundation.",
+ "first_30_days": "Sign 3 builders with 10-20 active houses each through a home builders association. Hire one bilingual coordinator. Run it manually with WhatsApp and a shared sheet, add speech-to-text in week 2, and document five saved crew-days.",
+ "outside_box_score": 6,
+ "source": "idea:trades-housing:all4",
+ "kind": "idea",
+ "id": "I0800"
+}

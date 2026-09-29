@@ -1,0 +1,16 @@
+{
+ "title": "Supervised-Hours Bench for Counselors and Social Workers",
+ "angle": "second-order",
+ "one_liner": "A managed group-supervision network and hour-logging platform that lets clinics fund the thousands of post-degree supervised hours gating counseling, MFT and social-work licenses.",
+ "customer": "Group therapy practices, community mental-health agencies and school districts hiring associate-level counselors and social workers; the associates themselves.",
+ "problem": "Counseling, psychology and social work were excluded from the higher federal loan cap. Licensure typically requires 2-4k supervised hours after the degree, and associates often pay $50-150 an hour out of pocket for supervision that is scarce and tracked on paper. Clinics cannot hire associates faster than supervisors can be found.",
+ "solution": "Certified supervisors, often semi-retired licensed clinicians, deliver state-compliant group supervision by video. The platform logs hours in board-ready format and enforces state ratios and rules. Clinics pay per associate per month to onboard associates who can bill insurance under supervision.",
+ "why_now": "The July 2026 loan caps squeeze students in excluded fields and push them toward employer support. Behavioral-health demand is high, and telesupervision is widely permitted in many states after the pandemic.",
+ "revenue_model": "$150-300 per associate per month from the clinic, supervision delivery margin, and hour-logging SaaS. Optional share of billed associate revenue.",
+ "non_obvious_insight": "The scarcest input in the credential chain is not the degree but post-degree supervision, and the payer is the employer, not the student, because associates bill insurance and become revenue-positive once supervised.",
+ "first_30_days": "Pick one large state that permits telesupervision. Recruit 5 licensed supervisors. Sign 3 group practices with about 10 associates in total. Run the hour logs in spreadsheets first and charge $200 per associate per month. Verify board rules before selling.",
+ "outside_box_score": 7,
+ "source": "idea:edu-credentials:all4",
+ "kind": "idea",
+ "id": "I0844"
+}

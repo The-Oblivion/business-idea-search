@@ -1,0 +1,98 @@
+{
+ "title": "Phantom Load Vetting Desk for Rural Utilities",
+ "one_liner": "A fee-based 'is this data center developer real?' diligence service for electric co-ops and municipal utilities drowning in 100-1,000 MW inquiries from shell LLCs.",
+ "customer": "G&T and distribution electric cooperatives, municipal utilities and PUDs (5-person engineering staffs, no data center experience). Secondary: state economic development offices and county governments granting abatements. The utility or its G&T pays per inquiry or on retainer.",
+ "problem": "Every small utility with transmission access is now getting inquiries for 200-1,000 MW campuses from LLCs formed 90 days ago. Each one eats study money, planning time and political capital, and a wrong bet strands ratepayer-funded infrastructure. Texas's proposed SB 6 rule (16 TAC 25.194, final rule due by end of 2026) would require $50,000/MW of financial security before a study and disclosure of duplicate requests. That pushes speculators into neighboring states and co-ops with softer tariffs. Small utilities have no way to tell a real project from a PowerPoint.",
+ "solution": "A standardized 12-point 'physical reality' test built from paper trails that real projects leave and phantom ones cannot. (1) Air permit applications for generators, where the genset count implies the MW. (2) An OEM order acknowledgment or slot reservation for MV transformers and switchgear, plus a delivery date that fits the claimed energization date. (3) Recorded site control (deed or option). (4) Water and stormwater filings. (5) A named tenant LOI or offtaker. (6) A GC or EPC that has actually built a campus. (7) A financing letter. (8) Tax-abatement filings. (9) LLC principals cross-checked against other states' filings, to catch the same MW shopped to five utilities. (10) A power-density and cooling design consistent with the load ask. (11) Local land-use posture. (12) Team track record. The deliverable is a red/amber/green memo, a recommended security amount, and a milestone-gated study structure the utility can put in its ESA. Add-ons are a large-load tariff and ESA term-sheet template and a duplicate-request registry that co-ops in a region can pool.",
+ "why_now": "Large-load tariffs and collateral rules are landing right now: Texas SB 6 (signed June 2025, PUCT rule proposed March 2026, final expected by 12/31/2026), plus AEP Ohio-style minimum-demand tariffs. Each new collateral regime displaces phantom load to the next-weakest utility. Transformer lead times of 3-5 years and switchgear sold out into 2028 mean that a real project without an equipment slot is not real, which gives a very cheap and reliable test. About half of announced 2026 builds are delayed or canceled, so utilities are burned and skeptical.",
+ "revenue_model": "$7.5K-25K per inquiry vetting memo; $60K-150K/yr retainers for G&T co-ops that field 10+ inquiries a year; $25K-50K one-time tariff/ESA template packages; later a subscription to a multi-utility duplicate-request registry. Utilities can often pass the cost to the applicant as a study-deposit line item.",
+ "non_obvious_insight": "Outsiders think the hard part of large-load planning is forecasting demand. Insiders know real projects are betrayed by equipment, not slides. A serious 300 MW developer has a transformer slot, a generator count on an air permit and a GC on payroll before the utility ever hears the name. A phantom has none of those. The tell is the logistics trail, and nobody at a 5-person co-op knows where to look. Texas's high collateral will also export the phantom problem to everyone else.",
+ "first_30_days": "Build scrapers for state air-permit databases in 6-8 states and county deed/LLC records for 3 co-op service territories. Ask 3 co-op contacts (via state electric cooperative associations or a G&T's planning group) for their last 10 inquiries and run free back-tests on how they turned out. Publish a one-page '12 signs your data center inquiry is real' on LinkedIn and co-op association channels. Convert the first 2-3 into paid $7.5K memos on live inquiries and ask for a G&T retainer.",
+ "outside_box_score": 7,
+ "source": "persona:p2-2",
+ "kind": "persona",
+ "id": "I0079",
+ "tournament": {
+  "score": 1.046,
+  "overall_rank": 3,
+  "cluster": "Localities, utilities and landowners facing speculative data-center demand",
+  "judge_notes": [
+   "vc: rank 1/25 - Real insight (equipment trail exposes phantom load), acute buyers, high ticket, and a pooled duplicate-request registry could compound.",
+   "operator: rank 2/25 - Urgent pain, $7.5K+ memos, cheap equipment-trail test, reachable via co-op associations, costs passable to applicants.",
+   "contrarian: rank 1/25 - Sharp non-obvious tell (equipment and permit trail), real 2026 phantom-load shift, unusual customer, fast paid memos, pooled registry moat."
+  ]
+ },
+ "competition": {
+  "status": "gap",
+  "competitors": [
+   {
+    "name": "GridUnity",
+    "url": "https://www.gridunity.com/",
+    "what_they_do": "Interconnection lifecycle software. Calls itself the 'system of record for large load interconnection' (GridInterConnect for Large Load). It is a workflow/queue tool for utilities and does not do external diligence on whether a developer is real. Its CEO says many transmission owners still run large-load requests on spreadsheets and project binders (Latitude Media: https://www.latitudemedia.com/news/phantom-data-centers-are-flooding-the-load-queue/).",
+    "scale_or_funding": "$49.5M DOE GRIP grant with equal cost share (https://www.renewableenergyworld.com/power-grid/smart-grids/gridunity-selected-to-receive-nearly-50m-in-federal-funds-for-its-solution-to-speed-up-interconnection/). Customers include Entergy, Hawaiian Electric, PG&E, SCE and Southern Co, all large IOUs.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Clean Power Research (PowerClerk)",
+    "url": "https://www.cleanpower.com/2026/how-utilities-can-orchestrate-large-load-requests-amid-rapid-grid-growth/",
+    "what_they_do": "Workflow platform now marketed for large-load requests: milestone and phased-ramp tracking, clustering and prioritization, audit-ready reporting. The page shows no external diligence, readiness scoring or duplicate detection. It is an incumbent that could bolt a screening module onto its existing utility installed base.",
+    "scale_or_funding": "Established utility-software vendor with an existing PowerClerk installed base. Funding not disclosed.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Enverus",
+    "url": "https://www.enverus.com/segments/data-center/",
+    "what_they_do": "Developer-side 'Site & Screen' (156M parcels, 43K substations, node pricing). It also sells load forecasting to utilities and co-ops, described as 'the market standard' for them. No developer-credibility or phantom-load scoring is visible on its pages. It is the incumbent most able to add this as a feature.",
+    "scale_or_funding": "8,000+ energy customers, 25 years of data. Large, well-capitalized incumbent.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "LandGate",
+    "url": "https://www.landgate.com/energy-markets/data-centers/data-center-offtake-insights",
+    "what_they_do": "Data center due-diligence reports for developers, funds and lenders: offtake capacity at 21,000+ points of interconnection, property data, environmental screening. It sits on the opposite side of the table, helping developers pick sites, not helping utilities vet developers. Its checklist page is developer-facing.",
+    "scale_or_funding": "Not disclosed on the pages reviewed. Established data/marketplace company.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Cleanview",
+    "url": "https://cleanview.co/data-centers",
+    "what_they_do": "Free tracker of planned and operating data centers built from permits, SEC filings, utility filings and press releases. It currently tracks 3,564 facilities and 384 developers across 419 counties (457,690 MW). It has a paid Platform/API. It is the closest existing data asset to the permit and developer graph in this idea, though no readiness scoring or utility memo product was visible. Its method is described at https://newsletter.cleanview.co/p/how-we-identified-500-planned-data.",
+    "scale_or_funding": "Not disclosed. Small team, hiring, commercial platform via 'contact sales'.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "GridCARE",
+    "url": "https://www.gridcare.ai",
+    "what_they_do": "AI platform that finds latent grid capacity for data center developers and sells to utility partners (PGE 400 MW+, National Grid 650 MW claimed). It focuses on unlocking capacity, not screening applicants.",
+    "scale_or_funding": "Backed by National Grid Partners, Kleiner Perkins and Sutter Hill Ventures. Amount not disclosed on its site.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Zero Emission Grid (ZEG)",
+    "url": "https://www.zeroemissiongrid.com/grid-interconnection-solutions-rest-sitra/data-center-siting/",
+    "what_they_do": "Consulting plus REST mapping software: siting, interconnection queue insights, 'grid due diligence' for developers, IPPs and large-load operators, with some utility work. It is the closest business-model neighbor (consulting-led). Its page shows no developer-credibility vetting for utilities.",
+    "scale_or_funding": "Founded 2022, claims 70+ years of collective team experience, covers major ISOs/RTOs. Funding and pricing not disclosed.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "Camus Energy and Ascend Analytics (utility forecasting and grid software)",
+    "url": "https://www.camus.energy/blog/why-does-it-take-so-long-to-connect-a-data-center-to-the-grid",
+    "what_they_do": "Camus sells flexible-connection and grid-optimization software, and its CEO is the source of the '5 to 10 times more requests than builds' quote. Ascend (https://www.ascendanalytics.com/blog/best-practices-utilities-managing-data-center-demand) sells scenario and risk modeling that advises modeling load ramps that fall short of committed load. Neither offers screening of individual applicants.",
+    "scale_or_funding": "Both are venture-backed or established vendors. Amounts not verified.",
+    "overlap": "adjacent"
+   },
+   {
+    "name": "NRECA Large Loads and Data Centers Learning Hub / Task Force",
+    "url": "https://www.cooperative.com/programs-services/bts/Pages/Large-Loads-and-Data-Centers-Learning-Hub.aspx",
+    "what_they_do": "Free guidance, webinars and a peer task force for co-ops evaluating large loads. The page shows no downloadable developer-vetting checklist, screening tool or vendor list. It is the free-content substitute and also the natural distribution channel.",
+    "scale_or_funding": "Trade association serving about 900 co-ops. Not a commercial competitor, but it can commoditize a '12 signs' checklist.",
+    "overlap": "adjacent"
+   }
+  ],
+  "white_space": "I found no direct competitor. No startup, consultancy or association was selling a utility-side, per-inquiry 'is this developer physically real' memo with a recommended collateral amount and milestone-gated study structure. The gap is real but narrow.\n\nWhat is unserved: (1) External physical-trail verification for small utilities, meaning air-permit generator counts vs claimed MW, recorded deeds and options, LLC principal cross-checks, and OEM or EPC evidence. GridUnity and PowerClerk track applicant-supplied data but do not verify it. Enverus, LandGate and GridCARE serve the developer side. (2) A cross-utility duplicate-request registry. Texas SB 6 mandates duplicate-request disclosure only inside ERCOT. Outside ERCOT there is no pooled registry. Developers do file the same project with several utilities (Latitude Media, Utility Dive). (3) Packaging for 5-person co-op engineering staffs: I found no NRECA vetting checklist or tool, and no small-utility-specific vendor.\n\nSerious weaknesses the founder must address:\n- Regulation and tariffs are substituting for vetting. Collateral, study fees and site-control mandates make the applicant self-prove. Exelon cut its estimates about 40% after stricter collateral. AEP Ohio's pipeline fell by more than half after study fees of up to $100K (https://techstartups.com/2026/09/01/ai-data-centers-request-700-gw-of-u-s-power-but-much-of-the-demand-may-be-an-illusion/). Once a co-op requires a deposit, site control and a signed LOI, much of the 12-point test becomes documents the applicant hands over.\n- Texas SB 6 / 16 TAC 25.194 applies only in ERCOT (https://www.dlapiper.com/en-us/insights/publications/2026/03/texas-proposes-new-interconnection-standards-for-large-electric-loads). The 'small utilities in neighboring states get the displaced phantoms' claim is plausible but I found no evidence for it.\n- Several tests may not be observable by an outsider. OEM order acknowledgments and financing letters are confidential, and real developers often approach the utility before ordering equipment.\n- Regulators are absorbing the LLC-transparency piece. Texas ordered an audit requiring true-ownership disclosure, and Pennsylvania issued an August 18 executive order for projects over 25 MW.\n- Big engineering consultancies could add this as a service line. I could not verify whether they already do. My web-search budget ran out before I could check.",
+  "evidence_of_demand": "The problem is documented and painful. Willingness to pay a third party for the fix is only partly evidenced. I found no RFPs for outsourced vetting and no vendor selling it.\n\nProblem evidence:\n- 5 to 10 times more requests than builds (Camus CEO Astrid Atkinson, in https://www.utilitydive.com/news/a-fraction-of-proposed-data-centers-will-get-built-utilities-are-wising-up/748214/). The same article cites an EPRI survey: among 10 utilities with data-center requests at 50% or more of peak load, none expected actual 5-year load above 35% of peak, and about 30% of utilities derate loads based on maturity signals.\n- Central Electric Power Cooperative (a G&T) says it has 'probably talked to over 100 developers', that some smaller prospects lack transparency, and that its lead spends about 40% of his time on data centers, up from 5-10% (https://cepci.org/the-rise-of-data-centers/).\n- Tri-State has 10 large-load requests of 45-650 MW and wrote a High Impact Load tariff, which FERC rejected on jurisdiction (https://www.utilitydive.com/news/ferc-tri-state-large-load-tariff-data-center-doe/804076/).\n- Coverage of shell-LLC and duplicate 'phantom' requests: https://www.latitudemedia.com/news/phantom-data-centers-are-flooding-the-load-queue/ and https://propmodo.com/utilities-call-bluff-on-speculative-data-center-load-demands/.\n\nCost pass-through evidence (supports the applicant-pays model):\n- Great River Energy 'bills petitioners for the staff work related to vetting large-load requests so the cost doesn't fall on members' (Utility Dive link above).\n- Central's data center customers pay the deposit and the initial study (cepci.org link above).\n\nCounter-evidence:\n- The Utility Dive article and https://rmi.org/resources/planners-have-tools-to-manage-large-load-forecast-uncertainty-are-they-working/ describe the responses as tariffs, collateral, derating and back-testing, not outsourced diligence.\n- Large IOUs build this in-house, for example Georgia Power's Monte Carlo load-realization model.\n- The NRECA hub offers free guidance but no vetting tool.",
+  "kill": false,
+  "kill_reason": "n/a",
+  "sharper_angle": "Do not sell it as a 12-point diligence memo shop, because tariffs and collateral will eat the easy checks. Sell it as the outsourced intake desk and shared duplicate registry for G&T co-op pools outside ERCOT.\n\n1. Wedge: partner with one G&T or state association that is already fielding many inquiries (Great River Energy, Tri-State, Central-style G&Ts). Back-test their last 10 inquiries for free, then run intake for them as a fixed-fee, applicant-paid service, following Great River Energy's bill-the-petitioner model. Utilities then buy it as a study-deposit line item, not a new budget item.\n2. Moat: the pooled duplicate-request and LLC-principal graph across co-ops, states and utilities. Texas mandates duplicate disclosure only in ERCOT, and nobody runs one elsewhere. Every additional co-op makes it more valuable. Memos are the entry product and the registry is the business.\n3. Lead with the checks an outsider can verify from public records: air-permit generator counts vs claimed MW, deeds and options, LLC principals across states, water and stormwater filings, and cross-utility duplicates. Treat OEM slots and financing letters as applicant-supplied attestations to verify with a phone call, not as scraped data.\n4. Integrate with GridUnity and PowerClerk as their pre-queue front door instead of competing. License or partner on Cleanview-style permit data rather than rebuilding it.\n5. Fast test: a paid 'phantom back-test' for 3 co-ops. If they will not pay $7.5K for a live inquiry memo, the applicant-pays thesis is dead. Watch for engineering consultancies (Burns & McDonnell and others) adding this service line, which I could not rule out.\""
+ }
+}

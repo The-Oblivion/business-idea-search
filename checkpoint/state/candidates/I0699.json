@@ -1,0 +1,16 @@
+{
+ "title": "Memory Safe-Harbor: Stop Shredding Server DRAM",
+ "angle": "contrarian",
+ "one_liner": "A component-level sanitization policy plus a resale desk that lets neoclouds and enterprises reuse retired DRAM, CPUs and GPUs instead of shredding whole servers.",
+ "customer": "Neoclouds, colocation operators, banks and healthcare IT asset managers refreshing servers, with ITADs as the channel. They pay a fixed fee and take a resale share.",
+ "problem": "Data-center hardware turns over in 12-18 months and a GPU server rack can exceed $1M. DRAM is up about 400% since early 2024. Many enterprise policies still shred whole servers, destroying volatile memory that holds no persistent data. One client reportedly gained 'eight figures' just by pre-triaging refurbish versus scrap.",
+ "solution": "Publish and audit a per-server-model matrix of which components persist data (SSDs, NVDIMMs, BMC and NIC flash, TPMs) and which do not (DIMMs, most compute and mechanical parts). Get it signed off by a security auditor and the client's CISO. Then run the part-out desk. Data-bearing parts are wiped or destroyed with serialized custody. Everything else is graded, tested and sold to secondary buyers.",
+ "why_now": "The 2025-26 memory price spike turns shredding into a cash-burning act. AI capex has created huge, fast-cycling retiring fleets, and Sumitomo's GreenTek acquisition shows ITAD is being bought as a trading business.",
+ "revenue_model": "40-60% resale share to the client after costs, a $10-30K policy and audit fee per client, and a per-serial chain-of-custody fee.",
+ "non_obvious_insight": "'Shred everything' is a compliance habit, not a security requirement. The barrier is organizational sign-off, not technology. Whoever ships a pre-approved risk framework gets inventory that no one else can touch.",
+ "first_30_days": "Write a 10-page component sanitization matrix for the 5 most common GPU and CPU server models. Have a security-audit firm review it. Pitch 10 neocloud and colo IT asset leads and 5 mid-size ITADs. Run a one-rack pilot on revenue share.",
+ "outside_box_score": 6,
+ "source": "idea:circular-materials:all4",
+ "kind": "idea",
+ "id": "I0699"
+}
