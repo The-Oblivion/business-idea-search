@@ -1,0 +1,556 @@
+{
+ "judged": 214,
+ "judges_per_idea": {
+  "3": 214
+ },
+ "offspring_vs_parent": {
+  "offspring_beating_parent": "75/120",
+  "families_where_best_member_is_offspring": "33/40",
+  "mean_score_delta_by_mutation": {
+   "M1": 0.113,
+   "M2": 0.049,
+   "M3": 0.059
+  },
+  "share_beating_parent_by_mutation": {
+   "M1": "29/40",
+   "M2": "23/40",
+   "M3": "23/40"
+  }
+ },
+ "hybrids": [
+  {
+   "id": "H01",
+   "title": "Phantom-Load Registry: Land Records Meet Utility Queues",
+   "evo_rank": 48,
+   "score": 0.681,
+   "finalist": false
+  },
+  {
+   "id": "H04",
+   "title": "Vet-Verified Herd Exposure and Outbreak Index",
+   "evo_rank": 127,
+   "score": 0.447,
+   "finalist": false
+  },
+  {
+   "id": "H02",
+   "title": "Neutral Monitoring That Unlocks Backup Diesel Dispatch",
+   "evo_rank": 135,
+   "score": 0.416,
+   "finalist": false
+  },
+  {
+   "id": "H05",
+   "title": "Graduate Pay Ledger for CDL Schools and Carriers",
+   "evo_rank": 145,
+   "score": 0.391,
+   "finalist": false
+  },
+  {
+   "id": "H07",
+   "title": "Supplier Watch: Customs Trails Plus Tool Census",
+   "evo_rank": 149,
+   "score": 0.377,
+   "finalist": false
+  },
+  {
+   "id": "H12",
+   "title": "One Binder Scan: Lender Monitoring Plus Warranty Recovery",
+   "evo_rank": 178,
+   "score": 0.249,
+   "finalist": false
+  },
+  {
+   "id": "H10",
+   "title": "Auto Add-On Refund Cascade: Payoff and Return Desk",
+   "evo_rank": 184,
+   "score": 0.217,
+   "finalist": false
+  },
+  {
+   "id": "H08",
+   "title": "Rural County Night Desk for Hospitals and Jails",
+   "evo_rank": 188,
+   "score": 0.203,
+   "finalist": false
+  },
+  {
+   "id": "H03",
+   "title": "Plumber Parts Ledger: Margin Recovery Plus Failure Evidence",
+   "evo_rank": 196,
+   "score": 0.15,
+   "finalist": false
+  },
+  {
+   "id": "H06",
+   "title": "Replication Bench: Poll-Triaged Experiments With Signed Records",
+   "evo_rank": 202,
+   "score": 0.104,
+   "finalist": false
+  },
+  {
+   "id": "H11",
+   "title": "Special-Ed Parent Tracker Feeding Host-School Programs",
+   "evo_rank": 213,
+   "score": -0.086,
+   "finalist": false
+  },
+  {
+   "id": "H09",
+   "title": "Rotor Rescue as Scrapyard Deal-Sourcing Engine",
+   "evo_rank": 214,
+   "score": -0.1,
+   "finalist": false
+  }
+ ],
+ "kind_mix": {
+  "pool": {
+   "mutant": 120,
+   "original": 82,
+   "hybrid": 12
+  },
+  "top25_raw": {
+   "mutant": 19,
+   "original": 6
+  },
+  "finalists": {
+   "mutant": 20,
+   "original": 5
+  }
+ },
+ "root_source_kind": {
+  "pool": {
+   "persona": 130,
+   "wild": 22,
+   "idea": 29,
+   "signal": 11,
+   "collide": 10,
+   "hybrid": 12
+  },
+  "finalists": {
+   "persona": 16,
+   "wild": 1,
+   "idea": 4,
+   "signal": 3,
+   "collide": 1
+  }
+ },
+ "top40_not_finalist": [
+  {
+   "id": "I0389",
+   "title": "Independent Auditor for AI-Scribed Billing",
+   "evo_rank": 6,
+   "why": "family/cluster cap"
+  },
+  {
+   "id": "I0338-M1",
+   "title": "Herd Roll-Forward: Lender-Paid Cattle Collateral Reconciliation",
+   "evo_rank": 9,
+   "why": "family/cluster cap"
+  },
+  {
+   "id": "I0463-M1",
+   "title": "Lead Line Photos Taken During Meter Swaps",
+   "evo_rank": 19,
+   "why": "family/cluster cap"
+  },
+  {
+   "id": "I1240",
+   "title": "Flight simulator drills for county SNAP eligibility workers",
+   "evo_rank": 25,
+   "why": "family/cluster cap"
+  },
+  {
+   "id": "I0428-M2",
+   "title": "Independent Post-Reform Valuation for Medical Lien Funders",
+   "evo_rank": 29,
+   "why": "family/cluster cap"
+  },
+  {
+   "id": "I0773-M1",
+   "title": "Site-Control Check for Utility Large-Load Queues",
+   "evo_rank": 30,
+   "why": "family/cluster cap"
+  },
+  {
+   "id": "I1266-M2",
+   "title": "Contingency Spread Recovery for Public Benefit Pools",
+   "evo_rank": 31,
+   "why": "family/cluster cap"
+  },
+  {
+   "id": "I0388-M2",
+   "title": "Revenue-Integrity Diligence for Water System Acquirers",
+   "evo_rank": 33,
+   "why": "family/cluster cap"
+  },
+  {
+   "id": "I0708-M1",
+   "title": "AP-Inbox Implant Reconciler for Spine ASCs",
+   "evo_rank": 34,
+   "why": "family/cluster cap"
+  },
+  {
+   "id": "I1085-M3",
+   "title": "Pumper-Sampled Hydrogen and Helium Ground-Truth Registry",
+   "evo_rank": 35,
+   "why": "family/cluster cap"
+  },
+  {
+   "id": "I0996-M2",
+   "title": "Grid-Readiness Model Audit for Data Center Lenders",
+   "evo_rank": 36,
+   "why": "family/cluster cap"
+  },
+  {
+   "id": "I0552-M1",
+   "title": "Cavity ID: Tool-of-Origin Evidence via Counsel",
+   "evo_rank": 37,
+   "why": "family/cluster cap"
+  },
+  {
+   "id": "I0365-M3",
+   "title": "Commissioning Passport: The Data Center Readiness Standard",
+   "evo_rank": 38,
+   "why": "family/cluster cap"
+  },
+  {
+   "id": "I0388-M1",
+   "title": "Independent Big-Meter Audits With Refund Guarantee",
+   "evo_rank": 39,
+   "why": "family/cluster cap"
+  },
+  {
+   "id": "I0109-M1",
+   "title": "Deficiency-Suit Add-On Credit Audits for Consumer Defense Firms",
+   "evo_rank": 40,
+   "why": "family/cluster cap"
+  }
+ ],
+ "cliche_excluded": 24,
+ "lens_spread_mean": 0.402,
+ "most_divisive": [
+  {
+   "id": "I0708",
+   "title": "Contingency Recovery of Unpaid Implant Carve-Outs",
+   "pcts": {
+    "vc": 0.782608695652174,
+    "operator": 1.0,
+    "contrarian": 0.0
+   }
+  },
+  {
+   "id": "I0175",
+   "title": "Evac Cash: Payout When Ordered to Evacuate",
+   "pcts": {
+    "operator": 0.0,
+    "contrarian": 0.9565217391304348,
+    "vc": 0.9130434782608695
+   }
+  },
+  {
+   "id": "I1172-M3",
+   "title": "Neutral Registry and Standard for Neighbor Baselines",
+   "pcts": {
+    "contrarian": 0.9545454545454546,
+    "vc": 0.5217391304347826,
+    "operator": 0.0
+   }
+  },
+  {
+   "id": "I0068-M1",
+   "title": "Materials Capture Ratio: Pay-on-Lift for Flat-Rate Shops",
+   "pcts": {
+    "vc": 0.045454545454545456,
+    "operator": 1.0,
+    "contrarian": 0.17391304347826086
+   }
+  },
+  {
+   "id": "I1172",
+   "title": "Neutral Baselines and Neighbor Guarantees for Data Centers",
+   "pcts": {
+    "vc": 1.0,
+    "contrarian": 0.08695652173913043,
+    "operator": 0.43478260869565216
+   }
+  }
+ ],
+ "finalists": [
+  {
+   "n": 1,
+   "id": "I0389-M1",
+   "title": "Scribe-Adjusted EBITDA: Privileged Diligence for Physician Deals",
+   "one_liner": "A fixed-price, 10-business-day, counsel-engaged report that tells private equity buyers how much of a scribe-enabled physician group's revenue is real, and what the rest could cost them.",
+   "lineage": "mutation of I0389 ('Independent Auditor for AI-Scribed Billing'), type: sharpened",
+   "score": 0.955,
+   "evo_rank": 1,
+   "cluster": "Proving AI controls and human review to insurers, auditors and clients",
+   "root_kind": "persona"
+  },
+  {
+   "n": 2,
+   "id": "I1172-M2",
+   "title": "Home Equity Assurance for Data Center Neighbors",
+   "one_liner": "A neutral calculation agent runs a county-approved, developer-funded home-value guarantee for houses near proposed data centers, using pre-announcement baselines and public sale records with no sensors, and unspent escrow reverts to the developer, which makes it cheaper than $10k checks and more credible.",
+   "lineage": "mutation of I1172 ('Neutral Baselines and Neighbor Guarantees for Data Centers'), type: new-customer-or-model",
+   "score": 0.942,
+   "evo_rank": 2,
+   "cluster": "Localities, utilities and landowners facing speculative data-center demand",
+   "root_kind": "wild"
+  },
+  {
+   "n": 3,
+   "id": "I0109-M3",
+   "title": "Auto Loan-End Event Exchange for Add-On Refunds",
+   "one_liner": "Start by recovering unearned add-on refunds on repossessed and charged-off loans for small lenders on pure contingency (cash the lender itself keeps), then turn those lender-attested loan-end events into a neutral exchange that administrators, carriers and regulators plug into, so refunds become a statutory event pushed to the administrator instead of a claim the borrower must pull.",
+   "lineage": "mutation of I0109 ('Payoff-Triggered Refund Recovery for Credit Unions'), type: 10x-or-inverted",
+   "score": 0.942,
+   "evo_rank": 3,
+   "cluster": "Unclaimed money: settlements, refunds, penalties and unpaid invoices",
+   "root_kind": "persona"
+  },
+  {
+   "n": 4,
+   "id": "I0996-M1",
+   "title": "ERCOT Large-Load Energization Files, Fixed Fee",
+   "one_liner": "A two-engineer Texas specialist that sells neocloud and colo developers a fixed-fee, six-week package of ISO-acceptable PSS/E and EMT models, a ride-through study and a compliance file, with a fee kicker paid when ERCOT accepts it.",
+   "lineage": "mutation of I0996 ('Grid-Code Models for AI Data Centers'), type: sharpened",
+   "score": 0.939,
+   "evo_rank": 4,
+   "cluster": "Getting power for large loads and storage",
+   "root_kind": "idea"
+  },
+  {
+   "n": 5,
+   "id": "I1175",
+   "title": "Finish Crew: Stranded Solar Job Completion",
+   "one_liner": "A completion contractor that takes half-built solar jobs abandoned by bankrupt installers all the way to permission-to-operate, and is paid by the lenders whose loans go bad while the system sits dark.",
+   "lineage": "original (tournament survivor)",
+   "score": 0.928,
+   "evo_rank": 5,
+   "cluster": "Residential solar leftovers: orphaned systems, leases and liens",
+   "root_kind": "persona"
+  },
+  {
+   "n": 6,
+   "id": "I0428-M1",
+   "title": "Line-Keyed Cross-Examination Kits for LOP Defense",
+   "one_liner": "A $395, 48-hour kit for defense counsel that turns a letter-of-protection bill into line-by-line cross-examination questions and a signed rebuttal, with the testifying coder as the real profit center.",
+   "lineage": "mutation of I0428 ('Coder-Signed Reasonable-Value Reports for Injury Defense'), type: sharpened",
+   "score": 0.913,
+   "evo_rank": 7,
+   "cluster": "Small litigation practices lacking evidence, records and benchmark tools",
+   "root_kind": "persona"
+  },
+  {
+   "n": 7,
+   "id": "I0338-M3",
+   "title": "Cattle Lien Registry and Sale-Barn Exit Alerts",
+   "one_liner": "Invert the problem: instead of counting cattle in the pasture, watch the few gates cattle must leave through. Start with consignment alerts to lenders and lien matching for auction markets, then grow into the neutral title registry for cattle.",
+   "lineage": "mutation of I0338 ('Chute-Side Cow Counts for Ag Lenders'), type: 10x-or-inverted",
+   "score": 0.899,
+   "evo_rank": 8,
+   "cluster": "Lenders and investors unable to verify collateral exists",
+   "root_kind": "persona"
+  },
+  {
+   "n": 8,
+   "id": "I0836-M2",
+   "title": "Lender-Required Curtailment Reports for Data Centers",
+   "one_liner": "An independent, productized report, like a Phase I environmental report but for power, that tells data center lenders how many hours a campus can legally run its generators when the grid curtails it.",
+   "lineage": "mutation of I0836 ('Air-Permit Unlock for Idle Data Center Diesel'), type: new-customer-or-model",
+   "score": 0.884,
+   "evo_rank": 10,
+   "cluster": "Getting power for large loads and storage",
+   "root_kind": "idea"
+  },
+  {
+   "n": 9,
+   "id": "I0715-M1",
+   "title": "Smoke Report Autopsy for Policyholder Advocates",
+   "one_liner": "An adequacy auditor that scores any carrier-side smoke, ash and soot report against a public, versioned sampling grid. It then drafts the AB 1795 deficiency letter and supplemental sampling plan, and sells to public adjusters and plaintiff attorneys in the Eaton and Palisades zones.",
+   "lineage": "mutation of I0715 ('Interim Smoke-Damage Protocol Before the State Standard'), type: sharpened",
+   "score": 0.884,
+   "evo_rank": 11,
+   "cluster": "Flood and fire survivors: mapping, buyouts, claims and rebuilding",
+   "root_kind": "persona"
+  },
+  {
+   "n": 10,
+   "id": "I0573-M1",
+   "title": "Cure Desk: Cash-Worker Packets for Health Centers",
+   "one_liner": "A Spanish-first text-message case tool for health-center enrollment staff that turns a Medicaid noncompliance notice (or a pre-emptive look-back audit) into a state-formatted evidence packet for cash-paid workers, built on batch attestations from the crew leaders, landlords and households who pay them, billed per accepted packet.",
+   "lineage": "mutation of I0573 ('Medicaid Hours Wallet for Gig Workers'), type: sharpened",
+   "score": 0.883,
+   "evo_rank": 12,
+   "cluster": "Benefit-rule changes: Medicaid work rules, SNAP and ACA cliffs",
+   "root_kind": "signal"
+  },
+  {
+   "n": 11,
+   "id": "I0861",
+   "title": "China-Asset Diligence Desk for Pharma BD",
+   "one_liner": "A bilingual scientist-plus-software sprint that verifies China-sourced drug packages (raw data, GLP and CMC standing, ownership chain) in 72 hours for US buyers.",
+   "lineage": "original (tournament survivor)",
+   "score": 0.868,
+   "evo_rank": 13,
+   "cluster": "Biotech capital: diligence and salvage",
+   "root_kind": "idea"
+  },
+  {
+   "n": 12,
+   "id": "I0716",
+   "title": "Independent Referee for Survey Panel Data",
+   "one_liner": "An audit that tells research buyers what share of their online-panel responses came from bots, agents or fraud farms, and recalibrates the study against a verified-human control sample.",
+   "lineage": "original (tournament survivor)",
+   "score": 0.865,
+   "evo_rank": 14,
+   "cluster": "Gatekeepers drowning in AI-generated submissions and bot responses",
+   "root_kind": "idea"
+  },
+  {
+   "n": 13,
+   "id": "I0463-M3",
+   "title": "Fixed-Price Guaranteed Clearance of Unknown Lead Lines",
+   "one_liner": "Take the whole unknown-lines problem at a fixed price per line with an acceptance guarantee, and make money by routing each line to the cheapest method that will satisfy the state (records mining, meter-swap photos, paid photos, probe, pothole).",
+   "lineage": "mutation of I0463 ('Pay Home Inspectors to Find Lead Pipes'), type: 10x-or-inverted",
+   "score": 0.855,
+   "evo_rank": 15,
+   "cluster": "Small water utilities: staffing, revenue leakage, lead lines and nitrate",
+   "root_kind": "persona"
+  },
+  {
+   "n": 14,
+   "id": "I0079-M2",
+   "title": "Phantom Pipeline Audits for Utility Rate-Case Intervenors",
+   "one_liner": "Sell to the ratepayers who pay for phantom load, meaning industrial customer groups and state consumer advocates in IRP, CPCN and large-load-tariff dockets, a testimony-ready audit of how much of a utility's confidential data-center pipeline is physically real.",
+   "lineage": "mutation of I0079 ('Phantom Load Vetting Desk for Rural Utilities'), type: new-customer-or-model",
+   "score": 0.854,
+   "evo_rank": 16,
+   "cluster": "Localities, utilities and landowners facing speculative data-center demand",
+   "root_kind": "persona"
+  },
+  {
+   "n": 15,
+   "id": "I1289-M1",
+   "title": "Satellite Witness for Neighbor Construction Claims",
+   "one_liner": "A fixed-price, court-ready satellite-radar history of a condo tower's movement before and during the neighbor's pile-driving, sold through the plaintiff-side attorneys who represent Miami-Dade condo associations.",
+   "lineage": "mutation of I1289 ('Settlement Passports for Florida High-Rise Condos'), type: sharpened",
+   "score": 0.841,
+   "evo_rank": 17,
+   "cluster": "Novel environmental and infrastructure data from satellites and crowd-sensing",
+   "root_kind": "collide"
+  },
+  {
+   "n": 16,
+   "id": "I0218-M2",
+   "title": "Independent Collateral Verifier for Warehouse Lenders",
+   "one_liner": "Sell the same listing-vs-ledger signal not to the floorplan lender but to the lender's lender: credit funds and banks that fund floorplan and subprime auto lenders and get a borrower-supplied VIN tape they have never been able to check, delivered as a signed monthly verification certificate that borrowers pay for through facility fees.",
+   "lineage": "mutation of I0218 ('Sold-Out-of-Trust Radar for Floorplan Lenders'), type: new-customer-or-model",
+   "score": 0.841,
+   "evo_rank": 18,
+   "cluster": "Lenders and investors unable to verify collateral exists",
+   "root_kind": "persona"
+  },
+  {
+   "n": 17,
+   "id": "I1062-M2",
+   "title": "Work-Permit Gap Desk for Frontline Employers",
+   "one_liner": "Employer-paid, pre-cliff delay suits for workers whose EAD renewals are pending, sold to home-care, nursing and staffing employers as a per-worker maintenance plan instead of a one-off legal purchase.",
+   "lineage": "mutation of I1062 ('Delay-Suit Rails for Stuck Immigration Cases'), type: new-customer-or-model",
+   "score": 0.835,
+   "evo_rank": 20,
+   "cluster": "Immigrant households and workers: status deadlines and paperwork",
+   "root_kind": "persona"
+  },
+  {
+   "n": 18,
+   "id": "I1240-M3",
+   "title": "Unit Tests for Benefit Law: Eligibility System Conformance",
+   "one_liner": "Invert the drill: aim the same synthetic households and adjudicated answer keys at the eligibility software itself, selling H.R.1 conformance test packs to states and system vendors, with an aim to become the standard test suite that state RFPs cite.",
+   "lineage": "mutation of I1240 ('Flight simulator drills for county SNAP eligibility workers'), type: 10x-or-inverted",
+   "score": 0.826,
+   "evo_rank": 21,
+   "cluster": "Benefit-rule changes: Medicaid work rules, SNAP and ACA cliffs",
+   "root_kind": "signal"
+  },
+  {
+   "n": 19,
+   "id": "I0773-M2",
+   "title": "Holdout Ledger: Landowner-Side Assembly Intelligence",
+   "one_liner": "The landowner's half of the courthouse tape. It shows farm families and heirs in an assembly corridor who is buying around them, how close the buyer is to finishing, and how much leverage the last holdouts have, paid on closing.",
+   "lineage": "mutation of I0773 ('Courthouse Tape: Land-Assembly Radar for Infrastructure'), type: new-customer-or-model",
+   "score": 0.812,
+   "evo_rank": 22,
+   "cluster": "Land and property facts trapped in county records",
+   "root_kind": "persona"
+  },
+  {
+   "n": 20,
+   "id": "I0068-M3",
+   "title": "A Price Reporting Agency for Trade Materials",
+   "one_liner": "Turn pooled supply-house invoices into contract-grade, SKU-level price evidence for the trades, starting with cost-change certificates that win price-adjustment change orders and ending as the index that escalation clauses and price-lock guarantees reference.",
+   "lineage": "mutation of I0068 ('Contingency Audit of Unbilled Plumbing Materials'), type: 10x-or-inverted",
+   "score": 0.806,
+   "evo_rank": 23,
+   "cluster": "Small trade and service firms underpricing and leaking margin",
+   "root_kind": "persona"
+  },
+  {
+   "n": 21,
+   "id": "I0769",
+   "title": "Ruling-Backed Tariff Engineering for Product Brands",
+   "one_liner": "A productized design-and-ruling service that helps mid-market brands legitimately re-spec products across tariff-line boundaries and locks the result in with a CBP binding ruling.",
+   "lineage": "original (tournament survivor)",
+   "score": 0.797,
+   "evo_rank": 24,
+   "cluster": "Tariff cost, classification and customs for small importers",
+   "root_kind": "persona"
+  },
+  {
+   "n": 22,
+   "id": "I1266-M3",
+   "title": "The Pharmacy-Verified Reimbursement Index",
+   "one_liner": "A furnisher-funded bureau, like a credit bureau for PBM payments, that turns what pharmacies actually pay and are actually paid into a reference index that state laws, Medicaid rate-setting and transparent-PBM contracts can cite, launching with a per-state Underwater Index sold to pharmacy associations for the 2027 legislative sessions.",
+   "lineage": "mutation of I1266 ('Pharmacy-Side PBM Ledger for Employers'), type: 10x-or-inverted",
+   "score": 0.783,
+   "evo_rank": 26,
+   "cluster": "Independent pharmacies squeezed by PBMs, refund floats and deserts",
+   "root_kind": "persona"
+  },
+  {
+   "n": 23,
+   "id": "I0195-M1",
+   "title": "Serial Match: AP-Only Recovery for Exchange Buyers",
+   "one_liner": "A success-fee audit that takes one accounts-payable export from an independent rotable pool or Part 145 station, finds money its repair vendors already owe, and collects it. It starts with credits the vendor has already conceded, then moves to repeat-failure claims.",
+   "lineage": "mutation of I0195 ('Contingency Recovery of Missed Rotable Repair Warranties'), type: sharpened",
+   "score": 0.783,
+   "evo_rank": 27,
+   "cluster": "Warranty claims left unfiled",
+   "root_kind": "persona"
+  },
+  {
+   "n": 24,
+   "id": "I0365-M1",
+   "title": "Hall-Ready Gate for Liquid-Cooled GPU Tranches",
+   "one_liner": "A fixed-price, 10-business-day release/hold decision, made 60-90 days before GPU delivery, on whether a liquid-cooled data hall will be energized and flowing when the racks arrive.",
+   "lineage": "mutation of I0365 ('Ground-Truth Diligence for GPU-Backed Lenders'), type: sharpened",
+   "score": 0.783,
+   "evo_rank": 28,
+   "cluster": "Investors, lenders and venues wanting real-economy ground truth",
+   "root_kind": "persona"
+  },
+  {
+   "n": 25,
+   "id": "I0236",
+   "title": "Tariff Surcharge Clawback for B2B Buyers",
+   "one_liner": "A contingency-fee service that mines a buyer's 2025-26 supplier invoices for 'tariff surcharge' lines and recovers a share of the IEEPA refunds those suppliers are now collecting.",
+   "lineage": "original (tournament survivor)",
+   "score": 0.754,
+   "evo_rank": 32,
+   "cluster": "Recovering IEEPA tariff refunds and surcharges",
+   "root_kind": "signal"
+  }
+ ]
+}

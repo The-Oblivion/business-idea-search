@@ -1,0 +1,121 @@
+{
+ "id": "I0773-M2",
+ "title": "Holdout Ledger: Landowner-Side Assembly Intelligence",
+ "one_liner": "The landowner's half of the courthouse tape. It shows farm families and heirs in an assembly corridor who is buying around them, how close the buyer is to finishing, and how much leverage the last holdouts have, paid on closing.",
+ "customer": "Owners of 100-2,000 acres in counties where recorded options and easements cluster, reached through ag and land-use attorneys, county farm bureaus, rural lenders and direct mail. Wedge: heirs, tenants-in-common and absentee owners who get anonymous offers under NDA. The payer is the landowner, on a contingent fee, plus subscribing law firms.",
+ "problem": "Each landowner is approached alone by a landman working for an anonymous LLC. NDAs stop neighbors comparing notes. The developer sees the whole assembly and the owner sees one offer. Owners sign early and cheap, or hold out blindly, and cannot tell whether their parcel is a keystone or an afterthought. Landmen work for the buyer, local lawyers rarely have county-wide data, and county officials learn of the project from a leaked story.",
+ "solution": "1. 'Neighbor Check': enter a parcel or address and get a map of recorded instruments within about 5 miles, classified from the image. It shows the LLC family behind them, the share of the plausible footprint already recorded, whether the parcel sits on a critical path (contiguity, road access, a line crossing), expiring options, and a plain-English read of what the pattern usually means.\n2. Owners in a cluster can opt into a negotiating pool, like the mineral-owner associations in oil and gas leasing. A licensed land broker or attorney partner represents them. We supply the analytics and take a success fee on closing.\n3. We sell a group map subscription to ag and land-use law firms and farm-bureau chapters.",
+ "why_now": "The 2025-26 large-load land rush has put anonymous NDA'd offers in front of thousands of rural owners, and local fights over data center land deals are widely reported. Owners can now see the buyer's footprint because public recorded memoranda can be read at scale with LLM vision. FinCEN's exemption for domestic companies means owners cannot ask who is behind the LLC and get a federal answer, so primary records are the only route. Reported prices such as roughly $100k an acre offered near Hill County, Texas, make the information gap worth real money to owners.",
+ "revenue_model": "Free lookup as lead generation. $149-$399 for a full parcel report. A contingent success fee of 1.5%-3% of total consideration at closing, collected through a licensed broker affiliate. Example: a 300-acre owner closing a $4M option-plus-lease package yields $60k-$120k. $300-$800 a month per law firm or farm-bureau seat. Ten closed deals in year one is roughly $500k-$1M, at very low marginal cost after the data pull.",
+ "non_obvious_insight": "The developer's own recorded memoranda reveal how complete the assembly is, and holdout value peaks in the last 20-30% of parcels. That is the moment owners are least informed. Every existing vendor's paying customer is the developer, so none can serve the counterparty without alienating buyers. That is counter-positioning in Helmer's sense. Landowners are numerous, each needs the service once, and assessor rolls are public, so mail reaches them cheaply. The demand is one-shot and high-stakes, which suits a contingent fee better than SaaS. The data burden is also small: a few dozen instruments per cluster, pulled per parcel, with none of the statewide bulk-ingestion risk.",
+ "first_30_days": "Pick one county with a visible assembly. The parent's method of pulling 24 months of instruments gives the pattern. Mail 400 landowners within the cluster a letter with a QR code: 'Three LLCs using the same law firm recorded options on X acres within 4 miles of your land.' Offer a free Neighbor Check, then a $199 report. Sign a referral and co-marketing agreement with one licensed land broker and one ag attorney. Get 5 owners into a pooled negotiation and 20 paid reports. Before launch, have counsel confirm the broker-licensing and fee-sharing rules in the state (lawyers generally cannot split fees with non-lawyers), and use only public records. We are never a party to any NDA.",
+ "family": "I0773",
+ "lineage": "mutation of I0773 ('Courthouse Tape: Land-Assembly Radar for Infrastructure'), type: new-customer-or-model",
+ "competition_context": "Competitor check: GAP. Closest players: ATTOM Data, Reonomy, Regrid, Enverus. White space: The specific product in the idea, a feed that reads recorded option memoranda, leases and easements from county recorders, classifies them from the image rather than the clerk's label, clusters LLC families by notary, return-to firm and address, and alerts on assembly patterns, was not found at any vendor I could read. Everything I could read is adjacent. Parcel and ownership vendors (Regrid, ATTOM, Reonomy) sell deeds, mortgages and LLC piercing but not options or easements. Siting and diligence vendors (Paces, Enverus, GridCARE) help a client find its own site. Project trackers (Cleanview, DC Byte, Heatmap Pro, Data Center Watch) start at permit or public news. Land-management vendors (Pandell, Enverus LandScape) manage a client's own documents. What remains open is cross-county, image-level reading of recorded non-deed instruments to detect other parties' assembly, sold as alerts. It is plausibly protected by the hard part, which is getting recorder access county by county, not the ML. The main structural doubts I could not test are whether developers actually record option memoranda before announcement, and how many counties allow bulk commercial pulls of document images. | How this version avoids them: ATTOM, Regrid, Reonomy, PropertyRadar, Enverus, Paces, Cleanview, DC Byte, Heatmap Pro, GridCARE and Pandell all sell to developers, investors, utilities or the trade. None serves the seller, and none could do so without conflicting with its own customers. Generic land brokerages sell listings but do not read recorded non-deed instruments or unmask LLC families. Landman firms work for the buyer. Nothing in the research offers owners a cluster map or holdout-leverage view. The bulk-access risk is avoided because the work is targeted, parcel by parcel, within a county already showing activity. Weaknesses: a developer or its counsel may push back, some states restrict non-lawyer negotiation help, and reputation matters in small communities.",
+ "parent_competition_reports": {
+  "I0773": {
+   "status": "gap",
+   "competitors": [
+    {
+     "name": "ATTOM Data",
+     "url": "https://www.attomdata.com",
+     "what_they_do": "Sells recorder deed and mortgage data as bulk licenses, API, Snowflake/Databricks and MCP delivery, with use cases such as underwriting, valuation and portfolio monitoring. The site does not mention easements, options, leases, image-level classification or assembly alerts.",
+     "scale_or_funding": "160M+ US properties per its site; funding not checked",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "Reonomy",
+     "url": "https://www.reonomy.com",
+     "what_they_do": "CRE ownership platform that advertises piercing shell LLCs to find the person behind a property, plus sales, debt and lien records. The page does not show alerts on options, easements or memoranda, or land-assembly detection.",
+     "scale_or_funding": "Not checked; my recollection is that it is owned by Altus Group, which I did not verify",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "Regrid",
+     "url": "https://regrid.com",
+     "what_they_do": "Standardized parcel data for the US, Canada and Europe, with daily ownership updates, roadway right-of-way polygons, an API and an MCP server. Lists renewable energy among its industries. Nothing on recorded documents, easements or assembly alerts.",
+     "scale_or_funding": "100% US parcel coverage per its site; funding not checked",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "Enverus",
+     "url": "https://www.enverus.com",
+     "what_they_do": "Energy-data incumbent with siting tools for renewable and data center developers. Its LandScape product uses AI to extract provisions from land documents. The page did not mention courthouse-record ingestion, so this is the most plausible incumbent to add the feature.",
+     "scale_or_funding": "Large established vendor; size not verified in this research",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "Paces",
+     "url": "https://www.paces.com",
+     "what_they_do": "AI software and services for power and data center developers: site identification, diligence automation, and power and permitting reports. No recorded-document or competitor-land tracking was visible on its homepage.",
+     "scale_or_funding": "Funding not disclosed on the page",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "GridCARE",
+     "url": "https://www.gridcare.ai",
+     "what_they_do": "Finds underused grid capacity for AI data centers. Customers include Portland General Electric, National Grid and AI Fabrik. Does not track land acquisition or county records.",
+     "scale_or_funding": "Investors named on its site: Kleiner Perkins, Sutter Hill Ventures, National Grid Partners; amount not disclosed",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "Cleanview",
+     "url": "https://www.cleanview.co",
+     "what_they_do": "Tracks power projects and data centers from first permit to completion, with a contacts database and data downloads. This is post-permit tracking, not pre-announcement land tracking.",
+     "scale_or_funding": "580+ power developers with 7,000+ projects; 400+ data center developers with 3,000+ projects; 25,000+ contacts. Pricing not public.",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "Heatmap Pro",
+     "url": "https://heatmap.news/pro",
+     "what_they_do": "Tracks local opposition, ordinances and moratoriums for clean energy and data center projects, with daily updates and calls to 3,100+ counties. Sold to developers, investors and advocates by demo request. No land or recorded-document monitoring.",
+     "scale_or_funding": "Not checked; sold by demo request",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "DC Byte",
+     "url": "https://www.dcbyte.com",
+     "what_they_do": "Data center market intelligence covering 8,500+ facilities, with pipeline analytics and site-selection tools. Its homepage does not mention land banks or county records.",
+     "scale_or_funding": "8,500+ data centers tracked; funding not checked",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "Pandell",
+     "url": "https://www.pandell.com",
+     "what_props": "",
+     "what_they_do": "Land management software for energy, including solutions for wind, solar and hydro, lease-to-right-of-way management, and land-records digitalization and GIS services. Manages a customer's own agreements and does not watch third parties' recordings.",
+     "scale_or_funding": "Established vendor; size not checked",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "PropertyRadar",
+     "url": "https://www.propertyradar.com",
+     "what_props": "",
+     "what_they_do": "Event-alert engine and owner data for real estate investors, agents and mortgage professionals, including identifying the owner behind an LLC. Residential and distress-focused, with no infrastructure land-assembly focus.",
+     "scale_or_funding": "5-day free trial; pricing not shown on the homepage",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "First American DataTree and title plants",
+     "url": "https://dna.firstam.com/solutions/property-data/datatree-property-research",
+     "what_props": "",
+     "what_they_do": "UNVERIFIED because the page returned 403. From general knowledge, title plants and DataTree hold indexed recorded documents nationwide for title production, and are the closest existing 'all recorded instruments' data. They are sold for title and lending workflows, not as alert feeds.",
+     "scale_or_funding": "Part of First American, a large incumbent",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "Land Gorilla",
+     "url": "https://landgorilla.com",
+     "what_they_do": "UNVERIFIED. The site returned a Cloudflare 'verifying your request' page, so I could not read it. I believe it is a land-data tool aimed at energy or solar developers; check it manually before building.",
+     "scale_or_funding": "Unknown",
+     "overlap": "adjacent"
+    }
+   ],
+   "white_space": "The specific product in the idea, a feed that reads recorded option memoranda, leases and easements from county recorders, classifies them from the image rather than the clerk's label, clusters LLC families by notary, return-to firm and address, and alerts on assembly patterns, was not found at any vendor I could read. Everything I could read is adjacent. Parcel and ownership vendors (Regrid, ATTOM, Reonomy) sell deeds, mortgages and LLC piercing but not options or easements. Siting and diligence vendors (Paces, Enverus, GridCARE) help a client find its own site. Project trackers (Cleanview, DC Byte, Heatmap Pro, Data Center Watch) start at permit or public news. Land-management vendors (Pandell, Enverus LandScape) manage a client's own documents. What remains open is cross-county, image-level reading of recorded non-deed instruments to detect other parties' assembly, sold as alerts. It is plausibly protected by the hard part, which is getting recorder access county by county, not the ML. The main structural doubts I could not test are whether developers actually record option memoranda before announcement, and how many counties allow bulk commercial pulls of document images.",
+   "evidence_of_demand": "RESEARCH LIMITATION, read this first: the WebSearch budget was already exhausted (200 of 200) when I started, so I ran no discovery searches. I did not search Crunchbase, TechCrunch, Product Hunt, forums, RFPs or news. I used WebFetch on about 30 vendor URLs I chose from memory. One of those calls was to a Bing News search URL. That was effectively a search-engine workaround and I should not have made it; it returned nothing and I used none of it. Several sites were blocked, returned 403/404, or gave content too thin to judge (Land Gorilla, DataTree, LandVision, Fidlar, Cotality, Cherre, LightBox). GitHub repository searches found no relevant open-source tool (only unrelated or tiny scrapers, for example https://github.com/jcaseyOakland/Alameda_County_Recorder_Scraper). So the 'gap' verdict has moderate-to-low confidence, and a funded startup could exist that I did not find. Demand evidence: none found for this exact product. Circumstantial evidence only: (1) vendors serving power and data center developers sell on contact-sales pricing, which shows budgets exist: https://www.cleanview.co, https://heatmap.news/pro, https://www.paces.com. (2) GridCARE, which sells data center site and power intelligence, lists Kleiner Perkins, Sutter Hill and National Grid Partners as investors, so VCs are funding this space: https://www.gridcare.ai. (3) Heatmap Pro calls 3,100+ counties daily, which shows customers pay for county-level intelligence that the big databases miss: https://heatmap.news/pro. Not verified: the landman day rate of $300-$600, the Hallam, Nebraska and Hill County, Texas price claims, the FinCEN exemption and the 'other/miscellaneous' document-type claim. I found no forum complaints, RFPs or mandated spend on this problem.",
+   "kill": false,
+   "kill_reason": "n/a",
+   "sharper_angle": "Do not launch as a broad 'radar for everyone'. Start with a narrow, defensible product and validate demand before building the platform. (1) Lead with the buyers no tracker serves: utility and co-op large-load planners, and county economic development or planning offices. They need early warning of large assemblies, they can help get bulk recorder access, and they sit outside the developer-versus-developer race. (2) Choose 2-3 states or corridors where recorder images are cheap and bulk commercial use is allowed, and make the moat the per-county ingestion and the labeled 'Other'/'Agreement' document corpus. (3) Sell the LLC-family and easement-cluster layer as an add-on or data feed to existing platforms (Paces, Enverus, Regrid, Reonomy) rather than competing end to end. Enverus is the biggest risk of absorbing it as a feature, so talk to its partnerships team early. (4) Join assembly clusters to utility large-load queue entries, zoning and rezoning filings, and interconnection data, so alerts read 'this cluster probably becomes a 500 MW campus'. (5) Before writing a classifier, test whether the signal exists. Pull 24 months from two rumored-project counties and count how many option memoranda were recorded before the announcement. If developers mostly record after exercise or announcement, pivot to easement and transmission-corridor detection, which is recorded more reliably. Run that as a landman-in-the-loop memo service first, as the idea's first 30 days already proposes."
+  }
+ }
+}

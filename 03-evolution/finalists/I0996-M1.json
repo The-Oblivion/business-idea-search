@@ -1,0 +1,98 @@
+{
+ "id": "I0996-M1",
+ "title": "ERCOT Large-Load Energization Files, Fixed Fee",
+ "one_liner": "A two-engineer Texas specialist that sells neocloud and colo developers a fixed-fee, six-week package of ISO-acceptable PSS/E and EMT models, a ride-through study and a compliance file, with a fee kicker paid when ERCOT accepts it.",
+ "customer": "Wedge: VPs of power and interconnection leads at 30-60 mid-size neocloud, colo and AI-campus developers with 25-300 MW sites in ERCOT's large-load study queue, plus the EPCs that own their energization schedule. They have no in-house power-electronics staff. Hyperscalers with in-house power simulators are excluded on purpose.",
+ "problem": "Since PGRR115 and NPRR1234 (effective late 2025), ERCOT wants studies and dynamic models for loads of 25 MW or more before energization. NOGRR282 (effective Aug 1, 2026) adds frequency and voltage ride-through requirements for large computational loads. A developer holds only OEM spec sheets. UPS and power-shelf control details sit behind OEM NDAs, and bespoke PSCAD consultants are slow and have never modeled a GPU power shelf. Every rejected model or resubmittal loop delays energization. At 100 MW of leased AI capacity, a month of slip defers roughly eight figures of rent or GPU revenue (rough estimate: about $100+/kW-month of critical IT), so a $150k package is a rounding error next to the delay it prevents.",
+ "solution": "Sell acceptance, not artifacts, in four steps.\n1) A $15-25k gap analysis against the NOGRR282, PGRR115 and NPRR1234 texts, using the site's one-line diagram and UPS/PSU bill of materials.\n2) A fixed-fee package of $90-180k: an ISO-submittable PSS/E dynamic model and EMT model, a ride-through and oscillation study, and a compliance file. It is built from reusable platform-level models of specific UPS, power-shelf and facility archetypes. Those models are HIL-validated at a partner lab (Typhoon HIL or OPAL-RT time, or a university lab) under OEM NDAs.\n3) Submission handling and resubmittal support through ERCOT's large-load process.\n4) A 25% success kicker paid on ERCOT acceptance, plus an annual re-issue subscription when GPU generation, UPS firmware or 800V DC changes the load.",
+ "why_now": "NOGRR282 was approved July 9, 2026 and took effect Aug 1, 2026. PGRR115 (Nov and Dec 2025) and NPRR1234 (Dec 15, 2025) already gate energization on studies and models. The first wave of 25 MW and larger neocloud sites is hitting the queue now, before any consultancy has a large-load specialty. Rubin-generation hardware and 800V DC change the load behavior again within 12-18 months, which creates re-issue demand.",
+ "revenue_model": "$15-25k gap analysis, $90-180k fixed-fee package, and a 25% success kicker on acceptance (about $25-45k). Add $20-40k per year model maintenance and re-issue per site, and later OEM test-and-listing fees for platform models. A year-1 target of about 12 packages at about $150k is roughly $1.8M with 2-3 engineers. Reuse of platform models across sites is what lifts gross margin past a consultancy's 30-40%.",
+ "non_obvious_insight": "The developer does not want a model. It wants ERCOT's planners to sign off without a resubmittal loop. The durable business in inverter modeling after Blue Cut was not the model libraries, because vendors and ISOs published those. It was the shops that knew what the ISO's planners would accept. A single-regulator focus (ERCOT only) lets a two-person shop become the known acceptance expert in six months, and each accepted submission is precedent no generalist consultant has. Free generic EPRI or NERC models help us: they are conservative, and a developer who submits them risks being told to add buffer capacity or accept curtailment, while a product-specific validated model avoids that.",
+ "first_30_days": "Week 1: read the actual NOGRR282 protocol text ('Large Electronic Load Ride-Through Requirements', 282NOGRR-01) and the PGRR115 and NPRR1234 submission forms. Call ERCOT large-load working group and planning contacts to confirm what compliance evidence is required. If it is self-attestation only, price down to gap analysis plus study and keep the acceptance-kicker idea for models only. Weeks 1-2: recruit one ex-ERCOT or TO planning engineer (Texas PE) and one power-electronics engineer, and publish an open ERCOT LCL Readiness Checklist. Weeks 2-4: work the public ERCOT large-load queue reports to list about 40 developers and the 10 biggest EPCs, and sell three $15k gap analyses. Sign a lab MOU and get a first UPS or power-shelf OEM NDA through the first paying customer's equipment.",
+ "family": "I0996",
+ "lineage": "mutation of I0996 ('Grid-Code Models for AI Data Centers'), type: sharpened",
+ "competition_context": "Competitor check: GAP. Closest players: Typhoon HIL (Data Centers solution), OPAL-RT (HYPERSIM, power-HIL), EPRI DCFlex, Emerald AI (Emerald Conductor). White space: Across this session's research I found no direct competitor selling packaged, hardware-validated large-load dynamic models (PSS/E plus EMT) with ride-through study reports and certification letters for GPU-cluster, PSU and UPS stacks. Nobody was seen selling OEM-level type-test certification for power shelves and UPS platforms. Adjacent players cover only pieces: HIL tools (Typhoon HIL, OPAL-RT), generic EMT consultancies, EPRI's flexibility consortium, workload-flex software (Emerald AI), and simulation software vendors with no data center library shown.\n\nThree structural threats need answers:\n1. Regulators and EPRI or NERC may publish free generic composite or EMT models, which commoditizes the model library.\n2. OEMs (UPS, PSU, NVIDIA) own the confidential control details and may ship their own models.\n3. Per-project EMT consulting already exists and is not verified either way for large loads.\n\nThe defensible white space is independent, hardware-validated, ISO-acceptable model packages and compliance evidence for the 25-500 MW neocloud and colo developers who lack in-house power simulators. It would be reused across sites through OEM platform type tests, not sold as bespoke studies.\n\nResearch limits: the WebSearch budget (200 calls) was exhausted before this task began, so competitor discovery relied on direct page fetches and GitHub search. Startup databases (Crunchbase, YC, Product Hunt), news, and NERC or EPRI publication pages were not checked. Several NERC, EPRI and PJM URLs returned 404 or empty content. Treat the 'no direct competitor' finding as moderate-confidence. Verify manually against NERC LLTF outputs, EPRI data center model reports, and WECC or ERCOT model requirements before committing. | How this version avoids them: Typhoon HIL and OPAL-RT are tool vendors, so we partner and buy their HIL time and they act as a channel. Electranix and Danovo do bespoke per-project studies for generators and transmission owners with no reusable GPU or UPS platform models and no ERCOT large-load precedent, and they are slower and costlier per site. EPRI DCFlex and free generic models are baselines we start from, not substitutes, because ERCOT wants site-specific and product-specific evidence. Emerald AI sells workload flexibility, whereas we sell compliance evidence for the fixed, fast-ramping load. Pearl Street speeds steady-state generation studies and has no dynamic large-load work. Hyperscaler in-house simulators are avoided by targeting only developers without them. Siemens PSS/E is the file format we deliver into, not a competitor.",
+ "parent_competition_reports": {
+  "I0996": {
+   "status": "gap",
+   "competitors": [
+    {
+     "name": "Typhoon HIL (Data Centers solution)",
+     "url": "https://www.typhoon-hil.com/solutions/grid-modernization/data-centers/",
+     "what_they_do": "Real-time hardware-in-the-loop testing and digital twins for data center power infrastructure (UPS, BESS, generators, solid-state transformers, protection). Mentions AI/HPC workload variability scenarios. Sells tooling to OEMs, integrators and operators. The page does not mention a packaged model library, grid-code ride-through certification, or pre-built PSU models.",
+     "scale_or_funding": "Private HIL vendor. Funding not verified in this session.",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "OPAL-RT (HYPERSIM, power-HIL)",
+     "url": "https://www.opal-rt.com/",
+     "what_they_do": "Real-time power system simulation and power hardware-in-the-loop platforms. Its Fall 2025 magazine frames data centers as loads that shift in microseconds. No dedicated data center compliance product found on the homepage.",
+     "scale_or_funding": "Established private simulation vendor. Funding not verified.",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "EPRI DCFlex",
+     "url": "https://dcflex.epri.com/",
+     "what_they_do": "Nonprofit industry initiative on flexible data centers. It runs five workstreams (including accelerated interconnection), nine demonstration sites, and a Headroom Framework assessment tool. Members include Google, Meta, Microsoft, NVIDIA and major utilities. The site does not advertise a model library or test lab. EPRI is the likeliest source of free public generic models.",
+     "scale_or_funding": "Consortium funded by utilities and tech companies. Budget not disclosed.",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "Emerald AI (Emerald Conductor)",
+     "url": "https://www.emeraldai.co/",
+     "what_they_do": "Software that makes AI data center load flexible for the grid through workload throttling, shifting and battery coordination. Customers and partners include Digital Realty, Oracle, NextEra, National Grid, SRP, NVIDIA and Siemens. It does not address grid-code load modeling or ride-through certification, but it could expand into compliance evidence.",
+     "scale_or_funding": "$150M Series A at a $1.05B valuation (Aug 2026), per its own site.",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "Electranix (PSCAD/EMT consultancy, E-TRAN)",
+     "url": "https://www.electranix.com/",
+     "what_they_do": "EMT and PSCAD studies, control modelling, training, and the E-TRAN PSS/E-to-PSCAD translation tool. Its site does not mention data centers. This is the existing inverter-generator-modeling consulting industry that could pivot to large loads.",
+     "scale_or_funding": "Private boutique consultancy. Size not verified.",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "Siemens PSS(R)E and other vendor model libraries",
+     "url": "https://www.siemens.com/global/en/products/energy/grid-software/planning/pss-software/pss-e.html",
+     "what_they_do": "PSS/E has a large dynamic model library and vendor-specific models. The page does not mention data center or large-load models today, but a vendor or ISO template library is a substitute risk. GE PSLF and PSCAD are similar, from prior knowledge and unverified.",
+     "scale_or_funding": "Siemens incumbent software.",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "Pearl Street Technologies (SUGAR, Interconnect)",
+     "url": "https://www.pearlstreettechnologies.com/",
+     "what_they_do": "Software that speeds up interconnection studies, mostly steady-state and generation/storage focused. No dynamic large-load modeling found. It is a possible channel or a possible entrant.",
+     "scale_or_funding": "Venture-backed. Amount not verified.",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "Danovo Energy Solutions (formerly Quanta Technology)",
+     "url": "https://www.danovoenergy.com/",
+     "what_that_do_placeholder": "",
+     "what_they_do": "Consulting on interconnection studies, model validation and steady-state and transient studies. Its page does not mention data centers or large-load EMT work. It is a consultancy that could sell the same per-project service.",
+     "scale_or_funding": "Established engineering consultancy. Size not verified.",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "Hyperscaler in-house tools (Microsoft, OpenAI, NVIDIA power-stabilization work)",
+     "url": "https://arxiv.org/abs/2508.14318",
+     "what_they_do": "The paper 'Power Stabilization for AI Training Datacenters' describes GPU power swings whose frequency could align with utility infrastructure. It tests software, GPU and facility-level mitigations using real hardware and Microsoft's in-house cloud power simulator. Hyperscalers are building this capability internally, so the paying customer pool shrinks to those without in-house power simulators.",
+     "scale_or_funding": "In-house R&D at the largest hyperscalers.",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "peaclab/flexdc-sim (open source)",
+     "url": "https://github.com/peaclab/flexdc-sim",
+     "what_they_do": "Simulation framework for data center operations under demand-response programs. It is not an EMT or PSS/E grid-code model, but it shows academic open-source activity. A GitHub search found no open-source EMT or PSS/E data center ride-through library.",
+     "scale_or_funding": "13 stars; academic project.",
+     "overlap": "adjacent"
+    }
+   ],
+   "white_space": "Across this session's research I found no direct competitor selling packaged, hardware-validated large-load dynamic models (PSS/E plus EMT) with ride-through study reports and certification letters for GPU-cluster, PSU and UPS stacks. Nobody was seen selling OEM-level type-test certification for power shelves and UPS platforms. Adjacent players cover only pieces: HIL tools (Typhoon HIL, OPAL-RT), generic EMT consultancies, EPRI's flexibility consortium, workload-flex software (Emerald AI), and simulation software vendors with no data center library shown.\n\nThree structural threats need answers:\n1. Regulators and EPRI or NERC may publish free generic composite or EMT models, which commoditizes the model library.\n2. OEMs (UPS, PSU, NVIDIA) own the confidential control details and may ship their own models.\n3. Per-project EMT consulting already exists and is not verified either way for large loads.\n\nThe defensible white space is independent, hardware-validated, ISO-acceptable model packages and compliance evidence for the 25-500 MW neocloud and colo developers who lack in-house power simulators. It would be reused across sites through OEM platform type tests, not sold as bespoke studies.\n\nResearch limits: the WebSearch budget (200 calls) was exhausted before this task began, so competitor discovery relied on direct page fetches and GitHub search. Startup databases (Crunchbase, YC, Product Hunt), news, and NERC or EPRI publication pages were not checked. Several NERC, EPRI and PJM URLs returned 404 or empty content. Treat the 'no direct competitor' finding as moderate-confidence. Verify manually against NERC LLTF outputs, EPRI data center model reports, and WECC or ERCOT model requirements before committing.",
+   "evidence_of_demand": "Regulatory forcing functions are confirmed on ERCOT's own pages:\n- ERCOT NOGRR282 (Large Computational Load Ride-Through Requirements) was approved by the PUCT on July 9, 2026 and took effect August 1, 2026. It sets frequency and voltage ride-through requirements for data centers. https://www.ercot.com/mktrules/issues/NOGRR282 . The summary page did not disclose thresholds, model-submission or test/attestation requirements, so how compliance is verified is unconfirmed.\n- ERCOT PGRR115 creates a Large Load Interconnection Study process for loads of 25 MW or more, requires stability assessments before energization, and adds large loads to the Network Operations Model. Approved by the PUCT 5/15/2025, effective 11/3/2025 and 12/15/2025. https://www.ercot.com/mktrules/issues/PGRR115\n- ERCOT NPRR1234 sets interconnection standards for loads of 75 MW or more, modeling standards for loads of 25 MW or more, and subsynchronous oscillation requirements for large loads. Effective 12/15/2025. https://www.ercot.com/mktrules/issues/NPRR1234\n- ERCOT's Large Load Working Group is building a batch study process for large load interconnections. https://www.ercot.com/committees/tac/llwg\n\nTechnical and market signals:\n- Hyperscalers publicly describe GPU power swings that could align with grid infrastructure frequencies and are building in-house simulators. https://arxiv.org/abs/2508.14318\n- Investors value adjacent data-center-grid software highly: Emerald AI raised a $150M Series A at a $1.05B valuation in Aug 2026. https://www.emeraldai.co/\n- Typhoon HIL sells data center HIL validation to OEMs and operators, which shows existing spend on testing. https://www.typhoon-hil.com/solutions/grid-modernization/data-centers/\n\nNot found or not verified:\n- No RFPs, price points, or forum complaints showing willingness to pay $75-300k per project.\n- The NERC incident review of the 1.5 GW Northern Virginia trip and NERC Large Loads Task Force pages (fetched URLs 404'd or returned no content) were not confirmed here. The idea's own claims about them are unverified by this research.\n- Evidence is regulatory demand, not proven paid demand.",
+   "kill": false,
+   "kill_reason": "n/a",
+   "sharper_angle": "Drop 'the model library is the moat', because generic models will likely be published free by NERC, EPRI, WECC or ISOs and OEMs own their control details. Reframe as an independent large-load type-test and compliance-evidence service, the analogue of inverter type-certification (IEEE 2800 / UL 1741 for generators). Three moves:\n1. Start Texas-first, as 'ERCOT LCL ride-through readiness'. NOGRR282 took effect August 1, 2026, and PGRR115 and NPRR1234 already require studies and models for 25 MW and larger sites. Sell fixed-scope packages to neoclouds, colo developers and their EPCs that have no in-house power simulators, unlike Microsoft. Each package is a gap analysis, then an ISO-acceptable PSS/E plus EMT model, a ride-through study, and a compliance file.\n2. Get the moat from confidential, NDA-protected, HIL-validated models of specific UPS and power-shelf platforms. Get the certification and test fees from those OEMs (Vertiv, Eaton, Schneider, power-shelf makers), so one platform test is reused across many sites.\n3. Partner with Typhoon HIL or OPAL-RT and a university lab instead of competing with them. Position against Emerald AI as compliance evidence for the fast-ramping fixed load, not workload flexibility.\n\nBefore committing, verify what NOGRR282 requires for compliance evidence, since a model-and-test requirement is what makes this sellable, and check EPRI and NERC for free reference models."
+  }
+ }
+}

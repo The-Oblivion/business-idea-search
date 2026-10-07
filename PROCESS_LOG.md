@@ -183,3 +183,89 @@ Each candidate gets its own agent with 6-12 web searches (Crunchbase, YC, TechCr
 Paused at your request to wait for the weekly usage reset (about 50% of the weekly budget was used by this point). The **complete state** is exported to `checkpoint/` and pushed to durable storage. See **`RESUME.md`** for exactly how to continue with step 4 (evolution tournament) and steps 5-9.
 
 *(The log continues below when the run resumes.)*
+
+---
+
+## Week 2 resume (7 Oct 2026)
+
+- **New environment:** this run is on your Mac (Claude desktop app), not the old cloud container. The repo is cloned to `~/projects/business-idea-search` and the pipeline state is copied into a scratchpad, following HANDOFF.md section 5. On macOS, `sed -i` needs `sed -i ''`, and `nproc` is `sysctl -n hw.ncpu`.
+- **Judgment call: concurrency.** The Mac has 10 CPUs, so the Workflow engine now allows **8 agents per workflow**, not 2. Launching step 4 as planned (6 workflows) would have put all 27 judges in flight at once. That's roughly the burst size that tripped Sonnet's safety filter in step 1.7. Instead I added a small concurrency limiter to the script (`args.conc`, default 7) and ran **2 workflows of 7 concurrent agents each**, launched in two waves with the 90-second health check. That keeps the peak at 14 agents (within the 12-14 rule) and means 2 completion wake-ups for me instead of 6.
+- **Judgment call: the export script.** The old `export_checkpoint.sh` started with `rm -rf checkpoint/` and then copied journals only from the *current* session. Run here, it would have deleted all of week 1's journals from the repo. I rewrote it to be additive: it refreshes `checkpoint/state/` and adds this session's journals without removing old ones.
+- **Prompt date:** the judge prompt said "late September 2026", so I updated it to "early October 2026". Nothing else in the prompt changed.
+
+## Step 4: evolution tournament (27 judges)
+
+- **Design (unchanged from step 3's plan):** all 214 pool candidates (82 survivors + 120 offspring + 12 hybrids) are force-ranked in 3 rounds × 9 batches of 23-24. Every candidate is seen 3 times, by 3 lenses (seed VC / bootstrapped operator / contrarian futurist), against 3 different sets of rivals. Each judge sees every idea's lineage and its competitor context, and is told that offspring are not automatically better and hybrids must be "1 + 1 = 3", not just bigger.
+- **Run:**
+  - Wave 1 (`wf_b5724152-b1c`, 14 judges) launched. At the 90-second health check, 7 were running, with 0 failures and 0 safety-filter errors, all on `claude-sonnet-5-5`.
+  - Wave 2 (`wf_6a81fec7-2ed`, 13 judges) launched next.
+  - **27/27 judges succeeded, with 0 failures and 0 filter blocks**, in about 7 minutes of wall-clock time.
+  - Every ranking was checked as a valid 1..N permutation, and all 214 candidates got exactly 3 judgments.
+- **Cost:** about 4.2M subagent tokens (≈155k per judge, above the 100k estimate in HANDOFF). By the rough rule of 1M ≈ 1% of your week, step 4 was about **4%**, not the planned 3%.
+- **Scoring and selection (`aggregate_evo.py`, unchanged):**
+  - Score = mean rank percentile − 0.10 × (share of judges flagging a cliché).
+  - Candidates with 2+ cliché votes are excluded (24 of 214).
+  - Each family gets at most 1 finalist (a parent and its offspring share one slot); hybrids are their own family.
+  - Each problem cluster gets at most 2 finalists.
+
+## Step 4 result: 25 finalists
+
+| # | Finalist | ID | Lineage | Score |
+|---|---|---|---|---|
+| 1 | Scribe-Adjusted EBITDA: Privileged Diligence for Physician Deals | I0389-M1 | sharpened of "Independent Auditor for AI-Scribed Billing" | 0.955 |
+| 2 | Home Equity Assurance for Data Center Neighbors | I1172-M2 | new customer/model of "Neutral Baselines and Neighbor Guarantees for Data Centers" | 0.942 |
+| 3 | Auto Loan-End Event Exchange for Add-On Refunds | I0109-M3 | 10x/inverted of "Payoff-Triggered Refund Recovery for Credit Unions" | 0.942 |
+| 4 | ERCOT Large-Load Energization Files, Fixed Fee | I0996-M1 | sharpened of "Grid-Code Models for AI Data Centers" | 0.939 |
+| 5 | Finish Crew: Stranded Solar Job Completion | I1175 | original | 0.928 |
+| 6 | Line-Keyed Cross-Examination Kits for LOP Defense | I0428-M1 | sharpened of "Coder-Signed Reasonable-Value Reports for Injury Defense" | 0.913 |
+| 7 | Cattle Lien Registry and Sale-Barn Exit Alerts | I0338-M3 | 10x/inverted of "Chute-Side Cow Counts for Ag Lenders" | 0.899 |
+| 8 | Lender-Required Curtailment Reports for Data Centers | I0836-M2 | new customer/model of "Air-Permit Unlock for Idle Data Center Diesel" | 0.884 |
+| 9 | Smoke Report Autopsy for Policyholder Advocates | I0715-M1 | sharpened of "Interim Smoke-Damage Protocol Before the State Standard" | 0.884 |
+| 10 | Cure Desk: Cash-Worker Packets for Health Centers | I0573-M1 | sharpened of "Medicaid Hours Wallet for Gig Workers" | 0.883 |
+| 11 | China-Asset Diligence Desk for Pharma BD | I0861 | original | 0.868 |
+| 12 | Independent Referee for Survey Panel Data | I0716 | original | 0.865 |
+| 13 | Fixed-Price Guaranteed Clearance of Unknown Lead Lines | I0463-M3 | 10x/inverted of "Pay Home Inspectors to Find Lead Pipes" | 0.855 |
+| 14 | Phantom Pipeline Audits for Utility Rate-Case Intervenors | I0079-M2 | new customer/model of "Phantom Load Vetting Desk for Rural Utilities" | 0.854 |
+| 15 | Satellite Witness for Neighbor Construction Claims | I1289-M1 | sharpened of "Settlement Passports for Florida High-Rise Condos" | 0.841 |
+| 16 | Independent Collateral Verifier for Warehouse Lenders | I0218-M2 | new customer/model of "Sold-Out-of-Trust Radar for Floorplan Lenders" | 0.841 |
+| 17 | Work-Permit Gap Desk for Frontline Employers | I1062-M2 | new customer/model of "Delay-Suit Rails for Stuck Immigration Cases" | 0.835 |
+| 18 | Unit Tests for Benefit Law: Eligibility System Conformance | I1240-M3 | 10x/inverted of "Flight simulator drills for county SNAP eligibility workers" | 0.826 |
+| 19 | Holdout Ledger: Landowner-Side Assembly Intelligence | I0773-M2 | new customer/model of "Courthouse Tape: Land-Assembly Radar for Infrastructure" | 0.812 |
+| 20 | A Price Reporting Agency for Trade Materials | I0068-M3 | 10x/inverted of "Contingency Audit of Unbilled Plumbing Materials" | 0.806 |
+| 21 | Ruling-Backed Tariff Engineering for Product Brands | I0769 | original | 0.797 |
+| 22 | The Pharmacy-Verified Reimbursement Index | I1266-M3 | 10x/inverted of "Pharmacy-Side PBM Ledger for Employers" | 0.783 |
+| 23 | Serial Match: AP-Only Recovery for Exchange Buyers | I0195-M1 | sharpened of "Contingency Recovery of Missed Rotable Repair Warranties" | 0.783 |
+| 24 | Hall-Ready Gate for Liquid-Cooled GPU Tranches | I0365-M1 | sharpened of "Ground-Truth Diligence for GPU-Backed Lenders" | 0.783 |
+| 25 | Tariff Surcharge Clawback for B2B Buyers | I0236 | original | 0.754 |
+
+**What the tournament showed:**
+
+1. **Evolution worked.**
+   - 75 of 120 offspring outscored their own parent.
+   - In 33 of the 40 bred families, the best member was an offspring.
+   - **20 of the 25 finalists are offspring**, and only 5 are unmodified originals.
+   - The **"sharpened"** mutation was the most reliable: 29/40 beat their parent, with an average gain of +0.11 percentile. The "new customer/model" and "10x/inverted" mutations each beat their parent 23/40 times (about +0.05).
+   - The lesson: fixing the judges' named flaw and dodging the named competitors beats reinventing the idea.
+2. **Crossbreeding failed.**
+   - **0 of 12 hybrids made the finals.** The best, "Phantom-Load Registry: Land Records Meet Utility Queues" (H01), placed #48.
+   - Even the 4 pairings that both matchmakers proposed independently ranked #48, #127, #145 and #196.
+   - The judges consistently read hybrids as two businesses bolted together: bigger, but not sharper.
+3. **The insider-persona advantage carried through.** 16 of 25 finalists trace back to an insider persona (64%; personas were 61% of the pool after step 3's selection, and 15% of the original 1,340).
+4. **The diversity rules mattered.** 15 of the raw top 40 were held out by the family or cluster caps. For example, the original "Independent Auditor for AI-Scribed Billing" ranked #6 but shares a slot with its own offspring at #1, and "Herd Roll-Forward" (#9) is a sibling of #7.
+5. **A theme emerged: the neutral referee.** Most finalists are **independent verifiers or auditors standing between two parties who don't trust each other**, where AI, a capital flood or a new rule has just created that distrust: scribe-inflated billing, phantom data-center load, bot-filled survey panels, collateral that may not exist, and carrier smoke reports.
+6. **Concentration risk (judgment call: no override).**
+   - **5 of 25 finalists sit on the AI data-center buildout** (#2, #4, #8, #14, #24), spread across 3 problem clusters with 5 different customers: county homeowners, developers, data-center lenders, ratepayer advocates and GPU lenders.
+   - I kept them because the per-cluster cap worked as designed, and the buildout is the biggest capex wave of 2025-26, so many trust gaps around it are expected.
+   - But their risks are correlated: if the buildout stalls, they all weaken together. Step 5's regulation-and-timing critic is the place to test that, and I'll weigh it in the final review.
+7. **The lenses still disagree a lot** (mean spread between a candidate's best and worst lens: 0.40 percentile). The most divisive:
+   - "Evac Cash: Payout When Ordered to Evacuate": the VC and contrarian judges put it near the top, while the operator ranked it last.
+   - "Contingency Recovery of Unpaid Implant Carve-Outs": the operator ranked it 1st, the contrarian last.
+   - Ranking by mean across lenses keeps ideas that only one worldview loves out of the finals.
+
+**Files:**
+- `03-evolution/evolution_ranking.csv`: all 214 ranked.
+- `evolution_results.json`: every judge's rank, cliché flag, fatal flaw and note.
+- `evolution_analysis.json`: the checks above.
+- `finalist_ids.json` (rank order) and `finalists/<id>.json`: the pool entry plus its parents' competitor reports.
+- The exact script: `03-evolution/biz-evo-tournament-*.js`.
+- Journals: `checkpoint/journals/wf_b5724152-b1c.jsonl`, `wf_6a81fec7-2ed.jsonl`.

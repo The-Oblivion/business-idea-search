@@ -1,7 +1,7 @@
 # RESUME: how to continue the business idea search
 
-**Paused:** 29 Sep 2026, ~05:30 UTC, after step 3 (breeding). The pause is to wait for the weekly usage reset.
-**Next step:** step 4, the evolution tournament. Its batches are already built and ready to judge.
+**Updated:** 7 Oct 2026, after step 4 (evolution tournament). 25 finalists picked.
+**Next step:** step 5, deep validation (sized to the remaining weekly budget; default top 12 of `finalist_ids.json`).
 
 ## Quick start (for the human)
 
@@ -18,7 +18,7 @@ Start a new Claude Code session with the `The-Oblivion/business-idea-search` rep
 | 2B Forced-rank tournament | ✅ 162/162 judges | `state/screening_out/tournament_results.json`, `tournament_ranking.csv` |
 | 2C Competitor check | ✅ 105/105 (82 gap survive, 23 crowded cut) | `state/exists/<ID>.json`, `state/screening_out/existence_verdicts.json` |
 | 3 Breeding | ✅ 120 offspring + 12 hybrids | `state/evo/pool.json` (214 candidates), `state/evo/tournament/` (27 batch files) |
-| **4 Evolution tournament** | ⏭ next | picks 25 finalists → `state/finalists/` |
+| 4 Evolution tournament | ✅ 27/27 judges, 25 finalists | `03-evolution/evolution_ranking.csv`, `finalist_ids.json`, `finalists/` |
 | 5 Deep validation (25) | script ready | `state/next_steps/step5_deep_validation.js` |
 | 6 Head-to-head (top 10) | designed below | |
 | 7 War-game (top 5) | designed below | |
@@ -31,7 +31,7 @@ Start a new Claude Code session with the `The-Oblivion/business-idea-search` rep
 REPO=<path to the cloned business-idea-search repo>
 BIZ=<your scratchpad>/biz            # any writable dir
 mkdir -p "$BIZ" && cp -r "$REPO/checkpoint/state/"* "$BIZ/"
-OLD=/tmp/claude-0/-home-user/7d5d40b9-c4a2-5a88-8ca2-c003de06ceb9/scratchpad/biz
+OLD=$(grep -o "DIR = '[^']*'" "$BIZ/next_steps/step5_deep_validation.js" | cut -d"'" -f2)   # last session's scratchpad path
 sed -i "s#$OLD#$BIZ#g" "$BIZ"/next_steps/*.js "$BIZ"/export_checkpoint.sh
 # Python scripts locate state relative to their own path, so they need no edits.
 # Journals from the previous session (every agent's full output) are in $REPO/checkpoint/journals/<run-id>.jsonl.

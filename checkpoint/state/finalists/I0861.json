@@ -1,0 +1,97 @@
+{
+ "id": "I0861",
+ "title": "China-Asset Diligence Desk for Pharma BD",
+ "one_liner": "A bilingual scientist-plus-software sprint that verifies China-sourced drug packages (raw data, GLP and CMC standing, ownership chain) in 72 hours for US buyers.",
+ "customer": "Pharma BD&L teams, NewCo-building VCs, royalty funds and mid-cap biotechs in-licensing Chinese assets.",
+ "problem": "About one-third of 2025 licensing spend involved China-sourced drugs (Jefferies) and the pace accelerated in 2026 (Lilly-InnoCare up to $3.35B, Merck-SciBrunch $2.1B). Diligence infrastructure looks thin (inference): data packages are in Chinese formats, raw-data and audit-trail norms differ, and CRO and CDMO GLP or GMP standing is hard to verify. BIOSECURE, enacted Dec 18, 2025, requires OMB to publish the list of biotechnology companies of concern by December 2026 and FAR rules follow, adding an ownership and supply-chain axis.",
+ "solution": "A fixed-price 'Asset Verification Sprint'. LLM-assisted translation and structured extraction of study reports. Bilingual scientists spot-check raw data and audit trails. Verify CRO and CDMO inspection histories (NMPA, FDA, EMA) and check ownership chains against the BIOSECURE lists. Deliver a Western-format gap analysis for IND-enabling needs (GLP tox acceptability, CMC comparability).",
+ "why_now": "Deal flow is at record levels, BIOSECURE list publication is due in about three months, and biopharma layoffs (15,000+) free bilingual ex-pharma scientists.",
+ "revenue_model": "$25-70k per sprint, $150-300k annual retainers for NewCo-builder VCs, and supply-chain mapping as a second product once the BIOSECURE lists land.",
+ "non_obvious_insight": "The gap is not legal or financial diligence. It is data literacy and tacit standards, for example what counts as GLP-grade raw data, and Western deal associates cannot read the packages. The same team and database serve a second product, supply-chain mapping, when the lists arrive.",
+ "first_30_days": "Recruit 3-4 bilingual ex-pharma scientists. Price a $20k pilot sprint. Approach 5 NewCo VC platforms and 5 mid-size pharma BD heads. Build a CRO and CDMO inspection database from public regulator records.",
+ "family": "I0861",
+ "lineage": "original (tournament survivor)",
+ "competition_context": "Competitor check: GAP. Closest players: Alacrita (biotech consulting network), Patsnap Synapse (AI drug asset due diligence reports), Pharmcube (Yaozhi / Pharma Insight consulting), Locust Walk / Banyan BioInnovations. White space: Nobody found sells what the idea specifies: a fixed-price, bilingual scientist-led verification of a China-sourced drug package's raw data and audit trails, GLP-tox acceptability for a US IND, CMC comparability, and CRO/CDMO standing, delivered as a Western-format gap memo for buyers with no China bench. What exists is adjacent. Data platforms (Pharmcube, Patsnap, Evaluate/Norstella) and AI screening do sourcing and public-data diligence. Investment banks (Locust Walk) and law firms (Sidley, Foley Hoag, Morgan Lewis) do deal access, legal and IP. General biotech consultancies (Alacrita) do generic diligence with no China raw-data focus. Redica sells inspection data. Patsnap's own sample report says binding deals still need source-data review, which points at the wedge. The underserved buyers are NewCo-building VCs below RA Capital or Banyan scale, mid-cap biotechs and royalty funds with no Shanghai presence. Two weaknesses to plan around: (1) the inspection database is a commodity (Redica, and the FDA has promised to publish more foreign-site inspection findings), and BIOSECURE list tracking overlaps with Kharon and Interos, so the moat has to be scientist judgment and trust, not software; (2) seller data access is a bottleneck. Locust Walk's CEO says 'getting data out of the company can be challenging', and China's data-export and human-genetic-resources rules (Morgan Lewis playbook) may block raw-data transfer. The 72-hour promise will be hard unless the seller supplies a data room. Coverage caveat: I could not run WebSearch (session budget exhausted), so I relied on Google News RSS, direct fetches of vendor sites and the YC directory. Stealth boutiques and Big-4 or CRO consulting units were not exhaustively checked.",
+ "parent_competition_reports": {
+  "I0861": {
+   "status": "gap",
+   "competitors": [
+    {
+     "name": "Alacrita (biotech consulting network)",
+     "url": "https://www.alacrita.com",
+     "what_they_do": "London/Cambridge MA consultancy that sells due diligence, valuations, in-licensing and asset scouting, plus CMC and preclinical strategy for biotechs, pharma and investors. The homepage has no China-specific offering or bilingual raw-data verification.",
+     "scale_or_funding": "Established consultancy (since 2009) with a consulting network. Private; funding not disclosed.",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "Patsnap Synapse (AI drug asset due diligence reports)",
+     "url": "https://synapse.patsnap.com",
+     "what_they_do": "Global drug intelligence database with a large Chinese data footprint. It now publishes AI-generated 'Drug Asset Due Diligence Reports' with a go/no-go verdict (clinical, IP, market, deals). The sample report says binding deals still need protocol, SAP and source-data review, which is the gap this idea fills. Sample report: https://synapse.patsnap.com/blog/drug-asset-due-diligence-report-amg-436-2026-mcp",
+     "scale_or_funding": "Large established vendor. Site claims 146K drugs, 1M clinical trials and 320K+ life science organizations. Funding not verified this session.",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "Pharmcube (Yaozhi / Pharma Insight consulting)",
+     "url": "https://www.pharmcube.com",
+     "what_they_do": "Leading China biopharma data platform (drug, deal, patent and trial databases, English UI available). Its consulting arm covers valuation, pipeline screening and competitive landscape for MNCs and investors, not raw-data or GLP/CMC verification. Locust Walk's CEO calls it 'probably the most comprehensive source of opportunities in China' (https://www.pharmavoice.com/news/china-biotech-drug-investment-banyan-pharma-deal/825444/). It is well placed to add diligence if it chose to.",
+     "scale_or_funding": "About 10 years old; site claims 800K+ media readers and 300+ enterprise clients. Funding not verified.",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "Locust Walk / Banyan BioInnovations",
+     "url": "https://www.locustwalk.com",
+     "what_they_do": "Life-science investment bank with Shanghai and Beijing offices. It launched Banyan, a NewCo builder that already has 5 people on the ground in China and does its own diligence. Locust Walk is sell-side and buy-side deal sourcing and execution, not independent scientific verification. Banyan is a potential customer, or a substitute if it builds the capability in-house. Source: https://www.fiercebiotech.com/biotech/chinese-biotechs-raise-costs-buyers-turn-ai-local-know-how-keep",
+     "scale_or_funding": "44 staff, 80+ transactions; Banyan launched May 2026 with $100M+ in commitments.",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "RA Capital Swiftbridge",
+     "url": "https://www.fiercebiotech.com/biotech/how-ra-capital-offering-its-biotechs-chinese-clinical-expertise-box",
+     "what_they_do": "In-house 'Chinese clinical expertise in a box' for RA's 100+ portfolio companies. It is adding a BD team that identifies Chinese biotechs and does diligence on key programs. This shows large NewCo-builder VCs internalizing the function (a substitute risk for the top of your customer segment).",
+     "scale_or_funding": "RA Capital has $10B+ AUM; Swiftbridge launched mid-2025.",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "Redica Systems",
+     "url": "https://redica.com",
+     "what_they_do": "Regulatory and inspection intelligence: the largest FDA/global inspection and enforcement dataset, plus site and supplier risk scoring across 250+ regulators. It already commoditizes the 'CRO/CDMO inspection history database' component of the sprint. I did not verify how deep its NMPA coverage is.",
+     "scale_or_funding": "Funded and integrated with Veeva. $15M debt financing in April 2025 and a further financing closed May 2025 (BioSpace/FinSMEs).",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "Law-firm China licensing and diligence practices (Sidley, Foley Hoag, Morgan Lewis, Hogan Lovells, A&O Shearman)",
+     "url": "https://foleyhoag.com/news-and-insights/events/2026/july/ip-diligence-for-asia-origin-therapeutic-assets-what-ip-owners-and-licensees-should-know/",
+     "what_they_do": "Legal, IP and regulatory diligence on Asia-origin assets. Foley Hoag ran a July 2026 webinar on IP diligence for Asia-origin assets. Sidley's Adam Welland is quoted on vetting Chinese development processes ('flawed studies can destroy the value of an asset'). These firms cover legal and IP, not raw-data or GLP literacy, and are natural channel partners because they lack bilingual bench scientists.",
+     "scale_or_funding": "Large established firms; diligence is a bundled service.",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "Kharon / Interos (list and ownership-chain tracking; BIOSECURE second product)",
+     "url": "https://www.kharon.com",
+     "what_they_do": "Kharon tracks China-related lists and designations, including the 1260H list update of 8 Jun 2026. Interos is a supply-chain and third-party risk platform. Neither is biotech-specific, but both could productize BIOSECURE and 1260H ownership mapping, so the 'supply-chain mapping second product' is not white space. I found no BIOSECURE-specific product from either. Interos: https://www.interos.ai",
+     "scale_or_funding": "Interos raised $40M from Blue Owl (Oct 2024). Kharon funding not verified.",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "Pacific Bridge Medical",
+     "url": "https://www.pacificbridgemedical.com",
+     "what_they_do": "37-year-old Asia regulatory and BD consultancy (750+ clients) covering pharma and biotech regulatory strategy, quality compliance and clinical trials in China and other Asian markets. It sells regulatory strategy, not independent raw-data verification.",
+     "scale_or_funding": "Private boutique; 750+ clients over 37 years.",
+     "overlap": "adjacent"
+    },
+    {
+     "name": "EY AI deal-radar and Big-4 and expert-network offerings",
+     "url": "https://www.fiercebiotech.com/biotech/chinese-biotechs-raise-costs-buyers-turn-ai-local-know-how-keep",
+     "what_they_do": "EY publishes AI tooling for BD sourcing and screening (Jan 2026). Fierce's May 2026 survey of how buyers cope names only sourcing, AI screening, local bankers and lawyers, with no dedicated scientific raw-data verification vendor. Big-4 and expert-network incumbents (EY, Guidepoint, GLG) could bundle this later. I did not verify any current offering from them.",
+     "scale_or_funding": "Global incumbents.",
+     "overlap": "adjacent"
+    }
+   ],
+   "white_space": "Nobody found sells what the idea specifies: a fixed-price, bilingual scientist-led verification of a China-sourced drug package's raw data and audit trails, GLP-tox acceptability for a US IND, CMC comparability, and CRO/CDMO standing, delivered as a Western-format gap memo for buyers with no China bench. What exists is adjacent. Data platforms (Pharmcube, Patsnap, Evaluate/Norstella) and AI screening do sourcing and public-data diligence. Investment banks (Locust Walk) and law firms (Sidley, Foley Hoag, Morgan Lewis) do deal access, legal and IP. General biotech consultancies (Alacrita) do generic diligence with no China raw-data focus. Redica sells inspection data. Patsnap's own sample report says binding deals still need source-data review, which points at the wedge. The underserved buyers are NewCo-building VCs below RA Capital or Banyan scale, mid-cap biotechs and royalty funds with no Shanghai presence. Two weaknesses to plan around: (1) the inspection database is a commodity (Redica, and the FDA has promised to publish more foreign-site inspection findings), and BIOSECURE list tracking overlaps with Kharon and Interos, so the moat has to be scientist judgment and trust, not software; (2) seller data access is a bottleneck. Locust Walk's CEO says 'getting data out of the company can be challenging', and China's data-export and human-genetic-resources rules (Morgan Lewis playbook) may block raw-data transfer. The 72-hour promise will be hard unless the seller supplies a data room. Coverage caveat: I could not run WebSearch (session budget exhausted), so I relied on Google News RSS, direct fetches of vendor sites and the YC directory. Stealth boutiques and Big-4 or CRO consulting units were not exhaustively checked.",
+   "evidence_of_demand": "Strong evidence the problem is acute and rising, but no direct evidence that buyers pay for this exact service. (1) Deal scale: Evaluate says average upfront for Western-China licensing deals rose 230%, from $52M (2022) to $172M (early 2026). Chinese firms did about 50% of global out-licensing, and cross-border deals with Chinese drugs went from 42 (2022) to 93 (2025). https://www.fiercebiotech.com/biotech/chinese-biotechs-raise-costs-buyers-turn-ai-local-know-how-keep and https://www.fiercebiotech.com/biotech/how-ra-capital-offering-its-biotechs-chinese-clinical-expertise-box. Chinese out-licensing was $135.7B in 2025 and over $60B in Q1 2026 (NMPA figures via Morgan Lewis): https://www.jdsupra.com/legalnews/a-strategic-playbook-for-chinese-9432293/ . A $25-70k sprint is trivial against these deal sizes. (2) Stated diligence pain: Sidley's Adam Welland says flawed studies 'can destroy the value of an asset' (Fierce, 19 May 2026, first URL above). A BioWorld panel at the Asia Bio Partnering Forum (2 Sep 2026) said Asian data packages must be built to 'withstand partner due diligence, regulatory review and cross-border transfer requirements': https://www.bioworld.com/articles/733766-asian-data-face-global-test-in-biotech-deals . BioPharma APAC (24 Jul 2026) describes buyers pricing 'single-country data' risk and the chance a Western regulator wants data it does not yet have: https://biopharmaapac.com/analysis/71/8225/discount-or-validation-western-pharmas-appetite-for-chinese-assets.html . (3) Blow-ups: Novo Nordisk alleged fraud after a $1.3B KBP Biosciences deal, a Singapore court upheld a ~$730M freezing order, and the dispute is heading to arbitration (Fierce 2 Oct 2025; pharmaphorum 21 May 2026; Business Times 13 Aug 2025). Lepu sued its NewCo-model BD consultant for double-dealing (Fierce, 25 Sep 2026): https://www.fiercebiotech.com/biotech/pioneer-china-newco-model-sued-over-trade-secret-misuse-double-dealing . (4) Regulatory forcing function: FDA leaders (2 Sep 2026) promised more foreign-site oversight and to publish more inspection findings: https://www.biospace.com/fda/fda-raises-bar-for-foreign-site-inspections-as-china-trials-surge . A House probe of Merck, AbbVie, BMS, Pfizer and Lilly China trial sites opened 30 Jun 2026, and lawmakers are urging FDA to reject China data from sites without recent FDA audits. On 8 Jun 2026 DoD added WuXi AppTec to the 1260H list, and OMB's initial BIOSECURE list is due 18 Dec 2026: https://www.arnoldporter.com/en/perspectives/advisories/2026/06/national-security-controls-and-the-life-sciences-sector . (5) Customer segment is funded and growing: K2 Therapeutics raised a $50M seed and in-licensed from Adcoris and Antengene (https://www.biopharmadive.com/news/k2-ying-huang-biotech-startup-mpm-china-drugs/827544/), Banyan launched with $100M+, and RA Capital is building in-house China BD and diligence. (6) Existing spend on workarounds: bankers, law-firm IP diligence (Foley Hoag), consultancies and databases. Counter-evidence to price in: Meyerson (Banyan) says getting data out of Chinese companies is hard without trust, and big buyers and top VCs are internalizing China teams.",
+   "kill": false,
+   "kill_reason": "n/a",
+   "sharper_angle": "Narrow to a 'FDA-acceptability and data-provenance audit' for China-originated preclinical and Phase 1 packages, aimed at NewCo VCs and mid-cap or royalty buyers who have no China bench. Sell it through, or alongside, the law firms doing China licensing (Sidley, Foley Hoag, Morgan Lewis, Hogan Lovells) as their technical arm, so reports can sit under privilege and the firms lack bilingual bench scientists. Anchor the product on questions the new FDA and Congress scrutiny makes urgent: can the pivotal or single-country data be inspected, will GLP tox and CMC comparability survive an IND, and are the CRO sites, ownership and 1260H exposure clean. Deliver a term-sheet-stage red-flag memo with a re-check before signing, rather than a 72-hour promise that depends on seller data access. Three moves reduce the risks found above. Buy or license inspection and list data (Redica, Kharon) instead of building it. Treat BIOSECURE supply-chain mapping as a feed into the memo rather than a second product. Consider a seller-side 'diligence-ready data package' review for Chinese licensors, since the BioWorld panel says packages must be built to survive partner diligence. Validate first with 3 paid pilots ($20k) through law-firm introductions before recruiting the full scientist bench."
+  }
+ }
+}

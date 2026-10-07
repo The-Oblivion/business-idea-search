@@ -1,22 +1,22 @@
 #!/usr/bin/env bash
-# Package the full pipeline state into /home/user/business-idea-search/checkpoint for durable storage.
+# Additive checkpoint export into the repo: refreshes checkpoint/state from $BIZ and ADDS this session's
+# journals and workflow scripts. It never deletes journals from earlier sessions.
 set -euo pipefail
-BIZ=/tmp/claude-0/-home-user/7d5d40b9-c4a2-5a88-8ca2-c003de06ceb9/scratchpad/biz
-WF=/root/.claude/projects/-home-user/7d5d40b9-c4a2-5a88-8ca2-c003de06ceb9
-OUT=/home/user/business-idea-search/checkpoint
-rm -rf "$OUT"; mkdir -p "$OUT/state" "$OUT/journals" "$OUT/workflow_scripts"
+BIZ=/private/tmp/claude-501/-Users-asherperemel/2d21b2bf-d792-4998-b326-860505fc728f/scratchpad/biz
+WF=/Users/asherperemel/.claude/projects/-Users-asherperemel/2d21b2bf-d792-4998-b326-860505fc728f
+OUT=/Users/asherperemel/projects/business-idea-search/checkpoint
+mkdir -p "$OUT/state" "$OUT/journals" "$OUT/workflow_scripts"
 
-# Working state (pipeline inputs/outputs), minus nothing: every intermediate file is kept.
-cp -r "$BIZ"/* "$OUT/state/"
-rm -f "$OUT/state/probe_a.txt" "$OUT/state/probe_b.txt"
+# Working state (pipeline inputs/outputs): every intermediate file is kept.
+rsync -a "$BIZ"/ "$OUT/state/"
 
-# Every workflow journal: one line per agent start/result/failure, with full return values.
+# This session's workflow journals: one line per agent start/result/failure, with full return values.
 for d in "$WF"/subagents/workflows/wf_*/; do
   id=$(basename "$d")
   [ -f "$d/journal.jsonl" ] && cp "$d/journal.jsonl" "$OUT/journals/$id.jsonl"
 done
 
 # Exact workflow scripts (every agent prompt) as run.
-cp "$WF"/workflows/scripts/*.js "$OUT/workflow_scripts/"
+cp "$BIZ"/next_steps/*.js "$OUT/workflow_scripts/" 2>/dev/null || true
 
 du -sh "$OUT"; find "$OUT" -type f | wc -l
