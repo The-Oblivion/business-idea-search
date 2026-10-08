@@ -1,7 +1,7 @@
 # RESUME: how to continue the business idea search
 
 **Updated:** 7 Oct 2026, after step 4 (evolution tournament). 25 finalists picked.
-**Next step:** step 5, deep validation (sized to the remaining weekly budget; default top 12 of `finalist_ids.json`).
+**Next step:** step 5, deep validation of the **top 12** (the user's call). It is scheduled to run automatically **Mon 12 Oct 2026, 4:30pm ET**, after the weekly usage reset (desktop scheduled task `biz-step5-deep-validation`). Launch: `step5_deep_validation.js` with args `{"shard": k, "nshards": 3}` for k = 0, 1, 2 (the top-12 IDs and a 4-agent limit per workflow are built in).
 
 ## Quick start (for the human)
 

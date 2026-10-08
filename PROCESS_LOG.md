@@ -269,3 +269,17 @@ Paused at your request to wait for the weekly usage reset (about 50% of the week
 - `finalist_ids.json` (rank order) and `finalists/<id>.json`: the pool entry plus its parents' competitor reports.
 - The exact script: `03-evolution/biz-evo-tournament-*.js`.
 - Journals: `checkpoint/journals/wf_b5724152-b1c.jsonl`, `wf_6a81fec7-2ed.jsonl`.
+
+## Step 5: scheduled for after the weekly reset (your call, 7 Oct)
+
+- **Usage check:** I read the app's usage meter after step 4. Your week was at **65%**, resetting Mon 12 Oct at 4pm ET. I estimated that the default top 12 would cost about 9-14% (step 4 ran at about 1.5x its token estimate), which overshoots what was left of this week's 12%.
+- **Your decision:** deep-validate the **top 12** finalists, but **next week, after the reset**, not now.
+- **Prep done now (no agents run):**
+  - `step5_deep_validation.js` now carries the top-12 ID list as its default.
+  - It also has a per-workflow concurrency limiter (`args.conc`, default 4). Three workflows of 4 finalists each peak at about 12 agents in flight; without the limiter, a 10-CPU Mac would allow up to 8 per workflow.
+- **Scheduled:** a one-time desktop-app task (`biz-step5-deep-validation`) fires **Mon 12 Oct, 4:30pm ET**. It:
+  1. confirms the reset on the usage meter,
+  2. runs step 5 on the top 12 in 3 waves with the 90-second health checks,
+  3. writes `aggregate_deep.py`,
+  4. documents the run here, commits, pushes and verifies,
+  5. sends you the short ranked summary.
