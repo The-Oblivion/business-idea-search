@@ -1,0 +1,545 @@
+Exceptional service in the national interest
+
+
+
+
+VOLTAGE AND FREQUENCY RIDE-THROUGH
+FOR LARGE COMPUTATIONAL LOADS
+State of the Art
+
+
+Ryan Elliott and Matthew Reno
+Electric Power Systems Research
+
+
+September 14, 2026
+
+
+
+
+                                               Sandia National Laboratories is a multimission laboratory managed and operated by National Technology
+                                                & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the
+                                                   U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525.
+OVERVIEW
+
+• Background
+• Enabling Technologies for Voltage Ride-Through
+   ▪ E-STATCOM
+   ▪ Centralized Battery Energy Storage
+   ▪ Series Battery Energy Storage
+   ▪ Grid Interactive UPS
+   ▪ Innovation in Data Center Power Delivery
+• Frequency Ride-Through for Large
+  Computational Loads
+• Conclusions
+
+
+
+
+                                                   2
+BACKGROUND
+
+• ERCOT identified 26 events between 2023–2025
+  in which large computational loads tripped
+  during routine voltage disturbances.
+    ▪ These events are becoming more frequent
+      and more severe.
+• On July 22, 2026, a single line fault in northern
+  Virginia caused ~3.8 GW of data center load to
+  disconnect from PJM within seconds.
+• Under stressed system conditions, sudden load
+  loss of this magnitude could trigger cascading
+  trips across the system.
+• Today we'll survey technologies that enable data
+  centers to ride through such events.
+
+                                                      FNET/GridEye, "Event Report: Event 335377," Power Information Technology
+                                                      Laboratory, University of Tennessee and Oak Ridge National Laboratory,
+                                                      Jul. 22, 2026.. Available here.
+                                                                                                                                 3
+TECHNOLOGY COMPARISON PREVIEW
+
+• Estimated one-time costs to achieve NOGRR 282 ride-through
+  compliance for a 100 MW facility.
+                      One-time costs           Impact on facility       Retrofit possible?     Timeline for at-scale
+                                                  efficiency                                      deployment
+                      $25–50M est. for a                                                         2–3 years (no data
+    E-STATCOM                                    Minimal change                   Yes
+                       100 MW system                                                             center installs yet)
+                      $35–70M est. for a
+   Central BESS                                  Minimal change                   Yes               Available now
+                       100 MW system*
+                      $50–90M est. for a          Less efficient       Yes (major equipment    1–2 years (first projects
+    Series BESS
+                       100 MW system*          (conversion losses)           additions)           commissioning)
+                      $1–15M est. for a                                     Yes (potentially
+   Grid-Int. UPS                                   No change                                        Available now
+                      100 MW facility †                                     firmware only)
+                     Not separable from       More efficient (fewer       No (requires full     3–5 years (simulation
+DC Architecture
+                         facility cost         conversion stages)            redesign)          and lab testing only)
+
+                   *Cost scales with duration; 2–4 hour system.
+                   † Leverages existing UPS infrastructure. Low end reflects firmware
+                    upgrades only; high end includes battery replacement.
+                                                                                                                           4
+WHAT IS AN E-STATCOM?
+
+• A STATCOM (static synchronous compensator) is
+  basically an inverter without a real power source.
+    ▪ The concept is similar to a synchronous
+      condenser but implemented in power
+      electronics.
+• An E-STATCOM adds a low-energy-capacity
+  power source to the DC bus, such as a
+  supercapacitor bank.
+    ▪ This allows 4-quadrant operation, meaning it
+      can source and sink both real and reactive
+      power.
+• Supercapacitors are well-suited because of their
+  power density, fast response, and high cycle life.
+                                                       T. Engelbrecht et al., "STATCOM Technology Evolution for Tomorrow’s Grid: E-STATCOM,
+                                                       STATCOM With Supercapacitor-Based Active Power Capability," in IEEE Power and Energy
+                                                       Magazine, vol. 21, no. 2, pp. 30-39, March-April 2023. Available here.
+
+
+                                                                                                                                              5
+E-STATCOMS AND VOLTAGE RIDE-THROUGH
+
+• Suppose there’s a fault on the grid and the
+  data center switches its IT load to UPS.
+
+• The grid sees a large loss of load, the exact
+  outcome we’re trying to avoid.
+
+• However, an E-STATCOM could be used to
+  inject reactive power and absorb real power.
+
+• The E-STATCOM “bridges the active power
+  gap” while the load is served by the UPS.
+
+• This allows the data center to protect its IT
+  equipment without causing a disruption for
+  the grid.
+
+
+
+                                                  S. Kynev, "Application of E-STATCOM for AI Datacenters," presented
+                                                  at the ESIG Large Load Task Force, Mar. 20, 2025. Available here.    6
+CENTRALIZED BATTERY ENERGY STORAGE
+
+• E-STATCOMs can be great tools, but they
+  typically can only provide active power support   MW
+  for several seconds.
+   ▪ What if you have a fault that takes time to
+     recover from?
+• Centralized battery energy storage (BESS)
+  provides significant duration flexibility,
+  commonly providing full power for 2+ hours.
+   ▪ This flexibility allows BESS to not only       MW
+     compensate for lost load, but also to shape
+     the data center’s consumption pattern.
+• The trade-off is that BESS can require higher
+  upfront investment and wear out more quickly.
+                                                         Tesla Industrial Content, "Battery Storage Applications at Data Centers," presented at
+                                                         the ERCOT Large Load Working Group, May 2025. Available here.
+
+
+
+
+                                                                                                                                              7
+SERIES BATTERY ENERGY STORAGE
+
+• Traditional batteries are connected in parallel
+  with the data center load.
+
+   ▪ What if instead we put the entire data
+     center behind a site-wide UPS?
+
+• Generally, only the IT load is backed by a UPS,
+  but this architecture can condition all power
+  flowing to the facility.
+
+   ▪ The trade-offs are that you need a much
+     bigger battery and the power electronics
+     need to handle the entire site.
+
+• This approach would require higher upfront
+                                                    A. McDonnell, "Series-Connected AC/DC/AC BESS for AI Data Center Grid Interconnection,"
+  cost than traditional BESS and incur higher       presented at the ERCOT Large Load Working Group, May 21, 2026. Available here.
+
+  conversion losses, unless cooling is bypassed.
+
+                                                                                                                                              8
+INTERCONNECTION STUDIES: PARALLEL VS. SERIES BESS
+
+• A conventional data center presents a mix of
+  resources at the POI, each with different fault
+  responses and protection settings.
+    ▪ A parallel BESS adds controllability but
+      also introduces an additional component
+      that needs to be modeled accurately.
+• A series BESS replaces this complexity with a
+                                                                       Before series BESS
+  single converter interface, reducing the grid-
+  facing modeling burden.
+    ▪ ERCOT still requires hardware-validated
+      EMT models with real control loops for
+      the converter.
+• A simpler facility model does not eliminate the                                                After series BESS
+  need to study the full range of credible
+  contingencies.
+                                                    WECC Modeling and Validation Subcommittee, "WECC Composite Load Model
+                                                    Specification," Western Electricity Coordinating Council, Apr. 2021. Available here.
+                                                                                                                                           9
+GRID-INTERACTIVE UPS
+
+• How much voltage ride-through support can
+                                                                                                               MV/LV
+  be achieved using existing UPS?
+                                                                                                            Transformer
+• The first feature of a grid-interactive UPS is a
+  wider operating range, e.g., extending the                 Main LVDB
+  rectifier turn off limit to -50% voltage.
+
+    ▪ In this range, the UPS operates in power                                                                     UPS
+      sharing mode, drawing what it can from
+      the grid while the battery covers the rest.
+
+• The second feature is the ability to adjust the
+  consumption of the UPS to recover pre-fault
+                                                                                                          Information
+  demand in ≤ 2 seconds.                                                      IT         IT           Technology (IT) Load
+
+• No additional storage is required, and the
+  UPS continues to protect the IT load.              K. Watson, "Data Centers — A Good Grid Citizen," presented at the ERCOT Large Load
+                                                     Working Group, Jul. 11, 2025. Available here.
+
+
+
+                                                                                                                                          10
+INNOVATIONS IN DATA CENTER POWER DELIVERY
+
+• Power delivery and distribution within data
+  centers is rapidly evolving:
+   ▪ Distributed UPS can move storage to the
+     rack level, improving cost and reliability.
+   ▪ Higher DC voltages can reduce
+     conversion losses and copper reliance.
+   ▪ Solid-state transformers can enable
+     greater controllability of power flow.
+• By designing compute racks to receive
+  800 Vdc directly, we can “skip” one power
+  conversion step, reducing losses.
+• Instead of switching to UPS in the event of a
+  disturbance, what if the battery was always
+  connected to the DC bus?                         I. Wright, "A New 800VDC Power Architecture," presented at the ERCOT Large Load
+                                                   Working Group, Apr. 24, 2026. Available here.
+
+
+                                                                                                                                     11
+LOW-VOLTAGE RIDE-THROUGH WITHOUT SWITCHING
+
+• In the other approaches we've discussed,
+  the IT load transfers to battery backup
+  below a certain voltage.
+
+   ▪ The challenge is managing what the grid
+     sees during that transition and recovery.
+
+• In contrast, these architectures aim to keep
+  the load continuously connected and
+  proportional to voltage magnitude.
+
+• Because the IT load never switches offline,
+  there is no delay in waiting for the energy
+  storage to respond.
+
+
+
+                                                 I. Wright, "A New 800VDC Power Architecture," presented at the ERCOT Large Load
+                                                 Working Group, Apr. 24, 2026. Available here.
+
+                                                                                                                                   12
+TECHNOLOGY COMPARISON SUMMARY
+
+• Centralized battery energy storage is currently the most mature
+  technology available to support low-voltage ride-through.
+
+                      AI Load           LVRT Support       Flexible Grid   Site Model         Maturity
+                     Smoothing                              Connection     Complexity
+                                        Depends on fault   No, duration                   One installation to
+    E-STATCOM      Partial, fast only                                         High
+                                           duration          limited                        date (inertia)
+
+   Central BESS           Yes                 Yes              Yes            High        Deployed at scale
+
+                                                                           Low, without   Lab-validated, not
+    Series BESS           Yes                 Yes              Yes
+                                                                             bypass         yet deployed
+                     Depends on                            No, duration                   First deployments
+   Grid-Int. UPS                              Yes                             High
+                      capacity                               limited                           underway
+                                                           Depends on                      Simulation and
+DC Architecture           Yes                 Yes                             High
+                                                            capacity                        lab tests only
+
+
+
+                                                                                                                13
+TECHNOLOGY COMPARISON CONTINUED
+
+• Estimated one-time costs to achieve NOGRR 282 ride-through
+  compliance for a 100 MW facility.
+                      One-time costs           Impact on facility       Retrofit possible?     Timeline for at-scale
+                                                  efficiency                                      deployment
+                      $25–50M est. for a                                                         2–3 years (no data
+    E-STATCOM                                    Minimal change                   Yes
+                       100 MW system                                                             center installs yet)
+                      $35–70M est. for a
+   Central BESS                                  Minimal change                   Yes               Available now
+                       100 MW system*
+                      $50–90M est. for a          Less efficient       Yes (major equipment    1–2 years (first projects
+    Series BESS
+                       100 MW system*          (conversion losses)           additions)           commissioning)
+                      $1–15M est. for a                                     Yes (potentially
+   Grid-Int. UPS                                   No change                                        Available now
+                      100 MW facility †                                     firmware only)
+                     Not separable from       More efficient (fewer       No (requires full     3–5 years (simulation
+DC Architecture
+                         facility cost         conversion stages)            redesign)          and lab testing only)
+
+                   *Cost scales with duration; 2–4 hour system.
+                   † Leverages existing UPS infrastructure. Low end reflects firmware
+                    upgrades only; high end includes battery replacement.
+                                                                                                                           14
+FREQUENCY RIDE-THROUGH
+
+• In principle, power electronic loads can
+  tolerate frequency deviations. A UPS or
+  VFD does not care if the grid is at 59 Hz.
+• However, the Blue Cut Fire of 2016 is
+  evidence that expectation does not always
+  match reality.
+    ▪ The lowest recorded frequency was
+      59.87 Hz, yet many inverters saw
+      measurements below 57 Hz due to
+      distorted voltage waveforms.
+• NOGRR 282 addresses this: protection
+  schemes shall not trip based on
+  instantaneous frequency measurements.
+                                               NERC, "1,200 MW Fault Induced Solar Photovoltaic Resource Interruption Disturbance
+                                               Report: Southern California 8/16/2016 Event," North American Electric Reliability
+                                               Corporation, Jun. 2017. Available here.
+
+
+                                                                                                                                    15
+CONCLUSIONS
+
+• Multiple technologies can achieve ride-through
+  compliance today, each with distinct tradeoffs.
+    ▪ Centralized BESS is the most versatile. For
+      existing facilities, UPS upgrades are the most
+      practical.
+• A simpler facility model does not reduce the
+  number of contingencies that must be studied.
+• Frequency ride-through is primarily a protection
+  implementation problem.
+• Today's facilities will be retrofitted. Tomorrow's
+  will be designed with ride-through in mind.
+
+
+
+
+                                                       16
+QUESTIONS
+
+• Thank you for your time.
+    ▪ We’ll be happy to take any questions.
+
+
+• Please feel free to reach out to:
+    – Ryan Elliott, rtellio@sandia.gov
+    – Matt Reno, mjreno@sandia.gov
+    – Brian Pierre, bjpierr@sandia.gov
+
+
+
+
+                                              17
+APPENDIX
+
+
+
+
+           18
+GLOSSARY
+
+Acronyms                                                 • STATCOM: Static Synchronous Compensator
+• BESS: Battery Energy Storage System                    • UFLS: Under-frequency Load Shedding
+• EMT: Electromagnetic Transient                         • UPS: Uninterruptible Power Supply
+• E-STATCOM: Enhanced Static Synchronous Compensator • UV: Under-voltage
+• FFT: Fast Fourier Transform                            • VFD: Variable Frequency Drive
+• FRT: Fault Ride-Through                                Key terms
+• IT Load: Information Technology (Computational) Load   • Ride-through: Remaining connected to the grid during
+                                                           a voltage or frequency disturbance
+• LCL: Large Computational Load
+                                                         • Power sharing mode: UPS draws partial power from
+• LVRT: Low Voltage Ride-Through
+                                                           the grid while the battery covers the rest
+• MV: Medium Voltage
+                                                         • Double conversion: Power passes through two
+• PFAPR: Post-Fault Active Power Recovery                  conversion stages (AC→DC→AC), fully isolating the load
+
+• POI: Point of Interconnection                          • Shunt: Connected in parallel with the load
+
+• SST: Solid-State Transformer                           • Series: Connected between the grid and the load
+
+
+                                                                                                                    19
+20
+THE CASE FOR RIDE-THROUGH REQUIREMENTS
+• Between 2023–2025, ERCOT identified 26 events in which large computational loads
+  tripped during routine voltage disturbances that the grid was designed to handle.
+• NOGRR 282 establishes ride-through requirements to prevent large computational
+  loads from amplifying routine disturbances into system-wide events.
+
+
+                                                                     Links to previous ERCOT
+                                                                     presentations:
+                                                                     • June 13 Large Load Workshop
+                                                                     • July 11 LLWG (ERCOT LEL Ride
+                                                                        Through Criteria)
+                                                                     • Sept. 19 LLWG (ERCOT study
+                                                                        update presentations)
+                                                                     • Oct. 24 LLWG (ERCOT study
+                                                                        update presentation)
+
+                                                                     J. Billo, "Large Electronic Load Ride-Through
+                                                                     Requirements," presented at the ERCOT Board of
+                                                                     Directors Meeting, Dec. 8–9, 2025. Available here.
+
+
+
+
+                                                                                                                          21
+NOGRR 282 REQUIREMENTS AT A GLANCE
+
+• Voltage: Ride through all voltages ≤ 1.20 pu for the specified
+  duration; return to 90% of pre-fault demand within 2 seconds.
+• Frequency: Remain connected between 57.5–63.0 Hz; maintain
+  consumption within 10% of pre-disturbance level.
+
+
+      Root-Mean-Square         Minimum Ride-Through                                                      Minimum Ride-Through
+                                                               Frequency (f) in (Hz)
+   Voltage (p.u. of nominal)       Time (seconds)                                                            Time (seconds)
+           V > 1.20            May ride-through or trip                   f > 63.0                        May ride-through or trip
+        1.10 < V ≤ 1.20                   1.0                       61.2 < f ≤ 63.0                                       299
+        0.90 ≤ V ≤ 1.10              Continuous                     58.8 ≤ f ≤ 61.2                                 continuous
+        0.80 ≤ V < 0.90                   2.0                       57.5 ≤ f < 58.8                                    299
+        0.50 ≤ V < 0.80                   0.5                             f < 57.5                        May ride-through or trip
+        0.35 ≤ V < 0.50                  0.25             ERCOT, "NOGRR 282: Board Priority — Large Computational Load Ride-Through
+           V < 0.35                      0.15             Requirements," approved by the Public Utility Commission of Texas, Jul. 9, 2026,
+                                                          effective Aug. 1, 2026. Available here.
+
+
+
+
+                                                                                                                                             22
+GRID-INTERACTIVE UPS: OPERATING REGIONS
+
+
+
+
+                                          K. Watson, "Data Centers — A Good Grid
+                                          Citizen," presented at the ERCOT Large
+                                          Load Working Group, Jul. 11, 2025.
+                                          Available here.
+
+
+
+
+                                                                                   23
+SPEED TO POWER COMPARISON TABLE
+
+
+
+
+                                  EPRI, "Reconciling the Value of Grid Interconnection and
+                                  Speed to Power: Strategies for Powering Data Centers in
+                                  the AI Era," Electric Power Research Institute, Nov. 2025.
+                                  Available here.
+                                                                                               24
+25
+DATA CENTERS AND SUBSYNCHRONOUS OSCILLATION
+
+• Subsynchronous oscillations (SSO) are
+  power variations below 60 Hz that can excite
+  torsional resonances in generator shafts.
+• AI training workloads produce periodic
+  power swings at frequencies of concern.
+• Converter control interactions can also
+  produce oscillations, particularly when DC
+  bus voltages are poorly regulated.
+                                                      Frequency                Oscillation Type                Limit (per 0.1 Hz
+• Utilities are beginning to set limits on              Range                                                      FFT bin)
+  oscillation energy by frequency band.                                           Bulk-system /
+                                                       0.1–0.8 Hz                                                  ≤ 10 MW
+                                                                                inter-area modes
+• Monitoring subsynchronous oscillations
+                                                                               Local / intra-plant /
+  requires high-sample-rate sensors at the             0.8–5.0 Hz
+                                                                                 control modes
+                                                                                                                   ≤ 10 MW
+  point of interconnection (see PNNL-39191).                                    Subsynchronous
+                                                      5.0–55.0 Hz                                                  ≤ 2.5 MW
+                                                                                torsional modes
+                                                 Southern Company, “Technical Requirements for Transmission
+                                                 Connected Large Loads - v1.4," May 1, 2026. Available here.
+                                                                                                                                   26
+LARGE LOAD MODELING
+• There is a need for new models to represent
+  power electronic-interfaced large loads, both
+  in positive-sequence phasor domain (PSPD)
+  and electromagnetic transient (EMT)
+  simulations.
+• Models:
+   ▪ https://www.ercot.com/about/grit/large-load-modeling
+   ▪ https://github.com/HewlettPackard/sustain-cluster
+   ▪ https://ieee-dataport.org/open-access/data-center-
+     model-library-electromagnetic-transient-analysis-pscad
+
+• Datasets from data centers
+   ▪ https://github.com/MIT-AI-Accelerator/MIT-Supercloud-
+     Dataset
+   ▪ https://data.nlr.gov/submissions/312
+   ▪ https://github.com/Ahmed-Elsayed95/High-resolution-      ERCOT dynamic models of AI data center load and crypto-miner load. Available here.
+
+     AI-Data-Center-Training-Workloads-Dataset/
+
+
+                                                                                                                                                   27
+ADDITIONAL RESOURCES
+• NERC Large Loads Action Plan, Large Loads Working Group, and
+  Load Modeling Working Group
+• ERCOT Large Load Working Group (LLWG) – monthly meetings
+  with presentations available online
+• ERCOT Large Load Integration
+• CAISO Large Loads Stakeholder Initiative
+• MISO Large Load Additions, Working Group, and Workshops
+• ESIG Large Loads Working Group – technical reports publicly
+  available
+    ▪ ESIG Flexible Interconnections for Large Loads Workshop
+      (6/17/26) – presentations available online
+    ▪ ESIG/NLR Large Load Modeling, Testing and
+      Interconnection Requirements Workshop (6/16/26) –             Video of July 2026 Northern Virginia Data Center Event -
+                                                                      Effects on Voltage & Grid Frequency. Available here.
+      presentations available online
+• Large Load Literature Review (LBNL)
+• EPRI Large Load Research, Data Center Flexibility, and Speed to
+  Power
+• Large Load References (Eric Meier)
+
+                                                                                                                               28
+

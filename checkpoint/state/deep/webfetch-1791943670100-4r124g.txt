@@ -1,0 +1,735 @@
+                                         The Race between Agentic AI Capabilities and Data Quality Control in Online
+                                                                         Surveys
+
+
+                                            Sourav Panda 1 Hillmer Chona 1 Rupak Kumar Das 1 Shreyash Kale 1 Shikha Soneji 1 Jonathan Dodge 1
+
+
+                                                                   Abstract                                               Human reviews
+                                                                                                                         survey questions
+                                                                                                                                                              Human queries
+                                                                                                                                                                the LLM
+                                                Online surveys are a foundational data collec-
+                                                tion instrument in a variety of fields, with atten-
+
+
+
+
+arXiv:2608.28597v1 [cs.AI] 21 Jun 2026
+                                                tion checks serving as critical guardians of re-
+                                                                                                                         Human submits                    LLM generates
+                                                sponse quality. However, the rapid emergence                             model-generated                    response
+                                                of agentic AI—goal-directed systems powered                                 response
+                                                by a large language model (LLM) brain and/or a                                         Agent reviews survey
+                                                multimodal processing unit with tool-augmented                                               interface
+                                                capabilities—raises new questions about the ro-
+                                                bustness of these safeguards. We investigate how
+                                                well agentic AI architectures can complete web-
+                                                                                                                                     Agent plans and executes
+                                                based surveys and pass standard attention checks.                                     actions autonomously
+                                                We evaluate a single-agent architecture capable of
+                                                multimodal input processing and tool-based web                Figure 1. Modes of LLM-mediated survey participation. (Top)
+                                                                                                              Human-in-the-loop interaction. A respondent queries an LLM,
+                                                interaction on a controlled survey sandbox. We an-            receives model-generated answers, and manually submits them.
+                                                alyze the problem from two perspectives. From an              Although the content originates from the model, a human remains
+                                                attack perspective, we demonstrate how structural             the final check before submission and may reject or modify incor-
+                                                vulnerabilities such as exposed DOM metadata                  rect outputs. (Bottom) Fully autonomous interaction. The LLM
+                                                and predictable option encoding allow agents to               can directly perceive the survey interface, and execute responses
+                                                                                                              without human intervention. The final human verification step
+                                                resolve attention checks through structured pars-             present in the assisted setting is absent.
+                                                ing only. From a defense perspective, we im-
+                                                plement a mitigation strategy of DOM metadata
+                                                obfuscation to remove semantic cues in text-based
+                                                                                                              duces persistent concerns about response quality. Without
+                                                questions. We evaluate multiple open-source lan-
+                                                                                                              direct supervision, survey submissions may be inattentive,
+                                                guage and multimodal models to study capability
+                                                                                                              automated, or strategically manipulated. To address this,
+                                                and orchestration effectiveness. Based on our
+                                                                                                              researchers employ attention checks—questions designed
+                                                evaluations, we offer perspectives on how to si-
+                                                                                                              to require careful reading, for answering correctly. These
+                                                multaneously meet the needs of empiricists and
+                                                                                                              checks are guardians of data validity, helping filter inauthen-
+                                                agentic AI researchers.
+                                                                                                              tic responses (Abbey & Meloy, 2017; Kung et al., 2018;
+                                                                                                              Roth & Yakobi, 2024; Gogami et al., 2021; Pei et al., 2020).
+                                         1. Introduction                                                      Recent advances in LLMs make them capable of interpret-
+                                                                                                              ing instructions and generating coherent responses, satis-
+                                         Online surveys have become a foundational instrument for
+                                                                                                              fying the requirements embedded in attention checks. For
+                                         large-scale data collection across many domains of research
+                                                                                                              example, Westwood (Westwood, 2025) reports that mod-
+                                         and practice. Their scalability, low cost, and ease of deploy-
+                                                                                                              ern LLMs achieve near-perfect attention-check pass rates
+                                         ment have made them a primary infrastructure for empirical
+                                                                                                              in controlled survey experiments. These findings suggest
+                                         research (Couper, 2000; Groves et al., 2011; Buhrmester
+                                                                                                              that mechanisms originally designed to detect inattentive
+                                         et al., 2016). However, moving data collection online intro-
+                                                                                                              responses may no longer reliably distinguish between hu-
+                                            1
+                                              College of Information Science and Technology, Penn-            man and machine-generated submissions, raising broader
+                                         sylvania State University. Correspondence to: Sourav Panda           concerns about the integrity of survey-based inference.
+                                         <sbp5911@psu.edu>.
+                                                                                                              Dual Research Perspectives: Figure 1 gives rise to comple-
+                                         Preprint. September 1, 2026.                                         mentary research questions across communities. (i) Agentic
+
+                                                                                                          1
+                    The Race between Agentic AI Capabilities and Data Quality Control in Online Surveys
+
+AI Perspective: Recent advances have enabled goal-directed              Text Page             Image Page           Thank You          Done Page
+                                                                                                                     Page
+systems that autonomously interact with web environments.
+In this work, we define an agent (Wang et al., 2024) as
+a goal-directed system powered by a language or multi-                10 Items               6 Items             Submission Gate     Terminal State
+                                                                      • Numeric Input        • Binary Image      • Bot declaration   • Submission
+modal model that can perceive its environment, plan ac-               • Dropdowns (x3)       Selection (x4)      • Explicit submit   confirmation
+                                                                      • Slider Inputs (x2)   • Image Attention   action              • Database
+tions, and execute tool-based interactions in a sequential            • Likert-Scale         Check               • Response          persistence of
+                                                                      Agreements (x2)        • CAPTCHA code      persistence on      responses
+decision-making loop. Unlike human-assisted LLM usage,                • Text Responses       entry               submission          • Session
+                                                                      • Attention Check                                              finalization
+agentic systems can independently navigate web interfaces
+and complete multi-step tasks. A central question therefore          Figure 2. Survey sandbox architecture. It exercises heterogeneous
+emerges: to what extent can agents autonomously complete             interaction primitives within a controlled multi-page workflow.
+realistic survey workflows? If agents can reliably solve sur-
+veys without human involvement, it is possible to automate
+survey participation at scale. For the agentic AI commu-
+nity, surveys provide a structured, real-world benchmark for
+evaluating planning, web interaction, and reasoning under
+interface constraints. (ii) Data Quality Perspective: This
+capability presents a defensive challenge. If autonomous
+agents can satisfy standard attention checks and procedural          flow. Full-page screenshots are available in the Appendix C.
+safeguards, then existing mechanisms for ensuring response           Text Page: The survey begins on a page containing 10
+validity may require reevaluation. For researchers who rely          items: 9 substantive survey questions and 1 attention check.
+on surveys understanding how agents succeed or fail at               The question set mixes interaction primitives: numeric in-
+these checks is essential for identifying vulnerabilities and        put, dropdowns, slider inputs, likert-scale agreement, text
+designing more robust safeguards.                                    responses. This heterogeneous design exercises multiple
+Our Approach: Attack and Defense. Building on the dual               browser interaction behaviors (typing, selecting, sliding, and
+perspectives outlined previously, we formalize the problem           radio selection) within a single page, expanding the scope
+through two complementary research questions that directly           of evaluation across multiple input modalities.
+reflect the needs of both communities:                               Image Page: The second page contains 6 items: 4 binary im-
+RQ1 Attack Perspective - How well does agentic AI solve a            age selection, 1 CAPTCHA transcription task, and 1 image
+broader class of attention checks?                                   attention check. Each visual question presents two candi-
+                                                                     date images, requiring the respondent to select the correct
+RQ2 Defense Perspective - How can we preserve survey                 option. To reduce positional bias and prevent simple pattern
+data quality by preventing agentic AI from solving attention         learning, we independently randomize left/right ordering
+checks?                                                              for all questions on this page.
+Contributions: In answering these research questions, we             Thank-You Page: After completing the image page, the
+make the following contributions. (i) We present a systems-          survey transitions to the thank-you page, which functions as
+level evaluation of agentic AI performance on web-based              a submission gate. This page includes a final attention check
+surveys. (ii) We demonstrate how structural properties               requiring the respondent to explicitly acknowledge whether
+of common survey implementations can enable metadata-                they are an AI system, and a mandatory Submit Responses
+driven resolution of attention checks. (iii) We design and           button. The system does not write any record until the
+evaluate a lightweight defensive strategy for survey protec-         respondent clicks submit button. This prevents premature
+tion. (iv) We break down how agents fail, showing that               logging and allows us to evaluate agents’ completion of the
+different models struggle with different aspects of the atten-       full interaction loop.
+tion checks. Our findings highlight a central tension: are
+agents passing attention checks through genuine reasoning,           Done Page: The survey concludes at the done page, con-
+or by exploiting structural signals embedded in web survey           firming successful submission and terminating the session.
+implementations?                                                     We refer to this implementation as survey v0. For evalua-
+                                                                     tion purposes, ground-truth answers for all attention checks
+2. Survey Sandbox                                                    and objective questions are stored outside the survey appli-
+                                                                     cation codebase. The survey frontend and client-accessible
+We design a controlled web-based survey sandbox with                 components do not contain these answers. This separation
+Next.js (Vercel Inc., 2024), to evaluate agentic form-               ensures that correctness labels are unavailable through static
+completion behavior in a realistic multi-page setting. Fig-          inspection of the survey environment and prevents trivial
+ure 2 illustrates the sandbox enforcing a fixed participant          extraction of evaluation targets.
+
+                                                                 2
+                   The Race between Agentic AI Capabilities and Data Quality Control in Online Surveys
+
+3. Agent Architecture                                                                              Page Context                    Interface      Var   Meaning
+                                                                            Website
+                                                                                                                                    Adapter
+In our setting, the environment is a live web survey ren-                                                                                         t     Interaction
+                                                                                                  • DOM Snapshot               • Creates Valid
+dered in a browser. Conceptually, the agent behaves like an             • Text-Page               • HTML/Text                  Action Space             observe–p
+                                                                        • Image-Page              • Schema/Metadata            • Enforces
+automated survey participant: it observes the current page,             • Thank You-Page          • Visual Context             Interaction
+decides what to do next, and performs actions.                          • Done-Page               (Screenshot)                 Constraints        Ct    Page con
+                                                                                                                                                        metadata
+
+3.1. Agent Architecture Components                                      Execution layer                                                           At    Valid actio
+                                                                        applies chosen
+                                                                        action on website,                                                              page elem
+We implement a single-agent system following a standard                 then loop repeats
+                                                                        until Done Page
+agentic AI abstraction. The architecture consists of four                                                             Agent                       Γt    Interaction
+components—a model-based brain, a prompt policy, a tool                                                                                                 required f
+                                                                                                 • Brain: Reasoning Module (LLM/VLM)
+interface for interacting with the environment, and a per-               Agent Output            • System Prompt: Defines objective, rules, and
+                                                                                                 required output format                           Ot    Structured
+sistent state memory. These components are orchestrated                 • Action Plan            • Tools: Generic web tools
+                                                                                                                                                        + answers
+                                                                        • Answers                • Maintains Interaction History
+through an observe–plan–act loop (Yao et al., 2023).
+(i) Brain (Model-Based Planner): The brain is responsi-                                      Figure 3. Agent workflow
+ble for planning and decision-making. Given a structured
+representation of the survey page, it produces a sequence of
+action intents specifying how the agent should interact with        around three stages: Observation, in which the agent syn-
+the interface. The architecture supports both text-only and         chronizes with the browser environment and constructs a
+multimodal variants of the brain. In the text-only setting,         structured representation of the current page; Planning, in
+planning is conditioned on structured page metadata; in             which the agent generates a sequence of action intents con-
+the multimodal setting, planning additionally incorporates          ditioned on that representation; and Action, in which the
+visual evidence such as screenshots. Regardless of the under-       agent executes the planned action intents through browser
+lying model, the brain operates purely at the planning level        interaction tools and updates its internal state accordingly.
+and does not directly manipulate the browser environment.           These stages form a cyclic loop that continues until reaching
+                                                                    a termination condition.
+(ii) Prompt Policy: A system-level prompt specifies the
+high-level objectives defining the agent’s behavioral policy
+                                                                    3.2. Agent Workflow
+and planning process. The prompt serves as the agent’s
+objective specification layer. By changing the prompt, we           The agent operates as a closed-loop decision system under
+can alter how the agent approaches the survey.                      interface and response constraints. Figure 3 illustrates the
+(iii) Tool Interface: The agent interacts with the envi-            overall workflow that the agent executes at each interaction
+ronment through a set of web-form interaction primitives.           timestep t. Table 1 summarises the formal variables.
+These tools implement actions such as: filling text or nu-          (i) Perception Stage: At the perception stage, the agent-side
+meric inputs, selecting dropdown options, choosing radio or         web controller constructs a page context Ct by aggregating
+checkbox responses, adjusting sliders, clicking interactive         information exposed through standard web mechanisms.
+elements. Each tool corresponds to a normalized interaction         Importantly, this representation relies on conventional web
+type. The brain outputs structured action intents referencing       design artifacts (e.g., DOM structure and rendered content)
+these interaction types, and the execution layer performs the       and does not assume any custom instrumentation beyond
+corresponding browser operations.                                   typical browser accessibility. The page context includes: (i)
+(iv) State Memory: The agent maintains a shared in-                 a DOM snapshot capturing interactive elements and their
+ternal state representation that persists across the ob-            current states; (ii) rendered textual content from the page;
+serve–plan–act cycle. This state stores: the current page           (iii) schema-level metadata; (iv) interaction history from
+URL and browser context, a structured schema extracted              prior steps within the same session; and (v) a screenshot
+from the page DOM, the derived action space available               representing the visible layout and pixel-level cues. The
+at the current step, the current plan (a sequence of action         structured components of Ct support precise element target-
+intents), and execution metadata for logging and analysis.          ing and constraint checking, while the screenshot provides
+By explicitly separating page parsing from planning, the            spatial and visual information that markup alone may not
+architecture decouples environmental representation from            reliably encode.
+decision generation.                                                (ii) Interface Adaptation: An interface adapter (validator)
+Execution Backbone: To coordinate these components,                 consumes the page context Ct to produce two outputs: a
+the agent operates as a state-driven control loop structured        valid action space At and answer constraints Γt . The action
+                                                                    space is a finite set of executable, page-grounded operations
+
+                                                                3
+                    The Race between Agentic AI Capabilities and Data Quality Control in Online Surveys
+
+(e.g., click, type, select, check, scroll, submit) parameter-          selects navigation and answer strategies, and the execution
+ized by currently available elements. The constraint set               layer applies actions to the environment.
+formalizes admissible answer values (e.g., requiredness, op-
+tion membership, length limits, numeric bounds, and format                Var    Meaning
+constraints). This stage prevents invalid actions by con-                 t      Interaction timestep in the observe–plan–act loop
+struction, restricting downstream planning to actions that                Ct     Page context at step t (DOM, text, metadata, screen-
+are both interface-feasible and semantically valid for the                       shot)
+current page state.                                                       At     Valid action space derived from page elements
+                                                                          Γt     Interaction constraints (e.g., required fields, formats)
+(iii) Decision and Planning: The agent core receives the                  Ot     Structured agent output (action plan + answers)
+page context Ct , the valid action space At , the constraint set                        Ct → (At , Γt ) → Ot → Ct+1
+Γt , and a task specification encoded in the system prompt.            Table 1. Control Loop Formalization: At timestep t, the agent
+The system prompt defines the objective, behavioral rules,             observes page context Ct , from which the interface adapter derives
+and required output format. The reasoning module may                   a valid action space At and interaction constraints Γt . The agent
+                                                                       produces a structured output Ot specifying an action and responses,
+be language-only or vision-language. The agent always                  which is executed by the environment to produce the next state
+captures a screenshot at the perception stage; however, the            Ct+1 .
+model only uses the screenshot with a vision-language archi-
+tecture. In the language-only setting, the agent plans based
+solely on structured and textual inputs. The prompt assigns
+the agent with two coordinated objectives: (1) determine
+how to navigate the webpage to reach successful comple-                4. Experiment 1: Exploitability Analysis
+tion, and (2) generate valid and contextually appropriate              We sought to evaluate how well an agent operates over struc-
+answers for survey questions. This decomposition separates             tured DOM metadata and normalized browser interaction
+high-level reasoning from low-level execution.                         primitives to successfully complete the survey task.
+(iv) Structured Output: At each step, the agent produces a             Models and Experimental Setup: We evaluate a set of
+structured output Ot with two components. First, it emits              open-source, instruction-tuned language models that are
+an action plan: a ranked shortlist of candidate next actions           easy to deploy locally within our agent framework. We de-
+drawn from At . These may include confidence or priority               liberately use open-weight models to ensure reproducibility
+ordering to support fallback if the top action fails. Sec-             and experimental control. Local deployment is particularly
+ond, it emits answer proposals: structured responses for               important in our browser-interactive setting, which requires
+current page questions, keyed to question identifiers and              low-latency coordination between model outputs and tool ex-
+constrained by Γt . Planning determines how the agent pro-             ecution; We conducted our experiments on a single machine
+gresses through the interface, while answer generation de-             with 20GB GPU memory and 32GB system RAM, which
+termines what information is entered into the survey fields.           constrains feasible model sizes. Under these constraints, we
+(v) Execution and Replanning: An execution layer selects               evaluate LLaMA-3-8B-Instruct, Mistral-7B-Instruct, and
+the highest-priority feasible action, invokes the correspond-          Qwen-2.5-7B-Instruct, hosted locally using LM Studio. We
+ing tool, and applies the change to the webpage. The envi-             evaluated all models under integration into the same agent
+ronment then transitions to a new state, yielding an updated           pipeline without any architectural modifications, ensuring
+context Ct+1 . The loop does not terminate if execution fails          that performance differences arise from model capabilities
+(e.g., stale element reference, blocked interaction). Instead,         alone.
+the interaction history incorporates failure signals, the page         Behavioral Policies: Completion vs. Unconstrained We
+context refreshes, and replanning occurs under the updated             evaluate each model under two behavioral policies that gov-
+state. This adaptive replanning distinguishes the agent from           ern how the agent can move through the survey.
+deterministic automation scripts, enabling recovery from
+unforeseen interaction failures.                                       (i) Completion Policy (Strict Mode): We add the following
+                                                                       explicit instruction to the system prompt to simulate a fully
+(vi) Termination and Safeguards: The workflow termi-                   compliant respondent who completes every field before
+nates upon satisfying the completion criterion of detecting            proceeding: “Hard requirement: do not click Next/Submit
+the terminal /done page. Optional safeguards include                   (or finish) until all answerable question items visible on the
+maximum step limits, repeated-failure thresholds, and no-              current page are answered.” This enforces a strict full-page
+progress detection to prevent infinite loops. Overall, the             answer-then-advance strategy. The agent must answer all
+architecture enforces a clean functional decomposition: per-           visible answerable items on the page and perform exactly
+ception constructs state, the interface adapter defines admis-         one final navigation click (Next/Submit) at the end of the
+sible actions and answer constraints, the reasoning module             plan.
+
+                                                                   4
+                                                          The Race between Agentic AI Capabilities and Data Quality Control in Online Surveys
+
+                                         Successful Submissions Out of 100 Runs (survey_v0 (Ilm))                                                                                                             Avg text completion (survey_v0 (llm))
+                                                                                 unconstrained                                                                                                                      completion          unconstrained
+                                                             completion
+                      100
+
+
+
+
+                                                                                                                                                     Avg text completion (answered out of 9)
+                                    I
+
+
+
+                       80
+
+
+
+
+Successful runs (%)
+                                                                                                                                                                                          9
+                       60
+
+
+                                 100%                                 99%
+                                                                                                                   95%                                                                         9.0/9     8.9/9              9.0/9                       9.0/9
+                                                                                                       88%                                                                                                                                                        8.2/9
+                                                                                                                                                                                      4
+                        40                                                           77%                                                                                                                                                 7.0/9
+                                               67%
+
+
+
+                         20-
+
+
+
+
+                             이                                                                                                                                                     이
+                                        Ilama3-8b                         mistral-7b                      qwen2.5-7b                                                                              llama3-8b                      mistral-7b               qwen2.5-7b
+                                                                             Model                                                                                                                                                  Model
+
+
+                                        Failure-Reason Breakdown by Failed Runs (survey_v0 (Ilm))                                                                                                             Avg image accuracy (survey_v0 (Ilm))
+                                                                                                                                                                                                                    completion          unconstrained
+                                                            planning error             answer error
+                       40
+                                                                                                                                                                 4.0-
+                                                    U
+
+
+
+
+                                                                                                                                 Avg image accuracy (correct out of
+                       35                     failed=33
+                                                                                                                                                              3.5
+
+                        30-
+                                                                                                                                                               3.0
+
+
+
+
+       Failed runs (count)
+                                                                                       U
+                        25                                                       failed=23
+                                                                                                                                                                2.5
+
+                         20
+                                                                                                                                                             2.0-                              3.8/4
+                                               93.9%                                                                                                                                                     3.8/4
+                                                                                                                                                                                                                            3.3/4                       3.4/4    3.4/4
+                         15                                                                              C
+                                                                                                                                                                                                                                         3.2/4
+                                                                                                      failed=12                                              1.5
+                                                                                     100%
+                         10                                                                                                                                     1.0
+                                                                                                        50%
+                                                                                                                     U
+                                                                                                                  failed=5
+                             5                                                                                                                                   0.5-
+                                                                        C
+                                    C                                                                   50%        80%
+                                                                     failed=1
+                                 failed=0       6.1%                  100%                                         20%
+                             이                                                                                                                                  0.0
+                                        llama3-8b                         mistral-7b                      qwen2.5-7b                                                                              llama3-8b                      mistral-7b               qwen2.5-7b
+                                                                             Model                                                                                                                                                  Model
+
+
+
+Figure 4. Experiment 1: Exploitability results on Survey v0. Across models and behavioral policies, agents successfully complete the
+survey end-to-end while also achieving high page-level performance on both the text and image pages. All models passed the embedded
+attention checks on both pages in 100% of runs under both behavioral modes.
+
+
+(ii) Unconstrained Policy (Free Mode): Here, the hard re-                                                                                       (i) Text Page Completion. Figure 4 (Top-Right) reports aver-
+quirement is not present. The agent is free to advance with-                                                                                    age text question completion (out of 9). In completion mode,
+out answering all visible items, skipping fields it chooses.                                                                                    text-page responses are nearly exhaustive across models,
+Therefore, lower completion rates in this mode are not nec-                                                                                     demonstrating that explicit prompt-level constraints effec-
+essarily indicative of failure.                                                                                                                 tively enforce full-page answer coverage. In unconstrained
+                                                                                                                                                mode, answer coverage decreases for some models, indicat-
+Experimental Scale: Each of the 3 model evaluations occur
+                                                                                                                                                ing that agents sometimes move forward without answering
+in 2 behavioral modes, for 100 independent runs per mode.
+                                                                                                                                                all visible items. This confirms that the imposed behavioral
+This experiment required ∼3 hours of total compute time (3
+                                                                                                                                                policy strongly influences page-level completeness.
+models × 2 modes × 100 runs = 600 total agent runs).
+                                                                                                                                                (ii) Image Page Accuracy: Figure 4 (Bottom-Right) reports
+4.1. Experiment 1: Results                                                                                                                      average image accuracy (out of 4). Image-based question ac-
+                                                                                                                                                curacy remains consistently high across both policies. The
+Figure 4 summarizes performance across completion suc-                                                                                          minimal gap between constrained and unconstrained set-
+cess, page-level accuracy, and failure decomposition.                                                                                           tings indicates that visual attention checks are not inherently
+Overall Performance: Figure 4 (Top-Left) reports end-to-                                                                                        robust in this configuration.
+end successful submissions, measured over 100 independent                                                                                        Failure Mode Decomposition: Figure 4 (Bottom-Left)
+runs per model and behavioral mode. Across both comple-                                                                                          reports the breakdown of failed runs out of 100 total exe-
+tion and unconstrained policies, all models demonstrate                                                                                          cutions per model and mode. From the overall set of runs,
+strong end-to-end success. This indicates that the agent is                                                                                      we first determine how many did not result in successful
+capable of traversing the multi-page survey and reaching                                                                                         end-to-end submission. Among those failed runs, we then
+terminal submission states.                                                                                                                      categorize the primary failure cause as either a planning or
+Page-Level Performance: All page-level metrics are com-                                                                                          answer error. Planning errors occur when the agent fails to
+puted over successful runs (out of 100) for each model and                                                                                       generate a valid next-step action (e.g., incorrect sequencing).
+mode.                                                                                                                                            Answer errors occur when the agent produces incorrect or
+                                                                                                                                                 invalid responses despite navigating the page successfully.
+
+                                                                                                                             5
+                    The Race between Agentic AI Capabilities and Data Quality Control in Online Surveys
+
+Across models, failures are distributed between these two              for the agent. The model receives textual descriptors and
+categories, indicating that residual errors arise at the reason-       structured associations that provide additional context. The
+ing or answer-generation level rather than from instability            problem becomes similar to answering a question with en-
+in the interaction pipeline itself.                                    riched metadata rather than interpreting raw visual signals.
+                                                                       The same action-space simplification applies here: having
+Structural Sources of Exploitability: The results demon-
+                                                                       inferred the correct answer from structured cues, select-
+strate that modern instruction-tuned LLM agents are highly
+                                                                       ing it is straightforward within the normalized interaction
+capable of completing the survey. However, beyond mea-
+                                                                       primitives.
+suring capability, it is equally important to examine the
+reason for this success. While the agentic AI community                Design Trade-Off: Developer Transparency vs. Machine
+view these results as evidence of robust autonomous form-              Robustness: The core source of exploitability lies in the
+completion, the survey and HCI communities must interpret              semantic and structural transparency of the interface. Stan-
+them through a different lens: what aspects of standard                dard web survey design practices expose machine-readable
+web survey design unintentionally lower the barrier for au-            cues that reduce ambiguity in both interaction and answer
+tonomous completion? In this subsection, we analyze the                interpretation. This transparency is not accidental; it is
+interface-level properties that enable reliable agent perfor-          a byproduct of modern web development practices that
+mance and discuss their implications for safeguarding online           prioritize accessibility, maintainability, and developer ef-
+data collection. Each survey page requires the agent to solve          ficiency. However, the same structured representations that
+two subproblems. First is planning, namely determining the             simplify implementation and improve usability also provide
+correct interaction primitive for each question (e.g., typing          rich semantic cues to autonomous agents. As agentic sys-
+into a text input or clicking a button). Second is answer gen-         tems continue to advance, this developer-oriented clarity
+eration, which requires producing the appropriate response             becomes a double-edged sword: it streamlines legitimate
+content when a question has a correct or expected answer.              software development while simultaneously lowering the
+The extent to which these subproblems pose difficulty de-              barrier for large-scale autonomous survey completion. The
+pends on the specific design of the page.                              central challenge, therefore, is not whether LLM agents
+                                                                       can complete surveys (they can), but how survey systems
+Text-page: ...presents no objectively correct or incorrect
+                                                                       can balance usability, accessibility, and robustness against
+answers. The agent’s primary challenge is to determine the
+                                                                       autonomous completion at scale.
+appropriate action type for each question. Because the DOM
+is fully exposed, input types, required fields, value ranges,
+and selectable options are explicitly encoded in structured            5. Experiment 2: Metadata Obfuscation
+markup. The interface adapter further normalizes these
+                                                                       In this section, we evaluate the extent to which we can mit-
+elements into a valid action space. As a result, the agent
+                                                                       igate the identified vulnerabilities through interface-level
+does not need to infer interaction structure; it is directly
+                                                                       defensive modifications. The analysis in Section 4 showed
+provided with which primitive applies to which element. In
+                                                                       that the primary vulnerability lies in semantic cues embed-
+effect, the interface abstraction designed to simplify browser
+                                                                       ded in the DOM—especially on the image page, where
+interaction also lowers the reasoning burden. The agent can
+                                                                       correct answers leak through the machine-readable meta-
+deterministically map each question to its correct interaction
+                                                                       data that expose information about image content. On the
+type using structured metadata alone. Since there are no
+                                                                       text page, questions are open-ended and have no objectively
+right or wrong semantic answers on this page, exploitability
+                                                                       correct answers. While the DOM exposes structural infor-
+reduces to correctly executing a sequence of structurally
+                                                                       mation about input types and required fields, the absence
+valid actions.
+                                                                       of ground-truth correctness reduces risk of exploitation pri-
+Image-Page: ...requires two steps for a respondent: (1)                marily to planning rather than answer inference. Moreover,
+visually reason about the images to determine the correct              such structural markup reflects standard web development
+answer, and (2) perform the correct interaction. In con-               practices and usability constraints. For these reasons, our
+trast, the LLM-based agent does not rely on raw visual                 defensive strategy focuses on the image page, while the text
+perception in this configuration. It operates over DOM and             page remains unchanged.
+schema representations rather than pixel-level screenshots.
+                                                                       Models and Experimental Setup: We construct a modified
+In standard web design, images appear with metadata such
+                                                                       survey version, denoted survey v1, accessible via a sepa-
+as descriptive text, element attributes (e.g., alt tags), file-
+                                                                       rate URL endpoint. The core workflow remains identical to
+names, and structured identifiers. These attributes provide
+                                                                       survey v0, but we modify the image page by replacing
+semantic cues about image content. Consequently, what
+                                                                       descriptive labels and alt-text with generic tokens, removing
+a survey researcher intended as a vision-based reasoning
+                                                                       semantic meaning from filenames, and abstracting answer
+task is transformed into a language-based reasoning task
+                                                                       options into non-descriptive placeholders. Figure 5 (Left)
+
+                                                                   6
+                       The Race between Agentic AI Capabilities and Data Quality Control in Online Surveys
+
+            Standard DOM
+
+
+
+
+           Obfuscated DOM
+
+
+
+
+Figure 5. Results under metadata obfuscation (survey v1). Removing semantic DOM cues preserves workflow execution but
+significantly degrades image-answer accuracy and attention performance, isolating metadata exposure as a key driver of autonomous
+answer inference.
+
+
+illustrates the difference between the standard and obfus-          stantially. This confirms that the models previously relied on
+cated DOM representations. Interaction primitives, page             semantic DOM cues to satisfy visual attention checks. With-
+transitions, and overall survey structure remain unchanged,         out those cues, selection becomes closer to chance-level
+isolating semantic metadata as the sole manipulated variable.       (50% in all questions).
+We evaluate survey v1 using the same agent pipeline,
+                                                                    Failure Mode Breakdown: Figure 5 (Middle-Bottom)
+models, behavioral policies, and hardware configuration as
+                                                                    shows that errors in survey v1 shift primarily toward
+in Section 4.
+                                                                    answer-generation failures rather than planning errors. This
+                                                                    is consistent with the design of the intervention: Planning
+5.1. Experiment 2: Results                                          remains intact, but we disrupt semantic interpretation of
+Figure 5 summarizes performance under the obfuscated                correct answers. The obfuscation specifically targets the
+configuration. As in Section 4, we compute page-level               answer-generation subproblem identified in Section 4.
+accuracy and attention metrics over successful end-to-end           Interpretation: Experiment 2 isolates semantic metadata as
+runs only. Per-page completion remains near 100% across             a key driver of autonomous answer accuracy. When we ob-
+models and policies.                                                fuscate machine-readable cues, performance on tasks with
+End-to-End Completion: Figure 5 (Middle-Top) shows                  objectively correct outcomes degrades substantially, while
+that completion rates remain high across models and poli-           navigation and interaction planning remain unaffected. Al-
+cies. Agents continue to navigate the multi-page workflow           though completion remains possible, the reduction in an-
+and reach terminal submission states, indicating that the           swer accuracy suggests improved robustness of survey data
+defense does not disrupt functional survey completion.              quality under obfuscation. This defense primarily targets
+                                                                    semantic cues exposed through the DOM, motivating evalu-
+Image Page Accuracy: Figure 5 (Right-Top) shows image               ation of models that operate over visual inputs.
+accuracy drops substantially across all models and modes
+in survey v1 compared to survey v0. This indicates
+that exposed semantic metadata was a primary driver of              6. Experiment 3: Multimodal Evaluation
+correct answer inference in Experiment 4. Once the survey           After evaluating LLM agents on both survey versions, we
+obfuscates descriptive cues, models can no longer reliably          next examine whether access to visual input alters perfor-
+align instructions with the correct image. Agents continue          mance. The agent pipeline remains unchanged, the only
+to execute interface actions correctly, but fail at semantic        modification is that, at each interaction step, the agent re-
+reasoning about which option is correct.                            ceives a rendered page screenshot in addition to the struc-
+Image Attention Check Performance: Figure 5 (Right-                 tured DOM representation. This enables models with mul-
+Bottom) shows obfuscation drops attention accuracy sub-             timodal capability to ground reasoning directly in visual
+
+                                                                7
+                    The Race between Agentic AI Capabilities and Data Quality Control in Online Surveys
+
+
+
+
+Figure 6. Results for multimodal agents across survey v0 and survey v1. While visual grounding partially preserves image-answer
+performance under metadata obfuscation, planning errors dominate overall VLM failures in both survey versions.
+
+
+content rather than relying solely on machine-readable meta-        LLM agents 5. This contrast highlights a key modality dis-
+data. Due to computational constraints and local deploy-            tinction: while text-only agents rely heavily on semantic
+ment through LM Studio, we evaluate a limited set of                DOM metadata for answer inference, VLMs can partially
+open-weight VLMs that fit our compute budget. Specif-               compensate for its removal by grounding decisions directly
+ically, we test llava-1.6-7b, minicpm-v-2.6, and                    in pixel-level visual content.
+qwen2.5-vl-7b. We conducted all VLM experiments
+in completion mode only.                                            7. Conclusion
+VLM performance: Figure 6 (Left and Middle) summa-
+                                                                    For Agentic AI Researchers: Our results suggest that au-
+rizes model performance across survey versions, demonstrat-
+                                                                    tonomous agent failures stem from both planning instability
+ing substantial variation. Only one model achieves moderate
+                                                                    and answer-generation errors, rather than a single failure
+completion rates, while the others fail to produce successful
+                                                                    mode. This raises broader questions about how perception
+end-to-end runs under the current pipeline configuration.
+                                                                    and structured planning interact: whether visual ground-
+Failure decomposition indicates that the dominant source of
+                                                                    ing increases representational complexity, how multimodal
+unsuccessful runs in both survey versions is planning error
+                                                                    state encoding affects action selection, and why closed-loop
+rather than answer-generation error. This contrasts with the
+                                                                    agents fail under sequential tasks. Future work should exam-
+text-only LLM results in Section 4 and 5, where planning
+                                                                    ine these issues through systematic error analysis to better
+remained highly reliable across models.
+                                                                    understand agentic system behavior.
+Image-Page Performance: For image-level metrics, we re-
+                                                                    For Survey Researchers: We offer two recommendations
+port results only for qwen2.5-vl-7b, as the other VLMs
+                                                                    to reduce data leakage: maintain separate answer keys and
+did not yield any successful end-to-end runs, preventing
+                                                                    limit information exposed through the DOM. Our results
+computation of per-page metrics. As in previous experi-
+                                                                    show that language-only models can solve vision-based
+ments, per-page completion within successful runs remains
+                                                                    tasks when answers are leaked through DOM metadata.
+near 100%. On survey v0, the Qwen VLM achieves near-
+                                                                    However, as VLMs improve, current defenses may become
+perfect image attention performance and moderate image-
+                                                                    less reliable, making it increasingly difficult to distinguish
+answer accuracy. This indicates that when semantic DOM
+                                                                    human respondents from capable agents. This raises the
+cues are available, multimodal grounding can effectively
+                                                                    question of whether some surveys should reconsider in-
+align visual content with task instructions. On survey v1,
+                                                                    person methods despite their cost. More broadly, our find-
+attention performance remains high, suggesting that the
+                                                                    ings point to an evolving arms race: survey designers must
+model continues to correctly localize and inspect relevant
+                                                                    adapt to increasingly capable agents, while avoiding de-
+visual elements. Image-answer accuracy decreases, but the
+                                                                    fenses that overly burden or exclude legitimate participants.
+degradation is substantially less severe than for text-only
+
+
+                                                                8
+                   The Race between Agentic AI Capabilities and Data Quality Control in Online Surveys
+
+Impact Statement                                                    Manus AI. Manus browser operator. https://manus.
+                                                                     im/features/manus-browser-operator,
+This paper presents work whose goal is to advance the field          2025. Accessed: 2026-02-27.
+of Machine Learning. There are many potential societal
+consequences of our work, none which we feel must be                OpenAI. Introducing operator. https://openai.com/
+specifically highlighted here.                                        index/introducing-operator/, 2025.           Ac-
+                                                                      cessed: 2026-02-27.
+References                                                          Pei, W., Mayer, A., Tu, K., and Yue, C. Attention
+Abbey, J. D. and Meloy, M. G. Attention by de-                        please: Your attention check questions in survey stud-
+  sign: Using attention checks to detect inattentive re-              ies can be automatically answered. In Proceedings of
+  spondents and improve data quality. Journal of Op-                  The Web Conference 2020, WWW ’20, pp. 1182–1193,
+  erations Management, 53-56:63–70, 2017.         ISSN                New York, NY, USA, 2020. Association for Comput-
+  0272-6963. doi: https://doi.org/10.1016/j.jom.2017.06.              ing Machinery. ISBN 9781450370233. doi: 10.1145/
+  001. URL https://www.sciencedirect.com/                             3366423.3380195. URL https://doi.org/10.
+  science/article/pii/S0272696317300402.                              1145/3366423.3380195.
+
+Buhrmester, M., Kwang, T., and Gosling, S. D. Amazon’s              Roth, Y. and Yakobi, O. Attention! do we really need at-
+  mechanical turk: A new source of inexpensive, yet high-             tention checks? Journal of Behavioral Decision Making,
+  quality data? 2016.                                                 37(2):e2377, 2024. doi: https://doi.org/10.1002/bdm.
+                                                                      2377. URL https://onlinelibrary.wiley.
+CloudResearch.    Ai-agent detection in survey re-                    com/doi/abs/10.1002/bdm.2377. e2377 BDM-
+  search: Results of a randomized trial to detect                     23-0352.R1.
+  human vs ai-generated survey data.       https:
+  //www.cloudresearch.com/resources/                                Vercel Inc. Next.js: The react framework for production.
+  blog/ai-agent-detection/, 2025. Accessed:                           https://nextjs.org/, 2024. Accessed: 2026-02-
+  2026-02-27.                                                         27.
+Couper, M. P. Web surveys: a review of issues and                   Wang, L., Ma, C., Feng, X., Zhang, Z., Yang, H., Zhang,
+  approaches. Public opinion quarterly, 64 4:464–94,                 J., Chen, Z., Tang, J., Chen, X., Lin, Y., Zhao, W. X.,
+  2000. URL https://api.semanticscholar.                             Wei, Z., and Wen, J. A survey on large language model
+  org/CorpusID:267790532.                                            based autonomous agents. Frontiers of Computer Science,
+                                                                     18(6), March 2024. ISSN 2095-2236. doi: 10.1007/
+Gogami, M., Matsuda, Y., Arakawa, Y., and Yasumoto, K.               s11704-024-40231-1. URL http://dx.doi.org/
+  Detection of careless responses in online surveys using an-        10.1007/s11704-024-40231-1.
+  swering behavior on smartphone. IEEE Access, 9:53205–
+  53218, 2021. doi: 10.1109/ACCESS.2021.3069049.                    Westwood, S. J. The potential existential threat of large lan-
+                                                                     guage models to online survey research. Proceedings of
+Groves, R. M., Fowler Jr, F. J., Couper, M. P., Lepkowski,
+                                                                     the National Academy of Sciences, 122(47):e2518075122,
+  J. M., Singer, E., and Tourangeau, R. Survey methodology.
+                                                                     2025.
+  John Wiley & Sons, 2011.
+                                                                    Yao, S., Zhao, J., Yu, D., Du, N., Shafran, I., Narasimhan,
+Harley, S. and Egan, R.           Fake survey an-
+                                                                      K. R., and Cao, Y. React: Synergizing reasoning
+  swers from ai could quietly sway election
+                                                                      and acting in language models. In The Eleventh In-
+  predictions.       https://phys.org/news/
+                                                                      ternational Conference on Learning Representations,
+  2025-11-fake-survey-ai-quietly-sway.
+                                                                      2023. URL https://openreview.net/forum?
+  html, November 2025. Accessed: 2026-02-27.
+                                                                      id=WE_vluYUL-X.
+Höhne, J. K., Claassen, J., Shahania, S., and Broneske, D.
+                                                                    Zhang, E., Wang, X., Gong, P., Lin, Y., and Mao, J. Usima-
+  Bots in web survey interviews: A showcase. International
+                                                                      gent: Large language models for simulating search users.
+  Journal of Market Research, 67(1):3–12, 2025.
+                                                                      In Proceedings of the 47th International ACM SIGIR
+Kung, F. Y., Kwok, N., and Brown, D. J. Are at-                       Conference on Research and Development in Information
+  tention check questions a threat to scale valid-                    Retrieval, pp. 2687–2692, 2024.
+  ity?     Applied Psychology, 67(2):264–283, 2018.
+  doi:    https://doi.org/10.1111/apps.12108. URL
+  https://iaap-journals.onlinelibrary.
+ wiley.com/doi/abs/10.1111/apps.12108.
+
+                                                                9
+                    The Race between Agentic AI Capabilities and Data Quality Control in Online Surveys
+
+A. Code Availability
+All agent and survey files are available on GitHub:
+
+                         https://github.com/SouravPanda11/Attention-Agents
+
+The repository includes a detailed README with setup instructions.
+
+B. Related Work
+Attention checks for online survey: Attention check mechanisms are widely used to improve response quality in online
+data collection. These mechanisms are designed to verify that respondents are actively reading and following instructions,
+thereby reducing inattentive or careless responses. In addition, attention checks function as a safeguard against automated or
+non-human submissions (e.g., bots), serving as a first line of defense for preserving data integrity. The design, effectiveness,
+and limitations of attention checks remain a recurring topic of research interest. Abbey and Meloy (Abbey & Meloy, 2017)
+examined three forms of attention checks—directed queries, logical consistency statements, and manipulation checks—and
+found that combining multiple types increases the likelihood of detecting inattentive respondents. Similarly, Kung et al.
+(Kung et al., 2018) showed that instructional-manipulation and instructional-response checks can be implemented without
+compromising survey scalability. More recently, Roth and Yakobi (Roth & Yakobi, 2024) provided empirical validation that
+even simple attention checks can effectively identify inattentive participants under conventional human-response settings.
+While these studies demonstrate the utility of attention checks for filtering careless human responses, their robustness is
+increasingly challenged by advances in automated systems. (Pei et al., 2020) showed that machine learning models can be
+trained to defeat traditional attention-check mechanisms.
+Likewise, Westwood (Westwood, 2025) demonstrated that AI agents are capable of successfully passing embedded attention
+checks, raising concerns about the continued reliability of these safeguards. Taken together, this emerging body of work
+suggests that attention checks were originally designed under a threat model centered on inattentive humans or simple
+automation. The rise of more capable AI systems introduces qualitatively different risks. Rather than merely exposing
+vulnerabilities, these findings underscore the need for rethinking data-quality safeguards in online surveys to ensure continued
+research reliability.
+Agentic AI simulating End-users’ capabilities: Recent advances in agentic AI have enabled systems that perform
+digital tasks in ways that closely resemble human behavior. These systems integrate large language models with tool-use
+capabilities, allowing them to perceive, reason about, and act within web environments. Commercially deployed agents such
+as Manus (Manus AI, 2025) and Operator (OpenAI, 2025) demonstrate the ability to autonomously navigate websites, fill
+forms, and complete multi-step workflows—for example, browsing e-commerce platforms and executing purchases without
+manual intervention. Beyond task completion, such agents can simulate end-user behavior across a range of digital contexts.
+In search environments, USimAgent (Zhang et al., 2024) emulates human search behavior by generating queries, selecting
+results, and determining stopping points based on behavioral modeling. Other work shows that synthetic agents can be
+parameterized to reflect specific demographic attributes or political preferences and then used to influence polling estimates
+with only a small number of injected responses (Harley & Egan, 2025).
+Westwood (2025) builds on this idea by showing that a fairly simple autonomous synthetic respondent can get around 99.8%
+of standard attention checks and systematically skew online survey estimates (Westwood, 2025). CloudResearch and others
+have confirmed that modern AI agents easily pass normal attention checks as well as typical participants (CloudResearch,
+2025). In short, these AI systems can behave just like a survey respondent, and they read questions, choose answers, and
+produce text in a coherent way.
+Under the hood, agents use the webpage’s underlying structure to answer questions. They often rely on the page’s code
+and metadata (like HTML labels or ARIA accessibility tags) rather than visual cues. Prototype bots linked to LLMs can
+understand diverse question formats, answer both closed and open-ended questions, and handle multiple questions per page,
+including basic attention checks and some types of CAPTCHAs (Höhne et al., 2025).
+
+C. Full-page Screenshots
+Figure 7 shows the full-page screenshots.
+
+
+                                                              10
+The Race between Agentic AI Capabilities and Data Quality Control in Online Surveys
+
+
+
+
+   (a) Text Page                                                  (b) Image Page
+
+
+
+
+ (c) Thank You Page                                               (d) Submitted
+                             Figure 7. Survey Sandbox
+
+
+
+                                        11
+

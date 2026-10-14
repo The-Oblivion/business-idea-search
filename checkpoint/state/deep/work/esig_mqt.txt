@@ -1,0 +1,389 @@
+   Public
+CONFIDENTIAL
+
+
+
+
+                 ERCOT Large Load Modeling
+               Requirements and Model Quality
+                            Test
+                                 Sun Wook Kang,
+                   Dynamic Studies - Grid Stability Analysis, ERCOT
+                       June 2026 – ESIG Summer Workshop
+Public
+         Challenges in Large Load Interconnection
+
+
+
+ Approximately 400+ GW of Large Load,
+  seeking interconnection
+
+ Types: crypto mining, data centers, hydrogen
+  production
+
+ Some individual load > 1 GW
+
+ Potential reliability risk (e.g., frequency or
+  voltage instability)
+
+                                                      Source: 04-29-2026 Technical Advisory Committee (TAC) Meeting
+
+
+
+
+                                                                                                                       2
+Public
+         Challenges in Large Load Interconnection
+
+
+
+
+                                                                Main Reliability Concern:
+                                                                ERCOT continues to see Large
+                                                                Computational Loads (LCLs)
+                                                                that are not riding through
+                                                                relatively common grid
+                                                                disturbances. As the number
+                                                                and size of affected load
+                                                                continues to grow, the risk of a
+                                                                major event increases.
+
+
+
+
+                                                         Potential
+                        Grid         Load trip or    reliability issue
+                    disturbance       reduction     (e.g., frequency/
+                                                     voltage stress)
+                                                                                                   3
+Public
+           Modeling Gap and ERCOT’s Interim Modeling Approach
+    Why Accurate Models Matter             ERCOT accepts UDM or generic models as long as it can properly
+     o   Enable reliable system              represents the facility’s performance. User-defined Model (UDM) Is the
+         assessments and reduce              Most Mature Option Today.
+         unnecessary sensitivity studies      o Adequate for representing the power-electronic portion of LCL
+     o   Depend on accurate load data         o The UDM and associated documentation are available on the NERC LMWG website
+         from customers                         (link:
+     o   Data gaps and unclear                  https://dev.azure.com/nerc/_git/LMWG_Resources?path=/Data_Center_Model_PERC1)
+         requirements remain a challenge
+                                            Interim temporary LCL Modeling Approach (if standard model is
+                                             insufficient):
+    Current Model Limitations
+     o   Composite load model (CMLD)          o Split one LCL into two components:
+         does not capture Large                     • Cooling portion→ model with CMLD (or UDM if applicable)
+         Computational Loads (e.g., data            • Power-electronic load (PEL) → model with UDM
+         centers)                             o Example: 30% cooling / 70% PEL, Split Load ID 1 → L1 (cooling) + L2 (PEL)
+     o   No standard model for Large                • Model L1 with CMLD (or UDM), L2 with UDM
+         Computational Loads (LCL)
+                                            Large Load Data Survey
+    Until standard library models fully        o    ERCOT Dynamics Working Group Large Load Data Survey
+     represent emerging data center         Path Forward
+     and computational loads, the             o Transitioning from PSS/E v35 → v36
+     practical approach is to split the       o New standard models or UDM to represent emerging load types
+     load into modeled components             o Improved accuracy for future system studies                                 4
+Public
+          Two Complementary Efforts in Progress: 1) Operating Requirements
+          and 2) Model Review Process and Data Requirements
+
+
+
+
+         NOGRR282: LCL Performance                    PGRR144: Dynamic data requirements,
+         requirement in operations                    submission, and model review process
+
+         Defines voltage and frequency ride-          Clarifies dynamic data submission
+         through performances and related             requirements and model review process
+         operating expectations for LCLs, including   for all Large Loads
+         recovery, current limits, and low or high
+         voltage response.
+
+
+
+
+                                                                                              5
+Public         NOGRR282 (subject to change, under stakeholder review): LCL Ride-Through
+               Requirements
+                                                                       Some Key Performance Indicators
+
+  NOGRR282 creates a clear ride-through                 Voltage ride through performance:
+   performance requirements for LCL                      • Must remain connected and ride through specified voltage disturbances
+
+                                                         Active Power Performance
+                                                         • Maintain pre-disturbance load within normal voltage range
+         Root-Mean-Square     Minimum Ride-Through       • Allow proportional reduction during low voltage events
+               Voltage                 Time              • Restore ≥90% load within 2 sec after recovery (>0.9 p.u.)
+          (p.u. of nominal)         (seconds)            • Maintain pre-disturbance load for 1.10–1.20 p.u. (up to 1 second)
+               V > 1.20       May ride-through or trip
+                                                         Low Voltage Response
+           1.10 < V ≤ 1.20              1.0
+                                                         • Controlled load reduction allowed; proportional behavior expected where capable
+           0.90 ≤ V ≤ 1.10          Continuous
+           0.80 ≤ V < 0.90              2.0              Fast Recovery / Load Transfer Capability
+           0.50 ≤ V < 0.80              0.5              • Optional load-transfer schemes must initiate within 0.25 seconds
+                                                         • Must restore ≥90% load within 0.5 seconds after voltage recovery
+           0.35 ≤ V < 0.50             0.25
+              V < 0.35                 0.15
+                                                         Current Limits During Disturbance
+                                                         • Maximum current ≤150% of normal operation
+                                                         • Duration limited to 0.5 seconds
+
+                                                         Operational Flexibility
+                                                         • Cooling/mechanical load may trip at very low voltage (<0.35 p.u.)
+                                                                                                                                             6
+Public
+         PGRR144 Dynamic Model Submission and Review Requirements for
+         Large Loads including Large Computational Loads
+
+ PGRR144 is
+  currently under               Clarifies dynamic data requirements and require
+  stakeholder review.           model quality test
+  Its key purpose is as
+  follows:
+
+
+                                Clarifies LL dynamic model data submission
+                                milestones for review
+
+
+
+
+                                Clarifies process for potential material changes to
+                                the existing LCLs
+
+
+                                                                                      7
+Public
+             Dynamic Model Data Submission Requirements (PGRR144)
+
+
+Dynamic Model Data Submission Requirements
+                                                              Large scale, phase-domain analysis
+        Submission of dynamic data representing              tool (e.g., Interconnection studies)
+         accurate behavior of LL should include models,
+         parameters, and supporting documentation
+
+        Software requirements: PSCAD required for all        Electromagnetic Transient (EMT) tool for
+                                                              more detailed study (e.g., SSO study,
+         LLs                                                  Study for weak grid)
+
+         o   Data must be compatible with current ERCOT
+             planning & operations software as described in
+             DWG Procedure Manual Section 3.1.1, Software     Operation software for real time TSAT
+                                                              analysis
+        Model Quality Test is required for all LLs
+
+
+                                                                                                         8
+Public
+             Model Quality Test Framework (PGRR144)
+
+         Site-specific Model Quality Test (MQT) (All                 Converter Model Validation Test (CMV)
+         LLs)                                                        (LCLs only)
+         •   Flat Start Test: Verifies proper model initialization   •   Hardware-type validation for the UPS converter
+             and stable response under no disturbance                    and associated computational load
+         •   Large Voltage Disturbance (VRT) Test: modeled           •   Demonstrate accuracy of the PSCAD model of the
+             voltage ride-through capability at the POI under            converter type
+             large disturbances                                      •   Large Voltage Disturbance (VRT) Test
+         •   Demonstrate dynamic model meets the                     •   Subsynchronous Test (frequency scan sweep)
+             performance requirements
+         •   The MQT must be performed using PSS/E,
+             PSCAD, and TSAT (if PSS/E UDM is used)
+
+
+
+         • MQT requirement for LCL vs Non-LCL
+              – For LCL facilities, MQTs are required to demonstrate that the model of the project meets the ride through
+                requirements (e.g., proposed VRT requirements in NOGRR282)
+              – For non-LCL facilities, MQTs are required, with the purpose of improving understanding of voltage ride-
+                through capability
+
+
+                                                                                                                            9
+Public
+         Large Load Voltage Ride-Through (VRT) Test Curve
+                                                                                 Load MQT Testing (POI Voltage)
+                                     1.4
+                                                   Voltage Ramp            Voltage Dip     Shallow Fault     Deep Fault       High Voltage
+                                     1.2
+
+
+
+
+            POI Voltage (per-unit)
+                                      1
+                                     0.8
+                                     0.6
+                                     0.4
+                                     0.2
+                                               ITIC-Inspired Curve and NOGRR-282 Testing                              NOGRR-282 Testing
+                                      0
+                                           0                       5                         10                      15                      20   25
+                                                                                                    Time (seconds)
+
+
+                                                                          Example Acceptable Load Real Power* (MW)
+                                     140
+                                     120
+
+
+
+
+            Load Power (MW)
+                                     100
+                                      80
+                                      60
+                                      40
+                                      20
+                                       0
+                                           0                       5                         10                      15                      20   25
+                                                                                                   Time (seconds)
+
+                                                                       * Note: This is an example of acceptable response
+
+                                                                                                                                                       10
+Public
+         Converter Model Validation (CMV) Test for LCL
+
+
+
+
+           •   Hardware-in-the-loop (HIL) testing is acceptable approach for this purpose. In practice, they
+               connect the actual control hardware to a real-time simulator that represents the rest of the power
+               system. The PSCAD model is then validated by comparing its simulated response to the measured
+               behavior of the real equipment.
+           •   Generally performed in OEM’s laboratory. Usually performed once for a certain model or family of
+               converters
+                                                                                                                    11
+Public
+             Key Milestones for Dynamic Model Review in the Interconnection
+             Process (PGRR144)
+
+
+                  Stability Study                    LL Quarterly                               Initial
+                                                       Stability
+                     in LLIS                       Assessment (QSA)                          Energization
+
+
+         •   Before initiating stability   •   Prior to entering QSA (Applicable     •   Prior to initial energization
+             study (Applicable to all          to all LLs)                               (Applicable to LCL only)
+             LLs)                               – This is in the current process          – Check consistency between
+              – Review submitted MQT,           – Test model performance                    as-studied (QSA) data vs as-
+                particularly VRT                – Check consistency against the             built data
+                performance                       data used in the stability study        – Attestation that as-built data
+                                                  and consistency of performance            aligns with actual field settings
+                                                  across different software
+                                                  platforms (e.g., PSSE vs PSCAD)
+
+
+    •    Note: Completion of MQTs does not constitute an endorsement or a determination that an LCL will
+         comply with the operating requirements established under NOGRR282 during operations.
+
+                                                                                                                                12
+Public
+               Co-located Large Load with New or Existing Resources - Existing
+               Model Review Process
+
+   Interconnection Process for New Resource or Major Modification
+
+                                                                                                                Within 30 days
+                                                                                        Commissioning                after
+              Full           Quarterly
+                                                                                                               Commissioning/
+         Interconnect         Stability                                                   (Including
+                                                 Energization        Synchronization                                During
+           ion Study        Assessment                                                 PGRR109 Review           Operation: 1-2
+             (FIS)             (QSA)                                                       Process)             year, every 10
+                                                                                                                     year
+
+
+   Process for Existing IBRs with Planned Small Changes
+
+           Review request prior to                                                      : Key major milestones requiring
+                                                                Within 30 days
+         implementing any changes         Implementatio                                   model quality test and review
+                                                                     after
+             impacting dynamic             n if Approved
+                                                                Commissioning              More details are available in
+                 response
+                                                                                            Planning Guide Section 5
+
+
+
+
+                                                                                                                                 13
+Public
+             Key Takeaways
+
+
+             ERCOT, in collaboration with stakeholders, is developing requirements for Large Loads
+              o   NOGRR 282: Large Computation Load Ride-Through Requirements in Operations
+              o   PGRR 144: Dynamic Model Submission & Review Requirements
+
+             The review process helps ensure consistency in model data and performance
+              characteristics throughout the interconnection process.
+
+             Ongoing industry engagement is critical to enhancing modeling approaches and
+              reliability frameworks
+
+
+
+
+                                                                                                      14
+Public
+
+
+
+
+                            Learn More
+                            www.ercot.com
+
+   Questions?               Download ERCOT Mobile App
+
+
+
+   sunwook.kang@ercot.com
+                            Connect With Us
+
+                                  facebook.com/ERCOTISO
+
+                                  x.com/ercot_iso
+
+                                  linkedin.com/company/ercot
+
+                                  instagram.com/ercot_iso
+
+
+                                                               15
+Public
+         Appendix - Example: Voltage Dips Under Certain Faults
+  Note: The voltage dip contour shown is a hypothetical illustration of potential wide-area voltage
+  dips affecting Large Computational Loads. It does not represent actual system conditions.
+
+
+
+
+                                                                                                      16
+Public
+              Appendix - Dynamic Model Data Submission Requirements (PGRR144)
+
+
+                                                                             Any Changes due to
+            Software Platform                Current Process
+                                                                           Proposed Requirements?
+
+         PSS/E                    Required for all LLs                    No change
+                                  Required for subsynchronous
+         PSCAD                    oscillation study (SSO) or co-located   Required for all LLs
+                                  LLs
+                                  Required for all LLs if PSSE User
+         TSAT                                                             No change
+                                  Defined Model (UDM) is submitted
+         Model Quality Test
+                                  Required for RE/IE with co-located
+         using the software       LLs, aiming to ensure resource ride-    Required for all LLs
+         platform (i.e., PSS/E,   through performance
+         PSCAD, and TSAT)
+
+
+                                                                                                    17
+

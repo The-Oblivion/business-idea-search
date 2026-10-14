@@ -277,3 +277,66 @@ Paused at your request to wait for the weekly usage reset (about 50% of the week
 - **Prep done now (no agents run):**
   - `step5_deep_validation.js` now carries the top-12 ID list as its default.
   - It also has a per-workflow concurrency limiter (`args.conc`, default 4). Three workflows of 4 finalists each peak at about 12 agents in flight; without the limiter, a 10-CPU Mac would allow up to 8 per workflow.
+
+---
+
+## Week 3 resume (13 Oct 2026): step 5 go
+
+- **Go:** you said "new week, so continue". The usage meter read **weekly 15%** (fresh week, resetting 19 Oct) and the 5-hour window 2%. The account now shows as a **Max** plan; it was Pro on 7 Oct, so % costs aren't comparable across the two weeks.
+- **Incident: the working state was wiped by macOS.** The scratchpad copy lived under `/private/tmp`, and macOS's daily cleanup deletes `/tmp` files untouched for 3 days. Between 7 and 13 Oct every file vanished; the folders stayed but were empty. Nothing was lost, because the repo's `checkpoint/state/` (pushed after step 4) held everything, and I rebuilt the state from it in one `rsync`.
+- **Fix (you asked that it can't happen again):**
+  - I moved the working state to **`~/projects/business-idea-search-work/biz`** (persistent, outside `/tmp`, outside git).
+  - The old scratchpad path is now a symlink to it, so the step 5 workflows already running (whose prompts name the old path) kept working. I did the swap 2 minutes into wave 1, before any agent had written a file, and verified the two copies matched (`diff -rq`).
+  - HANDOFF.md section 5 and RESUME.md now set up from the persistent folder and say never to use `/tmp`. My project memory says the same.
+
+## Step 5: deep validation of the top 12 (108 agents)
+
+- **Design (as built in week 1):** per finalist, a research dossier (15-30 searches, following the deep-research and competitive-analysis method guides) → 3 adversarial critics (competition, customer/pricing/go-to-market, execution/regulation/timing) → a strongest-version rewrite → a second-round critic (survives / wounded / dead) → 3 judges (VC, operator, contrarian) scoring 1-10 on 7 dimensions.
+- **Run:**
+  - 3 workflows of 4 finalists each, with a 4-agent limit per workflow (peak 12 in flight), launched in 3 waves with 90-second health checks:
+    - wave 1: `wf_193493f4-555`
+    - wave 2: `wf_c1df41b6-2fd`
+    - wave 3: `wf_ed39ef59-99e`
+  - Every check was clean: 0 failures, 0 safety-filter errors, all agents on `claude-sonnet-5-5`.
+  - **108/108 agents succeeded** in about 40 minutes, with ~2,700 tool calls, mostly searches and fetches.
+  - All 12 dossiers (1,850-2,500 words each, with inline sources) and all 12 refined pitches were written.
+- **Cost:** 14.8M subagent tokens. On the usage meter, weekly went from **15% to 21%, about 6%** (≈0.5% per finalist on the Max plan), and the 5-hour window reached 25%. That's under the 9-14% I projected last week; the plan change explains most of the difference.
+- **Aggregation:** `aggregate_deep.py` (new) joins every journal result by label and writes `deep_validation_results.json/.csv`. Each row holds the averages, each critic's severity and top objection, the remaining holes, the riskiest assumption and the 2-week test. Ranking puts "contenders" (alive and second-round verdict not dead) first, then sorts by mean overall score.
+
+## Step 5 result: nothing survived clean
+
+| Deep rank | Finalist (refined title) | Step 4 rank | Alive? | Re-critic | Overall /10 | Upside | Why it scored low |
+|---|---|---|---|---|---|---|---|
+| 1 | Provider Briefs: Treating-Provider Intelligence for LOP Defense (I0428-M1) | 6 | yes | wounded | 3.3 | 2.7 | Real but tiny: $0.3-0.6M ceiling across two metros; the carrier, not the defense lawyer, controls the budget; Texas has incumbents (MedCost Contain and others) |
+| 2 | Blind Test Lab for Survey-Fraud Defenses (I0716) | 12 | yes | wounded | 3.3 | 2.7 | The "scarce verified-human panel" isn't scarce (SSRS and others already sell calibration); no RFP or paid audit found; it calls itself "a lab, not a venture" |
+| 3 | Stranded-Loan Cure Desk (was Finish Crew, I1175) | 5 | yes | wounded | 3.0 | 2.3 | GreenLancer already does lender-paid completion with 7 financiers; the market shrank from $3-10M to about $45-210k of fees |
+| 4 | Converter-Model Validation for AI Power Vendors (was ERCOT Files, I0996-M1) | 4 | yes | wounded | 2.7 | 3.0 | ERCOT says the validation is usually done in the OEM's own lab, so the moat belongs to the OEMs; the pool is about $2-3M one-time |
+| 5 | Direct-Notice Desk for Cattle Lenders (was Cattle Lien Registry, I0338-M3) | 7 | yes | wounded | 2.7 | 2.7 | The price exceeds the losses it prevents; sale barns have legal reasons not to share consignor lists; Nebraska's central filing system already exists |
+| 6 | Smoke Report Coverage Matrix (I0715-M1) | 9 | yes | wounded | 2.7 | 2.0 | A free NSF-funded university team already holds 500+ home test reports; buyers pay for testing, not desk review; a 12-18 month window |
+| 7 | Exclusivity-Stage Data Audit for China-Origin Assets (I0861) | 11 | yes | wounded | 2.7 | 2.3 | Big pharma builds this in-house (Novartis hired a Shanghai diligence director); smaller buyers have no budget line; China data-export legal risk |
+| 8 | Scribe Screen (was Scribe-Adjusted EBITDA, I0389-M1) | **1** | no | **dead** | 2.3 | 2.0 | Buy-side coding review is already a served, budgeted service; a quantified overpayment number defeats the privilege shield it sells |
+| 9 | Repo-Day Refund Desk (was Loan-End Event Exchange, I0109-M3) | 3 | no | **dead** | 2.3 | 2.3 | The exchange was built back in 2017 (F&I Express), and Allied RefundPlus and Express Recoveries already sell refund recovery; all 3 critics rated it fatal |
+| 10 | Operating Authority Memos for DC Lenders (was Curtailment Reports, I0836-M2) | 8 | no | **dead** | 2.3 | 2.7 | The legal premise fails: Federal Power Act 202(c) shields generator runs during DOE emergency orders; no lender requires the report |
+| 11 | Cure Desk: Cash-Worker Evidence Kit (I0573-M1) | 10 | no | wounded | 2.3 | 2.0 | The state gives away the substitute for free; the rule exempts the target segment; paid demand probably not before 2028 |
+| 12 | Home Equity Assurance for DC Neighbors (I1172-M2) | 2 | no | **dead** | 2.0 | 2.3 | Regulators (e.g., NY DFS) have ruled pay-on-sale home-value plans are insurance; Alvarez & Marsal already sells "Value Assurance Programs" |
+
+**What deep validation showed (my read):**
+
+1. **No finalist cleared 3.5/10.**
+   - 7 are still "contenders" (alive, re-critic wounded), and 5 died (4 dead verdicts, plus 1 the rewriter itself declared not alive).
+   - The scores are low in a consistent way: **upside 2-3 for every idea** and defensibility 1-3. Feasibility is the strongest dimension (up to 7.3).
+   - The judges' VC rationales quote each refined pitch's *own* bottom-up numbers: ceilings of about $0.1-2M a year, i.e. **boutique services, not venture-scale companies.**
+2. **The step 2C competitor check was far too lenient.** In **11 of 12** cases, the competition critic, with 15-30 searches behind it, found an incumbent, a free substitute or an in-house alternative that step 2C's 6-12 searches had labeled "gap". Examples: GreenLancer, Alvarez & Marsal, F&I Express, Allied, SSRS, OEM labs, Novartis's in-house team, and a free NSF university team.
+3. **The tournament couldn't see market size.**
+   - These 12 weren't picked by a biased lens: the step 4 investor-lens judges also put them in the top ~10% (mean percentile 0.91).
+   - Pitch-level judges, even forced-ranking across 3 lenses, judge the *claimed* market. Insider-persona ideas read as specific, credible and feasible, and that specificity tends to come with thin markets. Only research exposed the real size.
+4. **The rewrite step shrinks ideas to survive.** The strategist answers each critique by narrowing the wedge, which lowers upside, which the judges then punish. That ratchet toward "small but defensible" is partly a pipeline artifact, but the shrunken markets came from the dossiers' own sourced counts, so I treat the low upside as real.
+5. **Data-center concentration (flagged in step 4):** 2 of the 3 data-center ideas in the top 12 died, and the third is wounded. What killed them was **law and incumbents**, not a buildout slowdown: an insurance-law ruling, the Federal Power Act's emergency-order shield, and the OEMs' own labs.
+
+**Judgment call: I recommend not running steps 6-9 as designed.** They were always planned for after this step, with your go. On these results they would pick "the 5 best of 7 wounded boutiques", which isn't the goal ("the 5 best business ideas in the world"). I'm putting a course correction to you before spending more (see RESUME.md).
+
+**Files:**
+- `04-deep-validation/deep_validation_results.json/.csv`.
+- `04-deep-validation/dossiers/<id>_dossier.md` and `<id>_refined.md`.
+- `aggregate_deep.py` and the exact script.
+- Journals: `checkpoint/journals/wf_193493f4-555.jsonl`, `wf_c1df41b6-2fd.jsonl`, `wf_ed39ef59-99e.jsonl`.

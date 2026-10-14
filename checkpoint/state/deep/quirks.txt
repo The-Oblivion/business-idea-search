@@ -1,0 +1,444 @@
+Q U I R K ' S   N Y C   J U L Y   2 0 2 6
+
+
+
+
+The Bot Olympics
+
+A $50K Industry Challenge to Confront the Threat
+of AI Agents in Online Research
+Reuben Paris |
+
+
+In Partnership with MIT
+                                                     TODAY’S SESSION
+
+
+
+                                Today’s Session
+         From the old data quality problem to live AI agent detection: here’s where we’re going today.
+
+
+01 The Old Problem                                            02 The New Threat
+A decade of data quality challenges that the industry         AI agents: why researchers have called them an
+has grappled with since long before AI.                       existential threat to the market research industry.
+
+
+
+
+03 The Solutions & Bot Olympics 04 Hands-On Demo
+The detection tools we built, what MIT researchers            Using a real study — a poll on Iran-US deal — to show
+found when they tested them, and what the Bot                 how to clean your own data from AI agents and other
+Olympics aims to achieve.                                     threats.
+Scope of Online Research
+
+
+
+
+     5 billion
+     surveys
+                                                                     THE SCALE OF THE PROBLEM
+
+
+
+        Fraud Rates on Major Survey Platforms
+      Across three commonly-used platforms, 18–32% of respondents were flagged as problematic or fraudulent
+
+                                     32.4%
+30%
+
+
+                                                                                                                                          22.4%
+20%                                                                                     18.2%
+
+10%
+
+
+
+
+                                     Platform 1                                        Platform 2                                         Platform 3
+                                         n=1,095                                            n=461                                              n=406
+       Other studies report even higher rates · Case4Quality: ~40% fraudulent respondents · Stagnaro et al.: >40% fraud rate across most popular platforms
+          Source: Moss, Robinson, and Litman (2026). Data Quality Solutions, In Modern Methods in Behavioral Science. Cambridge University Press
+                    Ten Years of Research into the Global Click Farm Industry
+
+
+
+
+Source: Jaffe, S. N., Moss, A. J., Hartman, R., Rosenzweig, C., Gautam, R., & Robinson, J. (2026). The bots ruining social science
+are not bots at all. Perspectives on Psychological Science. https://doi.org/10.1177/17456916251404872
+Deeper within the Click-Farm
+Deeper within the Click-Farm
+Deeper within the Click-Farm
+Deeper within the Click-Farm
+The Evidence is Already There
+Science. Nature. PNAS. Published in the last few months.
+
+
+
+
+                           AI agents, operating from a                                                  This capability fundamentally
+                           simple prompt, can evade                                                     compromises the integrity of a
+                           current detection methods and                                                critical tool for scientific
+                           produce high-quality survey                                                  inquiry, creating an urgent
+                           responses that demonstrate                                                   need for the scientific
+                           reasoning and coherence                                                      community to develop new
+                           expected of human responses.                                                 standards for data validation.
+
+
+Source: Westwood, S.J. (2025). PNAS (Proceedings of the National Academy of Sciences) Vol. 122 No. 47
+The Evidence Is Already There
+Science. Nature. Published in the last 90 days.
+
+
+
+
+Source: O’Grady, C. (2025, December 19). AI may upend online studies critical to social   Source: Phillips, S. (2026, January 28). AI chatbots are infiltrating social-science surveys
+science. Science. https://www.science.org/content/article/ai-may-upend-online-studies-    — and getting better at avoiding detection. Nature. https://doi.org/10.1038/d41586-026-
+critical-social-science                                                                   00221-8
+    U S I N G    A I    A G E N T S .      H O W     E A S Y     I S   I T ?
+
+    One prompt. Eighteen seconds. Already inside your
+    survey.
+
+
+
+ Claude
+Cowork
+    in
+1 Minute
+
+
+
+
+     An AI agent given a "35-year-old Latina“ persona, can navigate through a survey completely independently.
+How Other Industries Protect Themselves
+They don't wait to be attacked. They simulate the attack first.
+
+
+
+
+                                                                              Scientific
+           Military                          Cybersecurity
+                                                                              Research
+
+     Simulate the enemy before               Pay outsiders to find your   Results don't count until
+             they arrive                          vulnerabilities          independently verified
+
+
+
+
+ The best defense starts with a simulated attack against yourself.
+R E D   T E A M                                            B L U E      T E A M
+
+
+The                                                         The
+Attackers                                                VS
+                                                            Defenders
+
+
+
+                                                              Creates defenses against the Red Team’s best AI
+  Build AI agents designed to behave like real humans.     agents
+How detection works
+Two systems working together: what you say, and how you behave while saying it.
+
+
+EVENT STREAMER / Behavior Metrics
+
+
+How a human actually behaves
+
+Every action is recorded and compared against a 200M+
+human behavioral baseline.
+
+
+    Mouse movements and typing cadence
+
+
+    Copy-paste events : was text typed or dropped in?
+
+    Screen recording captures translation app use in real
+    time
+
+    ML classifier trained on real human patterns flags AI-
+    generated responses
+Event Streaming Technology Captures In-survey Behavior
+Event Streaming Technology Captures In-survey Behavior
+                    What’s Being Tested
+Two CloudResearch systems — the same Event Streamer methodology applied at different points in the survey
+                                               lifecycle
+                    PRE-SURVEY                                                 FULL-SURVEY
+
+
+
+
+    SENTRY                                                    ENGAGE
+A ~30-second pre-survey vetting                                Event Streaming across the
+             gate                                    VS.              entire survey
+  Participants complete closed- and open-ended              The Event Streamer monitors every question, every
+   questions before the client survey. The Event           interaction, throughout the entire survey experience
+ Streamer monitors every interaction in real time.                      — not just a pre-survey gate.
+           Used at 400M+ surveys/year                                 Same detection. Full coverage.
+                                        PRACTICAL IMPLEMENTATION
+
+
+
+
+                         Where Sentry and Engage are in the respondent experience
+
+
+
+
+                  PRE-SURVEY
+  ANY           Event Streamer                  Event Streamer Active Across the Entire Survey
+ PANEL
+SOURCE        Compatible with any
+Respondents     survey platform
+
+
+                      FAIL                                                 FAIL
+
+
+
+
+                ROUTED OUT                                          ROUTED OUT
+                 OF STUDY                                            OF STUDY
+               Replaced at no cost                                  Replaced at no cost
+IOSS
+                                           MISSION
+
+                                           Advancing the methodological quality of web-based social science
+                                           research by connecting academic scholarship with the survey
+                                           sampling industry.
+                                            ADVANCE THE SCIENCE
+Institute for Online Social                 Conduct peer-reviewed research on sampling quality, representativeness,
+                                            and online methodology.
+Science
+Massachusetts Institute of Technology
+Nick Stagnaro                               BRIDGE TWO WORLDS
+Director, IOSS · Research Scientist, MIT    Connect academic researchers and industry professionals — sharing
+                                            tools, best practices, and findings across both communities.
+
+
+
+                                            PRODUCE PUBLIC KNOWLEDGE
+                                            Annual empirical reports, academic papers, webinars, workshops, and an
+                                            annual conference open to both communities.
+     Inside the Test: How the Design Works
+                                                                                                                                                          SCORE
+           REAL HUMANS                                                                                                  LIVE SURVEY
+                                                                                                                                                        Detection
+  H         H         H         H         H                                                                     H   ?   B   ?   H   ?   H   ?   B   ?
+                                                                                                                                                          Rate
+  H         H         H         H         H
+                                                                                                                H   ?   B   ?   H   ?   B   ?   H   ?   % bots caught
+  H         H         H         H         H
+
+
+  H         H         H         H         H                                                                     B   ?   H   ?   H   ?   B   ?   H   ?
+
+                                                                                                                                                          False
+     Verified human respondents via
+              Connect panel
+                                                                                                                                                         Positive
+                                                                            N = 200
+                                                                                                                H   ?   B   ?   B   ?   H   ?   H   ?     Rate
+                                                                           RANDOM
+             AI AGENTS                                                                                                                                     % humans
+                                                                          ASSIGNMENT                            B   ?   H   ?   H   ?   B   ?   H   ?   flagged as bots
+
+ B        B          B         B         B
+
+ B        B          B         B         B                                    IDs assigned by MIT               H   ?   H   ?   B   ?   H   ?   B   ?
+
+                                                                               Neither side knows                                                          Rank
+ B        B          B         B         B
+                                                                                 which is which                                                              &
+                                                                                                                                                           Prize
+ B        B          B         B         B                                                                              DEFENDER SYSTEM                  Leaderboard
+                                                                                                                     processes all responses             published by
+  Submitted attacker agents (iterated variants)                                                                     blindly — no IDs revealed                MIT
+
+
+Humans: verified via Connect +                    Bots: same agent iterated        Both metrics count equally   MIT holds the key — no
+camera option available                           — not identical prompts          — catch more, flag less      participant sees raw IDs
+  W H A T   D I D   W E   F I N D ?
+
+  One prompt. Eighteen seconds. Already inside your
+  survey.
+
+
+
+
+What
+ did
+ We
+Find?
+I N T R O D U C I N G
+
+
+
+
+The
+Bot Olympics
+An industry-wide competition to benchmark
+bot detection — openly, scientifically, and publicly.
+
+                            Independent Judges:
+$50,000 Prize Pool                 MIT
+                                                   Open to the Entire Industry
+Three Competition Tracks
+RED TEAM                                       BLUE TEAM                                MIT TEAM
+
+
+The Attackers                                  The Defenders                            The Judges
+
+Build the most sophisticated AI
+                                               Any anti-fraud vendor or detection       ▸ Methodology developed by MIT
+agent that can bypass survey fraud
+                                               system can enter.
+detection systems.
+
+
+▸ Any researcher, developer, or AI team
+can enter
+▸ Submit agents designed to evade              ▸ Tested against a standardized bot +   ▸ MIT oversight of the entire process
+detection                                      human dataset
+▸ Judged on detection rate + false positives                                           ▸ Outcomes assessed entirely by MIT
+
+▸ Top performing agent wins                                                            ▸ Published as an open industry benchmark
+  T H I S    I S   N O T     A   O N E - T I M E     E V E N T
+
+
+
+
+   A Standing Competition.
+   Public Results. Always Getting Harder.
+
+    Round 1                       Now                Round 2                 ~ 3 months              Round 3+                Ongoing
+
+
+
+    Establish the baseline                           Raise the bar                                   A living benchmark
+       Current best bots vs.                            More advanced agents;                         Arms race by design —
+       current best detection                           new attack vectors                            better attacks → better defense
+
+       500/500 methodology,                              New defenders can                            Any team can contribute
+       MIT-judged                                        join the field                               novel solutions
+
+       Results published openly                          Prior results remain                         The industry's permanent
+                                                         public for comparison                        quality signal
+
+
+
+Open to all attackers and defenders     Results always published publicly    Runs every few months           The industry owns the data
+How the Competition Works
+
+        1                         2                           3                           4                       5
+
+                                                          Blind
+    Submit                 Test Dataset                                                Score                  Publish
+                                                        Evaluation
+
+
+                           500 real humans +                                      Detection rate AND
+Attackers submit AI        500 bot iterations         MIT judges assign            false positive rate        Full results
+agents. Defenders             per attacker.               unique IDs.                — both count.         published openly.
+    submit their             Surveys across           Neither side knows           Accuracy matters       The industry gets a
+  detection tools.         multiple types and          which is which.                 as much as            leaderboard.
+                                lengths.                                               sensitivity.
+
+
+
+
+Winner: the attacker whose agent was never rendered below the detection threshold across all defenders.
+ Something in it For Everyone.
+
+               Restores            A credible, third-party-validated process the industry can point
+The Research
+               confidence in the   to. The panic stops when there's an ongoing, open, verified
+  Industry
+               industry            answer.
+
+
+
+
+Data Buyers    Cuts through the    Buyers currently can't verify vendor claims. A standing
+ & Brands      noise               benchmark brings back trust.
+
+
+
+
+  Detection    Earns credibility   MIT-validated proof increases industry credibility.
+  Vendors      publicly
+                         J A M E S    R A N D I      ·       1 9 2 8 – 2 0 2 0
+
+
+
+
+                         Offer a prize
+                         no one can claim.
+                         The silence proves
+                         your point.
+                         Randi's $1M paranormal prize ran for decades. Nobody ever
+                         claimed it. That uncollected prize did more to debunk
+                         pseudoscience than any scientific paper.
+
+                           Prize unclaimed                           Prize claimed
+                           Bots can be detected. Panic was           We learn exactly how — and fix
+                           overblown.                                it.
+
+
+Either way, the industry wins. Either way, the field moves forward.
+DEMO   Design screen
+DEMO   Reports
+DEMO   Thematic analysis
+DEMO   Bot sessions
+DEMO   AI assisted sessions
+DEMO   Engagement scores
+DEMO   Attention checks
+                                                   THE PROBLEM
+
+
+
+          Four Sources of Unusable Survey Data
+01 FULLY AUTOMATED                                         02 AI-ASSISTED FRAUD
+AI Agents                                                  LLM-Assisted Respondents
+Autonomous bots that navigate entire surveys without       Real people who tab out mid-survey to query ChatGPT or
+human involvement                                          other AI tools, copy-paste AI-generated answers into
+                                                           open ends, or use AI to look up the ‘correct’ choice on
+                                                           closed-ended questions.
+
+
+
+
+03 FRAUDULENT HUMANS                                       04 LOW-QUALITY TEXT
+Click Farm Respondents                                     Gibberish Open Ends
+Organized networks of workers who fraudulently enter       Nonsensical, off-topic, or gibberish text from non-English
+surveys for pay, producing responses that are              speakers who don’t understand the questions, and from
+inconsistent, illogical, or impossible.                    disengaged or ill-intentioned respondents.
+               J O I N    T H E    B O T      O L Y M P I C S
+
+
+
+
+Let’s Not Just Talk About
+            It
+
+ COMPETE                     JOIN/PARTNER                    HELP SPREAD THE
+                                                                  WORD
+
+
+
+    cloudresearch.com | In partnership with       | $50,000 Prize Pool
+Thank You!
+         Contact Us
+
+reuben.paris@cloudresearch.com
+
+
+
+
+         cloudresearch.com
+

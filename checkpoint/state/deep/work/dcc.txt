@@ -1,0 +1,138 @@
+
+PGRR Number
+144
+PGRR Title
+Dynamic Model Submission and Review Requirements for Large Loads including Large Electronic Loads
+Date
+June 5, 2026
+Submitter’s Information
+Name
+Cameron Poursoltan
+E-mail Address
+Cameron@datacentercoalition.org
+Company
+Data Center Coalition (DCC)
+Phone Number
+
+Cell Number
+713-894-9933
+Market Segment
+Industrial Consumer
+
+Comments
+In response to the discussions at the Planning Working Group (PLWG) and the Large Load Working Group (LLWG), the Data Center Coalition files these comments to Planning Guide Revision Request (PGRR) 144. 
+These comments make clear that the model quality tests applicable to non-Large Computational Loads (LCLs) is not the LCL ride-through requirements, remove the use of the term “modification” that applies to generation and replaces it with the word “update,” and removes ERCOT’s proposed ability to reject a change in behavior for an existing, energized business in Texas.  Instead, ERCOT’s review will determine if the LCL meets the applicable requirements of the Nodal Operating Guide.  Finally, we replace the use of “ILLE” with “LCL” where the entity being referred to is an existing customer, and not just an entity that wants to interconnect to the grid.  This is appropriate for multiple reasons, including that Nodal Operating Guide Section 2.15, Voltage Ride-Through Requirements for Large Computational Loads, as proposed by Nodal Operating Guide Revision Request (NOGRR) 282, Board Priority - Large Computational Load Ride-Through Requirements, refers to LCLs. 
+These comments do not address the merits of NOGRR282 with specificity and merely harmonizes these two proposed requirements.
+Revised Cover Page Language
+
+PGRR Number
+144
+PGRR Title
+Dynamic Model Submission and Review Requirements for Large Loads including Large Electronic Computational Loads
+Planning Guide Sections Requiring Revision 
+6.2, Dynamics Model Development
+9.2.1, Applicability of the Large Load Interconnection Study Process
+9.2.1.1, Review of Existing Large ElectronicComputational Load Modifications Potentially Impacting Ride Through PerformanceModel Updates (new)
+9.3.4.3, Dynamic and Transient Stability Analysis
+9.6, Initial Energization and Continuing Operations for Large Loads
+Revision Description
+This Planning Guide Revision Request (PGRR) clarifies requirements for submitting dynamic model data for Large Loads to ensure accurate representation of each Large Load in ERCOT’s models.  The PGRR requires submission of this data using formats compatible with the software platforms described in the Dynamics Working Group Procedure Manual (i.e., PSS/E, PSCAD, and TSAT).
+This PGRR also requires model quality tests demonstrating voltage ride-through capability for all Large Loads and converter model validation reports benchmarking PSCAD models against actual hardware tests for all Large ComputationalElectronic Loads (LCELs), ensuring high-quality and accurate models.
+In addition, this PGRR clarifies that material changes to an Large Electronic LoadLCL that could impact ride-through capability must be reviewed through the Large Load Interconnection Study (LLIS) process before implementing the change.
+Furthermore, the PGRR clarifies that an Interconnecting Large Load Entity (ILLE) must meet the dynamic data submission requirements before initiating a dynamic stability study. The same dynamic data submission requirements are applicable whenever dynamic data is required to be submitted in accordance with the prerequisites specified in the current paragraph (5) of Section 5.3.5, Quarterly Stability Assessment.
+Finally, the PGRR requires the ILLE LCL to submit updated dynamic models for the “as-built” LCEL facility prior to requesting Initial Energization along with documentation identifying any differences from previously submitted model data used in the ERCOT quarterly stability assessment (“QSA”) and an attestation that the as-built data reflect the actual field settings.
+Justification of Reason for Revision and Market Impacts
+Establishing robust dynamic model requirements for Large Loads is critical to maintaining ERCOT System reliability as these loads, particularly LCELs, continue to grow at an unprecedented pace. More than 200 GW of Large Loads are currently seeking to interconnect to the ERCOT System. These Large Loads can exhibit complex responses during system disturbances, including tripping on minor voltage sags. Since October 2022, ERCOT has seen numerous instances where Large ElectronicComputational Loads have tripped during voltage disturbances. As more Large Loads connect to the system, such events are likely to become more frequent and severe, creating risks for frequency stability, voltage recovery, and overall system performance. To address these risks, ERCOT recently proposed LELLCL ride-through requirements through NOGRR282. ERCOT also intends to propose requirements for other non-LELLCL Large Loads.
+In parallel, ERCOT submits this PGRR to require submission of Large Load dynamic model data and associated documentation, compatible with the software platforms described in the Dynamic Working Group Procedure Manual. Submission of the dynamic data in these different software formats is important because ERCOT uses different types of models for different analyses (PSS/E for general purpose planning dynamic studies and PSCAD for weak grid or Subsynchronous Resonance)
+Furthermore, this PGRR requires that dynamic models be supported by a model quality test to demonstrate the Large Load’s voltage ride through capability and, for LELLCLs, a converter model validation report benchmarking the PSCAD model against actual hardware testing in order to ensure high quality and accurate models.
+Additionally, this PGRR clarifies that the LLIS process also applies to material changes in Large ElectronicComputational Load behavior or technology that could impact ride-through capability. This ensures that any significant modifications that impact dynamic characteristics are appropriately evaluated even if the size of the LELLCL remains unchanged.
+Finally, the PGRR requires a TSP interconnecting a Large Load to go through several model check points throughout the interconnection process to: 
+Identify dynamic model issues as early as possible to minimize study delays; 
+Ensure model accuracy, performance, and consistency between different software platforms (PSS/E, PSCAD, and TSAT);
+Ensure data consistency (e.g., data used in the Large Load QSA vs. in the as-built model) throughout the Large Load Interconnection Study process;
+Ensure that high quality and accurate models are utilized in system studies.
+The key milestones for model review check points proposed in this PGRR includes the following stages:
+Prior to conducting dynamic stability study;
+Prior to Large Load QSA;
+Prior to Energization (only for LELLCL)
+The enhancements proposed in this PGRR are necessary to identify potential reliability issues early, ensure appropriate mitigation measures, and support stable system operation as Large Loads continue to interconnect in unprecedented volumes.
+
+
+
+Revised Proposed Guide Language
+
+6.2	Dynamics Model Development
+(1)	To adequately simulate dynamic and transient events in the ERCOT System, it is necessary to establish and maintain dynamics data and simulation-ready study cases representing the dynamic capability and frequency characteristics of machines and equipment connected to the ERCOT System.
+(2)	Dynamics data is the network data and mathematical models required in accordance with the Reliability and Operations Subcommittee (ROS)-approved Dynamics Working Group Procedure Manual for simulation of dynamic and transient events in the ERCOT System. 
+(3)	For Resource Entities, dynamics data includes the data needed to represent the dynamic and transient response of Resource Entity-owned devices and/or Loads including but not limited to generating units, plants, and other equipment when connected to the ERCOT System including the data for any privately owned transmission system or collection system used to connect the Resource to the ERCOT System.
+(4)	For Transmission Service Providers (TSPs), dynamics data needed to represent the dynamic and transient capability of TSP-owned devices including but not limited to Load shedding relays, protective relays, FACTS devices (e.g., SVC, STATCOMs), Direct Current Ties (DC Ties), variable-frequency transformers, automatically switched shunts, and transformers with automatic load tap changers.  
+[PGRR101:  Replace paragraph (4) above with the following upon system implementation of NPRR1133:]
+(4)	For Transmission Service Providers (TSPs) and owners of Direct Current Ties (DC Ties), dynamics data includes the data needed to represent the dynamic and transient capability of dynamic devices including but not limited to Load shedding relays, protective relays, FACTS devices (e.g., SVC, STATCOMs), DC Ties, variable-frequency transformers, automatically switched shunts, and transformers with automatic load tap changers.
+(5)	The owner of a generator Facility or any dynamic device shall provide appropriate dynamics data to ERCOT, including the data for a planned Facility, in accordance with the Dynamics Working Group Procedure Manual.  The dynamic data shall include the following:
+(a)	A model with parameters that accurately represent the dynamics of the device and that is compatible with the current version of the planning and operations model software as described in the Dynamics Working Group Procedure Manual.  If a user written model is provided:
+(i)	A model manual containing a technical description of the model characteristics, including descriptions for all model parameters and variables, a list of which parameters are commonly tuned for site-specific settings, and a description of procedures and considerations for using the model in dynamic simulations, including steady state representation and limitations for model adequacy and usability in the planning and operations model software; and
+(ii)	The user-written model shall allow the user to determine the allocation of machine identifiers (bus numbers, bus names, machine IDs etc.) without restriction.
+(b)	Verification reports that support the model data based on documented field settings shall be provided as specified in the Dynamics Working Group Procedure Manual for Generation Resources, Energy Storage Resources (ESRs), and for Transmission Elements represented by a dynamic model.  The reports shall demonstrate that the model parameters which are commonly tuned match site-specific settings implemented in the field.  For new Generation Resources and ESRs, these reports shall be provided as required in paragraph (5) of Section 5.5, Generator Commissioning and Continuing Operations.  For existing Generation Resources and ESRs, these reports shall be provided as required in paragraph (6) of Section 5.5.  For Transmission Elements represented by a dynamic model, these reports shall be provided no later than two years following energization of new equipment and updated a minimum of every ten years.    
+(c)	Results of model quality tests and associated simulation files that demonstrate acceptable performance of the models in the planning model and operations software as described in the Dynamics Working Group Procedure Manual.  The Facility owner shall provide updated information whenever it provides a new or updated dynamic model to ERCOT representing a Generation Resource, ESR, or Transmission Element.  These tests ensure the quality of the provided dynamic data and models for use in numerous system studies and consistency across planning and operations software platforms.  Therefore, the Facility owner shall also assess sufficient sensitivities, including but not limited to Voltage Set Point at the Point of Interconnection (POI), real power output, and Reactive Power output to ensure acceptable model performance over the entire range of operating conditions.  The Facility owner shall provide an explanation if model responses do not match.
+(i)	Facility owners shall include all site-specific dynamic models representing the Facility in the model quality tests.  Facility owners can perform the tests in a simple test system without requiring ERCOT System information.
+(ii)	For Intermittent Renewable Resource (IRR) equipment aggregated together to form an IRR in accordance with paragraph (13) of Protocol Section 3.10.7.2, Modeling of Resources and Transmission Loads, the dynamic model shall represent the aggregated IRR.
+(iii)	Results for the following model quality tests shall be provided to demonstrate acceptable model performance.  Additional details about each test, including the set up and description of desirable response, are included in the Dynamics Working Group Procedure Manual.  
+(A)	Flat start test:  A no-disturbance test shall be performed to demonstrate appropriate model initialization and the Facility’s dynamic response under a no-disturbance condition. 
+(B)	Small voltage disturbance test:  A voltage step increase and decrease shall be applied to the POI to demonstrate the Facility’s dynamic response.
+(C)	Large voltage disturbance test:
+(1)	For IRRs, ESRs, and inverter-based transmission equipment, the high and low voltage ride-through profiles as described in Nodal Operating Guide Section 2.9.1, Voltage Ride-Through Requirements for Intermittent Renewable Resources and Energy Storage Resources Connected to the ERCOT Transmission Grid, shall be applied to the POI to demonstrate the Facility’s dynamic response.
+(2)	For Resources other than IRRs, ESRs, and inverter-based equipment, a fault shall be applied to the POI to demonstrate the Facility’s dynamic response.
+(D)	Small frequency disturbance test:  A frequency step increase and decrease shall be applied to the POI to demonstrate the Facility’s dynamic response.  
+(E)	System strength test:  The model for IRRs and inverter-based Resources shall be tested under a few equivalent short circuit ratios, as described in the Dynamics Working Group Procedure Manual.  This tests the robustness of the model to varying system conditions. 
+(d)	Inverter-Based Resources (IBRs) shall provide results of the unit model validation to demonstrate that the PSCAD model, as described in the Dynamics Working Group Procedure Manual, accurately represents the dynamic responses of all inverter-based dynamic devices within the Facility.  This validation is not intended to be site-specific; rather it is intended to be a hardware type test, where models representing different inverter hardware are benchmarked for accuracy.  Validation results for a specific model of inverter can be submitted for multiple uses of that model of inverter.
+(i)	The validation results shall be included when submitting a PSCAD model to ERCOT.
+(ii)	Results for the following unit model validation tests shall be provided to demonstrate model accuracy.  Additional details about each test are included in the Dynamics Working Group Procedure Manual.
+(A)	Step change in voltage;
+(B)	Large voltage disturbance (voltage ride-through tests);
+(C)	System strength test;
+(D)	Phase angle jump test; and
+(E)	Subsynchronous test.
+(6)	For Large Loads, dynamic data includes the information needed to represent the dynamic and transient response of the entire facility, including but not limited to cooling equipment, computer-based loads, protection equipment, control systems, and other equipment. The dynamic data shall include the necessary models, parameters, and supporting documentation required for accurate representation of the Large Load and shall be compatible with the current version of the planning and operations model software, as described in the Dynamics Working Group Procedure Manual.
+(a)	Results of the following model quality tests shall be provided along with the relevant simulation files and any other necessary supporting information to demonstrate acceptable model performance in accordance with the Dynamic Working Group Procedure Manual: 
+(i)	Flat start test:  A no-disturbance test shall be performed to demonstrate appropriate model initialization and the Large Load’s dynamic response under a no-disturbance condition.
+(ii)	Large voltage disturbance test:  The high and low voltage ride-through profiles as described in Nodal Operating Guide Section 2.15, shall be applied to the POI or Service Delivery Point to demonstrate the dynamic response of the Large Computational Loads (LCLs). For Large Loads that are not LCLs, the low-voltage disturbance test shall be used to evaluate whether the submitted dynamic model reasonably reflects the facility’s voltage disturbance response characteristics, including, as applicable, ride-through capability, trip thresholds, protection actions, load rejection, staged recovery, and reconnection behavior, to the extent such characteristics are documented, known, or reasonably ascertainable by the Large Load. The test shall not require the model to demonstrate compliance with a voltage ride-through performance standard unless such a standard otherwise applies to the Large Load.
+(iii)	Converter model validation test (for Large ElectronicComputational Load (LECL) only): This test is to demonstrate that the PSCAD model, as described in the Dynamics Working Group Procedure Manual, accurately represents the dynamic responses of all power electronic-based dynamic devices within an LELLCL facility. This validation does not apply to the entire LELLCL facility; rather it is intended only to benchmark the models representing different converter hardware components for accuracy.  The validation results shall be included in a PSCAD model. Results for the following converter model validation tests, as  further described in the Dynamics Working Group Procedure Manual, shall be provided to demonstrate model accuracy:
+(A)	Large voltage disturbance (voltage ride-through tests);
+(B)	Subsynchronous test.
+(76)	Dynamics data for a planned Facility will be updated by the Facility owner upon completion of the design for the Facility.
+(87)	Updated dynamics data for an existing Facility shall be provided to ERCOT when field tests, inspections, or other information demonstrates that the dynamics data should be changed to accurately represent the dynamic characteristics of the Facility.
+(98)	Dynamics Data is considered Protected Information pursuant to Protocol Section 1.3, Confidentiality.
+(109)	Dynamics data shall be provided with the legal authority to provide the information to all TSPs.  If any of the information is considered Protected Information, the Facility owner shall indicate as such.
+9.2.1	Applicability of the Large Load Interconnection Study Process
+(1)	Any request to interconnect or modify a Load Facility that meets one or more of the following criteria shall be subject to the Large Load Interconnection Study (LLIS) process:
+(a)	A new Large Load;
+(b)	A modification of any existing Load Facility that increases the aggregate peak Demand of the Facility by 75 MW or more; or
+(c)	A modification of an existing Large Load that changes or adds a Point of Interconnection (POI) or Service Delivery Point to a different electrical bus on a different electrical circuit;. or
+(d)	A modification of an existing Large ElectronicComputational Load (LELLCL) that materially changes dynamic characteristics or operating behavior in a manner that may affect its ride-through capability. Material changes include, but are not limited to, changes in the technology (e.g., conversion of a cryptocurrency mining load to a data center) or controls (e.g., protection schemes or relay settings) that affect voltage or frequency ride-through capabilityperformance at the POI or Service Delivery Point, and that requires additional assessment, as determined through the review process described in Section 9.2.1.1. 
+9.2.1.1 	Review of Existing Large ElectronicComputational Load Modifications Potentially Impacting Ride Through PerformanceModel Updates
+(1)	An update  modification of an existing LELLCL that materially changes dynamic characteristics or operating behavior in a manner that may affect voltage or frequency ride-through performance at the POI or Service Delivery Point shall be subject to the review process described in this Section.  The ILLELCL proposing the modificationupdate shall submit the appropriate dynamic model for the proposed modificationupdate to ERCOT and the interconnecting TSP along with results of the model quality tests overlaid with the results before the modification and associated simulation files, as described in paragraph (6)(a) of Section 6.2, Dynamics Model Development.  ERCOT shall review the submission within ten Business Days of receipt.  If additional time is necessary, ERCOT may extend the review period by up to twenty additional Business Days.  Upon completion of the review, ERCOT shall notify the ILLELCL and the interconnecting TSP of one of the followingif the LCL meets the requirements of Nodal Operating Guide Section 2.15.: 
+(a)	The modification is approved (e.g., no adverse impact on voltage or frequency ride-through performance);
+(b)	The modification is approved upon completion of any required additional assessment (e.g., quarterly stability assessment and/or Subsynchronous Oscillation (SSO) assessment); or
+(c)	The modification is rejected.
+9.3.4.3	Dynamic and Transient Stability Analysis
+(1)	The lead TSP shall not initiate the stability study prior to receiving from the ILLE dynamic load modeling information sufficient to properly model the load in the stability studies, in accordance with paragraph (6) of Section 6.2, Dynamics Model Development.  The TSP shall check the dynamic load information according to the procedure specified in Section 3.4.4, Load Model Data, of the Dynamics Working Group Procedure Manual.
+(2)	The stability study base case shall be created from the most recently approved Dynamics Working Group (DWG) base case appropriate for the desired Initial Energization date of the Load.  The initial transmission configuration of the study area shall be consistent with the configuration used in the corresponding steady-state study to the extent practicable.
+(3)	All stability studies shall be performed in accordance with NERC Reliability Standards, Protocols, this Planning Guide, and the Operating Guides.  Transient stability studies will analyze the performance of the ERCOT System in terms of angular stability, voltage stability, and excessive frequency excursions.  Additional studies may include small signal stability or critical clearing time analyses.  Such studies should incorporate reasonable and conservative assumptions regarding impacted facility operating conditions.  ERCOT in collaboration with the TSP(s) shall determine the stability analysis to be performed.
+(4)	The stability study portion of the LLIS shall document any identified instability.
+(5)	If the lead TSP identifies instability (other than instability identified for extreme events) in the stability portion of the LLIS, the TSP shall investigate alternative solutions, including transmission improvements, to mitigate the instability.  The lead TSP shall identify any modifications to the levels of Demand and the timeline specified in the ILLE’s initial LCP that are needed to account for all transmission upgrades required to support the full requested amount of Load.  The TSP shall implement any mitigation measure that may be needed to address a stability risk before the Initial Energization of the Large Load in accordance with Protocol Section 3.11.4, Regional Planning Group Project Review Process.
+
+9.6	Initial Energization and Continuing Operations for Large Loads
+(1)	Each Large Load shall meet the conditions established by ERCOT before proceeding to Initial Energization.  These conditions may include, but are not limited to:
+(a)	Inclusion of the Load in the Network Operations Model in accordance with Section 6.6, Modeling of Large Loads;
+(b)	Verification that all required telemetry is operational and accurate;
+(c)	Completion of the requirements of Section 5.3.5, ERCOT Quarterly Stability Assessment;
+(d)	Completion and approval of any required Subsynchronous Oscillation (SSO) studies, SSO Mitigation Plan, SSO Countermeasures, and SSO monitoring, if required; and
+(e)	Submission of a current Load Commissioning Plan (LCP) meeting the requirements of Section 9.2.4, Load Commissioning Plan.; and
+(f)	Submission of the following to ERCOT and the TSP interconnecting a Large ElectronicComputational Load (LECL): the applicable dynamic models for the “as-built” data and the data submitted for the ERCOT quarterly stability assessment under Section 5.3.5, along with a written statement and any necessary documentation clearly indicating any differences; results of the model quality tests of the “as-built” data overlaid with the results of the data submitted for the quarterly stability assessment; associated simulation files pursuant to paragraph (6) of Section 6.2, Dynamics Model Development; and an attestation confirming that the as-built data aligns with field settings.  ERCOT, in collaboration with Tthe interconnecting TSP, shall review the submitted materials and provide its assessment, including a determineation of whether a new the existing stability study is required due to any modificationsremains sufficient the dynamic data is expected to adversely impact the results from the previous stability studymeet the requirements of Nodal Operating Guide Section 2.15, and submit both the materials and the assessment electronically to HYPERLINK "mailto:Dynamicmodels@ercot.com"Dynamicmodels@ercot.com for ERCOT review.  The phrase “LEL prior to Initial Energization” must be included in the subject line of the submission email.  ERCOT shall respond to the interconnecting TSP and the ILLELCL within ten Business Days of the submission, indicating whether the submission is acceptableapproved, or if additional information is required.  If additional time is needed for review, ERCOT may extend this review period by an additional twenty Business Days and will notify the interconnecting TSP and the ILLELCL by email.
+(2)	During continuing operations:
+(a)	The interconnecting Transmission Service Provider (TSP) or, if applicable, the Resource Entity shall notify ERCOT if it identifies that a Large Load has exceeded a limit on peak Demand established in the Large Load Interconnection Study (LLIS) and LCP. 
+(b)	The applicable TSP shall notify ERCOT when a transmission upgrade identified in an LCP becomes operational.  ERCOT must give written approval before Demand may increase.
+(c)	Pursuant to Section 9.5, Interconnection Agreements and Responsibilities, if a Large Load modifies its facilities such that a previously provided dynamic load model is invalid, the Large Load shall notify and provide an updated model to the Transmission and/or Distribution Service Provider (TDSP) that provides service to the Large Load.  The TDSP shall subsequently provide this updated dynamic load model to ERCOT.
+
+
+

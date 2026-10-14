@@ -1,7 +1,7 @@
 # RESUME: how to continue the business idea search
 
-**Updated:** 7 Oct 2026, after step 4 (evolution tournament). 25 finalists picked.
-**Next step:** step 5, deep validation of the **top 12** (the user's call). On hold until the user says go in chat (after the 12 Oct weekly reset). Launch: `step5_deep_validation.js` with args `{"shard": k, "nshards": 3}` for k = 0, 1, 2 (the top-12 IDs and a 4-agent limit per workflow are built in).
+**Updated:** 13 Oct 2026, after step 5 (deep validation of the top 12). No finalist cleared 3.5/10, 7 wounded contenders, 5 dead.
+**Next step:** waiting on the user's call on a course correction (see PROCESS_LOG "Step 5 result"). Options: (A) run steps 6-9 as designed on the 7 wounded contenders; (B) an upside-rescue round; (C) a new big-market-first discovery pass. Do not start step 6 without his go.
 
 ## Quick start (for the human)
 
@@ -19,7 +19,7 @@ Start a new Claude Code session with the `The-Oblivion/business-idea-search` rep
 | 2C Competitor check | ✅ 105/105 (82 gap survive, 23 crowded cut) | `state/exists/<ID>.json`, `state/screening_out/existence_verdicts.json` |
 | 3 Breeding | ✅ 120 offspring + 12 hybrids | `state/evo/pool.json` (214 candidates), `state/evo/tournament/` (27 batch files) |
 | 4 Evolution tournament | ✅ 27/27 judges, 25 finalists | `03-evolution/evolution_ranking.csv`, `finalist_ids.json`, `finalists/` |
-| 5 Deep validation (25) | script ready | `state/next_steps/step5_deep_validation.js` |
+| 5 Deep validation (top 12) | ✅ 108/108 agents; 7 wounded contenders, 5 dead, none above 3.5/10 | `04-deep-validation/` |
 | 6 Head-to-head (top 10) | designed below | |
 | 7 War-game (top 5) | designed below | |
 | 8 Orchestrator final review | designed below | |

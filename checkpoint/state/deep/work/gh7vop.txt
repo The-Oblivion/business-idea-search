@@ -1,0 +1,260 @@
+
+NOGRR Number
+282
+NOGRR Title
+Board Priority - Large Computational Load Ride-Through Requirements
+Date of Decision
+July 9, 2026
+Action
+Approved
+Timeline 
+Urgent – On 12/8/25, the Board designated Nodal Operating Guide Revision Request (NOGRR) 282 a Board Priority Revision Request. 
+Estimated Impacts
+Cost/Budgetary:  Annual Recurring Operations and Maintenance (O&M) Staffing Cost:  $600K – $750K
+Project Duration:  No project required
+Effective Date
+August 1, 2026
+Priority and Rank Assigned
+Not applicable
+Nodal Operating Guide Sections Requiring Revision 
+2.6.4, Frequency Ride-Through Requirements for Large Computational Loads (new)
+2.15, Voltage Ride-Through Requirements for Large Computational Loads (new)
+Related Documents Requiring Revision/Related Revision Requests
+Nodal Protocol Revision Request (NPRR) 1308, Board Priority - Related to NOGRR282, Large Computational Load Ride-Through Requirements
+Revision Description
+This NOGRR establishes frequency and voltage ride-through requirements for Large Computational Loads (LCLs).
+Reason for Revision
+  Strategic Plan Objective 1 – Be an industry leader for grid reliability and resilience
+  Strategic Plan Objective 2 - Enhance the ERCOT region’s economic competitiveness with respect to trends in wholesale power rates and retail electricity prices to consumers
+  Strategic Plan Objective 3 - Advance ERCOT, Inc. as an independent leading industry expert and an employer of choice by fostering innovation, investing in our people, and emphasizing the importance of our mission
+  General system and/or process improvement(s)
+  Regulatory requirements
+  ERCOT Board/PUCT Directive
+
+(please select ONLY ONE – if more than one apply, please select the ONE that is most relevant)
+Justification of Reason for Revision and Market Impacts
+The frequency and voltage ride-through requirements in this NOGRR are necessary to ensure LCLs do not present a reliability risk to the system by tripping when frequency and voltage excursions within a specified range occur.  ERCOT has identified many events since October 2022 that included Load loss from one or more LCLs during a typical voltage disturbance in which system protection operated as designed.  As LCLs increase on the ERCOT System, similar events would be expected to increase in magnitude and frequency, leading to frequency instability and other reliability problems absent frequency and voltage ride-through requirements.  ERCOT has also identified ride-through risks associated with other Large Loads and intends to submit a NOGRR to address those risks.  ERCOT anticipates that the requirements for those Large Loads could differ from those proposed in this NOGRR based on differences in the technology of the loads, just as ERCOT’s ride-through requirements for different generating technologies differ from one technology to another.  
+ROS Decision
+On 12/4/25, ROS voted unanimously to table NOGRR282 and refer the issue to the Dynamics Working Group (DWG) and System Protection Working Group (SPWG).  All Market Segments participated in the vote.
+On 4/2/26, ROS voted to recommend approval of NOGRR282 as amended by the 3/27/26 ERCOT comments as revised by ROS and to forward to TAC NOGRR282 and the 11/14/25 Impact Analysis.  There was one opposing vote from the Consumer (Galaxy Power) Market Segment and eight abstentions from the Consumer (Sierra Club), Cooperative (GSEC), Independent Generator (2) (Southern Power, Vistra), Independent Power Marketer (IPM) (2) (Tenaska, Morgan Stanley), and Independent Retail Electric Provider (IREP) (2) (Demand Control 2, Chariot Energy) Market Segments.  All Market Segments participated in the vote.
+Summary of ROS Discussion
+On 12/4/25, ERCOT Staff provided an overview of NOGRR282 and noted preliminary discussions at the Large Load Working Group (LLWG).  Participants requested additional review by DWG and SPWG.
+On 4/2/26, ERCOT Staff presented a summary of the numerous sets of formal comments filed for NOGRR282 and ERCOT’s responses.  Opponents expressed concerns about the viability of the proposed requirements, the availability of technology to meet the requirements, and ERCOT’s authority to impose such requirements.
+TAC Decision
+On 4/29/26, TAC voted to recommend approval of NOGRR282 as recommended by ROS in the 4/2/26 ROS Report as amended by the 4/13/26 ERCOT comments; and the 4/14/26 Revised Impact Analysis.  There were two opposing votes from the Consumer (2) (Air Liquide, CMC Steel) Market Segment and four abstentions from the Consumer (City of Dallas), Cooperative (GSEC), Independent Generator (Vistra), and IREP (Demand Control 2) Market Segments.  All Market Segments participated in the vote.
+Summary of TAC Discussion
+On 4/29/26, ERCOT staff presented on the history of NPRR1380/NOGRR282 and participants discussed ride-through exemptions under NOGRR282 and the potential for shifting the exemption date from November 2025 to July 2026.
+Explanation of Opposing TAC Votes
+Consumer/Air Liquide – Explanation requested but not provided
+Consumer/CMC Steel – Explanation requested but not provided
+TAC Review/Justification of Recommendation
+ CONTROL Forms.TextBox.1   Revision Request ties to Reason for Revision as explained in Justification 
+  Impact Analysis reviewed and impacts are justified as explained 
+in Justification
+  Opinions were reviewed and discussed
+  Comments were reviewed and discussed (if applicable)
+  Other: (explain)
+ERCOT Board Decision
+On 6/2/26, the ERCOT Board voted unanimously to recommend approval of NOGRR282 as recommended by TAC in the 4/29/26 TAC Report as amended by the 5/11/26 ERCOT comments.
+PUCT Decision
+On 7/9/26, the PUCT approved NOGRR282 and accompanying ERCOT Market Impact Statement as presented in Project No. 54445, Review of Protocols Adopted by the Independent Organization.
+
+Opinions
+Credit Review
+Not applicable
+Independent Market Monitor Opinion
+IMM has no opinion on NOGRR282.
+ERCOT Opinion
+ERCOT supports approval of NOGRR282.
+ERCOT Market Impact Statement
+ERCOT Staff has reviewed NOGRR282 and believes the market impact for NOGRR282 provides necessary requirements to reduce the reliability risk posed by LCLs unexpectedly tripping or transferring to backup generation when frequency and voltage excursions within a specified range occur. Without these requirements, events involving LCL loss would increase in magnitude, potentially leading to system frequency and voltage instability.
+
+Sponsor
+Name
+Patrick Gravois
+E-mail Address
+patrick.gravois@ercot.com
+Company
+ERCOT
+Phone Number
+512-248-4695
+Cell Number
+
+Market Segment
+Not applicable
+
+Market Rules Staff Contact
+Name
+Cory Phillips
+E-Mail Address
+cory.phillips@ercot.com
+Phone Number
+512-248-6464
+
+Comments Received
+Comment Author
+Comment Summary
+AEP 120525
+Proposed additional redlines shifting the frequency thresholds within Section 2.6.4 and adding an exception to allow for UPS battery charge decreases within a set percentage
+Tesla 121825
+Proposed additional redlines detailing exceptions for certain frequency deviations
+Onward Energy 012326
+Raised discussion topics related to NOGRR245, Inverter-Based Resource (IBR) Ride-Through Requirements, and how ride-through requirements will apply to co-located facilities and Large Electronic Loads (LELs)
+ERCOT 013026
+Provided additional redlines to the 12/18/25 Tesla comments based on prior comments and stakeholder feedback
+Data Center Coalition 020926
+Proposed additional redlines to the 1/30/26 ERCOT comments replacing uses of “Large Electronic Load (LEL)” with the broader term “Large Load” and replacing the proposed cut-off date of “November 14, 2025” with “January 1, 2027”
+ERCOT 021626
+Provided responses to the 1/23/26 Onward Energy comments
+Texas Blockchain Council 021826
+Raised discussion topics related to the applicability and feasibility of the proposed ride-through requirements
+ERCOT 031126
+Proposed additional redlines to the 1/30/26 ERCOT comments based on prior comments and stakeholder feedback
+Data Center Coalition 031226
+Proposed additional redlines to the 3/11/26 ERCOT comments including modifying the proposed frequency and voltage thresholds; replacing the proposed cut-off date of “November 14, 2025” with “June 30, 2026”; and providing additional exception language 
+Schaper Energy Consulting 031826
+Expressed support for the 3/12/26 Data Center Coalition comments
+Texas Blockchain Council 031826
+Raised discussion topics and high-level direction for suggested revisions
+TIEC 032526
+Opined that ERCOT lacks authority to impose standards on retail customers and proposed additional redlines to the 3/11/26 ERCOT comments replacing customer requirements with language describing ERCOT’s ability to request information from Transmission and/or Distribution Service Providers (TDSPs)
+ERCOT 032726
+Proposed additional redlines to the 3/12/26 Data Center Coalition comments
+Google 033126
+Expressed support for the 3/12/26 Data Center Coalition comments
+Intersect Power 040126
+Raised discussion topics and high-level direction for suggested revisions
+Texas Blockchain Council 040126
+Opposed NOGRR282 and questioned ERCOT’s authority to impose such requirements on end-use customers
+ERCOT 041326
+Proposed additional redlines to revise the new Large Load term to be “Large Computational Load (LCL)” instead of “Large Electronic Load (LEL)”
+Vistra 041426
+Proposed additional redlines shifting the exemption date from November 14, 2025 to July 10, 2026
+TIEC 042426
+Proposed additional redlines to the 4/13/26 ERCOT comments replacing uses of “requirements” with “guidance”
+ERCOT 042426
+Responded to concerns raised by stakeholders regarding the legality of NOGRR282
+ERCOT 051126
+Proposed additional redlines correcting an unintentional deletion of the exemption date in paragraph (1)(d) of Section 2.6.4 and Section 2.15
+SB Energy 051926
+Proposed additional redlines to the 5/11/26 ERCOT comments extending the window to achieve compliance with ride-through requirements by 365 days
+TIEC 052126
+Restated concerns with ERCOT’s authority to impose NOGRR282’s requirements and proposed additional redlines replacing uses of “requirements” with “guidance”
+Cipher Digital 061126
+Filed comments regarding NOGRR282 under PUCT Project No. 54445
+TPPA 061226
+Filed comments regarding NOGRR282 under PUCT Project No. 54445
+LCRA 061226
+Filed comments regarding NOGRR282 under PUCT Project No. 54445
+TEC 061226
+Filed comments regarding NOGRR282 under PUCT Project No. 54445
+Goff Policy 061226
+Filed comments regarding NOGRR282 under PUCT Project No. 54445
+TIEC 061226
+Filed comments regarding NOGRR282 under PUCT Project No. 54445
+IREN Ltd 061226
+Filed comments regarding NOGRR282 under PUCT Project No. 54445
+Texas Blockchain Council 061226
+Filed comments regarding NOGRR282 under PUCT Project No. 54445
+Data Center Coalition 061226
+Filed comments regarding NOGRR282 under PUCT Project No. 54445
+ERCOT 061226
+Filed comments regarding NOGRR282 under PUCT Project No. 54445
+TIEC 070826
+Filed a motion to intervene regarding NOGRR282 under PUCT Project No. 54445
+
+Market Rules Notes
+None
+Proposed Guide Language Revision
+2.6.4	Frequency Ride-Through Requirements for Large ComputationalElectronic Loads
+(1)	A Customer that proposes to interconnect or maintains an interconnection of a Large ComputationalElectronic Load (LCEL) with the ERCOT System shall ensure the LCEL complies with the frequency ride-through requirements of this section, unless the Customer can demonstrate that:
+(a)	The LECL was operational and consuming power from the ERCOT System or received written approval to energize from ERCOT on or before June 30, 2026 November 14, 2025November 14, 2025; or
+(b)	If the LECL is not co-located with a Generation Resource Facility, all required interconnection agreements or equivalent service extension agreements between the Interconnecting Large Load Entity (ILLE) and the applicable TDSP were executed on or before  November 14, 2025June 30, 2026November 14, 2025; or 
+(c)	If the LECL is co-located with a Generation Resource Facility, all required interconnection agreements and/or equivalent service extension or other agreements with the Resource Entity, Interconnecting Entity, and ILLE were executed on or before  November 14, 2025June 30, 2026November 14, 2025. 
+(d)	For an LECL meeting the conditions in paragraph (b) or (c) above, the interconnecting TSP received notice to proceed with the construction of all required interconnection Facilities and the interconnecting TSP and, if applicable, directly affected TSP(s) have received the financial security, applicable payments, and/or other agreements required to fund all required interconnection Facilities on or before November 14, 2025, and either of the following additional criteria below were met;The LEL satisfied the following requirements on or before November 14, 2025:
+(i)	Its Large Load Interconnection Study (LLIS), as part of the interim Large Load Interconnection process, has been completed and approved by ERCOT on or before November 14, 2025June 30, 2026 November 14, 2025results communicated in the manner contemplated by paragraph (6) of Planning Guide Section 9.4, LLIS Report and Follow-up; orand
+(ii)	Both of the following conditions have been met: 
+(A)	ERCOT received a written attestation from the Authorized Representative of the interconnecting TDSP before December 31, 2026, stating that the LECL was not required to be in the interim Large Load Interconnection process and that the LECL is expected to be energized between  November 14, 2025June 30, 2026 November 14, 2025, and December 31, 2026, and ERCOT provided written approval of the exemptionThe interconnecting TDSP for the LEL has provided the confirmation or letter contemplated in Planning Guide Section 9.5, Interconnection Agreements and Responsibilities; and
+(B)	The LECL achieved Initial Energization by December 31, 2026.
+(2)	An LECL that meets the exemption criteria of paragraph (1) above but makes a modification after after November 14, 2025June 30, 2026November 14, 2025, that meets the criteria in paragraph (1)(b) of Planning Guide Section 9.2.1, Applicability of the Large Load Interconnection Study Process, shall not be exempt from the frequency ride-through requirements.
+(32)	An LECL shall ride through frequency disturbances of the magnitude and duration specified in Table A below, as measured at the LCEL’s Service Delivery Point, or if the LCEL is co-located with a Generation Resource or Energy Storage Resource, at the Point of Interconnection Bus (POIB) of that Resource.  An LECL is not required to ride-through if it is either performing in accordance with its interconnecting TDSP’s Under-Frequency Load Shed (UFLS) program or providing an Ancillary Service that would require the LCEL to trip or reduce consumption due to a frequency disturbance.
+Table A
+
+Frequency (f) in (Hz)
+Minimum Ride-Through Time
+(seconds)
+f > 61.863.0
+May ride-through or trip
+61.263.061.2 < f ≤ 63.061.8
+299
+58.8 ≤ f ≤ 61.2
+continuous
+57.50 ≤ f < 58.8
+299
+f < 57.50
+May ride-through or trip
+(43)	Nothing in paragraph (23) above shall be interpreted to require an LECL to trip or transfer load to backup generation for frequency conditions beyond those for which ride-through is required. 
+(54)	If an LECL is consuming electric current from the grid at the time of the frequency disturbance, the LCEL shall continue to consume electric current from the grid during frequency deviations requiring ride-through.  In addition, an LECL should continue to consume active power within 10% of the pre-disturbance level during frequency deviations requiring ride-through.
+(65)	For frequency deviations outside the continuous operating range specified in Table A of paragraph (23) above, an LECL may implement an internal load-transfer or control-stabilization schemeinterval such that the LECL facility returns to at least 90% of its pre-disturbance consumption level within two seconds, as measured from the LECL’s Service Delivery Point or POIBfor a duration of up to 250 milliseconds.
+(a)	For LECLs composed of multiple internal devices, one load-transfer or control action per disturbance event per individual device shall be permitted.
+(765)	If protection systems are installed and activated to trip the LECL, they shall enable the LECL to ride-through frequency conditions beyond those defined in paragraph (23) above to the maximum level the equipment allows, unless the protection systems are set to respond to an UFLS event or Ancillary Service obligation.
+(876)	If frequency protection schemes are installed and activated to trip an LECL, they shall use filtered quantities or add sufficient time delays to prevent misoperations while providing the desired equipment protection.  Protection schemes shall not trip an LECL based on an instantaneous frequency measurement.
+(987)	If ERCOT determines that an LECL has failed to ride through a frequency disturbance in accordance with any requirement in this Section 2.6.4:
+(a)	The interconnecting TDSP shall provide available information to ERCOT to assist with ERCOT’s event analysis;
+(b)	The Customer representing the LECL shall:
+(i)	Investigate and determine the root cause of the frequency ride-through failure and report the results of the investigation to ERCOT within 90 days of ERCOT’s request;
+(ii)	Develop a plan to ensure the LECL can meet the applicable ride-through performance requirements and submit the plan to ERCOT within 90 days of completion of (i) above; and
+(iii)	Implement the plan upon ERCOT approval within 180 days of (ii) above unless ERCOT approves a longer timeline.
+(c)	Notwithstanding the requirements of paragraph (b) above, if ERCOT determines that the operation of an LECL following a failure to comply with the requirements of this Section 2.6.4 poses an imminent risk to local or system reliability, ERCOT may require the LECL to disconnect from the ERCOT System and remain disconnected until the Customer representing the LECL has demonstrated to ERCOT’s satisfaction that the LECL can comply with the ride-through performance requirements of this Section.
+2.154	Voltage Ride-Through Requirements for Large ComputationalElectronic Loads
+(1)	A Customer that proposes to interconnect or maintains an interconnection of a Large ComputationalElectronic Load (LECL) with the ERCOT System shall ensure the LECL complies with the voltage ride-through requirements of this section, unless the Customer can demonstrate that::
+(a)	The LECL was operational and consuming power from the ERCOT System or received written approval to energize from ERCOT on or before  November 14, 2025June 30, 2026 November 14, 2025; or
+(b)	If the LECL is not co-located with a Generation Resource Facility, all required interconnection agreements or equivalent service extension agreements between the Interconnecting Large Load Entity (ILLE) and the applicable TDSP were executed on or before  November 14, 2025June 30, 2026November 14, 2025. 
+(c)	If the LECL is co-located with a Generation Resource Facility, all required interconnection agreements and/or equivalent service extension or other agreements with the Resource Entity, Interconnecting Entity, and ILLE were executed on or before  November 14, 2025June 30, 2026November 14, 2025. 
+(d)	For an LECL meeting the conditions in paragraph (b) or (c) above, the interconnecting TSP received notice to proceed with the construction of all required interconnection Facilities and the interconnecting TSP and, if applicable, directly affected TSP(s) have received the financial security, applicable payments, and/or other agreements required to fund all required interconnection Facilities on or before November 14, 2025, and either of the following additional criteria below were met;The LEL satisfied the following requirements on or before November 14, 2025:
+(i)	Its Large Load Interconnection Study (LLIS), as part of the interim Large Load Interconnection process, has been completed and approved by ERCOT on or before November 14, 2025June 30, 2026November 14, 2025results communicated in the manner contemplated by paragraph (6) of Planning Guide Section 9.4, LLIS Report and Follow-up; orand
+(ii)	Both of the following conditions have been met:
+(A)	ERCOT received a written attestation from the Authorized Representative of the interconnecting TDSP before December 31, 2026, stating that the LECL was not required to be in the interim Large Load Interconnection process and the LECL is expected to be energized between  November 14, 2025June 30, 2026 November 14, 2025, and December 31, 2026, and ERCOT provided written approval of the exemptionThe interconnecting TDSP for the LEL has provided the confirmation or letter contemplated in Planning Guide Section 9.5, Interconnection Agreements and Responsibilities; and.
+(B)	The LECL achieved Initial Energization by December 31, 2026.
+(2)	An LECL that meets the exemption criteria in paragraph (1) above but makes a modification after  November 14, 2025June 30, 2026 November 14, 2025, that meets the criteria in Planning Guide Section 9.2.1 paragraph (1)(b), shall not be exempt from the voltage ride-through requirements.
+(32)	An LECL interconnecting with the ERCOT System shall be required that at least 70% of its load ride through the root-mean-square positive sequence voltage conditions of the magnitude and duration specified in Table A below, as measured at the LECL’s Service Delivery Point, or if the LECL is co-located with a Generation Resource or Energy Storage Resource, at the Point of Interconnection Bus (POIB) of that Resource.  An LECL shall remain connected to the Transmission Grid during voltage conditions requiring ride-through.  Additional LECL performance requirements for voltage conditions requiring ride-through are listed below.  Cooling or mechanical load at the LECL facility may ride through or trip when voltage conditions are below 0.35 p.u. for any duration.
+Table A
+Root-Mean-Square Positive Sequence Voltage
+(p.u. of nominal)
+Minimum Ride-Through Time
+(seconds)
+V > 1.20
+May ride-through or trip
+1.10 < V ≤ 1.20
+2.0 0.51.0
+0.90 ≤ V ≤ 1.10
+Continuous
+0.80 ≤ V < 0.90
+2.0
+0.50 ≤ V < 0.80
+0.5
+0.3520 ≤ V < 0.50
+0.25
+V < 0.3520
+0.021515
+(a)	When voltage at the Service Delivery Point or, if the LECL co-located with a Generation Resource or Energy Storage Resource, at the POIB, remains within the continuous operating range in Table A during a disturbance or exceeds 1.1 per unit and remains below 1.2 per unit for less than 2 0.51.0 seconds for an overvoltage condition, the LECL shall continue consuming active power from the grid at the pre-disturbance level during the disturbance. A tolerance of up to 2% can be applied to overvoltage setting to avoid prolonged overvoltage conditions. 
+(b)	When voltage at the Service Delivery Point or POIB falls below 0.9 per unit but remains above 0.8 per unit and then returns to above 0.9 per unit within 2 seconds, the LECL shall continue consuming active power from the grid during the low voltage condition. In such cases, the LECL may reduce its active power consumption proportional to the voltage drop but shall return to 90% of its pre-disturbance consumption level from the grid within twoone seconds of voltage at the Service Delivery Point or POIB returning to above 0.9 per unit.
+(c)	For any voltage condition at the Service Delivery Point or POIB that an LECL is required to ride-through and involves a voltage condition below 0.8 per unit, the LECL may decrease active power consumption from the grid but shall return to at least 90% of its pre-disturbance consumption level from the grid within twoone seconds of voltage at the Service Delivery Point or POIB returning to above 0.90 per unit.  For purposes of determining compliance with this requirement, if any cooling load at an LECL facility were to trip for voltage conditions below 0.35 p.u. at the Service Delivery Point or POIB, the amount of pre-disturbance cooling load would be subtracted from the total pre-disturbance consumption.  This adjustment applies to the remaining requirements of this Section.  Additional performance requirements for the allowable reduction of consumption in active power when voltage drops below 0.8 per unit are defined as follows:
+(i)	For any LECL that satisfies the requirements in Planning Guide Section 9.5, Interconnection Agreements and Responsibilities,paragraph (1)(b) above after November 14, 2025June 30, 2026 November 14, 2025 but on or before January 1, 2028, if the LECL needs to temporarily reduce active power consumption from the grid to allow the facility to ride through the voltage disturbance in accordance with the performance requirements defined in paragraph (c) above, that reduction in active power shall be proportional to the voltage drop for any voltage between 0.8 and 0.5 per unit at the Service Delivery Point or POIB, if capable.  The LECL may reduce active power consumption as much as needed for voltage drops below 0.5 per unit.  If the LECL equipment is not capable of the performance described above, then the LECL may reduce active power consumption as much as necessary to remain connected to the grid but shall return to pre-disturbance consumption as defined in paragraph (c) above.
+(ii)	For any LECL that satisfies the requirements in Planning Guide Section 9.5paragraph (1)(b) above  after January 1, 2028, the LCEL shall continue consuming active power from the grid when the voltage at the Service Delivery Point or POIB is between 0.8 and 0.5 per unit but may temporarily reduce active power consumption from the grid proportional to the voltage drop.  An LECL that cannot continue consuming active power as described in the previous sentence may implement a load-transfer scheme in accordance with paragraph (e) below.  When the voltage at the Service Delivery Point or POIB is below 0.5 per unit, the LECL may reduce active power consumption as needed to allow the facility to ride through the voltage disturbance in accordance with the performance requirements defined in paragraph (c) above.
+(d)	When a voltage disturbance causes the voltage at the Service Delivery Point or POIB to drop belowoutside the continuous operating range in Table A of paragraph (23) above, an LECL shall not consume electric current during the disturbance at a level that exceeds 125%  150% of its maximum electric current consumption during normal operations.  The allowable overcurrent up to 125% 150% shall only persist during the voltage transient with a duration not to exceed 0.5 seconds. 
+(e)	For undervoltage deviations  outside the continuous operating range specified in Table A of paragraph (23) abovebelow 0.8 p.u. at the LECL’s Service Delivery Point or POIB, an LECL may implement a load-transfer or control stabilization schemeinterval such that the LECL facility begins returning to the grid within 0.25 seconds of voltage at the Service Delivery Point or POIB returning to above 0.9 p.u., and shall returns to at least 90% of its pre-disturbance consumption level within two seconds0.5 seconds of voltage returning to above 0.9 p.u., as measured from the LECL’s Service Delivery Point or POIBfor a duration of up to 250 milliseconds.
+(i)	For LECLs composed of multiple internal devices, one load-transfer or control action per disturbance event per individual device shall be permitted.
+(f)	Notwithstanding the foregoing requirements of this section, before January 1, 2028, an LECL may trip or transfer load for any voltage condition at the Service Delivery Point or POIB above 1.08 p.u. that persists for 5 seconds or greater if needed to protect voltage-sensitive equipment.
+(43)	Nothing in paragraph (23) above shall be interpreted to require an LECL to trip or transfer load to backup generation for voltage conditions beyond those for which ride-through is required.
+(54)	If installed and activated to trip or transfer the LECL, all protection systems (including but not limited to protection for over-/under-voltage) shall enable the LECL to ride-through voltage conditions beyond those defined in paragraph (23) above to the maximum level the equipment allows.
+(65)	If instantaneous over-current or over-voltage protection systems are installed and activated to trip or transfer the LECL, they shall use filtered quantities or time delays to prevent misoperation while providing the desired equipment protection.  Any alternating current instantaneous over-voltage protection that could disrupt the LECL power consumption shall use a measurement window of at least one cycle of fundamental frequency.
+(76)	An LECL shall not implement a load trip or transfer scheme that disconnects or transfers load to backup generation due solely to a certain number of voltage sags or swells within a certain period of time if the LECL is required under paragraph (23) above to ride through each such condition. An exception is load transfer schemes that coordinate with transmission events and recloser operations. If such a load trip or transfer scheme must be activated due to limitations of the equipment, the LECL must be capable of remaining connected to the system for a minimum of six voltage sags or swells within a 90-second period.
+(87)	If ERCOT determines that an LECL has failed to ride through a voltage disturbance in accordance with any requirement in this Section 2.154:
+(a)	The interconnecting TDSP shall provide available information to ERCOT to assist with ERCOT’s event analysis;
+(b)	The Customer representing the LECL shall:
+(i)	Investigate and determine the root cause of the voltage ride-through failure and report the results of the investigation to ERCOT within 90 days of ERCOT’s request;
+(ii)	Develop a plan to ensure the LECL can meet the applicable ride-through performance requirements and submit the plan to ERCOT within 90 days of completion of (i) above; and
+(iii)	Implement the plan upon ERCOT approval within 180 days of (ii) above unless ERCOT approves a longer timeline.
+(c)	Notwithstanding the requirements of paragraph (b) above, if ERCOT determines that the operation of an LECL following a failure to comply with the requirements of this Section 2.154 poses an imminent risk to local or system reliability, ERCOT may require the LECL to disconnect from the ERCOT System and remain disconnected until the Customer representing the LECL has demonstrated to ERCOT’s satisfaction that the LECL can comply with the ride-through performance requirements of this Section.
+

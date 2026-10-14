@@ -1,0 +1,137 @@
+
+NOGRR Number
+282
+NOGRR Title
+Large Electronic Load Ride-Through Requirements
+Date Posted
+November 14, 2025
+
+
+Requested Resolution 
+Normal
+Nodal Operating Guide Sections Requiring Revision 
+2.6.4, Frequency Ride-Through Requirements for Large Electronic Loads (new)
+2.14, Voltage Ride-Through Requirements for Large Electronic Loads (new)
+Related Documents Requiring Revision/Related Revision Requests
+Nodal Protocol Revision Request (NPRR) 1308, Related to NOGRR282, Large Electronic Load Ride-Through Requirements
+Revision Description
+This Nodal Operating Guide Revision Request (NOGRR) establishes frequency and voltage ride-through requirements for Large Electronic Loads.
+Reason for Revision
+  Strategic Plan Objective 1 – Be an industry leader for grid reliability and resilience
+  Strategic Plan Objective 2 - Enhance the ERCOT region’s economic competitiveness with respect to trends in wholesale power rates and retail electricity prices to consumers
+  Strategic Plan Objective 3 - Advance ERCOT, Inc. as an independent leading industry expert and an employer of choice by fostering innovation, investing in our people, and emphasizing the importance of our mission
+  General system and/or process improvement(s)
+  Regulatory requirements
+  ERCOT Board/PUCT Directive
+
+(please select ONLY ONE – if more than one apply, please select the ONE that is most relevant)
+Justification of Reason for Revision and Market Impacts
+The frequency and voltage ride-through requirements in this NOGRR are necessary to ensure Large Electronic Loads do not present a reliability risk to the system by tripping when frequency and voltage excursions within a specified range occur.  ERCOT has identified many events since October 2022 that included Load loss from one or more LELs during a typical voltage disturbance in which system protection operated as designed.  As LELs increase on the ERCOT System, similar events would be expected to increase in magnitude and frequency, leading to frequency instability and other reliability problems absent frequency and voltage ride-through requirements.  ERCOT has also identified ride-through risks associated with other Large Loads and intends to submit a NOGRR to address those risks.  ERCOT anticipates that the requirements for those Large Loads could differ from those proposed in this NOGRR based on differences in the technology of the loads, just as ERCOT’s ride-through requirements for different generating technologies differ from one technology to another.  
+
+Sponsor
+Name
+Patrick Gravois
+E-mail Address
+patrick.gravois@ercot.com
+Company
+ERCOT
+Phone Number
+512-248-4695
+Cell Number
+
+Market Segment
+Not applicable
+
+Market Rules Staff Contact
+Name
+Cory Phillips
+E-Mail Address
+cory.phillips@ercot.com
+Phone Number
+512-248-6464
+
+Proposed Guide Language Revision
+2.6.4	Frequency Ride-Through Requirements for Large Electronic Loads
+(1)	A Customer that proposes to interconnect or maintains an interconnection of a Large Electronic Load (LEL) with the ERCOT System shall ensure the LEL complies with the frequency ride-through requirements of this section, unless:
+(a)	The LEL received approval to energize from ERCOT on or before November 14, 2025; or
+(b)	The LEL satisfied the following requirements on or before November 14, 2025:
+(i)	Its Large Load Interconnection Study (LLIS) has been completed and results communicated in the manner contemplated by paragraph (6) of Planning Guide Section 9.4, LLIS Report and Follow-up; and
+(ii)	The interconnecting TDSP for the LEL has provided the confirmation or letter contemplated in Planning Guide Section 9.5, Interconnection Agreements and Responsibilities.
+(2)	An LEL shall ride through frequency disturbances of the magnitude and duration specified in Table A below, as measured at the LEL’s Service Delivery Point, or if the LEL is co-located with a Generation Resource or Energy Storage Resource, at the Point of Interconnection Bus (POIB) of that Resource.  An LEL is not required to ride-through if it is either performing in accordance with its interconnecting TDSP’s Under-Frequency Load Shed (UFLS) program or providing an Ancillary Service that would require the LEL to trip or reduce consumption due to a frequency disturbance.
+Table A
+
+Frequency (f) in (Hz)
+Minimum Ride-Through Time
+(seconds)
+f > 61.8
+May ride-through or trip
+61.2 < f ≤ 61.8
+299
+58.8 ≤ f ≤ 61.2
+continuous
+57.0 ≤ f < 58.8
+299
+f < 57.0
+May ride-through or trip
+
+(3)	Nothing in paragraph (2) above shall be interpreted to require an LEL to trip or transfer load to backup generation for frequency conditions beyond those for which ride-through is required. 
+(4)	If an LEL is consuming electric current from the grid at the time of the frequency disturbance, the LEL shall continue to consume electric current from the grid during frequency deviations requiring ride-through.  In addition, an LEL should continue to consume active power within 10% of the pre-disturbance level during frequency deviations requiring ride-through.
+(5)	If protection systems are installed and activated to trip the LEL, they shall enable the LEL to ride-through frequency conditions beyond those defined in paragraph (2) above to the maximum level the equipment allows, unless the protection systems are set to respond to an UFLS event or Ancillary Service obligation.
+(6)	If frequency protection schemes are installed and activated to trip an LEL, they shall use filtered quantities or add sufficient time delays to prevent misoperations while providing the desired equipment protection.  Protection schemes shall not trip an LEL based on an instantaneous frequency measurement.
+(7)	If ERCOT determines that an LEL has failed to ride through a frequency disturbance in accordance with any requirement in this Section 2.6.4:
+(a)	The interconnecting TDSP shall provide available information to ERCOT to assist with ERCOT’s event analysis;
+(b)	The Customer representing the LEL shall:
+(i)	Investigate and determine the root cause of the frequency ride-through failure and report the results of the investigation to ERCOT within 90 days of ERCOT’s request;
+(ii)	Develop a plan to ensure the LEL can meet the applicable ride-through performance requirements and submit the plan to ERCOT within 90 days of completion of (i) above; and
+(iii)	Implement the plan upon ERCOT approval within 180 days of (ii) above unless ERCOT approves a longer timeline.
+(c)	Notwithstanding the requirements of paragraph (b) above, if ERCOT determines that the operation of an LEL following a failure to comply with the requirements of this Section 2.6.4 poses an imminent risk to local or system reliability, ERCOT may require the LEL to disconnect from the ERCOT System and remain disconnected until the Customer representing the LEL has demonstrated to ERCOT’s satisfaction that the LEL can comply with the ride-through performance requirements of this Section.
+2.14	Voltage Ride-Through Requirements for Large Electronic Loads
+(1)	A Customer that proposes to interconnect or maintains an interconnection of a Large Electronic Load (LEL) with the ERCOT System shall ensure the LEL complies with the voltage ride-through requirements of this section, unless:
+(a)	The LEL received approval to energize from ERCOT on or before November 14, 2025; or
+(b)	The LEL satisfied the following requirements on or before November 14, 2025:
+(i)	Its Large Load Interconnection Study (LLIS) has been completed and results communicated in the manner contemplated by paragraph (6) of Planning Guide Section 9.4, LLIS Report and Follow-up; and
+(ii)	The interconnecting TDSP for the LEL has provided the confirmation or letter contemplated in Planning Guide Section 9.5, Interconnection Agreements and Responsibilities.
+(2)	An LEL interconnecting with the ERCOT System shall ride through the root-mean-square positive sequence voltage conditions of the magnitude and duration specified in Table A below, as measured at the LEL’s Service Delivery Point, or if the LEL is co-located with a Generation Resource or Energy Storage Resource, at the Point of Interconnection Bus (POIB) of that Resource.  An LEL shall remain connected to the Transmission Grid during voltage conditions requiring ride-through.  Additional LEL performance requirements for voltage conditions requiring ride-through are listed below.
+Table A
+Root-Mean-Square Positive Sequence Voltage
+(p.u. of nominal)
+Minimum Ride-Through Time
+(seconds)
+V > 1.20
+May ride-through or trip
+1.10 < V ≤ 1.20
+2.0
+0.90 ≤ V ≤ 1.10
+Continuous
+0.80 ≤ V < 0.90
+2.0
+0.50 ≤ V < 0.80
+0.5
+0.20 ≤ V < 0.50
+0.25
+V < 0.20
+0.15
+
+When voltage at the Service Delivery Point or, if the LEL co-located with a Generation Resource or Energy Storage Resource, at the POIB, remains within the continuous operating range in Table A during a disturbance or exceeds 1.1 per unit and remains below 1.2 per unit for less than 2 seconds for an overvoltage condition, the LEL shall continue consuming active power from the grid at the pre-disturbance level during the disturbance.
+
+When voltage at the Service Delivery Point or POIB falls below 0.9 per unit but remains above 0.8 per unit and then returns to above 0.9 per unit within 2 seconds, the LEL shall continue consuming active power from the grid during the low voltage condition. In such cases, the LEL may reduce its active power consumption proportional to the voltage drop but shall return to 90% of its pre-disturbance consumption level from the grid within one second of voltage at the Service Delivery Point or POIB returning to above 0.9 per unit.
+
+For any voltage condition at the Service Delivery Point or POIB that an LEL is required to ride-through and involves a voltage condition below 0.8 per unit, the LEL may decrease active power consumption from the grid but shall return to at least 90% of its pre-disturbance consumption level from the grid within one second of voltage at the Service Delivery Point or POIB returning to above 0.90 per unit. Additional performance requirements for the allowable reduction of consumption in active power when voltage drops below 0.8 per unit are defined as follows:
+
+For any LEL that  satisfies the requirements in paragraph (1)(b) above after November 14, 2025 but on or before January 1, 2028, if the LEL needs to temporarily reduce active power consumption from the grid to allow the facility to ride through the voltage disturbance in accordance with the performance requirements defined in paragraph (c) above, that reduction in active power shall be proportional to the voltage drop for any voltage between 0.8 and 0.5 per unit at the Service Delivery Point or POIB, if capable.  The LEL may reduce active power consumption as much as needed for voltage drops below 0.5 per unit.  If the LEL equipment is not capable of the performance described above, then the LEL may reduce active power consumption as much as necessary to remain connected to the grid but shall return to pre-disturbance consumption as defined in paragraph (c) above.
+
+For any LEL that satisfies the requirements in paragraph (1)(b) above after January 1, 2028, the LEL shall continue consuming active power from the grid when the voltage at the Service Delivery Point or POIB is between 0.8 and 0.5 per unit but may temporarily reduce active power consumption from the grid proportional to the voltage drop. When the voltage at the Service Delivery Point or POIB is below 0.5 per unit, the LEL may reduce active power consumption as needed to allow the facility to ride through the voltage disturbance in accordance with the performance requirements defined in paragraph (c) above.
+
+When a voltage disturbance causes the voltage at the Service Delivery Point or POIB to drop outside the continuous operating range in Table A of paragraph (2) above, an LEL shall not consume electric current during the disturbance at a level that exceeds 125% of its maximum electric current consumption during normal operations.
+(3)	Nothing in paragraph (2) above shall be interpreted to require an LEL to trip or transfer load to backup generation for voltage conditions beyond those for which ride-through is required.
+(4)	If installed and activated to trip or transfer the LEL, all protection systems (including but not limited to protection for over-/under-voltage) shall enable the LEL to ride-through voltage conditions beyond those defined in paragraph (2) above to the maximum level the equipment allows.
+(5)	If instantaneous over-current or over-voltage protection systems are installed and activated to trip or transfer the LEL, they shall use filtered quantities or time delays to prevent misoperation while providing the desired equipment protection.  Any alternating current instantaneous over-voltage protection that could disrupt the LEL power consumption shall use a measurement window of at least one cycle of fundamental frequency.
+(6)	An LEL shall not implement a load trip or transfer scheme that disconnects or transfers load to backup generation due solely to a certain number of voltage sags or swells within a certain period of time if the LEL is required under paragraph (2) above to ride through each such condition. 
+(7)	If ERCOT determines that an LEL has failed to ride through a voltage disturbance in accordance with any requirement in this Section 2.14:
+(a)	The interconnecting TDSP shall provide available information to ERCOT to assist with ERCOT’s event analysis;
+(b)	The Customer representing the LEL shall:
+(i)	Investigate and determine the root cause of the voltage ride-through failure and report the results of the investigation to ERCOT within 90 days of ERCOT’s request;
+(ii)	Develop a plan to ensure the LEL can meet the applicable ride-through performance requirements and submit the plan to ERCOT within 90 days of completion of (i) above; and
+(iii)	Implement the plan upon ERCOT approval within 180 days of (ii) above unless ERCOT approves a longer timeline.
+(c)	Notwithstanding the requirements of paragraph (b) above, if ERCOT determines that the operation of an LEL following a failure to comply with the requirements of this Section 2.14 poses an imminent risk to local or system reliability, ERCOT may require the LEL to disconnect from the ERCOT System and remain disconnected until the Customer representing the LEL has demonstrated to ERCOT’s satisfaction that the LEL can comply with the ride-through performance requirements of this Section.
+

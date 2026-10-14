@@ -1,0 +1,3123 @@
+Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+
+
+               California Department of Insurance
+
+ Report of the Smoke Claims and Remediation Task Force
+
+
+
+
+                                     i
+  Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+
+
+Report of the Smoke Claims and Remediation Task Force to Insurance Commissioner
+                  Ricardo Lara and Other Interested Stakeholders
+
+
+
+
+                                Primary authors:
+  Tony Cignarale, Deputy Commissioner, Consumer Services and Market Conduct
+                         Janet An, Senior Staff Attorney
+
+
+
+
+                                March 9, 2026
+
+
+
+
+                                       ii
+       Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+                                                TABLE OF CONTENTS
+
+I.         EXECUTIVE SUMMARY ....................................................................................... 1
+
+II.        DISCUSSION ........................................................................................................ 6
+
+      A.       Background ....................................................................................................... 6
+      B.       Formation of the Smoke Claims and Remediation Task Force ......................... 8
+      C.       Task Force Directives ....................................................................................... 9
+      D.       Key Takeaways from Stakeholder Presentations............................................ 10
+      E.       Legal Landscape............................................................................................. 13
+III.       STAKEHOLDER PRESENTATIONS AND MATERIALS REVIEWED ................. 15
+
+      A.       Public Health ................................................................................................... 15
+           California Department of Public Health (CDPH) Presentation, Dr. June Weintraub,
+           Deputy Director for Environmental Health, Dr. Rita Nguyen, Assistant Public
+           Health Officer, Dr. Jeff Wagner, Chief of Environmental Health Laboratory
+           Branch, November 17, 2025 (Appendix B) .......................................................... 15
+           Dr. Nichole Quick, Chief Science Officer, Los Angeles County Department of
+           Public Health (LACDPH), February 27, 2026 ...................................................... 17
+      B.       Industrial Hygienists and Remediation and Restoration Professionals ........... 19
+           IH Fire Investigation Presentation, Daniel M. Baxter, R. Christopher Spicer, Dr.
+           Richard Wade, October 27, 2025 (Appendix E) .................................................. 20
+           AIHA Technical Guide for Wildfire Impact Assessments for the OEHS
+           Professional, 2nd Edition (Appendix F)................................................................. 21
+           IICRC S700 Standard for Professional Fire and Smoke Damage Restoration, 1st
+           Edition (Appendix G) ........................................................................................... 23
+           IICRC/RIA/CIRI Technical Guide for Wildfire Restoration, Version 2: December 9,
+           2025 (Appendix D) .............................................................................................. 25
+           Jeanine Humphrey, M.A.R.S. Environmental Presentation, December 1, 2025
+           (Appendix I) ......................................................................................................... 28
+           Kris Griffith, Anderson Group International Presentation, December 8, 2025 ..... 29
+           Hamid Arabzadeh, HRA Environmental Consultant Inc., February 27, 2026
+           (Appendix J) ........................................................................................................ 29
+      C.       Survivor Groups and Consumer Advocates .................................................... 30
+           Eaton Fire Residents United (EFRU) Presentation, Nicole Maccalla, PhD, Jane
+           Lawton Potelle, Dawn Fanning, October 13, 2025 (Appendix K) ......................... 30
+
+
+                                                                 iii
+      Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+            Department of Angels Presentation, Director, Christine Kwon, Tina Luu,
+            December 1, 2025 (Appendix L) .......................................................................... 31
+            LA Standing Homes Letter to Task Force, February 4, 2026 (Appendix M) ........ 32
+  D.            Academics ...................................................................................................... 34
+            Purdue University, Dr. Andrew J. Whelton, Eric Bollens Presentation, October 13,
+            2025, and Related Publications (Appendix N) ..................................................... 34
+  E.            Insurance Industry .......................................................................................... 36
+            APCIA Presentation, Karen Collins, Vice President, Property and Environmental
+            Policy, Research and International, January 12, 2026 (Appendix O) .................. 38
+            California Wildfire Smoke Claims – Insurance Industry Policy Blueprint (Appendix
+            P) ......................................................................................................................... 41
+  F.            Legal Perspective ........................................................................................... 42
+            Laura Geist, Esq., Willkie, Farr & Gallagher LLP, California Legal Landscape for
+            Wildfire Smoke Claims, January 20, 2026 (Appendix Q) ..................................... 42
+            Kevin Pollack, Esq., ACTS Law LLP, Smoke Damage in California, The Law, The
+            Science, and The Claim Handling Crisis, January 20, 2026 (Appendix R) .......... 44
+  G.    Colorado Wildfire Remediation Analysis Residential Premises and Insurance
+  Impacts Draft Report, November 18, 2025 (Appendix T) ........................................... 45
+       1. UP’s October 24, 2025 Feedback Regarding Colorado’s Smoke Study
+       Stakeholder Meeting on October 20, 2025 (Appendix U) ....................................... 48
+       2.       APCIA Comments on Colorado’s Draft Report, December 11, 2025 (Appendix
+       V)       49
+       3. NAMIC Comments on Colorado’s Draft Report, December 16, 2025 (Appendix
+       W) 50
+       4.       UP Comments on Colorado’s Draft Report, December 16, 2025 (Appendix X)
+                51
+       5.       CDPH Review of Colorado’s Draft Report (Appendix Y) ................................. 51
+  H.      CDI Summary Presentation by Deputy Commissioner, Tony Cignarale, CDI’s
+  Draft Issues and Preliminary Recommendations, January 26, 2026 (Appendix Z) .... 52
+IV.         OTHER CONSIDERATIONS ............................................................................... 55
+
+V.          CONCLUSION .................................................................................................... 56
+
+
+
+
+                                                                     iv
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+                                 APPENDICES
+
+
+Appendix A        Task Force Members and Bios
+
+Appendix B        CDPH Presentation to CDI Smoke Claims Taskforce, 11/17/25
+
+Appendix C        LACDPH, “Insurance, Smoke Damage and Professional
+                  Assessments”
+
+Appendix D        IICRC/RIA/CIRI Wildfire Position Statement, 10/9/25
+
+                  IICRC/RIA/CIRI Technical Guide for Wildfire Restoration,
+                  Version 1: 11/2025
+
+                  IICRC/RIA/CIRI Technical Guide for Wildfire Restoration,
+                  Version 2: 12/9/25
+
+Appendix E        IH Fire Investigation Presentation, 10/27/25
+
+Appendix F        AIHA Technical Guide for Wildfire Impact Assessments for the
+                  OEHS Professional, 2nd Edition
+
+Appendix G        IICRC S700 – 2025, Standard for Professional Fire and Smoke
+                  Damage Restoration, First Edition
+
+Appendix H        IICRC S760, Draft Standard for Professional Wildfire
+                  Investigations and Restoration of Impacts to Structures,
+                  Systems, and Contents (2023)
+
+Appendix I        Jeanine Humphrey, M.A.R.S. Environmental, Post-Fire
+                  Inspections Presentation, 12/1/25
+
+Appendix J        Hamid Arabzadeh, HRA Environmental Consultant Inc., 2/27/26
+
+Appendix K        Eaton Fire Residents United (EFRU) Presentation, 10/13/25
+
+Appendix L        Department of Angels, Community Voices: LA Fire Recovery
+                  Report, 10/2025
+
+Appendix M        LA Standing Homes Letter to the Task Force, 2/4/26
+
+Appendix N        Dr. Whelton’s Opinion Letter to CDI, 10/16/25
+
+                  Presentation Slides, 10/13/25
+
+
+
+                                        v
+  Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+                 “Community Survey Report: The REBUILD survey conducted
+                 in response to the January 2025 Palisades Fire and Eaton Fire
+                 in Los Angeles County”, 9/19/25
+
+                 “After a Wildfire: Considerations for Building Environmental
+                 Testing”, 9/9/25
+
+                 LACDPH Public Health Advisory, 2/11/25
+
+Appendix O       APCIA Presentation, Karen Collins, Vice President, Property
+                 and Environmental Policy, Research and International, 1/12/26
+
+Appendix P       California Wildfire Smoke Claims – Insurance Industry Policy
+                 Blueprint
+
+Appendix Q       Laura Geist, Esq., Willkie, Farr & Gallagher LLP, California
+                 Legal Landscape for Wildfire Smoke Claims, 1/20/26
+
+Appendix R       Kevin Pollack, Esq., ACTS Law LLP, Smoke Damage in
+                 California, The Law, The Science, and The Claim Handling
+                 Crisis, 1/20/26
+
+Appendix S       Letter to CDI from Richard L. Wade, PhD, MPH in response to
+                 Mr. Pollack’s presentation on 1/20/26
+
+Appendix T       Colorado Wildfire Remediation Analysis Residential Premises
+                 and Insurance Impacts Draft Report, 11/18/25
+
+Appendix U       UP’s 10/24/25 Feedback Regarding Colorado’s Smoke Study
+                 Stakeholder Meeting on 10/20/25
+
+Appendix V       APCIA Comments on Colorado’s Draft Smoke Study Report,
+                 12/11/25
+
+Appendix W       NAMIC comments on Colorado’s Draft Smoke Study Report,
+                 12/16/25
+
+Appendix X       UP Comments on Colorado’s Draft Smoke Study Report,
+                 12/16/25
+
+Appendix Y       CDPH Review of Colorado’s Draft Smoke Study Report
+
+Appendix Z       CDI’s Draft Issues and Preliminary Recommendations
+                 Presented to the Smoke Claims and Remediation Task Force,
+                 1/26/26
+
+
+
+                                       vi
+     Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+                                     ACRONYMS
+
+ACAC          American Council for Accredited Certification
+
+AIHA          American Industrial Hygiene Association
+
+ALE           Additional Living Expenses
+
+APCIA         American Property Casualty Insurance Association
+
+ASTM          American Society for Testing and Materials
+
+CAM           California Administrative Manual
+
+CBCs          Combustion Byproducts of Concern
+
+CBPs          Combustion Byproducts
+
+CDI           California Department of Insurance
+
+CDPH          California Department of Public Health
+
+CIC           California Insurance Code
+
+CIRI          Cleaning Industry Research Institute
+
+COCs          Chemicals of Concern; Contaminants of Concern
+
+DTSC          California Department of Toxic Substances and Controls
+
+EFRU          Eaton Fire Residents United
+
+FRV           Fair Rental Value
+
+IH            Industrial Hygienist
+
+IICRC         Institute of Inspection, Cleaning, and Restoration Certification
+
+LACDPH        Los Angeles County Department of Public Health
+
+NAMIC         National Association of Mutual Insurance Companies
+
+NIOSH         National Institute for Occupational Safety and Health
+
+OEHS          Occupational and Environmental Health and Safety
+
+
+
+                                           vii
+     Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+OSHA          U.S. Occupational Safety and Health Administration
+
+PAHs          Polycyclic Aromatic Hydrocarbons
+
+PFAS          Per- and Polyfluoroalkyl Substances
+
+PFOS          Perfluorooctane Sulfonate
+
+PIFC          Personal Insurance Federation of California
+
+PPE           Personal Protective Equipment
+
+RCRA          Resources Conservation and Recovery Act
+
+RIA           Restoration Industry Association
+
+RWP           Restoration Work Plan
+
+SCA           Soot, Char, Ash
+
+SVOCs         Semi-Volatile Organic Compounds
+
+UP            United Policyholders
+
+USEPA         U.S. Environmental Protection Agency
+
+VOCs          Volatile Organic Compounds
+
+WUI           Wildland-Urban Interface
+
+
+
+
+                                          viii
+           Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+I.         EXECUTIVE SUMMARY
+
+     In January 2025, California experienced the Eaton Fire and Palisades Fire, which
+     combined have been recognized as the largest urban disaster in state history, claiming
+     a reported 31 lives and damaging and destroying thousands of homes and businesses.
+     In addition to completely destroyed homes, condominiums, and apartments, thousands
+     of residential properties suffered damage from wildfire smoke, soot, char, and ash
+     (SCA), combustion byproducts (CBPs), and contaminants of concern (COCs), including
+     lead, asbestos, heavy metals, and other toxic substances.
+
+     According to data received from insurers, the California Department of Insurance (CDI)
+     estimates that more than 40,000 insurance claims were filed as a result of the January
+     2025 fires, and of those claims, more than 13,000 involved standing homes that
+     sustained smoke damage. To date1, insurers have paid more than $22 billion towards
+     the January 2025 wildfires claims. At the same time, the CDI has received complaints
+     from policyholders regarding the handling of smoke damage claims, including disputes
+     over the scope of investigation, claims being denied or reduced, the extent of
+     remediation, and whether homes have been sufficiently restored to pre-loss condition.
+     Some policyholders have reported feeling pressured to return to homes that they have
+     reason to believe are unsafe and facing significant out-of-pocket costs to test and
+     restore their properties to pre-loss condition. Some of the reported concerns can be
+     traced to conflicting views on the extent of testing that is required and methodology (i.e.,
+     how and where samples should be taken), a lack of uniform standards for sampling,
+     testing, and analytical methods, restoration methods, allegations of biased experts, and
+     differences in smoke damage claims adjusting practices that have resulted in
+     inconsistent claims handling, denials, and disputes. Insurance industry representatives
+     state that claim outcomes have varied based on the specific facts of each loss, the
+     methodologies used by environmental and restoration professionals, and the applicable
+     policy language.
+
+     In May 2025, Commissioner Lara directed the CDI to convene a Smoke Claims and
+     Remediation Task Force to investigate the issues related to smoke damage claims and
+     to provide recommendations. Over the past several months, the Task Force heard
+     presentations from numerous stakeholders, including impacted homeowners and
+     survivor groups, consumer advocates, academics, industrial hygienists, restoration
+     specialists, local and state public health experts, insurance industry representatives, an
+     attorney on behalf of policyholders, and an attorney on behalf of the insurance industry,
+     to better understand these issues. The Task Force also reviewed written materials,
+     including academic literature, technical guides, and the Draft Report from the Colorado
+     Division of Insurance on their Wildfire Remediation Analysis (which has since been
+     withdrawn) to determine if any of its recommendations could inform California’s
+     approach.
+
+     Stakeholder presentations revealed stark differences of opinion, particularly with respect
+     to the role and necessity of environmental testing; survivor groups and consumer
+     1
+         LA County Wildfire Claims Tracker, updated November 17, 2025
+
+                                                        1
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+advocates have questioned the integrity of some experts that insurers are using to
+evaluate and remediate smoke damage. Survivor groups, policyholder and consumer
+advocates, some academics, and some industrial hygienists (IHs) argue that pre- and
+post-remediation testing for SCA, lead, asbestos, and a comprehensive panel of COCs
+should be routine protocol in all cases after a wildland-urban interface (WUI) fire or
+urban conflagration, and that a home that experiences smoke infiltration should be
+considered a smoke-damaged home that requires proper remediation and restoration
+by qualified independent professionals rather than superficial cleaning. Other IH and
+restoration trade groups, as well as insurance industry representatives, emphasized that
+pre-remediation testing is not always necessary in every case and supported a more
+situational, property-specific approach. These stakeholders generally supported the
+concept that visible evidence of SCA as surrogates for smoke impact, combined with
+professional inspection and evaluation, should inform the scope of remediation, with
+targeted testing used, as appropriate, to assess the effectiveness of remediation, rather
+than as an indicator of health risk.
+
+Public health experts on the Task Force cautioned that the mere presence of a
+contaminant in a home does not equal exposure or a health impact and that the focus
+should be on mitigation and limiting exposure, rather than on testing, because of the
+lack of residential health-based standards and the lack of data on background
+contamination (i.e., what contaminants were present in or around the home before the
+fire and at what levels). However, the Task Force also heard presentations by and on
+behalf of property owner advocates disputing that proposition, suggesting that an
+insurer’s legal obligation is to restore homes to pre-loss condition, the toxic particulates
+found in homes could not have been present before the January 2025 fires, and
+insurers did not conduct background testing before insuring those homes so they
+cannot legally impose a new condition that is not set forth in their policies.
+
+Insurance industry representatives described the operational and legal challenges
+associated with a significant increase in smoke damage claims in recent years,
+including the scale and geographic reach of WUI fires, uncertainty arising from the
+absence of uniform residential standards and protocols for evaluating and remediating
+wildfire smoke impacts, and competing expectations regarding claims handling and
+affordability of insurance. They also raised concerns regarding what they described as
+aggressive, high-pressure solicitation tactics used by some public adjusters, attorneys,
+and vendors, which can contribute to questionable claims, late-filed claims, and claims
+involving homes that are unreasonably far removed from the burn zone. Industry
+representatives further noted that public fear has been amplified, in part, by what they
+described as sensational media coverage and the increasing reliance on medical
+toxicology approaches that are intended to evaluate individual health effects, but that
+are being misapplied without validated residential benchmarks, exposure context, or
+clear relevance to determining appropriate testing and remediation following wildfires.
+Finally, they emphasized the need to balance expectations for smoke remediation with
+the broader goal of maintaining affordable and available property insurance coverage in
+California.
+
+
+
+                                              2
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+Public health experts also noted that some media coverage has equated the presence
+of contaminants to health harms without proper context of what various levels detected
+may or may not mean and often reference health harms that could occur with acute,
+high-level exposure, which is an inappropriate comparison to chronic low levels over
+time.
+
+Consumer advocates countered that some insurers are using what they characterized
+as “science for hire” - what they described as experts who receive considerable income
+from insurers and who minimize smoke damage claims. Property owners and consumer
+advocates also shared information about wildfire survivors whose insurers have cut off
+or threatened to cut off their Additional Living Expense (ALE) benefits, despite the fact
+that they have not received written assurance from a qualified expert that their home is
+safe and habitable and that they will not be exposed to harmful substances if they move
+back in.
+
+After hearing the presentations and reviewing the written materials, the Task Force was
+able to reach a general consensus on some of the broader, overarching issues, with
+some exceptions. However, disagreement persists on other issues and the specifics of
+how to address smoke damage claims. Some of the key takeaways from the Task
+Force’s work, including some general areas of agreement and disagreement, are
+highlighted below:
+
+   •   Wildfire smoke exposure resulting from a WUI fire, which spreads into densely
+       populated areas, particularly in a large-scale disaster such as the January 2025
+       fires, contains greater potential for COCs and other toxins than a typical wildland
+       fire.
+
+   •   While some wildfire smoke byproducts and COCs dissipate on their own, some
+       do not, and if not remediated, may cause permanent physical damage to
+       property and may pose potential short-term and long-term health concerns
+       (although this is an area of emerging research according to several members of
+       the Task Force, including public health experts). Some IHs explain that in post-
+       wildfire environments, airborne concentrations of most volatile CBPs rapidly
+       decline once active smoke intrusion ceases, due to dilution, ventilation, and
+       atmospheric degradation. Semi-volatile compounds may persist on surfaces for a
+       period of time but also generally decrease through ventilation, cleaning, and
+       normal environmental degradation. However, particulate-bound residues (e.g.,
+       SCA and associated metals) do not dissipate and will remain on interior surfaces
+       until physically removed. Thus, some IHs posit that the potential for exposure is
+       primarily governed by measurable surface loading, distribution, and the likelihood
+       of disturbance or resuspension, rather than the historical presence of wildfire
+       smoke. Furthermore, some IHs and insurance representatives assert that each
+       home must be evaluated by a qualified professional to determine the actual
+       impact of wildfire smoke.
+
+
+
+
+                                            3
+Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+•   Survivor groups, consumer advocates, some academics, and some IHs who
+    presented to the Task Force contend that pre-remediation testing determines
+    what substances need to be cleaned and remediated and what restoration needs
+    to be done.
+
+•   Standards for acceptable or harmful indoor air levels of lead and asbestos exist.
+    However, standards for many of the other COCs found in homes post-WUI fires
+    or urban conflagrations do not exist and must be developed as soon as
+    practicable.
+
+•   When post-remediation clearance testing is done, it should be conducted as
+    soon as possible after remediation and restoration to confirm the effectiveness of
+    remediation and to determine the need for additional remediation. Some argue
+    that where the results of such testing show remaining toxins, there must be
+    additional remediation and repeated clearance testing. However, insurance
+    industry representatives assert that once remediation and restoration are
+    complete, insurers’ obligations are fulfilled under their policies.
+
+•   The Task Force discussed the concept of developing a tiered classification
+    system for smoke damage claims with different inspection, testing, and
+    restoration protocols for each designated tier. It was generally agreed that this
+    tiering could be a useful conceptual approach to promote consistency and
+    efficiency in smoke damage claims handling. It was also generally agreed that
+    homes in and near a burn zone are the most impacted by wildfire smoke and
+    may warrant more robust inspection, testing, and remediation. However, there
+    was disagreement regarding the specifics of how a tiered classification should be
+    developed, including the appropriate parameters for defining zones and whether
+    automatic sampling, testing, and remediation requirements should apply. For
+    instance, some members of the Task Force argued that pre-remediation testing
+    should not be required for homes in and near the burn zone and that remediation
+    should be the first step. Some members also expressed the need for flexibility
+    even within a tiered classification so that homes can be evaluated individually.
+
+•   Training and certification programs should be developed and implemented by the
+    appropriate governmental agencies with jurisdiction over the various individuals
+    involved in the smoke damage claims and restoration process, including
+    independent and staff insurance adjusters, public adjusters, industrial hygienists,
+    field testers, smoke remediation experts, restoration contractors, and testing
+    laboratories. This will provide more reliability, safety, uniformity and consistency
+    related to smoke damage testing, remediation, restoration, clearance testing, and
+    insurance claims handling.
+
+•   Training and certification programs, and associated protocols, should ensure that
+    all individuals involved in the smoke damage claims and restoration process are
+    aware of, and abide by, existing occupational and hazardous waste safety
+    regulations and the proper use of personal protective equipment (PPE).
+
+                                          4
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+Implementing these concepts will require a multi-pronged approach with involvement by
+various governmental agencies at the local and state level, as well as stakeholder input,
+and will likely require a combination of regulatory and legislative action.
+
+Thus, the purpose of this Report is to lay out the Task Force’s investigation of the
+issues, identify gaps that need to be filled, and make general recommendations
+regarding potential concepts that could be further developed and implemented to
+address residential smoke damage claims resulting primarily from WUI fires which
+spread into densely populated areas, such as the January 2025 fires.
+
+
+
+
+                                            5
+      Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+II.   DISCUSSION
+
+      A. Background
+
+  The Eaton Fire and Palisades Fire in January 2025 destroyed entire neighborhoods in
+  densely urban areas of Los Angeles County, emitting large plumes of wildfire smoke,
+  soot, char, ash, combustion byproducts, and contaminants that were carried far
+  distances by strong winds over several days. More than 13,000 smoke damage
+  insurance claims were filed as a result. The CDI has received complaints from survivors
+  regarding the handling of their smoke damage claims, including disputes over indoor air
+  quality and environmental testing, cleaning, remediation and restoration of their homes
+  and personal property, and with regard to payment and termination of ALE and loss of
+  use benefits. Survivor groups and consumer advocates assert that some insurers are
+  adjusting smoke damage claims by attempting to clean personal and real property
+  without first conducting testing to determine what contaminants are present and require
+  removal and which building materials and contents are contaminated and can be
+  cleaned or must be replaced. They assert that in some cases, insurers are using
+  vendors who “clean” items that cannot be cleaned. The Task Force heard from some
+  presenters that contaminants have been found in soft goods (e.g., bedding, clothing,
+  upholstered furniture, toys, curtains, rugs), which they argue must be tested and
+  oftentimes replaced and, in some cases, hardwood flooring, drywall, and HVAC
+  systems with flexible ducting, which they argue require removal and restoration.
+  Consumer advocates state that there are myriad disputes, which are currently being
+  litigated, related to some insurers’ alleged use of smoke damage claims handling
+  protocols that begin with cleaning instead of testing, failing to remediate contaminants
+  that are present, denying necessary demolition and repair work, and not restoring
+  damaged properties to pre-loss condition.
+
+  In some cases, these disputes have resulted in survivors paying out-of-pocket for what
+  they believe is necessary testing of their homes to determine whether they are safe and
+  habitable. In some instances presented to the Task Force, testing has shown the
+  presence of contaminants of concern (COCs) inside homes, including lead, heavy
+  metals, asbestos, volatile organic compounds (VOCs), semi-volatile organic compounds
+  (SVOCs), and other substances. Survivor groups and consumer advocates argue that
+  many of the COCs that are being found in homes in the vicinity of the Los Angeles fires
+  are not typically found in homes and that, while there are standards for unsafe levels of
+  lead and asbestos, there are no standards for unsafe levels of other fire-related COCs,
+  yet they are, according to these groups, known to be harmful to human health.
+  Insurance industry representatives contend, however, that with no pre-fire home testing,
+  the extent to which testing results are attributable to the January 2025 fires is unclear.
+  The lack of residential health-based screening levels for many of the COCs found in
+  homes post-wildfire is making it difficult to establish a baseline or target level to restore
+  and clear a home for habitation. Sampling methods, testing locations, restoration
+  methods, and smoke damage claims handling have been inconsistent. Insurance
+  industry representatives report that claims outcomes have varied depending on the
+  specific facts of a claim, the methods employed by environmental and restoration
+
+                                                6
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+professionals, and the applicable policy language. They state that in evaluating smoke
+damage claims and determining whether coverage is triggered under a policy, insurers
+generally consider the applicable policy language, relevant statutory requirements, and
+California legal precedent, including more recent judicial decisions interpreting the
+phrase “direct physical loss or damage” in insurance policies. They state that in some
+instances, the evaluation results in claims being denied based on an insurer’s
+conclusion that smoke did not cause direct physical loss or damage sufficient to trigger
+coverage. However, this interpretation and application of “direct physical loss or
+damage” to deny smoke damage claims has been the subject of several judicial
+decisions and has been disputed by property owners, consumer advocates, and
+policyholder attorneys. The CDI issued a Bulletin in March 2025 to remind insurers
+about their obligations to fully and fairly investigate and pay covered smoke damage
+claims.
+
+Due to the continuing concerns raised by survivors with standing homes, in May 2025,
+Commissioner Lara directed the CDI to convene a Smoke Claims and Remediation
+Task Force to investigate the issues related to smoke damage claims and to provide
+recommendations. Over the past several months, the Task Force heard presentations
+from numerous stakeholders, including survivor groups and consumer advocates,
+academics, industrial hygienists, remediation and restoration specialists, local and state
+public health experts, insurance industry representatives, an attorney on behalf of
+policyholders, and an attorney on behalf of insurers, to better understand these issues.
+The Task Force also reviewed written materials, including academic literature, technical
+guides, and the Draft Report from the Colorado Division of Insurance on their Wildfire
+Remediation Analysis, which has since been withdrawn, to determine if any of its
+recommendations could inform California’s approach.
+
+Stakeholder presentations revealed differences of opinion, particularly with respect to
+the critical issue of testing. Survivor groups, policyholder and consumer advocates,
+some academics, and some industrial hygienists (IHs) argue that automatic pre- and
+post-remediation testing for a defined panel of COCs is necessary in all cases and that
+any home that experiences smoke infiltration should be considered a smoke-damaged
+home that requires proper restoration by a qualified professional rather than superficial
+cleaning. Eaton Fire Residents United (EFRU) presented their compiled data showing
+the presence of lead and asbestos inside homes even after remediation and the
+presence of heavy metals both in and outside of the Eaton Fire burn zone. Other IH and
+restoration trade groups, as well as insurance industry representatives, opined that pre-
+remediation testing is not always necessary in every case and supported a more
+situational, property-specific approach. These stakeholders generally support the
+concept that visible evidence of SCA as surrogates for smoke impact, combined with
+professional inspection and evaluation, should inform the scope of remediation, with
+targeted testing used, as appropriate, to assess the effectiveness of restoration, rather
+than as an indicator of health risk. They also assert that most smoke-damaged homes,
+especially those far from the burn zone, can be restored to pre-loss condition.
+
+
+
+
+                                            7
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+Public health experts and other stakeholders asserted that the mere presence of a
+contaminant in a home does not equal exposure or health impact and that the focus
+should be on mitigation and limiting exposure, rather than on testing, because of the
+lack of residential health-based standards and the lack of data on background
+contamination or baseline levels pre-fire.
+
+Insurance industry representatives described operational and legal challenges
+associated with a significant increase in smoke damage claims in recent years,
+including the scale and geographic reach of WUI fires, uncertainty arising from the
+absence of uniform residential standards and protocols for evaluating and remediating
+wildfire smoke impacts, and competing expectations regarding claims handling and
+affordability. They also raised concerns regarding what they described as aggressive,
+high-pressure solicitation tactics used by some public adjusters, attorneys, and vendors,
+which can contribute to questionable claims, late-filed claims, and claims involving
+homes that are unreasonably far removed from the burn zone. Industry representatives
+further suggested that public fear has been amplified, in part, by sensational media
+coverage and the increasing reliance on medical toxicology approaches that are
+intended to evaluate individual health effects, but that are being misapplied without
+validated residential benchmarks or clear relevance to determining appropriate testing
+and remediation. Finally, they emphasized the need to balance expectations for smoke
+remediation with the broader goal of maintaining affordable and available property
+insurance coverage in California. Public health experts also noted that some media
+coverage has equated the presence of contaminants to health harms without proper
+context of what various levels detected may or may not mean and often reference
+health harms that could occur with acute, high-level exposure, which is an inappropriate
+comparison to chronic low levels over time.
+
+   B. Formation of the Smoke Claims and Remediation Task Force
+
+In the wake of the January 2025 fires, and in response to some insurers’ reliance on
+recent court opinions in their handling of smoke damage claims, the CDI issued a
+Bulletin on March 7, 2025 setting forth its expectations as to how insurers are required
+to handle those claims. In short, the Bulletin advised that evidence that wildfire smoke
+has caused damage to an insured property must be fully and fairly investigated. When
+an insured makes a smoke damage claim, the insurer is required to act promptly and
+reasonably and to adopt and implement reasonable standards for the investigation and
+processing of the claim. It is not reasonable to deny a smoke damage claim without
+conducting an appropriate investigation, nor is it reasonable for an insurer to require the
+insured to incur substantial costs to investigate their own claim.
+
+While property insurance policies (that cover the peril of fire) cover the resulting smoke
+damage, the extent to which insurers are covering environmental testing and restoration
+of properties has been inconsistent. While individual insurer practices vary, the CDI has
+received complaints indicating that some insurers have taken a hardline approach and
+do not pay for any testing while offering an insufficient amount for superficial cleaning
+rather than full remediation and restoration of the home. The lack of residential health-
+
+                                             8
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+based screening standards for many of the COCs found in homes post-wildfire, the lack
+of standards for sampling, testing, and analytical methods and remediation methods,
+and the lack of uniform protocols for the handling of smoke damage insurance claims
+has led to confusion, delays, and unequal treatment of policyholders.
+
+Determining the proper level of testing and remediation for smoke damage is made
+more challenging due to the fact that there are a number of factors that affect the
+degree of smoke damage, including characteristics of the home such as the presence
+and type of attic vents and window types, as well as e varying wind and weather
+patterns and the location of the property, which all affect the severity of smoke damage.
+
+To provide clarity and assurances to the many stakeholders involved, Commissioner
+Lara directed the CDI to establish and convene the Smoke Claims and Remediation
+Task Force comprising members representing consumers, public health, fire safety,
+local governments, environmental health, industrial hygienists, remediation and
+restoration specialists, and the insurance industry to provide a range of perspectives
+and to make recommendations, where possible, for the development of uniform,
+science-based, equitable standards for the inspection, testing, and remediation of
+residential properties that have been damaged by smoke due to wildfire. (Appendix A.)
+
+   C. Task Force Directives
+
+The primary goals of the Task Force were to:
+
+   •   Evaluate the existing methods of inspecting, testing, and remediating residential
+       properties damaged by wildfire smoke;
+   •   Make recommendations, where possible, regarding best practices and standards
+       for inspection, testing, and remediation of smoke-damaged properties with
+       consideration for how those standards may impact the residential property
+       insurance market in California and how to mitigate the submission of fraudulent
+       or frivolous smoke damage claims;
+   •   Determine whether standard guidelines could be developed for whether smoke-
+       damaged properties are below, at, or above, established levels for the health and
+       safety of occupants;
+   •   Evaluate potential standards for insurers to effectively meet their obligation to
+       remediate and to cover the reasonable cost of remediation of smoke-damaged
+       properties;
+   •   Determine which state and local government agencies should be involved in
+       creating and enforcing those standards.
+
+Several questions were considered by the Task Force regarding the crux of the issues,
+testing and remediation, including:
+
+   •   Is pre-remediation testing a necessary first step to determine a proper
+       remediation plan and to ensure worker safety?
+
+
+                                            9
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+   •   Is post-remediation (clearance) testing necessary to determine the effectiveness
+       of remediation, to determine if additional remediation is necessary, and to clear
+       the home for habitation?
+   •   For both pre- and post-remediation testing, should certain COCs be automatically
+       tested for and, if so, what testing levels are considered safe or unsafe?
+   •   What is the best practice to address soft goods (e.g., clothes, bedding)? Should
+       soft goods that are objectively exposed to smoke automatically be deemed a
+       total loss and replaced by insurers, or should an attempt be made to clean soft
+       goods before considering replacement?
+   •   If, after initial remediation is completed, additional remediation is necessary, who
+       should be responsible? When does the insurer’s obligation under the policy end?
+
+Over the past several months, the Task Force heard presentations from a diverse group
+of stakeholders, providing a wide range of perspectives and opinions on these issues,
+and engaged in robust discussion in an effort to identify areas of consensus and to
+make recommendations to the Commissioner. The Task Force also reviewed written
+materials, including technical guides, academic literature, and Colorado’s Draft Report
+(discussed in Section III, G) to determine whether any recommendations could inform
+California’s approach. Although there were some general areas of consensus, there
+was also disagreement on the specifics of how to properly address the issues related to
+smoke damage claims.
+
+   D. Key Takeaways from Stakeholder Presentations
+
+Given the complexity of the issues surrounding wildfire smoke damage claims, the Task
+Force heard presentations by a diverse array of stakeholders to better understand the
+scientific, technical, legal, and practical considerations involved and to inform the Task
+Force’s work, as well as for consideration by the Commissioner in deciding appropriate
+next steps.
+
+The Task Force heard from survivor groups about the many challenges they have
+experienced in navigating some insurers’ handling of smoke damage claims, including
+disputes related to environmental testing and remediation, the scope and timing of
+claims investigations, claim denials, delays, reduced settlement offers, the handling of
+personal property, and the administration of ALE payments. Eaton Fire Residents
+United (EFRU) presented data that they have compiled from pre- and post-remediation
+testing of homes in Altadena which they assert showed positive results for lead and
+asbestos even after remediation. They also presented data that they suggest showed
+high levels of heavy metals found both inside and outside of the Eaton burn zone, and
+some levels of heavy metals that stayed the same or increased in positivity even after
+remediation. However, other stakeholders, including the insurance industry, raised
+questions regarding the interpretation of those findings, including the role of background
+contamination and re-entrainment and methodological differences across testing
+protocols.
+
+
+
+
+                                            10
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+Survivor groups, policyholder and consumer advocates, some industrial hygienists, and
+some academics who presented to the Task Force have called for automatic pre- and
+post-remediation testing to develop a proper remediation plan, ensure worker safety,
+determine the effectiveness of remediation, and clear the home for habitability. They
+argue that there should be thorough sampling throughout any home that experiences
+smoke infiltration, including areas that cannot be evaluated based on visual inspection
+alone, with testing for a specified panel of COCs, including, but not limited to, lead,
+asbestos, heavy metals, VOCs, SVOCs, and other known carcinogens, and that a
+smoke-damaged home requires thorough remediation by a qualified professional, rather
+than superficial cleaning by the homeowner, inexperienced contractor, or general
+cleaning service.
+
+In contrast, the Task Force heard from members of some IH and restoration trade
+groups, such as the American Industrial Hygiene Association (AIHA), who argued that
+pre-remediation testing is not necessary in every case, especially for homes farther
+away from the burn zone, and that exhaustive sampling and testing may not be
+necessary. They take the position that SCA has historically been, and can continue to
+be used, as surrogates for testing purposes and that if there is evidence of SCA
+attributable to a wildfire and differentiated from background contamination, it can be
+assumed that COCs are present as well without confirmatory testing, which can add
+unnecessary costs and reduce the policy limits available for remediation. They stress
+that each property in each fire must be evaluated on a case-by-case basis and that the
+purpose of testing should be to determine the effectiveness of remediation rather than
+to assess health risk. They point to existing industry technical guides, such as the AIHA
+Technical Guide and the more recent IICRC Technical Guide, which they state
+establishes an existing framework for the evaluation and restoration of wildfire smoke
+impact utilizing the concept of time and distance from the burn zone with different
+protocols for each zone (i.e., burn zone, near-field zone, far-field zone).
+
+The Task Force also heard from insurance industry representatives, whose
+perspectives were generally aligned with those of the IH and restoration trade groups
+discussed above regarding the evaluation, testing, and remediation of smoke damage
+and generally supported the use of their technical guides. Insurance industry
+representatives emphasized that claim evaluation must remain grounded in applicable
+policy language and long-standing coverage principles, noting that property insurance is
+designed to address direct, physical damage and loss to structures and contents, not to
+insure against speculative or subjective health risks. They cautioned that approaches
+which decouple testing and remediation expectations from observable property
+conditions and contractual terms can erode necessary guardrails, introduce subjectivity,
+and expand exposure beyond what property insurance policies are designed or priced
+to cover.
+
+They also discussed the challenges associated with the scale and complexity of recent
+wildfires, including a substantial increase in smoke damage-only claims, a higher
+incidence of claims presenting questions regarding causation and scope, late-filed
+claims, and claims involving homes far from the burn zones. They noted that these
+
+                                           11
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+trends, combined with the absence of validated residential thresholds to interpret testing
+results, have complicated claim evaluation and contributed to greater variability and
+dispute. In their view, detection alone – without defined, science-based benchmarks
+indicating damage, risk, or a clear endpoint for restoration – does not provide a reliable
+basis for determining coverage obligations or remediation scope. They further raised
+concerns about the increasing reliance on medical toxicology analyses and screening
+values which they believe are being misapplied outside their appropriate context,
+particularly where methodologies developed for occupational, regulatory, or site-specific
+health evaluations are used to determine residential property damage or remediation
+scope. They emphasized that, without validated residential benchmarks, sufficient
+consideration of exposure pathways, background conditions, or clearly defined
+restoration thresholds, such approaches risk being misapplied for purposes they were
+not designed to serve.
+
+Industry representatives also cautioned that deviation from relevant and scientifically
+credible standards may pose regulatory and legal risks not only for insurers, but also for
+policymakers and governing bodies. The application of such approaches – particularly
+when coupled with aggressive third-party solicitation and selective media amplification –
+may contribute to added costs and operational strain that may ultimately affect coverage
+availability and affordability for consumers. In this context, they emphasized the
+importance of science-based standards, clear consumer communication, and
+proportionate, evidence-driven claims handling.
+
+Public health experts on the Task Force cautioned against equating the detection of a
+contaminant with health risks, first because the mere presence does not imply
+exposure, and second because many contaminants lack residential health-based
+standards so it is not known what levels or routes of exposure might pose important
+health risks. Furthermore, because of the lack of pre-fire background data, they state
+that it is usually not possible to determine what levels are attributable to a fire. They
+advised that the risk of long-term health outcomes from exposures, such as cancer, is
+an area of emerging research and although there are benefits to testing - mainly to
+quantifiably assess remediation measures - there are also limitations and testing should
+not be used to quantify health risks. Due to these factors, they questioned the
+methodology involved with data gathering, interpretation, and conclusions presented by
+some survivor groups and academics regarding the contaminants found in homes pre-
+and post-remediation. They advised against the goal of designating homes as “safe” or
+“unsafe” to inhabit. Although there are good standards for some contaminants,
+particularly lead, there are no clear cutoffs for many emerging chemicals; rather, they
+asserted that assessments should be based on articulating potential risk and what can
+be done to mitigate that risk to the extent possible. They highlighted that there are
+currently large gaps in knowledge and research when it comes to health impacts of
+residential wildfire smoke. Thus, they asserted that the focus should be on mitigation
+and limiting exposure, rather than on testing, and that each property should be
+evaluated by a certified industrial hygienist, certified indoor air quality consultant, or
+equivalent professional to determine if testing and/or remediation is warranted, and if
+testing is necessary, to develop the criteria for testing on a case-by-case basis.
+
+                                            12
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+
+   E. Legal Landscape
+
+According to insurance industry representatives, some insurers have relied on recent
+judicial decisions when evaluating, disputing, or limiting certain smoke damage claims,
+particularly where there is disagreement as to whether smoke exposure caused direct
+physical loss or damage sufficient to trigger coverage under a residential property
+insurance policy. They have argued that, in some cases, smoke residue that can be
+removed through reasonable cleaning based on the facts and evidence specific to the
+property, without resulting in lasting impairment, may not constitute direct physical
+damage to the property, and that the mere presence of smoke, standing alone, does not
+automatically trigger coverage where it is not attributable to a specific fire event or does
+not result in demonstrable physical alteration of the property. The insurance industry
+also points out that property insurance generally does not cover land, soil, or
+substances in the ambient air. The CDI noted in its March 2025 Bulletin that recent
+cases interpreting the phrase “direct physical loss or damage” in an insurance policy do
+not support the position that smoke damage is never covered as a matter of law and
+stated that whether a particular smoke damage claim is covered depends on the
+specific policy language and the unique facts of each claim. The Task Force heard legal
+presentations by attorneys on behalf of insurers and policyholders, which are
+summarized in Section III, F. The primary cases relied upon by some insurers are briefly
+summarized here.
+
+In Another Planet Entertainment, LLC v. Vigilant Ins. Co. (2024) 15 Cal. 5th 1106, a case
+arising in the context of COVID-19 related to business interruption claims, the California
+Supreme Court, as a matter of first impression, interpreted the meaning of “direct
+physical loss or damage” to property under California law. The question before the
+Court was “[c]an the actual or potential presence of the COVID-19 virus on an insured’s
+premises constitute ‘direct physical loss or damage to property’ for purposes of
+coverage under a commercial property insurance policy?” Id. at 1117.
+
+The Court held that “[u]nder California law, direct physical loss or damage to property
+requires a distinct, demonstrable, physical alteration to property. The physical alteration
+need not be visible to the naked eye, nor must it be structural, but it must result in some
+injury to or impairment of the property as property.” Id. The Court emphasized that “it is
+the effect of the change or alteration of the property that is determinative. If the change
+or alteration causes harm or injury to the property itself, such a change or alteration may
+constitute direct physical damage to property.” Id. at 1138. “[T]he mere fact that a
+property cannot be used as intended is insufficient on its own to establish direct physical
+loss to property.” Id. at 1117. The Court concluded “that allegations of the actual or
+potential presence of COVID-19 on an insured’s premises do not, without more,
+establish direct physical loss or damage to property within the meaning of a commercial
+property insurance policy.” Id. at 1117-1118.
+
+The Court noted that “an invisible substance or biological agent may, in some cases, be
+sufficiently harmful and persistent to cause a distinct, demonstrable, physical alteration
+
+                                            13
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+to property.” Id. at 1140. “Notably, such a connection will not be found where the
+substance or biological agent can be easily cleaned or removed from the property.” Id.
+“The property itself must suffer a direct physical loss, i.e., it must be so negatively
+affected that it is rendered effectively unusable or uninhabitable.” Id. The Court added a
+caveat that “the focus of our opinion should not be interpreted to downplay other
+circumstances that might be dispositive in this case or others.” Id. at 1151.
+
+In Gharibian v. Wawanesa General Ins. Co., (2025) 108 Cal. App. 5th 730, the Court of
+Appeal held that there was no coverage for a claim involving wildfire debris and smoke
+damage at a home where a wildfire had burned half a mile away. Id. at 733. The
+insureds and the insurer retained their own professionals who provided conflicting
+assessments of the damage and cost estimates to remediate the home. Id. at 733-734.
+Ultimately, the insureds cleaned their home on their own without hiring professionals. Id.
+at 734. Citing Another Planet, the Court concluded that there was no evidence of any
+direct physical loss to the property and that “[t]he wildfire debris did not ‘alter the
+property itself in a lasting and persistent manner.’ Rather, all evidence indicates that the
+debris was ‘easily cleaned or removed from the property.’ Such debris does not
+constitute ‘direct physical loss to property.’” Id. at 738. The court’s holding turned on the
+specific evidentiary record before it, including the absence of professional remediation,
+the insureds’ own cleaning efforts, and the lack of evidence demonstrating lasting
+physical impairment to the property, and did not establish a categorical rule regarding
+smoke damage claims.
+
+In contrast, in Bottega, LLC, et al. v. National Surety Corp., 2025 WL 71989, the U.S.
+District Court, Northern District of California found that the summary judgment record
+established as a matter of undisputed fact that wildfires caused direct physical loss and
+damage to plaintiff. Here, the insurance policy included “[s]moke causing sudden and
+accidental loss or damage” as a covered cause of loss. Id. at 5. The court found that
+“[t]o trigger coverage, “there must be some physicality to the loss . . . of property – e.g.,
+a physical alteration, physical contamination, or physical destruction.”” Id. at 4. The
+court concluded that the insurer’s admissions in discovery were “consistent with case
+law recognizing ‘[c]ontamination of a structure that seriously impairs or destroys its
+function may qualify as direct physical loss.’” Id. The court found the COVID-19 cases
+cited by the insurer to be unpersuasive “because courts distinguished COVID-19 – a
+virus that can be disinfected – from noxious substances and fumes that physically alter
+property . . .” Id. “Whereas a virus is more like dust and debris that can be removed
+through cleaning, [internal citations omitted] smoke is more like asbestos and gases that
+physically alter property.” Id. Insurance industry representatives argue, however, that
+the court’s analysis in this case was grounded in the specific policy language at issue
+and the factual record demonstrating physical contamination and functional impairment,
+and that it does not stand for the proposition that all smoke exposure automatically
+constitutes covered damage.
+
+
+
+
+                                             14
+       Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+III.   STAKEHOLDER PRESENTATIONS AND MATERIALS REVIEWED
+
+   The following is a summary of the key takeaways from the stakeholder presentations
+   and materials reviewed by the Task Force.
+
+       A. Public Health
+
+   California Department of Public Health (CDPH) Presentation, Dr. June Weintraub,
+   Deputy Director for Environmental Health, Dr. Rita Nguyen, Assistant Public
+   Health Officer, Dr. Jeff Wagner, Chief of Environmental Health Laboratory Branch,
+   November 17, 2025 (Appendix B)
+
+   The CDPH, with input from Dr. Nichole Quick, Chief Science Officer at the Los Angeles
+   County Department of Public Health (LACDPH), presented to the Task Force from a
+   public health perspective related to smoke damage claims.
+
+   The key point that the public health experts emphasized is that the mere presence of a
+   contaminant does not equal exposure, and exposure does not equal a health impact.
+
+   During a wildfire, there are acute, high intensity exposures mainly from inhalation and
+   from interacting with the fire and debris. The composition and toxicity of wildfire smoke
+   emissions are impacted by fuel and burn conditions, such as vegetation type, soil
+   composition, types of burned structures and vehicles, moisture/wind/temperature, and
+   whether the wildfire is flaming versus smoldering. Other variables that affect smoke
+   include weather, wind direction and speed, duration of wind, humidity/precipitation
+   during the fire, and home characteristics (e.g., integrity of the windows and doors,
+   location and type of attic vents, type of HVAC). In urban environments, SCA deposited
+   indoors may contain lead, other heavy metals, asbestos, polycyclic aromatic
+   hydrocarbons (PAHs), and other VOCs.
+
+   SCA will not passively dissipate without intervention, and the potential health impacts
+   from uncleaned SCA may continue for an unknown duration. SCA and oily or sticky
+   residues become re-entrained into the indoor airspace, redistributed around the home
+   via tracking and HVAC systems, re-emitted as gases in some conditions, and re-
+   deposited onto, or embedded into, other surfaces. The presence of odor is an indicator
+   that particles and oily residues have become embedded into porous surfaces (e.g.,
+   drywall) or fabric surfaces (e.g., furniture, carpets).
+
+   Potential health impacts include acute symptoms, such as eyes, nose, throat,
+   respiratory, and skin irritation, especially for children and other vulnerable populations,
+   and worsening of chronic health conditions, such as heart and lung disease. Exposure
+   can occur through the skin, eyes, nose, and throat from inhalation, ingestion, and hand-
+   to-mouth activity. However, exposure does not necessarily mean that there is a health
+   impact. The risk of long-term health outcomes from exposures, such as cancer, is an
+   area of emerging research. The CDPH cited a recent study which concluded that “[o]ur
+   current understanding of the health burden of chronic exposures to wildfire smoke
+
+                                               15
+    Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+pollutants is limited, due to lack of measurements over time, and difficulties in studying
+attributable health impacts from those exposures.”2
+
+Furthermore, exposure to wildfire smoke is a limited event, rather than a continuous
+event such as ongoing, crumbling lead paint, and contaminated surfaces are easier to
+clean than deeply contaminated soils, for example. In addition, VOCs produced by
+wildfires usually dissipate over time on their own; there is some evidence to suggest
+some exceptions to this where some SVOCs may redistribute and be trapped in other
+parts of the home.
+
+Thus, the CDPH advised that the focus should be on limiting exposure and mitigation,
+rather than on testing. Washing hands, wearing masks and PPE, cleaning, removal or
+replacement of non-cleanable items, and ventilation all reduce the potential risk of long-
+term health effects. The CDPH noted that, for other indoor environmental issues, such
+as mold, public health guidance generally recommends prompt remediation where there
+is visible evidence or musty odors, rather than reliance on confirmatory testing.
+
+The CDPH discussed the benefits and limitations of testing applicable to both pre- and
+post-remediation testing. The benefit of testing is to determine the presence of
+contaminants pre-remediation and the levels of those contaminants post-remediation.
+Testing provides a measure to quantify remediation efficacy. It can also inform
+decisions on proper debris removal, the necessary qualifications of the workers to
+handle certain contaminants, and worker safety. However, testing has its limitations and
+cannot be used to quantify health risks in the absence of health-based standards. There
+are few appropriate standards that exist for smoke-induced chemicals inside homes.
+PAHs and VOCs can be present at trace levels in air or on surfaces as background, and
+there is no good consensus on health-based levels in non-occupational settings.
+Although testing for these substances may be informative of the extent of smoke
+impacts, they need to be considered professionally against the presence of these
+substances in everyday home products and cooking activities. The COCs post-wildfire
+will vary due to factors such as what burned and at what temperature, so it is not
+possible to define a “typical” wildfire contamination. In addition, the detection of a
+substance in one part of a home does not indicate the magnitude within the rest of the
+home or what the exposure level is because of unknown background levels which make
+it difficult to discern whether levels were present before the fire or as a result of the fire.
+Even when testing for contaminants that have established standards for healthrisk, the
+results of such testing may not change the recommended remediation (e.g., cleaning
+surfaces, removal or replacement of porous/fabric material).
+
+The CDPH cautioned against using testing in isolation to determine the importance or
+efficacy of remediation and stressed that there must be a qualified expert driving the
+process and that professional evaluation is necessary because there will be variation in
+any given property. The CDPH advised that a best practice would be to have a certified
+industrial hygienist, certified indoor air quality consultant, or equivalent professional with
+
+2 Destaillats and Chan, “Remediation of indoor environments impacted by wildfire smoke: A review of
+
+available information and research needs,” July 2025.
+
+                                                   16
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+other credentials following appropriate ASTM, NIOSH, USEPA, and/or equal practice
+inspect a property to determine if testing and/or a remediation plan is warranted, and if
+testing is necessary, to develop the criteria for testing. Testing should only be done after
+considering:
+
+   •   The availability of standard testing methods in the tested matrix
+   •   Action levels, if available
+           o Established criteria for health-protective target levels
+           o Evidence for health benefit of reaching target levels
+   •   Utility of testing to demonstrate efficacy of remediation
+
+Testing for lead and asbestos is the most clear-cut when it comes to health standards
+because they represent long-term, although not quantifiable, health risks if left behind.
+However, many other COCs may not meet the above criteria.
+
+Ultimately, the CDPH advised that they cannot make general recommendations on what
+contaminants to test for after a wildfire because every wildfire is different. Additional
+research is needed to learn more about the persistence of VOCs, the long-term health
+impacts of wildfire smoke, and to identify key surrogates for testing. Best practices
+should be developed for surface wiping protocols, HEPA vacuuming, carpet and porous
+material replacement, and professional HVAC cleaning.
+
+Along the same lines, after the January 2025 fires, the LACDPH issued a Notice
+encouraging insurers to cover site-specific smoke damage assessments and
+recommendations from certified environmental consultants, industrial hygienists,
+restoration experts, or those with specialized training in smoke damage restoration.
+(Appendix C) The Notice advised that certified IHs and other qualified environmental
+professionals play a vital role “[b]ecause detailed standards for investigating and
+managing smoke-damaged homes have not been established . . .” “Their site-specific
+evaluations help determine when and how to test for wildfire-related contaminants such
+as soot, heavy metals, and combustion byproducts, and guide appropriate cleanup
+efforts.” “In the absence of established standards, site-specific smoke damage
+remediation will need to be guided by the professional judgment of qualified experts.”
+
+Dr. Nichole Quick, Chief Science Officer, Los Angeles County Department of
+Public Health (LACDPH), February 27, 2026
+
+Dr. Quick provided her written recommendations outlined below:
+
+   Establish legal/regulatory standard and define the criteria that govern post-fire
+   residential indoor cleanup decisions
+
+   a. Define the meaning of “restoration to pre-loss conditions” and what that requires.
+      Options include the removal of all fire-related COCs, regardless of concentration;
+      the reduction of fire-related COCs to levels that do not pose an identifiable undue
+      human health risk or undue property damage; or another alternative.
+
+                                             17
+Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+b. If risk-based, which seems reasonable, additional determinations are needed:
+If cleanup is based on preventing undue human health risk or property damage, the
+following decisions are necessary:
+
+   1. Distinction from background conditions – Fire-related COCs are not unique to
+      wildfires and may already be present indoors due to background
+      environmental conditions. Cleanup cannot practically reduce concentrations
+      below typical background levels. A regulatory decision is needed regarding
+      whether remediation is required where post-fire indoor conditions are
+      indistinguishable from background.
+
+   2. Standard for “undue human health risk” – A decision must be made regarding
+      the appropriate risk benchmark (e.g., risk levels, hazard indices, population
+      assumptions).
+
+   3. Standard for “undue property damage” – Policy guidance is needed for
+      situations where COCs do not pose a human health risk but may result in
+      odor, corrosion, staining, or material degradation.
+
+   4. Pre-cleanup sampling requirements – A legal/regulatory determination is
+      needed on whether sampling is required prior to cleanup, even when cleanup
+      has already been authorized.
+
+c. Scope of work to support a consistent standard – To develop scientifically-
+grounded, consistent, and defensible post-fire cleanup criteria, the following work is
+anticipated:
+
+   1. Identify COCs – Establish a defined list of potential COCs that could drive
+      cleanup criteria, such as metals, PAHs, SVOCs, dioxins, VOCs.
+
+   2. Establish background indoor concentrations.
+
+       •   Conduct a systematic review of peer-reviewed literature documenting
+           residential indoor background concentrations of fire-related COCs;
+       •   Identify data gaps and, if necessary, conduct representative indoor
+           sampling to fill those gaps.
+
+   3. Evaluate evidence of undue human health risk.
+
+       •   Conduct systematic literature reviews for each COC, including
+           epidemiologic evidence of community-scale health impacts and toxicologic
+           evidence;
+       •   Derive generic indoor risk-based cleanup criteria using established
+           methodologies (e.g., USEPA/CDPH risk assessment frameworks);
+       •   Develop appropriate exposure assumptions, including pathways, transfer
+           efficiency, frequency, duration.
+
+                                        18
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+
+       4. Evaluate evidence of undue property damage.
+
+          •   Conduct literature review for property-related impacts, including odor
+              thresholds, material compatibility and degradation;
+          •   Determine whether property-based criteria should exist independently
+              from health-based criteria.
+
+       5. Optimize sampling and analytical strategy.
+
+          •   Develop a defensible and efficient sampling framework, such as a tiered
+              impact-zone classification system with differentiated testing and
+              remediation protocols. For instance: 1) Near Zone – cleanup required, pre-
+              cleanup testing not required; 2) Intermediate Zone – testing required,
+              cleanup contingent on results; 3) Far Zone – no testing required, claimant
+              bears burden of testing to trigger cleanup;
+          •   Use of surrogate COCs to streamline laboratory analysis;
+          •   Prescribed statistical indoor sampling strategies to ensure
+              representativeness.
+
+       6. Establish clearance criteria – Is post-cleanup sampling confirmation required?
+          Are there prescriptive remediation approaches that would not require
+          confirmation sampling?
+
+   B. Industrial Hygienists and Remediation and Restoration Professionals
+
+Generally, IHs follow various technical guides, which recommend utilizing a visual and
+olfactory inspection and targeted sampling of SCA as surrogates for other COCs, as
+necessary, to assess smoke impact, delineate the scope of restoration, and as a
+component of post-remediation verification. Some guides suggest that if smoke impact
+is suspected throughout a home, pre-remediation sampling is generally not necessary
+with the exception of regulated hazardous materials (i.e., lead and asbestos).
+
+There are some IH and restoration trade groups that have published guides and
+standards related to smoke damage evaluation and restoration:
+
+   •   AIHA Technical Guide for Wildfire Impact Assessments for the OEHS
+       Professional, 2nd Edition (“AIHA Technical Guide”) (Appendix F)
+   •   IICRC S700 Standard for Professional Fire and Smoke Damage Restoration, 1st
+       Edition (“S700 Standard”) (Appendix G)
+   •   IICRC/RIA/CIRI Technical Guide for Wildfire Restoration, Version 2: December
+       9, 2025 (“IICRC Technical Guide”) (Appendix D)
+
+These guides have attempted to establish a framework for categorizing wildfire smoke
+impact from Light to Heavy and to establish protocols based on impact zones that
+consider time and distance from the burn zone.
+
+                                           19
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+However, Colorado’s Draft Report (discussed in Section III, G) identified several
+limitations in existing guidelines and protocols, noting that:
+
+   •   They generally focus on SCA and not on the full range of potential COCs that
+       result from wildfires, particularly in WUI fires in a large-scale disaster.
+   •   “There is no single source that has established a standard sampling protocol or
+       applicable cleanup standards, allowing for variances in application of these
+       standards and inconsistency between insurance company protocols and by
+       consultants supporting insurance companies, insured parties, and cleanup
+       contractors.” The individuals who identify the extent of smoke damage and
+       develop the recommended scope of work “often come from diverse backgrounds
+       and may not follow consistent industry standard practices.” “The ultimate result is
+       that currently the response to fire residue cleanup varies significantly based on
+       who is leading and conducting the fire cleanup.” (p. 17)
+   •   They rely primarily on microscopy, and “applying microscopy alone may not
+       provide sufficient resolution or specificity to differentiate ultra-fine particulates nor
+       definitively attribute contamination to combustion sources . . .” (p. 22)
+
+IH Fire Investigation Presentation, Daniel M. Baxter, R. Christopher Spicer, Dr.
+Richard Wade, October 27, 2025 (Appendix E)
+
+Three of the contributing authors of the AIHA Technical Guide presented to the Task
+Force. They stated that SCA have been used as a surrogate wildfire impact test for over
+25 years and that the fire source, inherent chemistry (i.e., the potential constituents in
+settled wildfire smoke, such as organics and metals), and the scope of cleaning can all
+be inferred from evaluating SCA because it is assumed that SCA and firestorm debris
+have adsorbed the organic and inorganic chemistry. They strongly refuted recent claims
+that microscopical SCA measurements do not provide useful diagnostic or public health
+information regarding wildfires.
+
+They differentiated the burn zone from downwind areas (i.e., the near-field and far-field).
+They noted that fire chemistry, thermal dynamics, and infiltration pathways differ
+depending on location, and the necessary testing and cleaning methods may also differ.
+IHs conduct a thorough, systematic site inspection and evaluate the property by
+integrating a visual and olfactory inspection with targeted sampling, based on time and
+distance and analytical detection windows. With regard to sampling and analysis, there
+are no fixed applicable threshold levels for VOCs, SVOCs, heavy metals, etc., and
+background levels require differentiation. Microscopy provides simultaneous
+quantification and differentiation of fire-related particles from background. The
+assessment must consider the life-time decay of fire-related organic compounds which
+change as a function of elapsed time, temperature, and ventilation.
+
+SCA are the most appropriate surrogates to quantify a fire-related impact and to infer
+potential chemical hazards. If an impact can be demonstrated, potential exposure may
+be inferred. They contend that using raw chemical analysis data poses several issues:
+1) lack of numerical standards for most CBP deposition; 2) a chemical number does not
+
+                                              20
+      Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+differentiate between fire or background; and 3) unlike microscopy, it does not preserve
+the physical evidence of decreasing compound decay/dilution over time. They state that
+sampling for every possible toxin leads down a rabbit hole and that the mere detection
+of contaminants associated with SCA does not alter the need or scope of cleanup and
+often introduces more data confusion than solutions. It is more appropriate to compare
+representative “test zones” with “control zones” or background and to use probability to
+infer when a “test zone” is impacted. In addition, a single elevated sample in a given
+zone does not indicate that the entire test zone is impacted.
+
+They believe the public’s health and insurance industry are better served by cleaning up
+the deposition of smoke-borne contaminants, as indicated through a visual and olfactory
+inspection and SCA sampling and analysis, regardless of the presence of potential
+toxins. This approach is a systematic, cost-effective way to determine what needs to be
+cleaned without wasting time and resources on potential toxins for which there are few
+applicable health-based standards and are significantly altered and diluted over time
+and distance.
+
+AIHA Technical Guide for Wildfire Impact Assessments for the OEHS
+Professional, 2nd Edition (Appendix F)
+
+“AIHA is the association for scientists and professionals committed to preserving and
+ensuring occupational and environmental health and safety in the workplace and
+community.” “More than half of AIHA’s nearly 8,500 members are Certified Industrial
+Hygienists . . .”3 The AIHA Technical Guide provides guidance to OEHS professionals
+on how to conduct wildfire impact assessments, including information gathering,
+occupant interviews, visual inspection, and odor perception. The Technical Guide
+discusses sampling methods, microscopical and analytical chemical methods, data
+interpretation, and restoration practices and procedures, “including the post-restoration
+verification conducted by the OEHS professional to confirm successful completion of the
+restoration goals.” (p. xiv)
+
+“Wildfire smoke production and composition is dependent on several variables,
+including fuel type, the moisture content of the fuel, fire temperature, the size of the fire,
+and weather-related influences.” (p. 4) “The scope of this updated Technical Guide is on
+homes, buildings, and structures that were outside of the burn zone or survived a
+wildfire or a wildland-urban interface (WUI) fire and can be restored and reoccupied.” (p.
+xii) “Wildfires in the WUI burn homes, vehicles, and other structures in addition to
+vegetation. WUI fires generate a complex mixture of particulates, vapors and gases
+containing metals, volatile and semi-volatile organic compounds (VOCs and SVOCs),
+polycyclic aromatic hydrocarbons (PAHs), dioxins, furans, and other inorganic and
+organic compounds. These compounds can affect the indoor environment when they
+infiltrate a structure.” (p. xii-xiii)
+
+“The primary air pollutant of health concern in wildfire smoke for the general population
+is particulate matter.” (p. 14) “However, there is limited evidence of the cumulative, long-
+3
+    About AIHA | AIHA
+
+                                             21
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+term health effects from exposure to wildfire particulates . . .” (p. 14) Moreover,
+“detection of a chemical or particulate in a sample does not mean that there is an
+elevated health risk or that a health effect will occur as a result of exposure." (p. 15)
+"[T]he human health effects of wildfire residue after a fire have not been thoroughly
+studied." (p. 15)
+
+The Technical Guide discusses the concept of time and distance from the burn zone
+and how the length of time elapsed after a fire and “the near-field and far-field distance
+from the fire perimeter determine the types, composition, and concentration of wildfire
+residue.” (p. xiii) “Time and distance from the fire event affect plume temperature and
+the chemistry of these [organic and inorganic chemical] compounds.” (p. 1) Time and
+distance also impact the types, concentration, and size distribution of particulate matter.
+(p. 12) “For the most part, smaller particles (PM10 and PM2.5) are transported by wind
+and air currents, become diluted, and eventually settle to the ground. Gases, VOCs,
+and SVOCs carried by the plume will dissipate after the fire has been exhausted and
+natural weather conditions are reestablished.” (p. 14-15)
+
+“The near field has been defined conceptually as ranging from 1-10 km (0.62-6.20
+miles) beyond the fire perimeter [<1 km (<0.62 miles) from the burn zone] based on
+effects associated with smoke plume transport, deposition, and atmospheric
+transformation.” (p. 6) “The far field was further subdivided into order-of-magnitude
+conceptual scales with a local scale from 10-100 km (6.2-62.0 miles), a regional scale
+from 100-1,000 km (62-625 miles), and a continental scale greater than 1,000 km (or
+625 miles).” (p. 6)
+
+The Technical Guide “provides a framework for categorizing forensic impact on a
+continuum from Level 1 (Background) to Level 4 (Heavy).” (p. 2) “The initial criteria for
+assigning preliminary impact levels are based on the findings of the visual inspection,
+in-field testing, and odor perception and recognition.” (p. 32) “These preliminary impact
+levels serve to direct sampling strategies to further refine and complete the impact
+assessment. They can also help define the scope of subsequent restoration efforts.” (p.
+32) “Preliminary smoke impact levels must be assigned on a case-by-case basis.
+Contents should be evaluated independently from structural elements and may be
+assigned different levels than the room or area they occupy.” (p. 32)
+
+“In some cases, a visual walkthrough inspection may be sufficient to establish impact.
+Sampling is always secondary to the visual assessment process. Based on the initial
+results, a comprehensive sampling plan including sampling and analysis of
+microscopical particles, organic and inorganic chemicals, or metals using appropriate
+methods may be warranted to confirm and assess wildfire impact.” (p. 30) The goals of
+sampling are to determine whether there is “an atypical impact above background” and
+whether the impact “is more likely to be associated with a specific fire event or with a
+site-specific background condition . . .” (p. 35) “Background sources of potential health
+concern include VOCs, SVOCs, and PAHs commonly found in building materials,
+furniture, and consumer goods; generated from cooking meats; or infiltrated from
+outdoor sources.” (p. 17)
+
+                                             22
+    Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+SCA “are used as surrogates for the quantitative and qualitative impact and chemistry
+transformations occurring in the combustion process.” (p. 37) “Sampling and analyzing
+the airborne VOCs and SVOCs soon after a fire event (i.e., days to weeks) may help
+locate and characterize sources of wildfire residue odors and evaluate potential health
+hazards to occupants from exposure to wildfire residuals.” (p. 43)
+
+“Optical microscopy is the primary method used to identify and quantify the surface
+impact from wildfire combustion residues.” (p. 50) “Optical microscopy can be used as a
+screening or surrogate method to determine if other chemical organic and inorganic
+testing and analytical methods may be required.” (p. 50) “Organic chemical analysis is
+primarily useful in the near field close to the burn zone or the WUI.” (p. 60) “[T]here are
+generally no fixed numerical levels of settled combustion particulates that are
+universally associated with an unacceptable condition or unequivocally denote impact
+from a wildfire. The same holds for combustion-related airborne chemicals that may be
+detected at trace levels (i.e., near the limits of detection) and well below recognized
+health-based standards.” (p. 63)
+
+The Technical Guide discusses the post-restoration evaluation (PRE), which does not
+include sampling for quantitative laboratory analysis. (p. 47) “In wildfire and WUI fire
+impact cases, an optional PRV [Post-Restoration Verification] may be performed
+following the PRE to determine whether the concentrations of wildfire-associated
+residues have been reduced to background levels or are still elevated and require
+further restoration." (p. 47) “The PRV involves similar steps as the PRE, plus collection
+of representative samples for laboratory analysis.” (p. 48)
+
+IICRC S700 Standard for Professional Fire and Smoke Damage Restoration, 1st
+Edition (Appendix G)
+
+The IICRC is a trade group that aims to establish recognized standards, credentials,
+and certifications for the inspection, cleaning, and restoration industries.4 They have
+more than 49,000 active certified technicians and more than 6,500 certified firms. They
+published the S700 Standard, the restoration industry’s first fire and smoke damage
+repair standard, which “is intended to provide information about the restoration of fire
+and smoke-damaged structures and contents and to assist individuals and entities
+working in the fire and smoke damage restoration industry in establishing and
+maintaining their professional competence.” (p. 3, 9) It “is not intended to be either
+exhaustive or inclusive of all pertinent requirements, methods, or procedures that might
+be appropriate for a particular fire and smoke damage restoration project,” and
+“restorers must use their professional judgment throughout each and every project, as a
+project may have unique circumstances that require a deviation from the S700.” (p. 3)
+
+Notably, the S700 “does not comprehensively address . . . issues occurring from certain
+situations such as wildfires” (p. 15) and “does not specifically address the protocols and
+procedures for restoration when potentially hazardous, regulated materials are present
+
+
+4 About the IICRC - IICRC
+
+
+                                            23
+    Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+or likely to be present in fire and smoke-damaged structures, systems, and contents.”
+(p. 4)
+
+The S700 primarily focuses on the protocols for conducting a Fire and Smoke Damage
+Assessment to develop a Restoration Work Plan (RWP), sampling methods for fire-
+related residues, and restoration methods. For pre-remediation testing, the S700 states
+that “[r]estorers use targeted sampling (e.g., wipes, cellular sponges, or cosmetic
+sponges) combined with an olfactory inspection to rule-in or rule-out the presumptive
+presence or absence of fire-related residue and odor and to establish the boundaries of
+fire-related damage in a building.” (p. 7) “When fire residue is suspected or is
+questionable, such as in areas remote from the fire source, the restorer may perform
+on-site testing to determine the presence of fire residues.” (p. 43) However, “[w]ithout
+pre-loss baseline testing of a property to establish which contaminates were present
+prior to the fire, it is not possible to determine the specific contaminates created and
+deposited directly as the result of the fire.” (p. 6)
+
+For post-remediation testing, the S700 states that “[c]onfirmation that removal of fire-
+related residues and odors from surfaces is complete, is based on clearance criteria
+that should include visual inspection (e.g., surface wipes, white glove), smoke odor
+testing, and can include the surface preparation procedures required for repair
+treatments, where applicable (e.g., sealing, painting, refinishing).” (p. 119)
+
+For lead and asbestos, the S700 states that restorers must abide by applicable
+requirements “regarding testing of coated surfaces (e.g., painted) prior to performing
+demolition, scraping, sanding, or any other service that may cause lead dust to be
+released into the air” (p. 56) and that “[r]estorers shall abide by the requirements of the
+applicable AHJ [Authorities Having Jurisdiction] regarding testing prior to performing
+demolition, scraping, sanding, or any other service that causes the asbestos-containing
+materials to be released into the air.” (p. 56)
+
+The IICRC, along with the AIHA, also drafted S760, a Standard for Professional Wildfire
+Investigations and Restoration of Impacts to Structures, Systems, and Contents, which
+was specifically “intended for individuals involved in the investigation, assessment, and
+restoration of structures and contents impacted by a wildfire smoke event.” (p. 4)
+However, S760 was not adopted. The IICRC intends to revise the S700 to address
+wildfire-related losses, incorporating relevant elements from the draft S760 and the
+IICRC Technical Guide and referencing the AIHA Technical Guide in the revision
+process.5
+
+
+
+
+5
+ Call for Members: Revision of ANSI/IICRC S700 Standard for Fire and Smoke Damage Restoration -
+ISSA | The Association for Cleaning & Facility Solutions
+
+                                                24
+    Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+IICRC/RIA/CIRI Technical Guide for Wildfire Restoration, Version 2: December 9,
+20256 (Appendix D)
+
+The RIA is the oldest and largest non-profit, professional trade association dedicated to
+promoting best practices through advocacy, standards, and professional qualifications
+for the restoration industry.7 The CIRI aims to lay the groundwork for developing the
+basic science for measuring and establishing methods for quantifying clean.8
+
+The IICRC, RIA, and CIRI issued their Technical Guide, which cites the AIHA Technical
+Guide and draws from the draft S760 Standard, in response to the growing notion that
+homes affected by wildfire smoke and its byproducts are categorically uncleanable and
+unrestorable. They note that there is no governmental or public health agency that
+recommends that occupants of wildfire smoke-infiltrated homes should dispose of their
+personal items or demolish their homes. “Wildfire smoke, together with its volatile and
+semi-volatile compounds and metals, which can adsorb or condense on the surfaces of
+particles, infiltrate structures and settle on the surfaces of interior materials. This is a
+superficial occurrence that can generally be cleansed. Specialized cleaning
+methodologies have been successfully used to remove infiltrated and deposited wildfire
+smoke residues and other potentially hazardous contaminates to typical background
+levels for decades . . .” (p. 3) “Disposal may be considered where cleaning costs
+surpass the item’s value or where heavily impacted porous materials such as apparel,
+bedding, infant items, and toys exhibit hand to mouth contact risks. However, the
+presumption that all materials and structures are unrestorable is inconsistent with
+science . . . and accredited industry standards.” (p. 3)
+
+Professional restoration provides consumer benefits by preserving property, minimizing
+loss and replacement of personal property, mitigating environmental waste by restoring
+salvageable materials, and providing a science-based path to safe reoccupation.
+
+The Technical Guide “presents a framework for the effective restoration of wildfire-
+impacted buildings” and states that “[f]or structures that have not sustained direct flame,
+radiant heat damage, or hot turbulent smoke plume impact, restoration is
+overwhelmingly a matter of thorough and professional cleaning.” (p. 4) “For most
+properties, the goal of returning to a pre-fire condition is achievable through systematic
+cleaning and remediation.” (p. 7) The first step is a Pre-Restoration Evaluation
+performed by the restorer through a visual and olfactory inspection to identify the
+presence of CBPs (e.g., char, ash, smoke) and information gathering (i.e., interviewing
+occupants). “Odor is a key indicator of wildfire impact from VOCs and SVOCs.” (p. 13)
+Interstitial spaces (e.g., attics, crawlspaces, wall cavities, HVAC systems) should be
+evaluated if there are visual indicators of penetration. (p. 14) This evaluation determines
+
+
+6
+  The IICRC, RIA, and CIRI issued a Wildfire Position Statement and a Technical Guide, Version 1, prior
+to issuing Version 2. Those are not summarized in this Report as Version 2 contains the same
+information as those documents. However, all of the documents are included in Appendix D.
+7 Restoration Industry Association (RIA)
+8 CIRI – Cleaning Industry Research Institute
+
+
+                                                   25
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+whether restoration can begin immediately or if a Pre-Restoration Assessment is
+necessary.
+
+A Pre-Restoration Assessment should be conducted when there are elevated risk
+factors (e.g., heavy visible residue, strong persistent odors, proximity to the burn zone);
+when there is a conflict among materially interested parties regarding the presence or
+extent of CBPs or COCs; or upon request by a materially interested party. The
+Assessment is performed by an IH or other OEHS and entails scientific sampling,
+specific chemical testing, and laboratory analysis to characterize the type and extent of
+CBPs and to establish a scope of work for the restoration contractor. “Given the vast
+range of possible chemicals, it is not feasible to test all substances in the environment
+following a wildfire. Decisions regarding if testing is required, and what to test must
+therefore be based on what is reasonable, feasible, hazard-relevant, and plausibly
+present at concentrations high enough to demonstrate impact, structure damage, or
+health hazards.” (p. 8) “[T]he IH uses professional judgment to select sampling locations
+most likely to reveal CBCs [combustion byproducts of concern] . . .” (p. 15)
+
+The Technical Guide identifies CBCs, including but not limited to, SCA, VOCs, SVOCs,
+heavy metals, and asbestos. However, it notes that “[m]ost VOCs dissipate quickly
+through ventilation,” heavy metal “[l]evels drop off sharply over 400 meters from the fire
+boundary,” and although asbestos is “[a] potential concern for structures built before
+approximately 1970 that were fully or partially burned and show structural damage,
+particularly in the Burn Zone,” “[l]evels found outside the immediate fire zone have been
+concluded to be less than actionable levels set by regulatory agencies.” (p. 8-9)
+
+The Technical Guide states that “[t]he single most important factor in determining the
+scope of restoration is the property’s distance from the fire” and uses the impact zones
+established in the AIHA Technical Guide. (p. 10) The distances are approximate to
+reflect the plume aging and cooling as particulates travel from the source to the area of
+impact:
+
+   •   Burn Zone – “[T]he primary concern is structural integrity.” “Restoration may
+       involve both structural repair and remediation of heavy impact from Combustion
+       By-Products (CBC).” (p. 10)
+   •   Near-Field Zone (~0.6 to 6.2 miles) – “Remediation in this zone should address
+       settled particulates, VOCs, and complex odors they produce.” (p. 10) “Properties
+       within the near-field zone will require more significant restoration efforts and may
+       require some replacement of impacted materials but are generally restorable.” (p.
+       10)
+   •   Far-Field Zone (~6.2 miles or greater) – “By the time the smoke plume reaches
+       this area, it has cooled, and heavier particles have fallen out. The primary impact
+       is the infiltration of fine chemically aged particulate matter (PM2.5). These
+       particles are often non-damaging to most building materials and can be
+       effectively removed.” (p. 10) “[F]or the vast majority of affected properties, which
+       lie in the far-field, the impact is a surface-level issue that is highly correctable.”
+       (p. 10)
+
+                                             26
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+The Technical Guide recommends the following sampling and testing methodology (p.
+15):
+
+   •   Burn Zone
+          o CBPs on deposited surfaces
+          o pH bulk or micro vacuum samples of settled particles
+          o Heavy metals, including lead, especially for structures built before 1978
+          o PAH organic compounds via wipe sampling
+          o Asbestos for structures built before approximately 1970 that were fully or
+              partially burned and show structural damage
+   •   Near-Field
+          o CBPs
+          o Heavy metals
+          o pH of deposited fire particles
+   •   Far-Field
+          o Testing, if any, is typically limited to CBP particulate
+
+“If laboratory analysis identifies significant levels of organic compounds, corrosive
+chemicals, or certain heavy metals above background, the findings may heavily
+influence the decision to repair versus replace specific affected systems or materials.”
+(p. 15)
+
+The next step is the restoration phase. The Technical Guide discusses the general
+restoration approach by zone and for different materials and surfaces. For soft goods,
+“[p]orous items (e.g., clothing, bedding) should be professionally laundered or dry-
+cleaned. Items that cannot be effectively cleaned should be disposed of.” (p. 17)
+“Replacement may be necessary when cleaning costs exceed the item’s value,
+especially for heavily impacted porous materials like apparel, bedding, or toys.” (p. 18)
+
+The final step is the Restoration Completion Evaluation by the restorer based on a
+visual and olfactory inspection. This is the standard process to ensure the scope of work
+has been completed. “The restorer conducts a thorough walkthrough, wipe-testing, and
+odor assessment to confirm that all impacted surfaces have been addressed and the
+property is free of visible residue and smoke odors.” (p. 21) The Evaluation does not
+include laboratory sampling.
+
+A Post-Restoration Verification by an IH or other OEHS which involves sampling and
+laboratory analysis is done in certain circumstances, including when there is a dispute
+about the efficacy of the restoration; when an occupant is at-risk or susceptible to health
+concerns (e.g., pre-existing asthma, COPD, or compromised immune system); or when
+required by a third-party (e.g., insurer, lender). “In rare cases, restoration may remove
+all visible and olfactory evidence, but occupants may still report symptoms or suspect
+remaining hidden or residual CBCs.” (p. 21)
+
+
+
+
+                                            27
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+Jeanine Humphrey, M.A.R.S. Environmental Presentation, December 1, 2025
+(Appendix I)
+
+The Task Force heard a presentation by Ms. Humphrey, an ACAC Certified Fire and
+Smoke Damage Technician, who provided a different perspective from other IHs. She
+stated that, in her view, WUI fires can generate a broader range of toxic byproducts
+than typical wildfires or structure fires and that those toxins are transported via smoke,
+easily penetrating and depositing in homes. Many homes are engulfed in the smoke
+plume for several hours to days during a fire.
+
+From her perspective, post-fire inspections are typically either limited or comprehensive
+in scope. Limited inspections take fewer samples, may not include all areas of the
+home, and test for fewer toxins (mainly SCA, lead, and asbestos). Comprehensive
+inspections take more samples, may include spaces such as wall cavities, and test for
+more toxins, and in her opinion, are necessary to determine a full scope of
+contamination and to determine a proper remediation plan to reduce health risks to
+occupants, especially for vulnerable populations.
+
+Unlike some IHs, Ms. Humphrey performs comprehensive inspections for homes that
+have been directly impacted by fire, and samples for many contaminants found post-
+WUI fires, such as CBPs, cyanide bulk and air, lithium, CAM-17 heavy metals, beryllium
+wipe and air, hexavalent chromium VI wipe and air, VOCs, formaldehyde/aldehydes,
+chloride anions, dioxin/furans, and PAHs. She opined that post-WUI fire contamination
+is rarely isolated to a single room or surface, and smoke, soot, and chemical vapors can
+migrate throughout a structure, which in her view, supports remediation approaches that
+address the entire home rather than localized areas.
+
+Ms. Humphrey opined that dioxin/furans are extremely toxic, even at low levels, and can
+cause cancer, endocrine disruption, and birth defects; several VOCs are known
+carcinogens; formaldehyde is a known carcinogen and remains in homes through
+sorption into porous materials and can continue to off-gas for long periods of time;
+cyanide can be present in homes after a WUI fire in salt or gaseous form and residual
+cyanide can form into HCN, a known chemical asphyxiant.
+
+Ms. Humphrey asserted that certain groups require heightened protection because they
+are more vulnerable to these toxins, including infants and toddlers who spend more time
+on floors and soft surfaces where particulates settle, have a greater breathing rate
+relative to body size, and are particularly vulnerable to formaldehyde, ultrafine particles,
+and nitrile/cyanide residues; children who engage in higher hand-to-mouth behavior
+leading to greater dust ingestion, have developing respiratory, neurological, and
+immune systems, have smaller body mass leading to higher doses per exposure, and
+have increased sensitivity to VOCs, aldehydes, cyanide residues, metals, and soot;
+immunocompromised individuals who have reduced ability to clear contaminants, a
+greater risk of respiratory effects from soot and ash, and are adversely affected by low-
+level chemical exposures that may not impact healthy adults; the elderly and individuals
+
+
+
+                                            28
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+with chronic illnesses who have pre-existing respiratory or cardiovascular conditions
+and are more sensitive to particulates, HCN, VOCs, and oxidizing chemicals in smoke.
+
+She stated that remediation involves numerous considerations and a wide range of
+effective options. She asserted that removal of building materials is generally only
+required for severely impacted homes or materials that cannot be effectively cleaned.
+Some homes may require limited removal of building material, such as removal of
+drywall on walls where the fire reached the exterior of the home or removal of porous
+flooring materials that cannot be properly cleaned. She also asserted that for homes
+near burned structures, replacement of soft goods and HVAC systems should be
+considered and that flexible ducting cannot be effectively cleaned of all contaminants
+and poses an ongoing risk as it circulates air.
+
+Kris Griffith, Anderson Group International Presentation, December 8, 2025
+
+Mr. Griffith, a Task Force member, gave an anecdotal presentation in his role as Vice
+President of Operations for Anderson Group International, which is a full-service
+remediation and reconstruction company that has worked on residential and commercial
+projects in Altadena and the Pacific Palisades following the wildfires on behalf of
+homeowners as well as large-loss adjusters. He provided case studies based on four
+projects and emphasized the need for proper education, training, experience, and/or
+certification for all parties involved in the claims process, including insurance adjusters,
+consultants, IHs, and remediation and restoration contractors. He asserted that post-
+remediation testing is critical for the homeowner’s peace-of-mind and to confirm the
+effectiveness of their remediation work.
+
+Hamid Arabzadeh, HRA Environmental Consultant Inc., February 27, 2026
+(Appendix J)
+
+Mr. Arabzadeh, a Task Force member, provided his written opinions, stating that
+industrial hygiene is a science-based field under the umbrella of public health and that
+an IH with undergraduate and graduate degrees in physical sciences with advanced
+education in other subjects, such as toxicology, is a scientist qualified to conduct
+evaluations for fire-related impact and to provide recommendations for cleaning and
+remediation. He noted that because the practice of industrial hygiene is not licensed by
+the state, there are individuals who conduct testing and provide recommendations
+without the requisite education and qualifications. He advised that IHs with the proper
+qualifications conduct exposure assessments, including what to test for and how to
+interpret test results.
+
+He opined that the best methodology to evaluate fire-related impact is to:
+   • Conduct a site visit and survey;
+   • Ascertain the presence and extent of visible impact from SCA;
+   • Assess the presence of smoke odor;
+   • Collect surface samples for SCA;
+
+
+                                            29
+      Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+      •   Where the presence of lead or asbestos is reasonably likely (for e.g., where older
+          structures or industrial facilities burned in close proximity), conduct surface
+          testing for lead and asbestos, or alternatively, assume the presence of lead and
+          asbestos on surfaces and conduct remediation accordingly.
+
+He opined that air sampling is unnecessary as VOCs dissipate quickly and naturally and
+that it may indicate low levels of chemicals that can be present in homes unrelated to a
+fire event and cause unnecessary concern.
+
+He raised concerns with rigid classification of homes into arbitrary zones based on
+proximity to a fire as a home farther away from the epicenter of a fire may still have
+been impacted by SCA, and conversely, a home close to a fire may be minimally
+impacted due to individual characteristics of the home or weather conditions. Thus, in
+his view, the better approach is to have a qualified IH evaluate each home, and if there
+are no visible particulates or smoke odor, testing and remediation are likely
+unnecessary.
+
+For remediation, he opined that the protocol should depend, in part, on whether the
+structure partially burned. For homes that have not been partially burned, remediation
+should consist of cleaning all surfaces inside the home by a qualified remediation
+company, followed by post-cleanup surface testing for SCA and if applicable, lead and
+asbestos. Remediation should be conducted as soon as possible after the fire.
+
+Where the structure has been partially burned, qualified professionals (e.g., construction
+contractors), along with the IH and remediation company, should develop a plan to
+address the burned damage to the home and to clean and remediate the rest of the
+home. Lead-based paint and asbestos testing should be conducted in those cases. He
+opined that homes exposed to smoke should not be declared uninhabitable and torn
+down prior to any remediation and re-testing, and that thorough cleaning and re-testing
+should always be the first approach to smoke exposure.
+
+      C. Survivor Groups and Consumer Advocates
+
+Eaton Fire Residents United (EFRU) Presentation, Nicole Maccalla, PhD, Jane
+Lawton Potelle, Dawn Fanning, October 13, 2025 (Appendix K)
+
+EFRU is a coalition of concerned residents and survivors that formed in the wake of the
+Eaton Fire.9 They created an infrastructure to receive and process professional
+environmental testing results from standing structures (homes and garages) after the
+Eaton Fire and have published what they describe as the largest database of indoor
+pre-remediation contamination in a post-fire environment (237 pre-remediation homes
+tested as of the date of the presentation). Their dataset provides peak maximum
+concentrations for multiple contaminants found indoors. Roughly half of the homes
+included in the pre-remediation contamination map are located inside the burn zone,
+
+9
+    EATON FIRE RESIDENTS UNITED
+
+                                              30
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+and the other half are at least 250 yards from the nearest burned structure or are
+located in the ash zone. Seventy-eight percent (78%) of homes were professionally
+remediated while 22% of homes were DIY.
+
+EFRU presented indoor contamination results pre- and post-remediation based on their
+data. Of the 213 standing homes that were tested for lead pre-remediation, 100% tested
+positive and professional remediation was recommended in all cases. Many homes
+continued to test positive for contaminants post-remediation – 96% positive for lead and
+36% positive for asbestos. Only 16% of homes had both pre- and post-remediation
+testing.
+
+According to EFRU, only 60% of remediation companies are licensed for lead and only
+20% are licensed for asbestos. Fifty-six percent (56%) of homes pre-remediation and
+40% post-remediation were identified by EFRU as having been tested incorrectly,
+raising concerns about the reliability of the results. Access to CAM-17 heavy metal
+testing was provided in only 8-12% of cases post-remediation. In comparison to the pre-
+remediation contamination map, 5 out of 17 heavy metals either stayed the same or
+increased in positivity rates post-remediation. High levels of CAM-17 were found inside
+and outside the burn zone.
+
+EFRU posited that absent a reasonable, alternative explanation, a presumption must be
+made that a contaminant is present due to wildfire. Based on their findings and
+perspectives, EFRU made the following recommendations:
+
+   •   Declaration of an ash zone downwind from the burn zone
+   •   Develop standards for remediation companies
+   •   Require pre- and post-remediation testing
+   •   Adopt evidence-based testing methods for pre- and post-remediation
+   •   California Department of Toxic Substances and Controls (DTSC) to establish
+       screening thresholds for heavy metal contamination in homes
+   •   Expand access to testing, including for other known carcinogens
+   •   CDI to issue a Bulletin requiring insurers to approve pre- and post-remediation
+       testing, including for those who may have previously been denied testing;
+       encouraging insurers to approve post-remediation testing that includes, at a
+       minimum, CAM-17; requiring extended ALE until a home is cleared for habitation
+
+Department of Angels Presentation, Director, Christine Kwon, Tina Luu,
+December 1, 2025 (Appendix L)
+
+The Department of Angels, a survivor advocacy group, presented the key takeaways
+from their third quarterly survey of 2,335 survivors of the Eaton and Palisades Fires
+conducted from September 8 to 17, 2025.
+
+Survey results presented by the Department of Angels indicated that survivors with
+standing but smoke-damaged homes reported having the worst insurance outcomes
+compared to other survivor groups. Only 36% reported being satisfied with their insurer
+
+                                           31
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+compared to 55% of total-loss survivors, and based on the survey results, they are four
+times more likely to have had their claims denied. Respondents with smoke-damaged
+standing homes also reported repeated displacement. Half expect to move again in the
+next year, which is the highest of any survivor group in the survey, often due to
+challenges they reported in having losses not fully recognized and in obtaining ALE
+approvals for no more than a month or two at a time. Survey results noted their ALE
+coverage is running out the fastest. Fewer than 10% indicated they have more than a
+year of ALE left, compared to 35% of total-loss survivors, creating a near-term housing
+crisis. The presenters indicated that, based on survey results, insurance processes are
+breaking down for this group. Survey results indicate they are twice more likely to get
+conflicting information, twice more likely to face poor communication, and significantly
+more likely to get insufficient estimates or multiple adjusters.
+
+Roughly one in four survivors surveyed want testing but have been unable to get it.
+While survivors with smoke-damaged homes are more likely to have had insurance-
+funded testing (29%), they are also more likely to have paid out-of-pocket for testing
+(27%). Among the homes tested, the majority of respondents reported that test results
+exceeded acceptable contamination levels and required further action while over 30%
+remained untested or unsure. However, they acknowledged that the survey did not
+distinguish between indoor and outdoor testing and did not ask about specific
+contaminants, but rather, respondents were asked whether test results were above
+acceptable levels and if further action was required, without defining those levels.
+
+Among those with structural and smoke or ash damage, most are still in the process of
+remediating (24% have not yet started); 40% have begun construction or
+repair/rebuilding. Roughly 8 in 10 Altadena residents and 9 in 10 Palisades residents
+are not back in their homes. The majority of respondents are depleting their savings and
+taking on debt, and those with the lowest incomes face immediate financial danger.
+
+Respondents ranked actions that the government can take with the most popular being
+establishing uniform guidelines for testing and remediation, funding free testing and
+remediation, ensuring that public spaces are safe, and long-term health monitoring.
+
+The Department of Angels recommended strengthening oversight of insurers, ensuring
+survivors can access full payouts for repairing, rebuilding, and remediation, expanding
+the availability of no-cost environmental and indoor contamination testing, and funding
+remediation. Other possibilities included requiring insurers to cover necessary outdoor
+remediation as that is intertwined with indoor contamination (via tracking) and deeming
+homes that are 360 degrees within a burn zone a total loss for insurance purposes.
+
+LA Standing Homes Letter to Task Force, February 4, 2026 (Appendix M)
+
+LA Standing Homes, a survivor group, submitted a letter to the Task Force describing
+their experiences with smoke damage claims. In the letter, they assert that insurers
+have denied or disputed claims, have told insureds that their homes simply need light
+cleaning, and have sent adjusters or vendors who walk through, sniff the air, and say to
+
+                                           32
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+wipe down their homes and run an air filter. The letter described how some insurers or
+insurer-retained vendors advised insureds that they can wash out asbestos and other
+toxins. The letter states that some survivors have paid for independent testing of their
+homes which shows that their homes are not safe and are contaminated with heavy
+metals, arsenic, asbestos, lead, spores, and microscopic particulates. They believe that
+insurers and their vendors focus only on cleaning visible smoke damage and ignore
+invisible contamination, which does not constitute returning their properties to pre-loss
+condition as required by their policies.
+
+The letter describes how, in their opinion, many insurers delay claims and then
+terminate ALE/FRV even when policy benefits remain and state of emergency rules are
+in place. They contend that many insurers are telling insureds that they should have
+already restored their homes but have refused to pay out the funds necessary to start
+restoration. They report that insurers are not fully investigating claims and are not
+accepting professional estimates submitted by insureds. Standing-home survivors are
+running out of ALE/FRV faster than total loss survivors because long-term leases were
+not approved, and insureds have had to face multiple moves – on average, 6 times last
+year – which come with a 30-80% price premium over regular rentals.
+
+The letter reports that, in the meantime, uninhabitable standing homes have been
+targeted by burglars because homeowners have had to choose between leaving their
+toxic contents in their homes to be evaluated by insurers or paying $10,000 to over
+$100,000 to contents vendors for removal and storage. Insurer-hired contents
+remediation vendors add large moving and storage fees even when the contents are
+ultimately deemed unsalvageable and are discarded. Many survivors also report that
+contents have been lost by vendors or have been returned incorrectly and that vendors
+have placed liens on their properties when there are payment disputes.
+
+The letter refers to peer-reviewed academic research that they state establish a
+definitive link between WUI fires and toxic exposure. Some Palisades survivors have
+already experienced negative health impacts after moving back into homes that were
+supposedly remediated. They also discuss homes suffering from “sick building
+syndrome” because they have been compromised by smoke damage with pipes
+bursting, electronics and electricity failing, and metals decaying.
+
+They state that homeowners who are not getting full remediation will have little incentive
+to invest in home hardening, which undermines public safety and the state’s goals of
+wildfire mitigation. Many homeowners may be forced to abandon their homes and
+pursue legal action with unprecedented court-awarded damages. Undisclosed or
+unresolved smoke damage could depress marketability of real estate, trigger buyer
+cancellations, erode neighborhood stability, increase foreclosures, and result in
+declining property values. Survivors are losing their standing homes – giving them back
+to the bank, selling as-is, or draining their savings - to try to remediate while waiting for
+insurance payments.
+
+
+
+
+                                             33
+    Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+Their goals are to return homes to their pre-loss condition, speed up recovery, and
+enforce fair claims practices by insurers. They urge the need for both pre- and post-
+remediation testing, numerical screening levels, standards and protocols for testing
+methods, standards for how laboratories handle samples and the analytical methods
+they use, accelerated claims payments, reinstatement of ALE, and accountability for
+insurers and their vendors with sanctions, such as loss of licenses and certifications,
+fines, and criminal penalties. They request that the CDI and the Task Force publicize
+the volume and scope of smoke damage related complaints, issue a bulletin to reinforce
+state of emergency rules, request expedited claims treatment of burn zone and adjacent
+homes, and affirm an expectation of remediation and restoration to return homes to pre-
+loss condition, and create standards for insurers on how to investigate, evaluate, and
+pay for smoke damage claims that expedite returning standing homes to pre-loss
+condition.
+
+    D. Academics
+
+Purdue University, Dr. Andrew J. Whelton, Eric Bollens Presentation, October 13,
+2025, and Related Publications (Appendix N)
+
+Following the January 2025 fires, Dr. Whelton, Mr. Bollens, and their team conducted a
+survey of impacted residents, as well as a Home Environmental Test Result Study
+where households can upload environmental test reports and results are compiled,
+anonymized, and summarized. Based on the survey and study, they published a guide
+for building environmental testing post-wildfire.
+
+“Community Survey Report: The REBUILD survey conducted in response to the
+January 2025 Palisades Fire and Eaton Fire in Los Angeles County"10
+
+This online survey was conducted from April 3 to June 17, 2025 and was completed by
+1,229 residents. Most of the households had their home inside a fire perimeter – 94.2%
+(Palisades) and 73.4% (Eaton). Nearly all households had insurance before the fires –
+98.8% (Palisades) and 99% (Eaton). Air, water, or soil testing was conducted for less
+than half of responding households. About 38.6% (Palisades) and 48.5% (Eaton) of
+households wanted testing but did not receive it. Fewer than 1 in 4 households believed
+that they would receive enough money from their insurers to rebuild their home – 20.5%
+(Palisades) and 17.8% (Eaton).
+
+They also presented the preliminary results of their Home Environmental Test Result
+Study, which shows that sampling, testing, and recommendations vary widely. Based on
+their review of submitted testing reports, insurers are not consistently covering testing,
+remediation of non-structural contamination, and loss of use for properties not yet
+remediated to pre-loss condition. A wide range of information is being provided to
+
+10 Whelton, A.J., Ferrarezzi, C., Spearing, L., Hoover, A., Palomo, M., Proctor, C.R., Su, J., Toland, J.,
+
+Community Survey Report: The REBUILD survey conducted in response to the January 2025 Palisades
+Fire and Eaton Fire in Los Angeles County, California. September 2025. West Lafayette, Indiana USA.
+10.5703/1288284317912.
+
+                                                     34
+    Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+residents with little consistency in how the companies provide the information. They
+reported instances in which insurance adjusters and consultants conducted site visits
+without wearing proper PPE when visiting properties to prevent cross-contamination.
+They also reported some adjusters and consultants are recommending that insureds
+smell their impacted items and that if there is no odor, they should assume it is safe.
+There is variation in what insureds are told to do with their clothing and appliances,
+depending on who inspects the property.
+
+This forces residents to either risk their health by returning to properties without proper
+remediation and clearance testing or to incur significant personal expense to restore the
+property themselves. The greatest impact is to vulnerable populations, including
+children, the elderly, and individuals with disabilities. There may also be long-term
+community consequences, including a perception that a community is unsafe which will
+drive down property values and impact financial security.
+
+Dr. Whelton and Mr. Bollens stressed that testing for SCA alone will not determine if
+lead, asbestos, or other COCs are present. They discussed the Public Health Advisory
+issued by the LACDPH on February 11, 2025 for those residing within 250 yards of a
+burned structure or parcel within or near the Eaton and Palisades burn areas. The
+Advisory stated that residents in those areas may face an increased risk of exposure to
+hazardous substances from ash, soot, and fire debris before the completion of Phase 1
+(hazardous materials removal) and Phase 2 (fire debris removal), and that exposure to
+those substances may lead to health symptoms and may pose long-term health
+impacts. The Advisory warned about specific harmful substances, including asbestos,
+heavy metals like lead, hazardous chemicals, and fine particulate matter, and advised
+that strong winds and weather fluctuations may increase the exposure risk and the
+affected distance. Dr. Whelton and Mr. Bollens argued that given the Advisory, testing
+for smoke damage claims should have included, at a minimum, the specific substances
+identified in the Advisory.
+
+They recommended that testing be made available for all impacted households and
+stressed the need for local and state leadership on wildfire recovery and rebuilding to
+shift the burden away from property owners having to become their own experts on a
+wide range of technical topics, and for local and county agencies to make actionable
+information available to property owners.
+
+“After a Wildfire: Considerations for Building Environmental Testing”11
+
+Based on their survey and study, they published a guide for building environmental
+testing post-wildfire. A primary objective of sampling and testing is to identify the type,
+location, and magnitude of environmental hazards to determine what remediation is
+necessary to return the property to pre-loss condition. The contaminants that are
+screened should be appropriate for the specific building space and materials and
+consider specific warnings by health officials. Contaminants identified by local and state
+
+11 Whelton, A.J., Bollens, E., Ferrarezzi, C., After a Wildfire: Considerations for Building Environmental
+
+Testing. September 2025. West Lafayette, Indiana USA. 10.5703/1288284317911.
+
+                                                     35
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+officials should be included. At a minimum, attic, garage, and crawlspace samples
+should be collected, along with surface, floor, and windowsill samples of each bedroom
+and living area. Additional locations should be considered. Samples should be collected
+from interior and exterior parts of the building.
+
+The authors made recommendations as to what to test for and where. At a minimum,
+surface dust in buildings should be screened for the RCRA-8 metals, which include
+arsenic, barium, cadmium, chromium, lead, mercury, selenium, and silver, as well as
+asbestos because there are existing federal regulatory thresholds indicating a health
+risk exists. As other metals may also be present, CAM-17 heavy metal testing may be
+more appropriate. In addition to the RCRA-8 metals, CAM-17 includes antimony,
+barium, beryllium, cobalt, copper, molybdenum, nickel, thallium, vanadium, and zinc.
+Screening for lithium and manganese may also be advisable. They referenced various
+USEPA Methods that should be considered for sample analyses and screening.
+
+The authors noted that there are no health-based human exposure standards for SCA
+and that testing for SCA alone is insufficient. Testing should include chemical-specific
+screening. Lead, asbestos, and some VOCs have health-based indoor exposure
+standards, and lead and asbestos have federal exposure limits and require specific
+worker safety actions. By federal law, the removal of lead and asbestos requires
+abatement, specialized training, site safety, and worker safety requirements. By not
+testing for substances like metals and asbestos, residents may be led to believe a
+property is safe when it poses a health risk, become exposed, and spread
+contamination. The authors also discussed air sampling and noted that the presence or
+absence of an odor does not mean the chemical exposures are safe.
+
+The authors recommended that all sampling and testing should be done by competent
+professionals. If contamination is found, remediation professionals skilled at removing
+the specific contaminants without spreading them throughout the property should be
+engaged. If contaminants penetrated drywall and personal items (e.g., mattresses,
+pillows, clothing, upholstery furniture, rugs), specialized decontamination methods and
+subsequent contamination testing of the items may be needed, or the items should be
+discarded. Using a HEPA filter vacuum cleaner on carpets, rugs, and upholstery, for
+example, has shown less than adequate lead removal effectiveness with detectable
+lead remaining. Possible professionals that may have the requisite expertise to conduct
+a property investigation include licensed professional engineers or certified IHs.
+Samples should be analyzed and validated by skilled laboratories, and all results should
+be quantitative, not presence/absence responses. Post-remediation testing should be
+conducted to confirm hazards were removed and should be done by a contractor that
+did not complete the remediation.
+
+   E. Insurance Industry
+
+The American Property Casualty Insurance Association (APCIA) and the Personal
+Insurance Federation of California (PIFC) do not support mandating automatic testing
+and remediation based solely on impact zones, particularly for homes that are far from
+
+                                           36
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+the burn zone, and stresses that there must be flexibility to determine whether testing
+and remediation are needed on a case-by-case basis based on individual property
+assessments. Where there is no demonstrable physical damage, the APCIA does not
+support costly, universal testing mandates.
+
+The APCIA supports a systematic, science-based approach to assessment, testing, and
+remediation, which may be based on a visual inspection and targeted sampling, as
+necessary, with more extensive remediation reserved for severe cases. When smoke
+damage is readily apparent, some insurers may proceed directly to cleaning of the
+home and contents, noting formal pre-remediation testing may not be necessary if the
+carrier makes an adjustment for thorough cleaning of the home and contents. Initial
+methods to determine the level of smoke contamination should include non-destructive
+surface tests (e.g., tape lift, chemical sponge) to accurately isolate wildfire smoke
+residue. Escalating to IH testing or other professional involvement should only occur
+when warranted by initial findings (e.g., presence of heavy metals or asbestos) or when
+required by policy language. Minor smoke damage may not require IH testing. With
+regard to expansive testing in general, the APCIA believes that it should only be
+conducted when it will inform physical damage assessment or guide remediation.
+
+Remediation should generally be proportional to the level of contamination. For light or
+moderate cases, surface cleaning will often suffice. For soft goods, the APCIA believes
+that the best practice is to attempt cleaning first and to consider replacement if cleaning
+is ineffective or if the contamination is severe. Automatically deeming soft goods as total
+losses and requiring replacement is not supported unless there is objective evidence
+that the items cannot be restored or the cost of restoration exceeds their value.
+
+With regard to post-remediation testing, the APCIA disagrees with a universal mandate
+because there is no baseline to restore to, and it would be costly and impractical, with
+the increased costs ultimately harming consumers. The APCIA recommends a case-by-
+case determination of whether post-remediation testing is necessary. Post-remediation
+testing may be used to determine the effectiveness of the remediation if the
+contamination was significant or if there are significant concerns raised after the
+remediation. The PIFC states that where contaminants continue to be found post-
+remediation, insurers should be able to seek recovery for the additional costs from the
+remediation company. Insurers argue that ongoing, uncontained cleaning costs are
+impossible to rate for and that if a home has passed post-remediation clearance testing,
+it may be deemed fully remediated under policy terms, allowing the claim to be closed,
+and the insurer’s obligation should end.
+
+The APCIA cautions that blanket mandates for testing and remediation may encourage
+fraudulent or frivolous claims, create moral hazard, cause delays, and could significantly
+increase costs which will reduce funds available for remediation. In large-scale
+disasters, there may not be sufficient certified vendors or laboratories to conduct testing
+or analyze samples for every impacted property. The PIFC cautions that using impact
+zones, such as those discussed in Section III, H, will increase costs for testing and
+remediation and will have a serious impact on the availability and affordability of
+
+                                            37
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+insurance in the state. The PIFC also suggests that if the hiring of professionals and
+testing are to be mandated by the state, then it should be subject to indemnity limits.
+
+The insurance industry members of the Task Force also raised the additional issue of
+aggressive solicitation efforts by vendors, public adjusters, and attorneys following a
+large-scale wildfire. These solicitations may target properties or vulnerable populations
+well outside of the wildfire and smoke footprint, contributing to questionable or inflated
+claims and increasing loss costs which are ultimately borne by consumers. Industry
+members indicated that solicitations may occur at inappropriate times, including during
+active fires when evacuation orders are in place and public adjusters are prohibited from
+soliciting, or months after the fire when the connection to the fire is tenuous. Industry
+members noted solicitation methods may include directly approaching residents at
+home or at hotels (e.g., informational seminars at evacuation shelters), unsolicited
+phone calls, and expensive mailers that may employ misleading, high-pressure, or fear-
+based tactics. Also, public adjusters often solicit and sign clients before reporting the
+claim and may attempt to act as attorneys by preventing any direct communication
+between the insurer and the insured, despite contractual and legal provisions that allow
+such communication. Industry members cautioned that such practices can create
+confusion for insureds and undermine the integrity of the claims process.
+
+The APCIA suggested the following:
+
+   •   Establish geographic boundaries for direct solicitations supported by objective
+       evidence such as incident maps and environmental data.
+   •   Expand prohibited solicitation timeframes and activities under CIC § 15024 with
+       stricter enforcement and penalties for violations.
+   •   Establish restrictions and oversight of direct solicitation methods (i.e., at homes,
+       hotels, evacuation shelters, by phone, or through mass mailers). Require
+       standardized disclosure language to ensure policyholders are informed about
+       fees, services, and claim legitimacy to promote transparency and informed
+       decision-making and to prevent misleading, high-pressure, or fear-based
+       messages.
+   •   Prohibit public adjusters from restricting direct communication between insurers
+       and insureds. If they attempt to do so, they should be subject to the same bans
+       and rules on solicitation that apply to attorneys (e.g., restrict to general
+       advertising only).
+   •   Enhanced coordination among insurers, regulators, and law enforcement to
+       monitor, report, and address aggressive or inappropriate solicitation practices.
+   •   Limitations on public adjusters and attorneys that broadly pamphlet should be
+       subject to more oversight by the CDI.
+
+APCIA Presentation, Karen Collins, Vice President, Property and Environmental
+Policy, Research and International, January 12, 2026 (Appendix O)
+
+The APCIA presented the insurer perspective regarding smoke damage claims. They
+recognized that “emissions from fires in the built environment may include more
+
+                                             38
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+synthetic materials or chemical compounds resulting in more harmful particles for
+persons or property.” They stated that “[g]lobal wildfire losses in the last decade were
+more than 5 times higher than prior decades, largely driven by the wildfires in California”
+and that the nature and scope of recent wildfires have resulted in extreme smoke
+events. They stated that there have been $40.5 billion in insured losses to date as a
+result of the January 2025 fires making it the costliest wildfire disaster in history.
+
+They presented results from a joint trades survey conducted after the 2020 fires that
+included 2,300 smoke damage claims. The survey found more than a 50% increase in
+smoke damage claims filed 20+ miles from the fire in the 2020 fires versus the 2018
+fires; an 85% increase in smoke damage claims filed with representation by an attorney
+or public adjuster; and more than a 70% increase in late-filed smoke damage claims
+(60+ days after a fire). Another survey was conducted at the CDI’s request that found a
+four-fold increase in the percentage of claims reported by an attorney or public adjuster
+and claims filed more than 4 months after a fire when comparing claims from 2016/2017
+to 2018/2019.
+
+They also discussed another joint trades survey conducted between August to October
+2025 that included 69,000 wildfire claims, including 19,000 smoke damage claims, for
+15 of the 20 costliest insured wildfire events since 2017. The survey found that the
+average severity of smoke damage claims increased at a higher rate than for other
+wildfire claims. Average claims severity for smoke damage claims was 112% higher for
+the 2025 fires versus the 2017/2018 fires, compared to 38% for all wildfire claims. Large
+loss severity trends (i.e., payments totaling over $100k and $200k) notably increased
+after the 2023 Lahaina Fire and further accelerated after the January 2025 fires. The
+percentage of smoke damage claims for the 2025 fires with payments totaling over
+$100k and $200k have each increased tenfold since 2017.
+
+They discussed what they believe to be sensational media coverage and the increasing
+use of medical toxicology based on scientifically flawed methodologies and toxicological
+interpretations that have increased public fear regarding wildfire smoke damage claims.
+They stated that there was a significant shift in media coverage and increased public
+fear after the 2023 Lahaina Fire. Articles following the Lahaina Fire emphasized unsafe
+homes due to toxic damage that could not be cleaned, often citing the same “expert,”
+and which were republished by other media outlets. Media coverage escalated after the
+January 2025 fires “amplifying toxic fears” and introducing new COCs, such as cyanide
+and beryllium, again often attributed to the same “expert.” The APCIA disputed these
+claims, explaining that cyanide typically dissipates quickly from the environment and “is
+NOT a threat in the aftermath of a wildfire” – a point which they contend some IHs have
+acknowledged, with some IHs noting that cyanide tests are offered merely for “peace of
+mind” in response to public fear. The APCIA further pointed to experts who indicated
+there are no national or state standards for how much beryllium inside a home is safe or
+how to test for it or remove it, and that it is not clear whether beryllium is originating from
+the fires. The APCIA noted that “[m]edia coverage has become increasingly hostile
+through attacks on the credibility of individual experts and expert bodies with differing
+
+
+
+                                              39
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+scientific viewpoints, in addition to suggestions of bias within” the Task Force and the
+standards organizations.
+
+They discussed how insurers routinely see opportunists seeking to profit from large-
+scale insurance losses and that the same thing is occurring with smoke damage claims.
+Contractors “arrive in wildfire-affected areas offering unsolicited, quick, and often
+fraudulent cleanup or repair services. They exploit homeowners’ stress and fears –
+especially health concerns about smoke exposure – and may involve them in scams,
+insurance fraud or excessive repairs.” These bad actors use high-pressure tactics and
+display red flags such as aggressive solicitation irrespective of distance from a wildfire,
+payment demands, lack of credentials, vague contracts, unprofessionalism, and poor
+work quality/abandonment. They noted that there has been increased attention by the
+CDI and the Attorney General to investigate and prosecute bad actors.
+
+They highlighted patterns of questionable claims that insurers have seen, including late-
+filed claims often represented by an attorney or public adjuster, claims lacking evidence,
+claims being withdrawn when additional documentation is requested, staged claims or
+those using estimates from fictitious companies or without site visits, and claims
+demanding extreme remediation such as gutting homes and disposal of all contents
+without supporting scientific evidence. They noted that some IHs and contractors deem
+contents "non-cleanable” and recommend replacement due to liability concerns amid
+public health fears. Some positive lead tests have triggered referral to lead remediation
+companies that refuse to get involved due to the novelty of the health concerns and
+testing protocols. They highlighted observations from insurers that many insured and
+contractor decisions are emotionally-driven, based on fear and comfort, not on scientific
+evidence. Insurer feedback indicated that disputes over the scope of remediation are
+stalling claims, in some cases often with the same law firm involved. The APCIA
+indicated insurers are concerned that some of the environmental testing reports that
+they have received recommending extreme remediation are “designed to escalate
+claims costs and negotiations rather than reflect actual damage.” The APCIA drew
+parallels from prior asbestos and mold crises which were also characterized by
+environmental health concerns, a surge in claims, and increased litigation that
+destabilized the insurance market. They indicated that mandates regarding smoke
+damage claims could jeopardize coverage for wildfires altogether since insurers must
+take an all-or-nothing approach due to statutory restrictions.
+
+The presentation also included a critique of Colorado’s Draft Report. The APCIA
+submitted lengthy written comments to the Colorado DOI in response to the Draft
+Report, which is discussed in detail in Section III, G, 2. They argued that the science
+underpinning the Draft Report is not sound or defensible for policymaking and that it
+does not present objective, evidence-based standards. They argued that the science
+does not exist for residential smoke exposure and that the Draft Report used pseudo-
+science to support its recommendations. They argued that the Draft Report’s proposals
+risk introduction of unwarranted complexity and additional costs in the claims process
+that could ultimately threaten insurance affordability and availability for homeowners in
+Colorado.
+
+                                            40
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+
+The APCIA proposed the following possible solutions:
+
+    •   Explore a parametric or index-based policy under which a triggering event would
+        result in a pre-determined policy payout without claim adjustment. This would be
+        a supplement to a residential property insurance policy.
+    •   Use the AIHA Technical Guide and the IICRC Technical Guide as resources to
+        ensure greater consistency in claims handling.
+    •   Statewide certification for labs, including mandatory training, proficiency testing,
+        and audits.
+    •   Regular lab calibration exercises to align methodologies and reduce
+        measurement discrepancies.
+    •   Use existing lab samples for retrospective analysis to establish baselines and
+        inform standards, reducing costs and unnecessary new testing.
+    •   Allow tiered testing protocols that leverage risk-based tiers (e.g., trace,
+        moderate, severe) with clear thresholds and escalation steps, starting with visual
+        inspections and advancing to lab analysis, as needed.
+    •   Require licensing and minimum standards for remediation vendors to ensure
+        quality and to protect policyholders.
+    •   Formal process for stakeholder input and independent peer review before
+        adopting standards or protocols.
+    •   Implement safeguards to prevent exaggerated or fraudulent claims, including
+        limits on solicitation practices, standardized disclosures, and reasonable fee
+        caps for public adjusters and contractors to help deter abuse, protect
+        consumers, and maintain integrity in the claims process.
+    •   Develop clear, standardized materials or an online resource with FAQs to inform
+        policyholders about the typical claims process for smoke remediation, including
+        an overview of testing and remediation that may occur. Provide clear, science-
+        based public health guidance on potential smoke exposure and practical steps
+        for mitigation.
+
+The APCIA argued that “[d]etection alone does not equate to risk or damage, and
+testing for “peace of mind” or future research is outside the scope of property insurance.
+Coverage is meant for physical damage to structures or contents – not individual health
+sensitivities – and expanding it to address speculative and subjective health risks would
+effectively turn property insurance into a health insurance product, undermining its core
+purpose and pricing structure.”
+
+California Wildfire Smoke Claims – Insurance Industry Policy Blueprint (Appendix
+P)
+
+Following their presentation, the APCIA and the PIFC provided an Insurance Industry
+Regulatory and Legislative Policy Blueprint for California wildfire smoke damage claims
+with 14 proposals. Much of the Blueprint was included in the APCIA presentation, but
+they expanded upon and elaborated some of their recommendations:
+
+
+                                             41
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+    •   Require the use of residential thresholds rather than occupational, hazardous
+        waste, or ambient outdoor air standards.
+    •   Require contamination assessments to be conducted by qualified IHs or
+        restoration professionals following technical guides.
+    •   CDI and public health agencies to issue timely, factual advisories during
+        wildfires.
+    •   CDPH or county public health agencies to conduct ongoing environmental
+        sampling, in partnership with academic and scientific organizations, to
+        characterize normal background levels across the state.
+    •   CDPH or county public health agencies to conduct immediate post-wildfire
+        sampling of SCA to help identify the COCs associated with a specific wildfire.
+    •   Create a centralized state consumer education portal that provides a simple
+        explanation of the smoke damage claims process, including typical testing,
+        inspection, timelines that may be involved, and typical background levels, and
+        offering cleaning guidance, filtration advice, and state-approved wildfire smoke
+        health information.
+    •   Update Standard Fire Policy statutes to allow for optional endorsements defining
+        thresholds or standards for smoke-related contaminants and separate sublimits
+        or deductibles for smoke contamination.
+    •   Codify that direct physical loss or damage is required to trigger coverage and
+        that the detection of trace contaminants, without demonstrable physical
+        alteration, does not constitute covered damage.
+    •   For claims reported more than 6 months after a wildfire, require the insured to
+        demonstrate the presence of contaminants and wildfire causation before testing
+        is reimbursed.
+    •   Confirm that a still-standing property that passes post-remediation clearance
+        testing may be deemed fully remediated under the policy with discretion for
+        insurers to extend the occurrence period when additional cleaning becomes
+        necessary due to surrounding activities.
+    •   Expedited enforcement for adjusters, vendors, attorneys, and consultants
+        engaged in deceptive or fraudulent conduct.
+    •   Develop or integrate real-time smoke monitoring systems with transparent data
+        on plume patterns, duration, and concentration.
+    •   Allow insurers to offer optional parametric add-on products for basic cleaning or
+        filtration when independent smoke-exposure indices are triggered.
+
+   F. Legal Perspective
+
+Laura Geist, Esq., Willkie, Farr & Gallagher LLP, California Legal Landscape for
+Wildfire Smoke Claims, January 20, 2026 (Appendix Q)
+
+Ms. Geist presented a legal perspective from an insurer-side litigation standpoint and
+discussed the current state of wildfire smoke damage litigation. She drew significant
+parallels between mold claims in the 1990s to wildfire smoke damage claims today and
+cautioned that the goal of having available coverage at affordable, competitive rates is
+at risk. She discussed some of the results of the APCIA’s joint trades surveys, which
+
+                                           42
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+were previously discussed, to highlight the significantly increased smoke damage
+claims that insurers are handling. She stated that while some smoke damage claims fall
+squarely within the standard homeowners’ policy coverage for “direct physical loss or
+damage to covered property,” others do not (i.e., showing no visible signs of damage or
+any perceptible smell) and that these latter claims are creating uncertainty regarding the
+scope of coverage. She discussed cases involving endorsements, exclusions, and
+policy language that insurers put into place to address these uncertainties.
+
+Ms. Geist discussed the statutory framework governing standard fire policies under
+California Insurance Code Sections 2070 and 2071. Section 2071 requires standard
+form fire policies to insure against all loss by fire, which courts have interpreted to
+include smoke from a fire. “As a general proposition, if an insured’s property suffers
+non-fire damage caused by a fire on another property (such as smoke damage caused
+by a wildfire on another property), the insured’s fire policy covers that loss.” Vasquez v.
+Residence Mut. Ins. Co. (Sup. Ct. Orange County, July 23, 2021).
+
+In Marrufo v. Automobile Club of Southern Cal. (Sup. Ct. L.A. County, May 10, 2018),
+the trial court found an endorsement limiting coverage to $5,000 for smoke losses
+reported more than 90 days after the commencement of a wildfire to be unenforceable.
+In Aliff v. Cal. FAIR Plan Assn. (Sup. Ct. L.A. County, June 24, 2025), the court found
+the FAIR Plan policy’s definition of “direct physical loss” as “actual loss or physical
+damage, evidenced by permanent physical changes” to be unlawful under Section
+2070. The court also found the policy’s requirements that smoke damage be “visible to
+the unaided human eye” or capable of being “detected by the unaided human nose of
+an average person,” rather than being perceptible “by the subjective senses of [the
+insured] or by laboratory testing,” to be unlawful under Section 2070. Both Marrufo and
+Aliff are Superior Court decisions and are not binding appellate precedent, but they
+were cited to illustrate arguments being raised in current litigation.
+
+Ms. Geist also discussed cases highlighting evidentiary issues in smoke damage
+claims, noting the need for testing standards. In Shirley v. Allstate Ins. Co., (2020) 825
+Fed. Appx. 472, the court affirmed summary judgment for the insurer where the plaintiffs
+“failed to prove that ash or soot physically contaminated their home.” Four inspectors
+failed to find any evidence of fire contamination, including soot and ash. “In the absence
+of physical contamination, the Shirleys rely on subjective reports of a smoke smell in
+their home. However, the agreement explicitly precludes coverage based on “vapors” or
+“fumes.””
+
+In Keshish v. Allstate Ins. Co., (2013) 959 F. Supp. 2d 1242, 1243, the court found that
+“plaintiffs’ failure to adduce any evidence that the smoke damage to their home was
+such that the services of a hygienist were required defeats their claim that Allstate acted
+in bad faith because it failed to retain a hygienist before closing plaintiffs’ file.” “The fact
+that Allstate subsequently sought to have a hygienist review the property . . . simply
+shows that once Allstate learned plaintiffs had retained a hygienist and submitted her
+report to the appraisal panel, it sought to protect its interests by having a comparable
+report prepared.” Id. at 1243.
+
+                                               43
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+
+Ms. Geist opined that these cases highlight the need for guidelines and standards for
+testing. She also recommended regulatory oversight of vendors, including licensing
+requirements, and guardrails to prevent moral hazard or fraudulent claims.
+
+Kevin Pollack, Esq., ACTS Law LLP, Smoke Damage in California, The Law, The
+Science, and The Claim Handling Crisis, January 20, 2026 (Appendix R)
+
+Mr. Pollack presented a legal perspective on behalf of policyholders. He discussed CIC
+Sections 2070 and 2071, which require coverage against “all loss by fire,” including
+smoke damage from fire. He cited an 1892 case (Heuer v. Westchester Fire Ins. Co.),
+which found that coverage extends to “injury done by combustion, heat, smoke, and
+expansive effect of the fire,” and stated that smoke damage has been covered for over
+130 years. If a fire policy provides coverage that is less favorable to the insured than
+what is required by Section 2071, then the provision is invalid under Section 2070. He
+argued that the typical policy language in all-risk policies requiring “direct physical loss
+or damage” is narrower than what is required under Section 2071 and is therefore
+invalid. He argued that smoke, soot, ash, and toxic contamination are all covered as
+loss by fire.
+
+He discussed Aliff v. California FAIR Plan Assn. (Sup. Ct. of Los Angeles County, Case
+No. 21STCV20095, June 24, 2025), in which the court held that the FAIR Plan’s policy
+language requiring “permanent physical changes” “limits coverage to be less favorable
+than and not substantially equivalent to the Standard Form Policy contained in Ins.
+Code § 2071.” The court also held that the policy cannot exclude evidence from
+scientific laboratory testing.
+
+He distinguished Another Planet as a COVID-19 case and argued that it cannot be
+relied upon to deny smoke damage claims and that the “easily cleanable” standard does
+not apply to smoke contamination that requires professional remediation. He argued
+that although Another Planet is distinguishable, it nonetheless supports coverage in
+smoke damage cases when contamination requires remediation. He argued that smoke
+contamination satisfies the three triggers for “direct physical loss” set forth in that case:
+1) physical alteration (“need not be visible to the naked eye” and “alterations at the
+microscopic level may meet this threshold”), 2) functional impairment (property
+“rendered effectively unusable or uninhabitable”), and 3) active remediation (“persistent
+pollution . . . requiring active remediation efforts”). He pointed out that in oral argument
+before the California Supreme Court, attorneys for the insurer admitted that smoke
+damage “indisputably” causes compensable loss.
+
+He discussed Bottega and another federal case, Maxus Metropolitan LLC v. Travelers,
+which both distinguished the COVID cases. In Maxus, the court found that “[s]oot
+damage – like asbestos damage and unlike a virus – is both ‘directly material,
+perceptible, or tangible’ and ‘permanent absent some intervention.’”
+
+
+
+
+                                             44
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+He argued that Gharibian did not address Section 2071, is limited to its facts, and that
+the plaintiffs failed to present any evidence of contamination. By way of contrast, he
+discussed two cases that he litigated, Nolte v. Allstate and Hamilton v. Allstate, in which
+the plaintiffs presented evidence of smoke damage contamination, and summary
+judgment for the insurer was denied.
+
+He asserted that insurers have a legal obligation to restore homes to pre-loss condition
+and that ALE coverage continues until a home is habitable, and that both require a
+determination of whether a home is safe. He analogized to other regulatory contexts,
+such as with lead, asbestos, and workplace/OSHA, where a health professional must be
+involved before declaring contaminated sites safe and questioned why homes should be
+different. He opined that a complete investigation must include pre-remediation testing
+by a qualified, independent IH, a health risk evaluation by a qualified health professional
+(not the insurer’s IH) when contamination is identified with consideration for vulnerable
+occupants, independent post-remediation testing, and a written safety determination
+before ALE termination or claim closure.
+
+He cited case law stating that insurers have a legal duty to thoroughly investigate claims
+and cannot plead ignorance of facts that they failed to discover because they failed to
+investigate. He cited case law stating that insurers must search for evidence supporting
+the claim with equal vigor and that a one-sided investigation is per se insufficient. He
+discussed Fadeeff v. State Farm General Ins. Co., (2020) 50 Cal. App. 5th 94, in which
+the court stated that “[a] jury could conclude that FACS [the insurer’s expert] was not
+retained to offer an unbiased report, but instead was retained to ‘rubber stamp’ the
+decision to pay . . . no additional benefits” and reversed summary judgment for the
+insurer. He discussed case law stating that hiring experts does not create automatic
+immunity and that a biased investigation by an insurer defeats the “genuine dispute”
+defense even with expert opinions. He cited case law for the proposition that an insurer
+may not rely on a one-sided investigation or uncritically accept expert opinions while
+disregarding contrary evidence, and that such conduct may defeat the “genuine dispute”
+defense.
+
+He criticized the APCIA’s presentation and concluded that the absence of residential
+standards does not mean a substance is safe; rather, it only means that the danger has
+not been quantified.
+
+   G. Colorado Wildfire Remediation Analysis Residential Premises and
+      Insurance Impacts Draft Report, November 18, 2025 (Appendix T)
+
+There are other states that are also working to address wildfire smoke damage and
+remediation. In response to a legislative mandate, the Colorado Division of Insurance
+(DOI) conducted a study including several stakeholder meetings, and a Draft Report
+was prepared on their behalf by their vendor, Partners Environmental Consulting Inc.
+However, following a stakeholder meeting on December 18, 2025 and after initial review
+of extensive written comments and substantial criticisms of the Draft Report, the
+Colorado DOI decided not to extend their vendor’s contract which concluded on January
+
+                                            45
+    Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+31, 2026 and removed the Draft Report from their website. As of the date of this Report,
+the Colorado DOI is proceeding with publishing a report with recommendations for the
+Colorado Legislature as it works on future legislation to develop standards for smoke,
+soot, and ash remediation.12 The Task Force reviewed the Draft Report prior to these
+developments and provides a summary of the Draft Report’s preliminary findings and
+recommendations.
+
+Their primary recommendations included:
+
+    •   A standard list of fire-related COCs, including SCA, SVOCs, heavy metals, and
+        dioxins/furans that serve as surrogates for potential health impacts resulting from
+        wildland/range and WUI fires.
+    •   Standardized testing protocol as the starting point for any claim of impact from
+        fires.
+    •   Cleanup standards that consider background for all fire-related COCs.
+    •   Economic evaluation of replacement versus repair in situations with widespread
+        and significant impact from fire-related COCs. (p. 56)
+
+They found that both pre- and post-remediation assessments are critical to establish the
+appropriate remediation plan and to document that the home has been returned to pre-
+loss condition.
+
+SCA remain primary concerns, but there are additional COCs that the Draft Report
+identified as present post-wildfire at levels that pose human health risks, including
+VOCs, SVOCs, and heavy metals, and emerging contaminants, including dioxins/furans
+and PFAS/PFOS, which may represent potential exposure, though scientific
+understanding and regulatory guidance around these substances are evolving. “[I]f the
+focus of the pre-remediation assessment is limited to exclusively soot, char, and ash
+particles, the associated remediation activities may not adequately remove the chemical
+contamination that may exist downwind from the fires.” (p. 24) At the same time,
+“[a]ggressive sampling tends to drive up costs, promote fear mongering, ignores
+background conditions and creates unrealistic cleanup goals. The use of reliable
+surrogates is deemed as a best practice.” (p. 45) “[W]hile it is suggested that initial
+sampling includes the full range of fire related COCs, in cases where a COC is
+recommended for testing but does not have an established cleanup standard or
+sampling methodology, this study recommends that cleanup be based only on those
+COCs with published standards.” (p. 39)
+
+Table 1 of the Draft Report identifies the COCs that the report proposes as the primary
+indicators of impact from residential fires and provides comparison standards,
+background levels, sample collection methods, and laboratory methods. “These
+standards should be considered potential comparison standards and may be relied on
+to provide guidance on cleanup protocols. Until such time that regulatory risk-based,
+state-wide, or federal standards are adopted, these potential comparison standards can
+
+12 Homeowners Insurance - Affordability & Availability | DORA - Division of Insurance
+
+
+                                                   46
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+serve as a starting point for cleanup decision making. Specifically, various OSHA
+standards are provided because they offer relevance to workers that may be involved in
+wildfire cleanup. However, OSHA standards are not directly applicable to residential
+exposures and should not be [used] as such.” (p. 39) For COCs that have state or
+federal regulatory requirements for assessment, removal, and disposal, such as lead
+and asbestos, professionals are expected to follow those requirements.
+
+The Draft Report also emphasized that odor should be formally assessed. “Odor
+following a fire or smoke event is a critical indicator of residual contamination and
+should be formally assessed. . . . [I]t often signals the presence of VOCs, SVOCs,
+particulate-bound contaminants, or absorbed residues on surfaces and within the indoor
+air environment.” (p. 29)
+
+The Draft Report proposed protocols for sampling (i.e., number and location of samples)
+for a WUI-fire utilizing a zone method for each property:
+
+   •   4 exterior zone tests biased to observations for indications of impact and based
+       on surface or soil methods with samples taken in the center, outermost section of
+       each of the 4 zones
+   •   If the primary structure is the feature at the center, outermost section of a zone,
+       then proceed to conduct interior testing for the primary structure, as follows:
+            o 4 surface samples and 1 air sample on the ground level
+            o 2 surface samples at each level other than the ground level
+            o Samples will be taken on opposite elevations from one another and in
+               areas and biased to areas of worst observed impact resulting from the
+               initial screening assessment (e.g., air supply ducts, windowsills, etc.).
+   •   If the other structure is the feature at the center, outermost section of a zone,
+       then proceed to conduct 1 additional indoor air sample for SVOCs.
+   •   If any zone sample meets applicable standards, the zone is deemed acceptable.
+   •   If a test within a zone is above applicable standards, the area from that test point
+       inward in the zone shall be determined to be impacted.
+   •   Any test that identifies results above an applicable standard within or along the
+       perimeter of a zone will supersede previous results.
+
+“[C]ontents would be treated similarly to the area they are located in.” (p. 48) “If a zone
+is not impacted by fire related COCs above applicable standards but is affected by soot,
+char and ash residue, standard cleaning/replacement methods detailed in the S700 and
+S50013 standards would be deemed to apply.” (p. 48)
+
+Post-remediation assessment should be conducted similarly to the pre-remediation
+assessment. “Only the COCs that were sampled and determined to be needing
+remediation during the pre-remediation sampling should be sampled during the post-
+remediation sampling assessment.” (p. 43) A home is cleared when the following criteria
+are met: 1) olfactory clearance, 2) exterior visual clearance, and 3) interior visual
+
+13 IICRC S500 Standard for Professional Water Damage Restoration
+
+
+                                                47
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+clearance. Once no smoke odors persist and no visible fire or smoke-related dust or
+debris are present in the remediated areas, then tape-lift samples should be collected to
+determine whether additional cleaning and resampling are required.
+
+The Draft Report proposed a conceptual economic framework under which,“[i]n cases
+where fire-related COCs have impacted at least 50% of the floor area, the economics
+will likely support the conclusion that the structure is a constructive total loss and should
+be replaced rather than repaired.” (p. 40) “[T]his means that, of all the floor area on all
+levels of the home, a total of 50% or more is contaminated by fire related COCs at
+levels that warrant the need for the flooring, walls, ceilings, and structural elements to
+be replaced (above, around, and below this area).” (p. 42) “[I]f the house is deemed a
+replace scenario, the other structures and non-dwelling contents would be treated in the
+same manner.” (p. 52)
+
+The Draft Report noted that “[t]he lack of binding regulatory thresholds tailored to
+residential fire environments forces practitioners to apply proxy standards – often
+developed for industrial exposures – which may not be sufficiently protective in a post-
+fire remediation context.” (p. 22) Residential risk-based standards should be developed
+to apply post-WUI fire for those COCs that currently do not have USEPA Regional
+Screen Levels. There should be guidance for soil, structural materials, and personal
+property affected by smoke. Background testing should be conducted so that it can be
+used in the future to develop state-specific residential background levels.
+
+The Draft Report opined that their preliminary recommendations would result in
+increased initial costs for insurers for sampling and testing but that establishing a
+standardized approach and a streamlined process may ultimately result in lower overall
+costs due to anticipated savings on ALE, legal, mediation, expert, and consultant fees.
+
+   1. UP’s October 24, 2025 Feedback Regarding Colorado’s Smoke Study
+      Stakeholder Meeting on October 20, 2025 (Appendix U)
+
+United Policyholders (UP), a consumer advocacy group, provided the Task Force with
+their feedback to Colorado during the course of the stakeholder meetings that were held
+prior to the issuance of the Draft Report. UP opined that it is unacceptable to send an
+unqualified adjuster or a captive restoration company to conduct a limited, superficial
+visual inspection for SCA and to obtain a few samples or to conduct an olfactory
+assessment. They noted that there are no established legal standards that set specific
+limits for indoor concentrations of SCA. They took issue with the IICRC S700 Standard
+(Appendix G) because it offers no defined levels or science-based COCs or testing
+protocols to guide remediation and expressly does not apply to wildfires.
+
+UP recommended the following:
+
+   •   Mandatory pre- and post-remediation testing before a property is deemed safe
+       for habitation and before ALE can be cut off.
+
+
+
+                                             48
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+   •   Standardized testing methods with due consideration for the conditions specific
+       to each property (i.e., location, proximity to flames/smoke plumes, ventilation,
+       construction materials) and recognizing the importance of testing in attics,
+       crawlspaces, behind walls, inside ducts, and on porous surfaces.
+   •   Education, training, and certification standards for indoor air quality/IH
+       professionals.
+   •   Mandatory disclosure to insureds where a vendor is captive to an insurer or
+       derives a significant portion of income from insurers, giving the insured an
+       opportunity to request an independent professional.
+
+UP also provided redacted sample language from a recent proposal for smoke testing in
+California, which recommended testing for SCA, heavy metals, VOCs, formaldehyde,
+lithium, and cyanide.
+
+   2. APCIA Comments on Colorado’s Draft Report, December 11, 2025
+      (Appendix V)
+
+The APCIA submitted comments in response to the Draft Report raising numerous
+concerns:
+
+   •   The Draft Report was based largely upon the Rocky Mountain Association of
+       Public Adjusters (RMAPIA) report, “Fire Protocols,” which was developed for
+       public adjusters and poses an inherent conflict of interest.
+   •   The Draft Report applies comparison standards, benchmarks, and thresholds
+       that are not applicable to residential wildfire smoke impacts and resulting COCs.
+       USEPA hazardous waste methods and OSHA occupational exposure limits do
+       not apply to residential properties.
+   •   The Draft Report discusses the possible health risks of COCs without direct
+       evidence. “[T]here are currently no peer-reviewed scientific studies that directly
+       measure acute or chronic dioxin or furan exposure in residential occupants
+       following wildfire events. The existing body of research is limited to occupational
+       exposures . . . or relies on surrogate metrics like PM2.5 to infer potential health
+       impacts. While these studies confirm the presence of dioxins in fire
+       environments, they do not provide direct evidence or quantification of risk for
+       individuals re-occupying smoke-impacted homes.” (p. 4) “[I]t is essential to
+       distinguish between the chronic, long-term exposures typically associated with
+       industrial emissions or contaminated food sources, and the acute, short-term
+       exposures that may result from wildfire smoke events.” (p. 7)
+   •   COCs, such as dioxins, bind to smoke, ash, and char particles, which can be
+       cleaned. “The Draft Report fails to adequately consider the well-established
+       practices for cleaning and restoring homes affected by smoke, ash, and char –
+       materials that may contain dioxins – which significantly reduce potential
+       exposure.” (p. 5)
+   •   The Draft Report does not address background contamination. Many of the
+       identified COCs have multiple indoor sources other than wildfire smoke. “Well
+       established literature indicates indoor environments are never “clean” – volatile
+
+                                            49
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+       organic compounds (VOCs), semi-volatile organic compounds (SVOCs, which
+       include dioxins/furans), and particulate levels in homes often exceed outdoor
+       concentrations by orders of magnitude, even in the absence of wildfire or WUI
+       fire exposure.” (p. 5) “In fact, air pollutant concentrations in homes frequently
+       surpass industrial limits for VOCs set by OSHA, NIOSH, EPA, and state
+       agencies.” (p. 6)
+   •   The Draft Report’s sampling and testing protocols are not supported by current
+       science and disregards established remediation methods.
+   •   Mandating insurance claim testing to build a database of sampling data to
+       establish accepted background standards “would impose a significant operational
+       and financial burden on insurers . . .” (p. 7)
+   •   The Draft Report disregards the IICRC Technical Guide, which “offers a more
+       science-based, consensus driven method for wildfire restoration” and
+       complements the AIHA Technical Guide. (p. 8)
+   •   The Draft Report’s recommendations to fully replace homes and belongings
+       without adequate evidence may lead to claim delays, more litigation, bigger
+       insurance claims, and higher costs for everyone. “The push for universal testing
+       and strict toxic thresholds would strain available laboratory and expert resources,
+       potentially displacing policyholders from homes for extended periods.” (p. 10)
+       “[B]ased on extensive claims experience, APCIA member companies estimate
+       that mandatory testing requirements could increase indemnity spend by $4,000-
+       $6,000 per test panel, at minimum and potentially much higher.” (p. 11)
+
+The APCIA cautioned that key cost drivers were not fully accounted for in the Draft
+Report’s economic analysis, which could materially increase costs beyond those
+estimated and reduce or negate the anticipated efficiencies or savings under the Draft
+Report’s proposed conceptual framework. The APCIA strongly urged the Colorado DOI
+to explore alternative approaches, including tiered testing protocols and vendor
+licensing and oversight, and supported independent review of the scientific viewpoints
+and methodologies presented to ensure any future standards are evidence-based,
+effective, and operationally feasible for residential wildfire recovery.
+
+   3. NAMIC Comments on Colorado’s Draft Report, December 16, 2025
+      (Appendix W)
+
+The NAMIC raised similar concerns with the Draft Report and criticized the opinions
+regarding the cost impacts of their recommendations on residential insurance, noting
+that the opinions were formed “without conducting a data call, performing actuarial
+analysis, or providing any empirical support . . .” (p. 1) In fact, there will be substantial
+cost as a result of the number of homes that will likely have to be tested after a wildfire
+under the Draft Report’s recommendations, which will exacerbate concerns about
+affordability and availability. They argued that litigation will increase because “[t]here will
+be disagreements as to who pays for the testing and whether a finding of chemicals was
+a result of the fire or was the result of background chemicals.” (p. 6) They stated that
+the Draft Report’s estimates regarding testing costs are inaccurate and that “the actual
+cost of testing is likely to be significantly higher than the cost stated in the draft given
+
+                                              50
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+the inevitable surge demand for testers and industrial hygienists after any wildfire
+event.” (p. 4)
+
+They cited the IICRC Technical Guide which “refutes many of the findings and
+conclusions in this draft study.” (p. 3) They criticized the 50% threshold for replacement
+stating that it “ignores the opinions of the actual scientists and remediation experts that
+indicate that in most cases those homes can be effectively cleaned and remediated.” (p.
+4) They argued that the Draft Report’s testing recommendations do not account for
+distance from the fire which is “the single most important factor in determining the scope
+of restoration . . .”, citing the IICRC. (p. 4) Under the Draft Report’s recommendations,
+“[t]he fire does not even need to be one that burns a significant number of homes, or
+even one that took place in Colorado.” (p. 4)
+
+They noted that the Draft Report acknowledges many of the COCs already exist in most
+homes and pointed out the difficulties with the recommendation that background testing
+be conducted to develop state-specific residential background levels. “Without having a
+background level just prior to the fire, any testing for these chemicals of concern, absent
+evidence of the fire – such as soot, char and ash – will be meaningless.” (p. 5)
+
+   4. UP Comments on Colorado’s Draft Report, December 16, 2025 (Appendix X)
+
+UP also submitted comments regarding the Draft Report, opining that “[i]ndependent
+environmental science professionals should define a comprehensive list of COCs,
+reflecting the full range of toxic substances documented in recent urban wildfire events
+(e.g., beryllium, cadmium).” (p. 2) UP opined that “[s]tandards must avoid establishing
+extremes – assuming all damage can be cleaned or requiring full demolition. Instead,
+remediation protocols should be tiered, reflecting the specific contaminants, structural
+damage, and property variables when determining the economic and practical
+standards for what would constitute a “total loss”.” (p. 4)
+
+   5. CDPH Review of Colorado’s Draft Report (Appendix Y)
+
+
+The CDPH provided its summary of Colorado’s Draft Report, noting that although the
+Draft Report finds that a standardized minimum testing protocol would streamline claims
+and ensure comprehensive cleanup, it stops short of making any definitive testing
+recommendations that could be universally applied. They noted that the Draft Report did
+not consider alternative ways to minimize exposure when contaminants are present and
+reiterated that although remediation may be the preferred way to eliminate the risk of
+exposure, the presence of contaminants does not directly imply that exposure is likely.
+They also noted that the Draft Report predicts risks using standard assumptions, such
+as a half-acre lot size, which may or may not be applicable to California.
+The CDPH summarized the Draft Report’s primary recommendations, discussed in
+Section III, G, as well as the recommendation of tracking and integrating emerging
+scientific data on wildfire-related COCs into any testing and remediation standards.
+
+                                            51
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+They opined that these recommendations provide a reasonable framework to address
+what, when, and how to test for COCs to reduce liability when remediating smoke
+damage in residential properties, and agreed with the environmental measurements and
+analytical techniques discussed in the Draft Report. They also agreed with the Draft
+Report’s finding that existing standards for most COCs are limited or lacking and that
+ongoing testing will help to build a better knowledge database. They suggested that any
+new information should be assessed to determine whether it would justify any changes
+to any developed recommendations and protocols.
+The CDPH highlighted some differences between Colorado and California and made
+suggestions to consider if the Draft Report were to be adapted to California. For
+instance, they noted that Cal/OSHA has existing regulatory requirements to protect
+construction workers from occupational lead exposure and that once a lead hazard is
+identified, contractors must follow existing state standards for lead hazard evaluation
+and abatement. Where there is evidence to suggest indoor lead contamination, such as
+building materials, they stated that it would be advisable to test for lead or to proceed
+with remediation that is compliant with existing regulatory requirements with the
+presumption that lead is present, particularly in homes where young children or
+pregnant individuals may reside. They stated that practically speaking, if the testing
+methodology bundles other COCs with lead, it is likely to be efficient to proceed with the
+method and to generate results for the other COCs as well. They also stated that due to
+the known risks of lead for children, testing and remediation should be done by CDPH-
+certified workers for households with children.
+They also suggested that the presence and location of HVAC systems should be further
+explored as those may be located in parts of the home that are not normally considered
+inhabited. If HVAC systems are located in attics or unfinished basements, that may
+change the value of assessing the presence of COCs in those spaces that might
+otherwise not pose a high risk of exposure.
+
+
+   H. CDI Summary Presentation by Deputy Commissioner, Tony Cignarale,
+      CDI’s Draft Issues and Preliminary Recommendations, January 26, 2026
+      (Appendix Z)
+
+Deputy Commissioner Cignarale gave a presentation summarizing potential high-level
+concepts to see where the Task Force stood on them.
+The main issues presented were:
+
+      1. The presence of smoke in a home from wildfire is physical damage, is covered
+      under the peril of fire, and must be remediated. There are recognized impacts to
+      occupant health and property if smoke, soot, char, ash, and other substances are
+      not properly remediated.
+      2. Classification, Inspection, Evaluation, and Remediation of Smoke Damage
+      Inside Homes
+
+                                            52
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+       3. Training and Certification of Insurance Claims Adjusters, Public Adjusters,
+       Inspectors, Hygienists, Restorers, Testing Labs
+       4. Workplace Safety
+
+There was general consensus, with some noted exceptions, regarding the main issues
+presented. For instance, with regard to the first issue presented, insurance industry
+representatives highlighted concerns that the presence of smoke alone may not indicate
+property damage in all cases. However, the issue that elicited the most discussion
+involved the Tiered Classification concept based on a home’s proximity to the “fire
+perimeter,” “burn zone,” or “ash zone.”
+
+The Tiered Classification concept suggested that the degree of smoke damage to an
+impacted home varies by the density of smoke in the area, direction of the wind,
+proximity of the home to the wildfire burn zone, duration of the fire, characteristics of the
+home, and other factors. For purposes of the presentation, “wildfires” were assumed to
+potentially include burned vegetation, vehicles, and structures. The recommendation
+was that homes within and adjacent to the fire perimeter are generally the most
+impacted by wildfire smoke and should require a more robust inspection and evaluation
+of the potential impacts of smoke damage.
+
+Deputy Commissioner Cignarale suggested that determining proximity to the burn zone
+and subsequent classification could be accomplished using two possible standards:
+
+Objective Standard: Based on Distance of Home to Fire Perimeter
+
+Wildfire-Specific Standard: Mapping of an “Ash Zone.” “Ash Zone” would be defined
+as the area covered by settled, fine particulate residue, including soot, char, and ash,
+from a wildfire, carried by a smoke plume and winds as determined by federal, state, or
+local government agencies with jurisdiction over the specific wildfire.
+
+Under the Objective Standard, classification of smoke damage to a home as High,
+Moderate, or Low Impact would be accomplished as follows:
+
+High Impact Zone: If the home is located (1) in the Fire Perimeter or within 6 miles from
+the Fire Perimeter or (2) within a designated Ash Zone (if applicable), there is a
+rebuttable presumption of significant smoke damage and the smoke damage claim will
+be classified as High Impact for purposes of the type of testing, inspection, and
+evaluation it receives.
+
+Moderate Impact Zone: If the home is located (1) within the 6-mile to 12-mile range from
+the Fire Perimeter or (2) within 6 miles from the designated Ash Zone (if applicable),
+there is a rebuttable presumption that the smoke damage to the home will be classified
+as Moderate Impact for purposes of the type of testing (if applicable), inspection, and
+evaluation it receives.
+
+
+
+
+                                             53
+   Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+Low Impact Zone: If the home is in a location (1) greater than 12 miles from the Fire
+Perimeter or (2) greater than 6 miles from the Ash Zone, there is a rebuttable
+presumption that the smoke damage to the home will initially be classified as Low
+Impact for purposes of the type of inspection (if any) and evaluation it receives.
+
+Classification of smoke damage to a home by its proximity to the burn zone or ash zone
+would then determine the scope and degree of automatic testing. For example, if the
+smoke damage to a home is classified as High Impact, it would require a full in-depth
+on-site inspection by a certified industrial hygienist or equivalent professional and
+automatic pre-remediation testing for smoke, lead, asbestos, and any other substances
+identified by state or local agencies as substances of concern for WUI fires (in general)
+or for a specific WUI fire, to the degree that there are health-protective levels and
+standards that would inform interpretation of results. A home that has a Moderate or
+Low Impact classification would require a lesser degree of automatic testing, depending
+on the on-site inspection and other factors.
+
+There was consensus by some members of the Task Force that this concept had
+potential. However, there were also concerns and questions raised:
+
+   •   The zone parameters may be too broad and encompass too many homes, or
+       homes that have no smoke damage, especially in the proposed impact
+       zones with no outer boundary. The zones should adhere, instead, to the
+       zone parameters in the AIHA and IICRC Technical Guides. The PIFC argues
+       that smoke, in and of itself, may not justify a claim as it may not be
+       attributable to the fire and/or may not result in direct physical damage to the
+       structure and that such claims cannot be included in presumed coverage.
+       They also argue that there is no consideration for baseline issues that exist
+       prior to a fire.
+   •   The PIFC contends that the above framework would increase costs for both
+       testing and remediation by adding broad presumptions and would ultimately
+       result in substantial increases in the cost of insurance for consumers. The
+       APCIA contends that the rebuttable presumption of automatic testing for
+       homes in the High Impact Zone could have legal and cost implications, may
+       create operational challenges and large-scale expansion of exposure, and
+       may affect affordability and market stability. In addition, automatic testing
+       may not be possible after a catastrophic wildfire due to demand surge, which
+       may cause delays in claims handling and increased ALE durations.
+   •   It is unclear how the rebuttable presumptions regarding the tiers would be
+       resolved and how disputes would be resolved when an insured believes that
+       their home is unsafe but the testing does not support that belief. It is also
+       unclear what needs to be included in remediation and who gets to decide.
+   •   The CDPH suggested removing automatic testing because they are not
+       aware of sufficient evidence that would lead them to recommend a specific
+       list of contaminants that should be tested for, even in the High Impact Zone.
+       The CDPH asserts that the proposed mileage cutoffs for defining High,
+       Moderate, and Low Impact Zones are somewhat arbitrary and lack
+
+                                           54
+      Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+          justification and that although they appear to be based on the distance
+          cutoffs used in the AIHA Technical Guide, those were intended only as
+          examples to describe the conceptual model and that the use of 1 km, 10 km,
+          and 100 km zones was not meant to imply any actual relevance to real
+          situations. The CDPH raised the importance of distinguishing differences in
+          assessment and remediation recommendations among three zones, and
+          whether two zones might be sufficient.
+      •   It should be required for any state and/or local agency that wishes to add
+          toxins to the required testing for a speciﬁc ﬁre to have tested the ash in the
+          immediate aftermath of the ﬁre to ensure the additions are evidence-based.
+      •   There is insufficient data on the level that certain toxins must meet to be
+          “cleared.” It is critical that the entities certified to determine post-remediation
+          clearance levels be explicitly stated and that those testing targets be based
+          on residential thresholds for habitability, not other unrelated environments
+          such as occupational safety or hazardous waste.
+      •   There should be clear definitions of what types of wildfires would trigger any
+          enhanced standards as the definitions will have a major impact on the
+          application of the above framework.
+      •   There must be consideration of background contamination in a home when
+          interpreting test results and determining clearance of a home.
+      •   Some of the terminology used should be clarified and defined.
+
+IV.   OTHER CONSIDERATIONS
+
+  During the course of the Task Force meetings, suggestions were made, other than
+  those already discussed, to address the issues related to smoke damage claims which
+  may warrant further consideration in the future as these issues continue to evolve:
+
+      •   Certified, competent professionals could develop decision-making criteria
+          regarding sampling, testing, and remediation to apply to certain situations,
+          thereby eliminating the need to hire a professional in every case.
+      •   Establish the scope of smoke damage inspections and testing protocols, similar
+          to Replacement Cost Estimate regulatory requirements, that specifically
+          delineate what must be included.
+      •   List of certifications and the requirements for each and establish a hierarchy as to
+          who is the most qualified to inspect and test.
+      •   Consider alternatives to defining impact zones based on distance from the burn
+          perimeter, such as characteristics of the home, type of construction and extent of
+          damage to neighboring homes, wind patterns, topography and/or fire duration.
+      •   Determine which state or local entity (e.g., County or State Public Health, Cal-
+          EPA, CalFire) should take samples in burn zones and conduct regional testing to
+          determine the level of contamination in smoke and set a standard for what
+          homes directly within the smoke path should be tested and remediated for, with
+          analysis from the appropriate agency as to what is a health risk to residents. Any
+          such determinations of testing responsibility will also need to account for funding
+          source, availability, and responsibility.
+
+                                               55
+     Insurance Commissioner Ricardo Lara’s Smoke Claims & Remediation Task Force
+
+
+V.   CONCLUSION
+
+ Based on the foregoing, the concept of a Tiered Classification utilizing impact zones for
+ WUI-fire smoke damage claims should be further developed and implemented by the
+ appropriate governmental agencies, with careful consideration for what standards and
+ protocols are required for each established tier. Also, establishing training and
+ certification requirements that are administrated and enforced by the various agencies
+ that have jurisdiction over the individuals involved in the smoke damage claims and
+ restoration process would result in less confusion and more consistency in how these
+ claims and projects are handled in the future.
+
+
+
+
+                                             56
+

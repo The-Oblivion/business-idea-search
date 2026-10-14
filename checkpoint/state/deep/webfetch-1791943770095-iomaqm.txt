@@ -1,0 +1,430 @@
+Fraudulent respondents and bots in nonprobability surveys: A literature review                                   NORC at the University of Chicago
+
+
+
+
+                                                                                              Research Brief
+norc.org | info@norc.org                                                                                                            April 2026
+
+
+
+
+Fraudulent respondents and bots in
+nonprobability surveys: A literature review
+   Introduction
+   The recent exponential explosion of automated bots is a danger to the integrity of online survey data,
+   specifically in nonprobability surveys. According to large-scale traffic analyses, automated bots now account
+   for nearly half of all global internet traffic (Imperva, 2024). While bots can be useful in assisting with
+   repetitive tasks, they can also be used by bad actors to commit fraud. It is estimated that fraud rates are at
+   15–30 percent across the market research industry, reaching as high as 45 percent on some survey
+   platforms with spikes during the pandemic and continued growth fueled by the accessibility of large
+   language models, bots, and click farms (Caven et al., 2025; Maimarides, 2025; McCarthy, 2022). In the
+   context of survey responses, these bots pose real challenges to researchers by providing non-human
+   technological responses. A marked increase in AI-generated responses was observed following public
+   releases of new generative AI programs (Zhang, Katoh, & Pei, 2025). A couple of case studies also suggest
+   that survey fraud has dramatically undermined data quality, with usable responses dropping from roughly
+   75% to just 10% in recent years (Pinzón et al., 2024; see also Peterson, 2025). The problem is particularly
+   acute when surveys are accompanied by financial incentives (Teitcher et al., 2015; Bowen et al., 2008).
+   Beyond monetary gain, bad actors may also be motivated by the desire to disrupt research, by compromising
+   data validity, or to test and challenge their own technical skills (Buchanan & Scofield, 2018).
+
+
+
+
+How bots impact data                                                             This challenge was echoed by Krawczyk and Siek
+                                                                                 (2024), who received 981 responses within four
+quality by recruitment                                                           hours, of which only three were authentic. Goodrich
+                                                                                 et al. (2023) similarly reported that in a U.S.
+source                                                                           beekeeping survey, only 4 percent of 2,622
+                                                                                 responses were legitimate. Taken together, these
+Online surveys have been becoming increasingly                                   findings constitute a striking pattern that reflects
+vulnerable to fraudulent responses and bot activity.                             broader shifts in data collection.
+Early evidence from Konstan et al. (2005) showed
+                                                                                 Social media recruitment has proven equally
+that 11 percent of responses in a sexual behavior
+                                                                                 susceptible to fraud. Pozzar et al. (2020) found that
+risk survey were fraudulent. Removing these
+                                                                                 94.5 percent of responses in a health research study
+responses altered statistical significance. More
+                                                                                 were fraudulent, while Imes et al. (2024) reported
+recent studies reveal even higher rates: Bell and Gift
+                                                                                 that over 95 percent of Twitter-recruited responses
+(2023) detected identity falsification in over 81
+                                                                                 were bot-generated. Detection is also getting more
+percent of respondents, while Bonnamy et al. (2025)
+                                                                                 difficult. Irish and Saba (2023) warned that bot-
+abandoned a Qualtrics survey after determining that
+                                                                                 generated data can closely mimic human responses.
+95 percent of responses were likely bot-generated.
+                                                                                 Overly conservative exclusion criteria may also distort
+
+
+
+© NORC 2026 norc.org                                                                                               Research Brief | April 2026 | 1
+Fraudulent respondents and bots in nonprobability surveys: A literature review                                   NORC at the University of Chicago
+
+
+
+
+findings, highlighted by Carballo-Diguez and Strecher                            Vulnerable populations and those with limited digital
+(2012). This study noted that flagged cases                                      access may be inaccurately flagged as fraudulent,
+sometimes contribute to sample diversity and                                     underscoring the challenge of balancing rigorous
+observed relationships. Collectively, these studies                              detection with equitable participation (Stemmer et
+underscore the growing challenge of maintaining data                             al., 2026).
+integrity in online and social media-based research.
+                                                                                 Ethical considerations often conflict with fraud
+                                                                                 prevention strategies. Carey and Babicheva (2024)
+
+Evidence that it’s difficult                                                     suggested delaying disclosure of survey context
+                                                                                 until after screening questions to deter bots, but this
+to verify respondents’                                                           approach may violate informed consent
+                                                                                 requirements. Gleibs and Albayrak-Aydemir (2021)
+identities                                                                       noted concerns when researchers signal monitoring
+                                                                                 or deny compensation for suspicious responses,
+Verifying respondents’ identities in online surveys                              particularly given the economic vulnerability of some
+has become increasingly difficult. Bell and Gift                                 participants. These trade-offs highlight the tension
+(2023) uncovered serious irregularities in their                                 between protecting data integrity and safeguarding
+dataset, including evidence that respondents                                     participant rights.
+deliberately detected and circumvented screening
+                                                                                 Fraud detection is further complicated by behavioral
+measures and repeatedly submitted surveys under
+                                                                                 confounds such as satisficing, where genuine
+different identities. Bots can now leverage large
+                                                                                 respondents provide minimal effort that triggers
+language models, such as ChatGPT, to interpret
+                                                                                 fraud indicators. Hamby and Taylor (2016)
+survey questions and generate human-like
+                                                                                 described this phenomenon, and Donegan and Gillan
+responses, making fraudulent entries nearly
+                                                                                 (2021) along with Moeck et al. (2021) warned that
+indistinguishable from authentic ones (Bhayana,
+                                                                                 overly strict exclusion criteria risk removing
+2024). Westwood (2025) specifically designed an
+                                                                                 populations prone to attention lapses, potentially
+autonomous LLM-based synthetic respondent
+                                                                                 biasing results.
+capable of passing 99.8 percent of standard data
+quality checks and was able to generate coherent,                                AI-assisted responding broadly contaminates survey
+persona-consistent responses that were                                           measurement. The reliability of behavioral paradata
+indistinguishable from human responses. These                                    like response times is blurred for a respondent using
+developments highlight the growing sophistication                                AI to assist in survey completion, making it difficult
+of bad actors and the limitations of traditional                                 to distinguish persons from bots (Van der Stigchel et
+verification strategies.                                                         al., 2026; Westwood & Frederick, 2026). In one study of
+                                                                                 active online survey participants, 34 percent reported
+                                                                                 using LLMs to help them answer open-ended
+Why these issues are                                                             questions to better express themselves, casting doubt
+                                                                                 on whether researchers can assume all textual
+hard to resolve                                                                  responses originate from the participant themselves
+                                                                                 (Zhang, Xu, & Alvero, 2025). LLM-generated responses
+Resolving survey fraud is inherently complex due to
+                                                                                 are generally more homogeneous and emblematic of
+methodological and technological constraints.
+                                                                                 common or cultural touchstone responses which
+Lawlor et al. (2021) emphasized that individuals can
+                                                                                 make it difficult to distinguish these responses from
+use bots to conceal their identity and submit
+                                                                                 the opinions of an average member of the population,
+multiple responses, amplifying one “voice” over
+                                                                                 systematically suppressing natural variation
+genuine participants, and noted that no single
+                                                                                 (Martherus et al., 2025; Zhang, Xu, & Alvero, 2025).
+method works universally across surveys.
+Traditional strategies such as domain-knowledge                                  Operational challenges persist across survey
+checks and open-ended questions have become                                      platforms. Burdick (2025) pointed to gaps in fraud
+ineffective against LLM-powered bots (Yee, 2025).                                prevention caused by multiple vendors and
+Teitcher et al. (2015) cautioned that aggressive                                 subcontractors, while Wardrop (2025) reported that
+screening risks excluding hard-to-reach populations.                             strict fraud checks like IP fingerprinting can
+
+
+
+© NORC 2026 norc.org                                                                                               Research Brief | April 2026 | 2
+Fraudulent respondents and bots in nonprobability surveys: A literature review                                   NORC at the University of Chicago
+
+
+
+
+introduce bias and harm respondent experience.                                   answer incorrectly (in contrast to shibboleth
+One study observed that eliminating financial                                    questions where the target audience is expected to
+incentives does not deter all fraud, as some actors                              answer correctly), but the viability of that approach
+are motivated by ideological disruption rather than                              long-term is only limited by the time it takes for AI
+monetary gain (Johnson et al., 2024). Wu et al.                                  agents to adapt. Manual review remains one of the
+(2022) highlighted the trade-off between adding                                  most effective approaches, but it is prohibitively
+validity checks and risking lower response rates,                                costly and time-intensive (Griffin et al., 2022).
+underscoring the complexity of balancing security
+                                                                                 Some researchers are using machine learning to
+and usability.
+                                                                                 detect machine learning. While AI detector tools
+Additionally, hybridization strategies further                                   broadly have been highly touted, the evidence for
+complicate fraud detection in online surveys. Hense                              their efficacy is lacking (e.g., Perkins et al., 2024),
+and Ahmed (2025) reported that fraudsters often begin                            especially with a one-size-fits-all approach (e.g.,
+surveys manually to bypass initial screening checks,                             Liang et al., 2023). Claassen and colleagues (2026)
+then deploy automated bots to complete the remaining                             show that transformer-based models can identify
+questions and secure incentives. This tactic blends                              bot-generated narrative text with up to 100 percent
+human and machine input, making it increasingly                                  accuracy when tuned to a specific question context,
+difficult for researchers to identify fraudulent                                 but cross-question prediction was poor. Stemmer et
+responses using traditional validation methods.                                  al. (2026) proposed a multistage structured
+                                                                                 framework for mitigating fraudulent completes: the
+                                                                                 Configure, Assess, Triage, Corroborate, and Hone
+Existing solutions and                                                           (CATCH) framework. The CATCH framework
+                                                                                 emphasizes the importance of a layered approach
+why they often fail                                                              from pre-study configuration through post-data
+                                                                                 processing, as well as a combination of systematic
+Existing solutions to combat survey fraud often fall
+                                                                                 and human-led methods. However, even with a
+short against increasingly sophisticated tactics (see
+                                                                                 multipronged approach, fraudulent responses are
+Panizza et al., 2026). Pozzar et al. (2020) found that
+                                                                                 still likely to go undetected. amet eu lacus.”
+even after implementing measures to prevent
+misrepresentation and automated enrollment,
+hundreds of fraudulent respondents still managed to
+bypass eligibility checkpoints. Building on this,
+                                                                                 Conclusion
+Gutierrez (2023) noted that while honeypot
+questions can help identify bots, more sophisticated
+                                                                                 BOTTOM LINE:
+bots are now designed to detect and avoid these                                  Bot- and AI assisted contamination is no longer an
+hidden items (see also Martherus et al. 2025).                                   outlier case for surveys. It is a structural risk for
+Similarly, Booth (2024) highlighted that fraudsters                              nonprobability online surveys. With bots constituting
+increasingly rely on tools such as Browser                                       roughly half of web activity, and credible industry
+Automation Studio, VPNs, and headless browsers to                                estimates showing double digit fraud rates in market
+evade detection, while bots mimic human response                                 and academic research contexts, the usual “status
+timing and produce polished, AI-generated answers                                quo” defenses are insufficient (e.g., single
+to open-ended questions. Another study observed                                  honeypots, generic CAPTCHAs, or static fraud
+that these bots exploit CAPTCHA-solving services,                                flags). The literature shows that sophisticated
+rotate IP addresses, and leverage AI-generated text                              actors now hybridize tactics (beginning surveys
+to circumvent existing safeguards (Gutierrez, 2023).                             manually, then automating), evade platform-level
+Even vendor solutions, such as Qualtrics fraud flags,                            checks, and leverage LLMs to pass many
+fail against sophisticated attacks, leaving                                      conventional quality gates, often while preserving
+researchers to contend with persistent                                           persona coherence. Accordingly, researchers can
+contamination despite screening efforts (Hitches et                              take the following practical steps to reduce the risk
+al., 2025). Martherus et al. (2025) found that agentic                           of fraudulent responses:
+AI tools could be detected using “reverse shibboleth”
+                                                                                 •   Layer defenses rather than rely on a single fix.
+questions, where we expect the target audience to
+                                                                                     Multi-stage detection approaches (such as
+
+
+© NORC 2026 norc.org                                                                                               Research Brief | April 2026 | 3
+Fraudulent respondents and bots in nonprobability surveys: A literature review                                         NORC at the University of Chicago
+
+
+
+
+      those emphasizing configuration, corroboration,
+      and targeted human review) are more resilient                              References
+      than any single detection method.                                          Bell, A. M., & Gift, T. (2023). Fraud in online surveys: Evidence
+                                                                                   from a nonprobability, subpopulation sample. Journal of
+•     Generic AI-detectors and static rule-based tools                             Experimental Political Science, 10(1), 148–153.
+      often fail and detection improves when reviews                               https://doi.org/10.1017/XPS.2022.8
+      are tailored to study specific instruments and                             Bhayana, R. (2024). Chatbots and large language models in
+      populations.                                                                 radiology: A practical primer for clinical and research
+                                                                                   applications. Radiology, 310(1), e232756.
+•     Overly aggressive screening risks excluding and                              https://doi.org/10.1148/radiol.232756
+      alienating legitimate respondents, especially                              Bonnamy, J., Carr, B., Lazarus, M. D., & Connell, C. (2025).
+      those with low digital literacy, unstable                                    Survey sabotage: Insights into reducing the risk of
+                                                                                   fraudulent responses in online surveys. Anatomical
+      broadband, or atypical response patterns.                                    Sciences Education.
+                                                                                   https://anatomypubs.onlinelibrary.wiley.com/doi/pdfdirect
+•     Collect paradata, document rules in advance,                                 /10.1002/ase.70015
+      and apply exclusion criteria transparently.
+                                                                                 Booth, M. (2024). Ensuring quality survey responses in an age
+                                                                                   of uncertainty. Quirk’s Media. Retrieved from
+THE CENTER’S PERSPECTIVE:                                                          https://www.quirks.com/articles/ensuring-quality-survey-
+                                                                                   responses-in-an-age-of-uncertainty
+We recommend investing in designs that are
+                                                                                 Bowen, A. M., Daniel, C. M., Williams, M. L., & Baird, G. L.
+structurally less vulnerable. While no approach is                                 (2008). Identifying multiple submissions in Internet
+immune to fraud, probability-based surveys and                                     research: Preserving data integrity. AIDS and Behavior,
+panels are substantially less susceptible to the types                             12(6), 964–973.
+                                                                                   https://pmc.ncbi.nlm.nih.gov/articles/PMC2615134/pdf/ni
+of automated attacks, identity falsification, and                                  hms85343.pdf
+volume-based bot infiltration that plague
+                                                                                 Buchanan, E. M., & Scofield, J. E. (2018). Methods to detect
+open-access, link-based nonprobability recruitment.                                low quality data and its implication for psychological
+Unlike convenience and opt-in routes (such as social                               research. Behavior Research Methods, 50, 2586–2596.
+media ads, survey routers, or open web links)                                      https://doi.org/10.3758/s13428-018-1035-6
+probability-based panels rely on sampling frames,                                Burdick, T. (2025, May 5). Data fraud: A threat to market
+                                                                                   research. Quirk’s Media. Retrieved from
+verified contact information, established recruitment                              https://www.quirks.com/articles/data-fraud-a-threat-to-
+protocols, and protecting ecosystems (e.g. unique                                  market-research
+PIN-based survey entry), all of which significantly                              Bybee, S., Cloyes, K., Baucom, B., Supiano, K., Mooney, K., &
+constrain bot entry points and make impersonation                                  Ellington, L. (2022). Bots and nots: Safeguarding online
+far more difficult. These design features do not                                   survey research with underrepresented and diverse
+                                                                                   populations. Psychology & Sexuality, 13(4), 901–911.
+eliminate fraud risk, but they meaningfully reduce                                 https://pmc.ncbi.nlm.nih.gov/articles/PMC9697945/pdf/ni
+exposure and provide researchers with more robust                                  hms-1710257.pdf
+tools for validating identities, tracking participation,                         Carey, S. M., & Babicheva, V. (n.d.). Detecting and preventing
+and preserving sample integrity.                                                   BOT and fraudulent survey responses: A comprehensive
+                                                                                   overview. Retrieved from https://health.uconn.edu/clinical-
+                                                                                   research-center/wp-
+IN SHORT:                                                                          ontent/uploads/sites/50/2024/05/Avoiding-and-Detecting-
+                                                                                   Bots-and-Fraud_REDCapSurveys.pdf
+Researchers should combine layered fraud mitigation
+with a strategic shift toward probability-based survey                           Carballo-Diguez, A., & Strecher, V. (2012). Data quality in web-
+                                                                                   based HIV/AIDS research: Handling invalid and suspicious
+designs, which by their very structure offer a more                                data. Field Methods, 24(3), 272–291.
+defensible path to trustworthy data in an era of rapidly                           https://pmc.ncbi.nlm.nih.gov/articles/PMC3505140/pdf/ni
+escalating automated threats.                                                      hms310913.pdf
+                                                                                 Caven I, Yang Z, & Okrainec K. (2025) It’s raining bots: how
+                                                                                   easier access to internet surveys has created the perfect
+                                                                                   storm. BMJ Open Quality. 2025;14:e003208.
+                                                                                   https://doi.org/10.1136/bmjoq-2024-003208
+                                                                                 Claassen, J., Höhne, J. K., Bach, R., & Haensch, A. C. (2026).
+                                                                                   Identifying bots through LLM-Generated text in open
+                                                                                   narrative responses: A proof-of-concept study. Social
+                                                                                   Science Computer Review.
+                                                                                   https://doi.org/10.1177/08944393251408022
+
+
+
+
+© NORC 2026 norc.org                                                                                                     Research Brief | April 2026 | 4
+Fraudulent respondents and bots in nonprobability surveys: A literature review                                         NORC at the University of Chicago
+
+
+
+
+Donegan, K. R., & Gillan, C. M. (2022). New principles and new                   Konstan, J. A., Simon Rosser, B. R., Ross, M. W., Stanton, J., &
+  paths needed for online research in mental health:                               Edwards, W. M. (2005). The story of subject naught: A
+  Commentary on Burnette et al. (2021). International Journal                      cautionary but optimistic tale of Internet survey research.
+  of Eating Disorders, 55(2), 278–281.                                             Journal of Computer-Mediated Communication, 10(2).
+  https://doi.org/10.1002/eat.23670                                                https://onlinelibrary.wiley.com/doi/full/10.1111/j.1083-
+Gleibs, I. H., & Albayrak-Aydemir, N. (2022). Ethical concerns                     6101.2005.tb00248.x
+  arising from recruiting workers from Amazon's Mechanical                       Krawczyk, M., & Siek, K. A. (2024). When research becomes all
+  Turk as research participants: Commentary on Burnette et                         about the bots: A case study on fraud prevention and
+  al. (2021). International Journal of Eating Disorders, 55(2),                    participant validation in the context of abortion storytelling.
+  276–277. https://doi.org/10.1002/eat.23658                                       Extended Abstracts of the CHI Conference on Human
+Goodrich, B., Fenton, M., Penn, J., Bovay, J., & Mountain, T.                      Factors in Computing Systems, Honolulu, HI, USA.
+  (2023). Battling bots: Experiences and strategies to                             https://doi.org/10.1145/3613905.3637109
+  mitigate fraudulent responses in online surveys. Applied                       Lawlor, J., Thomas, C., Guhin, A. T., Kenyon, K., Lerner, M. D.,
+  Economic Perspectives and Policy, 45(2), 762–784.                                Consortium, U., et al. (2021). Suspicious and fraudulent
+  https://doi.org/10.1002/aepp.13353                                               online survey participation: Introducing the REAL
+Griffin, M., Martino, R. J., LoSchiavo, C., Comer-Carruthers, C.,                  framework. Methodological Innovations, 14(3),
+  Krause, K. D., Stults, C. B., & Halkitis, P. N. (2022). Ensuring                 20597991211050467.
+  survey research data integrity in the era of internet bots.                      https://doi.org/10.1177/20597991211050467
+  Quality & Quantity, 56(4), 2841–2852.                                          Liang, W., Yuksekgonul, M., Mao, Y., Wu, E., & Zou, J. (2023).
+  https://link.springer.com/content/pdf/10.1007/s11135-                             GPT detectors are biased against non-native English
+  021-01252-1.pdf                                                                   writers. Patterns, 4(7).
+Gutierrez, S. (2023, December 5). How can you outsmart a                            https://doi.org/10.1016/j.patter.2023.100779
+  survey bot respondent? Here’s what we learned from                             Maimarides, A. (2025, August 5). When bots take surveys: AI’s
+  building one ourselves. SurveyMonkey. Retrieved from                            impact on the integrity of market research. Lab42.
+  https://www.surveymonkey.com/curiosity/outsmart-bot-                            Retrieved from https://www.lab42.com/blog/when-bots-
+  survey-respondent/                                                              take-surveys-ais-impact-on-the-integrity-of-market-research
+Hamby, T., & Taylor, W. (2016). Survey satisficing inflates                      Martherus, J., Podkul, A., Cook, E., & Liebowitz, R. (2025). How
+  reliability and validity measures: An experimental                              to detect AI-assisted interviews in online surveys. Survey
+  comparison of college and Amazon Mechanical Turk                                Practice, 18. https://doi.org/10.29115/SP-2025-0016
+  samples. Educational and Psychological Measurement,                            McCarthy, T. (2022, May 31). How to stop professional survey
+  76(6), 912–932.                                                                 cheaters. Quirk’s Media. Retrieved from
+  https://doi.org/10.1177/0013164415627349                                        https://www.quirks.com/articles/how-to-stop-professional-
+Hense, M., & Ahmed, Y. (2025, October 9). Toluna virtual                          survey-cheaters
+  session: Stop bots, not people: Survey design in the age of                    Moeck, E. K., Bridgland, V. M., & Takarangi, M. K. (2022). Food
+  online fraud. Quirk’s Media. Retrieved from                                     for thought: Commentary on Burnette et al. (2021)
+  https://www.quirks.com/articles/toluna-virtual-session-                         “Concerns and recommendations for using Amazon MTurk
+  stop-bots-not-people-survey-design-in-the-age-of-online-                        for eating disorder research”. International Journal of
+  fraud                                                                           Eating Disorders, 55(2), 282–284.
+Hitches, E., Dudley, D., Johnstone, M., & Woodcock, S. (2025).                    https://doi.org/10.1002/eat.23671
+  Bots and baddies: Supporting the integrity of online survey                    Panizza, F., Kyrychenko, Y., & Roozenbeek, J. (2026). How to
+  research in the face of a growing challenge. Quality &                           deal with the survey-taking AI agents that threaten to upend
+  Quantity, 59(2), 1481–1506.                                                      social science. Nature, 650, 293-295.
+  https://link.springer.com/article/10.1007/s11135-024-                            https://doi.org/10.1038/d41586-026-00386-2
+  02001-w
+                                                                                 Perkins, M., Roe, J., Vu, B. H., Postma, D., Hickerson, D.,
+Imes, C. C., Baniak, L. M., Luyster, F. S., Morris, J. L., & Orbell,               McGaughran, J., & Khuat, H. Q. (2024). Simple techniques
+  S. L. (2024). Abstract P460: Attack of the (survey) bots:                        to bypass GenAI text detectors: Implications for inclusive
+  How we determined that our anonymous survey was full of                          education. International Journal of Educational Technology
+  false data. Circulation, 149(Suppl_1), AP460.                                    in Higher Education, 21(1), 53.
+  https://doi.org/10.1161/circ.149.suppl_1.P460                                    https://doi.org/10.1186/s41239-024-00487-w
+Imperva. (2024) Bad Bot Report. 2024. Available                                  Peterson, T. (2025). The impact of AI-generated responses on
+  from: https://www.imperva.com/resources/resource-                                environmental survey data from MTurk. Journal of Applied
+  library/reports/2024-bad-bot-report/                                             Statistics: Environmental Statistics and Data Science, 1-16.
+Irish, K., & Saba, J. (2023). Bots are the new fraud: A post-hoc                   https://doi.org/10.1080/29984688.2025.2545754
+   exploration of statistical methods to identify bot-generated                  Pinzón, N., Koundinya, V., Galt, R. E., Dowling, W. O. R.,
+   responses in a corrupt data set. Personality and Individual                     Baukloh, M., Taku-Forchu, N. C., ... & Pathak, T. B. (2024).
+   Differences, 213, 112289.                                                       AI-powered fraud and the erosion of online survey integrity:
+   https://doi.org/10.1016/j.paid.2023.112289                                      An analysis of 31 fraud detection strategies. Frontiers in
+Johnson, M. S., Adams, V. M., & Byrne, J. (2024). Addressing                       Research Metrics and Analytics, 9, 1432774.
+  fraudulent responses in online surveys: Insights from a                          https://www.frontiersin.org/journals/research-metrics-and-
+  web-based participatory mapping study. People and Nature,                        analytics/articles/10.3389/frma.2024.1432774/pdf
+  6(1), 147–164. https://doi.org/10.1002/pan3.10557                              Pozzar, R., Hammer, M. J., Underhill-Blazey, M., Wright, A. A.,
+                                                                                   Tulsky, J. A., Hong, F., ... & Berry, D. L. (2020). Threats of
+
+
+
+© NORC 2026 norc.org                                                                                                     Research Brief | April 2026 | 5
+Fraudulent respondents and bots in nonprobability surveys: A literature review                                    NORC at the University of Chicago
+
+
+
+
+                                                                                 Appendix. University
+   bots and other bad actors to data quality following
+   research participant recruitment through social media:
+   Cross-sectional questionnaire. Journal of Medical Internet
+   Research, 22(10), e23021.
+   https://www.jmir.org/2020/10/e23021/
+                                                                                 guidance on dealing with
+Russ-Smith, J., & Lazarus, M. (2024). The AI (R)evolution:
+  Valuing country, culture and community in a world of
+                                                                                 bots in human subjects’
+  algorithms. https://doi.org/10.26180/27274938.v3
+Stemmer, M., Tauscher, J., Buck, B., Wedgeworth, P., Bear
+                                                                                 research
+  Don’t Walk, O. J., Cohen, T., & Ben-Zeev, D. (2026). Practical
+  guidance for mitigating fraud in online research: The                          •   BOT ATTACKS and Human Subjects Research -
+  Configure, Assess, Triage, Corroborate and Hone (HATCH)                            UNC Research
+  framework. Digital Health, 12, 1-6.
+  https://doi.org/10.1177/20552076261418807                                      •   Guidance on Preventing Bots and Fraudulent
+Teitcher, J. E., Bockting, W. O., Bauermeister, J. A., Hoefer, C.                    Responses in Online Surveys - Office of
+  J., Miner, M. H., & Klitzman, R. L. (2015). Detecting,                             Research Compliance - University of Maine
+  preventing, and responding to “fraudsters” in internet
+  research: Ethics and tradeoffs. Journal of Law, Medicine &                     •   Columbia University, Teachers College: Bots and
+  Ethics, 43(1), 116–133. https://doi.org/10.1111/jlme.12200                         Online Human Subjects Research (external link)
+Van der Stigchel, S., Strauch, C., de Zwart, B., & Van Maanen,
+  L. (2026). Will online behavioral research follow the fate of                  •   University of California, Los Angeles: Tip Sheet:
+  online survey research? Proceedings of the National                                Online Survey Protection Considerations (PDF)
+  Academy of Sciences, 123(8), e2535585123.                                          (external link)
+  https://doi.org/10.1073/pnas.2535585123
+Wardrop, B. (2025, March 17). Tackling survey fraud: Insights                    •   University of Kentucky Research: Survey
+ from CloudResearch & Toluna at Quirks LA 2025.                                      Research (external link)
+ CloudResearch. Retrieved from
+ https://www.cloudresearch.com/resources/blog/survey-
+ fraud-toluna-cloudresearch-quirks-la/
+Westwood, S. J. (2025). The potential existential threat of
+ large language models to online survey research.                                    ABOUT NORC
+ Proceedings of the National Academy of Sciences, 123(8),
+ e2518075122. https://doi.org/10.1073/pnas.2518075122
+                                                                                     NORC at the University of Chicago conducts research
+Westwood, S. J. & Frederick, S. (2026). Reply to Van der                             and analysis that decision-makers trust. As a
+ Stigchel et al.: Empirical evidence that AI survey
+ contamination is real and substantial. Proceedings of the                           nonpartisan research organization and a pioneer in
+ National Academy of Sciences, 122(47), e2537420123.                                 measuring and understanding the world, we have
+ https://doi.org/10.1073/pnas.2537420123                                             studied almost every aspect of the human experience
+Wu, M.-J., Zhao, K., & Fils-Aime, F. (2022). Response rates of                       and every major news event for more than eight
+ online surveys in published research: A meta-analysis.
+                                                                                     decades. Today, we partner with government,
+ Computers in Human Behavior Reports, 7, 100206.
+ https://doi.org/10.1016/j.chbr.2022.100206                                          corporate, and nonprofit clients around the world to
+Ye, G., Tang, Z., Fang, D., Zhu, Z., Feng, Y., Xu, P., et al. (2018).                provide the objectivity and expertise necessary to
+  Yet another text captcha solver: A generative adversarial                          inform the critical decisions facing society.
+  network based approach. Proceedings of the 2018 ACM
+  SIGSAC Conference on Computer and Communications
+  Security, Toronto, Canada.
+  https://doi.org/10.1145/3243734.3243754
+Yee, N. (2025, June 17). Fabricated data at scale: The state of
+  survey panels & AI data. Quantic Foundry. Retrieved from
+  https://quanticfoundry.com/2025/06/17/panel-data-ai/
+Zhang, D., Katoh, M., & Pei, W. (2025) Detecting the use of
+  generative AI in crowdsourced surveys: Implications for
+  data integrity. arXiv preprint.
+  https://arxiv.org/html/2510.24594v2
+Zhang, S., Xu, J., & Alvero, AJ. (2025). Generative AI meets
+  open-ended survey responses: Research participant use of
+  AI and homogenization. Sociological Methods & Research,
+  54(3), X-X. https://doi.org/10.1177/00491241251327130
+
+
+
+
+© NORC 2026 norc.org                                                                                                Research Brief | April 2026 | 6
+

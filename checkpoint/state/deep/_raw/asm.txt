@@ -1,0 +1,799 @@
+                                                                                        AB 1795
+                                                                                         Page 1
+
+Date of Hearing: April 22, 2026
+
+                        ASSEMBLY COMMITTEE ON INSURANCE
+                                    Lisa Calderon, Chair
+                        AB 1795 (Gipson) – As Amended April 16, 2026
+
+SUBJECT: Smoke Damage Recovery Act
+
+SUMMARY: Requires the California Environmental Protection Agency (CalEPA) to create, on
+or before June 30, 2027, statewide testing standards for smoke damage, and sets up a smoke
+claim process under the California Department of Insurance (CDI). Specifically, this bill:
+
+1) Requires CalEPA, in coordination with other state agencies and local public health
+   departments, as necessary, to develop health-based standards for required sampling, testing,
+   and chemical screening levels for residential properties that have sustained smoke damage as
+   a result of a wildland urban interface (WUI) fire or urban conflagration, similar in scope to
+   the "Residential soil evaluation: Guidance for the 2025 Los Angeles Wildfires" document
+   developed by the Department of Toxic Substances Control (DTSC) and Department of
+   Resources, Recycling and Recovery (CalRecycle); requires the standards to include required
+   parameters and thresholds for preremediation testing, postremediation testing, and clearance
+   of a residential property for habitation after remediation is completed; and, requires CalEPA
+   to consult with agencies that include, but are not limited to, DTSC, the Office of
+   Environmental Health Hazard Assessment (OEHHA), California Air Resources Board
+   (CARB), California Department of Public Health (CDPH), and air pollution control districts,
+   as necessary.
+
+2) Provides that CalEPA's requirements consider differences, where appropriate, based on the
+   distance of a residential structure from the fire perimeter; requires the following default
+   zones to be used:
+
+   a) High-impact zone;
+
+   b) Moderate-impact zone; and,
+
+   c) Low-impact zone.
+
+3) Requires, if applicable, standards to be more stringent for the high-impact zone and less
+   stringent for the moderate- and low-impact zones.
+
+4) Authorizes CalEPA, the Department of Forestry and Fire Protection (CAL FIRE), or a city or
+   county public health or safety agency to designate a smoke exposure zone for a specific
+   wildfire.
+
+5) Requires, if a smoke exposure zone is designated that the smoke exposure zone supersede
+   CalEPA's default high-, moderate-, and low-impact zones, and that the requirements
+   applicable to the high-impact zone apply within the smoke exposure zone.
+
+6) Provides that CalEPA's requirements shall consider, where appropriate, whether certain
+   wildfire smoke byproducts and associated hazardous substances dissipate with the passage of
+   time.
+                                                                                           AB 1795
+                                                                                            Page 2
+
+7) Requires CalEPA and CAL FIRE to adopt regulations, as may be necessary to implement the
+   above requirements, or make them more specific.
+
+8) Authorizes CalEPA to impose requirements pertaining to a specific wildfire, including
+   requirements for the identification of additional WUI or urban conflagration contaminants,
+   additional minimum sampling and testing recommendations or requirements, or additional
+   chemical screening levels for residential properties that have sustained smoke damage;
+   provides that these requirements, pertaining to a specific wildfire, shall be exempt from
+   specified state laws that govern rulemaking.
+
+9) Authorizes CalEPA, as an interim measure before the adoption of the regulations, to impose
+   sampling, testing, and chemical screening requirements pertaining to a specific wildfire that a
+   person involved in the inspection, evaluation, testing, or remediation process shall comply
+   with, including in an open, pending, or disputed insurance claim; provides that these interim
+   measure requirements shall be exempt from specified state laws that govern rulemaking and
+   become inoperative upon adoption of the regulations.
+
+10) Defines "fire perimeter" as the footprint or entire outer boundary of a burned area as a result
+    of a WUI fire or urban conflagration, as determined and mapped by CAL FIRE.
+
+11) Defines "high-impact zone" as the area within the fire perimeter and within six miles from
+    the fire perimeter, or the area within a smoke exposure zone designated for a specific
+    wildfire.
+
+12) Defines "moderate-impact zone" as the area within six miles to 12 miles from the fire
+    perimeter, or within six miles from a smoke exposure zone designated for a specific wildfire.
+
+13) Defines "low-impact zone" as the area greater than 12 miles from the fire perimeter, or the
+    area greater than six miles from a smoke exposure zone designated for a specific wildfire.
+
+14) Defines "person" as an individual, insurance company, association, organization, partnership,
+    business trust, limited liability company, or corporation.
+
+15) Defines "restoration of the property to preloss condition" as the removal of smoke damage
+    residues, combustion byproducts, chemicals, contaminants, and odor caused by wildfire
+    smoke exposure through remediation of the property, including structural elements, building
+    systems, contents, and indoor environment, to the same condition that existed before
+    exposure.
+
+16) Defines "smoke damage" as exposure of residential property or its contents to wildfire
+    smoke, combustion byproducts, and the chemicals and contaminants contained within the
+    wildfire smoke.
+
+17) Defines "smoke exposure zone" as the area exposed to significant settled, fine particulate
+    residue, including soot, char, and ash, carried by a smoke plume and winds after a WUI fire
+    or urban conflagration, as designated by CalEPA, CAL FIRE, or a city or county public
+    health or safety agency.
+
+18) Defines "urban conflagration” as a massive, uncontrollable fire, regardless of cause, that
+    spreads rapidly from building to building through densely populated, developed areas,
+                                                                                            AB 1795
+                                                                                             Page 3
+
+   typically overwhelming fire suppression resources, and that has been designated and declared
+   in a state of emergency, as specified; specifies that these fires are typically fueled by high
+   winds, structural density, and flammable materials, often transitioning from WUI fires into
+   surrounding communities.
+
+19) Defines "wildfire" as a WUI fire, or an urban conflagration, that has been designated and
+    declared a state of emergency, as specified.
+
+20) Defines "wildland-urban interface fire" as a fire, regardless of cause, in the zone of transition
+    between unoccupied land and human development, including the area or zone where
+    structures and other human development meet or intermingle with undeveloped wildland or
+    vegetative fuels, creating significant fire risk to developed areas and a significant number of
+    structures, that has been designated and declared a state of emergency, as specified.
+
+21) Requires CalEPA, by January 1, 2028, to consult with CDI, CDPH, the Department of
+    Industrial Relations, Contractors State License Board, State Water Resources Control Board
+    (State Water Board), and any other state or local government agency, as may be necessary, to
+    establish training and certification requirements for a person who inspects, evaluates,
+    samples, tests, analyzes, or restores residential properties that have sustained smoke damage
+    as a result of a WUI fire or urban conflagration, including industrial hygienists, restoration
+    professionals, and laboratories; requires the requirements to be tailored to each category of
+    persons, depending on their role with regard to wildfire smoke damage.
+
+22) Requires CalEPA to promulgate regulations, if necessary, to implement, administer, and
+    enforce the training and certification requirements, establish rules for noncompliance, and
+    determine which entity or entities will have jurisdiction over the different categories of
+    persons subject to the requirements; requires these regulations to establish certification fees;
+    provides that these fees shall be established at levels that do not exceed an amount sufficient
+    to cover administration and enforcement costs; and requires fees to be deposited into the
+    Wildfire Remediation Certification and Training Fund, established to support the above
+    activities.
+
+23) Prohibits an insurer from terminating coverage for additional living expenses for a covered
+    smoke damage claim submitted under a policy of residential property insurance, as a result of
+    a WUI fire or urban conflagration that is declared a state of emergency, as specified, until the
+    property has been cleared for habitation pursuant to the CalEPA guidance.
+
+24) Provides that, in addition to the CalEPA guidance if a local or state public health department,
+    environmental agency, or any other government agency with jurisdiction over the area where
+    a wildfire has occurred issues a public notice, bulletin, or advisory that provides explicit
+    guidance pertaining to a specific wildfire—including identifying specific WUI or urban
+    conflagration contaminants, minimum sampling and testing recommendations, and chemical
+    screening levels for residential properties that have sustained smoke damage—then that
+    guidance shall also apply to claims under residential property insurance, as specified, using
+    the same tiered sampling and testing recommendations for each zone developed by CalEPA.
+
+25) Provides that, until CalEPA develops the guidance, if a local or state public health
+    department, environmental agency, or any other government agency with jurisdiction over
+    the area where a wildfire has occurred issues a public notice, bulletin, advisory, or guidance
+    that describes specific standards for sampling, testing, and chemical screening levels for
+                                                                                          AB 1795
+                                                                                           Page 4
+
+   residential smoke damage and restoration pertaining to a specific wildfire, then those
+   standards shall apply to a person involved in the inspection, evaluation, testing, and
+   restoration process, including in open, pending, or disputed insurance claims for that specific
+   wildfire.
+
+26) Requires an insurer to be responsible for covering the cost of the sampling and testing
+    required pursuant to AB 1795, as specified, subject to the terms and provisions of the policy,
+    specified conditions and limitations, and all of the following rebuttable presumptions:
+
+   a) For residential properties in the high-impact zone: a rebuttable presumption that there is
+      significant smoke damage exposure from the wildfire; requires the smoke damage claim
+      to be classified as high impact for purposes of the type of inspection, evaluation, and
+      testing it receives;
+
+   b) For residential properties in the moderate-impact zone: a rebuttable presumption that the
+      property shall initially be classified as moderate impact for purposes of the type of
+      inspection, evaluation, and testing, if applicable, it receives; and,
+
+   c) For residential properties in the low-impact zone: a rebuttable presumption that the
+      property shall initially be classified as low impact for purposes of the type of inspection,
+      if any, and evaluation it receives.
+
+27) Provides that AB 1795 does not preclude an insurer from covering sampling and testing that
+    exceeds AB 1795's requirements.
+
+28) Requires that all of a specified list of conditions apply to covered smoke damage claims
+    resulting from a WUI fire or urban conflagration that is declared a state of emergency,
+    including that, if a smoke damage insurance claim is settled on the basis of a written scope or
+    estimate prepared by or for the insurer, the insurer shall supply the claimant with a copy of
+    each document upon which the settlement is based; requires the estimate to be for an amount
+    that will restore the damaged property to no less than its condition before the loss and allow
+    for restoration to be completed in a manner that meets or exceeds the CalEPA guidance and
+    accepted trade and industry standards for the specific work being performed.
+
+29) Requires that a specified list of conditions and limitations apply to covered smoke damage
+    claims resulting from a WUI fire or urban conflagration that is declared a state of emergency,
+    including the following:
+
+   a) Notice of the claim shall be provided to the insurer within 120 days after the wildfire has
+      reached 100% containment, as determined by CAL FIRE; an insurer shall provide an
+      insured, or insured's representative, additional extensions of this time period for good
+      cause if the insured, acting in good faith and with reasonable diligence, encounters a
+      delay in providing notice of the claim that is beyond the control of the insured; provides
+      that circumstances beyond the control of the insured may include either of the following,
+      if applicable to the specific claim: the death, disability, injury, or incapacity of the
+      insured; or, the inability of the insured to access the insured property as a result of
+      governmental action or because the property is located in an area that is exposed to
+      hazardous materials posing a health risk; and,
+                                                                                          AB 1795
+                                                                                           Page 5
+
+   b) If notice of the claim is given to an insurer later than the time period specified above,
+      then the claim may be subject to a sublimit of no less than 10% of the policy limits, as
+      specified.
+
+30) Provides that specified provisions in AB 1795 apply to all policies of residential property
+    insurance issued, amended, or renewed on or after AB 1795's operative date.
+
+31) Requires CDI, by January 1, 2028, to develop training and certification programs, as
+    specified, for insurance adjusters and public insurance adjusters in inspecting, evaluating,
+    sampling, or testing smoke damage caused by a WUI fire or urban conflagration in
+    residential properties on behalf of insurers, and to implement and enforce these programs, as
+    specified.
+
+32) Authorizes CDI to adopt regulations as necessary to implement specified provisions under
+    AB 1795.
+
+33) Contains an urgency clause.
+
+34) Makes findings and declarations.
+
+EXISTING LAW:
+
+1) Provides that a fire perimeter is determined by CAL FIRE in consultation with the Office of
+   Emergency Services (CalOES). Subsequently, CAL FIRE must provide the Insurance
+   Commissioner with data describing the fire perimeter so that the Commissioner may
+   determine which ZIP Codes are within or adjacent to the fire perimeter. The Commissioner
+   must then issue a bulletin to inform insurers which ZIP Codes are subject to a one-year
+   moratorium. (Insurance Code, Section 675.1)
+
+2) Defines “state of emergency” as the duly proclaimed existence of conditions of disaster or of
+   extreme peril to the safety of persons and property within the state caused by conditions such
+   as air pollution, fire, flood, storm, epidemic, riot, drought, cyberterrorism, sudden and severe
+   energy shortage, electromagnetic pulse attack, plant or animal infestation or disease, the
+   Governor’s warning of an earthquake or volcanic prediction, or an earthquake, or other
+   conditions, other than conditions resulting from a labor controversy or conditions causing a
+   “state of war emergency,” which, by reason of their magnitude, are or are likely to be beyond
+   the control of the services, personnel, equipment, and facilities of any single county, city and
+   county, or city and require the combined forces of a mutual aid region or regions to combat,
+   or with respect to regulated energy utilities, a sudden and severe energy shortage requires
+   extraordinary measures beyond the authority vested in the Public Utilities Commission.
+   (Insurance Code, Section 2051.5; Government Code, Section 8558)
+
+3) Establishes the Hazardous Waste Control Law (HWCL) to authorize DTSC to regulate the
+   management of hazardous wastes in California. (Health and Safety Code (HSC) Section
+   25100, et seq.)
+
+4) Defines "hazardous waste" as waste, that, because of its quantity, concentration, or physical,
+   chemical, or infectious characteristics:
+                                                                                          AB 1795
+                                                                                           Page 6
+
+   a) Causes, or significantly contributes to, an increase in mortality or an increase in serious
+      irreversible, or incapacitating reversible, illness; or,
+
+   b) Poses a substantial present or potential hazard to human health or the environment, due to
+      factors including, but not limited to, carcinogenicity, acute toxicity, chronic toxicity, bio
+      accumulative properties, or persistence in the environment, when improperly treated,
+      stored, transported, disposed of, or otherwise managed. (HSC Section 25141(b))
+
+5) Requires DTSC, under the HWCL, to adopt, and revise when appropriate, standards and
+   regulations for the management of hazardous wastes to protect against hazards to public
+   health, domestic livestock, wildlife, or the environment. (HSC Section 25150)
+
+6) Establishes DTSC's Toxicity Criteria for Human Health Risk Assessments, Screening Levels,
+   and Remediation Goals (Toxicity Criteria Rule) for hazardous waste and hazardous
+   substance cleanup sites; requires, among other things, that human health risk assessment
+   calculations—including, but not limited to, all cancer risk and non-cancer hazard screening
+   levels and corrective action objectives—use the toxicity criteria specified under the Toxicity
+   Criteria Rule and attain human health protection, as specified. (22 California Code of
+   Regulations (CCR) Section 68400.5).
+
+7) Specifies, under the Toxicity Criteria Rule, criteria for all human health risk assessments,
+   human health risk-based screening levels, and human health risk-based remediation goals
+   statewide, for the cleanup of releases of hazardous waste or hazardous substances to the
+   environment. (22 CCR Section 69020-69022)
+
+8) Defines, under DTSC's health standards for the management of hazardous waste,
+   "remediation goal" to mean a contaminant concentration that is media-specific (e.g., for air,
+   groundwater, surface water, or soil affected by a release), site-specific, protective of human
+   health and the environment, and used as a final cleanup goal for a response or corrective
+   action. (22 CCR Section 69020(c)(5))
+
+9) Defines, under DTSC's health standards for the management of hazardous waste, "screening
+   level" to mean a risk-based, contaminant concentration, calculated as specified and
+   considered to be protective for humans (including sensitive groups) over a lifetime. (22 CCR
+   Section 69020(c)(6))
+
+10) Requires DTSC to develop sampling and analytical methods for the collection of
+    methamphetamine residue; requires DTSC, to the extent funding is available, to develop
+    health-based target remediation standards for iodine, methyl iodide, and phosphine;
+    authorizes DTSC, to the extent funding is available and using guidance developed by
+    OEHHA, to develop additional health-based target remediation standards for additional
+    precursors and byproducts of methamphetamine; requires DTSC to adopt investigation and
+    cleanup procedures for use in the remediation of sites contaminated by the illegal
+    manufacturing of methamphetamine; requires the procedures to ensure that contamination
+    can be remediated to meet DTSC's remediation standards, to protect the health and safety of
+    all future occupants of the site. (HSC Section 79380)
+
+11) Establishes the federal Toxic Substances Control Act (TSCA), which, among other things,
+    empowers the United States Environmental Protection Agency (US EPA) with the authority
+                                                                                          AB 1795
+                                                                                           Page 7
+
+   to require reporting, record-keeping, and testing requirements, and restrictions relating to
+   chemical substances and mixtures. (15 U.S.C. Section 2601, et seq.)
+
+12) Establishes, under TSCA, dust-lead hazard standards, post-abatement clearance levels, and
+    abatement requirements for lead-based paint in certain residential structures. (40 Code of
+    Federal Regulations (CFR) Section 745.61, et seq.)
+
+FISCAL EFFECT: Unknown.
+
+COMMENTS:
+
+1) Purpose for the bill: According to the author: "AB 1795 creates a consistent statewide
+   framework for handling wildfire smoke damage insurance claims which would be the first in
+   the nation. This bill would require that homes contaminated after a wildfire are properly
+   evaluated and restored to a safe and habitable condition—and hold insurance companies
+   accountable when standards are not met. Right now, the absence of statewide standards has
+   created confusion, unfair claims handling, and uncertainty for families already coping with
+   unimaginable losses. Consumer protection is my number one priority, and establishing clear
+   rules will ensure that homeowners are protected and survivors can safely move back into
+   their restored homes knowing they do not face life-long health risks. After a wildfire,
+   recovery should not depend on a homeowner’s ability to navigate complex insurance disputes
+   while their life is already turned upside down. More than a year after the most devastating
+   fires Los Angeles has ever seen, there is no reason to delay. I am dedicated to swift passage
+   of AB 1795, the Smoke Damage Recovery Act, to pave the way for a better process that
+   insurance policyholders can rely upon."
+
+2) Wildfires are increasing in frequency and severity: According to CARB, the frequency and
+   severity of wildfires have been increasing, both in the state and all over the world. Since
+   1950, the area burned annually by California wildfires has grown, as spring and summer
+   temperatures increase and spring snowmelt occurs earlier. CAL FIRE data show that four
+   out of the five most destructive wildfires in California history happened in just the last 10
+   years. In 2025, the Eaton and Palisades fires in Los Angeles County destroyed over 16,000
+   structures and burned 38,000 acres combined; in 2018, the Camp Fire in Butte County
+   destroyed nearly 19,000 structures and burned 153,000 acres; and in 2017, the Tubbs Fire in
+   Napa and Sonoma counties destroyed more than 5,500 structures and burned nearly 37,000
+   acres.
+
+   When fires in the WUI burn into densely populated areas, wildfires can transition into urban
+   conflagrations, in which fires spread rapidly from structure-to-structure. In the wake of these
+   fires, both the interiors and exteriors of structures can become polluted by smoke residue,
+   ash, and debris, which in turn can contain toxic chemicals. Emerging science points to the
+   presence of toxic chemicals after WUI fire events. In the wake of the Eaton and Palisades
+   fires, researchers from multiple research institutions—including Harvard University; the
+   University of Southern California; Stanford University; the University of California (UC),
+   Davis; UC, Irvine; UC, Los Angeles; the University of Texas at Austin; and Yale
+   University—launched a collective scientific effort to investigate the short- and long-term
+   health impacts of the fires. The 10-year study, called the LA Fire Health Study, aims to
+   evaluate the types, levels, locations, and human health impacts of pollutants associated with
+   the fires. So far, the collaborative has reported, through a series of briefs, the discovery of
+   several types of concerning chemicals inside and outside of structures, including volatile
+                                                                                         AB 1795
+                                                                                          Page 8
+
+   organic compounds (VOC) in indoor and outdoor air; chromium-6 in outdoor air; and
+   benzene and other VOCs in tap water.
+
+3) AB 1795: This measure was previosuly heard in the Assembly Environmental Safety &
+   Toxic Materials Committee, therefore this analysis will focus on those issues that fall under
+   the Assembly Insurance Committee jurisdiction.
+
+   The Pacific Palisades and Eaton wildfires highlighted a number of weaknesses. AB 1795
+   attempts to address a major weakness: the absence of statewide smoke damage standards for
+   residential properties damaged by smoke exposure from wildfire. The fall out of these fires
+   highlighted that each insurer approaches smoke damage claims differently and on a case-by-
+   case basis. The statewide standards established under AB 1795 would include standards for
+   inspection, testing and remediation for residential properties. The measure also provides
+   protocols for admitted insurers to follow in relation to smoke damage. Additionally, AB
+   1795 creates training and certification requirements for professionals involved in smoke-
+   damage assessment and cleanup.
+
+   Two points in AB 1795’s finding and declarations are important to highlight because they get
+   to the purpose of this bill:
+
+   “While all property insurance policies that cover the peril of fire also cover smoke damage
+   resulting from fire, the extent to which insurance companies are covering the remediation and
+   restoration of properties has been inconsistent, and many residents are concerned that they
+   will incur significant financial burden to remediate and restore their properties on their own.
+
+   While remediation of smoke damage is made more challenging due to the varying severity of
+   smoke inundation on the exterior and interior of properties, consistent standards are vitally
+   needed regarding the inspection, testing, and remediation of smoke damage on residential
+   properties after a fire so that the Department of Insurance is able to enforce insurance
+   companies’ remediation obligations and so that residential properties are rendered safe and
+   habitable and restored to preloss condition.”
+
+   California would be the first state to create and implement statewide smoke damage
+   standards should this measure become law.
+
+4) Smoke Damage Claim Litigation and Challenges: A number of lawsuits are still pending
+   around smoke damage claims, but even case law does not provide a clear pathway to how
+   best to approach smoke damage.
+
+   •   LA wildfire victims vs. Los Angeles Department of Water and Power: Lawsuit alleges that
+       utility-caused fires led to widespread smoke contamination.
+
+   •   A number of homeowner lawsuits against insurers: numerous individual and class-style
+       actions alleging improper denial or underpayment of smoke damage claims.
+       Environmental contamination lawsuits: cases involving toxic debris, ash, and smoke
+       particulates after major fires (e.g., Camp Fire, Marshall Fire)
+
+   •   Bottega, LLC v. National Surety Corp. (N.D. Cal. Jan. 10, 2025): A Napa Valley
+       restaurant contaminated by smoke from the 2017 North Bay Fires sought coverage.
+                                                                                      AB 1795
+                                                                                       Page 9
+
+    Court ruled for the policyholder, finding smoke and soot infiltration could constitute
+    covered physical loss.
+
+•   Gharibian v. Wawanesa (Cal. Ct. App. Feb. 7, 2025) Homeowners filed a claim after the
+    2019 Saddle Ridge Fire caused extensive smoke and ash contamination. Court ruled for
+    the insurer, holding that contamination did not constitute “demonstrable, physical
+    alteration.”
+
+In December 2025, the New York Times (NYT) article "How did this family end up back in a
+toxic house?" reported findings from an investigation, in which the NYT asked a family
+impacted by the Eaton Fire for permission to have a certified professional test for lead and
+other heavy metals in each room of their house, and to submit strands of hair so scientists
+could measure the family's exposure to metals over time. The family's home had already
+undergone cleaning recommended by their insurance company, which included ripping out
+their attic insulation; vacuuming and mopping their floors; wiping countertops and other
+surfaces; laundering carpets and drapes; and using air scrubbers in every room. The
+readings, taken a month after the family had moved back into their home, showed that six out
+of 11 samples collected in the house had "unsafe levels of contaminants, including extremely
+high levels of lead." The NYT also found that readings for lead on the floor next to the
+refrigerator and where the kitchen tile met the dining room floor were 27 times and seven
+times, respectively, the federal hazard limit for lead established under the US EPA's lead-
+based paint program. In addition, the investigation found a lead level near 8,000 µg/ft2 in a
+sample taken from the HVAC in the attic. For context, the US EPA's action levels—the level
+at which the US EPA recommends abatement under its lead-based paint program—for lead
+in dust on floors, window sills, and window troughs are 5 µg/ft2, 40 µg/ft2, and 100 µg/ft2,
+respectively. Hair samples from the family showed "measurable spikes in heavy metals after
+[the family] returned to the home in August, indicating a period of elevated exposure."
+
+The article referenced above highlights the complexities of smoke damage and how
+challenging it may be as it relates to an insurance claim.
+
+Furthermore, the California FAIR Access to Insurance Requirements (FAIR) Plan is a good
+example of the challenges that CDI faces in regards to smoke damage. In 2017, the FAIR
+Plan redefined “direct physical loss” to require “permanent physical changes” to the
+property, which leads us to today. On June 27, 2025, after 4 years of litigation, the Los
+Angeles Superior Court ruled in the case of Alif v. California Fair Plan Association that
+several key aspects of a FAIR Plan policy unlawfully restricted coverage compared to the
+standard fire policy requirements under the California Insurance Code. (Insurance Codes
+Sections 2070 and 2071)
+
+The issue at hand was the FAIR Plan handling of smoke claims policies, for which "direct
+physical loss” meant coverage was only available to damage that was perceptible by sight or
+smell. FAIR Plan policies provide coverage for “direct physical loss,” defined as "any actual
+loss or physical damage evidenced by permanent physical damages or changes to the covered
+property caused by smoke damage." The definition of smoke damage includes sudden and
+accidental physical loss from smoke, including airborne particles like soot, ash, or char debris
+that are visible to the "unaided human eye", or "odors detectable by the unaided human
+nose." The policy specifically excludes reliance on laboratory testing or individual subjective
+senses.
+                                                                                          AB 1795
+                                                                                          Page 10
+
+
+   The FAIR Plan policy also contains a unique dispute resolution process for smoke damage
+   claims. Homeowners may choose between two methods. Under Method 1, both sides appoint
+   a neutral party, who jointly select a third person to serve as an umpire. This three-person
+   panel inspects the property and determines by majority vote whether evidence of smoke
+   damage exists. The decision is binding. Alternatively, Method 2 allows for a sole neutral
+   umpire to make the determination, with the parties sharing the cost. If the smoke damage is
+   confirmed through either method but the parties dispute the amount of loss, the claim
+   proceeds to a separate appraisal process governed by the policy's appraisal provision.
+
+   The court issued a formal declaration holding that the FAIR Plan policy's definition of "direct
+   physical loss" violated Insurance Code Section 2070 because it provided coverage less
+   favorable than, and not substantially equivalent to, the coverage required by the standard
+   form fire policy.
+
+   Following this case, CDI brought action against the FAIR Plan in July 2025 for denying
+   smoke damage claims in the response to the Pacific Palisades and Eaton wildfires. According
+   to CDI data, they received approximately 220 smoke claims complaints related to the FAIR
+   Plan. A number of smoke claims lawsuits were filed in 2025, and have yet to be decided.
+
+5) Statewide smoke Process: For homes that have burned, CalRecycle and DTSC, along with
+   federal partners, implement a phased approach to clearing properties. Typically, Phase 1
+   involves the removal of visible household hazardous waste (e.g., batteries, pesticides, paints,
+   building materials that contain asbestos, and e-waste) and Phase 2 includes soil testing and
+   the removal of contaminated debris, ash, and soil. In the case of the Los Angeles fires, the
+   Federal Emergency Management Agency assigned Phase 2 to the U.S. Army Corps of
+   Engineers. California formally requested, but the federal government denied, confirmation
+   soil sampling as part of the debris removal process.
+
+   For homes that remain standing but have been impacted by WUI fire smoke and debris, there
+   are no uniform state or federal standards pertaining to investigation, testing, and remediation
+   for indoor chemical hazards. Residents returning to their homes have reported feeling
+   concerned about whether it is safe to do so, as illustrated in the NYT article described above:
+
+   "Every day, he vacuums, mops and wipes every surface in his house, which stands on one of
+   the blocks in Altadena, Calif., that survived the flames of the Los Angeles wildfires, but not
+   the smoke.
+
+   He works in deliberate lines across the kitchen tile, then along the baseboards, then into the
+   corners where the smoke pooled nearly a year ago—following a map only he can see.
+
+   It’s the only way to quiet his thoughts: Is it safe for his children, 6-year-old Sylvia and 9-
+   year-old Milo, to walk barefoot on the kitchen tiles? Should he wash the toys they drop on
+   the floor with bleach, or with soap and water? The darkest thoughts are about his wife,
+   Cathlene Pineda, 41, a jazz pianist who is on medication for cancer. If the toxins were in the
+   house, he wonders, could they bring the cancer back?"
+
+   In the absence of state and federal health-based standards, various entities have developed
+   professional standards and certifications to guide the work of remediation and testing by
+   contractors and hygienists, as well as recommendations for residents. In August 2025, DTSC
+                                                                                        AB 1795
+                                                                                        Page 11
+
+   and CalRecycle released their "Residential soil guidance for the 2025 Los Angeles wildfires,"
+   which contains screening levels for various soil contaminants (screening levels are used to
+   help determine if the amount of chemicals in a sample indicates a health risk), step-by-step
+   instructions for survivors and local authorities for soil sampling based on property damage
+   levels, information on how to interpret results, and an overview of professional remediation
+   methods. The state has not released similar guidance for indoor contaminants.
+
+6) CDI Action on Smoke Claims: Following the January 2025 wildfires, CDI issued a bulletin
+   on March 7, 2025( Bulletin 2025-7 Insurance Coverage for Smoke Damage and Guidance for
+   Proper Handling of Smoke Damage Claims for Properties Located in or near California
+   Wildfire Damage )to all admitted insurers providing “guidance for proper handling of smoke
+   damage claims for properties located in or near California wildfire areas.” The bulletin
+   replayed CDIs expectations with regard to how insurance companies process and pay smoke
+   damage claims as a result of wildfires. More specifically, CDI stated “whether a particular
+   smoke damage claim is covered depends on the specific policy language and the unique facts
+   of each claim.”
+
+   The Smoke Claims and Remediation Task Force: In May 2025, out of recognition that
+   California needs consistent statewide standards for investigating and paying smoke damage
+   claims, CDI established the Smoke Claims and Remediation Task Force (Task Force). The
+   Task Force was charged with:
+
+   •   Evaluating existing methods of best practices and recommending uniform standards for
+       inspecting, testing, and remediating properties with smoke damage;
+
+   •   Recommending standards for determining whether structures damaged are below, at, or
+       above, established levels for health and safety of occupants; and,
+
+   •   Determining which state and local government agencies must be involved in creating and
+       enforcing these standards, including to mitigate the submission of fraudulent or
+       exaggerated smoke claims.
+
+   In July 2025, CDI announced appointments to the Task Force. The Task Force was
+   comprised of representatives from CDI, CDPH, the Los Angeles County Department of
+   Public Health, CAL FIRE, United Policyholders, the Consumer Federation of California
+   Education Foundation; Safeguard EnviroGroup, Inc.; Anderson Group International; HRA
+   Environmental Consultants, Inc.; Forensic Analytical Consulting Services; Personal
+   Insurance Federation of California; and the American Property Casualty Insurance
+   Association.
+
+   On March 9, 2026, CDI released the Task Force's findings in a report. The report documents
+   presentations the Task Force heard, materials the Task Force reviewed, and Task Force
+   discussions, including differing perspectives on how smoke damage and contaminants should
+   be addressed in the wake of WUI fires and urban conflagrations. The Task Force heard from
+   numerous stakeholders, including impacted homeowners and survivor groups, consumer
+   advocates, academics, industrial hygienists, restoration specialists, local and state public
+   health experts, insurance industry representatives, an attorney on behalf of policyholders, and
+   an attorney on behalf of the insurance industry.
+                                                                                          AB 1795
+                                                                                          Page 12
+
+   According to the report, the topic that elicited the most discussion involved a "tiered
+   classification" concept, which posited that "the degree of smoke damage to an impacted
+   home varies by the density of smoke in the area, direction of the wind, proximity of the home
+   to the wildfire burn zone, duration of the fire, characteristics of the home, and other factors."
+   With this concept in mind, the Task Force discussed a potential framework comprised of an
+   "objective standard," based on the distance of homes from the fire perimeter, and a "wildfire-
+   specific standard," based on designation of an "ash zone," defined as the area covered by
+   settled, fine particulate residue, including soot, char, and ash carried by a smoke plume and
+   winds.
+
+   AB 1795 adopts a tiered impact zone framework in which homes are designated as being in a
+   particular impact zone (high, moderate, or low) based on pre-determined distances from the
+   fire perimeter; or designated as being inside or outside of a smoke exposure zone (defined as
+   an area exposed to soot, char, and ash carried by a smoke plume and winds), which may be
+   established after a wildfire event by CalEPA, CAL FIRE, or a city or county public health or
+   safety agency. According to CDI, the aim of this tiered framework is to ensure that there are
+   "default" standards available for immediate implementation in the wake of a WUI fire or
+   urban conflagration (achieved through the impact zone approach), while allowing for
+   flexibility via an alternative approach (the designation of a smoke exposure zone) in cases
+   where major wind events disperse contaminants in ways that cannot be captured by the
+   default impact zones.
+
+   While there was consensus among some Task Force members that this approach held
+   potential, some raised questions and concerns. According to the Task Force Report, CDPH
+   asserted that "the proposed mileage cutoffs for defining high, moderate, and low impact
+   zones [were] somewhat arbitrary and [lacked] justification and that although they [appeared]
+   to be based on the distance cutoffs used in the [American Industrial Hygiene Association]
+   Technical Guide, those were intended only as examples to describe the conceptual model and
+   that the use of 1 km, 10 km, and 100 km zones was not meant to imply any actual relevance
+   to real situations."
+
+   The committee amendments recommended below attempt to address this issue.
+
+7) Arguments in Support: According to Ricardo Lara, Insurance Commissioner at CDI:
+   "California has experienced record-breaking wildfires, including the January 2025 Eaton and
+   Palisades Fires, which destroyed thousands of homes and left many more contaminated by
+   smoke, soot, ash, char, and other hazardous substances. Thousands of smoke-damage
+   insurance claims have since been filed. Because no authoritative, enforceable standards exist
+   for testing or remediating smoke damage, survivors report inconsistent claims handling,
+   partial or total denials, and refusals by insurers to pay for pre- or post-remediation testing.
+   CDI has taken executive actions—including consumer bulletins, enforcement actions, and
+   investigations—but the absence of standards has resulted in a patchwork of insurer practices.
+   In response to the January 2025 fires, I convened a Smoke Claims and Remediation Task
+   Force to develop recommendations for statewide standards and insurance coverage
+   expectations.
+
+   Residential property insurance policies that cover the peril of fire also cover smoke damage
+   caused by fire, and insurers are required to cover restoration of properties to pre-loss
+   condition. However, California has no statewide standards governing the inspection or
+                                                                                         AB 1795
+                                                                                         Page 13
+
+   testing of smoke-damaged homes, no minimum sampling or clearance protocols, no
+   mandated remediation methods, and no training or certification requirements for
+   professionals who assess or remediate smoke damage…The absence of enforceable standards
+   has resulted in inconsistent insurer practices, including denials of testing, partial claim
+   denials, and refusals to reimburse for pre- or post-remediation testing. Homeowners and
+   tenants face uncertainty about whether their homes are safe to reenter, and many have been
+   forced to pay for testing or remediation out of pocket. Without statewide standards, neither
+   insurers nor regulators have a clear framework to ensure that smoke-damaged homes are
+   restored to safe, habitable, pre-loss condition, and the resulting instability contributes to
+   rising costs in the residential property insurance market.
+
+   AB 1795 would create a comprehensive statewide framework for residential property
+   insurance policies to ensure consistent, science-based handling of smoke-damage claims. It
+   will establish minimum protocols for inspection, sampling, and testing of smoke-related
+   contaminants and sets clear thresholds for determining whether a property is safe. This bill
+   will mandate insurer compliance with remediation protocols and clarify their obligation to
+   cover the cost of restoring properties to a pre-loss condition. Finally, AB 1795 also identifies
+   the state agencies responsible for implementing and enforcing the standards and creates
+   penalties for noncompliance."
+
+8) Arguments in Opposition: According to the opposition, The American Property Casualty
+   Insurance Association (APCIA), the National Association of Mutual Insurance Companies
+   (NAMIC), the Pacific Association of Domestic Insurers (PADIC), and the Personal Insurance
+   Federation of California (PIFC), collectively known as the “trades”, “the insurance industry
+   supports standards on the testing and remediation of smoke claims and actively participated
+   in the Smoke Claims and Remediation Task Force established by the California Department
+   of Insurance (CDI). Clear and credible standards benefit homeowners, regulators, and
+   insurers. However, standards must be grounded in defensible science and structured in a way
+   that is operationally feasible and legally durable.
+
+   AB 1795 introduces a comprehensive new framework governing wildfire smoke testing,
+   remediation, and insurance claims handling. While intended to improve consistency and
+   consumer outcomes, several provisions raise significant concerns for insurers related to
+   contract certainty, retroactive application, operational feasibility, and cost escalation.
+
+   Contract Certainty Risks: Expansion beyond traditional “direct physical loss or damage”:
+   Multiple provisions redefine “smoke damage” as exposure that “requires restoration,”
+   without specifying who makes that determination or tying it clearly to demonstrable physical
+   damage. This approach departs from long-standing property insurance constructs and risks
+   undermining the predictability and uniformity that the Standard Fire Policy framework is
+   intended to provide. The bill makes reference to “unsettled caselaw,” however it is not an
+   issue in dispute. Gharibian v. Wawanesa General Insurance Company (2025) 108
+   Cal.App.5th 730 established that “direct physical loss” is a necessary showing in order for
+   smoke claims to be covered. This bill changes that legal standard.
+
+   Undefined standards for “clearance for habitation”: The bill repeatedly conditions insurer
+   obligations—particularly Adjusted Living Expenses (ALE)—on a property being “cleared
+   for habitation,” but does not define clearance thresholds. This creates uncertainty about when
+   coverage obligations end and invites dispute. Absent a defined endpoint, insurers,
+                                                                                          AB 1795
+                                                                                          Page 14
+
+   homeowners, and regulators are left without a clear standard for when coverage obligations
+   conclude, increasing the likelihood of dispute and litigation.
+
+   Potential expansion beyond insured property: References to remediation frameworks
+   analogous to “residential soil evaluation” raise concern that standards could extend to soil,
+   ambient air, or broader environmental conditions, which are typically outside property
+   insurance coverage.”
+
+9) Double referral: This measure recently passed out of the Assembly Environmental Safety &
+   Toxic Materials Committee with a 5-1 vote.
+
+10) Related legislation: AB 1642 (Harabedian). Establishes the Wildfire Environmental Safety
+    and Testing Act, which, among other things, requires DTSC, by July 1, 2027, to adopt
+    emergency regulations specifying science-informed, health-based standards to guide the
+    adequate removal of lead and asbestos inside and outside of standing homes, schools,
+    workplaces, and other structures after a WUI fire; requires, by July 1, 2028, DTSC to adopt
+    non-emergency regulations specifying standards for additional contaminants. This bill is
+    pending before the Assembly Appropriations Committee.
+
+11) Recommended Amendments: This measure is attempting to tackle a major issue spotlighted
+    after the January 2025 wildfires. As stated previously, California would be the first state to
+    create statewide smoke damage standards should this bill be signed. With that in mind,
+    careful thought and consideration needs to go into this measure as it will have direct impacts
+    on California’s insurance market. While this bill is still in the beginning of the legislative
+    review process, a lot more work is needed should it move forward. The committee is
+    recommending the following amendments to address the issues/confusion/frustration around
+    the tiered zone approach. The bill only applies to wildfires that are a declared state of
+    emergency; therefore, the committee recommends removing the tiered zone system and
+    applying the bill to ZIP Codes determined by CDI for the existing one year moratorium plus
+    adjacent zip codes that are identified as downwind based on maps generated by the National
+    Oceanic and Atmospheric Administration. These ZIP Codes would be known soon after the
+    Governor declared a state of emergency and easy to track by survivors and insurers. The
+    recommended amendments also make clear that the deciding entities are CalEPA pertaining
+    to smoke damage standards and CDI pertaining to insurers. This bill arose partly due to the
+    case-by-case approach taken by each insurer on what constitutes smoke damage; therefore,
+    anything in the bill that supports having potentially different and differing smoke damage
+    standards between the state or a local government/agencies are recommended to be deleted.
+    CalEPA and CDI will likely need to issue additional regulations once CalEPA has completed
+    the initial work which this measure allows them to do.
+
+   a) On page 6- line 36, delete, “the”, delete lines 37-40
+
+   b) On page 7 delete lines 1-15
+
+   c) On page 8, delete lines 1-7
+
+   d) On page 8 delete lines 22-33 and insert:
+      “Impact-zone” means ZIP Codes:
+                                                                                         AB 1795
+                                                                                         Page 15
+
+       Within the fire perimeter as defined pursuant to Section 675.1 (b)(2) of the Insurance Code;
+       and,
+       Adjacent ZIP codes as defined pursuant to 675.1 (b)(2) of the Insurance code that are also
+       identified as downwind of the fire perimeter based on maps generated by the National
+       Oceanic Atmospheric Administration.
+
+   e) On page 9 delete line 6-12
+
+   f) On page 11, line 30 after ‘claims” insert “within the impact zone”
+
+   g) On page 12, line 7 delete “for each zone”
+
+   h) On page 12, delete line 9-20
+
+   i) On page 12, line 25, delete “and all” and delete lines 26-39
+
+
+
+REGISTERED SUPPORT / OPPOSITION:
+
+Support
+
+City of Los Alamitos
+Insurance Commissioner Ricardo Lara / California Department of Insurance
+
+Support If Amended
+
+Institute of Inspection Cleaning and Restoration Certification
+United Policyholders
+
+Oppose
+
+American Property Casualty Insurance Association
+California Community Foundation
+Consumer Watchdog
+National Association of Mutual Insurance Companies
+Pacific Association of Domestic Insurance Companies
+Personal Insurance Federation of California
+
+Oppose Unless Amended
+
+After the Fire
+Altadena Arts
+Altadena Colab
+Altagether
+Biomax Environmental
+Civic Sundays
+Consumer Attorneys of California
+Dena Rise Up
+Eaton Fire Renters Coalition
+                                                                  AB 1795
+                                                                  Page 16
+
+Eaton Fire Residents United
+Glendale Environmental Coalition
+Hello Claire
+Hollly Wyman Design
+Indivisible Alta Pasadena
+Joan Collaborative
+L.a. Voice
+LA Standing Homes
+Long Beach Alliance for Clean Energy
+Mcclain Consulting Services
+My Tribe Rise
+
+Analysis Prepared by: Kathleen O'Malley / INS. / (916) 319-2086
+

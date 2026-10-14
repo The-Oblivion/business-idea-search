@@ -1,0 +1,162 @@
+   Public
+CONFIDENTIAL
+
+
+
+
+               PGRR144: ERCOT Responses and
+                   Additional Revisions
+                                Sun Wook Kang,
+                  Dynamic Studies - Grid Stability Analysis, ERCOT
+                                    June 2026
+Public
+          Background
+
+
+     • ERCOT submitted PGRR144 (Dynamic Model
+       Submission and Review Requirements for Large
+       Loads including Large Electronic Loads) in Feb   Clarifies dynamic data requirements and
+       2026 and is currently under stakeholder review   require model quality test
+       process
+
+                                                        Clarifies LL dynamic model data submission
+     • ERCOT received various stakeholders’             milestones for review
+       comments and submitted a response and further
+       edits to PGRR144 on April 8 and May 5
+                                                        Clarifies process for potential material
+     • In response to DCC’s comments on June 5,         changes to the existing LELs
+       ERCOT submitted a response and edits to
+       PGRR144 on June 11, 2026
+
+
+
+
+                                                                                                     2
+Public
+          Comment 1: Clarification on model quality test and compliance
+          requirement for non-LCL in Section 6.2(6)
+
+   Stakeholder Comments:                             ERCOT Response:
+   • DCC proposed clarifying the non-LCL large       • On the compliance point, ERCOT generally agrees
+     voltage disturbance test                          with the concept but does not believe that
+                                                       compliance language belongs in this section
+   • DCC proposed that for non-LCL, ERCOT
+                                                       because Section 6.2(6) addresses model data and
+     evaluate based on the test whether the
+                                                       model quality testing requirements, while
+     submitted model reasonably reflects the
+                                                       compliance requirements are addressed elsewhere
+     facility's voltage disturbance response
+     characteristics                                 • On the model evaluation point, ERCOT did not
+                                                       accept the proposed language because ERCOT
+   • DCC also proposed that, for non-LCL, the test
+                                                       cannot determine from the review whether a
+     is not intended as a ride-through compliance
+                                                       submitted model actually reflects the facility's
+     demonstration
+                                                       characteristics
+                                                     • ERCOT partially accepted DCC proposal. ERCOT
+                                                       clarified that, for non-LCLs, the test is intended to
+                                                       understand the facility's voltage disturbance
+                                                       response characteristics, while retaining the
+                                                       expectation for accurate dynamic model data.
+                                                                                                               3
+Public
+          Comment 2: Replace "ILLE" with "LCL" in Section 9.2.1.1 and 9.6(1)(f)
+
+
+   Stakeholder Comments:                               ERCOT Response:
+   • DCC proposed to replace "ILLE" with "LCL"         • ERCOT replaced "ILLE" with "Entity" in Section
+     since the processes are related to the existing     9.2.1.1 to address DCC’s comment and clarify that
+     customer, not an entity that wants to               the review process applies to the party proposing
+     interconnect to the grid.                           the modification.
+                                                       • ERCOT retained "ILLE" in Section 9.6(1)(f) because
+                                                         that provision applies to a LCL prior to Initial
+                                                         Energization and therefore remains within the Large
+                                                         Load interconnection process
+
+
+
+
+                                                                                                               4
+Public
+          Comment 3: Replace "modification" with "update," rename Section
+          9.2.1.1 title, and remove ERCOT's rejection authority in Section 9.2.1.1
+
+   Stakeholder Comments:                               ERCOT Response:
+   • DCC proposed to replace "modification" with       • ERCOT did not accept those proposals.
+     "update" throughout Section 9.2.1.1 and
+     rename the section title to "Review of Existing   • First, ERCOT retained the term 'modification' because it
+     Large Computational Load Model Updates.“            is already used consistently throughout PG 9 and
+                                                         PGRR145. It does not carry any generation specific
+   • DCC also proposed to remove ERCOT's                 meaning
+     proposed ability to reject a change for an
+     existing, energized business in Texas.            • Second, ERCOT retained review authority because this
+                                                         section applies to proposed future modifications before
+                                                         implementation, not to an LCL's existing operations. If
+                                                         the proposed modification is not approved, the LCL can
+                                                         continue operating under its current configuration
+                                                       • Finally, ERCOT retained the three-outcome review
+                                                         structure because it provides a clear and actionable
+                                                         result from the review process. However, ERCOT
+                                                         revised the rejection criterion to provide a clearer basis
+                                                         for when a modification may be rejected
+                                                                                                                      5
+Public
+             Comment 4: Change review standard and remove approval language in
+             Section 9.6(1)(f)
+
+   Stakeholder Comments:                                     ERCOT Response:
+   • DCC proposed changing ERCOT's review from               • First, compliance with NOG Section 2.15 does not
+     evaluating impacts on the previous stability              necessarily mean the LCL behaves the same way it
+     study to simply determining whether the LCL               was assumed to behave in the previous stability
+     complies with NOG Section 2.15.                           study. Changes in behavior, such as post-fault
+         •   "is expected to adversely impact the results      reconnection, could affect the study results even if
+             from the previous stability study"                the LCL remains compliant
+   • DCC also proposed removing the approval                 • Therefore, ERCOT retained the review standard of
+     language in Section 9.6(1)(f)                             determining whether updated dynamic data could
+         •   "the submission is approved, or if additional     adversely impact the results of the previous stability
+             information is required.”                         study. This is also consistent with the approach
+                                                               adopted in PGRR145
+                                                             • Second, ERCOT retained the approval language
+                                                               because Section 9.6(1)(f) serves as a pre-
+                                                               energization checkpoint. Removing it would eliminate
+                                                               a clear review outcome before Initial Energization
+                                                                                                                        6
+Public
+            Next Step
+
+
+         • ERCOT appreciates stakeholders’ support and constructive feedback on
+           the updated PGRR144 and looks forward to the July ROS vote
+
+
+
+
+                                                                                  7
+Public
+
+
+
+
+                            Learn More
+                            www.ercot.com
+
+   Question?                Download ERCOT Mobile App
+
+
+
+   sunwook.kang@ercot.com
+                            Connect With Us
+
+                                  facebook.com/ERCOTISO
+
+                                  x.com/ercot_iso
+
+                                  linkedin.com/company/ercot
+
+                                  instagram.com/ercot_iso
+
+
+                                                               8
+

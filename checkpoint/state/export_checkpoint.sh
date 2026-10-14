@@ -2,7 +2,7 @@
 # Additive checkpoint export into the repo: refreshes checkpoint/state from $BIZ and ADDS this session's
 # journals and workflow scripts. It never deletes journals from earlier sessions.
 set -euo pipefail
-BIZ=/private/tmp/claude-501/-Users-asherperemel/2d21b2bf-d792-4998-b326-860505fc728f/scratchpad/biz
+BIZ=/Users/asherperemel/projects/business-idea-search-work/biz
 WF=/Users/asherperemel/.claude/projects/-Users-asherperemel/2d21b2bf-d792-4998-b326-860505fc728f
 OUT=/Users/asherperemel/projects/business-idea-search/checkpoint
 mkdir -p "$OUT/state" "$OUT/journals" "$OUT/workflow_scripts"

@@ -1,0 +1,45 @@
+
+NOGRR Number
+282
+NOGRR Title
+Board Priority - Large Electronic Load Ride-Through Requirements
+Impact Analysis Date
+April 14, 2026
+Estimated Cost/Budgetary Impact
+None.
+Annual Recurring Operations and Maintenance (O&M) Staffing Cost:  $600K – $750K
+See ERCOT Staffing Impacts.
+Estimated Time Requirements
+No project required.  This Nodal Operating Guide Revision Request (NOGRR) can take effect following Public Utility Commission of Texas (PUCT) approval.
+ERCOT Staffing Impacts (across all areas)
+There will be ongoing operational impacts to the following ERCOT departments totaling 3.2 Full-Time Employees (FTEs) to support this NOGRR:
+
+•  Event Analysis (2.0 FTEs Effort)
+•  Dynamic Studies (0.9 FTE Effort)
+•  Operations Stability Analysis (0.2 FTE Effort)
+
+ERCOT has assessed its ability to absorb the ongoing efforts of this NOGRR with current staff and concluded the need for FTEs in the following departments:
+
+•  Event Analysis (2.0 FTEs)
+•  Dynamic Studies (1.0 FTE)
+
+• Event Analysis - department requires two additional FTEs to support the following work:
+
+   *3,720 hrs. to support Large Load events, this involves the detection and analysis of such events. This includes both internal and external communications to collect data and information regarding these events.
+
+• Dynamic Studies - department requires one additional FTE to support the following work:
+
+   *1,700 hrs. to support the review and testing of ride-through and survey updates, along with providing any necessary technical assistance. This includes handling internal and external communications and maintaining the database for DWG cases.
+
+The 2026-2027 ERCOT budget does not account for the FTEs needed to support this NOGRR.
+ERCOT Computer System Impacts
+No impacts to ERCOT computer systems. 
+ERCOT Business Function Impacts
+ERCOT will update its business processes to implement this NOGRR.
+Grid Operations & Practices Impacts
+No impacts to ERCOT grid operations and practices.
+Evaluation of Interim Solutions or Alternatives for a More Efficient Implementation
+None offered.
+Comments
+None.
+
