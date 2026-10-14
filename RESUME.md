@@ -28,14 +28,12 @@ Start a new Claude Code session with the `The-Oblivion/business-idea-search` rep
 ## Environment setup (for Claude, in the new session)
 
 ```bash
-REPO=<path to the cloned business-idea-search repo>
-BIZ=<your scratchpad>/biz            # any writable dir
-mkdir -p "$BIZ" && cp -r "$REPO/checkpoint/state/"* "$BIZ/"
-OLD=$(grep -o "DIR = '[^']*'" "$BIZ/next_steps/step5_deep_validation.js" | cut -d"'" -f2)   # last session's scratchpad path
-sed -i "s#$OLD#$BIZ#g" "$BIZ"/next_steps/*.js "$BIZ"/export_checkpoint.sh
-# Python scripts locate state relative to their own path, so they need no edits.
-# Journals from the previous session (every agent's full output) are in $REPO/checkpoint/journals/<run-id>.jsonl.
-# The run-ID lists are in $BIZ/*_runs.txt (discovery_runs, tournament_runs, exists_runs, evo_gen_runs).
+REPO=~/projects/business-idea-search
+BIZ=/Users/asherperemel/projects/business-idea-search-work/biz   # PERSISTENT (never /tmp: macOS cleans it)
+if [ ! -d "$BIZ/finalists" ]; then mkdir -p "$BIZ" && rsync -a "$REPO/checkpoint/state/" "$BIZ/"; fi
+OLD=$(grep -o "DIR = '[^']*'" "$BIZ/next_steps/step5_deep_validation.js" | cut -d"'" -f2)
+[ "$OLD" != "$BIZ" ] && sed -i '' "s#$OLD#$BIZ#g" "$BIZ"/next_steps/*.js
+# Journals (every agent's full output) are in $REPO/checkpoint/journals/<run-id>.jsonl.
 ```
 
 Then `/workflow-authoring` for the Workflow API reminders.

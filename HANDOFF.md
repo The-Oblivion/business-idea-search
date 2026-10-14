@@ -72,15 +72,16 @@ Reward substance and insight over polished writing. Penalize clichés (see `clic
 
 ## 5. Environment setup (do this first)
 ```bash
-REPO=/home/user/business-idea-search            # the repo clone
-BIZ=<your scratchpad dir>/biz
-mkdir -p "$BIZ" && cp -r "$REPO/checkpoint/state/"* "$BIZ/"
-mkdir -p "$BIZ/deep" "$BIZ/finalists" "$BIZ/evo_out"     # git doesn't store empty dirs
-OLD=/tmp/claude-0/-home-user/7d5d40b9-c4a2-5a88-8ca2-c003de06ceb9/scratchpad/biz
-sed -i "s#$OLD#$BIZ#g" "$BIZ"/next_steps/*.js "$BIZ"/export_checkpoint.sh
-ls "$BIZ/evo/tournament" | wc -l   # expect 27 batch files
-nproc                              # 4 CPUs means max 2 agents per workflow
+REPO=~/projects/business-idea-search                        # the repo clone (git pull first)
+BIZ=/Users/asherperemel/projects/business-idea-search-work/biz   # PERSISTENT working state
+if [ ! -d "$BIZ/finalists" ]; then mkdir -p "$BIZ" && rsync -a "$REPO/checkpoint/state/" "$BIZ/"; fi
+mkdir -p "$BIZ/deep" "$BIZ/deep_out" "$BIZ/finalists" "$BIZ/evo_out"   # git doesn't store empty dirs
+OLD=$(grep -o "DIR = '[^']*'" "$BIZ/next_steps/step5_deep_validation.js" | cut -d"'" -f2)
+[ "$OLD" != "$BIZ" ] && sed -i '' "s#$OLD#$BIZ#g" "$BIZ"/next_steps/*.js   # macOS sed needs -i ''
+sysctl -n hw.ncpu                  # 10 on the Mac -> the engine allows 8 agents per workflow; scripts carry limiters
 ```
+- **Never put the working state in `/tmp` or the session scratchpad.** macOS deletes `/tmp` files untouched for 3 days, and that wiped the state between 7 and 13 Oct. `$BIZ` above lives in `~/projects/` and survives reboots and cleanups. The repo's `checkpoint/` (pushed after every step) is the off-machine backup.
+- `export_checkpoint.sh` is additive (it never deletes earlier journals). Set its `WF=` line to the current session's `~/.claude/projects/<project>/<session-id>` before running it.
 - Load the `workflow-authoring` skill before writing or launching workflows.
 - The Python scripts locate state relative to their own path, so they need no edits.
 - New-session journals live at `~/.claude/projects/*/subagents/workflows/<run-id>/journal.jsonl`.
