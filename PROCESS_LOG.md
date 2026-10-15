@@ -340,3 +340,39 @@ Paused at your request to wait for the weekly usage reset (about 50% of the week
 - `04-deep-validation/dossiers/<id>_dossier.md` and `<id>_refined.md`.
 - `aggregate_deep.py` and the exact script.
 - Journals: `checkpoint/journals/wf_193493f4-555.jsonl`, `wf_c1df41b6-2fd.jsonl`, `wf_ed39ef59-99e.jsonl`.
+
+---
+
+## Round 2 (started 14 Oct 2026): big-market-first discovery
+
+**Your call (14 Oct):** "let's do C ... maybe A, B, and C", with the depth and quality kept up, **at most about 10% more of this week's usage** (the meter read 25% at the start, so the stop line is about 35%), and finishing over the next 1-2 weeks.
+
+**Is A + B + C optimal? Yes, but merged, not as three separate runs:**
+- **C (new discovery) is the main event.** It fixes the root cause: round 1 started from insider niches and judged pitches without evidence.
+- **B (salvage)** folds into C's evidence gate next week. The 7 wounded contenders and the 13 never-validated finalists compete under the same tougher rules as the new ideas, with no separate pipeline.
+- **A (head-to-head, war-games, final review)** becomes the finish line, applied to the best of everything rather than to 7 wounded boutiques.
+
+**Round 2 design (what changed, and why):**
+1. **Patterns first.** 5 breakout-pattern miners study what is actually building big companies in 2024-26:
+   - AI-native breakouts
+   - fast-growing non-AI businesses and roll-ups
+   - non-US breakouts not yet ported
+   - policy-created spend
+   - "too early" failures whose blocker is now gone
+2. **Pools before ideas.** 15 pool mappers (14 economy slices plus a "hidden giants" slice) map specific money flows of at least $5B a year. Each pool comes with a sourced size, a dated 2025-26 shock, the incumbents and why they're fragile, the named funded startups already there, wedge hints, and the insider roles who would know its secrets.
+3. **Pool selection (me plus 2 judge agents):** about 30 pools, chosen on size, shock, incumbent fragility, an available wedge and uncrowdedness, with sector diversity.
+4. **Ideation against each pool through 4 lenses:**
+   - an **insider** (round 1's winning generator, now aimed at a big pool)
+   - **pattern transfer**
+   - the **incumbent's dilemma** (what incumbents structurally can't do)
+   - **shock-native** (be the default for new forced spend)
+
+   Every idea must show a sourced, bottom-up path to $100M+ a year and name who does it today.
+5. **An evidence gate before any ranking (the fix for step 2C's leniency):** one adversarial "pool champion" per pool searches each idea for competitors, in-house teams and free substitutes, checks the $100M math and the legal premise, and keeps at most 2 ideas per pool. Keeping 0 is allowed.
+6. **All round-2 agents read `round2/inputs/lessons.md`**, a one-page list of what killed round 1's finalists.
+
+**Never losing data again (you asked twice):**
+- The working state lives in `~/projects/business-idea-search-work/biz`, not `/tmp`.
+- New `save.sh` refreshes the repo checkpoint (state plus every journal), mirrors the readable `round2/` files, commits, pushes and **verifies the remote hash**.
+- It runs after every workflow, and an **autosave loop runs it every 15 minutes while agents are working**.
+- Journals are copied into the repo, so Claude Code's 30-day transcript cleanup can't take them either.
