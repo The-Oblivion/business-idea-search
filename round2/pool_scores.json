@@ -1,0 +1,2719 @@
+[
+ {
+  "pool_id": "P013",
+  "slice": "built",
+  "name": "US HOA, condo and co-op association assessments and capital repairs",
+  "usd_b": 124.2,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 8,
+  "shock": 7.5,
+  "fragility": 6.5,
+  "wedge": 7,
+  "uncrowded": 7,
+  "overall": 7,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Fannie 15% reserve floor (Jan 2027) plus Florida SIRS force assessments; no funded association-finance startup. Needs lien-law and lending-license check.",
+   "growth": "Best combo: $124B assessments, Fannie 15% reserve rule Jan 2027, Florida no-waiver funding, no funded financing player. Check hidden association lenders."
+  }
+ },
+ {
+  "pool_id": "P015",
+  "slice": "built",
+  "name": "US building-permit plan review and inspection (government and private providers)",
+  "usd_b": 10,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 6,
+  "shock": 8,
+  "fragility": 8,
+  "wedge": 7.5,
+  "uncrowded": 5.5,
+  "overall": 7,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Fresh FL/CA private-provider laws with deemed approval shift volume faster than departments can hire. Licensed review fees fund service first, software scales it.",
+   "growth": "FL/CA/TX deemed-approval laws outrun understaffed departments; licensed private provider plus software is clear, but labor-based margins cap value."
+  }
+ },
+ {
+  "pool_id": "P036",
+  "slice": "energy",
+  "name": "Gas-turbine fleet services and aftermarket (maintenance, repair, parts, upgrades, LTSAs)",
+  "usd_b": 30,
+  "crowd": "open",
+  "hidden": true,
+  "size": 6.5,
+  "shock": 8,
+  "fragility": 7,
+  "wedge": 5.5,
+  "uncrowded": 7.5,
+  "overall": 6.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "OEM slots sold to 2031 force owners to keep old frames running; no funded startup. Marketplace, LTSA audit and outage staffing are open.",
+   "growth": "Sold-out OEM slots force old frames to keep running; no funded independent MRO startup; size spans $10-30B and independents exist."
+  }
+ },
+ {
+  "pool_id": "P069",
+  "slice": "hidden_giants",
+  "name": "US community associations' (condo/HOA) reserve and capital-repair funding, Florida structural mandate first",
+  "usd_b": 26.6,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 6.5,
+  "shock": 6.5,
+  "fragility": 6.5,
+  "wedge": 7,
+  "uncrowded": 7.5,
+  "overall": 6.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Same condo-reserve financing wedge as the HOA pool; deadlines passed and special assessments hitting owners, no funded lender.",
+   "growth": "Same business as P013 via reserves; Florida deadline now past; financing and procurement gap real, Vantaca funded only on software."
+  }
+ },
+ {
+  "pool_id": "P079",
+  "slice": "industrial",
+  "name": "US OEM and prime purchases of metal castings from foundries (defense-critical)",
+  "usd_b": 53.7,
+  "crowd": "open",
+  "hidden": true,
+  "size": 7.5,
+  "shock": 6.5,
+  "fragility": 8,
+  "wedge": 4.5,
+  "uncrowded": 8,
+  "overall": 6,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Casting capacity is a genuine bottleneck and nobody funded, but qualification takes years and the DoD plan has no new dollars.",
+   "growth": "Primary $53.7B revenue; Pentagon calls castings a single point of failure; only Fabri funded; capital and qualification are the real barriers."
+  }
+ },
+ {
+  "pool_id": "P058",
+  "slice": "health",
+  "name": "US health plans' and self-funded employers' out-of-network payments through No Surprises Act arbitration (IDR awards)",
+  "usd_b": 15,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 7,
+  "shock": 8.5,
+  "fragility": 7,
+  "wedge": 6.5,
+  "uncrowded": 5,
+  "overall": 6,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "IDR payouts tripled to $15B, QPA just ruled unlawful, payers lose 85% and self-funded employers have no tooling. Legislative overhaul is the risk.",
+   "growth": "Volume tripled to $15B and QPA ruled defective, but vendor fees are a fraction, HaloMD holds provider side, Congress could cap awards."
+  }
+ },
+ {
+  "pool_id": "P121",
+  "slice": "resources",
+  "name": "US farmers' spend on equipment repair, maintenance and parts",
+  "usd_b": 18,
+  "crowd": "open",
+  "hidden": true,
+  "size": 5.5,
+  "shock": 7,
+  "fragility": 7,
+  "wedge": 6,
+  "uncrowded": 8,
+  "overall": 6,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Deere settlement strips the diagnostic moat; dealers' 70%-margin service is exposed and no funded independent network exists. Tool access unproven until entered.",
+   "growth": "Deere settlement is court-backed, dealers' high-margin service exposed, no funded independent repair platform; tool access unproven until order entered."
+  }
+ },
+ {
+  "pool_id": "P032",
+  "slice": "energy",
+  "name": "US purchases of power and distribution transformers (utilities, developers, data centers, industrials)",
+  "usd_b": 14,
+  "crowd": "contested",
+  "hidden": false,
+  "size": 6.5,
+  "shock": 8,
+  "fragility": 7,
+  "wedge": 5,
+  "uncrowded": 6.5,
+  "overall": 6,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Tariffs and 160-week lead times strand utilities; repair, spares pooling and used-unit trading have budget. Repair needs plant capital.",
+   "growth": "Tariffs plus ~30% supply deficit, new capacity not before 2027-28; funded only in solid-state hardware; repair, spares pooling, standard-spec aggregation open."
+  }
+ },
+ {
+  "pool_id": "P096",
+  "slice": "insurance",
+  "name": "Captives, group captives and fronting: corporate premium moving out of the commercial market",
+  "usd_b": 79.1,
+  "crowd": "open",
+  "hidden": true,
+  "size": 7,
+  "shock": 5,
+  "fragility": 6,
+  "wedge": 5.5,
+  "uncrowded": 7.5,
+  "overall": 6,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Brokers conflicted against mid-size fleets and nothing venture-funded; group captives need fronting capacity and insurance expertise. Shock is soft pricing, not crisis.",
+   "growth": "Marsh-reported $79B premium, 118 new captives; fee pool $2-4B is hypothesis; no funded group-captive or fronting platform; heavy capital moat."
+  }
+ },
+ {
+  "pool_id": "P039",
+  "slice": "energy",
+  "name": "Utilities' and developers' outsourced transmission and distribution engineering and line-construction contracts",
+  "usd_b": 31,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 8,
+  "shock": 7,
+  "fragility": 6,
+  "wedge": 5,
+  "uncrowded": 7,
+  "overall": 5.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Utility capex is huge and growth is hiring-gated; distribution-design automation and public-power engineering have budget. Utility standards and procurement slow.",
+   "growth": "Huge $31B floor, hiring-gated incumbents; engineering automation and lineworker pipeline unfunded, but Quanta-scale firms thrive and labor is thin-margin."
+  }
+ },
+ {
+  "pool_id": "P068",
+  "slice": "hidden_giants",
+  "name": "US building owners' spend on fire and life-safety inspection, testing, maintenance and monitoring (POTS copper cutover)",
+  "usd_b": 22.1,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 7,
+  "shock": 7.5,
+  "fragility": 5.5,
+  "wedge": 6,
+  "uncrowded": 6,
+  "overall": 5.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "FCC copper order plus AT&T retirement forces cutover of fire-alarm lines nationwide; multi-site owners have compliance budgets and roll-ups lack coordination. State licensing needs subcontractors.",
+   "growth": "Copper cutover forces retrofits, but Resideo-type hardware incumbents and Pye-Barker roll-ups hold the base; one-time work, recurring monitoring is prize."
+  }
+ },
+ {
+  "pool_id": "P060",
+  "slice": "health",
+  "name": "340B Drug Pricing Program covered-entity purchases (the spread and the rebate transition)",
+  "usd_b": 100,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 7,
+  "shock": 8,
+  "fragility": 6,
+  "wedge": 5,
+  "uncrowded": 5,
+  "overall": 5.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Rebate pilot forces hospitals to front full price and prove claims; Kalderos present, litigation could kill it again. Receivable financing needs balance sheet.",
+   "growth": "Rebate model forces hospitals to front full price, creating financing and data needs; courts and Congress split three ways; spread unsized."
+  }
+ },
+ {
+  "pool_id": "P049",
+  "slice": "global_south",
+  "name": "Indonesia: free-meals programme (MBG) money flowing from BGN through ~27,000 community kitchens (SPPG) to ingredient suppliers",
+  "usd_b": 15,
+  "crowd": "open",
+  "hidden": true,
+  "size": 6.5,
+  "shock": 8,
+  "fragility": 7.5,
+  "wedge": 5,
+  "uncrowded": 8,
+  "overall": 5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "New state payer, 27,000 kitchens, crackdown just landed, nothing funded; bottom-up near $100M. Politics, local presence, and BGN's own marketplace are risks.",
+   "growth": "New $15B state payer and kitchen crisis, but state is building its own marketplace and program could be cut; $100M needs stacked layers."
+  }
+ },
+ {
+  "pool_id": "P123",
+  "slice": "resources",
+  "name": "US biofuel producers' purchases of fats, oils and grease feedstock",
+  "usd_b": 26,
+  "crowd": "open",
+  "hidden": true,
+  "size": 6.5,
+  "shock": 8,
+  "fragility": 6,
+  "wedge": 5.5,
+  "uncrowded": 8,
+  "overall": 5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "RFS volumes up 60% and North-American-only 45Z create scarcity rent on domestic fats; origin documentation and collection density are open. Renderers strong.",
+   "growth": "Strong RFS and 45Z domestic-feedstock shock, no funded players, but renderers like Darling entrenched and roll-up is capital-heavy."
+  }
+ },
+ {
+  "pool_id": "P082",
+  "slice": "industrial",
+  "name": "Owners' parts and service spend on heavy equipment (ag, construction, mining), opened by right-to-repair",
+  "usd_b": 24,
+  "crowd": "open",
+  "hidden": true,
+  "size": 6.5,
+  "shock": 7,
+  "fragility": 6.5,
+  "wedge": 5,
+  "uncrowded": 8,
+  "overall": 5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Deere order is fresh, but covers Deere ag only, is unproven, and multi-brand diagnostics from Jaltest, Texa exist.",
+   "growth": "Deere settlement is court-backed but brand-limited; multi-brand diagnostics unfunded; Cat figure is global, independent share unknown."
+  }
+ },
+ {
+  "pool_id": "P102",
+  "slice": "logistics",
+  "name": "US heavy-duty (Class 6-8) truck repair, maintenance and parts aftermarket",
+  "usd_b": 100,
+  "crowd": "open",
+  "hidden": true,
+  "size": 8,
+  "shock": 5.5,
+  "fragility": 6,
+  "wedge": 6,
+  "uncrowded": 7,
+  "overall": 5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Technician scarcity and tariffed parts are real; GPO and mobile technician network are open, but Fullbay and distributors can respond.",
+   "growth": "Open, fragmented, tariffs and technician shortage; size is stale MacKay data including in-house work; Fullbay proves software entry."
+  }
+ },
+ {
+  "pool_id": "P022",
+  "slice": "consumer",
+  "name": "US consumer auto-loan interest and fees, with the subprime servicing, collections and repossession layer under stress",
+  "usd_b": 130,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 6.5,
+  "shock": 7,
+  "fragility": 6.5,
+  "wedge": 5.5,
+  "uncrowded": 5,
+  "overall": 5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Tricolor and record delinquencies show thin-ops lenders fail; backup servicing has named payers but small fees. Salient funded, price must beat loss avoided.",
+   "growth": "Tricolor and record delinquency create backup-servicing need, but servicing spend unsized and lenders thin; round-1 price-versus-value risk."
+  }
+ },
+ {
+  "pool_id": "P061",
+  "slice": "health",
+  "name": "Medicaid home- and community-based services (personal care, home care agencies, fiscal intermediaries)",
+  "usd_b": 129.4,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 8,
+  "shock": 6.5,
+  "fragility": 6,
+  "wedge": 5,
+  "uncrowded": 5,
+  "overall": 5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Huge pool and agencies squeezed by H.R.1 and NY consolidation; receivable advances need capital, FI work needs state procurement.",
+   "growth": "Giant strained pool; receivables advances and statewide FI platforms plausible; shock is cuts that add risk; incumbents and software funded."
+  }
+ },
+ {
+  "pool_id": "P104",
+  "slice": "logistics",
+  "name": "Airlines' and lessors' spend on commercial aviation MRO and aftermarket parts",
+  "usd_b": 100,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 8.5,
+  "shock": 7,
+  "fragility": 6,
+  "wedge": 4.5,
+  "uncrowded": 4.5,
+  "overall": 5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Engine and casting shortages are real, but PMA/DER approvals are slow and ePlane plus parts distributors are present.",
+   "growth": "Huge $100B pool and engine MRO bottleneck, OEM parts exclusivity; PMA and used-material path needs inventory capital; marketplaces and AerSale exist."
+  }
+ },
+ {
+  "pool_id": "P106",
+  "slice": "public",
+  "name": "State Medicaid and SNAP agencies' eligibility and administration spend (work requirements, 6-month redeterminations, SNAP admin cost shift)",
+  "usd_b": 45,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 6,
+  "shock": 8,
+  "fragility": 6.5,
+  "wedge": 5.5,
+  "uncrowded": 4.5,
+  "overall": 5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Jan 2027 deadline plus SNAP admin shift; plan-paid retention per member is a real wedge; integrators discount and procurement is slow.",
+   "growth": "Hard 2027 deadline and SNAP cost shift, but vendor share unsourced, integrators discounting, free EMMY tooling; plan-paid retention is interesting payer."
+  }
+ },
+ {
+  "pool_id": "P087",
+  "slice": "insurance",
+  "name": "US homeowners insurance premiums in wildfire-, hail- and hurricane-exposed markets (California cat-model reform, Florida reinsurance reset)",
+  "usd_b": 173,
+  "crowd": "contested",
+  "hidden": false,
+  "size": 8.5,
+  "shock": 7,
+  "fragility": 6,
+  "wedge": 5,
+  "uncrowded": 3.5,
+  "overall": 5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "SIS forces proof of mitigation, a clear evidence-layer gap, but California-only prior-approval and RockRose, Zesty, BurnBot funded.",
+   "growth": "Verified $173B with California SIS reset, but funded insurtechs and incumbents abound; mitigation-evidence layer and FAIR Plan take-out narrow."
+  }
+ },
+ {
+  "pool_id": "P012",
+  "slice": "built",
+  "name": "US homeowners-insurer-paid property repair and restoration (claims money flowing to contractors)",
+  "usd_b": 82,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 8,
+  "shock": 5,
+  "fragility": 5.5,
+  "wedge": 6,
+  "uncrowded": 5,
+  "overall": 5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Loss-draft delays and contractor cash gaps are real pain; LA-fire shock is aging and Rebuild is funded. Contractor-paid financing is the entry.",
+   "growth": "Verified $82B claims money; contractor cash acceleration is a balance-sheet wedge; Rebuild funded, carriers resist payout-raising tools."
+  }
+ },
+ {
+  "pool_id": "P035",
+  "slice": "energy",
+  "name": "PJM capacity payments passed through to utilities' and large customers' bills",
+  "usd_b": 16.4,
+  "crowd": "contested",
+  "hidden": false,
+  "size": 6,
+  "shock": 8,
+  "fragility": 4.5,
+  "wedge": 5.5,
+  "uncrowded": 3.5,
+  "overall": 5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Capacity price at cap three years running gives mid-size C&I real savings; Voltus, CPower, Enel X respond fast.",
+   "growth": "Fresh $16.4B auction shock, but pass-through is not revenue; Voltus raised $225M, Emerald at $1B; needs storage financing."
+  }
+ },
+ {
+  "pool_id": "P108",
+  "slice": "public",
+  "name": "US prison and jail health care (state corrections departments and counties paying contractors)",
+  "usd_b": 11,
+  "crowd": "open",
+  "hidden": true,
+  "size": 5,
+  "shock": 7,
+  "fragility": 8,
+  "wedge": 4,
+  "uncrowded": 8,
+  "overall": 4.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Wellpath and YesCare failures leave counties without bidders, but liability and clinical-licensing exposure make it hard for a scrappy team.",
+   "growth": "Incumbent bankruptcies leave counties without bidders, no funded startup; litigation, thin margins, slow procurement; $11B is derived."
+  }
+ },
+ {
+  "pool_id": "P085",
+  "slice": "industrial",
+  "name": "US medium- and heavy-duty truck parts aftermarket bought by independent fleets and shops",
+  "usd_b": 25.5,
+  "crowd": "open",
+  "hidden": true,
+  "size": 6.5,
+  "shock": 6,
+  "fragility": 5.5,
+  "wedge": 5.5,
+  "uncrowded": 7,
+  "overall": 4.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Tariffed parts and fragmented shops want price transparency, but Fullbay can add a marketplace and distributors respond.",
+   "growth": "Floor-quality size (dealers only), 25% tariff since Nov 2025, no funded parts procurement; Fullbay adjacent; margin on flow thin."
+  }
+ },
+ {
+  "pool_id": "P125",
+  "slice": "services",
+  "name": "US state governments' spend on Medicaid and SNAP administration (eligibility determination, enrollment and verification systems, outsourced operations)",
+  "usd_b": 54,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 6,
+  "shock": 8,
+  "fragility": 6.5,
+  "wedge": 5.5,
+  "uncrowded": 4.5,
+  "overall": 4.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Same H.R.1 and SNAP shift as P106; per-verification data and MCO-paid retention are real wedges, but vendors discount and states procure slowly.",
+   "growth": "Duplicate of P106 and P059 as services; same free federal tooling and discounting integrators; vendor share unsourced."
+  }
+ },
+ {
+  "pool_id": "P038",
+  "slice": "energy",
+  "name": "US nuclear fleet operating, fuel and capital spend (and the outsourced supplier/services ecosystem behind it)",
+  "usd_b": 26,
+  "crowd": "open",
+  "hidden": true,
+  "size": 6,
+  "shock": 6,
+  "fragility": 6,
+  "wedge": 4,
+  "uncrowded": 8,
+  "overall": 4.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Real policy wave and thin supplier base, but NQA-1 qualification is slow and new-build money mostly lands after 2028.",
+   "growth": "Shock hits new-build, not the $26B fleet-spend flow; supplier-qualification wedge unclear; Nuclearn and Atomic Canyon only do documentation."
+  }
+ },
+ {
+  "pool_id": "P126",
+  "slice": "services",
+  "name": "US federal agencies' spend on management advisory and professional support services (consultants and support contractors)",
+  "usd_b": 50,
+  "crowd": "open",
+  "hidden": true,
+  "size": 6.5,
+  "shock": 5.5,
+  "fragility": 6.5,
+  "wedge": 5,
+  "uncrowded": 6.5,
+  "overall": 4.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Civilian consulting cut by a third and T&M under attack, but past-performance and set-aside moats protect incumbents; shock is 18 months old.",
+   "growth": "Civilian consulting down one-third with outcome-based rebuying, but moats are past performance and set-asides; no funded AI-native civilian delivery firm."
+  }
+ },
+ {
+  "pool_id": "P017",
+  "slice": "built",
+  "name": "US manufactured-home sales and chattel (personal-property) finance",
+  "usd_b": 13.6,
+  "crowd": "open",
+  "hidden": true,
+  "size": 5.5,
+  "shock": 5.5,
+  "fragility": 6,
+  "wedge": 5.5,
+  "uncrowded": 7,
+  "overall": 4.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "GSE chattel channel would reprice the market, but rules are proposals with finality near 2028; Clayton is vertically integrated.",
+   "growth": "GSE chattel proposal could create a securitizable channel, but not final until 2028; Clayton-owned lenders dominate."
+  }
+ },
+ {
+  "pool_id": "P018",
+  "slice": "built",
+  "name": "US new-home builder sales incentives and mortgage rate buydowns",
+  "usd_b": 24,
+  "crowd": "open",
+  "hidden": false,
+  "size": 5.5,
+  "shock": 6,
+  "fragility": 5,
+  "wedge": 5,
+  "uncrowded": 8,
+  "overall": 4.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Non-captive mid-size builders lack neutral buydown capital; nothing funded. Concession caps and lender-steering rules need legal check.",
+   "growth": "Incentive spend real, but third-party buydown slice unsized and captive lenders steer; nobody funded, reachable fees small."
+  }
+ },
+ {
+  "pool_id": "P040",
+  "slice": "finance",
+  "name": "US banks' and credit unions' spend on core, digital-banking and processing vendors (Fiserv, FIS, Jack Henry)",
+  "usd_b": 19.5,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 6.5,
+  "shock": 7.5,
+  "fragility": 6,
+  "wedge": 4.5,
+  "uncrowded": 5,
+  "overall": 4.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Fiserv meltdown is rare, but core contracts run decades, vendors run their own conversions, and benchmarking is an existing consulting niche.",
+   "growth": "Fiserv unraveling real but core replacement is decade-scale; Nymbus, Thought Machine, Mambu funded; conversion-services wedge is small."
+  }
+ },
+ {
+  "pool_id": "P062",
+  "slice": "health",
+  "name": "Clinical laboratory testing (independent, hospital-outreach and reference labs)",
+  "usd_b": 99.7,
+  "crowd": "open",
+  "hidden": true,
+  "size": 7.5,
+  "shock": 5.5,
+  "fragility": 5,
+  "wedge": 5,
+  "uncrowded": 6.5,
+  "overall": 4.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "PAMA cuts have been delayed seven times, so urgency is unreliable; lab underpayment recovery on contingency is real but boutique-served.",
+   "growth": "PAMA cuts delayed seven times, so shock may fizzle; lab-specific denial recovery unfunded but a normal RCM niche."
+  }
+ },
+ {
+  "pool_id": "P003",
+  "slice": "aging_rich",
+  "name": "England social landlords' repairs and maintenance spend (housing associations, Awaab's Law era)",
+  "usd_b": 13,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 5.5,
+  "shock": 7,
+  "fragility": 6,
+  "wedge": 5,
+  "uncrowded": 5,
+  "overall": 4.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Awaab's Law clocks force compliance spend, but Switchee and Mobysoft already sell it. UK housing-association procurement is slow.",
+   "growth": "Awaab's Law creates UK compliance spend, but margin-starved landlords, Switchee and Mobysoft already serve, UK-only."
+  }
+ },
+ {
+  "pool_id": "P004",
+  "slice": "aging_rich",
+  "name": "German Mittelstand ownership succession: purchase-price flow plus advisory and financing fees",
+  "usd_b": 62,
+  "crowd": "open",
+  "hidden": true,
+  "size": 5.5,
+  "shock": 5.5,
+  "fragility": 5.5,
+  "wedge": 5,
+  "uncrowded": 7,
+  "overall": 4.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Size is an upper bound; free nexxt-change substitute, fee layer maybe $1-2B. Roll-up or MBO finance is capital-heavy and German-language.",
+   "growth": "Demographic cliff real, but fee layer ~$0.5-1.5B and free nexxt-change exists; only an EBO or buy-and-hold vehicle scales."
+  }
+ },
+ {
+  "pool_id": "P021",
+  "slice": "consumer",
+  "name": "US personal-auto physical-damage claims (collision + comprehensive): insurer payments for repair, parts, calibration and total-loss payouts",
+  "usd_b": 92,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 7.5,
+  "shock": 6,
+  "fragility": 5.5,
+  "wedge": 5.5,
+  "uncrowded": 4,
+  "overall": 4.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Policyholder-side total-loss audit has no advocate today; ADAS calibration capacity also open. CCC and Mitchell entrenched, licensing question.",
+   "growth": "$92B claims pool, but CCC, Mitchell, Solera own workflow; ADAS calibration capacity is the open lane; several AI estimators funded."
+  }
+ },
+ {
+  "pool_id": "P078",
+  "slice": "industrial",
+  "name": "US OEM spend on outsourced custom machined parts from independent machine shops",
+  "usd_b": 47.8,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 7,
+  "shock": 6,
+  "fragility": 6.5,
+  "wedge": 5.5,
+  "uncrowded": 3.5,
+  "overall": 4.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Hadrian ($7.9B) and Isembard fund the capital side and shop software is crowded; mid-volume niche exists but is contested.",
+   "growth": "Hadrian at $7.9B validates category but crowds defense CNC; mid-volume commercial parts and buy-and-automate shop roll-ups remain open."
+  }
+ },
+ {
+  "pool_id": "P089",
+  "slice": "insurance",
+  "name": "US commercial auto and trucking liability premiums",
+  "usd_b": 72.2,
+  "crowd": "contested",
+  "hidden": false,
+  "size": 8,
+  "shock": 6.5,
+  "fragility": 6,
+  "wedge": 5,
+  "uncrowded": 3,
+  "overall": 4.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "CDL and English rules reshape driver risk; Nirvana, Cover Whale, HDVI are funded. Driver-qualification data feed is a plausible wedge.",
+   "growth": "Nirvana ($1.5B), Cover Whale, HDVI funded; driver-qualification feed real but small; capital and licensing intensive."
+  }
+ },
+ {
+  "pool_id": "P120",
+  "slice": "resources",
+  "name": "US packaging extended producer responsibility (EPR) producer fees",
+  "usd_b": 5,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 4,
+  "shock": 7,
+  "fragility": 6,
+  "wedge": 6,
+  "uncrowded": 5.5,
+  "overall": 4.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "State EPR fees hit brands from 2026-27; CAA builds data systems from scratch, so SKU-level reporting and invoice audit have clear payers. Litigation pending.",
+   "growth": "Borderline $5B, California plan still evolving; CAA dominates; SKU-level reporting SaaS plausible but small and litigation-exposed."
+  }
+ },
+ {
+  "pool_id": "P084",
+  "slice": "industrial",
+  "name": "US importers' customs-duty payments on industrial inputs and the duty-mitigation services market",
+  "usd_b": 214,
+  "crowd": "contested",
+  "hidden": false,
+  "size": 5,
+  "shock": 7.5,
+  "fragility": 6,
+  "wedge": 5,
+  "uncrowded": 4.5,
+  "overall": 4.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Monthly tariff regime changes make duty recovery and metals-content data recurring; Big 4 and trade counsel already on contingency, licensing check.",
+   "growth": "Fee slice unsized, refund and audit work episodic; Altana, Flexport, brokers and many seed-stage AI classifiers present."
+  }
+ },
+ {
+  "pool_id": "P095",
+  "slice": "insurance",
+  "name": "Cyber and liability premiums being carved out for generative-AI risk (cyber, tech E&O, D&O, GL)",
+  "usd_b": 16.3,
+  "crowd": "contested",
+  "hidden": false,
+  "size": 4.5,
+  "shock": 7.5,
+  "fragility": 7,
+  "wedge": 5,
+  "uncrowded": 4,
+  "overall": 4.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Jan-2026 AI exclusions are fresh and unpriced, but AI-specific spend is tiny and Armilla, Klaimee, Corgi funded.",
+   "growth": "New coverage category created by exclusions, but current spend small; Armilla, Klaimee, Corgi, Mount already funded."
+  }
+ },
+ {
+  "pool_id": "P050",
+  "slice": "global_south",
+  "name": "India: interest and fees households and small businesses pay on gold-backed loans (banks, NBFCs, informal)",
+  "usd_b": 20,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 7,
+  "shock": 7,
+  "fragility": 3.5,
+  "wedge": 5,
+  "uncrowded": 5,
+  "overall": 4.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "RBI gold-loan rules force assaying, auction SOP and LTV monitoring, but Muthoot-class incumbents are strong and Rupeek exists.",
+   "growth": "Fast-growing $20B interest pool and RBI rule shock, but Muthoot-class incumbents are strong and own-branch rule favors them; Rupeek present."
+  }
+ },
+ {
+  "pool_id": "P101",
+  "slice": "logistics",
+  "name": "US heavy trucking liability and cargo insurance premiums",
+  "usd_b": 30,
+  "crowd": "contested",
+  "hidden": false,
+  "size": 7,
+  "shock": 6.5,
+  "fragility": 6,
+  "wedge": 5,
+  "uncrowded": 3,
+  "overall": 4.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Carriers' 14-year loss streak and driver shock are real, but Nirvana is $1.5B and MGA path needs reinsurer backing.",
+   "growth": "Derived split of commercial auto; Nirvana shows leader exists; MGA excess and umbrella is capital and licensing heavy."
+  }
+ },
+ {
+  "pool_id": "P118",
+  "slice": "resources",
+  "name": "US feedlot and packer purchases of cattle and calves (cattle cash receipts)",
+  "usd_b": 134,
+  "crowd": "open",
+  "hidden": false,
+  "size": 7,
+  "shock": 8,
+  "fragility": 5.5,
+  "wedge": 4,
+  "uncrowded": 8,
+  "overall": 4,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Herd at 1951 lows and screwworm are dramatic, but heifer leasing is capital- and biology-risk heavy for a small team.",
+   "growth": "Primary $134B and historic herd low, no funded players; wedge is cyclical heifer finance with mortality and regulatory risk."
+  }
+ },
+ {
+  "pool_id": "P067",
+  "slice": "hidden_giants",
+  "name": "US businesses' spend on uniform, linen and workwear rental (incl. healthcare linen)",
+  "usd_b": 27.7,
+  "crowd": "open",
+  "hidden": true,
+  "size": 5,
+  "shock": 7,
+  "fragility": 6,
+  "wedge": 4.5,
+  "uncrowded": 9,
+  "overall": 4,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Cintas-UniFirst merger frees accounts for re-bid, no funded startup; but SMB audit ARPU is small and roll-up is asset-heavy.",
+   "growth": "Cintas-UniFirst merger creates re-bid churn, no funded attackers, but plant-and-route capital intensity blocks a startup; buyer audit small."
+  }
+ },
+ {
+  "pool_id": "P016",
+  "slice": "built",
+  "name": "US residential construction trade labor (payroll and subcontract labor, plus staffing/payroll/training intermediation)",
+  "usd_b": 245,
+  "crowd": "open",
+  "hidden": true,
+  "size": 8,
+  "shock": 7,
+  "fragility": 6,
+  "wedge": 4,
+  "uncrowded": 6,
+  "overall": 4,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Enforcement shrinks labor supply a startup cannot create; classification, E-Verify and joint-employer risk, poor marketplace history.",
+   "growth": "Real $245B payroll and enforcement shock, but labor marketplaces have a poor record and heavy joint-employer legal risk."
+  }
+ },
+ {
+  "pool_id": "P030",
+  "slice": "consumer",
+  "name": "SNAP benefits redeemed at US grocers, plus state administration and retailer compliance spend",
+  "usd_b": 101.7,
+  "crowd": "open",
+  "hidden": false,
+  "size": 3.5,
+  "shock": 7,
+  "fragility": 6.5,
+  "wedge": 5.5,
+  "uncrowded": 8,
+  "overall": 4,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "State SNAP food restrictions create an unresolved SKU-eligibility data gap with mandated users; retailer ARPU small, government cycles long.",
+   "growth": "Vendor-capturable slice is a sliver of $101.7B, buyer is slow government; SKU eligibility data is open but low ARPU."
+  }
+ },
+ {
+  "pool_id": "P052",
+  "slice": "global_south",
+  "name": "Brazil: farmers' annual crop-input purchases (seeds, fertiliser, crop protection), 72% bought on credit from retailers, manufacturers and cooperatives",
+  "usd_b": 20,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 6.5,
+  "shock": 7,
+  "fragility": 6,
+  "wedge": 4.5,
+  "uncrowded": 5.5,
+  "overall": 4,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Record farm-credit stress and retailers lending blind; Traive and Agrolend funded. Brazil execution and credit-risk heavy.",
+   "growth": "Real ag-credit stress, but lending into defaulting farmers is dangerous; Traive and Agrolend present; $100M needs large credit share."
+  }
+ },
+ {
+  "pool_id": "P059",
+  "slice": "health",
+  "name": "State Medicaid program administration, esp. the H.R.1 work-requirement and six-month-renewal build-out",
+  "usd_b": 41.3,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 4.5,
+  "shock": 8,
+  "fragility": 6.5,
+  "wedge": 4.5,
+  "uncrowded": 6,
+  "overall": 4,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Jan 2027 deadline is hard, but integrators are discounting and government procurement is slow; vendor-addressable slice is small.",
+   "growth": "Hard Jan 2027 deadline, but shock slice ~$0.7-1B one-time; integrators discounting, free federal EMMY tooling, slow state procurement."
+  }
+ },
+ {
+  "pool_id": "P129",
+  "slice": "services",
+  "name": "US enterprises' spend on offshore-delivered IT services (application development and maintenance, testing, infrastructure from Indian IT majors and captives)",
+  "usd_b": 100,
+  "crowd": "contested",
+  "hidden": false,
+  "size": 8,
+  "shock": 7,
+  "fragility": 5.5,
+  "wedge": 5,
+  "uncrowded": 4,
+  "overall": 4,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "H-1B fee and AI deflation hurt Indian IT, but Accenture, AWS and funded startups attack modernization.",
+   "growth": "H-1B fee and AI deflation are real shocks, but incumbents large and adapting; assumption-derived size; narrow modernization niches funded."
+  }
+ },
+ {
+  "pool_id": "P007",
+  "slice": "aging_rich",
+  "name": "Japan shippers' spend on contracted road freight (multi-tier trucking subcontract chain)",
+  "usd_b": 110,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 7,
+  "shock": 7,
+  "fragility": 6,
+  "wedge": 4,
+  "uncrowded": 5,
+  "overall": 4,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Jan-2026 law is real, but 60,000 small carriers have no budget. Shippers' CLO plans pay, and Japan market access is hard.",
+   "growth": "Derivable $110B pool and fresh 2026 law, but Japan-only, Hacobu and T2 funded; wedge is small-carrier compliance SaaS."
+  }
+ },
+ {
+  "pool_id": "P142",
+  "slice": "work_learning",
+  "name": "Craft labor spend on US data-center construction (electricians and allied trades)",
+  "usd_b": 17.7,
+  "crowd": "contested",
+  "hidden": false,
+  "size": 6,
+  "shock": 7.5,
+  "fragility": 6,
+  "wedge": 4.5,
+  "uncrowded": 4.5,
+  "overall": 4,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "AI-capex labor shortage is real, but staffing is competitive, Buildforce is funded, and labor supply cannot be created quickly.",
+   "growth": "AI capex bids up trades labor, but staffing marketplaces are thin-margin and Buildforce funded; prefab electrical assemblies more interesting."
+  }
+ },
+ {
+  "pool_id": "P070",
+  "slice": "hidden_giants",
+  "name": "US building owners' spend on elevator, escalator and moving-walk maintenance, repair and modernization",
+  "usd_b": 8,
+  "crowd": "open",
+  "hidden": true,
+  "size": 5,
+  "shock": 5,
+  "fragility": 5.5,
+  "wedge": 5,
+  "uncrowded": 7.5,
+  "overall": 4,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Otis service quality and cab-phone POTS conversions help, but IUEC labor, licensing and OEM-locked controllers gate entry.",
+   "growth": "Independent roll-up plausible but $8B pool, mechanic bottleneck, Otis owns WeMaintain; PE would do it first."
+  }
+ },
+ {
+  "pool_id": "P136",
+  "slice": "work_learning",
+  "name": "Private-school-choice money: state ESAs, vouchers, tax-credit scholarships, plus the federal tax-credit scholarship starting 2027",
+  "usd_b": 10.6,
+  "crowd": "contested",
+  "hidden": false,
+  "size": 4,
+  "shock": 7,
+  "fragility": 6,
+  "wedge": 5.5,
+  "uncrowded": 5.5,
+  "overall": 4,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Federal credit starts Jan 2027 and Arizona wants fraud analytics; ClassWallet and Odyssey hold state contracts and Treasury rules aren't final.",
+   "growth": "Operator take only $300-500M sector-wide; ClassWallet and Odyssey entrenched; federal credit rules not final."
+  }
+ },
+ {
+  "pool_id": "P137",
+  "slice": "work_learning",
+  "name": "US graduate-school borrowing displaced from Grad PLUS (private lending gap)",
+  "usd_b": 8,
+  "crowd": "contested",
+  "hidden": false,
+  "size": 5,
+  "shock": 8.5,
+  "fragility": 5,
+  "wedge": 4.5,
+  "uncrowded": 5,
+  "overall": 4,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Grad PLUS closure is certain, but spread revenue is far below loan volume and Sallie Mae, SoFi have capital.",
+   "growth": "Crisp July 2026 Grad PLUS closure leaves $8B yearly gap, but lender revenue is a spread, credit risk real, Sallie Mae, SoFi, GradBridge respond."
+  }
+ },
+ {
+  "pool_id": "P033",
+  "slice": "energy",
+  "name": "US electric utilities' vegetation management (line clearance and tree trimming)",
+  "usd_b": 7.5,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 4.5,
+  "shock": 6.5,
+  "fragility": 6,
+  "wedge": 5.5,
+  "uncrowded": 5,
+  "overall": 4,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Work-verification and unit-price audit has a clear utility payer; Overstory funded and software at 1-2% caps near $75-150M.",
+   "growth": "$7.5B pool; contractors sell crew-hours so analytics conflict; Overstory, Pano, Gridware funded; audit software near $100M ceiling."
+  }
+ },
+ {
+  "pool_id": "P103",
+  "slice": "logistics",
+  "name": "US trucking diesel purchasing (fuel cards, discount networks, surcharge pass-through)",
+  "usd_b": 180,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 6,
+  "shock": 7.5,
+  "fragility": 4.5,
+  "wedge": 4.5,
+  "uncrowded": 4.5,
+  "overall": 4,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Record diesel is cyclical; fuel advance/credit for small carriers is a classic balance-sheet product against Comdata and WEX.",
+   "growth": "Diesel spike is cyclical; intermediary margin only $4-9B; Corpay and WEX entrenched; small-carrier fuel credit is defensible piece."
+  }
+ },
+ {
+  "pool_id": "P116",
+  "slice": "resources",
+  "name": "US farm employers' spend on hired and H-2A labor",
+  "usd_b": 44.3,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 6.5,
+  "shock": 6,
+  "fragility": 5.5,
+  "wedge": 4.5,
+  "uncrowded": 4.5,
+  "overall": 4,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Same H-2A wage-rule limbo as the narrower pool; Seso funded; housing and FLC back office are the open pieces.",
+   "growth": "Wage-rule litigation helps compliance vendors, but Seso is funded and H-2A slice only ~$7-12B; overlaps P072 and P135."
+  }
+ },
+ {
+  "pool_id": "P094",
+  "slice": "insurance",
+  "name": "US P&C insurers' claims-handling (adjusting) and litigation-defense expense (LAE)",
+  "usd_b": 86,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 7.5,
+  "shock": 5,
+  "fragility": 5,
+  "wedge": 5,
+  "uncrowded": 4,
+  "overall": 4,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Large cost pool with a data-asset wedge (litigation spend intelligence), but claims AI is crowded and carriers build internally.",
+   "growth": "Primary-derived $86B LAE pool with thin surge capacity; litigation-spend intelligence unfunded but small; claims AI is crowded cliche."
+  }
+ },
+ {
+  "pool_id": "P077",
+  "slice": "industrial",
+  "name": "US industrial MRO and indirect-supplies spend by plants, contractors and facilities (industrial distribution)",
+  "usd_b": 165,
+  "crowd": "contested",
+  "hidden": false,
+  "size": 8.5,
+  "shock": 5,
+  "fragility": 3.5,
+  "wedge": 4,
+  "uncrowded": 5,
+  "overall": 4,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Tariff churn squeezes mid-size distributors, but ERP/pricing vendors respond and the 2,000-distributor bottom-up is unverified.",
+   "growth": "Huge fragmented $165B pool on Grainger's own sizing, but big three healthy and shock is mild tariff churn; distributor software tops near $100M."
+  }
+ },
+ {
+  "pool_id": "P023",
+  "slice": "consumer",
+  "name": "US homeowners' residential HVAC replacement and installation (equipment plus labor)",
+  "usd_b": 55,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 7.5,
+  "shock": 5.5,
+  "fragility": 5,
+  "wedge": 4.5,
+  "uncrowded": 3,
+  "overall": 4,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Real price-opacity pain, but Jetson and Quilt are funded, shock partly pulled forward, and marketplace plays are capital-hungry.",
+   "growth": "Large pool, but shock is a demand slump; Jetson funded, PE roll-ups and ServiceTitan entrenched; price-transparency wedge is lead-gen."
+  }
+ },
+ {
+  "pool_id": "P031",
+  "slice": "energy",
+  "name": "US data centers' spend on onsite / behind-the-meter power (engines, turbines, fuel cells, batteries, backup) and the services around it",
+  "usd_b": 9,
+  "crowd": "crowded",
+  "hidden": false,
+  "size": 6.5,
+  "shock": 8,
+  "fragility": 5,
+  "wedge": 3.5,
+  "uncrowded": 2.5,
+  "overall": 4,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Scarce inputs are permits, commissioning crews and fuel, not money; Crusoe and Bloom own capital. Permit-engineering services wedge is consultancy-scale.",
+   "growth": "Real scarcity shock but OEMs supply-capped; Crusoe, Bloom, ProEnergy, Emerald funded; unfunded layers are services under $100M."
+  }
+ },
+ {
+  "pool_id": "P093",
+  "slice": "insurance",
+  "name": "Wholesale, MGA and delegated-authority intermediation of US surplus lines (E&S) and specialty insurance",
+  "usd_b": 21,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 6.5,
+  "shock": 4.5,
+  "fragility": 5,
+  "wedge": 4.5,
+  "uncrowded": 5,
+  "overall": 4,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Boom ending and 65 new carriers must police MGAs by hand; bordereaux tooling has budget, but Quantemplate-style vendors exist.",
+   "growth": "Ryan Specialty and Amwins dominate; soft-market shock is mild; bordereaux plumbing unfunded but modest; underwriting AI crowded."
+  }
+ },
+ {
+  "pool_id": "P063",
+  "slice": "health",
+  "name": "Rural Health Transformation Program state grants",
+  "usd_b": 10,
+  "crowd": "open",
+  "hidden": false,
+  "size": 4.5,
+  "shock": 7,
+  "fragility": 6,
+  "wedge": 4.5,
+  "uncrowded": 7.5,
+  "overall": 3.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "$10B of new money must be obligated fast across 50 offices, nothing funded; five-year cliff and vendor-addressable share capped near tens of millions.",
+   "growth": "One-time money, five-year cliff, 50 separate procurements, unknown vendor share; consultancies and EHR vendors capture most."
+  }
+ },
+ {
+  "pool_id": "P009",
+  "slice": "aging_rich",
+  "name": "Northeast US home heating oil retail (fuel, service contracts and installs)",
+  "usd_b": 8,
+  "crowd": "open",
+  "hidden": true,
+  "size": 4.5,
+  "shock": 5.5,
+  "fragility": 6.5,
+  "wedge": 4.5,
+  "uncrowded": 7.5,
+  "overall": 3.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Density death spiral and $450M heat-pump money, but the play is a capital-heavy roll-up of a shrinking base.",
+   "growth": "Shrinking base losing ~4.7% accounts yearly; dealer roll-up has thin margins and needs 15-25 acquisitions for $100M."
+  }
+ },
+ {
+  "pool_id": "P107",
+  "slice": "public",
+  "name": "Rural Health Transformation Program awards (CMS to 50 state agencies to rural providers and vendors)",
+  "usd_b": 10,
+  "crowd": "contested",
+  "hidden": false,
+  "size": 4.5,
+  "shock": 7,
+  "fragility": 6,
+  "wedge": 4.5,
+  "uncrowded": 6,
+  "overall": 3.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "New five-year money spread over 50 state offices; no standard vendor, but ceiling is tens of millions and a funding cliff looms.",
+   "growth": "Duplicate of P063: one-time five-year grants across 50 procurements; vendor-addressable share unknown."
+  }
+ },
+ {
+  "pool_id": "P020",
+  "slice": "built",
+  "name": "US low-income housing tax credit (LIHTC) equity, development and compliance",
+  "usd_b": 25,
+  "crowd": "open",
+  "hidden": true,
+  "size": 5,
+  "shock": 6,
+  "fragility": 4.5,
+  "wedge": 5,
+  "uncrowded": 7,
+  "overall": 3.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Bond-test change adds volume, but bank-dominated equity and entrenched syndicators and compliance vendors make $100M a stretch.",
+   "growth": "OBBBA volume boost real, but bank-dominated equity and small fee layer make $100M a stretch; compliance SaaS is small."
+  }
+ },
+ {
+  "pool_id": "P117",
+  "slice": "resources",
+  "name": "US federal crop insurance premiums (farmer-paid plus taxpayer subsidy)",
+  "usd_b": 18.04,
+  "crowd": "open",
+  "hidden": true,
+  "size": 5,
+  "shock": 5,
+  "fragility": 5,
+  "wedge": 4,
+  "uncrowded": 8,
+  "overall": 3.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Rates and subsidies are federally set; AIP approval needs capital; roll-up path, not a shock-driven wedge.",
+   "growth": "Regulated AIP model needs capital and approval; reimbursement pool only ~$2B; digital agency roll-up is the realistic route."
+  }
+ },
+ {
+  "pool_id": "P071",
+  "slice": "hidden_giants",
+  "name": "US school districts' spend on student transportation (own fleets and contractor-run yellow bus)",
+  "usd_b": 28,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 6.5,
+  "shock": 6.5,
+  "fragility": 5.5,
+  "wedge": 4,
+  "uncrowded": 4,
+  "overall": 3.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "EPA rebate cancellation and Teamsters wage reset create stress, but buyers are slow districts and Zum, HopSkipDrive, BusPatrol funded.",
+   "growth": "Subsidy cancellation and wage contract squeeze contractors, but First Student scale, Zum, HopSkipDrive, BusPatrol funded; duplicate of P140."
+  }
+ },
+ {
+  "pool_id": "P135",
+  "slice": "work_learning",
+  "name": "US farm employers' H-2A guest-worker wage bill and the recruiter / farm-labor-contractor / compliance layer around it",
+  "usd_b": 6.9,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 4.5,
+  "shock": 6.5,
+  "fragility": 6,
+  "wedge": 5,
+  "uncrowded": 4.5,
+  "overall": 3.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Court ruling puts backpay exposure on FLCs, a real working-capital and modeling gap; Seso funded and unsettled wage method.",
+   "growth": "Small $6.9B wage bill, fee layer ~$700M; Seso funded; wage rate in legal limbo; third H-2A pool."
+  }
+ },
+ {
+  "pool_id": "P025",
+  "slice": "consumer",
+  "name": "US families' spend on paid child care (centers and family child care)",
+  "usd_b": 68.5,
+  "crowd": "contested",
+  "hidden": false,
+  "size": 6.5,
+  "shock": 5.5,
+  "fragility": 5,
+  "wedge": 4.5,
+  "uncrowded": 4.5,
+  "overall": 3.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "45F credit is a clever budget line, but intermediary treatment is unverified and Kinside, Brightwheel are funded.",
+   "growth": "Large revenue but razor-thin provider margins and modest tax-credit shock; Brightwheel, Kinside, Upwards crowd software."
+  }
+ },
+ {
+  "pool_id": "P080",
+  "slice": "industrial",
+  "name": "DoD munitions and shipbuilding production-ramp dollars flowing to sub-tier suppliers",
+  "usd_b": 10,
+  "crowd": "crowded",
+  "hidden": false,
+  "size": 5.5,
+  "shock": 7,
+  "fragility": 6,
+  "wedge": 4.5,
+  "uncrowded": 3,
+  "overall": 3.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Prime-funded ramp is real; support layers (first-article, special-process brokerage) open, but Hadrian, Anduril crowd hardware and sales cycles are long.",
+   "growth": "Money flowing, but Hadrian, Anduril-type capacity startups crowd; only the support layer is open and it is small."
+  }
+ },
+ {
+  "pool_id": "P081",
+  "slice": "industrial",
+  "name": "US industrial plant maintenance, repair and millwright labor and outsourced machinery repair",
+  "usd_b": 54.6,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 7.5,
+  "shock": 4,
+  "fragility": 5,
+  "wedge": 4,
+  "uncrowded": 5.5,
+  "overall": 3.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Technician scarcity is slow-moving, margins are labor-service thin, and scaling labor is the hard part.",
+   "growth": "Outsourced size is group-level and secondary; shock is slow BLS projection; labor-as-a-service margins weak; Augury and Tractian own sensing."
+  }
+ },
+ {
+  "pool_id": "P041",
+  "slice": "finance",
+  "name": "US mortgage servicers' operating cost (call centers, escrow, collections, loss mitigation, foreclosure, systems)",
+  "usd_b": 13,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 5.5,
+  "shock": 6.5,
+  "fragility": 6,
+  "wedge": 4.5,
+  "uncrowded": 3,
+  "overall": 3.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "FHA/VA default-ops pain is real, but Valon at $2.3B with $200M ARR plus ICE and Sagent hold the platform.",
+   "growth": "Valon at $2.3B already sells to the same servicers; ICE and Sagent entrenched; FHA/VA default-ops wedge narrow."
+  }
+ },
+ {
+  "pool_id": "P072",
+  "slice": "hidden_giants",
+  "name": "US growers' spend on H-2A guest-worker agricultural labor (wages, housing, transport, agent and contractor fees)",
+  "usd_b": 9,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 5,
+  "shock": 6,
+  "fragility": 5.5,
+  "wedge": 4.5,
+  "uncrowded": 4.5,
+  "overall": 3.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Wage rule in litigation and filings are manual, but Seso is funded and agents/FLCs hold relationships.",
+   "growth": "Wage-rule litigation helps compliance vendors, but Seso is funded and pool is small; overlaps P116 and P135."
+  }
+ },
+ {
+  "pool_id": "P111",
+  "slice": "public",
+  "name": "DoD depot maintenance and spare parts where OEMs hold the technical data (sole-source repair and parts)",
+  "usd_b": 40.6,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 6.5,
+  "shock": 5,
+  "fragility": 5.5,
+  "wedge": 4,
+  "uncrowded": 4.5,
+  "overall": 3.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Political fragility only; stalled House action and DoD procurement cycles; data-rights audit has real buyers but slow.",
+   "growth": "Moat is political and right-to-repair law stalled; Hadrian and others attack manufacturing; audit and data-rights tooling is small."
+  }
+ },
+ {
+  "pool_id": "P124",
+  "slice": "resources",
+  "name": "US purchases of metal scrap by mills, smelters and foundries (ferrous and copper)",
+  "usd_b": 29,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 7,
+  "shock": 5,
+  "fragility": 5,
+  "wedge": 4,
+  "uncrowded": 4.5,
+  "overall": 3.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Section 232 copper and a possible sales mandate shift flows; marketplace and sorting startups exist, thin software wedge.",
+   "growth": "Large scrap flow, domestic-sales mandate undefined; Sortera, AMP, ScrapAd present; marketplace take rates thin."
+  }
+ },
+ {
+  "pool_id": "P011",
+  "slice": "built",
+  "name": "US CRE borrowers' refinancing, extension and transaction costs on the loan maturity wall",
+  "usd_b": 9,
+  "crowd": "contested",
+  "hidden": false,
+  "size": 6,
+  "shock": 7,
+  "fragility": 3.5,
+  "wedge": 4,
+  "uncrowded": 4.5,
+  "overall": 3.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Maturity wall is real, but big brokers capture fees, the lender controls decisions, and private credit is abundant.",
+   "growth": "Big fresh shock, but brokers keep success fees, lender decides, private credit is abundant; software-only entrant lacks leverage."
+  }
+ },
+ {
+  "pool_id": "P034",
+  "slice": "energy",
+  "name": "US utility wildfire mitigation programs (undergrounding, covered conductor, sensing, inspection, PSPS), California-led",
+  "usd_b": 9,
+  "crowd": "contested",
+  "hidden": false,
+  "size": 5.5,
+  "shock": 6.5,
+  "fragility": 5.5,
+  "wedge": 4.5,
+  "uncrowded": 3,
+  "overall": 3.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "SB 254 demands a cost-per-avoided-ignition metric nobody owns, but sensing is crowded and analytics software caps near $90M.",
+   "growth": "Cost-per-avoided-ignition mandate is new, but analytics ~1% of $9B; detection layer crowded with Pano, Gridware, Overstory."
+  }
+ },
+ {
+  "pool_id": "P053",
+  "slice": "global_south",
+  "name": "Mexico: freight, customs-brokerage and trade-compliance spend on US-Mexico truck trade",
+  "usd_b": 20,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 5.5,
+  "shock": 6,
+  "fragility": 4.5,
+  "wedge": 4.5,
+  "uncrowded": 4.5,
+  "overall": 3.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Broker patente is a legal moat and Nuvocargo and 3PLs hold volume; size is assumption-driven.",
+   "growth": "Assumption-heavy size; broker patente is a legal moat; Nuvocargo, Flexport, big 3PLs present; USMCA review unresolved."
+  }
+ },
+ {
+  "pool_id": "P054",
+  "slice": "global_south",
+  "name": "Nigeria: household and business spend on petrol and diesel for self-generation (generators)",
+  "usd_b": 12,
+  "crowd": "contested",
+  "hidden": false,
+  "size": 5.5,
+  "shock": 5.5,
+  "fragility": 6,
+  "wedge": 5,
+  "uncrowded": 3,
+  "overall": 3.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Diesel-to-solar switch is real but Arnergy, Starsight, Sun King compete; naira risk and capex-heavy leasing.",
+   "growth": "Press-quoted size; naira asset-finance is the binding limit; Arnergy, Starsight, Sun King already financing."
+  }
+ },
+ {
+  "pool_id": "P119",
+  "slice": "resources",
+  "name": "US electric utilities' spend on vegetation management (line clearance)",
+  "usd_b": 7.5,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 4.5,
+  "shock": 5,
+  "fragility": 5.5,
+  "wedge": 5,
+  "uncrowded": 5,
+  "overall": 3.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Same veg-management pool; Jan-2025 fire shock is aging and Overstory, Pano funded.",
+   "growth": "Duplicate of P033; same Overstory, Pano, Gridware competition and crew-hour conflict; Davey's utility decline shows demand uneven."
+  }
+ },
+ {
+  "pool_id": "P002",
+  "slice": "aging_rich",
+  "name": "England adult social care: council purchases from independent home-care and care-home providers",
+  "usd_b": 38,
+  "crowd": "crowded",
+  "hidden": false,
+  "size": 6,
+  "shock": 6.5,
+  "fragility": 5,
+  "wedge": 4,
+  "uncrowded": 3,
+  "overall": 3.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Visa closure is real, but councils are monopsony payers and Cera, Birdie, Florence are funded. UK domestic-recruitment wedge is weak.",
+   "growth": "Visa closure is real, but council monopsony, thin margins, UK-only; Cera, Birdie, Florence already funded."
+  }
+ },
+ {
+  "pool_id": "P051",
+  "slice": "global_south",
+  "name": "Brazil: annual tax-compliance spend of companies (accountants, ERP/fiscal software, consultants, in-house teams) during the rebuild around the dual VAT (CBS/IBS)",
+  "usd_b": 9,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 5.5,
+  "shock": 7,
+  "fragility": 3.5,
+  "wedge": 4.5,
+  "uncrowded": 3.5,
+  "overall": 3.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Forced spend is real, but ERP vendors will ship updates and sources are soft; contingency credit recovery is established.",
+   "growth": "Soft size; ERP vendors will bundle updates; forced reform but Avalara, Sovos, TOTVS, Spedy already serve."
+  }
+ },
+ {
+  "pool_id": "P140",
+  "slice": "work_learning",
+  "name": "K-12 student transportation (district fleets, contractors, special-ed and choice-student rides)",
+  "usd_b": 30,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 6.5,
+  "shock": 5.5,
+  "fragility": 5,
+  "wedge": 4,
+  "uncrowded": 3,
+  "overall": 3.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Driver shortage and diesel stress are real, but Zum is funded at $1.7B and districts buy slowly.",
+   "growth": "Duplicate of P071; Zum at $1.7B, HopSkipDrive, EverDriven, Via funded; driver shortage helps incumbents."
+  }
+ },
+ {
+  "pool_id": "P098",
+  "slice": "logistics",
+  "name": "US importers' spend on customs brokerage and trade-compliance services",
+  "usd_b": 5.5,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 3.5,
+  "shock": 6.5,
+  "fragility": 5,
+  "wedge": 4.5,
+  "uncrowded": 4,
+  "overall": 3.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Pool sits at the $5B floor; buy-a-licensed-broker roll-up plus automation is credible, but license and Flexport, Zonos competition limit it.",
+   "growth": "Pool at $5.5B floor with weak sources; licensed-broker shell roll-up only path; Flexport, Zonos, seed AI entrants present."
+  }
+ },
+ {
+  "pool_id": "P008",
+  "slice": "aging_rich",
+  "name": "Japan home-visit long-term care insurance payments to home-help agencies",
+  "usd_b": 8.1,
+  "crowd": "open",
+  "hidden": true,
+  "size": 4,
+  "shock": 6.5,
+  "fragility": 6.5,
+  "wedge": 3,
+  "uncrowded": 7.5,
+  "overall": 3,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Record bankruptcies, but micro-agency roll-up needs Japanese operators and capital; software ARPU is tiny.",
+   "growth": "Real bankruptcy wave but $8B pool; micro-agency roll-up needs Japanese operators; per-visit reimbursement caps margins."
+  }
+ },
+ {
+  "pool_id": "P141",
+  "slice": "work_learning",
+  "name": "Trucking driver slots being re-sourced after the non-domiciled CDL and English-proficiency crackdown (recruiting, training, onboarding, compliance)",
+  "usd_b": 11.4,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 4,
+  "shock": 7,
+  "fragility": 5.5,
+  "wedge": 4.5,
+  "uncrowded": 4,
+  "overall": 3,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Rules are fresh but annual flow is ~$2B and driver-qualification software (Tenstreet, others) is established.",
+   "growth": "Annual flow nearer $2.3B and vendor layer smaller; Tenstreet and recruiters present; one-time re-sourcing."
+  }
+ },
+ {
+  "pool_id": "P005",
+  "slice": "aging_rich",
+  "name": "German live-in elder care (24-Stunden-Betreuung): household spend on Eastern European live-in carers via agencies",
+  "usd_b": 5.8,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 3.5,
+  "shock": 5.5,
+  "fragility": 6,
+  "wedge": 4.5,
+  "uncrowded": 5,
+  "overall": 3,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Draft law may force compliant employment, but size is low-confidence and marta is funded. Compliance infrastructure is plausible but small.",
+   "growth": "Wide-range low-confidence size; compliant model raises costs agencies cannot pass on; draft law unverified; marta funded."
+  }
+ },
+ {
+  "pool_id": "P090",
+  "slice": "insurance",
+  "name": "US workers' compensation system cost (medical, indemnity, claims administration, cost containment)",
+  "usd_b": 64.1,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 7.5,
+  "shock": 3.5,
+  "fragility": 4,
+  "wedge": 4.5,
+  "uncrowded": 5,
+  "overall": 3,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Fragmented 50-state system and soft profitability, but audit-recovery boutiques exist and shock is weak.",
+   "growth": "Boring, fragmented, mild shock; 50 fee schedules; contingency audit niche small; anti-kickback rules."
+  }
+ },
+ {
+  "pool_id": "P014",
+  "slice": "built",
+  "name": "US third-party property management fees and rent-pricing software",
+  "usd_b": 105,
+  "crowd": "crowded",
+  "hidden": false,
+  "size": 7,
+  "shock": 6,
+  "fragility": 5,
+  "wedge": 4,
+  "uncrowded": 2,
+  "overall": 3,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "RealPage constraint is real, but EliseAI at $4B and the generic AI-leasing trap crowd it.",
+   "growth": "RealPage decree is real, but EliseAI at $4B, Yardi, AppFolio, Entrata dominate; reachable software slice far below $105B."
+  }
+ },
+ {
+  "pool_id": "P127",
+  "slice": "services",
+  "name": "US employers' commissions and fees paid to benefits brokers and consultants for group health plans",
+  "usd_b": 40,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 7,
+  "shock": 4,
+  "fragility": 5.5,
+  "wedge": 4.5,
+  "uncrowded": 3,
+  "overall": 3,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "ICHRA is small versus 150M covered lives; Corridor, Gyde, Nayya funded; commission model entrenched.",
+   "growth": "Conflicted commission model, but ICHRA shift is slow; Gyde, Corridor, Harper, Nayya funded; thousands of roll-up targets."
+  }
+ },
+ {
+  "pool_id": "P056",
+  "slice": "global_south",
+  "name": "India: health-insurance claims that insurers pay to hospitals and patients",
+  "usd_b": 10.5,
+  "crowd": "contested",
+  "hidden": false,
+  "size": 4,
+  "shock": 5.5,
+  "fragility": 5.5,
+  "wedge": 4,
+  "uncrowded": 4.5,
+  "overall": 3,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Hospital-insurer disputes are public, but bottom-up recoverable pool is thin (~$3B) and NHCX may commoditize plumbing.",
+   "growth": "Thin bottom-up (~$90M at full recovery), NHCX could commoditize plumbing, Medi Assist and Plum present."
+  }
+ },
+ {
+  "pool_id": "P100",
+  "slice": "logistics",
+  "name": "US truckload freight brokerage gross profit (shippers to brokers to carriers)",
+  "usd_b": 20,
+  "crowd": "crowded",
+  "hidden": false,
+  "size": 6.5,
+  "shock": 7,
+  "fragility": 4.5,
+  "wedge": 4,
+  "uncrowded": 1.5,
+  "overall": 3,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Margin squeeze is real, but Uber Freight, Loadsmart, Highway, Loop funded; small-broker working capital is a credit business.",
+   "growth": "Margin squeeze real, but Uber Freight, Loadsmart, Highway, Loop crowd; Convoy collapse history; only a credit layer remains."
+  }
+ },
+ {
+  "pool_id": "P028",
+  "slice": "consumer",
+  "name": "US pet owners' spend on veterinary care",
+  "usd_b": 41,
+  "crowd": "crowded",
+  "hidden": false,
+  "size": 6.5,
+  "shock": 5,
+  "fragility": 5,
+  "wedge": 3.5,
+  "uncrowded": 3,
+  "overall": 3,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "UK CMA shock is foreign; Chewy and PE own the clinics. Buying-group wedge for independents is small.",
+   "growth": "CMA shock is UK; US vet PE groups hold margin and Chewy just bought Modern Animal; crowded, no US forcing event."
+  }
+ },
+ {
+  "pool_id": "P037",
+  "slice": "energy",
+  "name": "US oil and gas operators' produced-water gathering, disposal, recycling and treatment",
+  "usd_b": 12,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 5.5,
+  "shock": 5.5,
+  "fragility": 4,
+  "wedge": 3,
+  "uncrowded": 5,
+  "overall": 3,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Acreage-dedicated pipes and wells; physical and regulatory constraints, software layer thin, well-funded midstream incumbents.",
+   "growth": "Real permit and capacity squeeze, but pipes and wells are capital-heavy; software layer likely under $100M; Aris, WaterBridge entrenched."
+  }
+ },
+ {
+  "pool_id": "P043",
+  "slice": "finance",
+  "name": "Creditors' contingency fees to US third-party debt collection agencies (medical, card, student and other defaulted debt)",
+  "usd_b": 15,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 5.5,
+  "shock": 5,
+  "fragility": 5,
+  "wedge": 4,
+  "uncrowded": 3.5,
+  "overall": 3,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "State medical-debt rules fragment the market; TrueAccord, Symend funded; CFPB backstop gone, agencies have compliance staff.",
+   "growth": "Medical-debt reporting erosion is a state patchwork; TrueAccord, Symend, Collectly exist; scale agencies hold compliance and creditors."
+  }
+ },
+ {
+  "pool_id": "P046",
+  "slice": "finance",
+  "name": "Merchant and issuer cost of card disputes and chargebacks (Visa VAMP monitoring)",
+  "usd_b": 33.8,
+  "crowd": "contested",
+  "hidden": false,
+  "size": 4.5,
+  "shock": 6,
+  "fragility": 5,
+  "wedge": 4.5,
+  "uncrowded": 3,
+  "overall": 3,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "VAMP thresholds force action, but Chargeflow, Justt, Chargebacks911 funded; sizing low-confidence and rule dates conflict.",
+   "growth": "Low-confidence size is value reversed, not fees; Chargeflow, Justt, Chargebacks911 present; VAMP rules keep shifting."
+  }
+ },
+ {
+  "pool_id": "P073",
+  "slice": "hidden_giants",
+  "name": "US households' and businesses' spend on structural pest control services",
+  "usd_b": 12.7,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 5.5,
+  "shock": 5,
+  "fragility": 4.5,
+  "wedge": 4,
+  "uncrowded": 4,
+  "overall": 3,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Rentokil stumble helps, but PE platforms, route software and Pest Share fill the space; warranty underwriting needs balance sheet.",
+   "growth": "Rentokil wobble is mild; PE platforms and FieldRoutes entrenched; 17,000 small firms sell via roll-up, not startup."
+  }
+ },
+ {
+  "pool_id": "P139",
+  "slice": "work_learning",
+  "name": "K-12 special-education related services (speech, OT, PT, psychology, nursing), contract staffing and school-based Medicaid",
+  "usd_b": 12,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 5.5,
+  "shock": 4.5,
+  "fragility": 5,
+  "wedge": 4,
+  "uncrowded": 4,
+  "overall": 3,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Procurement across 13,000 districts, entrenched billing intermediaries, funded Parallel and PresenceLearning.",
+   "growth": "Soft size assumption, procurement across 13,000 districts, Parallel Learning and PresenceLearning funded; Medicaid claiming angle unproven."
+  }
+ },
+ {
+  "pool_id": "P065",
+  "slice": "health",
+  "name": "Hospital and post-acute claim denials, including Medicare Advantage prior-authorization denials",
+  "usd_b": 19.7,
+  "crowd": "crowded",
+  "hidden": false,
+  "size": 6.5,
+  "shock": 5.5,
+  "fragility": 4.5,
+  "wedge": 4.5,
+  "uncrowded": 1.5,
+  "overall": 3,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "95% overturn rates favor contingency appeals, but Basalt, ExaCare, Willow, Candid, Waystar and R1 are already funded.",
+   "growth": "Denials heavily funded (Candid, R1, Waystar and nine more); 95% overturn rate is attractive but crowded."
+  }
+ },
+ {
+  "pool_id": "P088",
+  "slice": "insurance",
+  "name": "Insurers' spend on property-catastrophe reinsurance and insurance-linked securities (cat bonds, collateralized re), now repricing down 12-25%",
+  "usd_b": 15,
+  "crowd": "contested",
+  "hidden": false,
+  "size": 4.5,
+  "shock": 4.5,
+  "fragility": 3.5,
+  "wedge": 4.5,
+  "uncrowded": 5.5,
+  "overall": 3,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Soft market shrinks brokerage; small-ticket cat shelf is a real gap but needs rated capacity and reinsurer relationships.",
+   "growth": "Soft-market repricing shrinks brokerage dollars; balance sheets not fragile; software to cedents only; weak size basis."
+  }
+ },
+ {
+  "pool_id": "P131",
+  "slice": "services",
+  "name": "US households' and small businesses' fees for tax preparation and accounting (paid preparers and CPA/EA firms)",
+  "usd_b": 67,
+  "crowd": "crowded",
+  "hidden": false,
+  "size": 8,
+  "shock": 4.5,
+  "fragility": 4,
+  "wedge": 4,
+  "uncrowded": 2,
+  "overall": 3,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "PE and Basis, Rillet, Accrual crowd software; buying retiring books is what PE already does.",
+   "growth": "Large Census pool, but software crowded (Basis, Rillet, Accrual, Juno) and PE buys the same practices; shock mild."
+  }
+ },
+ {
+  "pool_id": "P027",
+  "slice": "consumer",
+  "name": "US estate settlement (post-death administration) fees paid by estates and heirs",
+  "usd_b": 15,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 4.5,
+  "shock": 4,
+  "fragility": 5.5,
+  "wedge": 4.5,
+  "uncrowded": 3.5,
+  "overall": 3,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Wealth-transfer is a slow tailwind, not a shock; Alix has Schwab backing and UPL rules constrain executor products.",
+   "growth": "Soft size; Alix, Empathy, EverSettled hold wealth-manager channels; custodian-paid intake is real but pool is $12-25B at best."
+  }
+ },
+ {
+  "pool_id": "P026",
+  "slice": "consumer",
+  "name": "US private-pay in-home care for older adults (non-medical aides, companions, live-in)",
+  "usd_b": 50,
+  "crowd": "crowded",
+  "hidden": false,
+  "size": 6,
+  "shock": 5,
+  "fragility": 5,
+  "wedge": 3.5,
+  "uncrowded": 2,
+  "overall": 3,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Crowded with Papa, Honor and franchises; labor shortage cannot be fixed by software. Low-confidence sizing.",
+   "growth": "Low-confidence size mixing scopes, labor-bound unit economics, Papa and Hera funded; household-employer payroll the only clear wedge."
+  }
+ },
+ {
+  "pool_id": "P024",
+  "slice": "consumer",
+  "name": "US title insurance premiums (plus the attached settlement-fee stack)",
+  "usd_b": 18.5,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 5.5,
+  "shock": 3.5,
+  "fragility": 4.5,
+  "wedge": 3,
+  "uncrowded": 4,
+  "overall": 3,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Waiver pilot is small (refis under 10% of title revenue) and reversible; ALTA lobbying strong. Needs underwriter partner.",
+   "growth": "Refinance-only pilot is small and reversible; oligopoly lobbying proven; duplicate title pool with rising premiums."
+  }
+ },
+ {
+  "pool_id": "P112",
+  "slice": "public",
+  "name": "German federal spend on Bundeswehr infrastructure, barracks and housing (construction and renovation)",
+  "usd_b": 6,
+  "crowd": "open",
+  "hidden": true,
+  "size": 4,
+  "shock": 7,
+  "fragility": 5.5,
+  "wedge": 3,
+  "uncrowded": 7.5,
+  "overall": 2.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Public capacity is the bottleneck, but clearances, German procurement law and language block a small team.",
+   "growth": "German procurement law, clearances and language bar a newcomer; $6B derived; execution capacity is the bottleneck."
+  }
+ },
+ {
+  "pool_id": "P001",
+  "slice": "aging_rich",
+  "name": "NY CDPAP: New York Medicaid consumer-directed home care paid through a single fiscal intermediary",
+  "usd_b": 9,
+  "crowd": "contested",
+  "hidden": false,
+  "size": 4.5,
+  "shock": 6,
+  "fragility": 4.5,
+  "wedge": 3,
+  "uncrowded": 6.5,
+  "overall": 2.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Single-state, statute-closed FI layer; PPL entrenched. Only multi-state FMS reaches $100M, via slow state procurement.",
+   "growth": "Single statutory fiscal intermediary closes the layer; $100M needs ~45 other states; shock now 18 months old."
+  }
+ },
+ {
+  "pool_id": "P115",
+  "slice": "resources",
+  "name": "US farmers' annual purchases of fertilizer, lime and soil conditioners",
+  "usd_b": 37,
+  "crowd": "contested",
+  "hidden": false,
+  "size": 7,
+  "shock": 6,
+  "fragility": 3.5,
+  "wedge": 3.5,
+  "uncrowded": 4.5,
+  "overall": 2.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Price spike and DOJ probe are cyclical; FBN Direct restructured; buying-group wedge is thin.",
+   "growth": "Concentrated producers, political and legal probes, not a technology opening; buying-group wedge thin; FBN restructuring reported."
+  }
+ },
+ {
+  "pool_id": "P128",
+  "slice": "services",
+  "name": "Enterprises' spend on outsourced customer-service BPO (Concentrix, TP and peers; Philippines, India, nearshore)",
+  "usd_b": 60,
+  "crowd": "crowded",
+  "hidden": false,
+  "size": 7.5,
+  "shock": 7,
+  "fragility": 5.5,
+  "wedge": 3,
+  "uncrowded": 1.5,
+  "overall": 2.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Concentrix and TP guidance cuts are real, but Sierra, Decagon, Parloa fund the AI side; taking BPO P&L is capital-heavy.",
+   "growth": "Per-seat BPO deflation is real, but Sierra, Decagon, Parloa hold billions; generic AI support is a round-1 cliche."
+  }
+ },
+ {
+  "pool_id": "P109",
+  "slice": "public",
+  "name": "FEMA disaster dollars to state/local governments and the recovery-administration layer (Public Assistance reimbursements, grant management)",
+  "usd_b": 26.4,
+  "crowd": "open",
+  "hidden": true,
+  "size": 4,
+  "shock": 5,
+  "fragility": 4.5,
+  "wedge": 3.5,
+  "uncrowded": 7,
+  "overall": 2.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Nonbinding council report, uncertain policy; consultants entrenched; small vendor-capturable slice.",
+   "growth": "Vendor-capturable layer likely a few percent of aid; policy changes nonbinding; free FEMA portal substitute."
+  }
+ },
+ {
+  "pool_id": "P110",
+  "slice": "public",
+  "name": "US drinking-water utilities' pipe replacement and rehabilitation, including lead service lines",
+  "usd_b": 21,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 5.5,
+  "shock": 5,
+  "fragility": 5,
+  "wedge": 3.5,
+  "uncrowded": 5,
+  "overall": 2.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Need not spend; EPA shrank the lead-line count; fragmented small-system buyers.",
+   "growth": "Figure is need not spend, lead-line count cut roughly in half, slow municipal buyers."
+  }
+ },
+ {
+  "pool_id": "P122",
+  "slice": "resources",
+  "name": "US community water systems' mandated lead service line replacement and PFAS treatment capex",
+  "usd_b": 9,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 5.5,
+  "shock": 4,
+  "fragility": 4.5,
+  "wedge": 4,
+  "uncrowded": 5.5,
+  "overall": 2.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "PFAS and LCRI deadlines are slipping and litigated; dispute over EPA vs AWWA cost basis.",
+   "growth": "Disputed size, deadlines slipping under litigation; demand-timing risk; BlueConduit tiny; slow municipal buyers."
+  }
+ },
+ {
+  "pool_id": "P133",
+  "slice": "services",
+  "name": "Global buyer spend on translation, localization and interpreting delivered by language service providers",
+  "usd_b": 72.6,
+  "crowd": "contested",
+  "hidden": false,
+  "size": 6.5,
+  "shock": 4.5,
+  "fragility": 5,
+  "wedge": 3.5,
+  "uncrowded": 4,
+  "overall": 2.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Under 1% growth and per-word compression; healthcare interpreter dispatch faces LanguageLine and AI interpreters.",
+   "growth": "Pool flat and pushed down by AI and federal cuts; interpreter dispatch niche small."
+  }
+ },
+ {
+  "pool_id": "P143",
+  "slice": "work_learning",
+  "name": "School food service: federal child-nutrition programs (NSLP, breakfast, CACFP, summer) and the district / contractor kitchens that spend them",
+  "usd_b": 28.2,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 6,
+  "shock": 3.5,
+  "fragility": 5,
+  "wedge": 4,
+  "uncrowded": 5,
+  "overall": 2.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "California rules phase in from 2028+; 13,000 small buyers, PE (Cenavera) active, weak near-term shock.",
+   "growth": "Operative dates 2029+, thousands of small buyers, Sodexo, Compass, Aramark dominate; slow shock."
+  }
+ },
+ {
+  "pool_id": "P097",
+  "slice": "logistics",
+  "name": "US importers' IEEPA tariff refunds and pass-through recovery (one-time stock, mostly already certified)",
+  "usd_b": 166,
+  "crowd": "contested",
+  "hidden": false,
+  "size": 4.5,
+  "shock": 6.5,
+  "fragility": 3.5,
+  "wedge": 4,
+  "uncrowded": 4,
+  "overall": 2.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Window closing: 76% of refunds already certified; pass-through reconciliation is a real leftover but one-time and legally messy.",
+   "growth": "One-time stock, 76% already certified; contingency filing commoditizing; not a franchise."
+  }
+ },
+ {
+  "pool_id": "P132",
+  "slice": "services",
+  "name": "US financial institutions' spend on BSA/AML/KYC compliance operations (alert triage, investigations, SAR filing, onboarding diligence)",
+  "usd_b": 59,
+  "crowd": "crowded",
+  "hidden": false,
+  "size": 7,
+  "shock": 5.5,
+  "fragility": 4.5,
+  "wedge": 4,
+  "uncrowded": 1.5,
+  "overall": 2.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "BSA-officer outsourcing for community banks is sensible, but Bretton, Norm and others crowd the compliance layer.",
+   "growth": "Duplicate of P044; shock may shrink the pool; Bretton, Norm Ai, Sardine, Seon crowd."
+  }
+ },
+ {
+  "pool_id": "P044",
+  "slice": "finance",
+  "name": "US and Canadian financial institutions' financial-crime compliance operations (AML, KYC, sanctions screening, fraud)",
+  "usd_b": 61,
+  "crowd": "crowded",
+  "hidden": false,
+  "size": 7,
+  "shock": 5.5,
+  "fragility": 4.5,
+  "wedge": 3.5,
+  "uncrowded": 1.5,
+  "overall": 2.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Effectiveness-based AML helps independent testing, but dozens of funded AML startups and entrenched vendors crowd the pool.",
+   "growth": "Vendor-commissioned survey size; FinCEN change shifts allocation not volume; eight-plus funded AML startups; round-2 cliche territory."
+  }
+ },
+ {
+  "pool_id": "P074",
+  "slice": "hidden_giants",
+  "name": "US fines, court fees and automated-enforcement citations (the citation lifecycle)",
+  "usd_b": 17.8,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 3.5,
+  "shock": 5,
+  "fragility": 4,
+  "wedge": 3,
+  "uncrowded": 6.5,
+  "overall": 2.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Vendor-captured pool is only $2-4B, politically toxic, five-year municipal contracts.",
+   "growth": "Monetizable pool $2-4B by own admission; political backlash and slow municipal procurement; Verra and Conduent entrenched."
+  }
+ },
+ {
+  "pool_id": "P092",
+  "slice": "insurance",
+  "name": "US annuity and life insurance distribution compensation (agent commissions and IMO/FMO overrides)",
+  "usd_b": 15,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 5.5,
+  "shock": 3.5,
+  "fragility": 4,
+  "wedge": 4,
+  "uncrowded": 5,
+  "overall": 2.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Mature distribution tech; no acute shock; compliance workflow budget exists but it's incremental.",
+   "growth": "Commission size is assumption-derived, no discrete shock; DPL, Annuity.com, Ethos funded; back-office wedge thin."
+  }
+ },
+ {
+  "pool_id": "P064",
+  "slice": "health",
+  "name": "Medicare Advantage risk-adjustment (coding-intensity) payments",
+  "usd_b": 22,
+  "crowd": "crowded",
+  "hidden": false,
+  "size": 5.5,
+  "shock": 6,
+  "fragility": 5,
+  "wedge": 3,
+  "uncrowded": 2,
+  "overall": 2.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Retrospective chart review being excluded hurts incumbents, but Optum, Cotiviti, Episource and funded startups dominate.",
+   "growth": "Chart-review business being excluded from payment; Optum, Cotiviti, Episource entrenched; legal instability."
+  }
+ },
+ {
+  "pool_id": "P083",
+  "slice": "industrial",
+  "name": "North American manufacturers' spend on factory-automation and robot cells (robots plus integration)",
+  "usd_b": 9,
+  "crowd": "crowded",
+  "hidden": false,
+  "size": 5.5,
+  "shock": 4.5,
+  "fragility": 4.5,
+  "wedge": 4,
+  "uncrowded": 2.5,
+  "overall": 2.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Standard Bots, Vention, Path funded; integrator tools niche; tariff outcome uncertain.",
+   "growth": "Crowded: Standard Bots, Vention, Path, Bright Machines; integrators labor-bound but wedge is only back-office tooling."
+  }
+ },
+ {
+  "pool_id": "P048",
+  "slice": "finance",
+  "name": "US estate settlement fees (probate, trust administration, fiduciary tax) during the great wealth transfer",
+  "usd_b": 7,
+  "crowd": "contested",
+  "hidden": false,
+  "size": 3.5,
+  "shock": 4,
+  "fragility": 5,
+  "wedge": 4.5,
+  "uncrowded": 3,
+  "overall": 2.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Alix (Schwab-backed) and Empathy lock distribution; credit-union white-label is sensible but small.",
+   "growth": "Floor-quality size; Empathy ($162M) and Alix hold distribution; wealth transfer is slow-moving, not a discrete shock."
+  }
+ },
+ {
+  "pool_id": "P091",
+  "slice": "insurance",
+  "name": "US title insurance premiums (money mostly retained by title agents)",
+  "usd_b": 18.6,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 5.5,
+  "shock": 3.5,
+  "fragility": 4,
+  "wedge": 3,
+  "uncrowded": 4,
+  "overall": 2.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Premium is a toll on transactions with 4.4% loss ratio so price is exposed, but waiver pilot is small, reversible and needs an underwriter.",
+   "growth": "Duplicate title pool; shock small and reversible; agents keep the premium; Qualia, Doma, Westcor present."
+  }
+ },
+ {
+  "pool_id": "P029",
+  "slice": "consumer",
+  "name": "US individuals' tax-preparation fees (paid preparers; DIY software not in the sourced figure)",
+  "usd_b": 15,
+  "crowd": "contested",
+  "hidden": false,
+  "size": 4,
+  "shock": 4.5,
+  "fragility": 2.5,
+  "wedge": 4,
+  "uncrowded": 4.5,
+  "overall": 2.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Direct File's death is real but Intuit and H&R Block are strong; state white-label sales are slow government deals.",
+   "growth": "Direct File ending helped incumbents; H&R Block revenue rising; state white-label free filing sells to slow agencies."
+  }
+ },
+ {
+  "pool_id": "P047",
+  "slice": "finance",
+  "name": "US fees paid to outside tax preparers and small-business accountants (capacity squeeze plus PE and AI roll-ups)",
+  "usd_b": 14.5,
+  "crowd": "crowded",
+  "hidden": false,
+  "size": 5,
+  "shock": 4.5,
+  "fragility": 4.5,
+  "wedge": 3.5,
+  "uncrowded": 2,
+  "overall": 2.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "PE roll-ups and Basis, Rillet crowd it; practice-sale financing is a narrow brokerage-scale niche.",
+   "growth": "AI accountants and roll-ups (Basis, Rillet, Crete) heavily funded; labor shortage binds everyone; overlaps other tax pools."
+  }
+ },
+ {
+  "pool_id": "P113",
+  "slice": "public",
+  "name": "European munitions, propellant and energetics procurement financed by EU SAFE loans and national budgets",
+  "usd_b": 30,
+  "crowd": "contested",
+  "hidden": false,
+  "size": 5.5,
+  "shock": 7,
+  "fragility": 5,
+  "wedge": 2,
+  "uncrowded": 4,
+  "overall": 2,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Capital, permits and licenses make it impossible for a small team.",
+   "growth": "Capital-intensive, licensed explosives manufacturing over three to four years; software wedge tiny; interceptor startups funded."
+  }
+ },
+ {
+  "pool_id": "P057",
+  "slice": "global_south",
+  "name": "Saudi Arabia: construction contracts issued by the state and PIF to contractors, now collapsing (distress and working-capital pool)",
+  "usd_b": 30,
+  "crowd": "contested",
+  "hidden": false,
+  "size": 4,
+  "shock": 7,
+  "fragility": 5.5,
+  "wedge": 2.5,
+  "uncrowded": 4,
+  "overall": 2,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Collapsing contract flow means one-off claims work and distressed receivables; politically tied payer, credit risk, region-specific.",
+   "growth": "Shrinking pool, state-entity counterparties, PIF's Tawrid competes; one-off settlements, not recurring revenue."
+  }
+ },
+ {
+  "pool_id": "P099",
+  "slice": "logistics",
+  "name": "Low-value cross-border e-commerce parcels into the US and EU: duty, clearance and rerouted logistics",
+  "usd_b": 15,
+  "crowd": "contested",
+  "hidden": false,
+  "size": 3,
+  "shock": 7,
+  "fragility": 5.5,
+  "wedge": 3.5,
+  "uncrowded": 4,
+  "overall": 2,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Volumes fell ~70% and the fee per parcel is tiny; $100M implies heroic share.",
+   "growth": "Volumes down 70% after rules; fee layer ~$0.10 per EU parcel; Zonos, Global-e present; feeder to customs only."
+  }
+ },
+ {
+  "pool_id": "P138",
+  "slice": "work_learning",
+  "name": "International students' tuition and living spend at US colleges",
+  "usd_b": 42.9,
+  "crowd": "crowded",
+  "hidden": false,
+  "size": 6,
+  "shock": 6.5,
+  "fragility": 5.5,
+  "wedge": 3,
+  "uncrowded": 2,
+  "overall": 2,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Enrollment decline is real but demand falls on a crowded agent and pathway ecosystem.",
+   "growth": "Shock shrinks the pool; agents and pathway providers crowded; no wedge for a new entrant."
+  }
+ },
+ {
+  "pool_id": "P006",
+  "slice": "aging_rich",
+  "name": "Japan municipal water-supply pipe and facility renewal spend",
+  "usd_b": 12,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 5,
+  "shock": 4.5,
+  "fragility": 4,
+  "wedge": 2.5,
+  "uncrowded": 5.5,
+  "overall": 2,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Municipal procurement needs a Japanese partner, Fracta already present, and the sinkhole shock is fading.",
+   "growth": "Municipal procurement buyer, one-off sinkhole trigger, needs Japanese partner; Fracta, Hitachi, Marubeni already present."
+  }
+ },
+ {
+  "pool_id": "P045",
+  "slice": "finance",
+  "name": "Businesses' cross-border B2B payment fees and FX spread (stablecoin disruption after the GENIUS Act)",
+  "usd_b": 193,
+  "crowd": "crowded",
+  "hidden": false,
+  "size": 7.5,
+  "shock": 6.5,
+  "fragility": 3,
+  "wedge": 2.5,
+  "uncrowded": 1.5,
+  "overall": 2,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "GENIUS Act commoditizes rails while Mastercard, Stripe buy winners; remaining wedges need a lending balance sheet.",
+   "growth": "Huge pool, but stablecoin winners already bought or funded (BVNK, Bridge, Zerohash, Rain); rails commoditizing; wedges need lending balance sheet."
+  }
+ },
+ {
+  "pool_id": "P066",
+  "slice": "health",
+  "name": "GLP-1 obesity and diabetes drug spend",
+  "usd_b": 33,
+  "crowd": "crowded",
+  "hidden": false,
+  "size": 6.5,
+  "shock": 7,
+  "fragility": 3,
+  "wedge": 2,
+  "uncrowded": 2,
+  "overall": 2,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Manufacturers sell direct and bypass any intermediary; eMed and others funded.",
+   "growth": "Manufacturers selling direct bypass intermediaries; eMed at $2B valuation; weak wedge."
+  }
+ },
+ {
+  "pool_id": "P042",
+  "slice": "finance",
+  "name": "US title insurance premiums and settlement fees paid by home buyers and refinancers",
+  "usd_b": 18.5,
+  "crowd": "contested",
+  "hidden": true,
+  "size": 5.5,
+  "shock": 3,
+  "fragility": 3.5,
+  "wedge": 3,
+  "uncrowded": 4,
+  "overall": 2,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Self-described weak shock; same reversible refinance-only waiver pilot, ALTA lobbying, Qualia funded.",
+   "growth": "Weak shock, premiums rising, ALTA lobbying; Qualia entrenched; duplicate title pool."
+  }
+ },
+ {
+  "pool_id": "P019",
+  "slice": "built",
+  "name": "US title insurance premiums and settlement",
+  "usd_b": 16.2,
+  "crowd": "crowded",
+  "hidden": false,
+  "size": 6,
+  "shock": 3.5,
+  "fragility": 4,
+  "wedge": 2.5,
+  "uncrowded": 2.5,
+  "overall": 2,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Refi-only waiver pilot is reversible, ALTA already beat one pilot, and Qualia is funded. Underwriter partner required.",
+   "growth": "Reversible pilot, ALTA already beat one waiver, agents keep premium; Qualia and Endpoint crowd; duplicate title pool."
+  }
+ },
+ {
+  "pool_id": "P130",
+  "slice": "services",
+  "name": "Corporate clients' fees to large US law firms for associate-leveraged work (diligence, drafting, document review, regulatory research)",
+  "usd_b": 70,
+  "crowd": "crowded",
+  "hidden": false,
+  "size": 7,
+  "shock": 3.5,
+  "fragility": 2.5,
+  "wedge": 3,
+  "uncrowded": 1,
+  "overall": 2,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Harvey, Legora, Crosby own the AI legal wave; latent fragility only.",
+   "growth": "Record profits mean no fragility; Harvey ($11B), Legora, Crosby, Eudia crowd; owning a law-firm P&L needs ABS rules."
+  }
+ },
+ {
+  "pool_id": "P086",
+  "slice": "industrial",
+  "name": "US-owned and foreign OEM contract manufacturing in Mexico (IMMEX / maquila) under the USMCA review",
+  "usd_b": 300,
+  "crowd": "open",
+  "hidden": false,
+  "size": 3,
+  "shock": 5.5,
+  "fragility": 4,
+  "wedge": 2.5,
+  "uncrowded": 6.5,
+  "overall": 1.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Pool is export value not a fee pool; payer and budget line weakest of its slice.",
+   "growth": "Export value, not a fee pool; weakest payer and budget line; the research itself ranks it least promising."
+  }
+ },
+ {
+  "pool_id": "P105",
+  "slice": "logistics",
+  "name": "Amazon's payments to third-party last-mile delivery partners (DSPs and rural program)",
+  "usd_b": 15,
+  "crowd": "open",
+  "hidden": true,
+  "size": 4,
+  "shock": 5.5,
+  "fragility": 2,
+  "wedge": 2,
+  "uncrowded": 8,
+  "overall": 1.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Single dominant payer with captive services; source itself calls it likely dead.",
+   "growth": "Single dominant payer sets rules and supplies services; research itself calls it a wrong-payer dead end."
+  }
+ },
+ {
+  "pool_id": "P134",
+  "slice": "services",
+  "name": "AI labs' and enterprises' spend on expert human data and evaluation labor (contract professionals paid to train and grade models)",
+  "usd_b": 6.5,
+  "crowd": "crowded",
+  "hidden": false,
+  "size": 4.5,
+  "shock": 6.5,
+  "fragility": 3.5,
+  "wedge": 3,
+  "uncrowded": 1,
+  "overall": 1.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Mercor, Surge, Scale and Handshake own it; customer concentration and breach risk.",
+   "growth": "Mercor, Surge, Scale, Handshake hold billions; buyer concentration; crowded and late."
+  }
+ },
+ {
+  "pool_id": "P010",
+  "slice": "aging_rich",
+  "name": "US Main Street business sales: SBA 7(a) change-of-ownership financing and brokerage",
+  "usd_b": 8.5,
+  "crowd": "crowded",
+  "hidden": false,
+  "size": 2,
+  "shock": 6,
+  "fragility": 4,
+  "wedge": 3,
+  "uncrowded": 2.5,
+  "overall": 1.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Fee layer under $1B; Baton, Rowan, Iconic already funded. Real rule shock but small crowded pool.",
+   "growth": "Fee layer under $1B fails the pool's own $100M test; five funded startups already crowd it."
+  }
+ },
+ {
+  "pool_id": "P076",
+  "slice": "hidden_giants",
+  "name": "US spend on vending, micro-markets and office coffee (convenience services)",
+  "usd_b": 31.1,
+  "crowd": "crowded",
+  "hidden": false,
+  "size": 4,
+  "shock": 3,
+  "fragility": 3,
+  "wedge": 3,
+  "uncrowded": 2.5,
+  "overall": 1.5,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Weak shock; 365 Retail Markets consolidation leaves a thin independent-payments wedge.",
+   "growth": "Weak shock, consolidated by 365 Retail Markets; crowded with smart-fridge startups."
+  }
+ },
+ {
+  "pool_id": "P055",
+  "slice": "global_south",
+  "name": "Emerging markets: fees and FX margin migrants pay to send money home (US to Mexico; Gulf to South Asia, Philippines, Egypt)",
+  "usd_b": 30,
+  "crowd": "crowded",
+  "hidden": false,
+  "size": 6.5,
+  "shock": 3.5,
+  "fragility": 2,
+  "wedge": 2,
+  "uncrowded": 1,
+  "overall": 1,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Source itself says deprioritise: Remitly, Wise, Western Union dominate; shock is small.",
+   "growth": "Fee pool held by cash-agent incumbents being undercut by Remitly, Wise, LemFi; excise-tax shock tiny; research says deprioritize."
+  }
+ },
+ {
+  "pool_id": "P114",
+  "slice": "public",
+  "name": "Japan, South Korea and Taiwan defense equipment acquisition (drones, counter-UAS, air defense, munitions)",
+  "usd_b": 30,
+  "crowd": "crowded",
+  "hidden": false,
+  "size": 6,
+  "shock": 4,
+  "fragility": 1,
+  "wedge": 1,
+  "uncrowded": 2.5,
+  "overall": 1,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Protected local primes; source says no practical wedge.",
+   "growth": "Protected national champions, no practical wedge; research includes it for completeness only."
+  }
+ },
+ {
+  "pool_id": "P075",
+  "slice": "hidden_giants",
+  "name": "US donations to congregations and the payments, software and treasury stack around them",
+  "usd_b": 151.6,
+  "crowd": "crowded",
+  "hidden": false,
+  "size": 2.5,
+  "shock": 2,
+  "fragility": 2,
+  "wedge": 2.5,
+  "uncrowded": 1.5,
+  "overall": 1,
+  "n_judges": 2,
+  "notes": {
+   "insurgent": "Weak shock, platform consolidation, pool far smaller than headline flow.",
+   "growth": "Fee pool ~$2B, weak shock; Pushpay, Tithely, Subsplash, Gloo entrenched; crowded."
+  }
+ }
+]
