@@ -1,0 +1,1329 @@
+[
+ {
+  "miner": "ai_breakouts",
+  "name": "Outcome-priced replacement of a high-volume, measurable labor function",
+  "mechanism": "The vendor owns finishing the work (e.g., a resolved customer conversation) and is paid per completed outcome instead of per seat. Revenue scales with the customer's volume of work, and the budget line is operations labor or outsourced BPO rather than IT. Foundation Capital's implied target criteria: repetitive/rule-based, large existing spend, chronic understaffing, measurable outcome.",
+  "examples": [
+   {
+    "company": "Sierra (customer-service agents)",
+    "evidence": "Announced $100M ARR on 21 Nov 2025, ~21 months after founding [company-stated]; ~$200M reported by May 2026 (press; one June 2026 source says ~$150M); valued $10B (Sep 2025) then ~$15.8B (~79-100x ARR); customers include ADT, Bissell, Vans, Cigna, SiriusXM, SoFi; outcome-based pricing (~$1.50/resolution per secondary sources, not published by Sierra).",
+    "url": "https://techcrunch.com/2025/11/21/bret-taylors-sierra-reaches-100m-arr-in-under-two-years/"
+   },
+   {
+    "company": "Decagon",
+    "evidence": "Says it reached $100M annualized (unverified by outsiders); Sacra estimated only $35M in Oct 2025; $4.5B valuation Jan 2026; per-resolution pricing ~$1.50 (Sacra). Weak-to-moderate evidence.",
+    "url": "https://sacra.com/c/decagon/"
+   },
+   {
+    "company": "Zendesk / Intercom Fin (incumbent responses)",
+    "evidence": "Intercom Fin charges $0.99 per resolution plus seats; claimed resolution rates vary 42-67% by source; Zendesk launched outcome-based pricing in 2024 and let customers reallocate seat commitments to AI agents. Bessemer says Intercom launched a '$100M+ AI product' (no ARR given).",
+    "url": "https://www.zendesk.com/newsroom/articles/zendesk-outcome-based-pricing"
+   }
+  ],
+  "shift_that_enabled_it": "LLM agents became able to resolve tickets end to end (authenticate a patient, process a return, reissue a card), and a countable unit of finished work (a resolution) made per-outcome pricing possible. Budget moved from IT seat licences to operations/CX labor and BPO lines (Foundation Capital sizes outsourced business-process services at ~$303B by 2027 and IT services at $1.5T in 2024).",
+  "why_incumbents_failed": "Only partially failed. Zendesk and Intercom repriced and built agents. The structural problem is that per-resolution pricing cannibalizes seat revenue, so startups with no seat base won greenfield enterprise deals, including older non-tech companies that surprised even Sierra's founders.",
+  "still_open_or_crowded": "CX is crowded (Sierra, Decagon, Intercom, Zendesk, voice-agent vendors). The mechanism is open in other functions, but healthcare RCM/prior-auth shows incumbents buying rather than losing (R1 acquiring Humata Health Aug 2026; Waystar bought Digitize.AI).",
+  "transfer_targets": "Inference, not sourced: functions with a clear unit of finished work and large in-house or outsourced headcount, such as insurance claims intake/first notice of loss, prior-authorization and denial appeals, accounts-payable exception handling, collections, KYC/onboarding case handling, recruiting coordination. Each needs a named signer and a bottom-up path to $100M under the round-2 rules."
+ },
+ {
+  "miner": "ai_breakouts",
+  "name": "Developer-salary capture via bottom-up seats that expand into the enterprise",
+  "mechanism": "A product that visibly multiplies a scarce, expensive worker (software engineers, ~$1T/year global salaries per Foundation Capital). Individuals adopt on a credit card, employers buy seats once it is embedded, then agent/usage-based features raise spend per seat.",
+  "examples": [
+   {
+    "company": "Cursor (Anysphere)",
+    "evidence": "Annualized revenue ~$1B Nov 2025, ~$2B Feb 2026, ~$3B late Apr 2026, >$4B early Jun 2026 (press citing an anonymous source); ~75% (~$2.6B) enterprise, enterprise revenue reportedly tripled Q1 2026 over Q4 2025. Menlo puts the entire 2025 coding category at $4.0B, so one product's run rate equals last year's whole category.",
+    "url": "https://dealroom.co/news/134107-cursor-tops-4b-annualized-revenue/"
+   },
+   {
+    "company": "Lovable",
+    "evidence": "Reported ~$100M ARR mid-2025, ~$200M Nov 2025, ~$400M Feb 2026, tracking toward ~$600M by end Aug 2026 (secondary press); $13.3B valuation. Retention of vibe-coded apps is an open question.",
+    "url": "https://www.vktr.com/ai-platforms/lovable-raises-400-million-at-133-billion-valuation/"
+   },
+   {
+    "company": "Replit",
+    "evidence": "Sacra estimates $525M annualized in Apr 2026, up from ~$300M end-2025; $9B valuation March 2026. Estimate, not disclosed. Fast-follower Bolt.new hit ~$40M ARR in 5-6 months then lagged.",
+    "url": "https://sacra.com/research/replit-passes-500m-year/"
+   }
+  ],
+  "shift_that_enabled_it": "Models crossed the threshold where agents write and debug real code. Menlo (Dec 2025) credits startups' shipping speed, model-agnostic design, and product-led growth; coding grew from $550M (2024) to $4.0B (2025), 55% of departmental AI spend, and startups captured 71% of product/engineering application spend.",
+  "why_incumbents_failed": "I did not pull incumbent (GitHub/Microsoft) share data. Menlo's general explanation: startups adopted each new frontier model immediately and entered through individual users while incumbents sold top-down.",
+  "still_open_or_crowded": "Fully crowded: frontier labs ship their own coding agents (general knowledge), Bessemer notes Supernova gross margins around 25% and sometimes negative, and low-price tiers retain poorly. Do not plan a new company against it.",
+  "transfer_targets": "Inference: other scarce, expensive technical workforces working in a digital artifact an agent can edit and verify, such as chip/hardware design, mechanical/CAE engineering, bioinformatics and scientific computing, quantitative research, security engineering."
+ },
+ {
+  "miner": "ai_breakouts",
+  "name": "Seat price anchored to a professional's billable hour, with forward-deployed ex-professionals",
+  "mechanism": "Sell to organizations whose product is professional time (law firms, in-house legal). Price per seat as a small fraction of the hourly rate, require annual commitments and seat minimums, and staff customer success with former members of the profession. Seats double within the account as usage proves out.",
+  "examples": [
+   {
+    "company": "Harvey (legal)",
+    "evidence": "Sacra estimates ARR >$100M Aug 2025, ~$195M end-2025, ~$400M Aug 2026; valuation $15.5B after $550M round (Sep/Oct 2026, press); 142,000+ lawyers, 1,500+ customers, ~50% of the Am Law 100 (company); reported ~$1,200/lawyer/month, 12-month commitments, ~20-seat minimum (unattributed); ~10% of staff are ex-lawyers.",
+    "url": "https://sacra.com/c/harvey/"
+   },
+   {
+    "company": "Legora",
+    "evidence": "Reported 18 months to $100M ARR (secondary source); Bessemer teaser line says it 'doubled to $200M ARR in less than six months' (no detail; treat as unconfirmed); $5.6B valuation.",
+    "url": "https://bvp.com/atlas/building-vertical-ai-an-early-stage-playbook-for-founders"
+   },
+   {
+    "company": "EvenUp (personal-injury demand letters)",
+    "evidence": "$150M Series E at >$2B led by Bessemer (Oct 2025); 2,000+ firms incl. 20% of top-100 PI firms (company); discloses only 'doubling ARR yoy', no dollar ARR. Weak revenue evidence.",
+    "url": "https://www.bvp.com/news/tripling-down-on-evenup-to-redefine-justice-with-ai"
+   }
+  ],
+  "shift_that_enabled_it": "Language-heavy professional work became automatable at acceptable quality. Bessemer: traditional SaaS 'failed to solve high-value vertical-specific tasks' that were language-heavy or multimodal; vertical AI competes for labor budgets (business/professional services = 13% of US GDP, ~10x the software market).",
+  "why_incumbents_failed": "Legal-content incumbents sold databases and search. LexisNexis chose an alliance with Harvey rather than build a competing AI stack; Thomson Reuters runs CoCounsel; frontier labs (Anthropic's legal plugin) now threaten from below. Menlo: legal AI spend was $650M in 2025, of which Harvey alone was roughly 30% by end-2025 ARR.",
+  "still_open_or_crowded": "Legal is crowded and the leader holds a large share of the pool. The mechanism is open in other high-rate professions. Unresolved caveat: in hourly-billing firms, efficiency can cut the firm's own revenue, so the buyer needs a reason (fixed fees, competition, in-house demand).",
+  "transfer_targets": "Inference: accounting and audit, management consulting/research, regulatory and compliance consulting, patent prosecution, actuarial work, architecture/engineering permitting. Test whether the buyer is paid by the hour (headwind) or by fixed fee/in-house budget (tailwind)."
+ },
+ {
+  "miner": "ai_breakouts",
+  "name": "Ambient capture of conversations to eliminate documentation labor (the voice wedge)",
+  "mechanism": "Professionals spend large fractions of time documenting what they just said aloud. Record the conversation, produce the structured record the system of record needs, and sell to the organization on a measurable saving (clinician retention, billing capture, sales coaching). Bessemer calls the wedge 'often voice/audio' and cites Abridge as the safer 'tertiary workflow' entry.",
+  "examples": [
+   {
+    "company": "Abridge (clinical scribe)",
+    "evidence": "Sacra: ~$100M ARR May 2025 (from ~$60M end-2024), contracted ARR $117M Q1 2025; 250+ health systems; $5.3B valuation (Jun 2025); ~$2,500/clinician/year (Sacra estimate). Menlo: ambient scribes were a $600M line in 2025, so Abridge was ~17% of it.",
+    "url": "https://sacra.com/c/abridge/"
+   },
+   {
+    "company": "Rilla (in-home sales conversation recording for HVAC/plumbing/roofing)",
+    "evidence": "Sacra estimates ~$70M ARR Apr 2026 (up from ~$51M in 2025); Home Depot deal Jan 2026; ServiceTitan owns the technician workflow and is moving into the recording layer.",
+    "url": "https://sacra.com/c/rilla"
+   },
+   {
+    "company": "Epic / Microsoft DAX (incumbent bundling)",
+    "evidence": "Epic (~42% of acute-care EHR share) launched its own scribe in 2026 (sources conflict on whether it is built on Microsoft's technology); Microsoft DAX Copilot used by 600+ organizations; Ambience ~$30M ARR May 2025 (Sacra).",
+    "url": "https://medcitynews.com/2026/02/04/ambient-scribe-ai-startups-epic/"
+   }
+  ],
+  "shift_that_enabled_it": "Speech recognition plus LLM summarization reached clinical-grade reliability, and clinician burnout/retention gave health systems a budget line. Menlo shows healthcare as the largest vertical AI line at ~$1.5B in 2025.",
+  "why_incumbents_failed": "Microsoft/Nuance DAX existed first but the startups out-shipped on product and Epic integration; Epic is now the clearest case of the system-of-record owner bundling a good-enough version. Abridge's Epic integration both accelerated it and limits how far it can go against Epic.",
+  "still_open_or_crowded": "Clinical scribes are crowded (Abridge, Ambience, Nabla, DAX, Epic, Freed). The conversation-to-record mechanism is open in non-clinical fields where the system of record is weaker or fragmented. All ARR figures are third-party estimates.",
+  "transfer_targets": "Inference: insurance field adjusters and home inspectors, home-health and social-work case management, public-safety report writing, construction site logs, mortgage and wealth-advisory meetings. Screen each for who owns the record and how soon they could bundle."
+ },
+ {
+  "miner": "ai_breakouts",
+  "name": "Free tool for a profession, paid for by the vendors who want that profession's attention",
+  "mechanism": "Make a tool so useful that most of a profession uses it daily at no charge, then sell the moment of attention (the seconds while an answer generates) to suppliers whose marketing budget targets exactly that audience. Gross margin is very high because the user pays nothing.",
+  "examples": [
+   {
+    "company": "OpenEvidence (physician answer engine)",
+    "evidence": "Sacra estimates ~$7.9M annualized end-2024, ~$150M end-2025, ~$300M annualized Jul 2026; reported 90% gross margin; free to verified clinicians, funded by pharma/device ads; ~20M consultations a month Jan 2026 (from ~3M a year earlier); company claims >50% of US physicians use it daily; valuation $1B (Feb 2025) to $12B (Jan 2026) to ~$15B (Sep 2026).",
+    "url": "https://sacra.com/c/openevidence/"
+   },
+   {
+    "company": "Doximity and UpToDate (comparison incumbents)",
+    "evidence": "Doximity revenue $645M for FY ending Mar 2026 (+13%); Wolters Kluwer UpToDate ~ $690M in 2025 (+8%), per Sacra's OpenEvidence page. UpToDate sells subscriptions, so going free would cannibalize it.",
+    "url": "https://sacra.com/c/openevidence/"
+   },
+   {
+    "company": "Pool-size check (eMarketer)",
+    "evidence": "Healthcare/pharma B2B digital ad spend ~$2.11B in 2025 (up 10.7%), updated forecast ~$2.63B, plus ~$1.2B point-of-care marketing; OpenEvidence's ~$300M annualized is roughly 10-15% of the digital B2B pool, so this specific pool is filling.",
+    "url": "https://www.emarketer.com/content/physician-marketing-2025"
+   }
+  ],
+  "shift_that_enabled_it": "LLM answer engines beat keyword search for clinical questions and the generation wait created a premium ad slot; pharma is shifting physician outreach from sales reps to digital.",
+  "why_incumbents_failed": "Subscription incumbents (UpToDate, Elsevier, EBSCO) cannot give the product away without cannibalizing revenue; Doximity is ad-funded but a network rather than an answer engine; EHR vendors were slow to ship a good AI answer layer.",
+  "still_open_or_crowded": "Medicine is being attacked by OpenAI (ChatGPT for Clinicians, Apr 2026) and others, revenue is concentrated in one regulated buyer category (pharma), and the digital HCP ad pool is only ~$2-3B. Pattern only works where supplier marketing budgets aimed at a defined professional audience are large.",
+  "transfer_targets": "Inference, pool sizing NOT done: professions whose suppliers spend heavily to reach them, such as trades/contractors (building-product manufacturers), farmers and agronomists (ag-input firms), dentists and veterinarians (dental and animal-health suppliers), pharmacists, technicians. Medicine is unusually rich because pharma earns very high return per physician reached, so size the supplier-marketing pool before believing it transfers."
+ },
+ {
+  "miner": "ai_breakouts",
+  "name": "Selling scarce credentialed human expertise to a new concentrated buyer class (the AI labs)",
+  "mechanism": "Frontier labs became buyers of a new input: expert human judgment for post-training and evaluation. A marketplace that already controls a supply of credentialed people resells their time at a markup to a handful of buyers with multibillion-dollar budgets. Revenue is gross of contractor pay (60-70% of topline), so net is much smaller than headline.",
+  "examples": [
+   {
+    "company": "Mercor",
+    "evidence": ">$2B gross annualized in Jun 2026, double the start of 2026 and ~4 months after $1B (CEO confirmed to The Information); H1 2026 gross ~$614M, ~90% from AI model firms; net ~$0.6-0.8B; 30,000+ weekly active contractors, >$2M/day payouts; FCF positive; $10B valuation Oct 2025; analysts dispute gross framing.",
+    "url": "https://dealroom.co/news/137121-mercor-doubles-to-2b-gross-revenue-run-rate-as-ai-labs-buy-expert-data/"
+   },
+   {
+    "company": "Handshake (former campus job board)",
+    "evidence": "~$1B gross annualized Apr 2026 per The Information, up from $550M in Jan 2026 and $5-10M a year earlier; net ~$300M (Information) to ~$450M (Sacra). Existing supply-side network of students and PhDs was the wedge.",
+    "url": "https://dealroom.co/news/127345-handshakes-arr-crosses-1b-as-ai-training-revenue-surges/"
+   },
+   {
+    "company": "Surge AI",
+    "evidence": "Told staff it had $1B+ revenue in 2024 versus Scale's $870M, always profitable, no outside capital, ~50,000 contractors (The Information); Sacra est. $1.2B 2024. No 2026 figure found. Micro1 reported >$500M gross run rate Aug 2026.",
+    "url": "https://sacra.com/c/surge-ai"
+   }
+  ],
+  "shift_that_enabled_it": "Reinforcement-learning-based post-training needs expert-graded data, and Meta's 49% stake in Scale AI made rival labs pull work from Scale, redistributing share to Mercor, Handshake, Surge and Turing.",
+  "why_incumbents_failed": "Scale AI lost neutrality overnight: Google (its largest customer) reportedly planned to cut ties, OpenAI wound down work, and Scale laid off ~200 staff (14%) plus 500 contractors in Jul 2025. Amazon MTurk-style marketplaces were not positioned for expert-level work.",
+  "still_open_or_crowded": "Crowded at the top (four-plus firms at $0.5-2B gross) and fragile: ~90% revenue from model firms, labs considering in-house labeling, low switching costs, thin margins, and a Mercor data breach in late March 2026.",
+  "transfer_targets": "The transferable core is 'an owned network of scarce credentialed or physical-world workers plus a new buyer class with huge budgets.' Inference-only candidates: robotics/embodied-AI demonstration and teleoperation data, expert evaluation in regulated fields. Neither was researched, and lab insourcing risk applies equally."
+ },
+ {
+  "miner": "ai_breakouts",
+  "name": "Best-in-modality product, self-serve first, enterprise second, priced high enough to retain",
+  "mechanism": "Win on quality in one modality or task (voice, answer/search, code), launch self-serve and usage-based, and let enterprise demand arrive from internal champions. Revenue per account grows with usage. The decisive variable is price per account because retention rises steeply with price.",
+  "examples": [
+   {
+    "company": "ElevenLabs (voice)",
+    "evidence": "CEO said $330M ARR in Jan 2026: 20 months to $100M, 10 months to $200M, 5 months to $330M (company-stated); Sacra estimates ~$500M by Apr 2026; growth mainly enterprise voice agents for support, sales, hiring.",
+    "url": "https://finance.yahoo.com/news/elevenlabs-ceo-says-voice-ai-161522538.html"
+   },
+   {
+    "company": "Perplexity",
+    "evidence": "FT reported ARR above $450M in Mar 2026, up ~50% in a month after launching an agent tool.",
+    "url": "https://seekingalpha.com/news/4573154"
+   },
+   {
+    "company": "ChartMogul retention data (cautionary)",
+    "evidence": "Dec 2025, ~3,500 software companies incl. ~200 AI-native: AI-native median GRR 40%, NRR 48% (B2B SaaS NRR 82%). By monthly price: under $50 GRR 23%/NRR 32%; $50-249 GRR 45%/NRR 61%; over $250 GRR 70%/NRR 85%.",
+    "url": "https://chartmogul.com/reports/saas-retention-the-ai-churn-wave/"
+   }
+  ],
+  "shift_that_enabled_it": "Model-quality jumps in voice and agents plus self-serve payment let one product reach millions of users without a sales team; Menlo credits product-led growth for startups' 63% share of application spend (up from 36%).",
+  "why_incumbents_failed": "Incumbents sell through procurement cycles and seat contracts and could not match model-agnostic speed. The live risk is bundling by larger model providers (Futurum frames it as a 'platform wars' question for ElevenLabs).",
+  "still_open_or_crowded": "Horizontal consumer/prosumer AI is crowded and low-retention below $50 a month. Plan for per-account revenue above ~$250/month or contracts, not $20 subscriptions.",
+  "transfer_targets": "Inference: a function-specific tool for professionals with expense authority (recruiters, procurement, analysts, clinicians) priced above $250/month with workflow embedding, rather than another horizontal assistant."
+ },
+ {
+  "miner": "ai_breakouts",
+  "name": "Buy the services firm, then use AI to rebuild its margin (the balance-sheet path)",
+  "mechanism": "Instead of selling software to skeptical, fragmented service providers, acquire the providers (clients, staff, revenue) with permanent or large capital and install AI to cut delivery cost. Revenue arrives through acquisition; the bet is margin expansion, not organic growth.",
+  "examples": [
+   {
+    "company": "Crete Professionals Alliance (now Current), Thrive Holdings",
+    "evidence": ">$300M annual revenue, 20+ accounting firms, ~900 employees, founded 2023, plan to spend >$500M acquiring US accounting firms over two years with OpenAI-powered tools; Forbes: ran 7,000 tax returns through Tax AI, cutting time per return by about a third.",
+    "url": "https://www.aol.com/news/thrive-backed-accounting-firm-crete-130200514.html"
+   },
+   {
+    "company": "Shield Technology Partners / Thrive Holdings",
+    "evidence": "Shield (IT services/MSP) >$100M revenue by end-2025; Thrive Holdings seeking $2B+ in Mar 2026 ($1B already committed); Crete and Shield together >1,000 employees and >10,000 clients (Bloomberg). General Catalyst has committed >$1B to low-tech AI transformation.",
+    "url": "https://finder.techleap.nl/news/note/thrive-holdings-seeks-2b-to-wire-ai-into-analogue-industries"
+   },
+   {
+    "company": "Exit-risk evidence",
+    "evidence": "Over 90% of 102 AI-roll-up investors set a 2x EBITDA improvement as the bar (vs ~10-15% from classic back-office consolidation); Xeinadin marketed at GBP 1B, Exponent has not found a buyer at its target, Citrin Cooperman sold to Blackstone for ~$2B; difference cited is true integration.",
+    "url": "https://aimultiple.com/ai-rollups"
+   }
+  ],
+  "shift_that_enabled_it": "Patient private capital willing to hold services businesses long term, plus AI making cost-of-delivery gains plausible. Bessemer also notes the line between software and service 'blurs' as AI tools resemble intelligent service providers.",
+  "why_incumbents_failed": "Unverified. I found no source explaining why small accounting and IT-services owners sell or why incumbents did not do this first (succession and technology gaps are commonly cited but not checked here).",
+  "still_open_or_crowded": "Accounting and IT services are crowded with capital (Thrive, General Catalyst, PE). Exits are unproven and the revenue is bought, so it is not comparable to organic ARR.",
+  "transfer_targets": "Inference: fragmented recurring-revenue service lines with repetitive cognitive work, such as insurance agencies/brokerages, title and escrow, medical billing, property-management back offices, court reporting/legal support, claims adjusting. This is the only pattern here where a small team with outside capital can credibly reach $100M of revenue without a model-quality lead, but it needs hundreds of millions of capital and real integration skill."
+ },
+ {
+  "miner": "ai_breakouts",
+  "name": "Concentrated-operator vertical platform that compounds, then widens into a system of record",
+  "mechanism": "Sell a communications/workflow agent (leasing calls, maintenance requests, renewals, patient scheduling) to the largest operators in a fragmented industry, where the same labor-heavy function repeats across thousands of sites. Win a few very large accounts, then widen into adjacent workflows until the product becomes the record. Growth is slower than 'Supernovas' but retention and margins are healthier (Bessemer 'Shooting Star' shape).",
+  "examples": [
+   {
+    "company": "EliseAI (housing and healthcare)",
+    "evidence": "Passed $200M ARR Jun 2026 with 100% yoy growth for five consecutive years (company-stated); Sacra earlier estimates ~$37M end-2023, ~$75M end-2024; $350M raise at $4B (Sep 29, 2026); 500+ housing operators including 75% of the top 50 multifamily owners (Built In).",
+    "url": "https://eliseai.com/blog/eliseai-hits-200m-arr-after-five-consecutive-years-of-100-growth-across-housing-and-healthcare"
+   },
+   {
+    "company": "Rillet (AI-native ERP) - weak evidence",
+    "evidence": "$100M Series C at $1B (Aug 2026, ICONIQ-led per AI2Work); discloses no dollar ARR, only relative growth (e.g., ARR doubled in 12 weeks pre-Series B); 600+ customers per a secondary source. Menlo: finance and operations app spend is 91% startup-captured.",
+    "url": "https://sacra.com/c/rillet/"
+   },
+   {
+    "company": "Bessemer Shooting Star benchmark",
+    "evidence": "Average ~$3M, $12M, $40M, $103M ARR over four years at ~60% gross margin and ~$164K ARR/FTE, versus Supernovas at ~25% margin; Bessemer says hundreds of Shooting Stars, not a few Supernovas, will shape the market.",
+    "url": "https://www.bvp.com/atlas/the-state-of-ai-2025"
+   }
+  ],
+  "shift_that_enabled_it": "Voice and text agents became good enough for routine resident/patient interactions, giving operators a headcount line to cut or avoid; large owner-operators have central procurement.",
+  "why_incumbents_failed": "Unverified. I did not find why property-management software incumbents did not own this; Rilla's case suggests system-of-record vendors (ServiceTitan) eventually expand into adjacent layers.",
+  "still_open_or_crowded": "Housing is contested. The structure (a short list of very large operators controlling many locations) can recur elsewhere and offers the strongest durability signal in this study, but compounding is sales-heavy and slow.",
+  "transfer_targets": "Inference, pool sizing needed: industries where a few dozen operators control a large share of locations and run a repetitive customer-communication function, such as self-storage, senior living, dental and veterinary groups, auto dealer groups, hotel management companies, school districts and university administration."
+ },
+ {
+  "miner": "ai_breakouts",
+  "name": "Race the bundle: land through the incumbent's system of record, then widen before it ships a good-enough native version",
+  "mechanism": "Fast AI wedges often sit on top of an incumbent system of record (Epic, ServiceTitan, a helpdesk, a legal-research platform). The startup integrates, grows quickly, and must become a multi-product platform before the record's owner ships a native feature. Incumbents respond in four ways: bundle, reprice, acquire, or ally.",
+  "examples": [
+   {
+    "company": "Epic vs Abridge; ServiceTitan vs Rilla (bundle)",
+    "evidence": "Epic launched its own scribe in 2026 against a startup valued at $5.3B; ServiceTitan owns the technician workflow and is moving into recording against Rilla (~$70M ARR est.).",
+    "url": "https://medcitynews.com/2026/02/04/ambient-scribe-ai-startups-epic/"
+   },
+   {
+    "company": "Zendesk vs Sierra/Decagon (reprice)",
+    "evidence": "Zendesk introduced outcome-based pricing in 2024 and lets customers move seat commitments to AI agents.",
+    "url": "https://www.zendesk.com/newsroom/articles/zendesk-outcome-based-pricing"
+   },
+   {
+    "company": "R1/Humata Health and Waystar/Digitize.AI (acquire); LexisNexis/Harvey (ally)",
+    "evidence": "R1 agreed to acquire Humata Health (AI prior authorization) in Aug 2026, terms undisclosed; Waystar earlier bought Digitize.AI; LexisNexis chose an alliance with Harvey instead of its own AI stack.",
+    "url": "https://www.fiercehealthcare.com/finance/r1-agrees-acquire-humata-health-enhance-os-ai-powered-prior-auths"
+   }
+  ],
+  "shift_that_enabled_it": "Foundation models make a good-enough competing feature cheap for the incumbent to build once the category is proven. Bessemer's open question is whether vertical AI integrates with or replaces legacy systems of record.",
+  "why_incumbents_failed": "They fail on speed and on pricing models that cannibalize themselves, but not permanently: this is the main reason fast growth does not equal durability, and the main reason 'incumbents failed' should be read as 'incumbents were late', not 'incumbents lost'.",
+  "still_open_or_crowded": "Not a market; it is a risk filter that applies to every idea. For each: who owns the record, how long before they bundle, and what second product exists by then?",
+  "transfer_targets": "Apply as a screen rather than a target. Strongest candidates are products that become the record themselves (Pattern 9) or that sit across several incumbents' records so no single owner can bundle them."
+ },
+ {
+  "miner": "global_arbitrage",
+  "name": "Mass-market digital bank that wins thin-file credit",
+  "mechanism": "A zero-fee account is acquired at near-zero cost in a market where a few banks charge high fees and refuse thin-file customers. The account generates transaction data, credit cards, personal loans and payroll loans are underwritten on that data, and cheap deposits fund the book. Revolut's variant leads with FX/travel, then monetizes subscriptions, cards, interest and wealth.",
+  "examples": [
+   {
+    "company": "Nubank (Brazil/Mexico/Colombia)",
+    "evidence": "FY2025 revenue ~US$16.4B (+45%), net income ~US$2.9B (+51%), ROE ~30%; 131M customers (Brazil 113M = 62% of adults; Mexico 14M = 15%; Colombia 4.2M = 11%). Plans US$4.2B in Mexico by 2030; OCC conditional approval for a US national bank (Jan 2026). Grade B: NeoFeed summary, 20-F not opened.",
+    "url": "https://neofeed.com.br/negocios/a-espera-da-licenca-nos-eua-nubank-cresce-em-receita-lucro-e-volume-de-clientes/en/"
+   },
+   {
+    "company": "Revolut (UK/EU)",
+    "evidence": "2025 revenue ~EUR5.3B / US$6.0B (+46%), pre-tax profit ~US$2.3B, net profit ~US$1.7B, 68.3M retail customers; subscriptions ~US$936M (+67%); deposits ~US$67.5B; loan book ~US$2.9B (doubled). Grade A/B.",
+    "url": "https://en.paperjam.lu/article/revolut-exceeds-eu5-billion-in-revenues-in-2025-up-46"
+   },
+   {
+    "company": "Plata (Mexico)",
+    "evidence": "Full bank license; ~2.5M active credit customers and a US$563M loan book; valuation US$1.5B (Mar 2025) to US$3.1B (Oct 2025) to a reported ~US$5B (Apr 2026). NO revenue figure found, so this is investor belief, not revenue proof. Grade C.",
+    "url": "https://themoscowtimes.com/2026/04/16/tinkov-founded-fintech-plata-hits-5bln-valuation-after-405m-funding-round-a92520"
+   }
+  ],
+  "shift_that_enabled_it": "Instant payment rails (Pix), regulator-granted non-bank licenses (Mexico's CNBV licenses, Brazil's institution licenses), smartphone penetration, and open-finance data. The licensing detail is partly prior knowledge; Plata's license is sourced.",
+  "why_incumbents_failed": "Inference, not sourced: fee-rich branch banks serve a narrow formal-income base, score only on bureau history, and have no reason to cannibalize card and account fees. Cost to serve with branches is far above an app-only model.",
+  "still_open_or_crowded": "Crowded, and the winners are going global. Nubank has conditional OCC approval for a US bank (Jan 2026); in Mexico Nu (14M customers), Plata, Klar and Mercado Pago are all funded. No gap found in the home markets.",
+  "transfer_targets": "No untouched US segment found. The US mechanism is already ported (Chime, Cash App, SoFi, Dave; prior knowledge) and Nubank itself is arriving. The transfer is geographic: countries with concentrated banks and high card APRs, which is not an obvious US-founder wedge. Unverified hypothesis: ITIN or immigrant thin-file credit in the US."
+ },
+ {
+  "miner": "global_arbitrage",
+  "name": "Marketplace-owned payments and credit flywheel",
+  "mechanism": "The marketplace owns logistics, payments and credit. Commerce data lets it underwrite buyers and merchants more cheaply than any bank, float funds the credit book, and free shipping drives purchase frequency. Owned logistics is the moat.",
+  "examples": [
+   {
+    "company": "Mercado Libre (LatAm)",
+    "evidence": "Q4 2025 net revenue US$8.8B (+45%), FY revenue +39%; Mercado Pago Q4 revenue US$3.8B (+51%); credit portfolio US$12.5B (+90%), 15-90 day NPL 4.4%, ~78M MAU; margins compressed 5-6 points by free shipping and credit-card investment. Grade A/B.",
+    "url": "https://www.barchart.com/story/news/400094/mercado-libre-caps-stellar-2025-performance-with-45-yoy-revenue-growth-in-q4-as-strategic-investments-accelerate-market-share-gains"
+   },
+   {
+    "company": "Coupang (Korea), logistics-only variant",
+    "evidence": "Q2 2025 Rocket Delivery (Product Commerce) adj. EBITDA $663M, a 9% margin; Taiwan, Eats and Farfetch lose ~$235M a quarter. FY2025 revenue ~$34.5B is from an aggregator and unverified. Grade B.",
+    "url": "https://insideretail.asia/2025/08/07/coupang-turns-a-profit-but-can-taiwan-fuel-the-next-stage-of-growth/"
+   }
+  ],
+  "shift_that_enabled_it": "Weak postal systems forced owned logistics, low card penetration pushed wallets and credit, and Pix cut payment costs (the Pix point is partly prior knowledge).",
+  "why_incumbents_failed": "Inference: store-led retailers were weak at logistics and at underwriting small merchants on sales data; banks did not lend against marketplace sales history.",
+  "still_open_or_crowded": "Closed at national scale: the moat is logistics plus capital, with no room for a me-too. Open only in verticals.",
+  "transfer_targets": "Not the horizontal version (Amazon is the US incumbent). The transferable idea is a vertical B2B marketplace where small buyers carry 30-90 day payables and the marketplace finances the gap. Unverified hypotheses: independent-restaurant supply, independent-pharmacy wholesale, auto-repair parts. Assume someone already does each (Faire, Toast Capital, Amazon Business, Sysco/US Foods, FBN; prior knowledge)."
+ },
+ {
+  "miner": "global_arbitrage",
+  "name": "Control the repayment channel (payroll deduction or wallet sweep)",
+  "mechanism": "The lender is repaid first, from payroll or wallet inflows, so losses and rates fall far below revolving credit. Borrowers refinance and volume explodes. The state or a telco builds the channel, and lenders compete on top of it.",
+  "examples": [
+   {
+    "company": "Brazil Cr\u00e9dito do Trabalhador (private payroll loans, launched 21 Mar 2025)",
+    "evidence": "R$101B lent, 17.04M contracts, 8.52M workers by 15 Jan 2026 (Ministry of Labor via Poder360). Average rate 3.2% a month, ~46% a year (my calc), versus ~11.2% a month on CDC/card revolver/overdraft (~258% a year, my calc). Monthly private payroll lending rose from ~R$1.5B to ~R$11B (Serasa/Central Bank); Banco do Brasil alone lent R$18.2B. Central Bank warns of indebtedness; no program default rate found. Grade A/B.",
+    "url": "https://www.poder360.com.br/poder-economia/credito-do-trabalhador-supera-r-101-bilhoes-em-emprestimos/"
+   },
+   {
+    "company": "Safaricom Fuliza (Kenya M-Pesa overdraft)",
+    "evidence": "FY to Mar 2026: KSh1.47T disbursed (+49%), 17.7M customers, average loan KSh218 (down from 241). Reported revenue KSh6B is only 0.41% of disbursements (my calc), so treat it as net or partial and do not use it as a margin proof. Grade B/C.",
+    "url": "https://capitalfm.africa/fuliza-loans-jump-49pc-to-sh1-47tn/"
+   }
+  ],
+  "shift_that_enabled_it": "In Brazil the state built an employer-agnostic platform on its payroll data (prior knowledge: private payroll loans previously needed employer-by-employer agreements; the cited articles do not describe the design). In Kenya the shift was M-Pesa's wallet float plus partner-bank licenses.",
+  "why_incumbents_failed": "Banks could not reach employees outside large corporate agreements, and sub-$5 loans do not cover a bank's cost to serve (inference).",
+  "still_open_or_crowded": "Brazil is already crowding (Banco do Brasil and others), average ticket is falling and credit-quality alarms are sounding. In the US the category is open but legally gated.",
+  "transfer_targets": "Best mechanism found, hardest to port. The Brazilian breakout came from the state removing the distribution bottleneck, not from a product innovation, and the US has no equivalent rail. Nearest rail owners are payroll processors and large employers. Legal gate: CFPB Dec 2025 advisory opinion treats employer-offered payroll-settled no-recourse EWA as not credit; H.R. 9330 advanced 29-22 on 30 Jun 2026 and is not law; about a dozen state EWA laws, with CA/CT/MD treating EWA as credit. Installment loans repaid by payroll deduction (state small-loan and wage-deduction law) were NOT researched. No employer budget line exists, only a retention motive. US pool size not sourced. Fuliza-style auto-overdraft is already ported (Cash App Borrow, Chime MyPay, Dave, EarnIn)."
+ },
+ {
+  "miner": "global_arbitrage",
+  "name": "Remote-lock collateral with mobile-money collections and local-currency securitization (PAYG)",
+  "mechanism": "If the customer stops paying, the product stops working, and that lockout is the collateral. Daily micropayments flow through mobile money. Each customer cohort becomes an asset-backed security funded in local currency, avoiding FX mismatch.",
+  "examples": [
+   {
+    "company": "M-KOPA (Kenya and 4 other markets)",
+    "evidence": "FY2025 revenue ~US$600M (+45%), 10M customers (3M added in 12 months), ~50,000 agents, products now smartphones (since 2020), solar and e-motorcycles. Company says it stayed profitable but gives no profit number; underwriting and funding sources undisclosed; unaudited. Grade B/C.",
+    "url": "https://techtrendske.co.ke/2026/10/08/m-kopa-10-million-customers-africa-2/"
+   },
+   {
+    "company": "Sun King (Kenya, Nigeria, Tanzania)",
+    "evidence": "US$156M (KES20.1B) local-currency securitization structured by Citi with Stanbic, backed by 5 banks and 3 DFIs, following a US$130M deal in 2023; US$1.3B of solar loans to ~10M customers; payments from US$0.19 a day via mobile money. No revenue figure found. Grade A for the deal.",
+    "url": "https://www.citigroup.com/global/news/press-release/2025/citi-sun-king-securitization-deliver-solar-million-kenyans"
+   }
+  ],
+  "shift_that_enabled_it": "Mobile money ubiquity, cheap GSM lock modules, smartphones as a second product, and a Kenyan securitization market now willing to buy micro-loan cash flows.",
+  "why_incumbents_failed": "Inference: banks cannot underwrite no-history customers, and microfinance lenders absorb repossession costs.",
+  "still_open_or_crowded": "Two scaled players in Africa. The securitization is the proof the cash flows are bankable. No evidence found of an open gap.",
+  "transfer_targets": "Weak. US incumbents are lease-to-own and rent-to-own (Progressive, Katapult, Upbound; prior knowledge), and state lease and repossession law differs. Speculative targets only: e-bikes for delivery workers, laptops, prepaid phones. No evidence of a US-scale gap was found."
+ },
+ {
+  "miner": "global_arbitrage",
+  "name": "Merchant-terminal or cash-agent network as distribution and underwriting data",
+  "mechanism": "Where payments are free or thin-margin, the terminal or agent relationship supplies cash-flow data, the right to sweep settlement to repay loans, and a base to cross-sell accounts, devices and insurance. The payment itself is not the product. Lesson: dominating the rail does not make money.",
+  "examples": [
+   {
+    "company": "Moniepoint (Nigeria)",
+    "evidence": "~NGN412T (~US$294B) of transactions in 2025 and ~800M a month (company data via TechCabal); disbursed over NGN1T to ~70,000 small businesses (company year-in-review); valued at US$1B+ (FT, Oct 2024); says it is profitable, with NO audited revenue. CBN reports system NPLs at ~7% in 2025. A '$600M ARR' figure from one review site is unverified and was excluded. Grade A/B for volume, C for revenue.",
+    "url": "https://www.techinafrica.com/blog/moniepoint-hits-unicorn-status-massive-250m-series-c/"
+   },
+   {
+    "company": "PhonePe (India)",
+    "evidence": "~45% of 24.5B monthly UPI transactions (Aug 2026). FY25 revenue from operations ~Rs7,115 cr (+40%) but statutory net loss ~Rs1,727 cr; it has never posted a statutory profit. Non-UPI (merchant payments and financial services) is ~42% of revenue. Grade B (DRHP via press).",
+    "url": "https://www.indmoney.com/blog/ipo/phonepe-drhp-explained"
+   }
+  ],
+  "shift_that_enabled_it": "UPI's zero merchant fee and its scale in India; in Nigeria a push to cashless payments (prior knowledge).",
+  "why_incumbents_failed": "Inference: Nigerian banks had poor POS uptime and focused on corporate clients.",
+  "still_open_or_crowded": "Crowded in both home markets (OPay and PalmPay in Nigeria; Google Pay and Paytm in India). Already ported and saturated in the US (Square, Toast, Clover, Shopify, Stripe).",
+  "transfer_targets": "Avoid as a US idea. Volume does not equal revenue, since the profit is in credit and software on top of the terminal. Only possible angle: cash-heavy US segments with no software layer, which I did not size or verify."
+ },
+ {
+  "miner": "global_arbitrage",
+  "name": "Dense dark-store quick commerce",
+  "mechanism": "Small warehouses sit inside dense neighborhoods. Delivery labor is cheap, order frequency is high and ads help. Profit needs very high throughput per store: Zepto does ~2,140 orders a store a day against ~3,000 to break even.",
+  "examples": [
+   {
+    "company": "Blinkit/Zepto/Instamart (India)",
+    "evidence": "FY26 orders: Blinkit 916.6M (2,243 stores), Zepto 640.2M (1,139), Instamart 412.2M (1,143). Only Blinkit is adj-EBITDA positive (Rs37 cr Q4 FY26; Rs102 cr Q1 FY27); Zepto lost Rs1,248 cr and Instamart Rs858 cr in Q4 FY26. Densification shows diminishing returns. Grade A/B.",
+    "url": "https://www.outlookbusiness.com/explainers/has-quick-commerce-growth-hit-a-speed-bump-inside-blinkit-instamart-zeptos-q1-fy26-performance"
+   },
+   {
+    "company": "Getir/Gorillas/Flink (Europe), the negative proof",
+    "evidence": "Getir shut US, UK and EU operations and cut 6,000+ jobs; Gorillas sold for ~$1.2B against a $3.1B valuation a year earlier; Flink exited France and was valued at ~$1B against a ~$5B peak; hubs profit only at ~500-1,000 orders a day. No 2025-26 updates found. Grade B.",
+    "url": "https://techcrunch.com/2024/09/16/flink-the-quick-commerce-startup-raises-another-150m-at-a-valuation-of-just-under-1b"
+   },
+   {
+    "company": "Talabat (UAE/Gulf), the working variant",
+    "evidence": "FY2025 GMV US$9.5B (+28%), revenue US$3.9B, adj. EBITDA US$615M (6.5% of GMV), net income US$464M, reinvesting $100M+ in grocery. Grade A (company release).",
+    "url": "https://www.zawya.com/en/press-release/companies-news/talabat-reports-resilient-results-for-q4-2025-announces-disciplined-investment-cycle-to-drive-long-term-growth-mue1ykjm"
+   }
+  ],
+  "shift_that_enabled_it": "UPI-based payments, very low rider cost and kirana (corner-store) substitution (the last is prior knowledge).",
+  "why_incumbents_failed": "Inference: kiranas cannot offer assortment and big grocers lack last-mile delivery.",
+  "still_open_or_crowded": "India is a three-way discount war (Blinkit ~45-49% share, estimates conflict). Europe is dead. Gulf is served by Talabat and others.",
+  "transfer_targets": "Do not port to the US: labor cost and density kill the unit economics, as Getir and Gorillas showed in rich-world cities. Only the ad-monetization and private-label pieces transfer."
+ },
+ {
+  "miner": "global_arbitrage",
+  "name": "Flip which side pays the marketplace fee",
+  "mechanism": "Charge the side that values protection or convenience (the buyer, via a protection fee), or charge supply a small flat subscription instead of a commission. Supply keeps its margin, floods in, and gives the marketplace liquidity.",
+  "examples": [
+   {
+    "company": "Vinted (Lithuania, now US)",
+    "evidence": "2025 revenue EUR1.1B (+38%), GMV EUR10.8B (+47%), net profit EUR62M (-19% from EUR77M), FCF EUR137M, valuation EUR8B. Sellers pay no commission; buyers pay a protection fee (amounts are third-party estimates). Revenue/GMV ~10.2% (my calc). Launched in the US in January 2026 starting in New York with 'tens of millions' in marketing. Grade A/B.",
+    "url": "https://dealroom.co/news/127284-vinted-hits-1-1b-revenue-and-sets-sights-on-the-us/"
+   },
+   {
+    "company": "Rapido (India)",
+    "evidence": "FY25 operating revenue Rs934.4 cr (+44%; Inc42 says nearly 2x, a conflict), net loss Rs258.4 cr. Replaced a 20-25% commission with a flat Rs9-29 a day (~5% of ride income). Uber moved India autos to subscription on 18 Feb 2025. GST treatment of subscription platforms is disputed across rulings. Grade B.",
+    "url": "https://www.medianama.com/2026/01/223-rapido-fy25-revenue-jumps-44-percent-loss-narrows/"
+   }
+  ],
+  "shift_that_enabled_it": "Rapido: driver anger over commissions plus a tax-ruling gap in India. Vinted: European parcel-locker infrastructure and consumer-protection norms. Both are partly inference.",
+  "why_incumbents_failed": "Prior knowledge: eBay, Poshmark and Depop were built on seller fees of 10-20%, which suppresses supply and lowers prices.",
+  "still_open_or_crowded": "Vinted is in the US now, so a US clone is closed, and its profit fell 19% while investing. Rapido is still loss-making, and a flat fee caps revenue per ride.",
+  "transfer_targets": "Vinted's US launch is the live experiment (its CEO says next year's profit depends partly on it). Unverified hypothesis for other categories: supply-scarce service marketplaces where pros pay per lead, such as home-services lead generation, trades and per-diem healthcare staffing. The gate is contractor classification (AB5, Prop 22; prior knowledge, legal premise unverified)."
+ },
+ {
+  "miner": "global_arbitrage",
+  "name": "Own the supply chain, win on price",
+  "mechanism": "Own the factory, ingredients or logistics, price 30-50% below incumbents to win traffic, and make money on the supply layer rather than on royalties.",
+  "examples": [
+   {
+    "company": "Mixue (China-origin; big in Indonesia and Vietnam)",
+    "evidence": "2025 revenue RMB33.56B (+35%), net profit ~RMB5.93B, 59,823 stores. ~98% of revenue is goods and equipment sold to franchisees (RMB32.77B); franchise fees only RMB794M (2.4%); goods gross margin slipped to 29.9% from 31.2%. Overseas stores FELL from 4,895 to 4,467 as it optimized Indonesia and Vietnam while entering the US. Grade A/B.",
+    "url": "https://kr-asia.com/mixues-growth-continues-in-2025-despite-margin-pressure"
+   },
+   {
+    "company": "Lenskart (India)",
+    "evidence": "FY25 operating revenue Rs6,652.5 cr (+22.5%), EBITDA ~Rs971 cr, 2,806 stores, claims 35-40% lower frame and lens cost from in-house automated manufacturing. Net profit Rs297 cr includes a ~Rs167 cr one-off gain, so operating profit is closer to Rs130 cr. Grade B.",
+    "url": "https://www.kotakneo.com/news/market-news/lenskart-fy25-revenue-profit-analysis/"
+   },
+   {
+    "company": "Mobile World / Bach Hoa Xanh (Vietnam)",
+    "evidence": "FY2025 revenue ~VND157.4T (~US$6B, +16%), profit ~VND7.1T (~US$273M); its grocery chain took eight years (to Dec 2023) to break even. Grade B.",
+    "url": "https://news.tuoitre.vn/vietnam-retailer-mobile-world-posts-strong-2025-profit-boosted-by-financial-income-103260204160919933.htm"
+   }
+  ],
+  "shift_that_enabled_it": "Manufacturing scale and automation (prior knowledge).",
+  "why_incumbents_failed": "Inference: fragmented independents lack purchasing scale, and incumbents sell on brand premiums.",
+  "still_open_or_crowded": "Supply-margin franchising is old in the US (Domino's; prior knowledge). Mixue's own overseas retreat shows the price point does not survive higher local costs. Vertical-integration incumbents exist (EssilorLuxottica, Warby Parker, Zenni; prior knowledge).",
+  "transfer_targets": "Weak. The price-point arbitrage fails on US labor and rent. What transfers is the screening question: find categories where the US retail layer is the cost, then own the supply chain behind it. Candidate categories (eyewear, hearing aids) already have incumbents, and none were sized here."
+ },
+ {
+  "miner": "global_arbitrage",
+  "name": "Instant-pay spot-labor marketplace in a shortage economy",
+  "mechanism": "Remove the friction of staffing (no interview, no contract, short shifts, instant pay) so idle labor becomes just-in-time capacity for employers that cannot hire.",
+  "examples": [
+   {
+    "company": "Timee (Japan, TSE 215A)",
+    "evidence": "FY to Oct 2025 revenue JPY34.28B (+27.5%) on GTV JPY117.2B, ~29% take rate (my calc). Registered workers 12.74M (Oct 2025) to 14.2M+ (Apr 2026), client sites 417k to 465k (aggregator-sourced). Latest quarter revenue JPY10.44B (+24.8%), operating profit JPY1.94B, but spot-work growth slowed to +16.3%. Fiscal-year change makes comparisons messy. Grade B.",
+    "url": "https://www.staffingindustry.com/news/global-daily-news/japans-timee-revenue-rises-248-profits-up"
+   }
+  ],
+  "shift_that_enabled_it": "Japan's labor shortage and side-job liberalization (prior knowledge).",
+  "why_incumbents_failed": "Inference: dispatch staffing required contracts, lead time and minimum durations.",
+  "still_open_or_crowded": "Crowded in the US (Instawork, Wonolo, ShiftKey, Clipboard Health, Snagajob; prior knowledge), and Timee's own growth is decelerating.",
+  "transfer_targets": "Low. Gates are W-2 versus 1099 classification, state staffing law and workers' comp. Per-diem nursing is the biggest sub-pool and already contested. No clearly untouched US pool found."
+ },
+ {
+  "miner": "global_arbitrage",
+  "name": "Mandate-created compliance rails",
+  "mechanism": "A regulator mandates structured B2B invoice exchange through certified intermediaries. Every VAT-registered company must buy, on a legal deadline, and revenue is recurring per document or per seat. Accountants are the distribution channel. The payer (CFO or tax director) has a forced budget line.",
+  "examples": [
+   {
+    "company": "EU e-invoicing mandates (Belgium, Poland, France, Germany)",
+    "evidence": "Belgium live 1 Jan 2026 (Peppol); Poland KSeF 1 Feb 2026 (large) and 1 Apr 2026 (rest), micro-firms 2027; France from 1 Sep 2026 (large and mid issue, all must receive, SMEs 1 Sep 2027) via certified PDP platforms plus e-reporting; Germany receive 2025, send 2027; EU ViDA framework by 2030. Grade B; confirm France against the tax authority.",
+    "url": "https://europe.thomsonreuters.com/events/france-einvoicing-mandate-8-things-to-know"
+   },
+   {
+    "company": "Pagero (acquired by Thomson Reuters)",
+    "evidence": "Acquired for ~US$800M (SEK8.1B), closed 26 Feb 2024 after beating a rival bid from Vertex; network of 90,000 customers reaching 14M companies, compliant with mandates in 75+ countries. Grade A/B.",
+    "url": "https://www.cpapracticeadvisor.com/2024/02/26/thomson-reuters-acquires-pagero-for-800-million/101999/"
+   },
+   {
+    "company": "Pennylane (France)",
+    "evidence": "EUR2B valuation (Apr 2025); claimed to exceed EUR100M ARR in 2025 (company claim); ~4,500 accounting firms and 350k SMEs; claims certified PDP status. A $4.25B round was reported in talks and is unconfirmed. Grade C for revenue.",
+    "url": "https://tech.eu/2025/04/07/french-unicorn-pennylane-scores-eur75m-funding-as-capial-g-joins-investor-roster/"
+   }
+  ],
+  "shift_that_enabled_it": "Governments closing VAT gaps through real-time reporting, now an EU-wide program (prior knowledge for the motive; the mandate dates are sourced).",
+  "why_incumbents_failed": "Mostly they did not fail: Pagero, Sovos, Avalara and Basware are the incumbents. ERPs were simply not built for real-time tax reporting, which created the opening for new certified platforms.",
+  "still_open_or_crowded": "Consolidating fast at the enterprise tier (Thomson Reuters/Pagero, Vertex's bid). The SME tier still has years of mandate calendar (France SMEs 2027, Germany send-side 2027-28). No reliable revenue found for Sovos, Avalara or Basware.",
+  "transfer_targets": "There is no US VAT or e-invoicing mandate, so a direct port has no mandated spend. The mechanism ports to US rules that force data exchange. Unverified hypotheses from prior knowledge, with every date to be checked: CMS prior-authorization API rule (CMS-0057-F), FDA DSCSA drug serialization, and FSMA 204 food traceability (deadline extended to 2028). Round 1 died on why-now windows that expired or arrived after 2028, so check deadlines first."
+ },
+ {
+  "miner": "global_arbitrage",
+  "name": "Stablecoin and alternative rails for FX-constrained corridors",
+  "mechanism": "Stablecoin settlement plus a licensed local off-ramp replaces correspondent banking. Value is captured through FX spread and float, and the fee pool compresses as volume moves onto the new rail.",
+  "examples": [
+   {
+    "company": "Bitso (Mexico/Argentina)",
+    "evidence": "~US$6.5B of US-to-Mexico remittances in 2024, over 10% of the corridor (Bitso's own statement via Paymentology); corridor US$64.7B (BBVA Research), 96.6% from the US. June 2025 launched USD accounts for Mexico and Argentina (ACH US$2.99; wire US$11.99 + 0.17%). A '14.7% share in 2026' LinkedIn claim is unverified and excluded. Grade B/C.",
+    "url": "https://www.paymentology.com/blog/stablecoins-and-the-us-mexico-remittance-corridor-a-practical-case-for-financial-institutions"
+   }
+  ],
+  "shift_that_enabled_it": "FX-access limits in Mexico and Argentina (per Bitso executives). On the US side the GENIUS Act, signed July 2025, is NOT yet effective: it takes effect by 18 Jan 2027 at the latest, and final rules were still pending in Aug 2026 (OCC targets November).",
+  "why_incumbents_failed": "Inference: money transmitters are slow and fee-heavy, with correspondent banking costs baked in.",
+  "still_open_or_crowded": "Crowded with Remitly, Wise, Western Union, Circle and Coinbase (prior knowledge). The pool is large but price-compressing.",
+  "transfer_targets": "$100M test, my arithmetic: if sender cost is 2-4% of the US$64.7B Mexico corridor (my assumption, not sourced), the fee pool is ~US$1.3-2.6B a year, so US$100M of revenue needs roughly 4-8% of it. US rules landing in 2027 give a timing edge to anyone building the US-side license stack. Prior knowledge to verify: a 1% US excise tax on cash-funded remittances began 1 Jan 2026, pushing senders to account-funded rails."
+ },
+ {
+  "miner": "global_arbitrage",
+  "name": "Curated retail and fast brand incubation, exported to the US",
+  "mechanism": "A hyper-competitive home retail market (Olive Young's curation and rotation) works as a fast feedback loop. Surviving brands export through TikTok, Amazon and Sephora to US buyers who pay higher prices.",
+  "examples": [
+   {
+    "company": "Korean cosmetics export boom",
+    "evidence": "Record US$11.43B of exports in 2025 (+12.3%); the US overtook China as the top destination (~US$2.2B vs ~US$2.0B). H1 2026 exports ~US$7B (+27%) with the US at ~US$1.45B (20.7%), though customs and MFDS series differ. Grade A/B for the macro numbers.",
+    "url": "https://www.koreajoongangdaily.com/business/koreas-cosmetics-exports-surpass-record-11-billion-in-2025/12129724"
+   },
+   {
+    "company": "Olive Young (Korea)",
+    "evidence": "Over half of its global online sales came from US consumers in H1 2025; opened a Pasadena store and is placing Olive Young zones in Sephora. NO company revenue figures found for Olive Young or APR/Medicube. Grade C for companies.",
+    "url": "https://insideretail.co.nz/2026/06/15/can-olive-young-export-koreas-beauty-retail-strategy/"
+   }
+  ],
+  "shift_that_enabled_it": "Social commerce and Amazon fulfillment (prior knowledge).",
+  "why_incumbents_failed": "Inference: US prestige beauty iterates on slow cycles while Korean contract manufacturers move fast.",
+  "still_open_or_crowded": "Crowded and being absorbed: Olive Young is taking the retail layer itself, so intermediaries are being squeezed out.",
+  "transfer_targets": "Already a reverse port in progress. Remaining space looks brand-level (tens of millions, not $100M+) unless it becomes a retail or incubation platform. Do not call it large without company revenue numbers. Other fast-iteration Korean or Japanese categories are untested here."
+ },
+ {
+  "miner": "non_ai_growth",
+  "name": "Regulatory-gap cash-pay telehealth, then manufacturer re-entry (GLP-1)",
+  "mechanism": "A drug-shortage declaration let compounders legally copy branded semaglutide/tirzepatide at cash prices far below list; a telehealth front door plus paid acquisition and subscription billing turned that into a consumer subscription business (Hims revenue +59% to $2.35B). Then Lilly and Novo built their own cash-pay channels ($149-$449/mo) and the FDA/Novo squeezed compounding, so the loophole closed in roughly 24 months; what survived was the subscriber base and marketing engine, at lower margin.",
+  "examples": [
+   {
+    "company": "Hims & Hers Health",
+    "evidence": "FY2025 revenue $2,347.6M vs $1,476.5M (+59%); 2.511M subscribers; net income $128.4M; adj. EBITDA $318M. Gross margin fell to 74% from 79%; marketing $919M = ~39% of revenue. 2026 guide $2.7-2.9B revenue but adj. EBITDA only $300-375M, i.e. growth no longer converting to profit. Guidance assumed compounded semaglutide access, which the Mar 9 2026 Novo settlement ended (Hims stops advertising compounded GLP-1s). Compounded GLP-1 share of revenue is not disclosed. Grade A for the numbers (company IR release fetched).",
+    "url": "https://investors.hims.com/news/news-details/2026/Hims--Hers-Health-Inc--Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results/"
+   },
+   {
+    "company": "Eli Lilly (LillyDirect self-pay Zepbound vials)",
+    "evidence": "Q4 2025: self-pay vials ~1/3 of all Zepbound Rx and ~50% of new Zepbound Rx; LillyDirect added >1M users in 2025; Jan 2026 cash prices $299 lowest dose, $449 higher doses; routes through independent telehealth partners. This is the manufacturer closing the compounder gap. Grade B (press coverage of earnings).",
+    "url": "https://www.nbcdfw.com/news/business/money-report/eli-lilly-is-selling-higher-dose-vials-of-zepbound-at-a-lower-price-to-boost-weight-loss-drug-access/3777436/"
+   },
+   {
+    "company": "Novo Nordisk (Wegovy cash channel; Ro as a telehealth partner)",
+    "evidence": "Wegovy cash price cut to $349/mo in Nov 2025; oral Wegovy launched from $149/mo through telehealth, GoodRx, WeightWatchers, Costco. Ro has no company-reported 2025 revenue; Sacra estimates $598M annualized in 2024 (+66%), ~40% GLP-1 (grade C, weak).",
+    "url": "https://www.bnnbloomberg.ca/business/economics/2025/11/17/novo-nordisk-rolls-out-349-wegovy-cash-price-ahead-of-plan"
+   }
+  ],
+  "shift_that_enabled_it": "FDA shortage-list status for semaglutide/tirzepatide (compounding exemptions), telehealth prescribing flexibility, branded list prices near $1,000+/mo with patchy insurance coverage, and mass consumer demand. Reversed by the end of the shortage, Novo litigation, FDA threats of action on active ingredients, and manufacturers' own cash channels.",
+  "why_incumbents_failed": "(Inference, supported by the manufacturers' later copying.) Insurance coverage of obesity drugs was patchy, pharma had no consumer cash channel or pharmacy, and obesity clinics were capacity-limited. Manufacturers copied the model once demand was proven.",
+  "still_open_or_crowded": "The compounder loophole is closed and the field is crowded (Hims, Ro, LifeMD, Noom, GoodRx, Costco, Amazon, the manufacturers themselves). Still open: being the front door (prescribing, adherence, fulfilment, coaching) for manufacturer cash-pay programs and for the next drug category. Lesson from round 1 applies: the loophole was the 'why now' and it is used up; the business is the customer relationship, not the gap.",
+  "transfer_targets": "Hypotheses only, pool sizes not researched here: therapeutic areas where branded price is falling toward a cash price and insurance coverage is weak or hostile (menopause/hormone therapy, testosterone, hair loss, fertility drugs, migraine), and 'front door as a service' for pharma direct-to-consumer programs. Each needs a legal check on the exact premise before it is believed."
+ },
+ {
+  "miner": "non_ai_growth",
+  "name": "Capex-supercycle pass-through to scarce physical trades",
+  "mechanism": "Buyers with huge capex budgets (hyperscalers, utilities) need electrical, mechanical and civil work faster than craft labor and equipment can supply it. Contractors with labor, prefab capacity and purchasing power book multi-year backlogs, win pricing power and expand margins. The stated constraint is labor and transformers, not demand.",
+  "examples": [
+   {
+    "company": "Comfort Systems USA",
+    "evidence": "Q2 2026 revenue $3,265.7M vs $2,173.3M (+50.3%); six-month +53.1%; backlog $14.06B vs $8.12B (+73%); operating margin 17.1% vs 13.8%; net income $441.6M vs $230.8M. The SEC release does not mention data centers; the technology attribution comes from CEO call commentary (secondary). Grade A.",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001035983/000110465926086255/fix-20260723xex99d1.htm"
+   },
+   {
+    "company": "Quanta Services",
+    "evidence": "Q2 2026 revenue $9,557M vs $6,773M (+41.1%; organic +27.4%); Electric segment +44%; record backlog $53.4B (12-month backlog $32.3B); FY2026 revenue guide ~$39.3-39.7B; building transformer capacity; acquired businesses add $1.2-1.4B of 2026 revenue. Grade A (company summary, text extracted).",
+    "url": "https://investors.quantaservices.com/_assets/_9546050958577210325d4e87129a40ac/quantaservices/db/917/10536/operational_and_financial_commentary/PWR+06-30-2026+ER+Operational+and+Financial+Summary+vF.pdf"
+   },
+   {
+    "company": "IES Holdings",
+    "evidence": "FQ2 2026 (Mar 2026) backlog ~$3.9B, +62% since fiscal year-end; data-center-facing Communications segment +35% (+$94.7M); company says labor availability 'remains challenging'; residential weak. Sterling Infrastructure's CEO reportedly says labor, not demand, limits growth (promotional source, grade C).",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001048268/000104826826000087/q22026pressrelease-mar.htm"
+   }
+  ],
+  "shift_that_enabled_it": "Data-center and electrification load growth after ~15 years of flat US electricity demand, utility rate-base capex, and a thinned-out skilled trades pipeline. Demand is partly AI-capex derived, so this is AI-light supply with AI-dependent demand.",
+  "why_incumbents_failed": "(Inference.) They did not fail; they are capacity-constrained. Utilities under-invested for years and apprenticeships shrank, so listed contractors have more work than labor.",
+  "still_open_or_crowded": "Public contractors dominate and are buying capacity. The open space is the constraint itself: craft labor supply and training, specialty subcontracting, testing and commissioning, prefabrication, transformers and switchgear. Risk: a hyperscaler capex pullback.",
+  "transfer_targets": "Hypotheses: other funded programs with the same constraint, namely grid transmission and distribution (utility rate base pays), onshored factories, water systems, and defense-industrial construction. A founder enters through the scarce input (electrician placement and training, testing/commissioning, prefab), selling to a contractor or owner with a funded backlog. A $100M path means a few percent of a multi-billion backlog, which must be bottom-up sized before it is believed."
+ },
+ {
+  "miner": "non_ai_growth",
+  "name": "Neo-primes and the defense supply-base rebuild",
+  "mechanism": "A demand shock (munitions depletion, war), a budget shock and procurement reform let builders that make products to a price at volume (often vertically integrated, software-defined hardware) take share from cost-plus primes, while money also flows to a capacity-constrained sub-tier of suppliers. Government is the payer and the budget line exists.",
+  "examples": [
+   {
+    "company": "Anduril",
+    "evidence": "2025 revenue $2.2B, roughly double 2024 (~$1B per OC Business Journal), per CEO announcement, unaudited; $5B Series H at $61B (Series G June 2025 was $30.5B); $20B Army enterprise agreement consolidating existing contracts; Golden Dome space-interceptor selection. Grade B (fetched trade press).",
+    "url": "https://washingtontechnology.com/companies/2026/05/anduril-hauls-5b-series-h-round/413515/"
+   },
+   {
+    "company": "Karman Holdings (public sub-tier supplier)",
+    "evidence": "Q2 2026 revenue $182.1M (+58%); backlog $1.3B (+65% since 12/31/25); FY2026 guide $730-745M, adj. EBITDA $215-222.5M; about half of growth is acquired; reliant on prime awards. Grade B/C (earnings summaries).",
+    "url": "https://www.panabee.com/news/karman-earnings-q2-2026"
+   },
+   {
+    "company": "Hadrian (automated precision-machining factories)",
+    "evidence": "$1.37B Series D at $7.87B (Aug 6 2026); supplies Lockheed, RTX, Anduril; plans to ~triple headcount to 2,000. NO revenue published, so evidence of actual growth is weak. Budget context: FY2027 request ~$1.15T base + $350B via reconciliation, ~$55B for the Defense Autonomous Warfare Group, low-cost munitions rising from 49% to 70% of requests by FY2031 (Greenberg Traurig, CSIS).",
+    "url": "https://thenextweb.com/news/hadrian-1-37bn-series-d-7-87bn-defence-factories"
+   }
+  ],
+  "shift_that_enabled_it": "Munitions depletion and the 2026 conflict context, a roughly $1T+ budget request with multi-year munitions procurement, drone/autonomy priorities and explicit support for non-traditional suppliers. Note the comptroller said the request predates the Iran conflict and excludes war costs, and the request is not an appropriation.",
+  "why_incumbents_failed": "(Inference.) Primes were built for low-rate, cost-plus programs with a consolidated, often single-source supplier base that cannot surge.",
+  "still_open_or_crowded": "The top tier is crowded and needs billions (Anduril, Hadrian, Shield AI class). The sub-tier (castings, forgings, energetics, precision machining, electronics, rocket motors) remains the bottleneck and is where a small supplier with prime pull can grow; contracts follow prime qualification, so one customer concentration risk is built in.",
+  "transfer_targets": "Hypotheses: allied rearmament budgets, critical-minerals processing (explicitly in the FY2027 request), shipbuilding sub-tiers, munitions precursors. A wedge needs a named prime that already buys the item and a qualification path, since the payer signs through the prime."
+ },
+ {
+  "miner": "non_ai_growth",
+  "name": "Float and spread on payment rails without credit risk",
+  "mechanism": "Hold or route money for many customers and keep a small spread (interest on reserves, interchange, FX, software on top) with little credit risk. Growth comes from a regulatory clarity event (GENIUS Act) or from software that wins the CFO; the spread is shared with whoever owns distribution. Global payroll/EOR (Deel) is the same idea with compliance as the moat.",
+  "examples": [
+   {
+    "company": "Circle (USDC)",
+    "evidence": "FY2025 revenue plus reserve income $2.7B (+64%) on $75.3B USDC (+72%); adj. EBITDA $582M; net loss $70M due to $424M IPO-vesting stock comp. Key economics: Q4 distribution, transaction and other costs were $461M against $770M of revenue (~60%), i.e. distribution partners keep most of the spread. Grade A (company release fetched; some figures in images).",
+    "url": "https://www.circle.com/pressroom/circle-reports-fourth-quarter-and-full-fiscal-year-2025-financial-results"
+   },
+   {
+    "company": "Tether",
+    "evidence": "~$10B profit in 2025 (down from $13B in 2024) on $193B reserves incl. >$122B direct Treasuries; figures are an attestation, not an audit. Grade B/C.",
+    "url": "https://finance.yahoo.com/news/tether-records-lower-annual-profit-202015562.html"
+   },
+   {
+    "company": "Ramp (and Deel as comparator)",
+    "evidence": "Ramp announced $1B annualized revenue in Sept 2025, up from $700M earlier that year (secondary source, grade C); Deel said it passed $1B ARR in 2025 (Series E at $17.3B) and reports of $1.4-1.5B in H1 2026 conflict (grade C).",
+    "url": "https://seedtable.com/companies/deel/funding-rounds/series-e-2025-10"
+   }
+  ],
+  "shift_that_enabled_it": "Stablecoin legislation (GENIUS Act, 2025) and high short-term rates for reserve income; remote-work-driven cross-border employment for EOR; corporate demand for spend controls.",
+  "why_incumbents_failed": "(Inference.) Banks ship slowly and treat corporate cards as a rewards product; global payroll required entity-by-entity compliance nobody had assembled.",
+  "still_open_or_crowded": "Stablecoin issuance is winner-take-most with heavy distribution costs, and spend management is crowded (Ramp, Brex, Amex, Navan). Open space is vertical flows where payers want control and compliance and nobody has built rails; revenue from float falls if rates fall.",
+  "transfer_targets": "Hypotheses, unsized: construction pay-apps and retainage, healthcare provider payments, escrow-type flows, freight pay. The test for each is the take rate net of whoever controls distribution, and who signs the contract."
+ },
+ {
+  "miner": "non_ai_growth",
+  "name": "A federal licence that preempts a state-by-state patchwork",
+  "mechanism": "One federal registration (a CFTC-designated exchange) lets a product that states license and tax individually launch nationally within months. Product re-labelling (event contracts, parlays) plus brokerage and app distribution produce hypergrowth; the risk is the legal premise.",
+  "examples": [
+   {
+    "company": "Kalshi",
+    "evidence": "ALL figures are Sacra estimates, not company-reported: 2025 revenue $735M, June 2026 annualized $3.5B, blended take ~1.2%, sports ~80-85% of volume, June 2026 volume ~$31B, reported talks at $40B valuation. The page's own '+172% YoY' does not reconcile with $735M to $3.5B (~4.8x), so treat as low confidence (grade C). Legal: >12 state actions, a Nov 2025 Nevada federal loss, an April 2026 Third Circuit ruling for CFTC preemption.",
+    "url": "https://sacra.com/research/kalshi-at-3b-year/"
+   },
+   {
+    "company": "Polymarket (US entry)",
+    "evidence": "Bought CFTC-licensed QCEX for $112M and launched in the US in May 2026; started charging fees Jan 2026; revenue estimates conflict ($375M annualized in May 2026 vs $1B in June 2026, both Sacra), blended take ~0.67%. Grade C.",
+    "url": "https://sacra.com/research/polymarket-at-375m-year-revenue/"
+   }
+  ],
+  "shift_that_enabled_it": "A pro-innovation CFTC posture in 2025-26, lawsuits against states and favourable appellate rulings (Third Circuit, Apr 2026), plus sports and election event demand. The status is split by circuit and could reverse.",
+  "why_incumbents_failed": "(Inference.) Sportsbooks are built on state licences and state tax regimes; moving to federal rails would cannibalize licensed business.",
+  "still_open_or_crowded": "Crowded and legally unsettled. One source puts Kalshi at ~83% of CFTC-regulated volume; Polymarket is now in the US. Revenue is concentrated in sports, which is also the legal target. A founder should assume incumbents and well-funded entrants are already in.",
+  "transfer_targets": "The structural asset is preemption: federal charters or registrations that replace many state licences (payments and money transmission, trust or banking charters, certain commodity/swap products). This fails round 2's 'check the legal premise' rule until a specific statute and its litigation record are read; none is verified here."
+ },
+ {
+  "miner": "non_ai_growth",
+  "name": "Legal-shock claims pool (finance and filing layer)",
+  "mechanism": "A court ruling creates a large, easily quantified receivable owned by many small, process-poor claimants. A service layer files claims and a finance layer buys them at a discount (20-30 cents on the dollar was reported), taking a cut for speed and certainty.",
+  "examples": [
+   {
+    "company": "IEEPA tariff refund pool",
+    "evidence": "SCOTUS (Learning Resources v. Trump, Feb 20 2026, 6-3) struck down IEEPA tariffs; est. $166-175B owed to >330,000 importers on ~53M entries. Refunds are not automatic: CBP's CAPE portal opened Apr 20 2026 covering ~63% of eligible entries; <10% of importers had ACH set up by late March; claims stated to pay in 60-90 days. Grade B (law-firm and trade analyses). Status after April 2026 not verified.",
+    "url": "https://www.mondaq.com/unitedstates/export-controls-trade-investment-sanctions/1750338/supreme-court-strikes-down-ieepa-tariffs-refund-process-and-next-steps-for-importers"
+   },
+   {
+    "company": "Tariff-refund secondary market (hedge funds; Cantor reported)",
+    "evidence": "Fortune describes a legal, growing secondary market with hedge funds buying refund rights; Wired reported in July 2025 that Cantor offered 20-30 cents on the dollar, which Cantor disputes (never executed). Filing services such as GingerControl sell CAPE/protest packages. Grade C.",
+    "url": "https://www.mondaq.com/unitedstates/international-trade-investment/1768694/tariff-refund-claims-new-interest-in-purchasing-but-there-are-risks"
+   }
+  ],
+  "shift_that_enabled_it": "A Supreme Court holding that removed the legal basis for ~$170B of duties, plus a court order (CIT, Atmus Filtration, Mar 4 2026) that all importers of record benefit, combined with a government claims system that is phased and non-automatic.",
+  "why_incumbents_failed": "(Inference.) Customs brokers are not claims businesses, law firms are too expensive for small claims, and CBP tooling lagged the ruling.",
+  "still_open_or_crowded": "Mostly closing: it is a one-time pool, large players and brokers are active, and payment is expected within months of valid claims. Round 1's refund-exchange ideas already died to hidden incumbents, so assume competition. The reusable asset is a claims-processing factory plus a financing partner, ready before the next ruling.",
+  "transfer_targets": "Hypotheses, not researched here: other mass-claim pools with low take-up (antitrust and class settlements, interchange litigation, unclaimed property, out-of-network dispute arbitration under the No Surprises Act). Each needs a count of claimants, average claim size and an incumbent check."
+ },
+ {
+  "miner": "non_ai_growth",
+  "name": "Roll-up multiple arbitrage in fragmented, recurring local services",
+  "mechanism": "Buy owner-operated firms at roughly 4-12x EBITDA, add procurement, back-office and cross-sell, then sell or recapitalize the platform at 15-18x. Retiring owners without successors supply the targets; debt and PE equity supply the capital. Growth is largely acquired, not organic.",
+  "examples": [
+   {
+    "company": "Hub International (insurance brokerage platform)",
+    "evidence": "2025 brokerage revenue $4.75B (+10.1%), gross $5.28B, organic growth mid-single digit; 49 acquisitions in 2025 vs 61 (2024) and 65 (2023); ~$1.6B minority raise at ~$29B enterprise value (vs $23B in 2023). Grade B.",
+    "url": "https://www.businessinsurance.com/top-insurance-brokers-no-7-hub-international/"
+   },
+   {
+    "company": "Public insurance-broker valuations (Brown & Brown, peers)",
+    "evidence": "Public broker multiples peaked at 19.3x LTM EBITDA (Q1 2025) and fell to ~16.4x by September; Brown & Brown went 17.8x to 12.9x over 2025 as organic growth slowed (3.6% in Q2 2025 vs 10.0% a year earlier); mid-market agencies 11.9x to 11.4x; PE deals for MGAs/brokers fell from 1,066 (2021) to 543 (2023). Grade B/C.",
+    "url": "https://mercercapital.com/insights/newsletters/insurance-industry-newsletter/fourth-quarter-2025/"
+   },
+   {
+    "company": "PE-backed HVAC and home-services platforms",
+    "evidence": "PitchBook: 55 PE HVAC deals in 2024, +72% and the highest since at least 2017 (search snippet; the PDF returned 403). Reported Apex valuation ~$10B and Champions at ~18.5x EBITDA come from advisory/marketing sites (grade C). I found no data on distress or realized returns.",
+    "url": "https://files.pitchbook.com/website/files/pdf/Q2_2025_PitchBook_Analyst_Note_Clearing_the_Air_on_HVAC_19463.pdf"
+   }
+  ],
+  "shift_that_enabled_it": "Cheap leverage through 2021, an aging owner generation, recurring service revenue that lenders like, and PE capital seeking yield. Multiple expansion at exit is now stalling.",
+  "why_incumbents_failed": "(Inference.) The segment is fragmented into thousands of small firms with no capital and no succession plan.",
+  "still_open_or_crowded": "Late-cycle. Multiples are compressing, the pool of buyers is thinning (most large PE firms already own broker assets), and organic growth slowed. Entry for a small team is a search fund or independent sponsor, not a startup. A $100M-revenue path exists but needs hundreds of acquisitions or a sponsor's balance sheet.",
+  "transfer_targets": "Hypotheses, unverified: recurring, compliance-mandated services that are not yet picked over, such as fire and life-safety inspection, elevator maintenance, backflow/water testing, specialty insurance agencies and MGAs. Each needs a bottom-up count of reachable firms and an incumbent-platform check before it is believed."
+ },
+ {
+  "miner": "non_ai_growth",
+  "name": "Category reinvention against legacy-brand health overhang, ending in a strategic exit",
+  "mechanism": "In a category dominated by two or three giants whose core brands cannot credibly turn 'better for you', a challenger uses creator and social-proof trial, wins retail velocity at Walmart/Target/Costco, makes through co-packers and is bought by the incumbent at ~3-4x revenue.",
+  "examples": [
+   {
+    "company": "Poppi",
+    "evidence": "PepsiCo agreed to pay $1.95B in March 2025 ($1.65B net of ~$300M tax benefits), ~3.3x an estimated ~$500M revenue (revenue unconfirmed; the Brewbound page returned 403). Grade B/C.",
+    "url": "https://www.brewbound.com/news/pepsico-to-acquire-poppi-in-1-95b-deal"
+   },
+   {
+    "company": "Olipop",
+    "evidence": "$1.85B valuation (Feb 2025); ~$400M FY2024 revenue, +100%, per secondary sources; reportedly turned down Coke and Pepsi interest; no audited 2025 revenue found. Grade C.",
+    "url": "https://en.wikipedia.org/wiki/Olipop"
+   },
+   {
+    "company": "Feastables (MrBeast)",
+    "evidence": "~$250M sales and >$20M profit in 2024 (Bloomberg via Fortune); forecast of +74% growth in 2025 looks overstated, as US sales volume reportedly grew only 13% after +33%. Deck figures (net revenue $215M vs gross sales) are not comparable. Grade B/C.",
+    "url": "https://fortune.com/2025/03/11/youtube-biggest-star-mrbeast-makes-more-money-chocolate-videos"
+   }
+  ],
+  "shift_that_enabled_it": "Health-conscious consumers, social/creator distribution that skips traditional advertising, retailers willing to slot challengers, and incumbents buying growth rather than building it.",
+  "why_incumbents_failed": "(Inference.) Their core brands cannot credibly reposition and line extensions rarely escape the parent brand, so they buy.",
+  "still_open_or_crowded": "Winners are visible and survivorship bias is large; slotting fees, working capital and retailer fights are the cost of entry; the buyer pool is a handful of strategics. Feastables' slowdown shows growth is not guaranteed. Beverage subcategories are already crowded.",
+  "transfer_targets": "Hypotheses, pool sizes not researched here: large legacy categories with a health overhang and 2-3 dominant brands (cereal, candy, snacks, condiments, ice cream, yogurt, bread, pet food). Test each by naming the likely acquirers and whether a $100M revenue challenger has already appeared."
+ },
+ {
+  "miner": "non_ai_growth",
+  "name": "Expert-labor marketplaces for a buyer class with an unconstrained budget (plus offshore staffing)",
+  "mechanism": "A new buyer needs scarce human judgment urgently and will pay for speed. A marketplace vets experts quickly, takes a 30-40% margin and scales on matching speed. A smaller variant arbitrages wages between the US and the Philippines or Latin America for small businesses. The business is staffing; the AI link is the buyer, not the product.",
+  "examples": [
+   {
+    "company": "Mercor",
+    "evidence": "Reported >$2B gross annualized revenue in June 2026 (The Information via secondary), ~4 months after $1B; pays contractors 60-70% so net is ~$600-800M; >30,000 weekly contractors at ~$85-105/hr; reportedly >90% of revenue from OpenAI, Anthropic and Google DeepMind; unaudited. Grade C. AI-dependent demand.",
+    "url": "https://dealroom.co/news/137121-mercor-doubles-to-2b-gross-revenue-run-rate-as-ai-labs-buy-expert-data/"
+   },
+   {
+    "company": "Surge AI and Scale AI (comparators)",
+    "evidence": "Surge ~$1.4B run rate (tracker estimate, unverified, grade D); Scale AI just under $1B in 2025 with a guaranteed floor from Meta (grade C).",
+    "url": "https://sacra.com/c/mercor/"
+   },
+   {
+    "company": "Offshore virtual-assistant staffing (20four7VA as an example)",
+    "evidence": "Vendor report: VA market $6.5B in 2026 heading to $34B by 2030; 87% of placements to businesses under 50 employees; Philippines ~38% of talent. 20four7VA ranks #3,943 on the 2026 Inc. 5000. No sector revenue data; evidence is vendor-sourced and weak (grade C).",
+    "url": "https://allwork.space/2026/08/philippines-remote-workforce-disrupts-traditional-business-process-outsourcing-as-global-virtual-assistant-market-heads-for-34-billion/"
+   }
+  ],
+  "shift_that_enabled_it": "AI labs needing expert-written data at scale and urgency; remote-work normalization lowering the friction of hiring offshore staff.",
+  "why_incumbents_failed": "(Inference.) Traditional staffing firms are slow and cannot vet experts at scale; crowd-labeling platforms produced low-skill labor; freelance marketplaces had no vetting layer.",
+  "still_open_or_crowded": "Mercor-class is concentrated and AI-dependent (three customers, 'build it in-house' risk, gross vs net revenue confusion). Offshore staffing has thousands of small vendors and low barriers, so scale is the open question.",
+  "transfer_targets": "Hypotheses: other buyers with funded urgency and scarce expertise (defense contractors needing cleared engineers, utilities and data-center builders needing power/commissioning engineers, health systems needing coders). The wedge is vetting plus speed for a payer that already pays staffing fees."
+ },
+ {
+  "miner": "non_ai_growth",
+  "name": "Wrapper intermediary on pass-through flows (government resale, risk contracts)",
+  "mechanism": "Sit between a large payer and many suppliers or beneficiaries, carry the contract vehicle, compliance or clinical risk that neither side wants to carry, and book the whole flow as revenue. Growth rankings and revenue size therefore overstate economic scale; the question is always the net take rate.",
+  "examples": [
+   {
+    "company": "Carahsoft",
+    "evidence": "Forbes: #20 among private US companies at >$18.9B revenue, with >$22.5B bookings in 2025; Washington Technology Top 100 shows ~$1.79B of government-facing revenue and ~4,000 employees. The two are not reconciled, so net margin is unknown. Private, unaudited. Grade B/C.",
+    "url": "https://virginiabusiness.com/government-contractors-technology-2026-craig-p-abod/"
+   },
+   {
+    "company": "Monogram Health (Inc. 5000 2025 #7)",
+    "evidence": "Self-reported revenue $4.9M (2020) to >$3B (2024), 14,131% three-year growth, in-home value-based kidney care in 36-37 states; projected $5B in 2025 (projection, not reported). Likely gross risk-contract revenue; I found no profit data and no distress reports. Upward Health ranked #4 (>240x growth). Grade C (company press releases).",
+    "url": "https://www.monogramhealth.com/resources/press/monogram-health-ranks-7th-on-the-2025-inc-5000-list-of-americas-fastest-growing-companies/"
+   }
+  ],
+  "shift_that_enabled_it": "Government cloud/cyber buying through pre-negotiated contract vehicles; Medicare Advantage and value-based contracts that pay for managed chronic-disease cohorts; vendors that want those buyers but lack public-sector sales or clinical operations.",
+  "why_incumbents_failed": "(Inference.) Software vendors lack government sales and compliance teams; fee-for-service primary care did not manage the sickest patients.",
+  "still_open_or_crowded": "Government resale is a relationships-and-contract-vehicle moat with incumbents already in place. Risk-bearing care has a long failure record (risk adjustment, medical cost trend); fast growth rank is not evidence of margin.",
+  "transfer_targets": "Hypotheses: other complex buyers that vendors cannot reach cost-effectively, such as hospital group purchasing, state and local cooperative purchasing, K-12 and higher education. Always get the net take rate before sizing; a gross-revenue path to $100M is not a profit path."
+ },
+ {
+  "miner": "non_ai_growth",
+  "name": "Collectibles liquidity stack: live marketplace plus authentication chokepoint",
+  "mechanism": "Collectibles (trading cards especially) became a liquid asset class, which created demand for price discovery (live video auctions), trust (grading) and eventually storage and lending. The grading company is a capacity-constrained chokepoint with pricing power; the marketplace takes roughly 8-11% of volume.",
+  "examples": [
+   {
+    "company": "Whatnot",
+    "evidence": "GMV ~$3B (2024) to >$8B (2025) per its own report (earlier forecast >$6B); revenue unpublished, Fortune estimated $700M-$1B (~11% take); Series F at $11.5B (Oct 2025) and a reported Series G of $545M at ~$20B (Aug 2026). Grade C.",
+    "url": "https://www.fortune.com/2025/06/16/whatnot-startup-5-billion-dollar-livestream-video-shopping-app-auctions-sports-trade-card-breaks-ebay"
+   },
+   {
+    "company": "PSA / Collectors Inc.",
+    "evidence": "Major authenticators graded 26.6M cards in 2025; PSA 19.26M (+26%); TCG/non-sports 16.8M vs sports 10M; Pokemon alone 16.1M; Collectors (PSA, SGC, Beckett) ~80% share; $200M investment announced May 2026; backlog peaked near 14M cards, ~12M and falling; value tiers paused. NO revenue figure found, so economic scale is unverified (grade B/C).",
+    "url": "https://www.si.com/collectibles/psa-backlog-falls-12-million-means-card-grading-2026"
+   }
+  ],
+  "shift_that_enabled_it": "Pokemon and sports-card boom treated as an asset class, live-video commerce habits, and trust requirements for high-value raw cards.",
+  "why_incumbents_failed": "(Inference.) eBay's static listings and auction houses' high fees missed live engagement, and grading capacity depends on scarce trained graders.",
+  "still_open_or_crowded": "The backlog is visible unmet demand for grading capacity, but Collectors is dominant and the whole stack rides a single collectibles cycle that can reverse. Marketplaces are crowded (eBay, Fanatics-class players).",
+  "transfer_targets": "Hypotheses: asset classes with price discovery but no trust layer (vintage video games, LEGO, sneakers, watches, wine). The test is whether a credible grading standard exists and whether resale volume supports fees at $100M scale."
+ },
+ {
+  "miner": "non_ai_growth",
+  "name": "Home energy as a service on a project-finance stack (weak revenue evidence)",
+  "mechanism": "Own the asset (a home battery), act as the retail electricity provider, and sell aggregated flexibility back to the grid, financed with equity and asset-level capital. The claim is that the retail margin plus grid discharge revenue beat selling hardware once.",
+  "examples": [
+   {
+    "company": "Base Power (Texas, Illinois)",
+    "evidence": "$1B Series D at $13B valuation (Aug 2026), >$2.5B raised, fleet >500 MWh, in-house battery manufacturing in Austin. Revenue is only a Sacra estimate: ~$12M annualized in 2025 and ~$70M projected for 2026; 1,500 homes in July 2025 to ~7,000 by December 2025 (estimate). Valuation is far ahead of revenue; treat as thesis, not proof. Grade C.",
+    "url": "https://dealroom.co/news/142739-base-power-raises-1b-series-d-at-13b-valuation-launches-us-built-home-ba/"
+   }
+  ],
+  "shift_that_enabled_it": "ERCOT price volatility and reliability concerns, falling battery costs, and tax-credit-driven leasing economics (credit structure not verified in this pass).",
+  "why_incumbents_failed": "(Inference.) Utilities are regulated and slow; installers and Tesla-style hardware sellers sell one-off equipment rather than own and operate the fleet.",
+  "still_open_or_crowded": "Two states, capital-intensive and unproven at scale; nobody in this search showed audited revenue. Not replicable by a small team.",
+  "transfer_targets": "Hypotheses with no evidence yet: other distributed assets that can be owned and aggregated (heat pumps, water heaters, EV chargers). Weak, include only if later evidence shows revenue per asset and financing cost."
+ },
+ {
+  "miner": "policy_created",
+  "name": "Budget surge plus buying reform turns a software-defined challenger into a prime",
+  "mechanism": "A large, politically protected budget increase meets procurement that now rewards finished products (enterprise agreements, programs of record) over cost-plus programs. Whoever already has a deployed product and engineering velocity absorbs the dollars, then vertically integrates. Incumbents with real production capacity also win, so the failure of old primes is specific to software and autonomy.",
+  "examples": [
+   {
+    "company": "Palantir",
+    "evidence": "Q2 2026 US government revenue $809M, +90% YoY (+18% QoQ); total revenue $1.935B, +93%; FY2026 guide about $8.15B. Primary source (8-K).",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000039/a2026q2ex991pressrelease.htm"
+   },
+   {
+    "company": "Anduril",
+    "evidence": "Series H at $61B post-money (2026-05-13); about $2.2B 2025 revenue; 2026 projection about $4.3B (unaudited, via The Information); Army 10-year enterprise contract with ceiling up to $20B consolidating 120+ procurement actions (a ceiling, not obligated spend); still loss-making, about 27.7x revenue.",
+    "url": "https://sacra.com/c/anduril/"
+   },
+   {
+    "company": "Rheinmetall",
+    "evidence": "H1 2026 sales EUR5.2B (+39%), operating result EUR786M (+74%), backlog EUR80.5B vs EUR56.0B a year earlier, H1 nominations EUR16.2B; but operating free cash flow -EUR1.6B and FY guidance cut by EUR300M after F126 frigate cancellation. Primary company report. Helsing ($18B valuation, July 2026) and Quantum Systems (about $8B) disclose no revenue, so they are weak evidence of captured spend.",
+    "url": "https://www.rheinmetall.com/en/media/news-watch/news/2026/08/2026-08-06-rheinmetall-news-half-yearly-financial-report-h1"
+   }
+  ],
+  "shift_that_enabled_it": "US defense budget surge plus Golden Dome (reported as a proposed $185B initiative), European rearmament under NATO pressure, and Army-wide enterprise buying that consolidates procurement actions.",
+  "why_incumbents_failed": "Cost-plus primes are paid on cost, so they under-invest in product; Palantir and Anduril self-fund R&D and sell a finished capability. Incumbents with production capacity (Rheinmetall) did fine, so the gap is software and autonomy, not hardware.",
+  "still_open_or_crowded": "Top layer is crowded and priced for perfection (Anduril about 27.7x revenue). More open: sub-tier suppliers (energetics, rocket motors, castings, batteries), test and evaluation, secure software supply chain. The pool is hundreds of billions, so a $100M business needs a tiny share; the real constraints are cleared staff and procurement access.",
+  "transfer_targets": "Other government pools run by cost-plus integrators where a mandate exists: state Medicaid/SNAP eligibility and payment-accuracy systems, border and customs IT, public-health data, utility grid planning. FAA air-traffic modernization is a candidate from background knowledge only, not verified."
+ },
+ {
+  "miner": "policy_created",
+  "name": "Policy money flows first to whoever already holds permitted physical capacity",
+  "mechanism": "When the government must spend fast, it buys from operators with sites, permits and staff already in place. The scarce asset is permitted, powered, cleared capacity, not an idea. Incumbents then sell assets back to the government at a premium.",
+  "examples": [
+   {
+    "company": "CoreCivic",
+    "evidence": "Q2 2026 revenue about $684.9M (+27% YoY); ICE revenue +$91.3M (+51.6%); sold four detention facilities to the federal government for $2.2B gross (about $1.6B net). Earnings-call summary, verify against 10-Q.",
+    "url": "https://www.marketbeat.com/instant-alerts/corecivic-q2-earnings-call-highlights-2026-08-07/"
+   },
+   {
+    "company": "GEO Group",
+    "evidence": "Q2 2026 revenue about $732M (+15%); FY2026 revenue guide $2.95-3.05B, adjusted EBITDA guide $550-560M; contracted ICE capacity heading to about 29,500 beds. H.R.1 provided $45B for detention expansion over about 51 months; about 90% of ICE detention is private.",
+    "url": "https://www.marketbeat.com/instant-alerts/geo-group-q2-earnings-call-highlights-2026-08-08/"
+   }
+  ],
+  "shift_that_enabled_it": "A one-time appropriation (H.R.1, $45B for detention) with a multi-year spend window and an enforcement mandate that cannot wait for new construction.",
+  "why_incumbents_failed": "They did not; they are the winners. New entrants fail because permitting, zoning and licensing take years and the government cannot wait.",
+  "still_open_or_crowded": "Closed and politically toxic for detention. The transferable lesson is to pre-position permitted capacity before the budget arrives. Reputational and political risk should be an explicit gate.",
+  "transfer_targets": "Cleared facilities (SCIFs), powered land near substations, munitions-grade energetics plants, shipyard and drydock capacity, drone test ranges, IL5/IL6 cloud regions, bonded warehouses and free-trade zones, where a new budget line needs capacity that takes years to permit."
+ },
+ {
+  "miner": "policy_created",
+  "name": "Liability-shifting mandate becomes a per-event verification rail",
+  "mechanism": "A law makes the platform liable for a fact about the user (age, identity, provenance). The platform cannot build this at scale, so it buys a per-check API. Revenue is usage-based and scales with traffic, not headcount.",
+  "examples": [
+   {
+    "company": "Socure",
+    "evidence": "ARR over $340M, 3,000+ customers, new ARR +62% YoY (Star/Inc. report, secondary). Broad identity business, so only part is age-driven.",
+    "url": "https://www.thestar.com.my/tech/tech-news/2026/08/22/the-internet-is-starting-to-card-everyone-these-startups-are-making-millions-from-it"
+   },
+   {
+    "company": "Persona",
+    "evidence": "$200M Series D at $2B valuation (April 2025); ARR above $100M in 2025 per a Forbes estimate (secondary, no 2026 figure found).",
+    "url": "https://fintech.global/?p=198974"
+   },
+   {
+    "company": "Yoti",
+    "evidence": "Revenue +62% in 2025 to about $43M (year to March 2026), about 1M age checks a day, still loss-making with over GBP100M debt (City AM); driver is UK Online Safety Act. Roblox reported over half of global DAU and 65% of US users age-checked by 2026-03-31.",
+    "url": "https://www.cityam.com/?p=2379370"
+   }
+  ],
+  "shift_that_enabled_it": "Free Speech Coalition v. Paxton (June 2025), UK Online Safety Act (Ofcom deadline July 2025), Australia's under-16 social media rule, US state app-store and children's laws, an EU age-proof app in development.",
+  "why_incumbents_failed": "Platforms relied on self-declaration to avoid friction and privacy exposure; bank-oriented KYC vendors were designed and priced for high-value checks, not cent-level consumer checks.",
+  "still_open_or_crowded": "Crowded at the vendor layer (Persona, Yoti, Veriff, k-ID, Socure). My arithmetic: if all of Yoti's $43M were age checks at 1M a day, that is roughly 10 cents a check, a thin price for a $100M outcome. Chokepoint risk is Apple/Google absorbing the check into the OS or app store (background knowledge, unverified).",
+  "transfer_targets": "Any law forcing a platform to attest a fact about a user: AI-content provenance and watermarking (EU AI Act Art. 50(2), provisional 2026-12-02), non-consensual deepfake takedown, right-to-work verification under tougher immigration enforcement, AML identity checks for licensed stablecoin issuers."
+ },
+ {
+  "miner": "policy_created",
+  "name": "Windfall refund creates a claims-recovery and claims-financing rail (until the government ships the free pipe)",
+  "mechanism": "A court strikes down a levy, creating a large refund liability with a messy claims process. Layers appear: filing services, litigation, claim purchase at a discount, and loans secured on claims. The window closes when the payer offers a free self-service portal.",
+  "examples": [
+   {
+    "company": "US importers / CBP CAPE (IEEPA refunds)",
+    "evidence": "About $166B collected from 333,000+ importers; SCOTUS struck IEEPA tariffs 6-3 on 2026-02-20; CAPE live 2026-04-20; as of 2026-07-31 (CBP declaration) $128.68B accepted, about $100B refunded incl. interest, about $66B unreturned, about $11.4B on finally liquidated entries not yet processable; Amazon reported receiving $600M; DOJ appealed universal relief to the Federal Circuit on 2026-06-03.",
+    "url": "https://www.supplychaindive.com/news/cbp-has-paid-100-billion-in-ieepa-tariff-refunds/827257/"
+   },
+   {
+    "company": "Refund claims market (hedge funds, Seaport Global)",
+    "evidence": "Claims traded around 20 cents on the dollar before the ruling and about 40 cents right after (NPR); a later 50-80 cents figure appears in one undated source and is unverified; hedge funds lent against claims with PIK interest; American Eagle Outfitters and The Children's Place sold refund rights for cash. No revenue figures found for any startup (for example Tariff Recovery Team).",
+    "url": "https://www.npr.org/2026/02/25/nx-s1-5723910/the-market-for-tariff-refunds"
+   }
+  ],
+  "shift_that_enabled_it": "A statutory-authority ruling plus a Court of International Trade order that all importers of record are entitled to refunds.",
+  "why_incumbents_failed": "Customs brokers were filing tools, not financiers, and were busy; large importers handled claims themselves. The government became the best product by shipping CAPE in about 60 days.",
+  "still_open_or_crowded": "Mostly closed for IEEPA. Residual fee-able pool is the finally liquidated entries (about $11.4B), SMB importers who never filed, and the appeal outcome. Honest verdict: the headline pool was huge but the revenue pool for a new intermediary was small and short-lived.",
+  "transfer_targets": "Pending refund disputes: Section 122 tariffs (CIT held unlawful 2026-05-07 with relief limited to named plaintiffs; Federal Circuit stayed 2026-06-16), the new Section 301 forced-labor tariffs, and any other pool where a court may create refunds. Look for a long list of payers with a protective-filing deadline."
+ },
+ {
+  "miner": "policy_created",
+  "name": "Regulatory permission slip creates a licensed first mover",
+  "mechanism": "A regulator or court says yes to a product that was illegal or grey. The licence is the moat, the product is simple, and growth comes from distribution plus legal capital. The window closes when incumbents get the same permission.",
+  "examples": [
+   {
+    "company": "Kalshi",
+    "evidence": "CFTC-regulated; raised $1B at $22B (2026), double its $11B valuation five months earlier; annualized volume $52B to $178B in six months; annualized revenue above $1.5B; about 89-90% of 2025 revenue from sports ($263.5M fees). Legal risk: Massachusetts court (Jan 2026) found unlicensed sportsbook conduct (appeal argued 2026-05-04, undecided), Nevada loss (Nov 2025), cease-and-desists in at least six states, versus Third Circuit win 2026-04-06.",
+    "url": "https://dealroom.co/news/128667-kalshi-raises-1b-hits-22b-valuation-and-1-5b-arr-as-legal-battle-looms/"
+   },
+   {
+    "company": "Circle (GENIUS Act)",
+    "evidence": "Verified in Circle's own Q2 2026 release: revenue and reserve income $701M (+7% YoY), USDC $73.3B at quarter end (+19% YoY but down from $77B at end of March), reserve return rate down 66bp to 3.5%, adjusted EBITDA $143M. One year after the law the issuer's growth is mostly rate-driven. OCC promises final rules by Nov 2026; 21 global banks announced a consortium stablecoin for H1 2027.",
+    "url": "https://www.circle.com/pressroom/circle-reports-second-quarter-2026-results"
+   }
+  ],
+  "shift_that_enabled_it": "Kalshi's 2024 court win against the CFTC, a CFTC that now sides with the sector, and the GENIUS Act (July 2025) for stablecoins.",
+  "why_incumbents_failed": "State-licensed sportsbooks cannot serve every state under one licence; banks waited until stablecoin rules were certain.",
+  "still_open_or_crowded": "Kalshi's position depends on federal preemption holding and one state supreme court could change it; sports concentration is a risk. The stablecoin first-mover window closes in about 12 months as banks arrive and OCC applications open in 2027.",
+  "transfer_targets": "Places where a licence application window opens: OCC national trust charters for stablecoin issuers (2027), reclassifications that open a market (cannabis 280E relief is a candidate from background knowledge), drone beyond-visual-line-of-sight rules, nuclear micro-reactor licences. Leads to verify, not findings."
+ },
+ {
+  "miner": "policy_created",
+  "name": "Mandated government IT with rich federal match: incumbents pre-empt it, but a hard dollar penalty on the payer opens a lane",
+  "mechanism": "Congress imposes a rule the states must operate and funds builds at a high federal match, so demand is real. But installed integrators bid first and, in Medicaid, offered discounts to protect their base. A different lane opens where the state itself bears a performance-priced cost (SNAP error rates): a named signer with a dollar number.",
+  "examples": [
+   {
+    "company": "Medicaid work-requirement systems (Deloitte, Gainwell, Conduent, Maximus, Optum and others)",
+    "evidence": "43 states must implement by 2027-01-01; 90% federal match for builds, 75% for operations; CMS announced 10 vendors pledged over $600M in no-cost or discounted services; states estimated $3-10M each to set up; most states use existing vendors; Deloitte has Medicaid system contracts with 25 states worth at least $6B (KFF). No startup contract awards found.",
+    "url": "https://www.fiercehealthcare.com/regulatory/10-medicaid-vendors-pledge-600m-discounted-free-services-support-work-requirements-cms"
+   },
+   {
+    "company": "State SNAP agencies (error-rate cost share)",
+    "evidence": "State admin share rises from 50% to 75% on 2026-10-01; from 2027-10-01 states pay 0/5/10/15% of benefits by payment error rate (under 6%, 6-8, 8-10, 10+). National FY2025 error rate 10.62%, only nine states under 6%; one analysis puts extra state cost at about $10B a year; Alabama about $174M a year unless it gets below 7.99%. Kansas hired a consultant, Mississippi is buying case-management software, Louisiana pays bonuses for spotting errors. Advocacy/state sources; error rate counts over- and under-payments, not fraud.",
+    "url": "https://alabamareflector.com/2026/04/24/federal-budget-changes-to-snap-could-cost-alabama-up-to-261-million/"
+   }
+  ],
+  "shift_that_enabled_it": "H.R.1 (Public Law 119-21) work requirements and federal-to-state cost shifts.",
+  "why_incumbents_failed": "In Medicaid they did not fail; they gave the build away and kept the contract. The opening is a layer they do not own: income and employment data, error detection and state-by-state payment accuracy.",
+  "still_open_or_crowded": "Medicaid system builds are closed. SNAP error reduction is open and the buyer has a hard number. My illustrative arithmetic: 40 states with $100-200M exposure each and a vendor paid 3-5% of exposure avoided gives a $120-400M a year pool, so $100M needs a large share and attribution is hard.",
+  "transfer_targets": "Any program where Congress converted a federal obligation into a performance-priced state cost share: SNAP now; Medicaid provider-tax and state-directed-payment limits (background knowledge, unverified); unemployment-insurance and child-care-subsidy integrity. Buyer is the state SNAP director or human-services CIO."
+ },
+ {
+  "miner": "policy_created",
+  "name": "Subsidy becomes a tradable asset (tax-credit transfer market); the cliff splits winners from the dead",
+  "mechanism": "The IRA let developers sell tax credits for cash, creating a marketplace (matching, diligence, insurance) and a financing layer. When the OBBBA phased out wind, solar and 25D, volume rushed ahead of the deadline, then segments that lost protection collapsed while protected ones kept growing.",
+  "examples": [
+   {
+    "company": "Crux / US tax-credit transfer market",
+    "evidence": "2025 transfers $42B (vs $60B forecast); Q2 2026 a record $14.9B; H1 2026 up to $21B; FY2026 forecast $47.5-49B; clean-energy capex $74B in H1 2026 on pace for $180B. Solar share 30% (from 35%), wind share 7.5% (from 23%). No marketplace revenue figures found; at an assumed 1-2% fee the gross pool is only $0.5-1B shared among brokers, insurers and banks (my arithmetic).",
+    "url": "https://www.pv-tech.org/us-clean-energy-tax-credit-transfers-us21-billion-h1-2026-crux/"
+   },
+   {
+    "company": "Sunnova and Mosaic (casualties)",
+    "evidence": "Sunnova Chapter 11 (about $10.7B debt) and Mosaic Chapter 11 (2025-06-06) amid rates and credit uncertainty; 25D ended 2025-12-31; leasing via 48E survives. Analysts note company-specific problems also existed.",
+    "url": "https://www.canarymedia.com/articles/solar/sunnova-mosaic-bankruptcies-industry-challenges"
+   }
+  ],
+  "shift_that_enabled_it": "IRA transferability (2022); OBBBA begin-construction cutoff of 2026-07-04 and placed-in-service cutoff of 2027-12-31 for wind and solar; FEOC restrictions.",
+  "why_incumbents_failed": "Tax-equity capacity was limited to a handful of banks, so the market needed brokers, insurers and marketplaces.",
+  "still_open_or_crowded": "Storage, nuclear and geothermal keep their timelines so volume continues there. The profit pool for intermediaries is unproven. Businesses whose customer is a retail subsidy recipient die quickly when the subsidy is withdrawn.",
+  "transfer_targets": "Other tradable government instruments: CBAM certificates (sales start 2027-02-01), 45Q/45V credits, state carbon and fuel-standard credits, RINs. Also the cautionary lesson for any idea whose demand depends on a retail subsidy."
+ },
+ {
+  "miner": "policy_created",
+  "name": "When regulation cannot keep pace with demand, the unregulated substitute earns a speed premium",
+  "mechanism": "A regulated queue (grid interconnection, permitting) becomes the bottleneck on a hot demand wave. A supplier that bypasses the queue charges for speed. The policy lag is the product, which also means reform erodes it.",
+  "examples": [
+   {
+    "company": "Bloom Energy",
+    "evidence": "Q2 2026 revenue $1.065B (+166%); FY2026 guide $3.9-4.2B; Oracle master agreement for 2.8GW after a 55-day deployment; Brookfield infrastructure agreement expanded to $25B; backlog growing faster than revenue. Press relay of company results.",
+    "url": "https://www.webull.com/news/15315821020718080"
+   },
+   {
+    "company": "FERC large-load interconnection (policy status)",
+    "evidence": "DOE directed FERC on 2025-10-23 to finalize a large-load (above 20MW) rule by 2026-04-30; FERC instead issued six show-cause orders (ISO-NE, NYISO, PJM, MISO, SPP, CAISO) on 2026-06-18; outcomes pending.",
+    "url": "https://www.foley.com/insights/publications/2026/06/ferc-issues-six-tailored-show-cause-orders-to-accelerate-large-load-interconnection/"
+   }
+  ],
+  "shift_that_enabled_it": "AI data-center load growth meeting a decades-old interconnection process, with reform proposals still unresolved.",
+  "why_incumbents_failed": "Utilities and grid operators run multi-year queues by design and are not paid for speed.",
+  "still_open_or_crowded": "Risky: if FERC/RTO reform speeds interconnection, the speed premium shrinks. A business built on someone else's regulatory delay has an expiry date. Capital-intensive and already attracting large players.",
+  "transfer_targets": "Other regulated queues with a customer who has a very high cost of delay: transformer and switchgear supply, small-reactor licensing, water rights, spectrum, airspace approvals, port and rail slots."
+ },
+ {
+  "miner": "policy_created",
+  "name": "Compliance-deadline whiplash (anti-pattern): the date moves and the vendor revenue never arrives",
+  "mechanism": "A rule creates a deadline and a flood of readiness vendors. A later political decision suspends, narrows or delays the rule, and the budget line vanishes. Forced spend is only real if someone enforces it.",
+  "examples": [
+   {
+    "company": "CMMC Phase 2 (US defense supply chain)",
+    "evidence": "Suspended 2026-07-13 by the Department of War; contracting officers told to remove Phase II third-party assessment requirements; review report expected late Sept/early Oct 2026 with no outcome found; cancellation not ruled out. Pre-suspension: 80,000-118,000 contractors, about 80-100 C3PAOs, $75-150k+ per assessment (vendor estimates).",
+    "url": "https://www.wilmerhale.com/en/insights/client-alerts/20260720-pentagon-suspends-cmmc-phase-2-requirements-and-launches-review-of-cybersecurity-certification-program"
+   },
+   {
+    "company": "CSRD sustainability-reporting vendors",
+    "evidence": "December 2025 provisional deal limits scope to over 1,000 employees and over EUR450M turnover from FY2027, cutting in-scope companies by roughly 90%; formal approval still needed. Vendors consolidating and buyers 'more selective'. Persefoni/Watershed layoffs not verified.",
+    "url": "https://www.traverssmith.com/knowledge/knowledge-container/the-omnibus-reaches-its-destination-csrd-and-cs3d-20/"
+   },
+   {
+    "company": "EU AI Act and EUDR delays",
+    "evidence": "AI Act provisional deal (2026-05-07) moved Annex III high-risk to 2027-12-02 and Annex I to 2028-08-02 (OJ publication not confirmed); EUDR postponed 12 months to 2026-12-30.",
+    "url": "https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines/"
+   }
+  ],
+  "shift_that_enabled_it": "Simplification and omnibus politics in the EU, and a US administration that reviews or suspends rules it did not write.",
+  "why_incumbents_failed": "Not applicable; this pattern identifies vendors who sold into an unenforced deadline.",
+  "still_open_or_crowded": "A filter, not a market. Counting a deadline as forced spend requires (a) a statutory penalty with a named enforcer who has budget and is already acting, (b) the rule not sitting inside an active simplification or review process, and (c) the buyer losing revenue or a licence, not just reputation, by missing it.",
+  "transfer_targets": "Apply the filter to the next-wave list: EU Cyber Resilience Act reporting (in force 2026-09-11, enforcement posture unverified), EUDR 2026-12-30, EU AI Act Art. 50(2) 2026-12-02, CBAM certificate sales 2027-02-01, California CCPA ADMT 2027-01-01. SNAP cost share and Medicaid work requirements pass the filter; CMMC and CSRD currently do not."
+ },
+ {
+  "miner": "policy_created",
+  "name": "Price-control deal reroutes demand into a manufacturer-controlled channel; intermediaries get squeezed",
+  "mechanism": "Government pricing pressure (negotiation, most-favored-nation) makes manufacturers open cash-price channels that bypass insurers and PBMs. The party controlling supply keeps the value; distribution partners are paid as marketing, and a refund-timing float problem lands on pharmacies.",
+  "examples": [
+   {
+    "company": "TrumpRx / MFN deals",
+    "evidence": "Launched 2026-02-05 with 40 drugs; 16 of the 17 largest manufacturers signed the MFN framework; works through manufacturer-set cash prices outside insurance; rests on voluntary manufacturer agreements rather than statute.",
+    "url": "https://www.beckershospitalreview.com/pharmacy/trumprx-launches-with-discounts-on-40-drugs-5-takeaways/"
+   },
+   {
+    "company": "Hims & Hers",
+    "evidence": "2025 revenue $1.85B (up from $1.48B) but gross margin fell from above 80% to 74% as it moved from compounded to branded GLP-1s (Novo March 2026, LillyDirect late April 2026); Bank of America called it outsourced marketing for pharma. Q2 2026 8-K linked but not read.",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001773751/000177375126000161/hims-20260630x8xkearningsr.htm"
+   },
+   {
+    "company": "Medicare drug price negotiation (Medicare Transaction Facilitator)",
+    "evidence": "First 10 negotiated prices effective 2026-01-01; pharmacies must enroll in the MTF and face refund-timing cash gaps (NCPA/Three Axis estimate about $10.8k weekly shortfall and $40-46k annual revenue loss per pharmacy, assumption-dependent); 15 more drugs for 2027 including Ozempic and Wegovy.",
+    "url": "https://cms.gov/inflation-reduction-act-and-medicare/medicare-drug-price-negotiation/resources-pharmacies-and-dispensing-entities"
+   }
+  ],
+  "shift_that_enabled_it": "IRA negotiation program plus MFN executive deals; TrumpRx is more fragile than it looks because it rests on voluntary agreements.",
+  "why_incumbents_failed": "PBMs and insurers were the target of the policy, not its beneficiaries.",
+  "still_open_or_crowded": "Intermediary margin is thin and being competed away (Amazon One Medical entered GLP-1 the same week as the Lilly news). The pharmacy float problem is real but small per pharmacy, not a $100M business on its own.",
+  "transfer_targets": "Markets where policy forces price disclosure and a manufacturer-run direct channel, such as Part B drugs entering negotiation for 2028 (up to 15 more drugs). Other device or hearing categories are speculative and unverified here. Ask who controls supply and who bears the working-capital gap."
+ },
+ {
+  "miner": "policy_created",
+  "name": "Government exits as lender or payer; private capital fills only the creditworthy slice",
+  "mechanism": "When a federal loan or payment program is capped, a funding gap appears. Private lenders take the bankable slice at higher prices, leaving a residual of able-to-repay but thin-credit borrowers where a new underwriting model could win or lose.",
+  "examples": [
+   {
+    "company": "Graduate lending after Grad PLUS elimination (SoFi, Sallie Mae, Earnest)",
+    "evidence": "Grad PLUS ended for new borrowers after 2026-07-01; caps $20,500 (graduate) and $50,000 (professional); NBER w35683 estimates about $8B a year across about 370,000 borrowers; Experian: about 38% of recent graduate borrowers exceeded the new limits; Sallie Mae projected 12-14% private origination growth in 2026 (projection only); about 40% of over-limit borrowers have credit too weak for a private loan (Philadelphia Fed/PEER). No post-July origination data found.",
+    "url": "https://www.nber.org/papers/w35683"
+   },
+   {
+    "company": "Workforce Pell training providers",
+    "evidence": "Effective 2026-07-01 for 8-15 week programs; two-stage state and federal approval; only about 18 programs federally approved in five states as of 2026-09-26 (third-party count). Not new money; rollout slow. Weak evidence.",
+    "url": "https://grantedai.com/blog/workforce-pell-18-programs-five-states-september-26-2026-north-carolina-54-state-approved-6-federal-forsyth-tech-70-percent-completion-placement-strategy"
+   }
+  ],
+  "shift_that_enabled_it": "OBBBA caps on graduate and professional federal borrowing.",
+  "why_incumbents_failed": "Existing private lenders want cosigners and credit scores of roughly 650-670+, so the thin-credit group is structurally unserved.",
+  "still_open_or_crowded": "The bankable slice is contested by SoFi, Sallie Mae, Earnest and others. Bottom-up check (my arithmetic): $8B of annual originations at about 10% interest is about $0.8B a year of interest income at 100% share, so about 12% of the gap yields $100M, which is heroic. Credit risk and limits on outcome-based contracts are the main caveats.",
+  "transfer_targets": "Other places the federal role was capped with a dated start and a quantified gap: Parent PLUS limits and state-directed-payment phase-downs for hospitals (both background knowledge, unverified)."
+ },
+ {
+  "miner": "policy_created",
+  "name": "Rule volatility becomes a permanent compliance data layer (customs and trade)",
+  "mechanism": "Frequent changes in tariff authority, rates and origin rules force every importer to repeatedly classify, value and document goods. The volatility itself is the recurring service, and it extends globally as other jurisdictions copy the moves.",
+  "examples": [
+   {
+    "company": "US tariff regime churn",
+    "evidence": "De minimis suspended 2025-08-29 and upheld by the CIT 2026-08-13; OBBBA repeals it permanently from 2027-07-01 (per Saltbox); EU applies a EUR3-per-tariff-line duty on low-value parcels from 2026-07-01. IEEPA struck down; Section 122 global tariff (10% or 15%, sources differ) held unlawful by the CIT, stayed on appeal, expired 2026-07-24; Section 301 forced-labor tariffs of 10-12.5% on 60 economies began the same day (ABA summary).",
+    "url": "https://www.americanbar.org/groups/public_contract_law/resources/procurement-lawyer/2026-fall/ieepa-tariffs-struck-down-replacement-tariffs-expired/"
+   },
+   {
+    "company": "Flexport and Zonos",
+    "evidence": "Flexport: Sacra estimates $2.1B 2024 revenue (+30%) and that customs brokerage gross profit doubled in 2025; CEO targets about 30% growth in 2026 (mostly freight forwarding, so the compliance slice is unclear). Zonos: awarded a CBP Commercial Solutions Opening pilot in Nov 2025; no public revenue; last raise $69M Series A (2021).",
+    "url": "https://sacra.com/c/flexport/"
+   }
+  ],
+  "shift_that_enabled_it": "Executive-branch tariff experimentation after the IEEPA ruling plus matching EU moves (low-value parcel duty, CBAM, EUDR).",
+  "why_incumbents_failed": "Customs brokers charge per entry and run on manual filings; ERP vendors do not maintain rules content.",
+  "still_open_or_crowded": "Crowded (Flexport, Zonos, Avalara, Descartes and others) and revenue proof for the software slice is thin. CBAM free allocation is 97.5% in 2026, so the near-term net cost is small and weakens spend (sources conflict on 2027).",
+  "transfer_targets": "Dated EU import rules: CBAM (definitive period since 2026-01-01; certificates on sale 2027-02-01; first declaration for 2026 imports due 2027-09-30), EUDR (2026-12-30; geolocation data required; check for a second delay), and forced-labor supply-chain tracing."
+ },
+ {
+  "miner": "too_early",
+  "name": "Autonomy crosses the labor-substitution threshold (safety proof plus patient capital, not just a better algorithm)",
+  "mechanism": "A wage-heavy task becomes automatable only when two things hold at once: the model works inside a bounded environment AND the operator can prove safety to regulators, insurers and buyers. The 2016-2020 startups had the idea but not the proof or the capital to wait. Winners geofence, validate relentlessly, and launch driverless operations only where the proof exists, funded by a cash-rich parent or public markets.",
+  "examples": [
+   {
+    "company": "Waymo (Alphabet)",
+    "evidence": "About 500k paid rides/week across 10 US cities (Mar 2026), 14-15M trips in 2025 vs 4.5M in 2024, ~3,600 vehicles, $16B Series D at $126B (Feb 2026). Revenue is an ESTIMATE, not audited (Sacra ~$355M annualized, ~$15-17/ride). Goal of 1M rides/week by YE2026 vs a forecaster median of 775k. Predecessor Cruise: GM ended funding Dec 2024 after Oct 2023 permit revocation. Evidence strength: medium.",
+    "url": "https://sacra.com/c/waymo/"
+   },
+   {
+    "company": "Aurora Innovation (driverless trucks)",
+    "evidence": "Q2 2026 revenue only ~$2M vs $266M operating loss; second driverless fleet, ~440k driverless miles, 200 driverless trucks planned by YE2026, 2nd-gen kit at half the cost; Roush ramping to 1,000 kits/yr. Unlock is real, revenue evidence is WEAK. Exact 2025 launch date not verified.",
+    "url": "https://secure.businesswire.com/news/home/20260729316480/en/Aurora-Announces-Second-Quarter-2026-Results"
+   },
+   {
+    "company": "Starsky Robotics (dead 2020)",
+    "evidence": "Founder's shutdown post (Medium blocked direct fetch; facts via press): blamed timing, overhyped supervised ML ('pattern matching'), nobody knows how to buy safety-critical on-road robots, key investor backed out Nov 2019, trucking recession. Genuinely a too-early case.",
+    "url": "https://www.therobotreport.com/starsky-robotics-co-founder-on-self-driving-truck-shutdown/"
+   }
+  ],
+  "shift_that_enabled_it": "A decade of simulation and fleet data, a patient funder (Alphabet) and city-by-city regulatory permission (2020-2025); hardware kit cost roughly halving per generation.",
+  "why_incumbents_failed": "Ride-hail and trucking incumbents never built it; car makers (GM-Cruise) quit when a safety incident and the cost of scale collided. Survivors were funded by a cash-rich parent or public-market money.",
+  "still_open_or_crowded": "Robotaxi is consolidating around Waymo. Trucking is open but proof-heavy and extremely capital-intensive (Aurora's quarterly loss is ~130x its revenue). Not a bootstrap pattern.",
+  "transfer_targets": "HYPOTHESES, unsized: bounded-environment labor pools where a driver/operator is the dominant cost and the buyer already pays by the hour/mile/load: port and terminal tractors, rail and logistics yards, airport ground handling, quarry/mine haulage (OEMs already compete), farm field operations, fixed-lane middle-mile freight. Test: can the environment be fenced, and does the buyer have an hourly budget line that disappears?"
+ },
+ {
+  "miner": "too_early",
+  "name": "A regulator's 'yes' converts a banned or capped product into a legal one; the first licensed player owns the category",
+  "mechanism": "Demand and technology already existed; the only blocker was legal permission. When a regulator, court or statute grants it, the first compliant, licensed entity with distribution captures a category that already had customers. Main risk: permission stays contested (state suits, delayed rules).",
+  "examples": [
+   {
+    "company": "Kalshi (Intrade dead 2013)",
+    "evidence": "Intrade: ~82k members, >$200M wagered in 2012; CFTC sued Nov 2012, trading suspended 10 Mar 2013. Kalshi: $1B Series F at $22B (May 2026), talks at ~$40B; annualized revenue >$1.5B (company), >$2B (The Information, mid-June 2026), $3.5B (Sacra estimate) vs $735M in 2025; blended take rate ~1.2% (Polymarket ~0.67%); ~80% of volume is sports, parlays ~50% during the World Cup; Robinhood ~25% of volume but launched its own exchange; Polymarket US ~$1B annualized by Jun 2026. Multiple state lawsuits allege unlicensed sports wagering. Figures are ESTIMATES; Sacra's '+172% YoY' is arithmetically wrong (~+376%).",
+    "url": "https://sacra.com/research/kalshi-at-3b-year/"
+   },
+   {
+    "company": "Circle (Basis dead 2018, Diem dead 2022)",
+    "evidence": "Basis raised $133M, shut Dec 2018: CEO said US securities law would apply to its tokens. Diem sold assets for $182M Jan 2022 after regulators said it could not proceed. After the 2025 GENIUS Act, Circle FY2025 revenue $2.7B (+64%), net loss $70M (due to $424M share-based pay), USDC $75.3B at YE2025; Q1 2026 revenue $694M (+20% YoY) as rate cuts shrank reserve income. Revenue is mostly interest on reserves, so rate-sensitive.",
+    "url": "https://bitcoinminingstock.io/earnings/calls/crcl/q4-fy2025"
+   },
+   {
+    "company": "Zipline (unlock still pending)",
+    "evidence": "Raised $600M+ at $7.6B (Jan 2026), >2M deliveries, US volume +15% week over week for 7 months; revenue NOT disclosed; reportedly seeking $1B at $20B. FAA Part 108 BVLOS rule (proposed Aug 2025) reached White House review 10 Jul 2026 and was still unpublished in early Sep 2026 after missing a Jan 2026 statutory deadline. Evidence strength: weak on revenue.",
+    "url": "https://www.zipline.com/newsroom/zipline-surpasses-2-million-deliveries-raises-more-than-600m-to-power-next-phase-of-growth-and-expands-operations-to-houston-and-phoenix"
+   }
+  ],
+  "shift_that_enabled_it": "A statute (GENIUS Act, 2025), an exchange designation plus litigation (Kalshi, CFTC-regulated since 2020 per Sacra), a rulemaking (Part 108, pending).",
+  "why_incumbents_failed": "Banks and brokers could not offer products the law banned; Intrade was offshore and ran afoul of the CFTC; Libra/Diem's backers could not obtain regulatory sign-off.",
+  "still_open_or_crowded": "Prediction markets: open but getting crowded (Polymarket US, Robinhood) and legally fragile because sports are ~80% of volume and states are suing. Stablecoin issuance is dominated by Circle/Tether; open space is the rails around it. Drones: pre-unlock.",
+  "transfer_targets": "HYPOTHESES: categories where a named regulator has signaled yes but only one or two licensed entrants exist (regulated event contracts on non-sports data; tokenized versions of existing securities/treasury products; B2B cross-border flows on dollar tokens; anything waiting on a federal rule with a published deadline). Price the legal premise first (lessons.md item 4): a state-by-state fight can erase the pool."
+ },
+ {
+  "miner": "too_early",
+  "name": "A government payer code or compliance mandate creates the budget line a product never had",
+  "mechanism": "Products that work but have no payer die. When government creates a billing code or a legal duty, it creates a buyer with a budget line. Risks: codes are barely used, or mandates are unenforced or delayed.",
+  "examples": [
+   {
+    "company": "Pear Therapeutics (dead 2023) / CMS digital mental health treatment codes",
+    "evidence": "Pear filed Ch.11 Apr 2023: only about half of prescriptions were covered by insurers, could not raise in 2022-Q1 2023, laid off 170 (92%). CMS created G0552-G0554 in the CY2025 fee schedule and widened them for CY2026; G0552 still contractor-priced; analysts say claim volume is low. NO revenue evidence found.",
+    "url": "https://www.cms.gov/files/document/mm14315-medicare-physician-fee-schedule-final-rule-summary-cy-2026.pdf"
+   },
+   {
+    "company": "Age-assurance vendors (Persona, k-ID, Yoti)",
+    "evidence": "SCOTUS upheld Texas age verification 6-3 (Free Speech Coalition v. Paxton, Jun 2025); UK Online Safety Act enforced (children meeting 'highly effective' checks 25% to 43%, Jul 2025-Jan 2026; GBP 1.35M fine Feb 2026); Australia under-16 ban in force 10 Dec 2025 but testers opened accounts on 9 of 10 platforms with no proof asked. Persona $200M Series D at $2B (Apr 2025, no revenue disclosed); k-ID $45M Series A; Yoti revenue only GBP 6.2M in FY to Mar 2023; >50 firms bid for Australia's tech. Evidence strength: WEAK.",
+    "url": "https://fintech.global/?p=198974"
+   }
+  ],
+  "shift_that_enabled_it": "A dated administrative act (CMS final rule) or court ruling/statute creating a payer or a duty.",
+  "why_incumbents_failed": "Platforms had no duty to verify; payers had no code to pay.",
+  "still_open_or_crowded": "Age assurance is already crowded with funded vendors, falling per-check prices and weak enforcement; payer-code products show little revenue. Weakest pattern for a $100M bottom-up path unless a mandate comes with enforcement and a fixed fee per user.",
+  "transfer_targets": "HYPOTHESES to verify: other new mandates with a deadline, a fine schedule and a named compliance owner (e.g., CMS prior-authorization API requirements running into 2027, e-invoicing mandates in Europe; both UNVERIFIED in this run). Check each rule's date, penalties and delay history."
+ },
+ {
+  "miner": "too_early",
+  "name": "A scarce licensed asset is re-rated when a new use-case arrives",
+  "mechanism": "A license (spectrum, permit, slot, right-of-way) is worth little under its old use and a lot under a new one. First owners fail or sit on it; the asset is later sold or leased at a multiple to whoever has the new platform.",
+  "examples": [
+   {
+    "company": "EchoStar to SpaceX (LightSquared dead 2012)",
+    "evidence": "FCC moved to block LightSquared in Feb 2012 over GPS interference; Ch.11 May 2012. EchoStar agreed to sell AWS-4 + H-block (65 MHz) to SpaceX for ~$17B (~$8.5B cash + $8.5B stock + ~$2B interest payments); FCC approved 12 May 2026; close expected by Nov 2027.",
+    "url": "https://www.fierce-network.com/wireless/spacex-scoops-echostar-spectrum-17b"
+   },
+   {
+    "company": "AST SpaceMobile (Ligado L-band)",
+    "evidence": "80+ year rights to up to 40 MHz of L-band (~$550M at closing, ~$80M/yr, 4.7M penny warrants; court approved 23 Jun 2025). Revenue FY2025 $70.9M, Q1 2026 $14.7M, Q2 2026 ~$31.5M, FY2026 guide $150-200M; commercial service slipped to 2027; BlueBird 7 reached too-low an orbit in Apr 2026 and was de-orbited. Revenue still small vs price paid for spectrum.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1780312/000178031226000005/asts-ex99_1.htm"
+   }
+  ],
+  "shift_that_enabled_it": "Cheap launch and large phased-array satellites made space-to-phone service viable; the FCC reframed the band's use.",
+  "why_incumbents_failed": "LightSquared could not make terrestrial LTE coexist with GPS; EchoStar's own terrestrial wireless build did not pay off (background, unverified); the new use belonged to a different industry.",
+  "still_open_or_crowded": "The big spectrum prizes are taken (SpaceX, AT&T, AST). The pattern stays open for any scarce license whose best use has changed.",
+  "transfer_targets": "HYPOTHESES: stranded licensed or permitted assets whose best use shifted due to AI power demand or electrification: grid-interconnection positions at closed power plants, brownfield sites with transmission access, water rights near industrial clusters, rights-of-way/conduit, airport and port slots. A buy-side aggregator or broker with a data edge is a services-to-asset wedge. Needs pool sizing and a transferability legal check."
+ },
+ {
+  "miner": "too_early",
+  "name": "A cost input falls ~10x because someone else scaled; the owner of the cost curve captures the category",
+  "mechanism": "A category looks absurd at 10x the cost, and first-wave startups die on the capital and launch bill. A different player drives the input cost down for its own reasons and enters the category already holding the cheap input.",
+  "examples": [
+   {
+    "company": "Starlink / SpaceX (OneWeb dead 2020, Teledesic halted 2002)",
+    "evidence": "2025 Starlink revenue $11.4B (+49.8%), segment operating income $4.4B (39% margin), capex $4.2B, subscribers 2.3M (2023) to 8.9M (2025) to 10.3M (31 Mar 2026), ~9,600 satellites; ARPU down ~18% 2023-2025 as it moved into cheaper markets (secondary summary of the S-1). OneWeb filed Ch.11 27 Mar 2020 with 74 of 648 satellites launched after SoftBank funding failed.",
+    "url": "https://tomtunguz.com/spacex-s1-analysis"
+   },
+   {
+    "company": "Grid-scale batteries (BNEF)",
+    "evidence": "Dec 2025 survey: avg pack price $108/kWh (record low); stationary-storage packs $70/kWh (-45% vs 2024), driven by Chinese cell overcapacity (557 GWh stationary cells made vs about half that installed). Grid battery installs 112 GW (BNEF) / 108 GW (IEA) in 2025, ~10x in four years; BNEF forecasts 158 GW in 2026.",
+    "url": "https://about.bnef.com/insights/commodities/lithium-ion-battery-pack-prices-fall-to-108-per-kilowatt-hour-despite-rising-metal-prices/"
+   }
+  ],
+  "shift_that_enabled_it": "Reusable rockets (SpaceX, background) and Chinese manufacturing overcapacity in cells (2023-2025).",
+  "why_incumbents_failed": "Pre-Starlink constellations had no control of launch cost; the cost curve belonged to a rival or to a foreign industry.",
+  "still_open_or_crowded": "Satellite broadband is effectively closed to new entrants. Storage is open for integrators and software, but overcapacity-driven price collapse thins margins for Western manufacturers, and round 1 already found energy niches too small.",
+  "transfer_targets": "HYPOTHESES: look for finished-goods categories uneconomic only because one input is ~10x too dear, where that input already falls on someone else's curve (sensors, batteries, compute, actuators, satellite bandwidth); be the integrator/distributor downstream, not the upstream manufacturer. Candidate pools to size: storage-plus-load integration for commercial buildings and data centers; any service priced per kWh or per GB that could be cut ~80%."
+ },
+ {
+  "miner": "too_early",
+  "name": "A deep-pocketed buyer's demand shock (AI buildout) re-rates a stalled supply technology",
+  "mechanism": "When a buyer with enormous capex hits a hard bottleneck (power, inference speed), it pays a premium for any supplier who can deliver now. Technologies stuck in pilot mode for a decade suddenly have a customer whose problem is speed, not price.",
+  "examples": [
+   {
+    "company": "Bloom Energy (founded 2001)",
+    "evidence": "2025 revenue $2.02B (+37%), GM 29.0%; Q2 2026 revenue $1,065.4M (+165.5%), GAAP GM 33.4%; FY2026 guide raised to $3.9-4.2B; CEO: all major US hyperscalers and over a dozen neoclouds/AI labs approved its power systems. Backlog ~$20B at YE2025 (~$6B product, ~$14B service contracts cancelable annually; from Q4-25 release, not in the Q2 8-K).",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001664703/000162828026050150/ex991_q226financialresults.htm"
+   },
+   {
+    "company": "Fervo Energy (geothermal)",
+    "evidence": "IPO 14 May 2026 raised ~$2.2B; revenue tiny (Q1 2026 $61k, Q2 $113k) but 658 MW binding PPAs = $7.2B contracted backlog, 3 GW framework with Google, 2027 revenue guided $60-80M; Cape Station phase I (~100 MW) reported in commercial operation 30 Sep 2026 (sources conflict on timing). Revenue evidence weak, contracted backlog is the signal.",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001853868/000162828026056457/frvo-20260630.htm"
+   },
+   {
+    "company": "Cerebras and Groq (Graphcore as the loser)",
+    "evidence": "Cerebras (2016) revenue $24.6M (2022), $290M (2024), $510M (2025); Q2 2026 GAAP revenue $180.1M (+74%), cloud/services +281% while hardware fell to $54.1M; RPO $25.4B at 30 Jun 2026; FY2026 core revenue guide $880-890M; IPO raised $5.55B; GAAP gross margin 14.2%; extreme concentration (G42+MBZUAI 86% of 2025 revenue per S-1 coverage; OpenAI, AWS also significant). Groq (2016) licensed to Nvidia for ~$20B (Dec 2025). Graphcore (2016) sold to SoftBank for ~$600M in 2024 after $2.7M 2022 sales vs $204.6M loss.",
+    "url": "https://www.sec.gov/Archives/edgar/data/0002021728/000162828026056186/cbrsannouncesfinancialresu.htm"
+   }
+  ],
+  "shift_that_enabled_it": "The 2023-2026 AI buildout made power and inference speed the binding constraints for hyperscalers.",
+  "why_incumbents_failed": "My inference, not sourced: utilities and turbine makers could not deliver on-site power fast; GPU incumbents were not optimized for low-latency inference.",
+  "still_open_or_crowded": "Open at the component/bottleneck level but capital-heavy and concentration-risky. Bloom's backlog is mostly cancelable service; Cerebras depends on a few buyers and has thin GAAP margin. Everything rides one industry's capex cycle.",
+  "transfer_targets": "HYPOTHESES: the payer is a hyperscaler with a named capex budget. Next bottlenecks behind power and chips: electrical gear and transformers, cooling, on-site construction labor, interconnection studies and permitting, water, optical/fiber links. Accessible small-team wedges are services/software around these (permitting, interconnection, commissioning, skilled-trade staffing for data-center builds). Verify with capex data in the pools stage."
+ },
+ {
+  "miner": "too_early",
+  "name": "A sovereign or infrastructure-capital backstop makes a capital-heavy, uninvestable industry bankable",
+  "mechanism": "Strategic or capital-intensive industries die from price risk or cost of capital, not technology. A price floor, offtake, equity stake or standardized financing structure turns the business into a financeable contract and the customer's capex into a service fee.",
+  "examples": [
+   {
+    "company": "MP Materials (rare earths)",
+    "evidence": "Jul 2025 DoD deal: $400M preferred stock (~15%, largest shareholder), 10-year NdPr price floor of $110/kg (China benchmark ~$63/kg at signing; DoD pays the difference), 10-year offtake on the new magnet plant. Q2 2026: revenue $108.5M (+89%) plus $17.6M price-protection income; NdPr sales 1,006 t (+127%); adj. EBITDA $28.5M. Molycorp's 2015 bankruptcy (predecessor) not verified in this run.",
+    "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2708843-us-dod-to-invest-400mn-in-rare-earth-producer-mp"
+   },
+   {
+    "company": "Brookfield with Bloom Energy",
+    "evidence": "Brookfield's first AI-infrastructure investment, announced Oct 2025 at up to $5B, expanded to a $25B financing framework in Jun 2026 for onsite data-center power built with Bloom systems; customers get power as a service.",
+    "url": "https://www.power-eng.com/onsite-power/brookfield-bloom-energy-expand-partnership-to-25-billion-framework-for-onsite-data-center-power/"
+   }
+  ],
+  "shift_that_enabled_it": "US industrial policy for critical minerals (2025); infrastructure funds seeking AI exposure.",
+  "why_incumbents_failed": "Pure-play commodity/equipment producers could not carry price risk against Chinese competition, and customers could not fund the capex (partly my inference).",
+  "still_open_or_crowded": "Open, but it rewards firms that can structure and operate, not idea founders; revenue so far modest (MP ~$108.5M a quarter).",
+  "transfer_targets": "HYPOTHESES: where a government or large financier is publicly writing floors, offtakes or financing frameworks (critical minerals processing and magnets, grid equipment, munitions, shipbuilding inputs). For a small team the accessible layer is origination: underwriting, project data, servicing and insurance between equipment makers and infrastructure capital, since capital providers have mandates but few good deal flows (inference). Check each program's budget and eligibility."
+ },
+ {
+  "miner": "too_early",
+  "name": "A closed buyer reforms its purchasing, and a product-first, self-funded vendor wins",
+  "mechanism": "Defense and other closed procurement systems favored cost-plus incumbents. When the buyer changes the rules (commercial-first buying, flexible contract vehicles), a vendor that builds the product with its own money and sells it as a finished product can win contracts in months instead of years.",
+  "examples": [
+   {
+    "company": "Anduril (founded 2017)",
+    "evidence": "$5B Series H at $61B (May 2026, Thrive, a16z); 2025 revenue ~$2.1-2.2B, roughly double the prior year (secondary sources conflict on earlier years); ~27.7x revenue vs ~1.6-2.7x for prime contractors; DIU put it under contract for Replicator autonomy software in 110 days.",
+    "url": "https://www.ocbj.com/technology/anduril-valuation-could-hit-60-billion-the-information/"
+   },
+   {
+    "company": "DoD acquisition reform (the unlock itself)",
+    "evidence": "Hegseth's Nov 2025 memo 'Transforming the Warfighting Acquisition System' favors OTAs and Commercial Solutions Openings over the FAR; DIU has awarded 500+ OTAs since 2016, 88% to non-traditional vendors. Startups still get <1% of Pentagon contract dollars (~$1.8B FY2023 to $4.3B FY2025, Bloomberg Mar 2026); PitchBook counts a record $16.8B of defense/aerospace startup investment in H1 2026.",
+    "url": "https://www.hklaw.com/en/insights/publications/2025/11/war-secretary-announces-strategy-regarding-defense-acquisition-reform"
+   }
+  ],
+  "shift_that_enabled_it": "Procurement reform (2025) plus wartime-pace demand signals; DIU/OTA groundwork since 2016.",
+  "why_incumbents_failed": "Primes optimized for cost-plus programs and long timelines; earlier startups lacked a contract path (partly inference).",
+  "still_open_or_crowded": "Capital is flooding in (record H1 2026), so valuations are stretched and founders chase the same subsystems; the unserved edge is the supply-chain and operations layer behind the hardware. Startup share of spend is still ~1%, which means room but also proof that spending is slow to move.",
+  "transfer_targets": "HYPOTHESES: other closed buyers with a reform or new contract vehicle and a large budget: border and homeland-security technology, Coast Guard and shipbuilding, state/local public safety and emergency management, public transit and utilities procurement. Small-firm wedge: compliance, program capture and supplier services; verify which budgets are actually appropriated."
+ },
+ {
+  "miner": "too_early",
+  "name": "A consumer hardware form factor works when a category-owning incumbent supplies brand, channel and manufacturing",
+  "mechanism": "New devices fail when they are ugly, expensive, short on battery and short on a reason to exist. The unlock was packaging a familiar object with just enough new function and shipping it through the incumbent that owns the category's brand and stores.",
+  "examples": [
+   {
+    "company": "Meta with EssilorLuxottica (Ray-Ban, Oakley)",
+    "evidence": "More than 7M smart glasses sold in 2025 per EssilorLuxottica's Q4-2025 report (>3x 2024, ~2M cumulative 2023-24); capacity target 10M/yr by end 2026 with reported talks of 20M+; Omdia counted 8.7M AI glasses shipped worldwide in 2025; $799 Ray-Ban Display intl rollout delayed Jan 2026 by demand/supply limits. Revenue is booked by EssilorLuxottica and Meta, not a startup.",
+    "url": "https://uploadvr.com/meta-essilorluxottica-sold-7-million-smart-glasses-in-2025/"
+   },
+   {
+    "company": "Google Glass, Intel Vaunt, North Focals (the dead)",
+    "evidence": "Glass consumer version ended ~2015 (privacy backlash, $1,500, 3-5 hour battery, no clear use); Glass Enterprise sold until 15 Mar 2023; Intel Vaunt cancelled Apr 2018 (ex-head: model assumed free hardware, data-protection questions unanswered); North Focals (~$999, est. <1,000 units) bought by Google Jun 2020 for patents and staff.",
+    "url": "https://tomsguide.com/news/google-glass-is-a-failure-again"
+   }
+  ],
+  "shift_that_enabled_it": "Good-enough voice AI, camera and audio in a normal frame, and a fashion brand with retail reach (my synthesis; the sources give numbers and failures but do not themselves explain the success).",
+  "why_incumbents_failed": "Tech firms built gadgets for early adopters; nobody with frames, fitting stores and brand was in the room.",
+  "still_open_or_crowded": "Closed for startups on glasses (Meta and EssilorLuxottica hold the channel). Open as a template: tech plus a category owner.",
+  "transfer_targets": "HYPOTHESES: categories with a dominant physical-retail brand and a clear sensing/AI addition (eyewear, hearing, fitness equipment, watches, dental and optical retail). A small company's route is to be the software/data partner to a category owner rather than shipping its own hardware."
+ },
+ {
+  "miner": "too_early",
+  "name": "Labor-line conversion: human-in-the-loop services that died on labor cost become outcome-priced software once language models exist",
+  "mechanism": "Services that needed humans to finish the job lost money at scale. Language models cut the marginal cost of the human part, so a vendor can price per resolved outcome against the customer's existing labor or outsourcing budget, a large already-budgeted pool.",
+  "examples": [
+   {
+    "company": "Sierra (founded 2023)",
+    "evidence": "$100M ARR announced ~21 months in (late 2025), ~$150M by early Feb 2026; $950M Series E at $15.8B (May 2026); pay-per-resolution pricing; customers include ADT, Cigna, SiriusXM, Rivian, SoFi. ~100x ARR valuation signals froth. Customer-service agents are in round 1's cliche zone; use only as proof of the mechanism.",
+    "url": "https://www.trendingtopics.eu/sierra-raises-950-million-bret-taylors-ai-agent-startup-now-valued-at-over-15-billion/"
+   },
+   {
+    "company": "Decagon",
+    "evidence": "Valued $4.5B in Jan 2026 (Coatue, Index) on ~$35M ARR in Oct 2025 (3x YoY); a later report of >$100M ARR is NOT confirmed by the company (TechCrunch: no revenue disclosed since late 2024).",
+    "url": "https://news.bloomberglaw.com/artificial-intelligence/ai-customer-support-startup-decagon-valued-at-4-5-billion"
+   },
+   {
+    "company": "Facebook M (dead 2018); Olive AI as warning",
+    "evidence": "Facebook M shut 19 Jan 2018 after ~2.5 years, reached ~2,000 Californians, contractors answering around the clock (press reading: human labor vs AI capability); Magic pivoted to B2B human+AI staffing. Olive AI (raised ~$832-902M, $4B valuation) died in 2023 from lack of focus, so a hot automation thesis does not save an unfocused company.",
+    "url": "https://techcrunch.com/2018/01/08/facebook-is-shutting-down-its-standalone-personal-assistant-m/?ncid=rss"
+   }
+  ],
+  "shift_that_enabled_it": "LLMs from late 2022 onward, plus outcome-based pricing as a business model.",
+  "why_incumbents_failed": "BPOs sell hours (automation cuts their revenue) and legacy contact-center software sells seats (partly inference).",
+  "still_open_or_crowded": "Customer service is crowded (Sierra, Decagon and others). Other labor lines are less crowded but need domain depth and regulatory handling.",
+  "transfer_targets": "HYPOTHESES needing pool sizing: language-heavy, measurable-outcome, compliance-bounded back-office labor that is outsourced today and run by people on phones and documents: insurance first-notice-of-loss and claims intake, healthcare denial appeals and prior authorization (CMS API mandates give a deadline), freight brokerage carrier check-calls, property-management leasing and maintenance dispatch, collections and KYC operations. The signer is the head of operations who owns the outsourced contract."
+ },
+ {
+  "miner": "too_early",
+  "name": "ANTI-PATTERN: False dawn, where capital arrives before the paying customer",
+  "mechanism": "A claimed unlock (new models, new hardware) produces huge rounds, but customers are still piloting and press treats pilots as demand. 'No revenue number' should sharply lower the score; many 'we were too early' stories are really product or economics failures.",
+  "examples": [
+   {
+    "company": "Humanoid robot startups (Figure, Agility, Apptronik, Unitree)",
+    "evidence": "Counterpoint: global humanoid sales revenue first exceeded $500M in 2025, top three firms ~56%, Unitree ~CNY 879M (~$129M) in first 9 months 2025. Figure's 11-month BMW deployment is called a pilot by other analysts; Agility put 7 Digits at Toyota Canada (Feb 2026) and moved 100,000+ totes at GXO; Apptronik's mature product targeted for 2027, 0 verified at-scale deployments per one research site. Sources are aggregators.",
+    "url": "https://www.robotics247.com/article/humanoid-orders-vs-actual-deployments-how-much-commercial-progress-is-really-happening"
+   },
+   {
+    "company": "Rethink Robotics (dead Oct 2018)",
+    "evidence": "Closed 3 Oct 2018 after a buyer pulled out and sales fell short; analysts blamed product-market mismatch and precision complaints; CEO Eckert said 'We got out a little early.' Other non-early deaths verified in this run: Olive AI (lack of focus), Transatomic Power (overstated claims), Zume (two capital-heavy businesses in one), Kozmo/Webvan (no delivery density).",
+    "url": "https://spectrum.ieee.org/automaton/robotics/industrial-robots/rethink-robotics-pioneer-of-collaborative-robots-shuts-down"
+   }
+  ],
+  "shift_that_enabled_it": "Claimed: foundation models for manipulation; hard evidence of purchase orders is thin.",
+  "why_incumbents_failed": "Not applicable; the question is whether anyone has paying volume yet.",
+  "still_open_or_crowded": "Unknown; sector revenue is under $1B globally and mostly a Chinese seller, so treat as unproven.",
+  "transfer_targets": "Use as a gate rule for round 2: an 'unlock' counts only if (1) there is a dated catalyst, (2) a named buyer already pays at scale for a close substitute, and (3) revenue reaches at least tens of millions within ~24 months of the catalyst. Score pilots, press releases, valuations and 'orders' as zero. Other warning signs seen: AST commercial service slipped to 2027 after an Apr 2026 launch failure, Part 108 two quarters late, Aurora $2M quarterly revenue vs $266M loss."
+ }
+]
