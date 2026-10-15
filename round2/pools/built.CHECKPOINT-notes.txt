@@ -13,3 +13,23 @@ CHECKPOINT 1 (slice: real estate/construction/housing) - raw facts gathered so f
 - Trump EO Jan 20 2026: restrict federal financing for large institutional SFR buyers; build-to-rent carve-out; INVH fell 7.5%.
 - PermitFlow $54M Series B Dec 2025 (Accel), ~$90M total; CivCheck acquired by Clariti. FL HB 803 (signed May 6 2026, eff Jul 1 2026): 10 bus-day shot clock w/ private provider; CA AB 253 (signed Oct 10 2025) third-party review after 30 days; TX HB 14 (2023)/SB 1450 (2025); TN PC 771 (2024).
 - FCC Mar 26 2026 Network & Services Modernization Order streamlines copper retirement; AT&T aims >30% of wire centers by end 2026, full 2029; fire alarm/elevator POTS lines affected.
+
+CHECKPOINT 2
+- III (Facts+Stats homeowners): 2025 net premiums written $160.1B; net premiums earned $152.6B; incurred losses 53.6% of premiums (~$82B); loss+LAE 61.1% (~$93B); 2023 ISO claim causes: wind/hail 42.5%, water/freezing 22.6%, fire/lightning 21.6%; avg severity 2023 $20,062. https://www.iii.org/fact-statistic/facts-statistics-homeowners-and-renters-insurance
+- CA CDI: >$22.4B paid on 42,121 LA fire claims.
+- Rebuild (restoration claims software) $13M Series A Sept 2026 (Asymmetric Capital Partners); $2.1M seed Jan 2025. NovaData Solutions Series A Mar 2024 (Activate Venture Partners) - restoration invoice review. T&M Pro (G&E) acquired by Sedgwick. Xcelerate = restoration doc software.
+- MBA release (via newslink.mba.org/?p=270268): total $5.0T; 2026 maturities $875B (17%) vs $957B in 2025; depositories $396B(21%); CMBS/CLO/ABS $200B(25%); credit cos/warehouse/other $163B(29%); life cos $76B(10%); GSE/FHA/Ginnie $39B(4%). Hotel 30, industrial 23, office 17, health 15, MF 13. Fratantoni: "lenders were no longer simply extending loan terms".
+- Trepp Sept 2026: CMBS delinquency 8.02% (highest since late 2020); office 12.16%; multifamily 8.04%; special servicing May 2026 overall 10.86%, office 16.75%.
+- Atlas Invest (AI CRE bridge lender) $25M led by BlackRock Jan 2026 ($38M total); Blooma $15M Series A 2021.
+- CAI/FCAR 2025 Statistical Review (primary PDF): 373,000 associations; 29.6M units; 78.1M residents; $124.2B assessments collected; $31.1B to reserves; 60-65k managers; 9-10k management cos; 30-40% self-managed; Florida 50,600 associations / 4.47M units; CA 51,700. https://foundation.caionline.org/wp-content/uploads/2026/03/2025StatisticalReviewFoundation.pdf
+- Fannie Mae Lender Letter LL-2026-03 (Mar 18 2026): condo/co-op reserve floor 10% -> 15% of annual budgeted assessment income for applications dated on/after Jan 4 2027; Limited Review retired for established projects >10 units (Aug 3 2026 per some sources).
+- Florida SIRS: Miami Realtors: 62% of South FL associations missed Dec 31 2024 SIRS; 2025/2026 deadlines; reserves must be funded 100% as of Jan 1 2026; no opt-out.
+- Vantaca $300M+ at $1.25B (Oct 15 2025, Cove Hill); PayHOA $27.5M Series A (May 2024); Assembly HOA seed.
+- FRED REVEF53131ALLEST: property managers (NAICS 53131, employer firms) revenue $105.2B in 2022 (all prop mgrs incl nonresidential).
+- EliseAI: $250M Series E Aug 2025 (~$2.2B), $350M at $4B (Sep 2026, a16z/Bessemer), >$200M ARR Jun 2026 (secondary-reported).
+- AGC/NCCER release Sep 3 2026 (primary): 1,830 resp; 87% have craft openings; 50% harder to fill; 29% affected by immigration enforcement; 42% projects delayed by labor; >80% raised base pay; 36% init/increased training spend; 49% added online recruiting; data centers: 58% of firms w/ DC work say more competition for skilled labor.
+- ALTA: 2024 title premiums $16.2B (+7%); First American 22.2%, Fidelity 14.3%, Old Republic 14.3%, Chicago 13.4%, Stewart 9.2%. Qualia ($1B+ val 2020; est $1.5B). Endpoint = First American sub ($220M).
+- Builder incentives: Lennar FY2025 incentives $62,700/home = 13.8% of home-sale revenue (vs 8.8% two yrs prior); Pulte Q1 2026 10.9% of gross sales price (8% yr earlier). 2025 new-home sales 679k. Dec 2025 median $414,400. NAHB Sep 2026: 2/3 builders use incentives, 38% cut prices avg 6%. FHA loans from DHI ~20.8% underwater, Lennar ~30.7%.
+- MH: April 2026 SAAR shipments 103,703 (-4.3%); YTD 33,054 (-7.3%); multi-section 57.7%; MH 9.9% of SF starts. New single-section ~ $88-91k; double ~ $161-164k (Census via SoFi/Zoocasa). MHI: >43,000 communities / ~4.3M homesites. FHFA: chattel = 70-80% of new MH.
+- Fire inspection software: Ember Software $10M (Jan 2025; 8VC, Menlo); Life Safety Inspection Vault $28.7M (Aug 2025, Mainsail) then bought by TEGRIS Fire Protection Jul 2026; Inspect Point (Troy NY). Cintas Fire Protection Services organic growth ~10% FY26 (segment inside All Other); FY26 revenue $11.3B.
+- BLS: construction & building inspectors median $72,120 (May 2024), ~133,640 employed May 2023 (mean $72,880).
