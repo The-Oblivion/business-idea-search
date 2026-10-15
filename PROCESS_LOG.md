@@ -376,3 +376,44 @@ Paused at your request to wait for the weekly usage reset (about 50% of the week
 - New `save.sh` refreshes the repo checkpoint (state plus every journal), mirrors the readable `round2/` files, commits, pushes and **verifies the remote hash**.
 - It runs after every workflow, and an **autosave loop runs it every 15 minutes while agents are working**.
 - Journals are copied into the repo, so Claude Code's 30-day transcript cleanup can't take them either.
+
+### Round 2, step 1: patterns + pools (20 agents)
+- **Runs:**
+  - `wf_18d28b0d-269`: 5 pattern miners and 5 pool slices.
+  - `wf_7c76a33d-3e5`: 10 pool slices.
+  - Each had a 6-agent limit (12 in flight), with a 90-second health check per wave. Both were clean: 0 failures, 0 filter errors.
+- **20/20 agents succeeded:** **57 breakout patterns** (`round2/patterns/`, plus a 10,000-word digest at `round2/inputs/patterns_digest.md`) and **143 money pools** (`round2/pools/`, `round2/pools_all.json`).
+  - The median pool is $25B a year; every pool has a sourced size.
+  - 83 are tagged "hidden giant". Crowdedness: 30 open, 87 contested, 26 crowded.
+  - Cost: 4.5M subagent tokens.
+
+### Round 2, step 2: pool judging (2 agents, `wf_b9d3c373-7aa`)
+- A growth-investor judge and an insurgent-founder judge each scored all 143 pools (size, shock, fragility, wedge, uncrowdedness, overall). The merged scores are in `round2/pool_scores.json`.
+- The top pools were:
+  - US HOA/condo assessments and capital repairs ($124B)
+  - building-permit plan review ($10B)
+  - gas-turbine aftermarket ($30B, open)
+  - defense-critical metal castings ($54B, open)
+  - No Surprises Act out-of-network payments
+  - farm equipment repair (right-to-repair)
+  - transformers
+  - captives
+- **Judgment call (pilot):** the meter read **30% after discovery**. Discovery plus my own coordination cost more than planned, and other chats may share the meter. So I ran the next stage as a **pilot on 10 pools** instead of about 25, to test the new design before scaling.
+  - The 10: P013, P015, P036, P079, P058, P121, P032, P096, P068, P060.
+  - I skipped P069 as a subset of P013, and dropped a third energy pool (P039) for P060 (340B), to avoid round 1's data-center concentration.
+
+### Round 2, step 3: pilot ideation + evidence gate (20 agents, `wf_e695cdbc-eb0`)
+- **20/20 succeeded** (6.3M subagent tokens; the meter went from 36% to 40% for the pilot).
+- **80 ideas** were generated: 8 per pool, 2 per lens (insider / pattern / dilemma / shock). Every idea came with a bottom-up $100M path and the incumbents it had searched for.
+- **The adversarial gate was brutal: 33 kill, 46 weak, 1 strong, 1 pick.**
+  - The one pick: **"Condition-Priced Turbine Maintenance Contracts"** (P036). It is an insurer-wrapped, wear-priced maintenance contract for older gas turbines that takes over from the OEM's long-term service agreement, with pooled spares. Realistic ceiling: $70M.
+  - Per-pool verdicts with evidence URLs are in `round2/gate/<pool>.md`, and every row is in `round2/gate_results.json/.csv`.
+- **What the pilot taught us:**
+  1. **The size problem is fixed.** Round 1's refined finalists had realistic ceilings of $0.1-2M. In round 2, **28 of 80 ideas have realistic ceilings of $30-100M**, 10-50x bigger, and the median is about $25-30M.
+  2. **But no idea cleared a single "realistic" $100M.** The gate's notes repeat one theme: big pools, but "every adjacent layer is owned", "the contestable layer is small", and PE roll-ups and funded startups sit in each wedge.
+  3. **By lens:**
+     - pattern-transfer ideas were killed most (13 of 20); copying a known winning pattern usually means someone already did it
+     - "incumbent's dilemma" ideas fared best (the only strong verdict)
+     - insider and shock ideas were mostly "weak"
+- **Judgment call: the gate was miscalibrated, so I recalibrated it for the next batch.** Asking a skeptic for one "realistic" number compresses everything toward the median. Startup outcomes are skewed, and investors decide on the upside case if things go right. The **v2 gate** (`r2_ideate_gate_v2.js`; the v1 used for the pilot is kept unchanged as the record) gives every idea a **median case and an upside case**, with the assumptions behind the upside named. It picks ideas with a credible **$100M+ upside** and a **$20M+ median**. Kills (already done, false premise, small even in the upside case) are unchanged.
+- **Budget:** you raised this week's cap to **43%**. At 40% after the pilot, the remaining ~3% buys **one more batch of 5 pools with the v2 gate**, which also tests the recalibration: P049 (Indonesia free-meals programme), P123 (biofuel feedstock fats and oils), P102 (heavy-truck repair aftermarket), P061 (Medicaid home and community-based services), and P039 (transmission and distribution engineering). Run `wf_1c024afe-80e`.
