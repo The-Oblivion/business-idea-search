@@ -417,3 +417,26 @@ Paused at your request to wait for the weekly usage reset (about 50% of the week
      - insider and shock ideas were mostly "weak"
 - **Judgment call: the gate was miscalibrated, so I recalibrated it for the next batch.** Asking a skeptic for one "realistic" number compresses everything toward the median. Startup outcomes are skewed, and investors decide on the upside case if things go right. The **v2 gate** (`r2_ideate_gate_v2.js`; the v1 used for the pilot is kept unchanged as the record) gives every idea a **median case and an upside case**, with the assumptions behind the upside named. It picks ideas with a credible **$100M+ upside** and a **$20M+ median**. Kills (already done, false premise, small even in the upside case) are unchanged.
 - **Budget:** you raised this week's cap to **43%**. At 40% after the pilot, the remaining ~3% buys **one more batch of 5 pools with the v2 gate**, which also tests the recalibration: P049 (Indonesia free-meals programme), P123 (biofuel feedstock fats and oils), P102 (heavy-truck repair aftermarket), P061 (Medicaid home and community-based services), and P039 (transmission and distribution engineering). Run `wf_1c024afe-80e`.
+
+### Round 2, step 3b: batch 2 with the v2 gate (10 agents, `wf_1c024afe-80e`)
+- **10/10 agents succeeded** (3.5M subagent tokens) on 5 pools: P049, P123, P102, P061, P039. That gave **40 more ideas, with 19 kills and 2 picks**, both from P061 (Medicaid home and community-based services, a $129B pool).
+- **The recalibration worked but didn't open the floodgates.** With median and upside cases, only 3 of 40 non-killed ideas showed a $100M+ upside, and 2 also met the $20M median. The near-misses (upside $75-100M) were:
+  - pre-accepted substations for non-hyperscaler loads
+  - overnight yard crews for heavy trucks
+  - a Java-to-3T protein logistics corridor for Indonesia's free-meals programme
+  - a fixed-fee maintenance bench for public fleets
+- **Round 2 so far:** 15 pools, **120 ideas, 52 kills, 65 weak, 3 picks.**
+  1. **Condition-Priced Turbine Maintenance Contracts** (P036, gas-turbine aftermarket): 10-year wear-priced maintenance for older F/E-class turbines, with pooled spares and a reinsurer-backed parts-cost cap, sold through a free audit of the plant's existing long-term service agreement (LTSA). Path: 25-35 units × $3-4M a year. Riskiest: whether condition pricing gives a bankable 10-20% discount, and whether a reinsurer will quote.
+  2. **Fiscal-intermediary consolidator with a payroll-certainty SLA** (P061): buy a small Medicaid self-direction payroll agent (a "fiscal intermediary", or FI) for its track record, re-platform it so electronic visit verification (EVV) hours become payroll, and win state financial-management-services (FMS) rebids on a guaranteed first payroll. Median $20M, upside $110M. Riskiest: beating PE-backed incumbents in procurements weighted toward past performance.
+  3. **Neutral HCBS operating system for dual-eligible Medicaid plans** (P061): a neutral replacement for CareBridge, the independent home-care manager that Elevance (a big health insurer) bought. Rival plans co-invest, with a firewalled data model. Median $20M, upside $100M. Riskiest: whether rival plans will move volume to a neutral vendor.
+- **What 120 gated ideas say, honestly:** in big, shocked 2026 pools, uncrowded $100M+ openings for a new entrant are rare. The gates kept finding a funded startup, a PE roll-up or an incumbent program in every adjacent layer. The survivors share a shape: **operator-heavy businesses in regulated money flows, where a neutral position or a risk-bearing contract is the moat**, not software alone. A caveat: the same adversarial agents killed all of round 1, so some harshness bias is possible. That's why the near-misses are kept for next week's comparison rather than discarded.
+- **Budget: overshot.** The meter read **45%** after batch 2 (40% before), 2% over your 43% cap. My coordination cost is significant, and other chats share the meter. No more agents run this week.
+
+## ⏸ PAUSE (15 Oct 2026, ~00:30 ET): end of week 3's budget
+
+**Next week's plan (pending your go):**
+1. **Scale round 2** to about 10 more top pools with the v2 gate (`r2_ideate_gate_v2.js`; pools come from `round2/pool_scores.json`).
+2. **B, the salvage:** run the same v2 gate over round 1's 13 never-validated finalists plus the 7 wounded contenders, so old and new compete under one standard.
+3. **Deep-validate** the picks plus the best near-misses, with a fixed step-5 pipeline where the rewrite can't shrink an idea below its $100M upside path.
+4. Then **steps 6-9** (head-to-head, war-games, final review, report and explorer) on the best of everything.
+5. **Cost control:** my own coordination is expensive at this context size, so start next week's run in a **fresh session**, set up from HANDOFF.md, RESUME.md and the end of this log.

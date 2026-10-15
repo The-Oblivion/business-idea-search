@@ -1,7 +1,7 @@
 # RESUME: how to continue the business idea search
 
-**Updated:** 13 Oct 2026, after step 5 (deep validation of the top 12). No finalist cleared 3.5/10, 7 wounded contenders, 5 dead.
-**Next step:** waiting on the user's call on a course correction (see PROCESS_LOG "Step 5 result"). Options: (A) run steps 6-9 as designed on the 7 wounded contenders; (B) an upside-rescue round; (C) a new big-market-first discovery pass. Do not start step 6 without his go.
+**Updated:** 15 Oct 2026, paused after round 2's pilot. Round 2 so far: 143 pools mapped, 15 pools gated, 120 ideas, **3 picks** (turbine maintenance contracts; Medicaid fiscal-intermediary consolidator; neutral HCBS OS for D-SNP plans).
+**Next step (needs the user's go):** scale round 2 to ~10 more pools with `next_steps/r2_ideate_gate_v2.js` (args `{part, nparts, conc, pool_ids}`; first add the pools to `round2/pools_selected.json` via `r2_select.py <pooljudge journal> --write <ids>`), re-gate round 1's survivors with the v2 gate, deep-validate the picks plus near-misses, then steps 6-9. Start in a FRESH session (orchestration cost scales with context). Save with `biz/save.sh "<msg>"` after every workflow; run `biz/autosave_loop.sh` in the background while agents work.
 
 ## Quick start (for the human)
 
