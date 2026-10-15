@@ -1,0 +1,15 @@
+CHECKPOINT 1 (slice: real estate/construction/housing) - raw facts gathered so far, 2026-10-14
+- MBA 2025 maturity survey: $875B of $5.0T CRE mortgages mature 2026 (17%), down from $957B in 2025; $652B 2027. Depositories $396B; CMBS/CLO/ABS $200B; credit cos/warehouse $163B. Hotel 30%, industrial 23%, office 17%, MF 13%. https://www.mba.org/news-and-research/newsroom/news/2026/02/09/17-percent-of-commercial-and-multifamily-mortgage-balances-to-mature-in-2026
+- First American: extensions fell from $384B (2024->2025) to $200B (2025->2026). MBA orig 2025 ~ $706B; forecast 2026 $806B(?) 
+- Florida HB 913 (2025): SIRS deadline Dec 31 2025; allows loans/lines of credit w/ majority vote; milestone inspection pauses; special assessments up to $134k/unit examples.
+- RealPage DOJ settlement Nov 2025 (no real-time competitor nonpublic data; data >=1yr old); 10 states still litigating; Greystar, Cortland, LivCor, Willow Bridge settled. MD HB 434, MA H.5222 pending.
+- FHFA/Fannie title waiver pilot (refi LTV<80%) ends Nov 30 2027; ALTA opposes; HR 5837 would require title ins on GSE loans.
+- AGC/NCCER 2026 workforce survey (Jul-Aug 2026, 1,830 resp): 29% affected by immigration enforcement; 42% say labor shortage delayed projects.
+- HUD proposed rule Jun 12 2026 (chassis only on lowest-floor sections; comment closed Aug 11 2026). FHFA Duty-to-Serve proposed rule 91 FR 37848 (Jun 24 2026): chattel = 70-80% of new MH; final effective by Jan 1 2028.
+- LA wildfires Jan 2025: CDI says insurers paid >$22.4B on 42,121 claims (as of early 2026). Swiss Re: insured cat losses >$100B 6th year.
+- Loss drafts: Fannie/Freddie rules: <=$20k released to borrower only; >$20k jointly w/ contractor; license required >=$40k (LA AG summary, verify).
+- CAI/FCAR 2025 Statistical Review: 373,000 associations, 29.6M units, 78.1M residents; ~$120.9B assessments 2024 (secondary blog, verify), ~$26.6B to reserves (older).
+- NAHB Sep 2026 HMI: two-thirds builders using incentives, 38% cut prices, avg cut 6%. Zonda: 4 in 5 builders use buydowns (Jan 2026).
+- Trump EO Jan 20 2026: restrict federal financing for large institutional SFR buyers; build-to-rent carve-out; INVH fell 7.5%.
+- PermitFlow $54M Series B Dec 2025 (Accel), ~$90M total; CivCheck acquired by Clariti. FL HB 803 (signed May 6 2026, eff Jul 1 2026): 10 bus-day shot clock w/ private provider; CA AB 253 (signed Oct 10 2025) third-party review after 30 days; TX HB 14 (2023)/SB 1450 (2025); TN PC 771 (2024).
+- FCC Mar 26 2026 Network & Services Modernization Order streamlines copper retirement; AT&T aims >30% of wire centers by end 2026, full 2029; fire alarm/elevator POTS lines affected.
