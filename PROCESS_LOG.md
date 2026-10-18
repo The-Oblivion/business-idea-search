@@ -440,3 +440,38 @@ Paused at your request to wait for the weekly usage reset (about 50% of the week
 3. **Deep-validate** the picks plus the best near-misses, with a fixed step-5 pipeline where the rewrite can't shrink an idea below its $100M upside path.
 4. Then **steps 6-9** (head-to-head, war-games, final review, report and explorer) on the best of everything.
 5. **Cost control:** my own coordination is expensive at this context size, so start next week's run in a **fresh session**, set up from HANDOFF.md, RESUME.md and the end of this log.
+
+---
+
+## Week 3 continuation (18 Oct 2026): scale round 2 + deep validation v2
+
+- **Go:** you said to continue, with about 15-20% available now (the meter read **60%**, resetting 19 Oct). I set the stop line at about 75-78%.
+- **State check:** the persistent work dir and the repo were intact and in sync (`9bdd91b`). The autosave loop was restarted.
+- **Estimate of what's left (you asked):** about 13-15% today (batch 3, the round-1 revival check, deep validation) and about 10% after the reset (head-to-head, war-games, final review, report and explorer).
+- **Batch 3** (`wf_ea3e9b4d-95d`, v2 gate, 6-agent limit): the next 10 pools by judge score, chosen for diversity and with near-duplicates skipped:
+  - P022: subprime auto-loan servicing
+  - P104: aviation maintenance (MRO)
+  - P106: Medicaid/SNAP eligibility administration
+  - P087: catastrophe-exposed homeowners insurance
+  - P012: insurer-paid property repair
+  - P108: prison and jail health care
+  - P038: nuclear fleet services
+  - P126: federal management-advisory spend
+  - P004: German Mittelstand succession
+  - P062: clinical labs
+
+  I skipped P069 (inside P013), P125 (duplicates P106), P085 (duplicates P102), P082 (close to P121) and P035 (a fourth energy pool).
+- **Deep validation v2** (`wf_9d3ce76e-839`, new script `r2_deep.js`, 6-agent limit). It fixes round 1's step-5 failure modes:
+  1. **No-shrink rewrite:** the rewrite must keep a credible $100M+ upside or set alive=false. It may not narrow the idea into a boutique.
+  2. **Calibrated judges:** scores are anchored to real companies at seed (9-10 = Stripe/Toast/Samsara at founding, 5-6 = fundable but ordinary, 3-4 = a small business), and judges are told that strong critiques don't automatically mean a low score.
+  3. **Both a median and an upside case** in the rewrite, and the second-round critic checks whether the upside assumptions are believable.
+- **Judgment call: who gets deep-validated now.** The 3 gate picks, plus the 3 strongest near-misses, so there's a large enough field for the head-to-head:
+  - **C01:** condition-priced turbine maintenance (P036, pick)
+  - **C02:** fiscal-intermediary consolidator (P061, pick)
+  - **C03:** neutral HCBS OS (P061, pick)
+  - **C04:** Time-to-Power transformer fleet (P032; the pilot's highest non-pick at a $70M realistic ceiling)
+  - **C05:** the Non-GE Foundry (P079; $60M, which the gate called "a genuine $100M+ prize but capital-heavy")
+  - **C06:** Overnight Yard Crews for heavy trucks (P102; $18M median, $90M upside, a different sector)
+
+  A single gate pass is not the final word: deep research can rescue an idea or kill it.
+- **B, the salvage (in the same workflow):** 1 revival agent re-reads round 1 (25 finalists, the evolution top 60, the 12 deep-validation results) and re-aims up to 3 insights at much bigger payers. Then a v2 gate (`r2gate:R1`) keeps at most 2. Survivors join the batch-3 picks for the next deep-validation run.
