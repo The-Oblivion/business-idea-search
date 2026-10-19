@@ -504,3 +504,29 @@ Paused at your request to wait for the weekly usage reset (about 50% of the week
   - **Outreach Partner Labs** (P062): an independent operator co-owns a new outreach-lab company with a health system and runs all its commercial functions, so the hospital keeps an equity stake instead of selling to Quest or Labcorp. Median $20M, upside $100M.
 - **Round 2 totals:** 25 pools, **200 ideas, 92 kills, 8 gate picks.**
 - **Deep validation v2, run 2** (`wf_22b53bae-6ae`, 8-agent limit, alone in flight): C07-C11 are the 5 picks, plus **C12, "Outside Care Plan"** (P108: a corrections department's own off-site health plan). C12 is the batch's best near-miss at a $25M median and $150M upside. That gives a field of 12 deep-validated round-2 candidates for the final stage.
+
+### Backups and the cap (your instructions, 18 Oct)
+- **Your cap is now 92% weekly.** For backups, you said "each version have a backup".
+- **`save.sh` now writes 3 copies of every save:**
+  1. the GitHub commit, with the push verified;
+  2. a **dated local snapshot** of the whole work dir plus the docs, in `~/projects/business-idea-search-backups/snap-<date>-<commit>.tgz` (about 16 MB each);
+  3. for milestone saves, a pushed **git tag** `snap-<date>`.
+- **The autosave loop now runs every 10 minutes and doesn't depend on the model**, so it keeps saving even if the usage cap stops me mid-run. RESUME.md has the recovery steps.
+
+### Batch 4 (`wf_655838aa-8a1`, v2 gate)
+- **Judgment call: use today's headroom on more search, not the finish.** The meter read 69% with a 92% cap and a reset in about 18 hours, so unused capacity is lost. Batch 3 (pool ranks 16-35) yielded 5 picks where the top 10 yielded 1, so the pool ranking is a weak predictor and more pools are worth searching. Steps 6-9 wait for next week's fresh budget, so they run on the full field.
+- **12 pools,** chosen for diversity and tilted toward higher-margin, AI-shifted pools (thin-margin services was the main weakness so far):
+  - P040: bank core and digital-banking vendors
+  - P095: generative-AI risk carve-outs in cyber and liability insurance
+  - P129: offshore IT services under AI displacement
+  - P137: graduate-school lending displaced from Grad PLUS
+  - P136: school-choice money (ESAs and vouchers)
+  - P017: manufactured-home chattel finance
+  - P003: England social landlords' repairs (Awaab's Law)
+  - P007: Japan's multi-tier trucking subcontracting
+  - P050: India gold-backed loans
+  - P021: auto physical-damage claims
+  - P067: uniform and linen rental
+  - P084: customs-duty payments
+
+  I skipped pools that duplicate ones already done (P069, P082, P085, P101, P125, P018).
