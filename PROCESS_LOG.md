@@ -475,3 +475,22 @@ Paused at your request to wait for the weekly usage reset (about 50% of the week
 
   A single gate pass is not the final word: deep research can rescue an idea or kill it.
 - **B, the salvage (in the same workflow):** 1 revival agent re-reads round 1 (25 finalists, the evolution top 60, the 12 deep-validation results) and re-aims up to 3 insights at much bigger payers. Then a v2 gate (`r2gate:R1`) keeps at most 2. Survivors join the batch-3 picks for the next deep-validation run.
+
+### Deep validation v2 result (`wf_9d3ce76e-839`): 56/56 agents, 9.3M subagent tokens
+
+| Cand. | Refined title | Alive | Re-critic | Overall /10 | Median / upside ($M/yr) | Why it scored as it did |
+|---|---|---|---|---|---|---|
+| C03 | HCBS Operations Utility for Managed-LTSS Plans | yes | wounded | 3.3 | 18 / 101 | Labor-bearing outsourcing (BPO) and care coordination; $100M revenue ≈ $14M EBITDA; odds of the upside put at 1-8% |
+| C04 | Time-to-Power Desk (transformers) | yes | wounded | 3.3 | 30 / 120 | Real 128-160-week lead-time pain, but it's a thin-margin dealer spread (11-13%) with an unproven supply side and no moat |
+| C06 | Level-1 Bench (from Overnight Yard Crews) | yes | wounded | 3.3 | 20 / 100 | A decent regional specialty-staffing and training business; $100M at 3-5% odds |
+| C02 | Qualified-challenger fiscal agent (Medicaid self-direction) | yes | wounded | 3.0 | 25 / 103 | The whole US fee pool is ~$0.7-0.9B; a services roll-up suited to search funds or PE, not seed |
+| C05 | Anchor-Funded Independent Foundry Platform | yes | wounded | 3.0 | **55 / 200** | The biggest prize, but it needs $130-175M of equity and a proven casting operator; Kratos picked a startup (Rangeview) for its castings |
+| C01 | Capped Outage: guaranteed gas-turbine overhauls | yes | wounded | 2.7 | 30 / 110 | All 3 critics rated it fatal: a bonded general contractor with 10-14% gross margin; $100M of revenue ≈ $4-7M EBITDA |
+
+- **The revival (B):** the revival agent re-aimed 2 round-1 insights at bigger payers. One was a large-load queue "reality bureau", **killed** because ERCOT's $50,000-per-MW deposit already does the filtering. The other was an independent payment-accuracy ledger for state SNAP/Medicaid: weak, with a $8M median and $60M upside. **No picks.** Round 1's insights do not scale up.
+- **My read (an orchestrator judgment, and the most important finding so far):**
+  - Two rounds and ~1,700 ideas converge on one picture. In late 2026, **high-margin, venture-shaped openings are crowded**: funded AI-native startups and PE roll-ups sit in nearly every niche the agents could find.
+  - **What is uncrowded is operations-heavy**: services, pass-through revenue, balance-sheet or labor businesses in regulated money flows. They can be large by revenue, but they're thin-margin and capital-hungry.
+  - The deep-validation judges are now explicit that the ~3/10 means "decent business, wrong shape for venture", and their rationales cite the ideas' own margins and capital needs. So I treat this as a real verdict, not a scoring floor.
+  - **Caveat:** these adversarial agents are built to find reasons an idea fails. Great companies often look bad on paper at seed, and judges reading 3 critiques plus a "wounded" verdict lean negative.
+- **Implication for the final stage:** "best" has to be defined explicitly. I'll propose to you that the final answer ranks ideas by **expected founder outcome** (value created per unit of risk and capital, for a scrappy team), with **venture-scale potential as one factor, not a gate**. A clearly marked list of high-variance contrarian bets would sit alongside it.
