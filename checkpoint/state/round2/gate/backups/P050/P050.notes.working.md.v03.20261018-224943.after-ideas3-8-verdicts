@@ -1,0 +1,69 @@
+# P050 gate working notes (India gold loans) - started 2026-10-18
+Status: init. Ideas: 1 Girvi Formalizer, 2 Bullion-Bid, 3 Karat Ledger, 4 Gold Float, 5 Switch Desk, 6 Co-Lend Exchange, 7 Renewal Wall Cure Desk, 8 Gold Bay
+(Notes below are appended per idea; backup made after each.)
+
+## Cross-cutting facts verified (2026-10-18)
+- GOLD PRICE: Jan 29 2026 MCX peak ~INR 1.81 lakh/10g (Motilal Oswal 1,80,779; 5paisa record spike Jan 29). Mid-Oct 2026: 24K Delhi INR 147,830 (15 Oct), 148,200 (14 Oct) => about 18% below peak NOW, not 23%. 22-27% below was the June trough (intl low ~$3,994 late June); Aug 24 ~1.63 lakh. Sources: https://www.5paisa.com/news/gold-price-on-january-29-2026 ; https://startuptalky.com/news/gold-silver-prices-india-today-15-october-2026/ ; https://www.kotakneo.com/news/commodities/gold-price-fall-bullet-repayment-gold-loans-margin-calls-2026/
+- 75% LTV loan at peak => ~91% LTV at 18% fall; renewal at 85% cap (<2.5L) needs ~7% paydown, at 75% cap needs ~18%. Pool "12-23% paydown" overstates for now. Also most loans were not written at max LTV at peak.
+- STRESS: Muthoot Q1 FY27 (Jun 2026) gross stage III 2.28%, DOWN from 2.35% QoQ and 2.58% YoY; Gold loan AUM +44-48%. No evidence of auction wave. Margin-call stress mostly bullet loans (~90% of NBFC gold loans are bullet). https://www.kotakneo.com/news/stocks/muthoot-finance-q1-fy27-results-pat-2825-crore/ ; ICRA expects NBFC gold NPAs to rise as shift to EMI.
+- Informal share: Bajaj Broking IPO blog says 65-67% unorganised at 31 Mar 2026 (broker blog, weak); KPMG 2017 60-70%; Jefferies 2024: organised = 40% of gold loan business; formal 9-26% vs informal 25-45%. https://www.bajajbroking.in/blog/muthoot-fincorp-limited-ipo ; https://www.freepressjournal.in/amp/business/60-65-of-indias-household-gold-loans-market-untapped-jefferies
+- RBI Directions (secondary): auction reserve >=90% current value, 85% after two failed; first auction in lending branch district (physical), online/adjoining after; lender+related parties can't bid; surplus refunded within 7 working days; 2 newspapers; 1 month wait if borrower untraceable. https://www.indialaw.in/blog/banking-and-finance/rbi-gold-silver-guideline/ ; vinodkothari secondary article: gold at own branches by own employees; bullet consumption <=12 months; top-up only if standard; INR 5,000/day if not released within 7 days.
+- Tamil Nadu = 32% of market end-FY26; five southern states ~75%.
+
+## Idea 1 Girvi Formalizer
+- NO competitor doing pawnbroker-conversion found. BUT closest analogs: acquisitions of gold NBFC books: L&T Finance bought Paul Merchants Finance gold loan biz for INR 537 cr (book INR 1,350 cr, 130 branches, ~700 staff) Jun 2025; InCred bought TruCap gold biz (115 branches, INR 650 cr AUM) Feb 2025; Tata Capital ~88.6% of Yogakshemam (Jul 2026); Godrej Capital took Kanakadurga Finance. Buyers = big NBFCs, so deal competition for ANY sizeable book exists. https://www.theweek.in/wire-updates/business/2025/06/09/dcm14-biz-briefs.html ; https://www.theweek.in/wire-updates/business/2025/02/25/dcm88-biz-incred-gold.html
+- Franchise format already exists: IIFL Capital franchisee branches in TN (IIFL Gold loan franchise); Indel/others use agents. Muthoot, Manappuram, Kosamattam are themselves ex-pawnbrokers. 
+- Legal: unincorporated pawnbrokers sit under state Pawnbrokers/Moneylenders Acts, outside RBI perimeter => asset/business purchase avoids change-of-control (inference). Acquiring a dormant small NBFC DOES need RBI prior approval (~7 months in Capital India example). New-entrant NBFC licence needs NOF 10 cr etc.
+- Weakness: Seller's goodwill = the 24-48% spread; if realised loss under 0.5% claim wrong, books fail. Unquantified count of 'willing sellers'. $95M equity+$550M debt for $130M revenue; lender economics: net margin after 10-11% funding cost + opex ~ low; revenue is interest income.
+- Rupeek (informal->formal thesis): >$164-209M raised, 9 yrs, AUM INR 1,864 cr Sep 2024. Pool says profit INR15cr H1.
+
+## Idea 2 Bullion-Bid
+- Competitor: iGOLD (Bangalore, founded Aug 2017, online auctions of pledged gold for banks/NBFCs, aggregates KYC'd jewellers, prototype stage 7 staff per Gust listing) https://gust.com/companies/igold . Banks already route e-auctions via third-party 'approved auction service provider' (IndusInd notice; WBGB notice Oct 2024 names an 'egold' portal). Muthoot/Shriram run own digital auctions (Shriram: 'how the digital gold loan auction process works' 2026). AGLC (Association of Gold Loan Companies) standard auction notice.
+- Premise check: auction volume depends on NPAs. Muthoot stage III 2.28% and falling => small flow. Normal-year auction volume = lender recovery of ~2% of stock ($4B) x take 2.5%?? => ~$100M gross only at 40% share in stress year; pool admits normal-year is a quarter. Auctions are 'as is' sales to local jewellers who need KYC; lenders get 90% reserve anyway.
+
+## Idea 1 extra (legal premise)
+- Tamil Nadu Pawn Brokers Act 1943 (as amended 1979/1992): pawnbroker interest capped at state-notified rate tied to RBI bank rate, ceiling = bank rate + 5 pts. Could NOT find current notified rate. If licensed TN pawnbrokers charge near cap (~low-teens %), NBFC 18-22% is MORE expensive => premise 'half the informal rate' fails for licensed shops; it only holds for unlicensed/off-book lenders. https://www.casemine.com/act/in/5a9cce174a93265347813203 ; https://www.casemine.com/act/in/5a9cce174a93265347813205
+- Formal NBFC yields: Muthoot ~16.3%, Manappuram ~16.6% (loan rate), IIFL/Capri yields ~18.6% Q1FY27; SBI ~9.6%. Four largest gold NBFC share fell 90%->70% in 4 yrs. https://trendlyne.com/posts/5826992/indias-gold-loan-rush-bigger-books-tighter-margins
+- No 2026 evidence pawnbrokers are in distress; IIFL ops head: stricter rules push customers to unorganised.
+- Verdict weak. median $15M upside $60M (200 shops x INR5cr x ~19% = $22M median-ish; 500 shops x 6cr = INR3000cr=$320M x20% = $65M upside).
+
+## Idea 3 Karat Ledger
+- Fraud cases confirmed 2026: BoB appraiser swapped gold across 174 accounts (~INR10 cr, Jul 2026); Delhi NBFC appraiser 683 fake accounts (EOW, Jul 2026); Chennai 5 bank-approved appraisers (Canara); Kakinada BoB Oct 2026 INR1.45 cr. https://www.outlookmoney.com/personal-finance/gold-loan-fraud-bank-appraiser-accused-of-siphoning-off-gold-ornaments-worth-rs-10-crore ; https://www.dtnext.in/news/chennai/five-more-gold-appraisers-held-in-chennai-for-cheating-canara-bank
+- No shared appraiser registry found (supports claim).
+- BUT: lenders have in-house offsite audit: Aditya Birla Capital hiring 'image-based audit, continuous control monitoring with analytics, trigger-based surprise audits, team of surprise auditors for valuation & purity' https://www.adityabirlacapital.com/careers/sitecore/content/abcl/abcareers/home/jobs/job-details/team-member--gold-loan-audit-offsite--mumbai-ia-gold-loan-in-maharashtra-jobs-abg106807
+- Third-party gold audit engagements already exist (audit firms; IIFL explainer) https://www.iifl.com/blogs/gold-loan/how-third-party-auditors-verify-pledged-gold-inventory-at-nbfcs
+- LMS vendors w/ collateral+images+auction: Nelito FinCraft (Manappuram), Newgen, Finezza, Intelligrow, CloudHouse https://www.nelito.com/lending-solutions/fincraft-gold-loan-management-software-solution.html ; https://landing.newgensoft.com/hubfs/_2020%20Website%20files/PES%20Website/Brochure/Gold%20Loan%20(NBFCs).pdf
+- XRF hardware commodity: Godrej Accugold EDXRF https://godrejenterprises.com/p/godrej-locks-and-security-solutions/gold-testing-machine/accugold-gold-testing-machine ; Augmont AI purity machine pilot at Chennai gold-loan branch Jun 2026, integrated w/ Augmont gold loan tech platform (via search summary, single source).
+- Warranty line (5 bps of INR26 lakh cr = $140M) implies losses ~INR13,000 cr/yr; reported cases are INR 3.8-23 cr each => realistic 0.1-0.5 bp => $3-14M at 100% share. Inflated ~10-50x.
+- Verdict weak. median $10M upside $60M.
+
+## Idea 4 Gold Float
+- Axis Bank + Freecharge (Freecharge = 100% Axis sub) launched gold-backed credit on UPI 29 Sep 2025, pay interest on used amount, existing Axis customers, MSME focus, NPCI secured credit-line framework. https://www.axis.bank.in/about-us/press-releases/axis-bank-launches-indias-first-gold-backed-credit-on-upi-powered-by-freecharge
+- UPI credit lines: banks + SFBs only (extended to SFBs Dec 2024); NBFCs not permitted (2023 analysis; no evidence added since). https://mondaq.com/india/financial-services/1365422/rbis-upi-expansion-with-credit-lines
+- The Ken: RBI wants to stop most NBFCs offering revolving credit https://the-ken.com/story/the-rbis-revolving-credit-rule-treats-every-nbfc-like-a-bad-lender/
+- Bullet consumption <=12m; renewals/top-ups only after accrued interest paid. No explicit revolving permission found.
+- Addressable = bank gold book (INR5.1 lakh cr ~ $55B), not 9.03cr accounts. Verdict KILL. median $2M upside $25M.
+
+## Idea 5 Switch Desk
+- Lender-run balance transfer exists: Shriram, L&T Finance, Bajaj, IIFL FAQ pages. https://www.shriramfinance.in/financial-faq-how-can-i-apply-for-a-gold-loan-balance-transfer ; https://www.ltfinance.com/blog/gold-loan/gold-loan-transfer
+- Rate gap real but < pitch: Muthoot ~16.3%, Manappuram ~16.6%, IIFL/Capri ~18.6% vs SBI ~9.6% (gap ~7-9 pts not 10-20). Muthoot guided FY26 NIM peak, normalising. Banks' retail gold +105% y/y to INR5.1 lakh cr (May 2026) w/o a desk.
+- Bank LTV lower (65%) per Shriram FAQ => switching to bank often cuts loan amount.
+- Verdict weak. median $6M upside $50M (banks' disbursal INR ~6-7 lakh cr/yr x 15% x 0.5% = ~$57M).
+
+## Idea 6 Co-Lend Exchange
+- RBI Co-Lending Arrangements Directions 2025 effective 1 Jan 2026: banks (ex SFB/LAB/RRB), AIFIs, NBFCs; each RE retains >=10% of every loan (80:20 is the OLD 2020 model). https://www.taxmann.com/post/blog/rbi-permits-co-lending-between-regulated-entities-from-jan-2026-with-10-loan-retention/ ; https://vinodkothari.com/2025/08/rbi-issues-co-lending-directions-2025/
+- Yubi Co.Lend (unicorn; matches banks+NBFCs) – no gold on product list; bilateral gold deals: Indel-IndusInd, Finkurve-Godrej, IIFL-Canara/DCB/DBS, Rupeek-Indian Bank, IndusInd lists Fedbank, Yogakshemam, Indel. https://www.indusind.bank.in/in/en/personal/product/financial-inclusion/co-lending.html
+- Pool itself says dead standalone. Verdict KILL. median $3M upside $25M.
+
+## Idea 7 Renewal Wall
+- Price path 2026 (INR/10g 24K): Jan 2 1,35,070; Jan 13 1,42,160; Jan 21 ~1.50 lakh; Jan 29 spike ~1.79-1.81 lakh (one-day +17,900); -12.4% by Feb 8; mid-Feb MCX 1,56,200; Jun trough ~1.40; Aug 24 ~1.63; Sep 28 MCX 147,864; Oct 15 147,830. https://www.goodreturns.in/news/gold-rates-fall-12-44-in-10-days-from-peak-24k-22k-18k-gold-prices-in-top-cities-gold-weekly-outlook-1487905.html
+- Para 17 valuation = lower of 30-day avg and prior day => Jan-29 spike barely enters the valuation. 30-day avg at end-Jan ~INR1.45-1.50 lakh (my estimate) vs spot 1.478 now => ~0-3% LTV drift for late-Jan loans; <=10% for Aug cohort. Wall is mostly not there.
+- Muthoot Stage III falling; ~90% NBFC gold loans bullet; lenders say manageable at renewal (short tenure). 
+- Verdict KILL (false premise + short-dated why-now). median $2M upside $15M.
+
+## Idea 8 Gold Bay
+- Requirement is old (RBI 2013 NBFC circular: no branch without storage/vault) so entrants already know how to build; SBI tender sizing 100-150 sq ft strong room RCC to IS 15369. No published cost.
+- Entrants buy branches/licences rather than build: L&T–Paul Merchants 130 branches (Rs 537 cr), InCred–TruCap 115 branches, Tata–Yogakshemam, Godrej–Kanakadurga. Muthoot guides 200-300 new branches FY27.
+- Commodity fit-out: Godrej Security Solutions. $100M = 10,300 bays at ~$9.7k (pool admits ~100% of entrant wave). Verdict KILL. median $3M upside $25M.
+
+## PICKS: none. No idea reaches median>=$20M AND upside>=$100M on believable assumptions.

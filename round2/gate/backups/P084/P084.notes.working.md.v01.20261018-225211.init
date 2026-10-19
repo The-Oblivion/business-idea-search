@@ -1,0 +1,5 @@
+# P084 gate working notes (US customs-duty / duty-mitigation services) - started 2026-10-18
+Status: init. Ideas: 1 Intercompany Reconciler, 2 Rights Ledger, 3 Origin Rail, 4 Licence Bank, 5 Second Filer, 6 Peer Ledger, 7 Weight Line, 8 Pass-Through
+(Notes appended per idea; backup made after each. Backups: gate/backups/P084/)
+Usage cap note: user capped weekly usage at 92%; notes are written incrementally so nothing is lost if the run stops.
+
