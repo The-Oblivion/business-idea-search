@@ -1,0 +1,86 @@
+# P021 gate working notes (auto-saved; backups in gate/backups/P021/)
+Started 2026-10-18. Pool: US personal-auto physical-damage claims. 8 ideas.
+## Status log
+- [start] inputs read (lessons.md, pool P021). Searching idea by idea.
+
+## Idea 1 Counterweight (RCM for MSOs) - searches done (4 rounds)
+Competitors/substitutes found beyond pool list:
+- Claimory (claims mgmt for shops, AI flags missed lines + drafts rebuttals, $49.99/mo/location, added to AlternativeTo Jun 2026; no MSO focus; no funding found) https://alternativeto.net/software/claimory/about/
+- Audatex Shop Recoverables Tool (2016, Solera) https://www.fenderbender.com/news/article/55048527/audatex-introduces-the-shop-recoverables-tool
+- Mitchell Estimate Review (UltraMate; imports carrier profiles via Compliance Manager) https://www.aftermarketnews.com/mitchell-releases-new-estimate-review-product/
+- ALLDATA Collision Advantage / Estimate Integration (OEM procedures vs estimate line by line) https://www.alldata.com/us/en/ALLDATA-Collision-Advantage
+- Collision Billing Services (CBS, Jackson MI, launched Jul 2011, recreated estimates in insurer platform + desk review; claims DB; status unknown = tried 15 yrs ago, never scaled) https://www.fenderbender.com/running-a-shop/finance/article/33034620/collision-billing-adds-desk-review-to-product-offerings
+- Impact Illumination (WI outsourced supplement/negotiation desk, free first-file review; tiny) https://impact-illumination.lovable.app/services
+- VaraFix (Aug 25 2026 launch, Boca Raton, no funding)
+- Caliber renewed Mitchell enterprise license Sep 22 2026 across 1,850+ locations + extends CCC => Big MSOs have scale for in-house teams.
+- Survey (Collision Repair mag 2026): 96% say insurer estimates require changes; 55% add supplements on nearly every job.
+Math: Boyd $55-60B; MSO-addressable. My median: win 15% of MSO revenue (~7% industry ~$3.3B insurer-paid) -> 2.5% incremental=$83M recovered x12% = $10M + $8/RO x0.6M = ~$5M => ~$15M. Upside ~$90-120M only if ~35-40% of industry insurer-paid + RCM back office adds. Key weakness: 2.5% incremental is the author's assumption; Big4 will in-house; fees gain-share on insurer dollars triggers insurer pushback.
+
+## Idea 2 Severity Pool - first search done
+- Only analog found: France Assercar/insurer GIE pooled procurement (1,400 repairers) https://www.credit-agricole.com/en/press-releases/pacifica-generali-france-aviva-france-thelem-assurances-and-sogessur-confirm-partnership
+- RDN 2019: small carriers pooling policyholder count to rival big carriers' DRP attractiveness (idea floated, not built) https://www.repairerdrivennews.com/2019/09/30/speaker-shift-strategy-as-top-insurer-drps-become-unattainable/
+- US: MSOs offering to run DRP KPI mgmt for insurers (FenderBender) 
+TODO: antitrust/McCarran-Ferguson; Innovation Group/Sedgwick; CrashBay; who are tier2/3 carriers share.
+
+## Idea 3 Cycle Close - first search done
+- Verisk Lien Check, CCC lender connectivity ("end-to-end FNOL to lien and title"), Dealertrack+IAA pilot, One Inc ClaimsPay+Copart lien payments
+- IAA: manual TL workflow 45-90 days; >5M TLs/yr, 60-70% have liens.
+
+## Idea 2 Severity Pool - DONE searching
+- KEY CORRECTION: RDN (2024 NAIC data) top-10 PPA insurers hold ~76% (State Farm 18.9, Progressive 16.7, Berkshire/GEICO 11.6, Allstate 10.2, USAA 6.2, Farmers 3.8, Liberty 3.3, Travelers 2.0, AAA 1.8, AmFam 1.7). Tier2/3 = ~24%, not 35-40% => addressable base x0.6. 15M claims x24% x70% x50% = 1.26M files x $63 = $79M at 100% share; cannot reach $100M on repair leg even at 100%. https://www.repairerdrivennews.com/?p=195162
+- Competitors: Innovation Group managed repair network sells to tier2/3 (American Farmers & Ranchers) https://insurancetech.com/american-farmers-and-ranchers-adopts-innovation-groups-managed-repair-network/d/d-id/1312919.html ; CrashBay-Branch DRP (Jul 28 2026, under 3 weeks) https://collisionweek.com/2026/07/28/branch-partners-crashbay-direct-repair-program/ ; Sedgwick managed repair.
+- Legal: joint purchasing by competing insurers w/ shops: McCarran-Ferguson probably doesn't cover dealings with third-party shops (attorney quoted); Sherman Act buying-group risk; carrying severity guarantee = insurance risk (regulatory). 
+- Verdict lean: KILL (can't reach 100M; steering law; carriers that matter won't join).
+
+## Idea 3 Cycle Close - DONE searching
+- Direct infrastructure competitors: LossExpress (Dallas, 2019; lien payoff+title release; LexisNexis partnership Dec 2022 delivers to claim system for up to 80% of TLs; IAA, Guidewire, Champ) https://www.cbinsights.com/company/lossexpress ; Champ Titles ($12.9M Series B 2022, >$30M total) https://fintech.global/2022/09/28/champ-titles-nets-12-9m/ ; CCC Total Loss Care/ PDP Group (1,100 lenders; CCC 350 insurers incl 19 of top 20) https://utilities.cccis.com/2020/06/03/ccc-extends-total-loss-offering-comprehensive-solution/ ; Verisk Lien Check; One Inc ClaimsPay; Dealertrack+IAA; Level (seed $3.09M Sep 2025, TL valuation recovery for lenders)
+- LexisNexis says avg TL process 19-22 days; day-13 lienholder claim NOT verified. Lien exists in 60-70% of TLs (IAA) / ~half (CCC).
+- Math: tier2/3 = 24% not 40% => 3.5M x 24% = 0.84M files x $175 = $147M at 100%; $100M = 68% of base. 
+- Verdict lean: weak/kill. Median ~ $10-15M.
+
+## Idea 4 Same-Day parts - searched (3 rounds)
+- PartsTrader Spring 2026 verified: OEM 52% of parts ordered, aftermarket 20%, price-matched 18%, recycled 6%; OEM median delivery 9.0 days Jan / 8.7 Feb (winter storms; figure described as median + 2 SD), aftermarket ~3 days. OEM +4.3% since tariffs; aftermarket <1%. https://www.repairerdrivennews.com/2026/05/08/partstrader-oem-parts-increase-in-price-as-aftermarket-remain-flat/ ; NOTE '18% insurer price-matched OEM' in pool is wrong: 18% = price-matched parts, predominantly aftermarket.
+- Substitute: dealers often deliver OEM same day (Toyota claims one-day/same-day), MSOs build own warehouses (Body by Cochran 11.5 -> 1.3 days parts cycle, serves 500 shops) https://www.autobodynews.com/news/how-body-by-cochran-grew-from-5-shops-to-13
+- Competitors: LKQ (alt parts >40% of utilization Q2 2026; NA EBITDA 14.1%) https://collisionweek.com/2026/07/30/lkq-north-america-returns-growth-alternative-parts-utilization-tops-40/ ; OEConnection CollisionLink; Apfusion ($6.5M seed; shop parts ordering); uParts; PartsTrader.
+- Math problem: 5.5% take on GMV of a courier-heavy network; delivery fee 3% < courier cost on $300 avg order. 
+- Verdict lean: weak/kill.
+
+## Idea 5 Open Yard - DONE searching (3 rounds)
+- Salvato Auctions (Salvato Inc, CEO Peter Jebson, TX; first auction Aug 7 2025; fees 20-40% below Copart/IAA; 'decentralized vehicle storage model' + digital lien/title + towing network; built for insurer total-loss cars; no funding/volume disclosed) => the Open Yard concept is ALREADY being run by a small startup. https://autorecyclingworld.com/salvato-auctions-revolutionizes-total-loss-vehicle-auctions-with-new-time-auction-platform-and-20-to-40-lower-auction-fees/
+- Copart agreed Sep 10 2026 to buy ACV Auctions for ~$1.9B cash ($10.50/sh), close by end-2026; ACV stays independent subsidiary; Copart footprint >250 locations + global buyers. => the only obvious dealer-wholesale partner/entrant is now Copart's. https://www.insurancejournal.com/news/east/2026/09/14/884939.htm ; https://dealroom.co/news/150170-copart-to-buy-acv-auctions-for-1-9b-in-remarketing-push/
+- Copart FY2025 (Jul): revenue $4.6B, US service revenue $3.45B; US insurance volume +4.2% FY25 but Q4 -2% https://www.sec.gov/Archives/edgar/data/900075/000162828025042946/cprt-20250731.htm
+- Peddle buys totaled cars from owners (not insurer channel). IAA owned by RB Global. Share figures: 'about 80%' duopoly claims; remaining split among hundreds of locals.
+- Math: Copart US service rev $3.45B vs $100M target => 3% of fee pool but 9.5% units; buyers (40% intl) sit on Copart.
+- Verdict lean: WEAK. Median ~$8M, upside ~$60-90M.
+
+## Idea 6 Dent Plan - DONE searching (3 rounds)
+- Competitors: Deductify (launched Sep 2, 2025; $10.99/mo for $1,000 deductible cover, $15.99/$1,500, $19.99/$2,000; Nationwide membership program Sep 2025), ZeroedOut (Oct 14 2025; $10-15/mo + signup) -- both pay deductible after a claim, no funding/members disclosed https://www.repairerdrivennews.com/2025/10/24/startups-promise-insurance-savings-and-deductible-coverage/ ; Dent Wizard Ding Shield / OEM appearance programs (Buick Appearance Guard, Volvo) = service contracts via GAI Warranty (Great American) sold at dealer F&I https://www.fi-magazine.com/321787/dent-wizard-launches-service-plan-covering-pre-existing-dents
+- LEGAL: NY DFS OGC Opinion 10-11-03: prepaid dent-repair membership fee + per-service fee is NOT insurance only if per-service fee covers actual cost + reasonable overhead; must disclose 'not insurance' and not call it a policy. A $290/yr fee for $1,500 credit (5:1) fails that test -> insurance risk. https://www.dfs.ny.gov/insurance/ogco2010/rg101103.htm ; BC (Canada) reclassified dent/windshield products as insurance in 2024; MA treats 3rd-party-obligor contracts as insurance.
+- Revenue is gross membership; contribution 25-30% (author's own number) => net ~ $25-30M at $100M gross.
+- Verdict lean: WEAK (legal reshapes to a discount club; distribution; gross vs net). Median ~ $5M.
+
+## Idea 7 Proof Plate - DONE searching (3 rounds)
+- Competitors: Opus IVS ADAS MAP (VIN-specific calibration identification, integrates CCC estimating + Mitchell; Allstate GHRN Oct 27 2025 reimburses the $3 ADAS MAP report fee + flat-rate 5-tier calibration pricing) https://www.repairerdrivennews.com/2025/10/28/allstate-announces-opus-ivs-agreement-for-good-hands-repair-network/ ; Repairify asTech (Connected Calibrations, Nov 2025; 2021: 185k ADAS calibration reports, 216k calibrations, 28,000 customers; Allstate preferred scanning) https://www.businesswire.com/news/home/20251104705286/en ; AirPro, Protech, Safelite, etc.
+- Market anchor price: $3 per report (ADAS MAP) vs idea's $9+$4 per event.
+- NY law (signed Dec 19 2025, GBL 392-K) scoped to GLASS repair facilities only; UT/AZ also glass; MD/IL pending. https://www.repairerdrivennews.com/2025/12/31/new-york-latest-state-to-pass-ncoil-guided-glass-repair-adas-calibration-law/
+- Lawsuits 3 (2018) -> 61 (2024): secondhand industry figure; $200k-1M settlements & 'half of shops miss' are analyst commentary.
+- KPMG: NA calibration services ~$1.2B 2024; US $3B by 2030 (assumes widespread adoption); 70%/in-house claim not found.
+- Math: dispatch engine: sublet ~50% of $3B = $1.5B x 8% = $120M at 100% share; realistic 25% share = $30M + record fees ~$15-25M => upside ~$50-70M.
+- Verdict lean: WEAK (not neutral-gap; Opus is the plan layer; liability value unproven). 
+
+## Idea 8 Ground Truth - DONE searching (3 rounds)
+- Premises check out: NAIC AI Systems Evaluation Tool 12-state pilot (CA, CO, CT, FL, IA, LA, MD, PA, RI, VT, VA, WI), adoption targeted Fall National Meeting Nov 2026 (target, not scheduled/guaranteed) https://www.autobodynews.com/news/regulators-open-first-examination-of-insurer-ai-behind-total-loss-decisions-and-claims-payouts ; Progressive CO Curran v. Progressive $15.24M, opt-out Nov 5 2026, fairness hearing Jan 6 2027; Progressive 10-Q: certified/conditionally certified classes in CO, NC, OH re negotiation adjustment https://www.claimdepot.com/settlements/co-total-loss-claim ; State Farm AR $15.58M ; Aug 2026 en banc Sixth Circuit resolved split on class cert in TL cases (direction unconfirmed) https://www.bakerlaw.com/insights/insurance-class-action-report-2026-q2
+- No dedicated TL-audit startup found; valuation vendors own raw sold-price data (J.D. Power, classifieds licensed).
+- Author's own ceiling: $40-60M at best; head-on fight with Cox/JDP for upside.
+- Verdict lean: KILL.
+
+## Cross-checks (rounds 4-5)
+- Industry base: Romans US TAM $50.0B (2023), $48.2B US+Canada 2024; Focus 'Big Five' = 3,836 shops, >$15.6B revenue (~30% share) ; Matthews Big 4 = 4,019 locations, 31.7% share; Caliber ~$7.85B, Boyd/Gerber $3.2B, Crash Champions $2.6B, Classic $1.3B (Matthews 2024 est). Focus 2023: 803 MSOs own 2,400 facilities and $7.5B; remaining ~25,000 facilities. => MSO tier ~ $23B (46%); mid-MSO tier only $7.5B and mostly 2-3 shop operators. https://www.repairerdrivennews.com/2025/02/18/focus-advisors-predicts-significant-consolidation-this-year-big-five-now-hold-30-of-market-share/
+- CCC Estimate-STP: 40 insurer clients incl. 7 of top 10 BUT only ~5% of total claims flow through it (one large carrier 20%) => pool's 'about half of claims volume' is the insurers' share, not STP volume. Aug 2025 CEO: aggregate volume doesn't move needle yet. https://actuary.info/insights/ccc-q1-ai-claims-revenue-scale-milestone-2026
+- Crash Champions has in-house 'Centralized Estimatics Reviewer' role (carrier-specific compliance reviews + supplement audits); Mitchell MSO suite includes central review desk; vendor EstimateIQ. => MSOs insource central review.
+- Legal (Counterweight): public-adjuster licensing risk when a shop/agent negotiates with insurer for the owner; NY DFS OGC 04-06-08; contingency fees void for PAs in LA; a % of 'verified incremental approved dollars' looks like a contingency fee. Low-moderate, state by state.
+- RB Global Q2 2026: automotive GTV $2.45B (+13%), units +11%, 'net market share gains', largest insurer partner scaled across 30 states in 90 days; service revenue take rate -110bp to 20.0% (volume price incentives). Insurers move volume fast; incumbents cut fees.
+- Take-rate bound for Counterweight: vendor take capped by recovered dollars: 2.5% incremental x 25% desk share = 0.6% + $8/RO (~0.17%) ~0.8% of insurer-paid => $100M needs ~$12.5B insurer-paid = ~55% of MSO tier. Upside ~$55M.
+
+## DECISIONS (draft)
+1 Counterweight weak (med 9 / up 55); 2 Severity Pool kill (5/40); 3 Cycle Close weak (8/65); 4 Same-Day kill (6/50); 5 Open Yard weak (8/70); 6 Dent Plan kill (4/gross 60, net 15); 7 Proof Plate weak (9/55); 8 Ground Truth kill (6/45). Picks: none meet median>=20 & upside>=100.
