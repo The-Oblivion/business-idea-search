@@ -30,3 +30,4 @@ INSIDER: (1) Parity (conversion PM) conversion factory; (2) Day One (M&A integra
 PATTERN: (3) Books of Record (race-the-bundle neutral ledger mirror); (4) Quorum (free tool for bankers paid by vendors + collective buying)
 DILEMMA: (5) Tenancy (per-institution licensing blocks shared-tenancy for small CUs/banks); (6) Open-book issuer processing (cost-plus; exempt debit $14.9B pool)
 SHOCK: (7) Bureau (buy what Fiserv sheds + independent processors); (8) TBD (charter-wave stack?) 
+- 21:49 final file written and backed up (v3); returning structured output. Weekly usage last read 74%.
