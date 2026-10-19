@@ -530,3 +530,15 @@ Paused at your request to wait for the weekly usage reset (about 50% of the week
   - P084: customs-duty payments
 
   I skipped pools that duplicate ones already done (P069, P082, P085, P101, P125, P018).
+
+### Deep validation v2, run 2 (`wf_22b53bae-6ae`): 54/54 agents, 8.7M subagent tokens
+- **3 died:**
+  - Day 21 (forensic beds): median fell to $4.5M; it is a program operator inside licensed host hospitals.
+  - Last Mile (auto recovery).
+  - Outside Care Plan.
+- **3 survived wounded:**
+  - **Signed-Off v2** (an AI-leveraged nuclear engineering house: buy-and-build, sold through the buyer co-op): **3.67**, the best round-2 score so far.
+  - Stafette (Meister-partnered hubs that absorb closing Handwerk firms' customer books and crews): 3.0.
+  - Outreach Partner Labs: 3.0.
+- **Round-2 deep standings (all 12, `round2/deep_results.json/.csv`):** 9 contenders, all wounded, scoring 2.7-3.7, with medians of $12-55M and upsides of $100-200M. Order: C10 Signed-Off 3.67 · C03 HCBS Ops Utility 3.33 · C04 Time-to-Power Desk 3.33 · C06 Level-1 Bench 3.33 · C02 fiscal agent 3.0 · C05 Independent Foundry 3.0 (biggest prize: $55M median, $200M upside, best defensibility at 4) · C09 Stafette 3.0 · C11 Outreach Partner Labs 3.0 · C01 Capped Outage 2.67. Dead: C08, C12, C07.
+- **Pattern confirmed:** the top scorer is the one with **AI leverage on regulated, high-value deliverables** (a margin-expanding shape). The rest are operations-heavy. Next week's head-to-head will rank the 9 contenders plus batch 4's survivors.

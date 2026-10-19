@@ -1,0 +1,13 @@
+rank,cid,title,contender,alive,recritic,median_m,upside_m,upside,timing,originality,feasibility,defensibility,evidence_of_demand,overall
+1,C10,"Signed-Off v2: buy-and-build, AI-leveraged nuclear engineering house sold through the buyer co-op",True,True,wounded,25,110,3.67,6,4,3,3,4,3.67
+2,C03,HCBS Operations Utility for Managed-LTSS Plans,True,True,wounded,18,101,3.33,5.67,4,4.67,3,3,3.33
+3,C04,Time-to-Power Desk,True,True,wounded,30,120,3,5.67,3,4.67,2,4.67,3.33
+4,C06,Level-1 Bench (refined from Overnight Yard Crews),True,True,wounded,20,100,3,4.67,4,5.33,2.67,3.33,3.33
+5,C02,"Qualified-challenger fiscal agent: buy the ticket in choice markets, bid the statewide auctions later",True,True,wounded,25,103,3,4.67,4,2.67,3,3.67,3
+6,C05,Anchor-Funded Independent Foundry Platform,True,True,wounded,55,200,3.67,5.67,4,2.33,4,4.33,3
+7,C09,Stafette: Meister-partnered service hubs that absorb the customer books and crews of closing Handwerk firms (replaces Meisterwerk),True,True,wounded,27.6,108,3,5.67,4.33,3.67,2.67,4,3
+8,C11,Outreach Partner Labs (rebuilt): open-book operating company for health systems that keep their outreach lab,True,True,wounded,12,110,3,5,5,4,3,3,3
+9,C01,Capped Outage: scope- and date-guaranteed gas-turbine overhauls for owners with no LTSA,True,True,wounded,30,110,2.67,5,4.67,3,2,2.33,2.67
+10,C08,Last Mile v2: independent recovery desk for broken books (dead as a $100M business),False,False,dead,10,84,2.33,4.33,3.33,4.67,1.33,2.67,2.67
+11,C12,"Outside Care Plan, rebuilt as an off-site payment trust (verdict: not a $100M company)",False,False,dead,10,45,2,4.33,3.33,4,2,3.33,2.33
+12,C07,"Day 21: forensic program operator for licensed host hospitals (refined, dead on the $100M test)",False,False,dead,4.5,55,2,2,3.67,3.67,1,4,2
