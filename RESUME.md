@@ -77,3 +77,10 @@ Read the top 10's refined pitches, dossiers, critiques, head-to-head results and
 - **Usage limit:** the run hit the account session limit at about 800 agent runs. Resuming with `resumeFromRunId` replays finished agents from cache. Note that in a `parallel()`, calls after the first failure re-run, which can produce duplicate results. Aggregation keeps the last result; for competitor checks, take the more skeptical verdict.
 - A structured-output failure (5 retries) drops one item. Re-run it by resuming the same workflow.
 - The workflow `resumeFromRunId` cache is **same-session only**. In a new session, re-run from the checkpoint files instead.
+
+## If the usage cap stops a run mid-way (nothing is lost)
+- **The autosave loop keeps running without the model.** Every 10 minutes it saves the work dir and this session's journals to GitHub, verifies the push, and writes a dated local snapshot to `~/projects/business-idea-search-backups/snap-<date>-<commit>.tgz`. Milestone saves also get a git tag `snap-<date>`.
+- **Every finished agent's full output is in its workflow journal**, copied to `checkpoint/journals/<run-id>.jsonl`.
+- **After the reset, in the same chat:** resume each interrupted workflow with `Workflow({scriptPath, resumeFromRunId})`. Completed agents replay from cache, and only interrupted ones re-run.
+- **In a new chat:** re-run only the missing items, found by comparing journal labels against the plan.
+- **To restore any version:** `git checkout snap-<date>`, or untar a snapshot.
