@@ -542,3 +542,13 @@ Paused at your request to wait for the weekly usage reset (about 50% of the week
   - Outreach Partner Labs: 3.0.
 - **Round-2 deep standings (all 12, `round2/deep_results.json/.csv`):** 9 contenders, all wounded, scoring 2.7-3.7, with medians of $12-55M and upsides of $100-200M. Order: C10 Signed-Off 3.67 · C03 HCBS Ops Utility 3.33 · C04 Time-to-Power Desk 3.33 · C06 Level-1 Bench 3.33 · C02 fiscal agent 3.0 · C05 Independent Foundry 3.0 (biggest prize: $55M median, $200M upside, best defensibility at 4) · C09 Stafette 3.0 · C11 Outreach Partner Labs 3.0 · C01 Capped Outage 2.67. Dead: C08, C12, C07.
 - **Pattern confirmed:** the top scorer is the one with **AI leverage on regulated, high-value deliverables** (a margin-expanding shape). The rest are operations-heavy. Next week's head-to-head will rank the 9 contenders plus batch 4's survivors.
+
+### Batch 4 result (`wf_655838aa-8a1`): 24/24 agents, 7.3M subagent tokens
+- **96 ideas, 4 picks:**
+  - **Run-Base Shrinker** (P129): vendor-neutral, paid only from audited savings. It funds the engineering that removes application run cost (zombie apps, dead code, license and infrastructure right-sizing) and takes 30-35% of the audited reductions for 36 months. Median $20M, upside $110M.
+  - **Covenant Parks** (P017): an owner-operator of land-lease (manufactured-home) communities. At closing it records a rent-growth covenant and a resident buy option, financed by agency tenant-protection debt plus pension or insurer equity. Median $25M, upside $100M.
+  - **Hot-Spot Contract** (P003, England): a fixed annual fee per home covering all repairs, disrepair-defence costs and root-cause fixes on a social landlord's costliest 5-8% of homes, with stop-loss cover on the tail. Median $20M, upside $100M.
+  - **Uniform and linen density consolidator** (P067): an operator-led buyer of family-owned laundries that consolidates plants into metro hubs, with readiness for FTC-remedy divestitures as a free option. Median $45M, upside $200M.
+- **Round 2 totals:** 37 pools, **296 ideas, 140 kills, 146 weak, 10 strong, 12 gate picks.**
+- **Judgment call: skipped the near-miss "Open Lot"** (P017 manufactured-home retail roll-up, $60M median and $250M upside on paper). That "revenue" is gross retail sales at distribution margins, exactly the revenue-is-not-value trap the deep-validation judges flagged.
+- **Judgment call: ran deep validation run 3 (`wf_6124a97a-ea2`) at a 5-agent limit** on the 4 picks (C13-C16). The meter read **weekly 80%** (your cap is 92%) and the **5-hour window 74%**, resetting in about 1.5 hours. A slower burn keeps the run under the 5-hour limit until it resets. If it does hit the limit, the journals and autosave keep everything, and the interrupted agents resume from cache.
