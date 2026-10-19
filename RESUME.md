@@ -1,7 +1,7 @@
 # RESUME: how to continue the business idea search
 
-**Updated:** 15 Oct 2026, paused after round 2's pilot. Round 2 so far: 143 pools mapped, 15 pools gated, 120 ideas, **3 picks** (turbine maintenance contracts; Medicaid fiscal-intermediary consolidator; neutral HCBS OS for D-SNP plans).
-**Next step (needs the user's go):** scale round 2 to ~10 more pools with `next_steps/r2_ideate_gate_v2.js` (args `{part, nparts, conc, pool_ids}`; first add the pools to `round2/pools_selected.json` via `r2_select.py <pooljudge journal> --write <ids>`), re-gate round 1's survivors with the v2 gate, deep-validate the picks plus near-misses, then steps 6-9. Start in a FRESH session (orchestration cost scales with context). Save with `biz/save.sh "<msg>"` after every workflow; run `biz/autosave_loop.sh` in the background while agents work.
+**Updated:** 19 Oct 2026, paused after round 2's deep validation. Round 2: 37 pools ideated, 296 ideas, 16 deep-validated, **12 contenders** (`round2/deep_results.json`; leader C10 Signed-Off at 3.67).
+**Next step (needs the user's go; use a FRESH chat):** step 6, head-to-head on the 12 contenders (pairwise, order-swapped judges; objective = expected founder outcome, with venture scale as one factor). Then step 7 (war-game top 5), step 8 (orchestrator review) and step 9 (report + explorer covering round 1's 1,340 ideas and round 2's 296). Scripts: `next_steps/r2_*.js`; aggregators `r2_gate_summary.py`, `r2_aggregate_deep.py`. Save with `biz/save.sh "<msg>"`, and run `biz/autosave_loop.sh` while agents work.
 
 ## Quick start (for the human)
 

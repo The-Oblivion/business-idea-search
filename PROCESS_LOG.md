@@ -552,3 +552,40 @@ Paused at your request to wait for the weekly usage reset (about 50% of the week
 - **Round 2 totals:** 37 pools, **296 ideas, 140 kills, 146 weak, 10 strong, 12 gate picks.**
 - **Judgment call: skipped the near-miss "Open Lot"** (P017 manufactured-home retail roll-up, $60M median and $250M upside on paper). That "revenue" is gross retail sales at distribution margins, exactly the revenue-is-not-value trap the deep-validation judges flagged.
 - **Judgment call: ran deep validation run 3 (`wf_6124a97a-ea2`) at a 5-agent limit** on the 4 picks (C13-C16). The meter read **weekly 80%** (your cap is 92%) and the **5-hour window 74%**, resetting in about 1.5 hours. A slower burn keeps the run under the 5-hour limit until it resets. If it does hit the limit, the journals and autosave keep everything, and the interrupted agents resume from cache.
+
+### Deep validation v2, run 3 (`wf_6124a97a-ea2`): 36/36 agents, 6.0M subagent tokens
+- **Run-Base Shrinker v2** (funded retirement of application run cost, paid per invoice line that drops): 3.33, wounded. $17M median, $100M upside.
+- **Root-Cause Contract** (outcome-priced fixes for social housing's costliest homes): 3.33, wounded. $17M median, $107M upside.
+- **Regional Partner Group** (a rollover-first uniform and linen laundry consolidator): 3.0, wounded. $45M median, $130M upside.
+- **Covenant Parks: dead.** It came down to $8M median and $60M upside.
+
+## Round 2 standings after deep validation (16 candidates, `round2/deep_results.json/.csv`)
+**12 contenders** (all wounded):
+
+| # | Candidate | Overall | Median / upside ($M/yr) |
+|---|---|---|---|
+| 1 | C10 Signed-Off v2 (AI-leveraged nuclear engineering house) | 3.67 | 25 / 110 |
+| 2 | C03 HCBS Ops Utility | 3.33 | 18 / 101 |
+| 3 | C04 Time-to-Power Desk | 3.33 | 30 / 120 |
+| 4 | C06 Level-1 Bench | 3.33 | 20 / 100 |
+| 5 | C13 Run-Base Shrinker v2 | 3.33 | 17 / 100 |
+| 6 | C15 Root-Cause Contract | 3.33 | 17 / 107 |
+| 7 | C02 Qualified-challenger fiscal agent | 3.0 | 25 / 103 |
+| 8 | C05 Anchor-Funded Independent Foundry | 3.0 | 55 / 200 |
+| 9 | C09 Stafette | 3.0 | 27.6 / 108 |
+| 10 | C11 Outreach Partner Labs | 3.0 | 12 / 110 |
+| 11 | C16 Regional Partner Group (laundries) | 3.0 | 45 / 130 |
+| 12 | C01 Capped Outage | 2.67 | 30 / 110 |
+
+**Dead (4):** C08 Last Mile, C14 Covenant Parks, C12 Outside Care Plan, C07 Day 21.
+
+- **Total round 2 to date:** 57 patterns, 143 pools mapped, 37 pools ideated, **296 ideas, 12 gate picks plus 4 near-misses deep-validated (16), 12 contenders.** About 330 round-2 agents ran, all succeeded, with 0 safety-filter errors.
+- **The deep scores are tightly bunched (2.7-3.7)**, so they can't separate the contenders on their own. That's what the step 6 head-to-head is for: direct pairwise comparisons are far more discriminating than absolute 1-10 scores.
+
+## ⏸ PAUSE (19 Oct 2026, ~00:25 ET): week-3 budget spent
+- The meter read **weekly 84%** (your cap is 92%) and the 5-hour window 87%. No agents are running.
+- **Next (on your go, after the 19 Oct reset), in a fresh chat:**
+  - **Step 6, head-to-head:** the 12 contenders, judged pairwise with order-swapped judges. "Best" is defined as **expected outcome for a capable founding team in late 2026**: value created × probability, versus capital and time needed. Venture scale counts as one factor, not a gate (my proposal; you can override).
+  - **Step 7:** war-game the top 5.
+  - **Step 8:** my final review.
+  - **Step 9:** the report, plus the interactive explorer of every idea from both rounds.
