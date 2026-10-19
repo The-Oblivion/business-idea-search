@@ -494,3 +494,13 @@ Paused at your request to wait for the weekly usage reset (about 50% of the week
   - The deep-validation judges are now explicit that the ~3/10 means "decent business, wrong shape for venture", and their rationales cite the ideas' own margins and capital needs. So I treat this as a real verdict, not a scoring floor.
   - **Caveat:** these adversarial agents are built to find reasons an idea fails. Great companies often look bad on paper at seed, and judges reading 3 critiques plus a "wounded" verdict lean negative.
 - **Implication for the final stage:** "best" has to be defined explicitly. I'll propose to you that the final answer ranks ideas by **expected founder outcome** (value created per unit of risk and capital, for a scrappy team), with **venture-scale potential as one factor, not a gate**. A clearly marked list of high-variance contrarian bets would sit alongside it.
+
+### Batch 3 result (`wf_ea3e9b4d-95d`): 20/20 agents, 6.4M subagent tokens
+- **80 ideas, 5 picks:** a better yield than the pilot's 1 in 80, mostly from public, regulated and aging-economy pools.
+  - **Day 21** (P108): a multi-state operator of licensed forensic restoration beds, paid per available bed-day by state forensic agencies under court deadlines (Texas *Ward v. Muth*). Median $22M, upside $110M.
+  - **Last Mile** (P022): an outcome-priced recovery operator for non-captive auto lenders (locate, voluntary hand-back, remarketing), proven with randomized holdouts. Median $22M, upside $100M.
+  - **Meisterwerk** (P004): a hold-forever buyer of owner-led German Handwerk (trades) firms below PE's size floor, with an owned pre-sale funnel. Median $40M, upside $110M.
+  - **Signed-Off** (P038): buy an approved-supplier nuclear engineering boutique, rebuild it AI-first under an NQA-1 software QA program, and sell fixed-price, signed Appendix B deliverables with a rework guarantee. Median $30M, upside $120M.
+  - **Outreach Partner Labs** (P062): an independent operator co-owns a new outreach-lab company with a health system and runs all its commercial functions, so the hospital keeps an equity stake instead of selling to Quest or Labcorp. Median $20M, upside $100M.
+- **Round 2 totals:** 25 pools, **200 ideas, 92 kills, 8 gate picks.**
+- **Deep validation v2, run 2** (`wf_22b53bae-6ae`, 8-agent limit, alone in flight): C07-C11 are the 5 picks, plus **C12, "Outside Care Plan"** (P108: a corrections department's own off-site health plan). C12 is the batch's best near-miss at a $25M median and $150M upside. That gives a field of 12 deep-validated round-2 candidates for the final stage.
