@@ -664,3 +664,22 @@ Paused at your request to wait for the weekly usage reset (about 50% of the week
 - The survivors are **real, fundable businesses** with typical outcomes of about $5-45M of revenue and $100-200M upsides, each decided by a cheap test.
 - **Every war-game said the same thing about founder fit: "start only with a co-founder who already is X"** (a nuclear QA lead, a laundry operator, a German Meister, an enterprise IT-finance insider, an ex-plan LTSS operations VP).
 - Combined with round 1's finding that insider personas produced the best ideas, the strongest conclusion is this: **in late 2026, the edge is less in the idea than in the founder's insider position.** The best idea for Asher is the one whose insider he can recruit or become.
+
+## Step 9: deliverables (24 Oct 2026)
+- **Run `wf_45d9df05-bcf`:** 2 Sonnet agents, 0.7M tokens, both succeeded.
+- **Final report:** `reports/Top 5 business ideas 2026.md`, about 9,000 words, following `skills/deep-research-report-writer.md`.
+  - It covers the answer in 10 lines, how the search worked (funnel table), one full section per finalist, the contrarian bets, lessons and limitations.
+  - Each finalist section has: pitch, dated why-now, demand evidence, the war-game's strongest rival, unit economics, 10 named first customers with URLs, the riskiest assumption and its 2-week test, the 90-day plan, dated quit conditions, founding team and verdict.
+  - The agent checked that **all 95 inline URLs appear verbatim in the dossiers and war-games**, so none were invented. Two German customer rows have no URL recorded and are marked as such.
+- **Interactive explorer** (published privately: https://claude.ai/artifact/6ZSGi7CGiK4cB6hkiTQ5uu; source `round2/explorer/index.html` plus 4 JSON data files):
+  - All **1,768 records**: round 1's 1,340 ideas plus its 120 offspring and 12 hybrids, and round 2's 296 ideas.
+  - Search; filters by round, kind/lens, furthest stage and verdict.
+  - A journey timeline per idea: source → 3 tournament judges → competitor check → evolution → deep validation; or pool → evidence gate → deep validation → head-to-head → war-game → final rank.
+  - The final five, the funnel and the contrarian bets sit on top.
+- **Fixes I made before publishing** (I read the whole page first):
+  - Removed a duplicate viewport meta tag (the publisher adds one).
+  - Replaced `#idea=<id>` history-based deep links with plain `#<id>` anchors and a simple panel close. Inside the artifact viewer, `#key=value` hashes are dropped, and `history.back()` could navigate readers away from the page.
+- **Known data limitation:** `explorer_data.json` cuts long text fields at fixed lengths. The page marks them with an ellipsis, and full text is in `ideas/all.json` and the dossiers.
+
+## ✅ Search complete (24 Oct 2026)
+**About 2,250 agent runs across both rounds**, every one on Sonnet 5.5, with Opus orchestrating. Final answer: **C10 Signed-Off v2 · C13 Run-Base Shrinker v2 · C03 HCBS Operations Utility · C16 Regional Partner Group · C09 Stafette**, plus 3 contrarian bets. Each finalist is a conditional bet, decided by a dated, cheap test in the next 2-4 weeks.

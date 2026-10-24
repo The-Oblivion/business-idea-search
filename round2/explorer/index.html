@@ -1135,9 +1135,9 @@ function hidePanel(){
   Array.prototype.forEach.call(document.querySelectorAll('.row[aria-current]'),function(el){ el.removeAttribute('aria-current'); });
 }
 function readHash(){
-  var m=/[#&]idea=([^&]+)/.exec(location.hash||'');
-  if(!m) return null;
-  try{ return decodeURIComponent(m[1]); }catch(e){ return null; }
+  var h=(location.hash||'').slice(1);
+  if(!/^[A-Za-z0-9._~-]+$/.test(h)) return null;
+  return h;
 }
 function openRecord(id,opts){
   opts=opts||{};
@@ -1145,26 +1145,12 @@ function openRecord(id,opts){
   var wasOpen=panelOpen();
   if(!wasOpen) lastTrigger = opts.trigger || document.activeElement;
   renderRecord(id);
-  if(!opts.fromHash && !opts.fromPop){
-    try{
-      if(wasOpen){ history.replaceState(null,'','#idea='+encodeURIComponent(id)); }
-      else { history.pushState(null,'','#idea='+encodeURIComponent(id)); pushed=true; }
-    }catch(e){}
-  }
   showPanel();
   var t=$('pTitle'); if(t) t.focus({preventScroll:true});
 }
 function closePanel(){
   if(!panelOpen()) return;
-  var trig=lastTrigger;
-  if(pushed){
-    pushed=false;
-    try{ history.back(); }catch(e){}
-    setTimeout(function(){ if(panelOpen()) finishClose(trig); },150);
-    return;
-  }
-  finishClose(trig);
-  try{ if(readHash()) history.replaceState(null,'',location.pathname+location.search); }catch(e){}
+  finishClose(lastTrigger);
 }
 function finishClose(trig){
   hidePanel();
@@ -1239,12 +1225,9 @@ document.addEventListener('keydown',function(e){
     closePanel();
   }
 });
-window.addEventListener('popstate',function(){
+window.addEventListener('hashchange',function(){
   var id=readHash();
-  if(id && byId.has(id)){ openRecord(id,{fromPop:true}); }
-  else if(panelOpen()){
-    var trig=lastTrigger; pushed=false; finishClose(trig);
-  }
+  if(id && byId.has(id)) openRecord(id,{fromHash:true});
 });
 try{
   var mq=window.matchMedia('(max-width: 899px)');

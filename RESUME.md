@@ -1,7 +1,7 @@
 # RESUME: how to continue the business idea search
 
-**Updated:** 19 Oct 2026, paused after round 2's deep validation. Round 2: 37 pools ideated, 296 ideas, 16 deep-validated, **12 contenders** (`round2/deep_results.json`; leader C10 Signed-Off at 3.67).
-**Next step (needs the user's go; use a FRESH chat):** step 6, head-to-head on the 12 contenders (pairwise, order-swapped judges; objective = expected founder outcome, with venture scale as one factor). Then step 7 (war-game top 5), step 8 (orchestrator review) and step 9 (report + explorer covering round 1's 1,340 ideas and round 2's 296). Scripts: `next_steps/r2_*.js`; aggregators `r2_gate_summary.py`, `r2_aggregate_deep.py`. Save with `biz/save.sh "<msg>"`, and run `biz/autosave_loop.sh` while agents work.
+**Updated:** 24 Oct 2026. **SEARCH COMPLETE.** Final 5: C10 Signed-Off v2, C13 Run-Base Shrinker v2, C03 HCBS Operations Utility, C16 Regional Partner Group, C09 Stafette (`round2/final_top5.json`). Report: `reports/Top 5 business ideas 2026.md`. Explorer: https://claude.ai/artifact/6ZSGi7CGiK4cB6hkiTQ5uu (source `round2/explorer/`).
+**Next step (only if the user asks):** run a finalist's 2-week test, or deep-validate the contrarian bets.
 
 ## Quick start (for the human)
 
