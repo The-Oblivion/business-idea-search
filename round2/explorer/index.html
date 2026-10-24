@@ -1,0 +1,1257 @@
+<title>Business Idea Search Explorer</title>
+<style>
+:root{
+  color-scheme:light;
+  --bg:#f1f4f6;
+  --surface:#ffffff;
+  --surface-2:#e8edf1;
+  --ink:#15202a;
+  --ink-2:#3f4d59;
+  --ink-3:#566471;
+  --line:#d5dce3;
+  --line-strong:#b4c0ca;
+  --accent:#0d6770;
+  --accent-ink:#0a4f56;
+  --accent-soft:#dbeeee;
+  --on-accent:#ffffff;
+  --ok:#1b6a37;
+  --ok-soft:#dbf0e1;
+  --bad:#a1263d;
+  --bad-soft:#f8dce1;
+  --warn:#7b5200;
+  --warn-soft:#f5e7c6;
+  --info:#2a52a0;
+  --info-soft:#dde7f7;
+  --muted:#4a5764;
+  --muted-soft:#e6ebef;
+  --focus:#1a5fd0;
+  --shadow:rgba(21,32,42,.18);
+  --mark:#fbe7a0;
+  --mark-ink:#15202a;
+  --font-display:"Young Serif","Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  --font-body:"Source Sans 3","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  --font-mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --gutter:16px;
+  --panel-w:min(640px,46vw);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#0f1519;
+    --surface:#161f25;
+    --surface-2:#1d2830;
+    --ink:#e7eef3;
+    --ink-2:#b8c4ce;
+    --ink-3:#93a1ad;
+    --line:#2a3741;
+    --line-strong:#3d4d58;
+    --accent:#5cc2c8;
+    --accent-ink:#92dde1;
+    --accent-soft:#143339;
+    --on-accent:#07191b;
+    --ok:#7dd69c;
+    --ok-soft:#173523;
+    --bad:#f19aa8;
+    --bad-soft:#3d1b24;
+    --warn:#e8c06f;
+    --warn-soft:#3a2e12;
+    --info:#93b5f2;
+    --info-soft:#1b2c4a;
+    --muted:#aab6c0;
+    --muted-soft:#222e37;
+    --focus:#7fb0ff;
+    --shadow:rgba(0,0,0,.5);
+    --mark:#5b4a12;
+    --mark-ink:#fbeab0;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#0f1519;
+  --surface:#161f25;
+  --surface-2:#1d2830;
+  --ink:#e7eef3;
+  --ink-2:#b8c4ce;
+  --ink-3:#93a1ad;
+  --line:#2a3741;
+  --line-strong:#3d4d58;
+  --accent:#5cc2c8;
+  --accent-ink:#92dde1;
+  --accent-soft:#143339;
+  --on-accent:#07191b;
+  --ok:#7dd69c;
+  --ok-soft:#173523;
+  --bad:#f19aa8;
+  --bad-soft:#3d1b24;
+  --warn:#e8c06f;
+  --warn-soft:#3a2e12;
+  --info:#93b5f2;
+  --info-soft:#1b2c4a;
+  --muted:#aab6c0;
+  --muted-soft:#222e37;
+  --focus:#7fb0ff;
+  --shadow:rgba(0,0,0,.5);
+  --mark:#5b4a12;
+  --mark-ink:#fbeab0;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.5 var(--font-body);font-variant-numeric:tabular-nums;overflow-wrap:break-word}
+html.panel-open body{overflow-x:hidden}
+button,input,select{font:inherit;color:inherit}
+h1,h2,h3,h4,p,ol,ul,dl,dd,blockquote{margin:0}
+ol,ul{padding:0}
+a{color:var(--accent-ink);text-underline-offset:2px}
+mark{background:var(--mark);color:var(--mark-ink);border-radius:2px;padding:0 1px}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:4px}
+.sr{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.mono{font-family:var(--font-mono);font-size:.78rem;color:var(--ink-3);overflow-wrap:anywhere}
+[hidden]{display:none !important}
+
+.shell{container-name:shell;container-type:inline-size;min-height:100vh}
+@media (min-width:900px){
+  html.panel-open .shell{padding-right:var(--panel-w)}
+}
+.wrap{width:100%;max-width:1180px;margin:0 auto;padding:0 var(--gutter)}
+
+/* Masthead */
+.mast{background:var(--surface);border-bottom:3px double var(--line-strong);padding:26px 0 16px}
+.eyebrow{font:600 .74rem/1.3 var(--font-body);letter-spacing:.12em;text-transform:uppercase;color:var(--accent-ink)}
+.mast h1{font:400 clamp(1.9rem,5.5vw,2.9rem)/1.1 var(--font-display);margin:6px 0 10px;letter-spacing:-.01em}
+.lede{max-width:68ch;color:var(--ink-2);font-size:1.05rem}
+.jump{display:flex;flex-wrap:wrap;gap:6px 18px;list-style:none;margin:16px 0 0}
+.jump a{font-weight:600;font-size:.92rem;text-decoration:none;border-bottom:2px solid var(--line-strong);padding-bottom:1px;color:var(--ink)}
+.jump a:hover{border-color:var(--accent)}
+
+/* States */
+.state{margin:28px 0;padding:18px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.state h2{font:400 1.25rem/1.3 var(--font-display);margin-bottom:6px}
+.state p{color:var(--ink-2)}
+.state-err{border-color:var(--bad);background:var(--bad-soft)}
+.state-err h2,.state-err p{color:var(--bad)}
+.state-err ul{margin:8px 0 0 18px;color:var(--ink)}
+.state-err .hint{margin-top:10px;font-size:.92rem;color:var(--ink)}
+.loadbar{height:6px;background:var(--surface-2);border-radius:99px;overflow:hidden;margin-top:14px;max-width:420px}
+.loadbar i{display:block;height:100%;width:38%;background:var(--accent);border-radius:99px;animation:slide 1.2s ease-in-out infinite alternate}
+@keyframes slide{from{margin-left:0}to{margin-left:62%}}
+
+/* Sections */
+.sec{padding:30px 0 6px;scroll-margin-top:8px}
+.sec>.wrap>h2,.sec-h{font:400 1.6rem/1.2 var(--font-display);margin:0 0 6px;letter-spacing:-.005em}
+.sec-sub{color:var(--ink-2);max-width:72ch;margin-bottom:16px}
+.sec-sub b{color:var(--ink)}
+.sec-note{color:var(--ink-3);font-size:.85rem;margin-top:10px;max-width:72ch}
+.rule{border:0;border-top:1px solid var(--line);margin:30px 0 0}
+
+/* Final five */
+.top5{list-style:none;display:grid;gap:12px;grid-template-columns:minmax(0,1fr)}
+@container shell (min-width:720px){
+  .top5{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .card-lead{grid-column:1/-1}
+}
+.card{position:relative;display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 14px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;min-width:0}
+.card:hover{border-color:var(--accent)}
+.card-lead{border-color:var(--accent);border-width:2px;padding:18px}
+.rank{font:400 2.5rem/1 var(--font-display);color:var(--accent);min-width:1.2ch;text-align:center}
+.card-lead .rank{font-size:3.6rem}
+.card-main{min-width:0}
+.card-title{font:600 1.08rem/1.3 var(--font-body)}
+.card-lead .card-title{font-size:1.3rem}
+.card-link{background:none;border:0;padding:0;margin:0;text-align:left;cursor:pointer;font:inherit;color:inherit}
+.card-link::after{content:"";position:absolute;inset:0;border-radius:12px}
+.card-link:focus-visible{outline:none}
+.card-link:focus-visible::after{outline:2px solid var(--focus);outline-offset:2px}
+.card-one{color:var(--ink-2);margin-top:6px}
+.figs{display:flex;flex-wrap:wrap;gap:6px 24px;margin-top:12px;padding:0}
+.fig{min-width:0}
+.fig dt{font:600 .68rem/1.2 var(--font-body);text-transform:uppercase;letter-spacing:.09em;color:var(--ink-3)}
+.fig dd{font:600 1.15rem/1.3 var(--font-body)}
+.fig dd small{font-weight:500;color:var(--ink-3);font-size:.72em}
+.card-why{margin-top:10px;font-size:.92rem;color:var(--ink-2);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+
+/* Funnel */
+.funnels{display:grid;gap:14px;grid-template-columns:minmax(0,1fr)}
+@container shell (min-width:760px){.funnels{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.fpanel{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 12px 10px;min-width:0}
+.fpanel h3{font:600 1rem/1.3 var(--font-body);padding:0 8px}
+.fpanel .fsub{padding:0 8px;color:var(--ink-3);font-size:.86rem;margin-top:2px}
+.flist{list-style:none;margin:10px 0 0;display:grid;gap:2px}
+.frow{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:3px 12px;align-items:baseline;width:100%;padding:8px;border-radius:8px;background:none;border:0;text-align:left;color:inherit;min-width:0}
+button.frow{cursor:pointer}
+button.frow:hover{background:var(--surface-2)}
+.fname{min-width:0}
+.fname small{display:block;color:var(--ink-3);font-size:.8rem;line-height:1.35}
+.fcount{font:600 1.15rem/1.2 var(--font-body);text-align:right;white-space:nowrap}
+.fbar{grid-column:1/-1;height:6px;background:var(--surface-2);border-radius:99px;overflow:hidden}
+.fbar i{display:block;height:100%;background:var(--accent);border-radius:99px;min-width:3px}
+.fbar.score i{background:var(--warn)}
+.fbar.last i{background:var(--accent-ink)}
+
+/* Contrarian */
+.bets{list-style:none;display:grid;gap:12px;grid-template-columns:minmax(0,1fr)}
+@container shell (min-width:820px){.bets{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.bet{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--warn);border-radius:10px;padding:14px 16px;min-width:0;display:flex;flex-direction:column;gap:8px}
+.bet h3{font:600 1rem/1.3 var(--font-body)}
+.bet p{color:var(--ink-2);font-size:.95rem}
+.bet .btn{align-self:flex-start;margin-top:auto}
+
+/* Controls */
+.controls{display:grid;gap:10px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px;min-width:0}
+.ctl-row{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(min(100%,148px),1fr));align-items:end}
+.fld{display:grid;gap:4px;min-width:0;font:600 .7rem/1.2 var(--font-body);text-transform:uppercase;letter-spacing:.08em;color:var(--ink-3)}
+.fld>span{display:block}
+input[type=search],select{width:100%;min-width:0;min-height:42px;padding:8px 10px;border:1px solid var(--line-strong);border-radius:8px;background:var(--bg);color:var(--ink);font:400 1rem var(--font-body);text-transform:none;letter-spacing:0}
+select{text-overflow:ellipsis}
+.seg{display:flex;border:1px solid var(--line-strong);border-radius:8px;overflow:hidden;background:var(--bg)}
+.seg button{flex:1 1 0;min-width:0;min-height:40px;padding:6px 8px;background:none;border:0;border-right:1px solid var(--line-strong);cursor:pointer;font:500 .95rem var(--font-body);text-transform:none;letter-spacing:0;color:var(--ink-2)}
+.seg button:last-child{border-right:0}
+.seg button[aria-pressed="true"]{background:var(--accent-soft);color:var(--accent-ink);font-weight:700}
+.seg button:focus-visible{outline-offset:-3px}
+.chk{display:flex;align-items:center;gap:8px;min-height:42px;font:500 .95rem var(--font-body);text-transform:none;letter-spacing:0;color:var(--ink-2)}
+.chk input{width:18px;height:18px;margin:0;accent-color:var(--accent)}
+.ctl-foot{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;justify-content:space-between}
+.count{color:var(--ink-2);font-size:.95rem}
+.count b{color:var(--ink)}
+.preset{display:inline-flex;align-items:center;gap:8px;background:var(--accent-soft);color:var(--accent-ink);border-radius:99px;padding:3px 4px 3px 12px;font-weight:600;font-size:.88rem;max-width:100%}
+.preset button{min-height:28px;padding:2px 10px;border-radius:99px;border:0;background:var(--surface);color:var(--ink);cursor:pointer;font-size:.82rem;font-weight:600}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:40px;padding:6px 14px;border:1px solid var(--line-strong);background:var(--surface);color:var(--ink);border-radius:8px;cursor:pointer;font:600 .92rem var(--font-body);text-decoration:none}
+.btn:hover{background:var(--surface-2)}
+.btn[disabled]{opacity:.45;cursor:default}
+.btn-primary{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.btn-primary:hover{background:var(--accent-ink);border-color:var(--accent-ink);color:var(--on-accent)}
+
+/* List */
+.list{list-style:none;display:grid;gap:8px;margin-top:12px}
+.list>li{min-width:0}
+.row{display:grid;gap:5px;width:100%;min-width:0;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;cursor:pointer;color:inherit}
+.row:hover{border-color:var(--accent)}
+.row[aria-current="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.row>span{display:block;min-width:0}
+.row-meta{display:flex !important;flex-wrap:wrap;align-items:center;gap:4px 8px}
+.row-title{font-weight:600;line-height:1.3}
+.row-refined{font-size:.88rem;color:var(--accent-ink);font-weight:500}
+.row-one{color:var(--ink-2);font-size:.93rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.row-stats{display:flex !important;flex-wrap:wrap;gap:2px 14px;font-size:.84rem;color:var(--ink-3)}
+.row-stats b{font-weight:600;color:var(--ink-2)}
+.more{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:center;margin:16px 0 0}
+.empty{padding:26px 16px;text-align:center;color:var(--ink-2);background:var(--surface);border:1px dashed var(--line-strong);border-radius:12px;margin-top:12px}
+.foot{padding:30px 0 60px;color:var(--ink-3);font-size:.85rem}
+
+/* Pills and chips */
+.pill{display:inline-flex;align-items:center;padding:1px 9px;border-radius:99px;font:600 .74rem/1.55 var(--font-body);letter-spacing:.01em;max-width:100%}
+.t-ok{background:var(--ok-soft);color:var(--ok)}
+.t-bad{background:var(--bad-soft);color:var(--bad)}
+.t-warn{background:var(--warn-soft);color:var(--warn)}
+.t-info{background:var(--info-soft);color:var(--info)}
+.t-accent{background:var(--accent-soft);color:var(--accent-ink)}
+.t-muted{background:var(--muted-soft);color:var(--muted)}
+.t-final{background:var(--accent);color:var(--on-accent)}
+.chip{display:inline-block;padding:1px 8px;border-radius:6px;background:var(--surface-2);color:var(--ink-2);font:500 .74rem/1.55 var(--font-body)}
+
+/* Panel */
+.panel{position:fixed;top:0;right:0;bottom:0;width:var(--panel-w);background:var(--surface);border-left:1px solid var(--line-strong);box-shadow:-14px 0 34px var(--shadow);display:flex;flex-direction:column;z-index:50;visibility:hidden;transform:translateX(100%);transition:transform .22s ease,visibility 0s linear .22s}
+.panel.open{visibility:visible;transform:none;transition:transform .22s ease,visibility 0s}
+@media (max-width:899px){
+  .panel{width:100%;border-left:0;box-shadow:none}
+  html.panel-open body{overflow:hidden}
+}
+.panel-bar{flex:none;display:flex;align-items:center;gap:8px;padding:10px var(--gutter);border-bottom:1px solid var(--line);background:var(--surface)}
+.panel-bar .grow{flex:1}
+.panel-body{flex:1;overflow-y:auto;overscroll-behavior:contain;padding:16px var(--gutter) 60px;min-width:0}
+.panel-ids{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px}
+.panel-body h2{font:400 1.5rem/1.2 var(--font-display);margin:10px 0 6px;letter-spacing:-.005em}
+.panel-body h2:focus{outline:none}
+.panel-refined{color:var(--accent-ink);font-weight:600;margin-bottom:6px}
+.panel-one{color:var(--ink-2)}
+.trail{list-style:none;display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 20px}
+.trail button{background:var(--surface-2);border:1px solid var(--line);color:var(--ink-2);border-radius:99px;padding:3px 11px;font:600 .8rem/1.4 var(--font-body);cursor:pointer}
+.trail button:hover{border-color:var(--accent);color:var(--accent-ink)}
+.trail li:last-child button{background:var(--accent-soft);color:var(--accent-ink);border-color:var(--accent)}
+
+/* Journey timeline */
+.journey{list-style:none;position:relative}
+.stage{position:relative;padding:0 0 24px 30px;scroll-margin-top:8px}
+.stage::before{content:"";position:absolute;left:7px;top:22px;bottom:-2px;width:2px;background:var(--line-strong)}
+.stage:last-child::before{display:none}
+.stage::after{content:"";position:absolute;left:0;top:3px;width:16px;height:16px;border-radius:50%;background:var(--surface);border:4px solid var(--accent)}
+.tone-ok::after{border-color:var(--ok)}
+.tone-bad::after{border-color:var(--bad)}
+.tone-warn::after{border-color:var(--warn)}
+.tone-info::after{border-color:var(--info)}
+.tone-muted::after{border-color:var(--line-strong)}
+.stage-head{display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px;margin-bottom:8px}
+.stage-name{font:700 .78rem/1.3 var(--font-body);text-transform:uppercase;letter-spacing:.1em;color:var(--ink-2);margin-right:2px}
+.stage-body{display:grid;gap:10px;min-width:0}
+.stage-body p{color:var(--ink)}
+.stage-body .muted{color:var(--ink-3);font-size:.9rem}
+.sub{font:700 .72rem/1.3 var(--font-body);text-transform:uppercase;letter-spacing:.09em;color:var(--ink-3);margin-top:2px}
+.kv{display:grid;gap:9px}
+.kv dt{font:600 .7rem/1.3 var(--font-body);text-transform:uppercase;letter-spacing:.08em;color:var(--ink-3)}
+.kv dd{color:var(--ink)}
+details{border:1px solid var(--line);border-radius:8px;background:var(--bg);min-width:0}
+details>summary{cursor:pointer;padding:8px 12px;font-weight:600;font-size:.92rem;color:var(--ink-2);list-style-position:inside}
+details>div,details>.kv,details>ol,details>ul,details>p{padding:0 12px 12px}
+details>ol,details>ul{padding-left:32px}
+details li+li{margin-top:6px}
+.judges{display:grid;gap:8px;grid-template-columns:repeat(auto-fit,minmax(min(100%,190px),1fr))}
+.judge{border:1px solid var(--line);border-radius:8px;padding:10px 12px;background:var(--bg);display:grid;gap:6px;align-content:start;min-width:0}
+.judge-head{display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px}
+.judge-name{font-weight:700}
+.judge-rank{font-size:.9rem;color:var(--ink-2)}
+.judge p{font-size:.9rem}
+.judge .flaw{color:var(--ink-2)}
+.judge .flaw b{font-weight:700;color:var(--ink)}
+.meter{display:block;height:5px;background:var(--surface-2);border-radius:99px;overflow:hidden;margin-top:4px;max-width:220px}
+.meter i{display:block;height:100%;background:var(--accent);border-radius:99px}
+.meter.warn i{background:var(--warn)}
+.scoreline{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px}
+.scoreline b{font:600 1.5rem/1.1 var(--font-body)}
+.scoreline span{color:var(--ink-3)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.linklist{list-style:none;display:grid;gap:5px}
+.linkish{background:none;border:0;padding:0;text-align:left;cursor:pointer;color:var(--accent-ink);font:inherit;text-decoration:underline;text-underline-offset:2px}
+.linkish .mono{margin-left:4px}
+.cut{color:var(--ink-3)}
+.note{margin-top:6px;color:var(--ink-3);font-size:.85rem}
+.winbar{display:flex;gap:2px;max-width:420px}
+.winbar i{flex:1 1 0;height:12px;border-radius:2px;background:var(--surface-2)}
+.winbar i.w{background:var(--ok)}
+.bigline{font-size:1.1rem}
+.bigline b{font:600 1.5rem/1.1 var(--font-body)}
+.verdict{border-left:4px solid var(--warn);background:var(--warn-soft);color:var(--ink);padding:10px 14px;border-radius:0 8px 8px 0}
+.cust{list-style:none;display:grid;gap:10px}
+.cust li{border:1px solid var(--line);border-radius:8px;padding:10px 12px;background:var(--bg);display:grid;gap:4px;min-width:0}
+.cust a{font-weight:700}
+.cust .role{color:var(--ink-3);font-size:.88rem}
+.cust p{font-size:.92rem}
+.cust .reach{color:var(--ink-2)}
+
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{animation:none !important;transition:none !important;scroll-behavior:auto !important}
+  .loadbar i{margin-left:0;width:100%}
+}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Young+Serif&display=swap">
+
+<div class="shell" id="shell">
+  <header class="mast">
+    <div class="wrap">
+      <p class="eyebrow">Business idea search</p>
+      <h1>Idea Explorer</h1>
+      <p class="lede">Every idea from two rounds of a multi-agent search for the best business ideas of late 2026, with the path each one took through the pipeline. Open the final five, or search all 1,768 records and follow any idea from first draft to the last stage it reached.</p>
+      <ul class="jump" id="jump" hidden>
+        <li><a href="#final-five">Final five</a></li>
+        <li><a href="#funnel">How the search narrowed</a></li>
+        <li><a href="#bets">Contrarian bets</a></li>
+        <li><a href="#explorer">All ideas</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <noscript><p class="state">This explorer needs JavaScript to load and filter the data.</p></noscript>
+    <section class="state" id="loading" role="status" aria-live="polite">
+      <h2>Loading the search data</h2>
+      <p>Fetching 1,768 idea records (about 5 MB) and the ranking files.</p>
+      <div class="loadbar" aria-hidden="true"><i></i></div>
+    </section>
+
+    <section class="state state-err" id="error" role="alert" hidden>
+      <h2>The data did not load</h2>
+      <p>These files could not be read:</p>
+      <ul id="errList"></ul>
+      <p class="hint">The four JSON files must sit next to this page and be served over http. If you opened the page straight from disk, start a local server in this folder (for example <span class="mono">python3 -m http.server</span>) and open it from there.</p>
+      <p style="margin-top:12px"><button type="button" class="btn" id="retry">Try again</button></p>
+    </section>
+
+    <div id="content" hidden>
+      <section class="sec" id="final-five" aria-labelledby="h-final">
+        <h2 class="sec-h" id="h-final">The final five</h2>
+        <p class="sec-sub" id="finalSub"></p>
+        <ol class="top5" id="top5"></ol>
+        <p class="sec-note">Median and upside are the pipeline's own estimates, in US dollars (millions) per year. Select a card to see how the idea got here.</p>
+      </section>
+
+      <hr class="rule">
+
+      <section class="sec" id="funnel" aria-labelledby="h-funnel">
+        <h2 class="sec-h" id="h-funnel">How the search narrowed</h2>
+        <p class="sec-sub">Counts are taken from the data. Select a stage to list the ideas in it. Bar lengths use a log scale so small stages stay visible.</p>
+        <div class="funnels" id="funnels"></div>
+      </section>
+
+      <hr class="rule">
+
+      <section class="sec" id="bets" aria-labelledby="h-bets">
+        <h2 class="sec-h" id="h-bets">Three contrarian bets</h2>
+        <p class="sec-sub">Not in the five, but kept on the table as long shots.</p>
+        <ul class="bets" id="betList"></ul>
+      </section>
+
+      <hr class="rule">
+
+      <section class="sec" id="explorer" aria-labelledby="h-explorer">
+        <h2 class="sec-h" id="h-explorer" tabindex="-1">All ideas</h2>
+        <p class="sec-sub">Search by title or one-liner, narrow by round, kind, furthest stage or verdict, then open any idea to read its journey.</p>
+
+        <div class="controls">
+          <label class="fld"><span>Search</span><input type="search" id="q" placeholder="Title, one-liner, or an id such as I0175" autocomplete="off" spellcheck="false"></label>
+          <div class="ctl-row">
+            <div class="fld" role="group" aria-labelledby="lblRound"><span id="lblRound">Round</span>
+              <div class="seg" id="roundSeg">
+                <button type="button" data-round="0" aria-pressed="true" aria-label="All rounds">All</button>
+                <button type="button" data-round="1" aria-pressed="false" aria-label="Round 1">1</button>
+                <button type="button" data-round="2" aria-pressed="false" aria-label="Round 2">2</button>
+              </div>
+            </div>
+            <label class="fld"><span>Kind or lens</span><select id="kind"></select></label>
+            <label class="fld"><span>Furthest stage reached</span><select id="stage"></select></label>
+            <label class="fld"><span>Verdict</span><select id="verdict"></select></label>
+            <label class="fld"><span>Sort by</span>
+              <select id="sort">
+                <option value="stage">Furthest stage</option>
+                <option value="tour">Tournament rank</option>
+                <option value="deep">Deep-validation score</option>
+                <option value="az">Title, A to Z</option>
+              </select>
+            </label>
+          </div>
+          <div class="ctl-foot">
+            <label class="chk"><input type="checkbox" id="beyond"> Include ideas that went further than the stage chosen</label>
+            <button type="button" class="btn" id="reset">Reset filters</button>
+          </div>
+          <div class="ctl-foot">
+            <p class="count" id="count" role="status" aria-live="polite"></p>
+            <span class="preset" id="preset" hidden></span>
+          </div>
+        </div>
+
+        <ul class="list" id="list"></ul>
+        <div class="empty" id="empty" hidden>
+          <p>No ideas match these filters.</p>
+          <p style="margin-top:10px"><button type="button" class="btn" id="emptyReset">Reset filters</button></p>
+        </div>
+        <div class="more" id="more" hidden>
+          <button type="button" class="btn btn-primary" id="moreBtn">Show more</button>
+        </div>
+      </section>
+
+      <p class="foot">Built from explorer_data.json, final_top5.json, wargames.json and h2h_summary.json, loaded from this folder.</p>
+    </div>
+  </main>
+</div>
+
+<aside class="panel" id="panel" aria-labelledby="pTitle">
+  <div class="panel-bar">
+    <button type="button" class="btn" id="pClose">Close</button>
+    <span class="grow"></span>
+    <button type="button" class="btn" id="pPrev" aria-label="Previous idea in the list">Previous</button>
+    <button type="button" class="btn" id="pNext" aria-label="Next idea in the list">Next</button>
+  </div>
+  <div class="panel-body" id="pBody"></div>
+</aside>
+
+<script>
+(function(){
+'use strict';
+
+var FILES = {data:'explorer_data.json', top5:'final_top5.json', war:'wargames.json', h2h:'h2h_summary.json'};
+var POOLS_TOTAL = 143;   // money pools mapped in round 2; not stored in explorer_data.json
+var PAGE = 60;
+
+var KIND = {idea:'Idea', wild:'Wild card', collide:'Collision', persona:'Persona', signal:'Signal', offspring:'Offspring', hybrid:'Hybrid'};
+var LENS = {insider:'Insider', pattern:'Pattern', dilemma:'Dilemma', shock:'Shock'};
+var JUDGE = {vc:'VC', contrarian:'Contrarian', operator:'Operator'};
+var COMP_LABEL = {gap:'Gap in the market', crowded:'Crowded', open:'Open', dominated:'Dominated'};
+var GATE_LABEL = {strong:'Strong', weak:'Weak', kill:'Killed'};
+var DEEP_LABEL = {wounded:'Wounded', dead:'Dead'};
+
+var STAGES = [
+  {key:'gen',      level:0, label:'Generated',             tone:'muted',  rounds:[1,2]},
+  {key:'top100',   level:1, label:'Top 100 in tournament', tone:'info',   rounds:[1]},
+  {key:'gatepick', level:1, label:'Evidence-gate pick',    tone:'info',   rounds:[2]},
+  {key:'comp',     level:2, label:'Competitor-checked',    tone:'info',   rounds:[1]},
+  {key:'evopool',  level:3, label:'In evolution pool',     tone:'accent', rounds:[1]},
+  {key:'finalist', level:4, label:'Evolution finalist',    tone:'accent', rounds:[1]},
+  {key:'deep',     level:5, label:'Deep-validated',        tone:'warn',   rounds:[1,2]},
+  {key:'h2h',      level:6, label:'Head-to-head',          tone:'warn',   rounds:[2]},
+  {key:'war',      level:7, label:'War-gamed',             tone:'warn',   rounds:[2]},
+  {key:'final',    level:8, label:'Final five',            tone:'final',  rounds:[2]}
+];
+var STAGE = {}; STAGES.forEach(function(s){ STAGE[s.key]=s; });
+
+var PRESETS = {
+  r1_judged:{label:'Round 1 ideas judged in the tournament', test:function(r){return r.round===1 && !!r.tour;}},
+  r1_comp:  {label:'Competitor-checked', test:function(r){return !!r.comp;}},
+  r1_surv:  {label:'Survivors with a market gap', test:function(r){return !!r.comp && r.comp.s==='gap';}},
+  r1_pool:  {label:'Evolution pool', test:function(r){return r.round===1 && !!r.evo;}},
+  r1_fin:   {label:'Evolution finalists', test:function(r){return !!r.evo && r.evo.fin;}},
+  r1_deep:  {label:'Round 1 deep-validated', test:function(r){return r.round===1 && !!r.deep;}},
+  r2_all:   {label:'Round 2 ideas', test:function(r){return r.round===2;}},
+  r2_pick:  {label:'Evidence-gate picks', test:function(r){return r.round===2 && r.gate && r.gate.pick;}},
+  r2_deep:  {label:'Round 2 deep-validated', test:function(r){return r.round===2 && !!r.deep;}},
+  r2_h2h:   {label:'Head-to-head contenders', test:function(r){return !!r.h2h;}},
+  r2_war:   {label:'War-gamed', test:function(r){return r.stage==='war' || r.stage==='final';}},
+  r2_final: {label:'Final five', test:function(r){return r.stage==='final';}}
+};
+
+/* ---------- state ---------- */
+var D=[], byId=new Map(), byCid=new Map();
+var TOP5=null, WAR={}, H2H=null;
+var FINAL=new Map(), DROPPED=new Map(), BETS=new Map();
+var EVO_SIZE=0;
+var view=[], viewIdx=new Map(), shown=0;
+var f={q:'', round:0, kind:'', stage:'', beyond:false, verdict:'', sort:'stage', preset:''};
+var tokens=[], hlRe=null;
+var cur=null, lastTrigger=null, pushed=false;
+
+/* ---------- helpers ---------- */
+function $(id){ return document.getElementById(id); }
+var ESC={'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'};
+function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g,function(c){return ESC[c];}); }
+function escRe(s){ return s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'); }
+function fmt(n){ return Number(n).toLocaleString('en-US'); }
+function cap(s){ s=String(s==null?'':s); return s.charAt(0).toUpperCase()+s.slice(1); }
+function num(n,d){ if(n==null||isNaN(n)) return ''; var p=Math.pow(10,d==null?2:d); return String(Math.round(n*p)/p); }
+function usd(m){ return m==null ? '' : '$'+num(m,1)+'M'; }
+function signed(n){ return (n>0?'+':'')+n; }
+function pill(text,tone){ return '<span class="pill t-'+tone+'">'+esc(text)+'</span>'; }
+function safeUrl(u){
+  try{ var x=new URL(String(u)); return (x.protocol==='https:'||x.protocol==='http:') ? x.href : ''; }catch(e){ return ''; }
+}
+function kindText(r){ return r.round===2 ? (LENS[r.k]||cap(r.k))+' lens' : (KIND[r.k]||cap(r.k)); }
+function setTokens(q){
+  tokens=q.toLowerCase().split(/\s+/).filter(Boolean);
+  hlRe = tokens.length ? new RegExp('('+tokens.map(escRe).join('|')+')','gi') : null;
+}
+function hl(s){
+  s=String(s==null?'':s);
+  if(!hlRe) return esc(s);
+  return s.split(hlRe).map(function(p,i){ return i%2 ? '<mark>'+esc(p)+'</mark>' : esc(p); }).join('');
+}
+var truncSeen=false;
+function tx(s,cap){
+  if(s==null||s==='') return '';
+  s=String(s);
+  if(s.length>=cap){ truncSeen=true; return esc(s.replace(/\s+$/,''))+'<span class="cut" title="The data file cuts this text off here">&hellip;</span>'; }
+  return esc(s);
+}
+function kv(pairs){
+  var h='';
+  pairs.forEach(function(p){
+    if(p[1]==null||p[1]==='') return;
+    h+='<div><dt>'+esc(p[0])+'</dt><dd>'+(p[2]?p[1]:esc(p[1]))+'</dd></div>';
+  });
+  return h ? '<dl class="kv">'+h+'</dl>' : '';
+}
+function recLink(id){
+  var r=byId.get(id);
+  if(!r) return '<span class="mono">'+esc(id)+'</span>';
+  return '<button type="button" class="linkish" data-open="'+esc(id)+'">'+esc(r.t)+'<span class="mono">'+esc(id)+'</span></button>';
+}
+function meter(frac,cls){
+  var w=Math.max(0,Math.min(1,frac))*100;
+  return '<span class="meter '+(cls||'')+'" aria-hidden="true"><i style="width:'+w.toFixed(1)+'%"></i></span>';
+}
+function fig(label,valueHtml){ return '<div class="fig"><dt>'+esc(label)+'</dt><dd>'+valueHtml+'</dd></div>'; }
+function perYear(m){ return m==null ? '' : usd(m)+' <small>per year</small>'; }
+function reducedMotion(){ try{ return window.matchMedia('(prefers-reduced-motion: reduce)').matches; }catch(e){ return false; } }
+function isMobile(){ try{ return window.matchMedia('(max-width: 899px)').matches; }catch(e){ return false; } }
+
+/* ---------- loading ---------- */
+function getJSON(name){
+  return fetch(name).then(function(res){
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    return res.json();
+  });
+}
+function load(){
+  $('error').hidden=true; $('content').hidden=true; $('jump').hidden=true; $('loading').hidden=false;
+  var names=[FILES.data,FILES.top5,FILES.war,FILES.h2h];
+  Promise.allSettled(names.map(getJSON)).then(function(res){
+    var failed=[];
+    res.forEach(function(x,i){
+      if(x.status==='rejected') failed.push(names[i]+' ('+((x.reason&&x.reason.message)||'failed')+')');
+    });
+    if(failed.length){ showError(failed); return; }
+    try{
+      init(res[0].value,res[1].value,res[2].value,res[3].value);
+    }catch(e){
+      showError(['Could not read the data: '+((e&&e.message)||e)]);
+    }
+  });
+}
+function showError(list){
+  $('loading').hidden=true; $('content').hidden=true;
+  $('errList').innerHTML=list.map(function(s){ return '<li>'+esc(s)+'</li>'; }).join('');
+  $('error').hidden=false;
+}
+
+/* ---------- preparation ---------- */
+function stageOf(r){
+  if(r.round===2){
+    if(r.cid && FINAL.has(r.cid)) return 'final';
+    if(r.cid && WAR[r.cid]) return 'war';
+    if(r.h2h) return 'h2h';
+    if(r.deep) return 'deep';
+    if(r.gate && r.gate.pick) return 'gatepick';
+    return 'gen';
+  }
+  if(r.deep) return 'deep';
+  if(r.evo && r.evo.fin) return 'finalist';
+  if(r.evo) return 'evopool';
+  if(r.comp) return 'comp';
+  if(r.tour && r.tour.rank<=100) return 'top100';
+  return 'gen';
+}
+function secKey(r){
+  var g, size;
+  switch(r.stage){
+    case 'final': return FINAL.get(r.cid).rank;
+    case 'war': case 'h2h': return r.h2h.rank;
+    case 'deep': return (10-(r.deep.ov||0))*1000 + (r.evo?r.evo.rank:500);
+    case 'finalist': case 'evopool': return r.evo.rank;
+    case 'comp': return r.tour ? r.tour.rank : 9999;
+    case 'top100': return r.tour.rank;
+    case 'gatepick':
+      g=r.gate; size=(g.med!=null?g.med:(g.real||0)); return (g.v==='strong'?0:1)*1000 - size;
+    default:
+      if(r.round===1) return r.tour ? r.tour.rank : 9999;
+      g=r.gate; size=(g.med!=null?g.med:(g.real||0));
+      return 5000 + ({strong:0,weak:1,kill:2}[g.v]||2)*1000 - size;
+  }
+}
+function prepare(){
+  D.forEach(function(r){
+    byId.set(r.id,r);
+    if(r.cid) byCid.set(r.cid,r);
+  });
+  TOP5.top5.forEach(function(t){ FINAL.set(t.cid,t); });
+  (TOP5.dropped||[]).forEach(function(t){ DROPPED.set(t.cid,t); });
+  EVO_SIZE=D.filter(function(r){ return !!r.evo; }).length;
+  D.forEach(function(r){
+    r.stage=stageOf(r);
+    r.level=STAGE[r.stage].level;
+    r.sec=secKey(r);
+    r.vset=[];
+    if(r.comp) r.vset.push('comp:'+r.comp.s);
+    if(r.gate) r.vset.push('gate:'+r.gate.v);
+    if(r.deep) r.vset.push('deep:'+r.deep.v);
+    r.hay=(r.id+' '+(r.cid||'')+' '+r.t+' '+r.o+' '+((r.deep&&r.deep.rt)||'')).toLowerCase();
+  });
+  (TOP5.contrarian_bets||[]).forEach(function(b){
+    var rec=resolveRef(b.ref);
+    b.rec=rec;
+    if(rec) BETS.set(rec.id,b);
+  });
+}
+function resolveRef(ref){
+  var m=/\b(C\d{2})\b/.exec(ref);
+  if(m && byCid.has(m[1])) return byCid.get(m[1]);
+  m=/\b(I\d{4})\b/.exec(ref);
+  if(m && byId.has(m[1])) return byId.get(m[1]);
+  var pm=/\b(P\d{3})\b/.exec(ref);
+  var head=ref.split(':')[0].replace(/\(.*$/,'').trim().toLowerCase();
+  if(head){
+    var hit=D.filter(function(r){
+      return r.round===2 && (!pm || r.pid===pm[1]) && r.t.toLowerCase().indexOf(head)===0;
+    });
+    if(hit.length) return hit[0];
+  }
+  return null;
+}
+
+/* ---------- initial render ---------- */
+function init(data,top5,war,h2h){
+  if(!Array.isArray(data) || !top5 || !Array.isArray(top5.top5) || !h2h || !Array.isArray(h2h.ranking)) throw new Error('unexpected file shape');
+  D=data; TOP5=top5; WAR=war||{}; H2H=h2h;
+  prepare();
+  renderFinalFive();
+  renderFunnels();
+  renderBets();
+  buildSelects();
+  update();
+  $('loading').hidden=true;
+  $('content').hidden=false;
+  $('jump').hidden=false;
+  var id=readHash();
+  if(id && byId.has(id)) openRecord(id,{fromHash:true});
+}
+
+function renderFinalFive(){
+  $('finalSub').innerHTML='<b>How the five were chosen:</b> '+esc(cap(TOP5.objective||''))+'.';
+  $('top5').innerHTML=TOP5.top5.map(function(t){
+    var r=byCid.get(t.cid);
+    var hr=H2H.ranking.filter(function(x){return x.cid===t.cid;})[0]||{};
+    var d=r&&r.deep;
+    var title=(d&&d.rt)||hr.title||t.cid;
+    var med=d?d.med:hr.median_m, up=d?d.up:hr.upside_m;
+    var h=r&&r.h2h;
+    var titleHtml = r
+      ? '<button type="button" class="card-link" data-open="'+esc(r.id)+'"><span class="sr">Rank '+t.rank+'. </span>'+esc(title)+'</button>'
+      : esc(title);
+    return '<li class="card'+(t.rank===1?' card-lead':'')+'">'
+      +'<span class="rank" aria-hidden="true">'+t.rank+'</span>'
+      +'<div class="card-main">'
+      +'<h3 class="card-title">'+titleHtml+'</h3>'
+      +(r?'<p class="card-one">'+esc(r.o)+'</p>':'')
+      +'<dl class="figs">'
+      +fig('Median',perYear(med))
+      +fig('Upside',perYear(up))
+      +(h?fig('Head-to-head',h.w+' of '+h.g+' <small>won</small>'):'')
+      +'</dl>'
+      +'<p class="card-why">'+esc(t.why)+'</p>'
+      +'</div></li>';
+  }).join('');
+}
+
+function renderFunnels(){
+  var r1=D.filter(function(r){return r.round===1;});
+  var r2=D.filter(function(r){return r.round===2;});
+  var judged=r1.filter(function(r){return r.tour;}).length;
+  var comp=r1.filter(function(r){return r.comp;}).length;
+  var surv=r1.filter(function(r){return r.comp && r.comp.s==='gap';}).length;
+  var pool=r1.filter(function(r){return r.evo;}).length;
+  var orig=r1.filter(function(r){return r.evo && !r.parent;}).length;
+  var off=r1.filter(function(r){return r.k==='offspring';}).length;
+  var hyb=r1.filter(function(r){return r.k==='hybrid';}).length;
+  var fin=r1.filter(function(r){return r.evo && r.evo.fin;}).length;
+  var selTop=r1.filter(function(r){return r.tour && r.tour.sel && r.tour.why==='top tournament score';}).length;
+  var selAdd=comp-selTop;
+  var deep1=r1.filter(function(r){return r.deep;});
+  var best=Math.max.apply(null,deep1.map(function(r){return r.deep.ov||0;}));
+  var pools={}; r2.forEach(function(r){ pools[r.pid]=1; });
+  var nPools=Object.keys(pools).length;
+  var picks=r2.filter(function(r){return r.gate && r.gate.pick;}).length;
+  var deep2=r2.filter(function(r){return r.deep;}).length;
+  var h2h=r2.filter(function(r){return r.h2h;}).length;
+  var wars=Object.keys(WAR).length;
+
+  var R1=[
+    {n:'Ideas generated and judged', s:'Three judges ranked each one in the tournament', c:judged, p:'r1_judged'},
+    {n:'Competitor-checked', s:selTop+' top tournament scorers plus '+selAdd+' convergence adds', c:comp, p:'r1_comp'},
+    {n:'Survivors', s:'A gap in the market was found', c:surv, p:'r1_surv'},
+    {n:'Evolution pool', s:orig+' survivors + '+off+' offspring + '+hyb+' hybrids', c:pool, p:'r1_pool'},
+    {n:'Evolution finalists', c:fin, p:'r1_fin'},
+    {n:'Deep-validated', c:deep1.length, p:'r1_deep'}
+  ];
+  var R2=[
+    {n:'Money pools mapped', c:POOLS_TOTAL},
+    {n:'Pools taken to ideation', c:nPools},
+    {n:'Ideas generated', s:'Four lenses: insider, pattern, dilemma, shock', c:r2.length, p:'r2_all'},
+    {n:'Evidence-gate picks', c:picks, p:'r2_pick'},
+    {n:'Deep-validated', c:deep2, p:'r2_deep'},
+    {n:'Head-to-head contenders', c:h2h, p:'r2_h2h'},
+    {n:'War-gamed', c:wars, p:'r2_war'},
+    {n:'Final five', c:TOP5.top5.length, p:'r2_final', last:true}
+  ];
+  function rows(list){
+    var max=Math.max.apply(null,list.map(function(x){return x.c;}));
+    return list.map(function(x){
+      var w=Math.max(3, Math.log(x.c+1)/Math.log(max+1)*100);
+      var inner='<span class="fname">'+esc(x.n)+(x.s?'<small>'+esc(x.s)+'</small>':'')+'</span>'
+        +'<span class="fcount">'+fmt(x.c)+'</span>'
+        +'<span class="fbar'+(x.last?' last':'')+'" aria-hidden="true"><i style="width:'+w.toFixed(1)+'%"></i></span>';
+      return x.p
+        ? '<li><button type="button" class="frow" data-preset="'+x.p+'">'+inner+'</button></li>'
+        : '<li><div class="frow">'+inner+'</div></li>';
+    }).join('');
+  }
+  var scoreRow='<li><div class="frow"><span class="fname">Best deep-validation score<small>Nothing in round 1 scored above this, out of 10</small></span>'
+    +'<span class="fcount">'+num(best,1)+' / 10</span>'
+    +'<span class="fbar score" aria-hidden="true"><i style="width:'+(best*10).toFixed(1)+'%"></i></span></div></li>';
+
+  $('funnels').innerHTML=
+    '<div class="fpanel"><h3>Round 1: idea tournament</h3><p class="fsub">Open-ended ideation, then judging, competitor checks and evolution</p><ol class="flist">'+rows(R1)+scoreRow+'</ol></div>'
+   +'<div class="fpanel"><h3>Round 2: money pools</h3><p class="fsub">Start from where the money already flows, then test the ideas</p><ol class="flist">'+rows(R2)+'</ol></div>';
+}
+
+function renderBets(){
+  var bets=TOP5.contrarian_bets||[];
+  $('betList').innerHTML=bets.map(function(b){
+    return '<li class="bet"><h3>'+esc(b.ref)+'</h3><p>'+esc(b.why)+'</p>'
+      +(b.rec?'<button type="button" class="btn" data-open="'+esc(b.rec.id)+'">See its journey</button>':'')
+      +'</li>';
+  }).join('');
+}
+
+/* ---------- controls ---------- */
+function inRound(r){ return !f.round || r.round===f.round; }
+function optHtml(value,label,count,sel){
+  return '<option value="'+esc(value)+'"'+(sel?' selected':'')+'>'+esc(label)+(count==null?'':' ('+fmt(count)+')')+'</option>';
+}
+function buildSelects(){
+  var pool=D.filter(inRound);
+  // kind
+  var h=optHtml('', 'Any kind or lens', pool.length, f.kind==='');
+  var counts={};
+  pool.forEach(function(r){ counts[r.k]=(counts[r.k]||0)+1; });
+  if(!f.round||f.round===1){
+    h+='<optgroup label="Round 1 kinds">';
+    Object.keys(KIND).forEach(function(k){ if(counts[k]) h+=optHtml(k,KIND[k],counts[k],f.kind===k); });
+    h+='</optgroup>';
+  }
+  if(!f.round||f.round===2){
+    h+='<optgroup label="Round 2 lenses">';
+    Object.keys(LENS).forEach(function(k){ if(counts[k]) h+=optHtml(k,LENS[k],counts[k],f.kind===k); });
+    h+='</optgroup>';
+  }
+  $('kind').innerHTML=h;
+  // stage
+  var sc={}; pool.forEach(function(r){ sc[r.stage]=(sc[r.stage]||0)+1; });
+  h=optHtml('', 'Any stage', pool.length, f.stage==='');
+  STAGES.forEach(function(s){
+    if(f.round && s.rounds.indexOf(f.round)<0) return;
+    h+=optHtml(s.key,s.label,sc[s.key]||0,f.stage===s.key);
+  });
+  $('stage').innerHTML=h;
+  // verdict
+  var vc={}; pool.forEach(function(r){ r.vset.forEach(function(v){ vc[v]=(vc[v]||0)+1; }); });
+  function group(label,prefix,labels){
+    var o='';
+    Object.keys(vc).filter(function(k){return k.indexOf(prefix)===0;}).sort().forEach(function(k){
+      var key=k.slice(prefix.length);
+      o+=optHtml(k,(labels[key]||cap(key)),vc[k],f.verdict===k);
+    });
+    return o ? '<optgroup label="'+label+'">'+o+'</optgroup>' : '';
+  }
+  h=optHtml('', 'Any verdict', null, f.verdict==='');
+  h+=group('Competitor check (round 1)','comp:',COMP_LABEL);
+  h+=group('Evidence gate (round 2)','gate:',GATE_LABEL);
+  h+=group('Deep validation','deep:',DEEP_LABEL);
+  $('verdict').innerHTML=h;
+  // drop selections that no longer exist
+  if($('kind').value!==f.kind){ f.kind=$('kind').value; }
+  if($('stage').value!==f.stage){ f.stage=$('stage').value; }
+  if($('verdict').value!==f.verdict){ f.verdict=$('verdict').value; }
+}
+function syncControls(){
+  $('q').value=f.q;
+  Array.prototype.forEach.call($('roundSeg').querySelectorAll('button'),function(b){
+    b.setAttribute('aria-pressed', String(+b.dataset.round===f.round));
+  });
+  buildSelects();
+  $('sort').value=f.sort;
+  $('beyond').checked=f.beyond;
+}
+function resetFilters(){
+  f={q:'', round:0, kind:'', stage:'', beyond:false, verdict:'', sort:'stage', preset:''};
+  setTokens('');
+  syncControls();
+  update();
+}
+
+/* ---------- filtering and sorting ---------- */
+function reached(r,key){
+  var s=STAGE[key];
+  if(s.rounds.indexOf(r.round)<0) return false;
+  return r.level>=s.level;
+}
+function passes(r){
+  if(f.round && r.round!==f.round) return false;
+  if(f.kind && r.k!==f.kind) return false;
+  if(f.stage){
+    if(f.beyond){ if(!reached(r,f.stage)) return false; }
+    else if(r.stage!==f.stage) return false;
+  }
+  if(f.verdict && r.vset.indexOf(f.verdict)<0) return false;
+  if(f.preset && !PRESETS[f.preset].test(r)) return false;
+  for(var i=0;i<tokens.length;i++){ if(r.hay.indexOf(tokens[i])<0) return false; }
+  return true;
+}
+function byStage(a,b){
+  return (b.level-a.level) || (a.sec-b.sec) || (a.id<b.id?-1:1);
+}
+function sorter(){
+  switch(f.sort){
+    case 'tour': return function(a,b){
+      var ta=a.tour?a.tour.rank:null, tb=b.tour?b.tour.rank:null;
+      if(ta!=null && tb!=null) return ta-tb;
+      if(ta!=null) return -1;
+      if(tb!=null) return 1;
+      return byStage(a,b);
+    };
+    case 'deep': return function(a,b){
+      var da=a.deep?a.deep.ov:null, db=b.deep?b.deep.ov:null;
+      if(da!=null && db!=null) return (db-da) || byStage(a,b);
+      if(da!=null) return -1;
+      if(db!=null) return 1;
+      return byStage(a,b);
+    };
+    case 'az': return function(a,b){ return a.t.localeCompare(b.t); };
+    default: return byStage;
+  }
+}
+function update(){
+  view=D.filter(passes).sort(sorter());
+  viewIdx=new Map(); view.forEach(function(r,i){ viewIdx.set(r.id,i); });
+  shown=Math.min(PAGE,view.length);
+  $('list').innerHTML=view.slice(0,shown).map(rowHTML).join('');
+  updateCount();
+  updatePreset();
+  updateNav();
+}
+function updateCount(){
+  var n=view.length;
+  $('count').innerHTML = n===D.length
+    ? 'Showing <b>'+fmt(Math.min(shown,n))+'</b> of <b>'+fmt(n)+'</b> ideas'
+    : 'Showing <b>'+fmt(Math.min(shown,n))+'</b> of <b>'+fmt(n)+'</b> matching ideas';
+  $('empty').hidden = n>0;
+  var left=n-shown;
+  $('more').hidden = left<=0;
+  if(left>0) $('moreBtn').textContent='Show '+Math.min(PAGE,left)+' more ('+fmt(left)+' left)';
+}
+function updatePreset(){
+  var el=$('preset');
+  if(f.preset){
+    el.hidden=false;
+    el.innerHTML='<span>Stage list: '+esc(PRESETS[f.preset].label)+'</span><button type="button" id="presetClear" aria-label="Clear the stage list">Clear</button>';
+  } else { el.hidden=true; el.innerHTML=''; }
+}
+function showMore(){
+  var from=shown;
+  shown=Math.min(shown+PAGE,view.length);
+  $('list').insertAdjacentHTML('beforeend',view.slice(from,shown).map(rowHTML).join(''));
+  updateCount();
+}
+
+/* ---------- list rows ---------- */
+function stat(label,val){ return '<span><b>'+esc(label)+'</b> '+esc(val)+'</span>'; }
+function rowStats(r){
+  var s='';
+  if(r.round===1){
+    if(r.tour) s+=stat('Tournament','#'+fmt(r.tour.rank));
+    if(r.comp) s+=stat('Competitors',COMP_LABEL[r.comp.s]||r.comp.s);
+    if(r.evo) s+=stat('Evolution','#'+r.evo.rank+(r.evo.fin?' (finalist)':''));
+    if(r.parent) s+=stat(r.k==='hybrid'?'Hybrid of':'Offspring of',r.parent.join(' + '));
+    if(r.deep) s+=stat('Deep',num(r.deep.ov)+' / 10');
+  } else {
+    s+=stat('Gate',GATE_LABEL[r.gate.v]||r.gate.v);
+    var d=r.deep;
+    if(d) s+=stat('Deep',num(d.ov)+' / 10');
+    if(d && d.med!=null) s+=stat('Median',usd(d.med)+' per year');
+    else if(r.gate.med!=null) s+=stat('Median',usd(r.gate.med)+' per year');
+    else if(r.gate.real!=null) s+=stat('Realistic size',usd(r.gate.real)+' per year');
+    if(r.h2h) s+=stat('Head-to-head',r.h2h.w+' of '+r.h2h.g);
+    if(FINAL.has(r.cid)) s+=stat('Final','#'+FINAL.get(r.cid).rank);
+  }
+  return s;
+}
+function rowHTML(r){
+  var st=STAGE[r.stage];
+  var refined = r.deep && r.deep.rt && r.deep.rt!==r.t ? '<span class="row-refined">Refined to: '+esc(r.deep.rt)+'</span>' : '';
+  return '<li><button type="button" class="row" data-open="'+esc(r.id)+'"'+(r.id===cur?' aria-current="true"':'')+'>'
+    +'<span class="row-meta"><span class="mono">'+esc(r.id)+'</span>'
+    +'<span class="pill t-'+st.tone+'">'+esc(st.label)+'</span>'
+    +'<span class="chip">Round '+r.round+'</span><span class="chip">'+esc(kindText(r))+'</span></span>'
+    +'<span class="row-title">'+hl(r.t)+'</span>'
+    +refined
+    +'<span class="row-one">'+hl(r.o)+'</span>'
+    +'<span class="row-stats">'+rowStats(r)+'</span>'
+    +'</button></li>';
+}
+
+/* ---------- journey ---------- */
+function stageLi(id,name,tone,pillsHtml,body){
+  return {id:id, name:name, html:'<li class="stage tone-'+tone+'" id="st-'+id+'"><div class="stage-head"><h3 class="stage-name">'+esc(name)+'</h3>'+pillsHtml+'</div><div class="stage-body">'+body+'</div></li>'};
+}
+function deepStage(r){
+  var d=r.deep;
+  var tone = d.alive ? 'warn' : 'bad';
+  var pills = pill(cap(DEEP_LABEL[d.v]||d.v)+', '+num(d.ov)+' / 10', d.v==='dead'?'bad':'warn')
+    + pill(d.alive?'Carried forward':'Stopped here', d.alive?'ok':'bad');
+  var b='<div class="scoreline"><b>'+num(d.ov)+'</b><span>out of 10</span></div>'+meter((d.ov||0)/10,'warn');
+  if(d.rt && d.rt!==r.t) b+=kv([['Refined title',d.rt]]);
+  if(r.round===2 && (d.med!=null||d.up!=null)){
+    b+='<dl class="figs">'+fig('Median',perYear(d.med))+fig('Upside',perYear(d.up))+'</dl>';
+  }
+  b+=kv([['Critic objections',tx(d.why,600),true],['Riskiest assumption',tx(d.risk,300),true],['Two-week test',tx(d.test,300),true]]);
+  return stageLi('deep','Deep validation',tone,pills,b);
+}
+function journeyR1(r){
+  var S=[];
+  var born = r.k==='offspring' || r.k==='hybrid';
+  // origin
+  var b='';
+  if(born){
+    var ps=(r.parent||[]).map(recLink);
+    b+='<p>'+(r.k==='hybrid'?'Combined in the evolution round from ':'Mutated in the evolution round from ')
+      +'<span class="chips" style="display:inline">'+ps.join(' and ')+'</span>.</p>';
+  } else {
+    b+=kv([['Source agent','<span class="mono">'+esc(r.src||'')+'</span>',true],['Outside-the-box score',r.obs!=null?r.obs+' out of 10':'']]);
+  }
+  b+='<details open><summary>The pitch</summary>'+kv([['Customer',tx(r.cu,300),true],['Problem',tx(r.pr,600),true],['Solution',tx(r.so,600),true],['Why now',tx(r.wn,400),true],['Revenue model',tx(r.rm,300),true],['Insight',tx(r.ins,400),true]])+'</details>';
+  S.push(stageLi('origin', born?'Born in evolution':'Generated', 'muted', pill(kindText(r),'muted'), b));
+  // tournament
+  if(r.tour){
+    var t=r.tour;
+    b='<p>Ranked <b>#'+fmt(t.rank)+'</b> of '+fmt(D.filter(function(x){return x.tour;}).length)+', tournament score <b>'+esc(num(t.score,3))+'</b>. Problem cluster: '+esc(t.cl)+'. Cliche votes: '+t.cv+' of '+t.j.length+'.</p>';
+    var ORDER={vc:0,contrarian:1,operator:2};
+    b+='<div class="judges">'+t.j.slice().sort(function(a,b){return (ORDER[a.l]!=null?ORDER[a.l]:9)-(ORDER[b.l]!=null?ORDER[b.l]:9);}).map(function(j){
+      return '<div class="judge"><div class="judge-head"><span class="judge-name">'+esc(JUDGE[j.l]||cap(j.l))+'</span>'+(j.c?pill('Flagged as cliche','warn'):'')+'</div>'
+        +'<div class="judge-rank">Ranked <b>'+j.r+'</b> of '+j.of+meter((j.of-j.r+1)/j.of)+'</div>'
+        +(j.n?'<p>'+esc(j.n)+'</p>':'')
+        +(j.f?'<p class="flaw"><b>Fatal flaw:</b> '+esc(j.f)+'</p>':'')
+        +'</div>';
+    }).join('')+'</div>';
+    b+='<p>'+(t.sel?pill('Selected for competitor check','ok'):pill('Not selected','muted'))+' <span class="muted">'+esc(cap(t.why||''))+'</span></p>';
+    S.push(stageLi('tour','Tournament',t.rank<=100?'ok':'muted',pill('Rank '+fmt(t.rank),t.rank<=100?'ok':'muted')+(t.rank<=100?pill('Top 100','info'):''),b));
+  }
+  // competitor check
+  if(r.comp){
+    var c=r.comp;
+    var tone=c.s==='gap'?'ok':(c.s==='open'?'ok':'bad');
+    b='';
+    if(c.c && c.c.length) b+='<div><h4 class="sub">Competitors found</h4><div class="chips" style="margin-top:6px">'+c.c.map(function(n){return '<span class="chip">'+esc(n)+'</span>';}).join('')+'</div></div>';
+    b+=kv([['White space',tx(c.ws,400),true],['Sharper angle',tx(c.sa,400),true]]);
+    S.push(stageLi('comp','Competitor check',tone,pill(COMP_LABEL[c.s]||cap(c.s),tone)+(c.s==='gap'?pill('Survivor','accent'):''),b));
+  }
+  // evolution
+  if(r.evo){
+    var e=r.evo;
+    b='<p>Ranked <b>#'+e.rank+'</b> of '+EVO_SIZE+' in the evolution pool, score <b>'+esc(num(e.score,3))+'</b>.</p>';
+    b+=kv([['Lineage',e.lin]]);
+    if(r.kids && r.kids.length) b+='<div><h4 class="sub">Offspring it produced</h4><ul class="linklist" style="margin-top:6px">'+r.kids.map(function(k){return '<li>'+recLink(k)+'</li>';}).join('')+'</ul></div>';
+    S.push(stageLi('evo','Evolution',e.fin?'ok':'info',pill('Rank '+e.rank+' of '+EVO_SIZE,'muted')+(e.fin?pill('Finalist','ok'):pill('Not a finalist','muted')),b));
+  }
+  if(r.deep) S.push(deepStage(r));
+  addBet(r,S);
+  return S;
+}
+function addBet(r,S){
+  var bet=BETS.get(r.id);
+  if(bet) S.push(stageLi('bet','Contrarian bet','warn',pill('Kept as a long shot','warn'),'<p>'+esc(bet.why)+'</p>'));
+}
+function warBlock(cid){
+  var w=WAR[cid], ue=w.unit_economics||{};
+  var b='<blockquote class="verdict">'+esc(w.verdict)+'</blockquote>';
+  b+=kv([['Biggest risk',w.biggest_risk],['Mitigation',w.mitigation]]);
+  b+='<div><h4 class="sub">Unit economics</h4><div style="margin-top:8px">'+kv([
+    ['Price',ue.price],['Customer acquisition cost',ue.cac],['Gross margin',ue.gross_margin],
+    ['Payback in months',ue.payback_months],['Capital to first revenue',ue.capital_to_first_revenue],['Notes',ue.notes]
+  ])+'</div></div>';
+  var cs=w.first_customers||[];
+  if(cs.length){
+    b+='<div><h4 class="sub">First customers ('+cs.length+')</h4><ul class="cust" style="margin-top:8px">'+cs.map(function(c){
+      var u=safeUrl(c.url);
+      return '<li>'+(u?'<a href="'+esc(u)+'" target="_blank" rel="noopener noreferrer">'+esc(c.name)+'</a>':'<span><b>'+esc(c.name)+'</b></span>')
+        +(c.buyer_role?'<span class="role">Buyer: '+esc(c.buyer_role)+'</span>':'')
+        +(c.why_them?'<p>'+esc(c.why_them)+'</p>':'')
+        +(c.how_to_reach?'<p class="reach"><b>How to reach:</b> '+esc(c.how_to_reach)+'</p>':'')
+        +'</li>';
+    }).join('')+'</ul></div>';
+  }
+  var qc=w.quit_conditions||[];
+  if(qc.length) b+='<details open><summary>Quit conditions ('+qc.length+')</summary><ul>'+qc.map(function(x){return '<li>'+esc(x)+'</li>';}).join('')+'</ul></details>';
+  if(w.founder_fit) b+='<details><summary>Founder fit</summary><p>'+esc(w.founder_fit)+'</p></details>';
+  var plan=w.plan_90_days||[];
+  if(plan.length) b+='<details><summary>90-day plan ('+plan.length+' steps)</summary><ol>'+plan.map(function(x){return '<li>'+esc(x)+'</li>';}).join('')+'</ol></details>';
+  if(w.incumbent_response) b+='<details><summary>How incumbents would respond</summary><p>'+esc(w.incumbent_response)+'</p></details>';
+  return b;
+}
+function journeyR2(r){
+  var S=[], g=r.gate;
+  // origin
+  var b=kv([['Money pool',r.pool],['Pool id',r.pid],['Ideation lens',(LENS[r.k]||r.k)]]);
+  S.push(stageLi('origin','Generated','muted',pill(kindText(r),'muted'),b));
+  // gate
+  var tone=g.v==='strong'?'ok':(g.v==='weak'?'warn':'bad');
+  b='';
+  var figs='';
+  if(g.med!=null||g.up!=null) figs+=fig('Median',perYear(g.med))+fig('Upside',perYear(g.up));
+  if(g.real!=null) figs+=fig('Realistic size',perYear(g.real));
+  if(g.nc!=null) figs+=fig('Competitors found',String(g.nc));
+  if(figs) b+='<dl class="figs">'+figs+'</dl>';
+  b+=kv([['Deciding reason',g.why]]);
+  S.push(stageLi('gate','Evidence gate',tone,pill(GATE_LABEL[g.v]||cap(g.v),tone)+(g.pick?pill('Picked for deep validation','accent'):pill('Not picked','muted')),b));
+  if(r.deep) S.push(deepStage(r));
+  if(r.h2h){
+    var h=r.h2h, hr=H2H.ranking.filter(function(x){return x.cid===r.cid;})[0]||{};
+    var cells=''; for(var i=0;i<h.g;i++) cells+='<i'+(i<h.w?' class="w"':'')+'></i>';
+    b='<p class="bigline"><b>'+h.w+'</b> of <b>'+h.g+'</b> games won</p><div class="winbar" aria-hidden="true">'+cells+'</div>';
+    b+='<dl class="figs">'+fig('Margin',signed(h.pts)+' <small>points</small>')+(hr.win_rate!=null?fig('Win rate',num(hr.win_rate*100,1)+'%'):'')+'</dl>';
+    b+='<p class="muted">'+fmt(H2H.games)+' games across the '+H2H.ranking.length+' contenders. Order agreement: '+esc(String(H2H.order_agreement))+'.</p>';
+    S.push(stageLi('h2h','Head-to-head',h.rank<=5?'ok':'info',pill('Rank '+h.rank+' of '+H2H.ranking.length,h.rank<=5?'ok':'muted'),b));
+  }
+  if(r.cid && WAR[r.cid]) S.push(stageLi('war','War-game','warn',pill('Stress-tested','warn'),warBlock(r.cid)));
+  if(r.cid && FINAL.has(r.cid)){
+    var t=FINAL.get(r.cid);
+    S.push(stageLi('final','Final ranking','ok',pill('#'+t.rank+' of the final five','final'),'<p>'+esc(t.why)+'</p>'+(t.h2h_rank?'<p class="muted">Head-to-head rank: '+t.h2h_rank+'.</p>':'')));
+  } else if(r.cid && DROPPED.has(r.cid)){
+    var dr=DROPPED.get(r.cid);
+    S.push(stageLi('final','Final ranking','bad',pill('Dropped from the final five','bad'),'<p>'+esc(dr.why)+'</p>'+(dr.h2h_rank?'<p class="muted">Head-to-head rank: '+dr.h2h_rank+'.</p>':'')));
+  }
+  addBet(r,S);
+  return S;
+}
+
+/* ---------- panel ---------- */
+function renderRecord(id){
+  var r=byId.get(id);
+  if(!r) return false;
+  cur=id;
+  truncSeen=false;
+  var S = r.round===1 ? journeyR1(r) : journeyR2(r);
+  var st=STAGE[r.stage];
+  var h='<div class="panel-ids"><span class="mono">'+esc(r.id)+(r.cid?' / '+esc(r.cid):'')+'</span>'
+    +'<span class="chip">Round '+r.round+'</span>'
+    +'<span class="pill t-'+st.tone+'">'+esc(st.label)+'</span></div>'
+    +'<h2 id="pTitle" tabindex="-1">'+esc(r.t)+'</h2>'
+    +(r.deep && r.deep.rt && r.deep.rt!==r.t ? '<p class="panel-refined">Refined to: '+esc(r.deep.rt)+'</p>' : '')
+    +'<p class="panel-one">'+tx(r.o,400)+'</p>'
+    +'<ol class="trail" aria-label="Stages reached">'+S.map(function(s){ return '<li><button type="button" data-goto="st-'+s.id+'">'+esc(s.name)+'</button></li>'; }).join('')+'</ol>'
+    +'<ol class="journey" aria-label="Journey through the pipeline">'+S.map(function(s){return s.html;}).join('')+'</ol>'
+    +(truncSeen?'<p class="muted note">Text that ends in an ellipsis was cut off in the data file.</p>':'');
+  $('pBody').innerHTML=h;
+  $('pBody').scrollTop=0;
+  Array.prototype.forEach.call(document.querySelectorAll('.row[aria-current]'),function(el){ el.removeAttribute('aria-current'); });
+  var row=document.querySelector('.row[data-open="'+id.replace(/"/g,'')+'"]');
+  if(row) row.setAttribute('aria-current','true');
+  updateNav();
+  return true;
+}
+function updateNav(){
+  var i=cur!=null && viewIdx.has(cur) ? viewIdx.get(cur) : -1;
+  $('pPrev').disabled = !(i>0);
+  $('pNext').disabled = !(i>=0 && i<view.length-1);
+}
+function panelOpen(){ return $('panel').classList.contains('open'); }
+function showPanel(){
+  var p=$('panel'), mobile=isMobile();
+  p.classList.add('open');
+  document.documentElement.classList.add('panel-open');
+  p.setAttribute('role', mobile?'dialog':'complementary');
+  if(mobile) p.setAttribute('aria-modal','true'); else p.removeAttribute('aria-modal');
+  $('shell').inert = mobile;
+}
+function hidePanel(){
+  $('panel').classList.remove('open');
+  document.documentElement.classList.remove('panel-open');
+  $('shell').inert=false;
+  cur=null;
+  Array.prototype.forEach.call(document.querySelectorAll('.row[aria-current]'),function(el){ el.removeAttribute('aria-current'); });
+}
+function readHash(){
+  var m=/[#&]idea=([^&]+)/.exec(location.hash||'');
+  if(!m) return null;
+  try{ return decodeURIComponent(m[1]); }catch(e){ return null; }
+}
+function openRecord(id,opts){
+  opts=opts||{};
+  if(!byId.has(id)) return;
+  var wasOpen=panelOpen();
+  if(!wasOpen) lastTrigger = opts.trigger || document.activeElement;
+  renderRecord(id);
+  if(!opts.fromHash && !opts.fromPop){
+    try{
+      if(wasOpen){ history.replaceState(null,'','#idea='+encodeURIComponent(id)); }
+      else { history.pushState(null,'','#idea='+encodeURIComponent(id)); pushed=true; }
+    }catch(e){}
+  }
+  showPanel();
+  var t=$('pTitle'); if(t) t.focus({preventScroll:true});
+}
+function closePanel(){
+  if(!panelOpen()) return;
+  var trig=lastTrigger;
+  if(pushed){
+    pushed=false;
+    try{ history.back(); }catch(e){}
+    setTimeout(function(){ if(panelOpen()) finishClose(trig); },150);
+    return;
+  }
+  finishClose(trig);
+  try{ if(readHash()) history.replaceState(null,'',location.pathname+location.search); }catch(e){}
+}
+function finishClose(trig){
+  hidePanel();
+  if(trig && document.contains(trig) && trig.focus){ trig.focus({preventScroll:true}); }
+}
+function step(delta){
+  if(cur==null || !viewIdx.has(cur)) return;
+  var i=viewIdx.get(cur)+delta;
+  if(i<0 || i>=view.length) return;
+  if(i>=shown){ shown=Math.min(view.length,i+1); $('list').innerHTML=view.slice(0,shown).map(rowHTML).join(''); updateCount(); }
+  openRecord(view[i].id);
+  var row=document.querySelector('.row[aria-current="true"]');
+  if(row && !isMobile()){ row.scrollIntoView({block:'nearest', behavior:reducedMotion()?'auto':'smooth'}); }
+}
+
+/* ---------- events ---------- */
+document.addEventListener('click',function(e){
+  var t=e.target;
+  if(!(t instanceof Element)) return;
+  var el=t.closest('[data-open]');
+  if(el){ e.preventDefault(); openRecord(el.getAttribute('data-open'),{trigger:el}); return; }
+  el=t.closest('[data-goto]');
+  if(el){
+    var tgt=document.getElementById(el.getAttribute('data-goto'));
+    if(tgt) tgt.scrollIntoView({block:'start', behavior:reducedMotion()?'auto':'smooth'});
+    return;
+  }
+  el=t.closest('[data-preset]');
+  if(el){
+    var key=el.getAttribute('data-preset');
+    f={q:'', round:0, kind:'', stage:'', beyond:false, verdict:'', sort:'stage', preset:key};
+    setTokens('');
+    syncControls();
+    update();
+    var head=$('h-explorer');
+    head.scrollIntoView({block:'start', behavior:reducedMotion()?'auto':'smooth'});
+    head.focus({preventScroll:true});
+    return;
+  }
+  if(t.id==='presetClear'){ f.preset=''; update(); return; }
+});
+$('moreBtn').addEventListener('click',showMore);
+$('reset').addEventListener('click',resetFilters);
+$('emptyReset').addEventListener('click',resetFilters);
+$('retry').addEventListener('click',load);
+$('pClose').addEventListener('click',closePanel);
+$('pPrev').addEventListener('click',function(){ step(-1); });
+$('pNext').addEventListener('click',function(){ step(1); });
+
+var qTimer=null;
+$('q').addEventListener('input',function(){
+  clearTimeout(qTimer);
+  var v=this.value;
+  qTimer=setTimeout(function(){ f.q=v; setTokens(v); update(); },140);
+});
+$('roundSeg').addEventListener('click',function(e){
+  var b=e.target.closest('button'); if(!b) return;
+  f.round=+b.dataset.round;
+  syncControls();
+  update();
+});
+$('kind').addEventListener('change',function(){ f.kind=this.value; update(); });
+$('stage').addEventListener('change',function(){ f.stage=this.value; update(); });
+$('verdict').addEventListener('change',function(){ f.verdict=this.value; update(); });
+$('sort').addEventListener('change',function(){ f.sort=this.value; update(); });
+$('beyond').addEventListener('change',function(){ f.beyond=this.checked; update(); });
+
+document.addEventListener('keydown',function(e){
+  if(e.key==='Escape' && panelOpen()){
+    var a=document.activeElement;
+    if(a && a.tagName==='SELECT') return;
+    closePanel();
+  }
+});
+window.addEventListener('popstate',function(){
+  var id=readHash();
+  if(id && byId.has(id)){ openRecord(id,{fromPop:true}); }
+  else if(panelOpen()){
+    var trig=lastTrigger; pushed=false; finishClose(trig);
+  }
+});
+try{
+  var mq=window.matchMedia('(max-width: 899px)');
+  var onMq=function(){ if(panelOpen()) showPanel(); };
+  if(mq.addEventListener) mq.addEventListener('change',onMq); else if(mq.addListener) mq.addListener(onMq);
+}catch(e){}
+
+load();
+})();
+</script>
