@@ -627,3 +627,40 @@ Paused at your request to wait for the weekly usage reset (about 50% of the week
   - C10 and C16 split their own pair 1-1, and in each case the judge picked the idea read second. C10 edges ahead on margin points (+42 vs +38). Places 3-5 are tied on wins and separated only by margin points.
 - **What decided the wins: downside shape.** Judges repeatedly favored ideas whose **median case is already a real, cash-flowing business** (buying existing revenue) and whose risky bet only drives the upside. That describes Signed-Off (if the AI leverage fails, it's still a profitable engineering boutique) and the laundry consolidator (sellers, lenders and prices are all evidenced). Ideas whose median depends on unproven demand lost (the HCBS utility, Outreach Labs, Capped Outage).
 - **Judgment call: war-game the top 6, not 5.** Places 3-6 are separated by at most one win, so cutting at 5 would be arbitrary. Run `wf_76fc5094-005` (6 web-research agents) covers C10, C16, C09, C13, C03 and C04.
+
+## Step 7: war-games of the top 6 (`wf_76fc5094-005`): 6/6 agents, 1.6M subagent tokens, about 460 searches
+- **Each war-game** (`round2/wargame/<cid>.md`) names the strongest rival's response, **10-12 real named first customers** with evidence and the title of the person who signs, a 90-day plan, dated quit conditions, unit economics and founder fit.
+- **Every verdict was conditional.** None was "start Monday": each is "start only with the right insider co-founder, and only if a cheap test passes". The rivals each war-game found:
+  - **C10 Signed-Off:** ENERCON (Arlington-owned, merged with Pond, "supports ~90% of US plants") is rolling up the same boutiques. Engineering errors-and-omissions insurance excludes nuclear-facility losses. Start only with a nuclear QA co-founder, about $3M of equity, and a passed 13-day bake-off (Nov 13).
+  - **C16 Laundry consolidator:** Alsco, Wildman and CVC-backed Unitex already offer the same family-to-family exit. The median is about 8% IRR, and about 1% at a 7.5x entry.
+  - **C09 Stafette:** HomeServe Deutschland (Brookfield, about EUR 100M) and ROM Technik take the best estates within weeks. The 19% contribution holds only above about 69% utilization.
+  - **C13 Run-Base Shrinker:** Rimini Street ($413M ARR) sells the fastest invoice-line cuts. Realization evidence runs 6-30%; the lean co-funded variant gives a $5-20M firm.
+  - **C03 HCBS Ops Utility:** Carelon/CareBridge already sells 24/7 HCBS operations to rival plans, and HHAeXchange holds the EVV data. "Narrow yes, big no", but with dated buying events (Arizona ALTCS, award 1/5/2027).
+  - **C04 Time-to-Power:** JCL Energy, backed by Sunbelt Solomon, already sells "reserve capacity now". 6-10% gross margin, so thin and crowded.
+
+## Step 8: orchestrator final review (my own judgment, no subagent)
+**The final 5, ranked by expected outcome for a capable founding team** (`round2/final_top5.json`):
+1. **C10 Signed-Off v2** (AI-leveraged nuclear engineering house). *Head-to-head #1.*
+2. **C13 Run-Base Shrinker v2** (paid only when a third-party invoice line actually falls). *Head-to-head #4 → moved up.*
+3. **C03 HCBS Operations Utility** (fixed-price 24/7 operations for Medicaid plans' highest-need home-care members). *Head-to-head #5 → moved up.*
+4. **C16 Regional Partner Group** (rollover-first family-laundry consolidator). *Head-to-head #2 → moved down.*
+5. **C09 Stafette** (Meister-partnered hubs absorbing closing Handwerk firms). *Head-to-head #3 → moved down.*
+
+**Dropped:** C04 Time-to-Power. The war-game found 6-10% gross margin and incumbents already selling the exact gap.
+
+**Why I changed the head-to-head order (the war-games are new evidence the head-to-head judges didn't have):**
+- **C16 drops from #2 to #4.** The head-to-head rewarded how well its sellers, lenders and prices are evidenced. But the war-game's own returns model gives a **median of about 8% IRR**, and sellers already have trusted, better-capitalized buyers. On expected founder outcome, a well-evidenced mediocre return is worth less than it looked.
+- **C13 rises to #2.** It has the **lowest capital to first revenue** ($70-150k to a paid X-ray), named buyers, a 14-day decisive test, and the largest underlying pool. Its downside is cheap, and its realistic outcome ($5-20M firm) is comparable to the others at a fraction of the capital.
+- **C03 rises to #3.** It has **dated buying events in the next 90 days**, about 45% gross margin at R1, a pilot under $1M and very fast CAC payback. Its fatal risk (plans won't fund it as a line) is testable within 40 days.
+- **C09 drops to #5.** It has real deal flow, but thin, utilization-dependent margins and strong strategic competitors.
+
+**Contrarian bets (clearly marked: high-variance, and not validated to the same depth):**
+- **C05 Anchor-Funded Independent Foundry:** the biggest prize ($55M median, $200M upside) and the best defensibility, but it needs $130-175M.
+- **"Certified Cell: Hadrian for nuclear"** (P038 near-miss).
+- **Round 1's "Evac Cash"**, the most divisive idea in round 1.
+
+**The honest bottom line:**
+- After about 2,100 agent runs and about 1,770 ideas, **no idea survived as an obvious, uncrowded, venture-scale slam dunk.**
+- The survivors are **real, fundable businesses** with typical outcomes of about $5-45M of revenue and $100-200M upsides, each decided by a cheap test.
+- **Every war-game said the same thing about founder fit: "start only with a co-founder who already is X"** (a nuclear QA lead, a laundry operator, a German Meister, an enterprise IT-finance insider, an ex-plan LTSS operations VP).
+- Combined with round 1's finding that insider personas produced the best ideas, the strongest conclusion is this: **in late 2026, the edge is less in the idea than in the founder's insider position.** The best idea for Asher is the one whose insider he can recruit or become.
