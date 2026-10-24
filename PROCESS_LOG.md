@@ -599,3 +599,31 @@ Paused at your request to wait for the weekly usage reset (about 50% of the week
   - **`r2_h2h.js`:** a full round-robin of the 12 (66 pairs), each pair judged twice with the order swapped, by 2 different judge personas (132 Sonnet judges). Objective: expected outcome for a capable founding team (value × probability versus capital and time), with venture scale as one factor, not a gate.
   - **`r2_aggregate_h2h.py`:** wins, margin points, Bradley-Terry strength, and an order-agreement (bias) check.
 - **The handoff prompt is at `~/Downloads/PROMPT-business-idea-search-next-chat-2026-10-23.md`.** It covers first steps, the launch recipe, steps 7-9, every rule, tech notes and open questions.
+
+## Step 6: head-to-head (24 Oct 2026), 132 judges
+- **You said to keep going in this chat with no cap**, so I launched the built step 6 here.
+- **Runs:** `wf_bcca6b61-bb8` and `wf_5f6c4af6-6f5`, each with a 6-agent limit (12 in flight), and a 90-second health check between waves. **132/132 succeeded, with 0 failures and 0 filter errors** (16.5M subagent tokens).
+- **Design:** a full round-robin of the 12 contenders (66 pairs). Each pair was judged twice with the order swapped, by 2 different judge personas (a founder-investor and a growth-equity operating partner). Each judge read both briefs, both refined pitches and both dossiers.
+- **Objective:** expected outcome for a capable founding team (value × probability, weighed against capital and time).
+
+| Rank | Contender | Wins / 22 | Margin points |
+|---|---|---|---|
+| 1 | **C10 Signed-Off v2** (AI-leveraged nuclear engineering house) | 21 | +42 |
+| 2 | **C16 Regional Partner Group** (rollover-first uniform and linen laundry consolidator) | 21 | +38 |
+| 3 | C09 Stafette (Meister-partnered Handwerk hubs) | 14 | +11 |
+| 4 | C13 Run-Base Shrinker v2 (funded retirement of application run cost) | 14 | +9 |
+| 5 | C03 HCBS Operations Utility | 14 | +7 |
+| 6 | C04 Time-to-Power Desk | 13 | +2 |
+| 7 | C06 Level-1 Bench | 9 | -2 |
+| 8 | C05 Anchor-Funded Independent Foundry | 9 | -8 |
+| 9 | C02 Qualified-challenger fiscal agent | 8 | -14 |
+| 10 | C15 Root-Cause Contract | 7 | -18 |
+| 11 | C11 Outreach Partner Labs | 2 | -29 |
+| 12 | C01 Capped Outage | 0 | -38 |
+
+- **Reliability:**
+  - The two order-swapped judgments of each pair agreed **52 of 66 times (79%)**.
+  - The idea read first won 78 of 132 (59%), a mild order bias that the swap design cancels out.
+  - C10 and C16 split their own pair 1-1, and in each case the judge picked the idea read second. C10 edges ahead on margin points (+42 vs +38). Places 3-5 are tied on wins and separated only by margin points.
+- **What decided the wins: downside shape.** Judges repeatedly favored ideas whose **median case is already a real, cash-flowing business** (buying existing revenue) and whose risky bet only drives the upside. That describes Signed-Off (if the AI leverage fails, it's still a profitable engineering boutique) and the laundry consolidator (sellers, lenders and prices are all evidenced). Ideas whose median depends on unproven demand lost (the HCBS utility, Outreach Labs, Capped Outage).
+- **Judgment call: war-game the top 6, not 5.** Places 3-6 are separated by at most one win, so cutting at 5 would be arbitrary. Run `wf_76fc5094-005` (6 web-research agents) covers C10, C16, C09, C13, C03 and C04.
