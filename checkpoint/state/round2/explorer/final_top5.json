@@ -1,0 +1,14 @@
+{"objective": "expected outcome for a capable founding team in late 2026 (value x probability vs capital and time); venture scale is one factor",
+ "top5": [
+  {"rank": 1, "cid": "C10", "h2h_rank": 1, "why": "Strongest tailwind (nuclear restarts, uprates and licensing wave plus an engineer shortage), plus AI leverage on high-value regulated deliverables, a margin-expanding shape. The downside is a profitable boutique, and a $10k, 13-day bake-off decides it."},
+  {"rank": 2, "cid": "C13", "h2h_rank": 4, "why": "Biggest pool (enterprise application run cost under AI displacement), the lowest capital to first revenue ($70-150k to a paid X-ray), named buyers, and a 14-day test. Expect a $5-20M firm unless it scales into a platform."},
+  {"rank": 3, "cid": "C03", "h2h_rank": 5, "why": "Dated buying events (Arizona ALTCS award 1/5/2027, Pennsylvania CHC), about 45% gross margin at R1, a pilot under $1M, and CAC recovered in about 1.3 months of contract gross profit. The real risk is that plans won't treat it as a budget line, and Carelon is already there."},
+  {"rank": 4, "cid": "C16", "h2h_rank": 2, "why": "The most evidenced (sellers, lenders and prices all exist), but the war-game puts the median at about 8% IRR, and sellers have trusted alternatives (Alsco, Wildman, Unitex). Best as a search-fund platform, decided by a 25-call owner test."},
+  {"rank": 5, "cid": "C09", "h2h_rank": 3, "why": "Real German succession and insolvency deal flow, under EUR 40k to a first signed deal, but thin contribution (19% above 69% utilization) and HomeServe/ROM competition. It needs a German Meister co-founder."}
+ ],
+ "dropped": [{"cid": "C04", "h2h_rank": 6, "why": "The war-game found it thin and crowded: 6-10% gross margin, and JCL/Sunbelt Solomon already sell 'reserve capacity now'."}],
+ "contrarian_bets": [
+  {"ref": "C05 Anchor-Funded Independent Foundry (round 2)", "why": "The biggest prize in round 2 ($55M median, $200M upside) and the best defensibility score, but it needs $130-175M of equity. It lost the head-to-head on capital and execution risk."},
+  {"ref": "Certified Cell: Hadrian for nuclear (round 2, P038 near-miss)", "why": "An automated nuclear-grade manufacturing cell. A venture-shaped idea ($18M median, $100M upside) that the gate rated weak and nobody deep-validated."},
+  {"ref": "Evac Cash: payout when ordered to evacuate (round 1, I0175)", "why": "Parametric evacuation cover. The VC and contrarian judges ranked it near the top (0.91, 0.96) and the operator ranked it last (0.0). The most divisive idea of round 1, never deep-validated."}
+ ]}
