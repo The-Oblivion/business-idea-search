@@ -589,3 +589,13 @@ Paused at your request to wait for the weekly usage reset (about 50% of the week
   - **Step 7:** war-game the top 5.
   - **Step 8:** my final review.
   - **Step 9:** the report, plus the interactive explorer of every idea from both rounds.
+
+---
+
+## Week 4 (23 Oct 2026): step 6 prepared, then handoff to a fresh chat
+- **Go:** you said "go". The meter read **weekly 23%** (fresh week, resetting 26 Oct), but this chat had reached **about $46** with a very large context. Your rule is to hand off to a fresh chat at about $40-50.
+- **Judgment call:** rather than run step 6 from an expensive context, I **built step 6 completely here** and handed off, so the fresh chat only has to launch it:
+  - **12 one-page contender briefs** (`round2/h2h/briefs/<cid>.md`). They hold the refined pitch summary, median and upside cases, each critic's severity and top objection, the second-round verdict, and the riskiest assumption with its 2-week test. The deep judges' scores are left out on purpose so they don't anchor the new judges.
+  - **`r2_h2h.js`:** a full round-robin of the 12 (66 pairs), each pair judged twice with the order swapped, by 2 different judge personas (132 Sonnet judges). Objective: expected outcome for a capable founding team (value × probability versus capital and time), with venture scale as one factor, not a gate.
+  - **`r2_aggregate_h2h.py`:** wins, margin points, Bradley-Terry strength, and an order-agreement (bias) check.
+- **The handoff prompt is at `~/Downloads/PROMPT-business-idea-search-next-chat-2026-10-23.md`.** It covers first steps, the launch recipe, steps 7-9, every rule, tech notes and open questions.
