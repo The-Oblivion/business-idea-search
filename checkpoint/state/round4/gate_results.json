@@ -1,0 +1,945 @@
+{
+ "G:cross_family:0": {
+  "verdict": "weak",
+  "competitors": [
+   {
+    "name": "CareScout (Genworth)",
+    "url": "https://businesswire.com/news/home/20260120255657/en/CareScout-Expands-National-Footprint-with-New-Tools-to-Navigate-Long-Term-Care",
+    "what": "Provider-funded care navigation: nurse-led Care Plans, 1,100+ home-care locations, ~2,950 matches in H1 2026, local care advisors in 26 states, acquired Seniorly Oct 2025; owns the carrier channel the 'big' path needs"
+   },
+   {
+    "name": "A Place for Mom / Caring.com",
+    "url": "https://partners.caring.com/get-leads-caring-com",
+    "what": "Agencies already buy leads per lead or per start (about $55-150 per lead); proves a budget line exists but it is ~1-2% of agency revenue"
+   },
+   {
+    "name": "Tendercare",
+    "url": "https://trytendercare.com/financial-advisors",
+    "what": "Free-to-family elder-care platform that matches families with vetted financial advisors; same advisor-fulfilment idea, early stage"
+   },
+   {
+    "name": "Cariloop",
+    "url": "https://cariloop.com/news/cariloop-raises-20m-with-benefits-for-workers-who-care-for-family-members",
+    "what": "Employer-paid caregiver concierge, $20M Series C (2024); April 2026 partnership with RIA Quotient Wealth Partners to reach advisor clients"
+   },
+   {
+    "name": "Wellthy",
+    "url": "https://www.hr-brew.com/stories/wellthy-acquires-cleo-family-care",
+    "what": "Employer-paid caregiving concierge, ~$77M raised, merged with Cleo"
+   },
+   {
+    "name": "Carefull",
+    "url": "https://www.wealthmanagement.com/technology/carefull-raises-165m-expand-develop-new-features-protect-seniors",
+    "what": "~$19.7M raised plus CIBC debt (2025); sells to banks, credit unions (CUNA alliance) and advisors; already holds the bank/credit-union channel"
+   },
+   {
+    "name": "SmartAsset advisor matching",
+    "url": "https://getleads.smartasset.com/smartadvisor-referral-sign-up/",
+    "what": "Advisor lead-gen incumbent; advisors pay per lead (third-party estimate about $100-200, roughly 1 in 10 close); proves the promoter model is workable but sets the price ceiling"
+   },
+   {
+    "name": "NCOA BenefitsCheckUp (free)",
+    "url": "https://www.benefitscheckup.org",
+    "what": "Free benefits-screening tool that commoditizes the 'funding map' (from the idea file, not re-verified this round)"
+   },
+   {
+    "name": "Medicare GUIDE model (CMS)",
+    "url": "https://www.cms.gov/priorities/innovation/innovation-models/guide",
+    "what": "Medicare-paid dementia care navigation 2024-2032; free-to-family substitute for navigation in the dementia segment"
+   },
+   {
+    "name": "Franchise agencies (e.g. Amada) offering LTC claim help",
+    "url": "https://www.amadaseniorcare.com/bergen-county-senior-care/?p=7848",
+    "what": "Agencies already compile and submit LTC insurance claims for families as a free sales aid, so part of the intake value is given away in-house"
+   }
+  ],
+  "teen_blockers": "Age: not a legal wall. He is an adult and can form an LLC, sign contracts and take payments. Credibility is real but mitigated: Dad's 24-year name and grandfather's introductions can land about 5 customers; cold-pitching Florida elder-law attorneys or agency owners without a warm intro is weak. Licenses: none needed while the product stays non-advice and non-brokering. Legal walls that are real but clearable by design: (1) Fla. Stat. 817.505 patient brokering covers AHCA-licensed home health agencies and carries felony penalties ($50k up to $500k), so per-start fees to agencies must be dropped; a flat fair-market fee to a non-steering consumer information service fits exemption (3)(i). (2) Florida Bar Rule 4-7.22 makes CareFund a 'qualifying provider' for lawyers: no fee-sharing, a panel with lawyers from at least 4 firms, annual list to the Bar, 15-day written response; this conflicts with the '2 attorneys' start and the 'exclusive county' offer. (3) SEC Marketing Rule 206(4)-1: any advisor paying per referral makes CareFund a paid promoter (written agreement, disclosure at referral, eligibility checks); SmartAsset shows it is workable and Dad's compliance toolkit is a real edge. (4) HIPAA marketing rule: an agency handout promoting a third-party advisor funded directly or indirectly by that advisor likely needs patient authorization; keep no remuneration to agencies and no PHI. (5) VA: no claim-prep fees unless accredited. Capital: legal review pushes cost to about $6-10k, not $4k. Unverified and load-bearing: nothing public confirms what MHC Healthcare is (only an unverified 'MHC Area 6 LLC' Riverview listing on a low-quality directory), and MyFinancialAdvice looks like a small Boulder CO firm founded 2001 (about 8 employees per one profile, last detailed coverage 2004), so Dad's 'advisor roster' may be thin. A family pilot is weak proof to non-family peers.",
+  "first_customers_channel": "Warm-intro channel: grandfather to Florida home-care owner peers (Tampa Bay and Broward first, where the MHC area LLCs sit), Dad to his advisor network, then association events. The HCAF HomeCareCon was July 21-24, 2026, so the next one falls outside the 6-month window; use regional meetings and webinars until then. First 10 named customer types or communities: (1) MHC itself as family pilot agency; (2-3) two peer Medicare-certified or private-duty agency owners from grandfather's circle; (4) a local home-care franchise owner (Visiting Angels, Home Instead, Comfort Keepers or BrightStar) who already publishes 'how to pay' content; (5) 3-5 advisors from Dad's MyFinancialAdvice roster (after confirming it is active); (6) Florida flat-fee planners from XY Planning Network or Garrett Planning Network chapters as the low-cost tier; (7) hybrid or AUM RIAs with an eldercare niche (FPA Elder Planning Specialist graduates) under promoter agreements; (8) Florida elder-law attorneys via NAELA and the Florida Bar Elder Law Section, 4+ per county panel; (9) ALF discharge planners as free referral sources; (10) hospital discharge planners and Aging Life Care Association care managers as free referral sources.",
+  "cost_to_first_revenue_usd": 6000,
+  "weeks_to_first_revenue": 8,
+  "median_case_revenue_usd_m": 0.7,
+  "upside_case_revenue_usd_m": 30,
+  "deciding_reason": "The payer math does not close as written. A flat-fee advisor consult earns about $270-300, so a $200-350 per-consult lead fee is roughly 100% of revenue, which makes Dad's flat-fee roster the wrong payer. The payers who can afford leads (elder-law attorneys with $3-15k engagements, AUM RIAs) sit behind the Florida Bar 4-7.22 four-firm panel rule and SEC promoter rules. Agency marketing budgets are only about 1-2% of revenue, so a $300-900/month license against about 2-5 consults per agency per year is a hard sell. The $90M bottom-up needs about 2M completed intakes plus per-start agency fees that Florida patient-brokering law (817.505) makes felony-risky. The free funding map is commoditized by NCOA BenefitsCheckUp, and the big channels (CareScout/Genworth, Carefull with banks, Cariloop and Wellthy with employers) are already taken or out of an 18-year-old's reach. It is not dead because the family-agency wedge, Dad's compliance tooling and an empty exact combination are real.",
+  "sharpened": {
+   "title": "CareFund Rail: the compliant funding-and-referral desk for home care",
+   "one_liner": "A free 12-minute care-funding intake that home-care agencies hand out at admission and discharge, paid for by flat-fee, rule-compliant sponsorships from elder-law attorneys and advisors, with the compliance rail (promoter agreements, disclosures, Bar-panel rules, no per-start fees, no PHI) as the moat.",
+   "pitch": "Families learn private-duty care costs about $6,000 a month in a crisis; most then cut hours or never convert from a Medicare episode. Agencies lose the conversion, and attorneys and advisors meet the family late. CareFund is a non-advice intake agencies hand out at admission and discharge. It produces a funding map (LTC policy claim checklist, VA Aid and Attendance, Medicaid waiver, state programs, family cost-sharing) and a booked consult with a vetted professional. Three changes from the original. First, the payers change: elder-law attorneys (a rotating panel of four or more per county, flat monthly sponsorship) and hybrid or AUM advisors under written promoter agreements pay, because a roughly $300 flat-fee consult cannot carry a $200-350 lead fee; flat-fee planners become the low-cost tier. Agencies pay a small flat fair-market license, with no per-start fees. Second, the family-agency pilot is instrumented, together with three or four free peer pilots using de-identified aggregates, to produce the one number peers will pay for: private-pay conversion and length-of-stay lift. Third, the product that scales is the compliance rail itself (SEC promoter agreements and disclosures, Florida Bar 4-7.22 panel rules, HIPAA marketing guardrails, built from Dad's compliance tooling), which carriers, banks and caregiver-benefit vendors need more than another lead list. Kill criteria: by April 2027, if fewer than 3 of 10 peer agencies would pay $300 a month after seeing pilot data, stop."
+  }
+ },
+ "G:insider_big:1": {
+  "verdict": "weak",
+  "competitors": [
+   {
+    "name": "Mercor Enterprise Evals",
+    "url": "https://www.mercor.com/enterprise-evals/",
+    "what": "Sells expert-built eval suites directly to application-layer AI companies (Ramp finance agents: 160 expert tasks, reusable suite in under 6 weeks). About $2B gross run rate, 30k+ experts, and RN/NP/coder listings at $45-150/hr. Healthcare is not yet a case study, but the supply and sales motion already exist."
+   },
+   {
+    "name": "Centaur Labs / Centaur AI",
+    "url": "https://info.centaurlabs.com/complete-guide-to-medical-ai-data-labeling-in-2026",
+    "what": "Healthcare-specific expert annotation and LLM evaluation with a claimed 50,000+ expert network, HIPAA-positioned, about $35M raised. The closest existing vertical analogue to this idea."
+   },
+   {
+    "name": "Vals AI",
+    "url": "https://www.vals.ai/benchmarks",
+    "what": "Independent benchmark house with 38 benchmarks including MedCode (medical billing), MedScribe, finance, tax and legal. Sells private eval infrastructure to labs and enterprises, so the neutral-third-party role already has a branded occupant."
+   },
+   {
+    "name": "Surge AI, Scale/Outlier, Handshake AI, micro1, Turing, Invisible",
+    "url": "https://sacra.com/research/handshake-vs-mercor/",
+    "what": "Generic expert-data and RLHF vendors at roughly $0.3-2B scale. Labs buy from them or build in-house, so the horizontal lane is saturated."
+   },
+   {
+    "name": "Labelbox Evals, Kili, Invisible custom evaluations",
+    "url": "https://labelbox.com/evals/",
+    "what": "Custom expert-labeled evals with custom rubrics. Pricing is not published, and a seed-stage buyer is a small client for them."
+   },
+   {
+    "name": "Hippocratic AI (in-house RWE-LLM)",
+    "url": "https://hippocraticai.com/real-world-evaluation-llm/",
+    "what": "Evaluates its agents with 6,234 licensed clinicians in-house. The best-funded healthcare-AI company builds this itself rather than buying it."
+   },
+   {
+    "name": "Qualified Health",
+    "url": "https://fiercehealthcare.com/ai-and-machine-learning/qualified-health-locks-125m-fresh-funding-scale-ai-health-systems",
+    "what": "$125M Series B (Mar 2026). Health systems evaluate, deploy and monitor AI tools on its platform. The buyer-side AI-assurance budget is going to a platform, not a bench."
+   },
+   {
+    "name": "SimiTree (SARA) and Home Care Answers via Axxess",
+    "url": "https://simitreehc.com/our-insights/blog/ai-powered-coding-vendor-questions",
+    "what": "Human OASIS coding review plus AI. They already hold the OASIS-expert supply and agency relationships, and none publishes independent accuracy numbers."
+   },
+   {
+    "name": "OpenAI HealthBench and MedHELM",
+    "url": "https://openai.com/index/healthbench/",
+    "what": "Free, public, physician-rubric benchmarks (HealthBench used 262 physicians; MedHELM is Apache 2.0). They anchor the price of a generic benchmark at zero but do not cover home-health operations."
+   },
+   {
+    "name": "KLAS Research",
+    "url": "https://KLASresearch.com/faq",
+    "what": "The precedent for independent, partly vendor-funded ratings in health IT (est. about $42M revenue). It uses surveys, not expert-graded accuracy tests, and is the model for a KLAS-for-AI-accuracy path."
+   }
+  ],
+  "teen_blockers": "Age and legal form are not blockers: he is 18 and can form an LLC, sign contracts and take payments. No license wall exists, because grading AI outputs on synthetic prompts is not giving regulated medical or financial advice. The blockers that are real: (1) Credibility. Vendors will ask who the clinical lead is. He needs a named credentialed lead, such as an MHC director of nursing or an HHCS-O auditor, and fixable. (2) Independence conflict. If MHC is a customer or affiliate of a vendor he grades, 'independent' is compromised. MHC Area 9 LLC is registered as doing business as Choice Health At Home, which is acquiring Accentra, whose CEO created the Apricot AI tool. This is unverified and the single biggest unknown. (3) Bench existence. The family company may have sold its agencies to Choice, in which case the RN/coder bench may not be his to recruit. The only exact-name search hit for MHC Healthcare was an unrelated Arizona nonprofit, and MyFinancialAdvice shows only 2004-era press, so the advisor network's current state is unverified. (4) HIPAA. Low while everything is synthetic, but it becomes real if experts write charts from memory of real patients or if retainer evals run on production traces. (5) Worker classification. Minor at under 10 project-based experts, but a real wall at scale: Mercor (Texas), Handshake (N.D. Cal., July 2026) and Scale (SF) are all being sued over AI-trainer misclassification. (6) Expert-data security. The Mercor breach (March 2026) led to at least 4-7 class actions. (7) Advisor side-gigs. FINRA 3270 requires registered reps to give prior written notice to their firm, so flat-fee RIAs are lighter. (8) Capital at scale: experts are paid weekly before clients pay, so a $50M-billing marketplace needs a multi-million float, but the pilot needs under $10k.",
+  "first_customers_channel": "Cold founder DMs with a one-page offer, backed by one family and one clinician introduction. Home-health AI vendors, all named in the search results: Enzo Health ($20M Series A), Olli Health ($10M Series A), Brellium ($16.7M), Apricot (Insight Partners Series A), Lime Health AI, Healthorbit.ai, and SimiTree's SARA. Advisor-AI vendors: Jump ($80M Series B), Zocks ($45M Series B), Zeplyn, AdvisoryAI, Advisor X, and Range (flat-fee advisor AI). Warm channels: his father's advisor peers (XY Planning Network and NAPFA-type flat-fee advisor communities), the National Alliance for Care at Home vendor-and-agency events (Apricot already sponsors them), and Home Health Care News readers. Customer 0 is the family company, but only after the conflict check: a buyer-side bake-off of the AI vendors it uses or is evaluating. The better payer is the agency or advisor firm choosing a vendor, not the vendor itself: only 1.3% of 160 agency respondents were 'very confident' in their OASIS accuracy, and CMS leaves coding liability with the agency.",
+  "cost_to_first_revenue_usd": 6000,
+  "weeks_to_first_revenue": 10,
+  "median_case_revenue_usd_m": 1.5,
+  "upside_case_revenue_usd_m": 25,
+  "deciding_reason": "The wedge is real but too small, and the only big path is a fight with Mercor. I found no independent accuracy benchmark for AI OASIS vendors and no home-health-specific bench, and there is no license or age wall. But the vertical is about 80 named AI vendors, which bottoms up to $1-3M a year, not the pitch's $5-15M. The generic expert-eval lane is occupied: Mercor now sells Enterprise Evals to application-layer companies (Ramp, Cognition) from a 30k-expert, $2B-run-rate base, and Centaur and Vals already own the healthcare and independent-benchmark niches. The vendor-pays model has a structural problem: vendors want badges, not honest scores, in-house clinical teams do it today (Hippocratic, Ada), and CHAI's assurance-lab plan failed partly because nobody settled who pays. The $2,500 price is below the roughly $5-6k build cost of a defensible 100-chart gold set, so the first pilots lose money. The idea survives as weak, not dead, because the buyer side (agencies, with 1.3% confidence in OASIS accuracy and liability under CMS) is unserved and KLAS shows a $40M-scale vendor-funded ratings model exists, but that path takes years and needs a verified MHC bench.",
+  "sharpened": {
+   "title": "Ground Truth Ledger: the independent accuracy scoreboard for back-office AI in regulated services",
+   "one_liner": "A small credentialed bench grades back-office AI (home-health OASIS first, advisor communications second) on hidden synthetic gold sets, sells blind diagnostics and buyer-side vendor bake-offs, then turns the accumulated rubrics and an anonymized index into a subscription standard that vendors license a verified badge from.",
+   "pitch": "The weak point of the original idea was the payer and the scale model. Vendors will not pay for honest independent scores, and a 2,000-expert marketplace is a head-on fight with Mercor, which now sells enterprise evals from a 30,000-expert, roughly $2B-run-rate base. The sharpened version keeps the expert bench but changes who pays and what is sold.\n\nStep 1, days 0-90: build one 100-chart synthetic OASIS gold set with a hidden test split, graded by three credentialed coders with inter-annotator agreement and an error taxonomy. His pipelines pre-grade, cutting expert time by roughly 60-70%. Sell a $5,000 blind diagnostic to vendors. The first two go for $2,500 as design partners, with testimonial and anonymized-publication rights, since a defensible set costs about $5-6k to build.\n\nStep 2: sell a buyer-side bake-off to agencies choosing among AI vendors, at $3-10k. Only 1.3% of 160 surveyed agencies were very confident in their OASIS accuracy, CMS leaves coding liability with the agency, and no independent benchmark exists. This is the payer with the mandate and the pain.\n\nStep 3, months 6-24: publish an anonymized industry accuracy index. Vendors that score well license a verified badge, and gold sets and rubrics are sold as subscriptions. KLAS, at roughly $40M of revenue, shows that vendor-funded independent ratings can last, so the moat is a data asset and a standard, not a take-rate on hours.\n\nStep 4: advisor-AI marketing-rule and client-communication review only after a signed design partner from his father's network.\n\nGate zero, before spending a dollar: confirm what MHC Healthcare actually is. Its Florida entities appear to operate under Choice Health At Home, which is tied to Apricot, a vendor he would grade. An independence conflict, or a sold company with no bench, changes the plan. Keep the bench to 10-20 people on per-project contracts through a payroll partner."
+  }
+ },
+ "G:mhc_revenue:0": {
+  "verdict": "weak",
+  "competitors": [
+   {
+    "name": "HHAeXchange RCM Services",
+    "url": "https://www.hhaexchange.com/solutions/providers/rcm-services",
+    "what": "Launched April 2026. Outsourced full-cycle billing 'exclusively for homecare agencies'. Its Contract Management module lists underpayment recovery and back-billing of retroactive rate increases. Claims a 97% payment success rate. Pricing is not published. It does not mention Medicare Advantage by name, and its base is mostly Medicaid homecare. It could add PDGM contract audits as a feature."
+   },
+   {
+    "name": "Claim Health (YC, $4.4M seed Jan 2026, Maverick Ventures and Peak XV)",
+    "url": "https://www.businesswire.com/news/home/20260121240981/en/Claim-Health-Launches-AI-Powered-Revenue-Infrastructure-for-Post-Acute-Care-with-4.4M-Seed-Funding",
+    "what": "AI revenue operations for home health, hospice and home care: intake, eligibility, authorization and payment reconciliation. Customers named are Ascend Health, Interim HealthCare and Home Care RN. Underpayment detection against contracts is not mentioned in what I could read, but it sells to the same owners and is one product decision away."
+   },
+   {
+    "name": "Fuse (YC S24)",
+    "url": "https://www.ycombinator.com/companies/fuse-2",
+    "what": "Uses an LLM to extract payment terms from payer contracts, reconcile them against remittances and auto-generate appeals. It is exactly the engine the idea describes. It targets hospitals and medical groups, not post-acute. It is a 3-person team with no disclosed pricing or traction."
+   },
+   {
+    "name": "Trek Health ($11M Series A, Madrona, Apr 2025)",
+    "url": "https://www.axios.com/pro/health-tech-deals/2025/04/30/trek-health-11-million-healthcare-transparent",
+    "what": "Payer rate benchmarking and 'Contract Intelligence' for underpayments and compliance. More than 100 customers, mostly behavioral health groups, plus hospitals and networks. It owns the 'payer benchmark' idea in other segments and is not in home health."
+   },
+   {
+    "name": "R1 RCM underpayment recovery",
+    "url": "https://www.r1rcm.com/solutions/underpayment-recovery",
+    "what": "100% contingency safety net on closed accounts, built on contract analysis. It says hospitals and physician groups typically lose about 0.5-1% of net patient revenue to underpayments. That figure is the best public leakage anchor I found and is well below the idea's 2-4%. It targets health systems."
+   },
+   {
+    "name": "Aspirion and Ensemble Health Partners",
+    "url": "https://www.aspirion.com/underpayment-recovery/",
+    "what": "Contingency underpayment recovery for hospitals and health systems. An Aspirion/HFMA deck cites losses of up to 11% of net patient revenue, which is a vendor claim. Ensemble markets AI that removes false variances. Neither shows a home-health PDGM product, but both have the sales machine and could extend."
+   },
+   {
+    "name": "SimiTree",
+    "url": "https://simitreehc.com/?p=1612",
+    "what": "Home health and hospice consulting firm that sells Medicare Advantage contract review, renewal monitoring and rate negotiation to agencies. It is the incumbent for the budget line and the trusted voice with owners. It could be a channel or a competitor. It sells rate improvement, not claim-level contract-compliance recovery."
+   },
+   {
+    "name": "Home health EHR suites (HCHB/WellSky, Axxess, PointClickCare)",
+    "url": "https://www.axxess.com/blog/home-health/axxess-agencycore-spotlight-system-enhancements-pdgm-success/",
+    "what": "PDGM modeling and case-mix analytics are built into the EHRs. I found no documented feature that recomputes expected pay against each MA contract and flags remit variance. That absence is unverified, because vendor release notes were not searchable."
+   }
+  ],
+  "teen_blockers": "Age: not a blocker. He is 18 and can form an LLC, sign BAAs and fee agreements, and take payments. License: I found no license required to audit remits or file payer disputes on an agency's behalf, but a healthcare attorney must confirm. That is a roughly $2-3k check; the estimate is mine. Credibility: real for non-family owners and not real for the family pilot. Strangers will want a result from the family agency, so the first 3 peers must come through the grandfather's calls. A cold 18-year-old pitching contract audits to owners will not close. Legal wall 1, Medicare billing-agent rule: 42 CFR 424.73(b)(3) bars an agent's pay from being tied to dollars billed or collected, but only for agents who receive Medicare payments. It is not triggered if all cash goes to the agency's own accounts and he never touches funds. Real but avoidable. Legal wall 2, Florida Medicaid: Fla. Stat. 409.913 (subsection number unconfirmed) reportedly bars percentage pay to billing agents on Medicaid claims. Medicaid managed-care work must be flat-fee. Real but avoidable. Legal wall 3, anti-kickback: OIG treats percentage billing pay as a risk because it can encourage upcoding. A pure contract-rate audit has less of that risk, and a lawyer must sign off before any fee agreement. Real but clearable. HIPAA: a BAA with every customer and a sub-BAA with the model vendor. Anthropic offers an API BAA and zero retention, but one June 2026 secondary source says its newest 'Covered' models require 30-day retention and cannot run under zero-retention. Verify directly before touching PHI. Real but manageable. Scaling blocker: beyond the family and 3-5 friendly owners, chains will demand SOC 2, cyber and E&O insurance. That is real and costs money and months, but it does not block the first 60-90 days. Biggest unverified premise: MHC Healthcare as an owner-operated home-health company. Directory listings show 'MHC Area 6/9/10 LLC' as Medicare-certified Florida agencies (Riverview, Boca Raton dba Choice Health At Home, Fort Lauderdale) with no owner named. Nothing I found ties Peremel to MHC. If the family firm is not a home-health operator with Medicare Advantage revenue, the pilot and the trust advantage vanish.",
+  "first_customers_channel": "Channel: the grandfather's owner-to-owner calls, backed by a pre-registered 30-day free scan. The January 2027 rate-change window is a talking point only, because I found no source that plans load rates late. Associations are too slow for the 6-month goal. HomeCareCon (Home Care Association of Florida) was July 21-24, 2026 and the next is July 2027. The Alliance for Care at Home webinar series is policy-focused with no revenue-cycle session found. First 10: (1) the family group (the MHC Area N agencies, if verified). (2-4) Three Florida owner-peers the grandfather calls personally, preferably multi-location groups. (5-6) Two Home Care Association of Florida member groups reached through a grandfather or mentor introduction, using a short written scan offer. (7-8) Two healthcare CPA or attorney firms serving agencies, as referral channels only, with no referral fees until counsel reviews. (9) One PE-backed regional operator via the mentor's network. (10) One billing company or EHR reseller that wants a premium add-on. Target groups with $10M+ of non-FFS revenue, not $3M single agencies.",
+  "cost_to_first_revenue_usd": 4000,
+  "weeks_to_first_revenue": 14,
+  "median_case_revenue_usd_m": 0.4,
+  "upside_case_revenue_usd_m": 6,
+  "deciding_reason": "The idea reaches a first paying customer and clears the legal walls, but the home-health-only fee pool is too small for $10M a year and the leakage rate is unproven. Size: MedPAC reports $16.0B of fee-for-service home health spend in 2024 across 12,234 agencies. Using SimiTree's 26% MA revenue share (2022) and a growing MA share since, MA home-health revenue is about $8-10B. That is well below the idea's $12-16B. Public leakage anchors are 0.5-1% of net patient revenue (R1, hospitals) and 1-3% (a vendor webinar, commercial payers). Applying 1% leakage and 60% recoverable, with a 25% fee, gives a national fee pool of about $12-15M. Even the idea's own 3% leakage gives only about $40-50M. $10M a year therefore needs 70-80% of the base pool, or 20-25% of the optimistic pool. An agency with $3M of MA revenue yields only about $4-9k a year in fees. A realistic median is about $0.4M a year by year 3. Only a pooled payer benchmark, or expansion into hospice, SNF and outpatient lines, gets near $6M. Those lines are crowded with funded rivals (Fuse, Trek, R1, Aspirion, Ensemble). The January rate-reset premise is also thin. No source supports plans loading rates late. The CY2027 proposed update is +2.4%, so a 60-90 day lag would be worth only about 0.4-0.6% of percent-of-Medicare revenue. CY2026 was a -1.3% cut, which makes late loading overpay the agency. Incumbent check: no one is doing home-health-specific MA contract-compliance recovery, but HHAeXchange (April 2026) already lists underpayment recovery under contract management, and Claim Health, Fuse and Trek could add the feature. Cost, legal and reach are fine. Size and an unproven leakage rate are the problem. Run it as a 30-day, near-zero-cost test on the family's remits, not as the company.",
+  "sharpened": {
+   "title": "Payer Truth for Multi-Site Post-Acute Operators: contract-compliance recovery plus a payer scorecard",
+   "one_liner": "Free 30-day scan of a multi-site home-health group's remittances against its signed payer contracts, 20-25% contingency on recovered Medicare Advantage and commercial dollars, and a pooled payer-performance index that becomes the real asset.",
+   "pitch": "Payer Truth is a contract-compliance audit and payer scorecard for multi-site home-health operators. Under a BAA, it ingests twelve months of remittances (835s) plus the signed Medicare Advantage, commercial and VA contracts. It recomputes what each claim should have paid (percent-of-Medicare PDGM, per-visit or per-episode) and files dispute packets citing contract sections inside each plan's window. The agency's own bank account receives all money, so the Medicare billing-agent rule is never triggered. MA and commercial recoveries carry a 20-25% fee, subject to attorney review. Medicaid managed-care work is flat-priced because Florida reportedly bars percentage billing-agent pay on Medicaid claims. The wedge is a free scan of the family group's remits with a pre-registered rule: at least 1.0% of MA revenue recoverable means build; 0.5-1.0% means turn it into a benchmark product; under 0.5% means stop. Customers are groups with $10M+ of non-FFS revenue (an unverified guess of 150-300 operators nationally), not $3M single agencies, which yield only $4-9k a year in fees. Each audit adds to a pooled payer-performance index: share of contract rate actually paid, days to pay and appeal overturn rates by plan and county. That index is the only asset that can reach $10M, sold to PE-backed operators, lenders and buyers as payer-mix diligence during home-health deals. Home-health audits alone cap at roughly $5-15M of fees nationwide."
+  }
+ },
+ "G:mfa_growth:0": {
+  "verdict": "weak",
+  "competitors": [
+   {
+    "name": "Goalsetter (Moneylingo / Firm Family Plan)",
+    "url": "https://goalsetter.co/financial-advisors/",
+    "what": "Funded B2B2C platform ($15M Series A 2021, $9.6M extension 2024 led by an Edward Jones affiliate; now in Edward Jones Ventures). Sells co-branded family financial education to advisors to reach clients' kids and beneficiaries, with an Envestnet partnership. Pricing is unpublished. It skews to kids K-college, not 18-30 heirs."
+   },
+   {
+    "name": "Everplans Network Amplifier",
+    "url": "https://everplans.com/blog/new-everplans-professional-feature-network-amplifier",
+    "what": "Advisor-branded invites to a client's named deputies and heirs, bundled into the paid Pro tier. Older advisor pricing was about $196 a month. This is the price anchor for the category."
+   },
+   {
+    "name": "EverFi NEXT (Blackbaud)",
+    "url": "https://everfi.com/wp-content/uploads/2015/07/EverFi-NEXT.pdf",
+    "what": "Private-wealth next-gen education and engagement platform with advisor-customized education and engagement tracking. The PDF is from 2015 and current status is unconfirmed."
+   },
+   {
+    "name": "Select Advisors Institute",
+    "url": "https://www.selectadvisorsinstitute.com/our-perspective/heir-readiness-programs-bootcamps-wealth-management",
+    "what": "Heir-readiness programs and bootcamps sold to RIAs, private banks and family offices. A managed-service substitute."
+   },
+   {
+    "name": "Zogo",
+    "url": "https://zogo.com/press/gen-z-targeted-zogo-app-reaches-milestone-signing-200-financial-institution-partners",
+    "what": "Analog: a licensed, co-branded Gen Z money-education app sold to 200+ banks and credit unions, with gift-card rewards to drive engagement. Proves institutions pay for Gen Z education. No wealth-advisor product found."
+   },
+   {
+    "name": "Greenlight for Banks (Northern Trust, Morgan Stanley)",
+    "url": "https://www.northerntrust.com/united-states/pr/2024/northern-trust-partners-with-greenlight-to-help-families-achieve",
+    "what": "Family finance app given free to private-bank clients. Shows that large wealth platforms bundle next-gen education as a free perk."
+   },
+   {
+    "name": "Luminary",
+    "url": "https://www.crowdfundinsider.com/2026/09/309965-luminary-raises-22-million-to-expand-ai-platform-for-wealth-transfer/",
+    "what": "$22M Series A (10 Sep 2026) AI wealth-transfer platform with firm-branded estate overviews, backed by BNY. Adjacent, and a funded threat if it adds heir-facing features."
+   },
+   {
+    "name": "Free and in-house substitutes (Fidelity young-investor eBook, Cetera Gen Z playbook, Hearsay and Snappy Kraken content libraries, Prepared Heirs, Performance Wealth Next Gen Education)",
+    "url": "https://clearingcustody.fidelity.com/app/item/RD_9890070.html",
+    "what": "Custodian and broker-dealer free content, vendor content libraries, and firm-built programs. They cap willingness to pay for generic education."
+   }
+  ],
+  "teen_blockers": "Age: not a legal blocker. At 18 he can form an LLC and sign contracts. Credibility is mixed. RIA owners in their 50s-60s may discount an 18-year-old vendor, which is partly real. But he is the heir persona, which turns the age into an asset for content, though not for vendor trust. License: no license is needed to publish generic education with no personalized advice. The SEC Marketing Rule still binds each RIA, and a \"15 minutes with [Advisor]\" button makes the content advertising to prospects. Each firm's CCO must approve it, so budget a lawyer review of about $2-3k for disclaimers, the heir-consent flow and TCPA/CAN-SPAM. Real but clearable. Vendor diligence: amended Reg S-P has applied to smaller RIAs since 3 Jun 2026 and requires service-provider oversight and a 72-hour breach notice. SOC 2 is not mandated, since the SEC withdrew its broader vendor due-diligence proposal in June 2025, but expect questionnaires. Keep the data footprint to heir email and consent. Real but manageable. Capital: the idea's $2.5k is optimistic. Realistic is about $5k with legal, E&O/cyber insurance, tools and the LLC. It stays under $10k, so this is not a blocker. Network, the real blocker: Ron's rolodex is flat-fee, hourly and subscription planners (MFA's model), while the target is AUM-model RIAs with 55+ clients. That segment mismatch is real. A directory lists MyFinancialAdvice, Inc. in Boulder as an SEC-registered adviser with about 2 employees, and myfinancialadvice.com did not load from here (connection failed, Wayback 410), so the compliance-workflow edge is unverified. XYPN (about 2,400 members) is mostly younger planners with Gen X and millennial clients, the wrong segment. Heir engagement is the largest risk and is not age-related.",
+  "first_customers_channel": "Pilot #1 is the advisor who serves Asher's own family (he is literally the persona; ask Ron and his grandfather who they use), free for case-study rights. Pilots #2-4 at $1,200 for 90 days come from Ron's hand-picked, warm AUM-model RIA owners. Verify first that they are AUM-model with 55+ clients and not flat-fee planners. Then the FPA Colorado chapter and its annual forum (Denver, August), other FPA chapters (about 19-24k members nationally), and NAPFA (about 4,600). Use XYPN (about 2,400, younger-client planners) only for a few conversations. First 10 customer types: (1) the family's own advisor; (2-4) three of Ron's AUM-model RIA friends; (5-6) two FPA Colorado chapter-board RIA owners; (7-8) two NAPFA fee-only firms with $200M-$1B; (9) a small multi-office RIA or aggregator practice lead via a peer referral; (10) a regional trust company or bank wealth arm via Marty Schaffel's network. The real channel to scale is a platform or aggregator deal by month 6, not firm-by-firm.",
+  "cost_to_first_revenue_usd": 5000,
+  "weeks_to_first_revenue": 8,
+  "median_case_revenue_usd_m": 0.5,
+  "upside_case_revenue_usd_m": 8,
+  "deciding_reason": "Funded incumbents already sell advisor-branded next-gen and heir education: Goalsetter via Envestnet and Edward Jones Ventures, plus Everplans, EverFi NEXT and Select Advisors Institute. The priced analogs sit at $100-200 a month, not $500, so a realistic bottom-up is 4-5k relevant SEC RIAs x 5-10% adoption x about $3k = $0.6-1.5M a year. The $19M path needs 40% adoption at $6k a year, which is not credible. Advisors say they already engage heirs (Natixis 81%), and only 14% rank next-gen a top priority (Schwab, older figure), so the budget line is thin and ROI is unproven. Ron's network (flat-fee planners) is probably the wrong segment, and MFA's website would not load. It survives as weak, not kill, because the pain is real (Cerulli 2025: only 27% of heirs plan to keep the advisor), a family-advisor pilot at $1,200 is reachable in about 8 weeks, and there is no legal wall. It is not strong because the median is under $1M and the $10M+ upside needs an enterprise or channel deal that Goalsetter already holds the doors to.",
+  "sharpened": {
+   "title": "Heir Bridge: the next-gen relationship engine for advisory firms and their platforms",
+   "one_liner": "A Gen Z-hosted, advisor-branded path for 18-30 heirs, plus the parent-side invite flow and a heir-to-meeting dashboard, sold flat-fee to RIAs and then through aggregators and platforms, with a published benchmark of heir engagement as the proof asset.",
+   "pitch": "Advisors lose roughly three out of four heirs: Cerulli's 2025 survey found only 27% of future beneficiaries plan to keep the benefactor's advisor, and 20% of those who have already inherited do. Yet most advisors say they already engage heirs, so a generic education path is a nice-to-have, and a funded incumbent (Goalsetter, via Envestnet and Edward Jones Ventures) already sells co-branded family education. Heir Bridge changes what is sold. It is not a video library. It is a next-gen relationship engine that solves the advisor's real bottleneck, getting a client to bring an adult child in. The advisor sends the parent an invite flow. The heir, with consent, gets a short Gen Z-hosted path from a pre-approved library on a first W-2 and 401(k), 'what your parents' plan means for you', scams, and sanity-checking AI money answers. A quarterly live cohort hosted by the Gen Z team supplies the human trust that surveys say Gen Z wants. The advisor sees heir-consented engagement and booked first meetings. Pricing is flat by tier ($199, $399 or $799 a month), never per converted heir, which keeps it clear of Marketing Rule promoter-compensation issues. Pilot 1 is the advisor who serves Asher's own family, free for case-study rights. Pilots 2-4 are $1,200 for 90 days from Ron's AUM-model contacts, after confirming they are not flat-fee planners. The pilots produce the first benchmark of 18-30 heir activation and meeting-booked rates, which is the proof the category lacks and the credential for selling to RIA aggregators, TAMPs and trust companies, where one signer covers hundreds of advisors. Honest ceiling: $0.6-1.5M a year from firm-by-firm sales, and $5-10M only with a channel deal. Kill test: if fewer than 3 of 5 pilots reach 30% heir activation and about 1 booked meeting per 10 heirs, or none renews at $300 a month or more without Ron on the call, stop."
+  }
+ },
+ "G:healthcare_ops:0": {
+  "verdict": "weak",
+  "competitors": [
+   {
+    "name": "Tenix Health",
+    "url": "https://www.trysignalbase.com/news/funding/tenix-health-raises-4m-seed-round",
+    "what": "$4M seed announced Oct 20, 2026. Contingency-only underpayment recovery: upload contracts plus billing data, no EMR integration. Same model and pricing as this idea. Health-system focus, but it can add home health in a sprint."
+   },
+   {
+    "name": "Anomaly",
+    "url": "https://healthcare.levinassociates.com/2026/05/15/anomaly-17m-funding-ai-payer-intelligence-health-systems/",
+    "what": "$17M raised May 2026 ($34M total), 20+ health systems. Payer intelligence: underpayments, denials, downgrades, now expanding into managed-care contract strategy, which is the benchmark layer."
+   },
+   {
+    "name": "Fuse (YC)",
+    "url": "https://ycombinator.com/launches/LeT-fuse-underpayment-detection-for-healthcare-providers",
+    "what": "LLM extraction of payment terms from insurer contracts, reconciled to remittances, with auto-generated appeals. Founders' prior company reportedly reached $6M ARR in 12 months."
+   },
+   {
+    "name": "Lido underpayment detection",
+    "url": "https://www.lido.app/fb-landing/underpayment-detection",
+    "what": "Ingests 835s, EOBs and billing exports; matches payments to contract rates and adjustment rules (sequestration, MPPR, bundling); demo-led sales, no post-acute focus stated."
+   },
+   {
+    "name": "Rivet Health (acquired by Zelis, Jan 2026)",
+    "url": "https://www.rivethealth.com/faq",
+    "what": "Payer-performance and contract-variance platform for physician groups and hospitals; now inside Zelis distribution."
+   },
+   {
+    "name": "Revecore, R1 RCM, BESLER and other recovery vendors",
+    "url": "https://www.mdclarity.com/comparison/best-healthcare-underpayment-recovery-services",
+    "what": "Hospital-focused contingency underpayment recovery, typically 20-35% of recovered dollars. BESLER and Revecore specialize in Medicare and MA claims."
+   },
+   {
+    "name": "Contract Logix",
+    "url": "https://www.contractlogix.com/?p=36367",
+    "what": "Contract management marketed to home health and hospice (PDGM/LUPA obligation tracking). Does not reprice remits. A possible channel or an adjacent competitor."
+   },
+   {
+    "name": "SimiTree",
+    "url": "https://simitreehc.com/?p=1612",
+    "what": "Incumbent home health and hospice billing and RCM consultancy that sells MA payer contracting and negotiation. The agency's default outsourced alternative."
+   },
+   {
+    "name": "Trella Health",
+    "url": "https://www.trellahealth.com/resource-center/press-release/trella-health-launches-its-latest-medicare-advantage-data-to-help-post-acute-providers-thrive-in-expanding-ma-market/",
+    "what": "Post-acute analytics vendor with MA volume and referral data for home health and SNF. It has no rate data today but owns the buyer relationships a benchmark would sell into."
+   },
+   {
+    "name": "Turquoise Health / Serif Health",
+    "url": "https://academyhealth.org/sites/default/files/serif_health_data_description.pdf",
+    "what": "Negotiated-rate transparency data for hospitals and commercial plans. MA and post-acute are not covered by Transparency in Coverage, which is why the gap exists, but they show the data-standard model works."
+   }
+  ],
+  "teen_blockers": "Age is not a legal blocker. At 18 he can form an LLC, sign a BAA and take payments, but HIPAA business-associate duties apply in full (security risk analysis, breach duties, cyber insurance; about $2-4k to do properly). Credibility is the real blocker. An agency CFO handing 835s to an 18-year-old will not do it cold, so it works only with family sponsorship plus agency-run de-identification. No license is needed for contract-variance analysis, but he must not code or submit claims. Percentage contingency is a real but clearable legal issue: OIG has long flagged percentage billing-company pay, and commentary says Florida bars it for Medicaid. A health lawyer should review the fee (about $1.5-3k), with a flat or hybrid fee as fallback. The benchmark leg adds two legal costs: antitrust (DOJ and FTC withdrew the information-exchange safety zones in 2023) and MA contract confidentiality clauses. Counsel for that is likely $10-25k or more, my estimate, and it is Phase 2, not a day-one wall. Capital under $10k to first revenue is realistic. The biggest unverified blocker is the insider premise. No Peremel link to MHC was found. NPPES lists seven Florida home-health entities called MHC Area 3, 5, 6, 7, 8, 9 and 10, LLC, six with Katrina Lanier as authorized official. Care Compare shows them as Haven Home Health Care, and one aggregator says MHC Area 9 does business as Choice Health At Home (Tyler TX). Ownership is unconfirmed, so Mom must confirm the legal name and NPIs.",
+  "first_customers_channel": "Channel: family first, then warm introductions from the grandfather's peer owners, then Florida home-health billers and CPAs. Targets are the roughly 110-260 Florida agencies with 1,000+ episodes. Per the CMS pull, the 257 agencies with 1,000+ episodes hold 79% of Florida volume. Smaller agencies yield fees too small to matter. The first 10 customer types are: (1) MHC and its sibling LLCs, if the family link verifies. This is the pilot and proof artifact; hospice is out because MA carves it out. (2-4) Three to five other multi-site Florida home health owners the grandfather knows, offered a free one-plan MA X-ray in exchange for remit-derived yield data. (5-6) Two Florida home-care association member chains reached through the grandfather. (7-8) Two healthcare CPA or billing firms serving Florida agencies, on a white-label rev-share. (9) A SimiTree-type consultancy as a data or referral partner. (10) One SNF operator through the mentor or family network, since SNF per-diem MA contracts are the natural second vertical. Contingency or free-first removes buyer risk.",
+  "cost_to_first_revenue_usd": 6000,
+  "weeks_to_first_revenue": 11,
+  "median_case_revenue_usd_m": 1.5,
+  "upside_case_revenue_usd_m": 15,
+  "deciding_reason": "A real vertical gap exists (no post-acute-first MA remit-versus-contract tool found, and no public MA home-health rate data), but the audit leg alone is a boutique. In Florida only about 110-260 agencies are big enough for fees above roughly $10k a year, and I found no evidence that MA plans systematically underpay home health against contract. The model is also being funded right now: Tenix raised $4M for the same contingency model on Oct 20, 2026, and Anomaly is moving into contract strategy. The benchmark that could make it big carries antitrust and MA-confidentiality exposure, and plans' bargaining power makes owners' willingness to pay uncertain. The family-customer premise (MHC) is unverified. Strong would require MHC remits showing variance of at least 1.5% of MA paid and at least 3 non-family owners agreeing to contribute data.",
+  "sharpened": {
+   "title": "MA Yield: realized Medicare Advantage payment audit and peer yield benchmark for home health and SNF operators",
+   "one_liner": "Reprice every MA remit against the contract and against the same claim at Medicare rates to show owners their realized yield by plan, free for the first plan. Recover true contract variances on contingency, and turn audited-remit yield into the post-acute MA rate benchmark.",
+   "pitch": "Florida is the most disrupted Medicare Advantage market for 2027, and home health and SNF owners must re-contract with no idea what peers actually get paid. No public dataset exists, and MA is outside price-transparency rules. Existing underpayment tools are built for hospitals and answer only 'did the plan follow the contract'. Owners care about a bigger question: of every Medicare dollar I earn on a claim, how many cents does each plan actually pay after denials, auth haircuts, short-pays and delays?\n\nMA Yield reads the 835 remits an agency already owns (de-identified by the agency's biller, minimum necessary under a BAA) and reprices each line at Medicare PDGM rates. This produces realized yield by plan, plus a contract-variance list with citations and dispute letters. The first plan is free. True contract errors are recovered on contingency, after counsel clears the fee structure. Members opt in to contribute remit-derived yield, never contract documents, which avoids confidentiality clauses and gives the benchmark verified numbers instead of survey guesses. The same yield data later supports PE diligence, lender underwriting and SNF, therapy and DME expansion. Hospice is excluded because it is carved out of MA.\n\nPilot at MHC if the family link checks out. Pre-registered tests: kill the contingency leg if variance is under 1% of MA paid, and kill the benchmark leg if fewer than three non-family owners contribute data."
+  }
+ },
+ "G:insider_big:0": {
+  "verdict": "weak",
+  "competitors": [
+   {
+    "name": "Rivet Health",
+    "url": "https://www.rivethealth.com",
+    "what": "Payer contract management, peer payer-rate benchmark ('Rivet Benchmark') and underpayment detection; $8.25M Series A. Physician/hospital specialties only, no home health listed. Same stack, funded, could extend."
+   },
+   {
+    "name": "MD Clarity RevFind / Experian Health Contract Manager / TriZetto Provider / Elevate PFS / Lido",
+    "url": "https://www.mdclarity.com/comparison/best-healthcare-underpayment-detection-software",
+    "what": "Contract-vs-remittance variance detection for hospitals and practices; not tuned to home-health MA logic (PDGM percent-of-Medicare, LUPA, delegated networks)."
+   },
+   {
+    "name": "Aspirion",
+    "url": "https://aspirion.com/underpayment-recovery",
+    "what": "Contingency-only underpayment recovery (paid only when the client collects); proves the contingency model sells, hospital-focused."
+   },
+   {
+    "name": "SimiTree",
+    "url": "https://simitreehc.com",
+    "what": "Medicare Advantage managed-care contracting consulting for home health and hospice agencies; a services competitor in the same budget line, no pricing shown."
+   },
+   {
+    "name": "Enzo Health",
+    "url": "https://www.enzo.health",
+    "what": "AI home-health platform (intake, QA, reimbursement), $26M raised, expanding to SNF/hospice; natural extender into contract audit."
+   },
+   {
+    "name": "Axxess / HCHB / WellSky",
+    "url": "https://www.axxess.com",
+    "what": "Dominant home-health EHRs; Axxess has PDGM modeling and a Texas Capital remittance-matching tie-up; best-placed incumbents to ship contract-vs-remit as a feature."
+   },
+   {
+    "name": "Trella Health / Strategic Healthcare Programs",
+    "url": "https://www.trellahealth.com",
+    "what": "MA referral and volume analytics (Trella) and quality benchmarks (SHP); neither benchmarks payer rates."
+   },
+   {
+    "name": "CareCentrix / tango / myNEXUS (delegated MA home-health networks)",
+    "url": "https://providerinfo.bcbsm.com/documents/alerts/2026/202602/alert-20260209-home-health-agencies-contract-w-tango.pdf",
+    "what": "Payers delegate whole home-health networks to these managers (BCBS Michigan requires a direct tango contract from 2026-03-02); they are the real rate-setting counterparty, so a messenger network's leverage is unproven."
+   },
+   {
+    "name": "Amperos Health / Claim Health (YC)",
+    "url": "https://www.bvp.com/news/amperos-tackling-healthcares-260b-denial-management-problem",
+    "what": "AI denial and appeal recovery ($16M Series A); outpatient/physician focus, adjacent."
+   }
+  ],
+  "teen_blockers": "Age is not a legal blocker: he is an adult and can form an LLC, sign a BAA and take payments. No license is needed for audit software; HIPAA (BAA, minimum necessary) is manageable. The real blockers are: (1) Trust is real: owners must hand PHI-bearing 835 remits to a high-school senior, so credibility is borrowed entirely from his grandfather, and the number of owner friends is unknown (pitch says five). (2) Legal walls are real for Stages 1-3: payer agreements treat fee schedules as confidential (Anthem notices extend the duty to third parties; Humana calls rates commercially sensitive), DOJ/FTC withdrew the health-care information-exchange safety zone in 2023 and DOJ is hostile to intermediaries pooling competitors' price data (MultiPlan statement of interest), and OIG Advisory Opinion 98-4 flagged percentage-of-revenue pay to managed-care contract arrangers as a potential technical kickback violation (MA is a federal program, so the 2-4% network fee and possibly the 20-25% contingency need healthcare counsel). Contracted providers also have no Medicare payment-dispute rights against MA plans, so recovery is contract-only. (3) Capital is a real blocker for Stages 1-2: roughly $25-75k of antitrust and regulatory counsel (my estimate) before any pooled benchmark or network. (4) The insider premise is unverified: no Florida home-health MHC Healthcare found; weak directory hits for 'MHC Area 6/9/10 LLC' (one shows MHC Area 9 doing business as Choice Health at Home, a PE-owned company founded by someone else). (5) Time: 10-15 hours a week against payer dispute follow-up and multi-month sales cycles.",
+  "first_customers_channel": "Channel is warm introductions through his grandfather and mother, then intermediaries, not cold outreach. First 10 (names must come from the family, none verified): (1) MHC, only if it is a Medicare-certified home-health agency with a real MA book, as a BAA-covered pilot; (2-6) five owner-operators of independent Florida home-health agencies in grandfather's circle (Tampa Bay, Boca/Palm Beach, Broward clusters), offered a free diagnostic for a contingency or capped fixed fee on recoveries; (7-8) two Florida outsourced home-health billing firms or consultants that each serve dozens of small agencies (highest-leverage channel); (9) one combined home-health/hospice owner met via the Home Care Association of Florida (HomeCareCon 2026 was July 21-24, so the next is summer 2027); (10) one home-health M&A broker's sell-side client needing payer-contract diligence, a single-party product with no antitrust issue. His mentor is not in healthcare, so low relevance. Non-family customers within 6 months are plausible only via grandfather's introductions and billing firms.",
+  "cost_to_first_revenue_usd": 6000,
+  "weeks_to_first_revenue": 22,
+  "median_case_revenue_usd_m": 1.2,
+  "upside_case_revenue_usd_m": 25,
+  "deciding_reason": "The big path depends on pooling competitors' payer rates, which collides with payer rate-confidentiality clauses, antitrust (safety zone withdrawn in 2023) and kickback risk that the free-diagnostic pitch does not price in, while the part he can start now (the audit) yields only about $4-7k per agency per year (about $1.3M average FFS revenue per agency, 1-3% leakage, 20-25% fee) and the key insider fact (MHC is a Florida home-health company) is unverified.",
+  "sharpened": {
+   "title": "Contract Atlas: payment-accuracy and payer-performance system for independent post-acute agencies",
+   "one_liner": "Start with a contract-vs-remittance audit and per-agency payer-performance benchmarks for home health, distribute through billing firms and sell-side M&A diligence, and add counsel-cleared cross-agency rate indices and a contracting network only once the data layer exists.",
+   "pitch": "Gate first: this week, confirm what MHC actually is (entity name, CCN, MA payer mix, annual MA revenue) through Sunbiz, AHCA Health Finder and a direct question to grandfather and mom. If it is not a Medicare-certified home-health agency with at least about $500k of MA revenue, kill the idea. If it is, port the freight-audit engine into a contract-versus-835 auditor and run it on MHC under a BAA. Structure the fee as a flat diagnostic plus a capped or fixed-fee-per-recovered-claim tier, reviewed by a healthcare lawyer for anti-kickback risk before the first engagement letter, because MA is a federal program and OIG has questioned percentage pay for managed-care arrangers. Stage 1 starts with operational benchmarks computed from each agency's own remits (days to pay, short-pay rate, denials, percent of Medicare realized by payer), which avoids both rate-confidentiality clauses and competitor price exchange. Cross-agency rate indices come later, only through a counsel-designed third-party structure (data at least three months old, five or more contributors, no contributor over 25%). Distribute through Florida outsourced home-health billing firms, consultants and M&A brokers, who each reach dozens of small agencies, then the state association in summer 2027. Pursue the messenger network and MSO only after 150 or more agencies are on the platform, antitrust counsel is retained, and a delegated manager such as tango or CareCentrix has shown it will engage. Honest sizing: median about $1.2M a year by year 5; upside about $25M; the $70-140M network outcome is a low-probability tail that depends on legal clearance and capital. First paid recovery realistically arrives in 4-6 months, not 60-90 days."
+  }
+ },
+ "G:insider_big:2": {
+  "verdict": "weak",
+  "competitors": [
+   {
+    "name": "KLAS Research",
+    "url": "https://klasresearch.com/best-in-klas",
+    "what": "Best in KLAS home-health EHR rankings built on customer-reported satisfaction. Research is shared free with verified provider organizations (vendors fund it), so the pitch's operator-subscription model is not how the main analog earns."
+   },
+   {
+    "name": "CHAP Verified (Community Health Accreditation Partner)",
+    "url": "https://chapinc.org",
+    "what": "CMS-approved accreditor that agencies already trust. Its 'CHAP Verified' seal is a product review, not measured accuracy. Olli, Brellium and Axxess hold it, and CHAP could extend it into measured testing."
+   },
+   {
+    "name": "Vals AI",
+    "url": "https://www.vals.ai/blogs/measuring-healthcare-ai-where-it-actually-works",
+    "what": "Independent AI evaluator (reported $40M Series A led by a16z). Its MedCode and MedScribe benchmarks use certified coders and hidden test sets, but they test foundation models, not home-health vendor products. It is the closest method and funding analog and could move into home health."
+   },
+   {
+    "name": "Olli Health self-published Accuracy Report",
+    "url": "https://www.ollihomehealth.ai/resources",
+    "what": "The vendor publishes its own quarterly accuracy numbers (98%+) from internal audits. Vendors already self-benchmark and nobody verifies them, which supports the gap but also means vendors control the narrative."
+   },
+   {
+    "name": "QAPIplus AI vendor evaluation checklist and webinar",
+    "url": "https://home.qapiplus.com/blog/webinar-recording-what-home-health-agencies-should-actually-be-asking-ai-vendors",
+    "what": "A home-health compliance software firm gives agencies a free 8-area framework for questioning AI vendors. It is a free substitute for the 'buying guide' value and says nothing about measured accuracy."
+   },
+   {
+    "name": "Health AI Partnership AI Vendor Disclosure Framework",
+    "url": "https://www.hcinnovationgroup.com/analytics-ai/artifical-intelligence-machine-learning/article/55373563/collaborative-develops-ai-vendor-disclosure-framework",
+    "what": "A free, public framework of what vendors should disclose (performance, data stewardship, integration). It is a free substitute for operator due diligence."
+   },
+   {
+    "name": "Clinical AI Report, With Andy and Lime Health comparison pages",
+    "url": "https://clinicalaireport.com/articles/best-ai-qa-home-health",
+    "what": "Affiliate-style 'best AI for home health' rankings that rank Enzo, Olli, SARA, Mosai, Lime and IO Health on features. They disclose no sample sizes or testing method, and some are written by listed vendors. They crowd search results and set a low trust baseline."
+   },
+   {
+    "name": "Peterson Health Technology Institute (AI scribes assessment)",
+    "url": "https://www.phti.org/?p=2509",
+    "what": "Non-profit independent evaluation of AI scribes (2025), a model for independent assessment. It covers hospital and physician scribes and used a task force that included vendors, not home-health OASIS tools."
+   },
+   {
+    "name": "CHAI assurance labs (scrapped)",
+    "url": "https://fiercehealthcare.com/ai-and-machine-learning/inside-chais-failed-assurance-labs",
+    "what": "The Coalition for Health AI's plan for vendor-paid independent validation labs was scrapped. Participants agreed vendors would pay and did not settle who pays otherwise, which is evidence the payer problem is real."
+   },
+   {
+    "name": "Dandelion Health free AI validation",
+    "url": "https://www.clinicalresearchnewsonline.com/search-news/2024/03/06/five-health-systems-picking-dandelion-health-to-advance-clinical-ai",
+    "what": "Foundation-funded free validation service for clinical AI using real-world data from health systems (about $30M raised). It covers hospital imaging and ECG, not post-acute, but shows validation is being given away for free."
+   }
+  ],
+  "teen_blockers": "Age: not a legal blocker. At 18 he can form an LLC, sign vendor and coder contracts and take payments. The credibility gap is real, since a scorecard from an unknown teenager will be dismissed unless the method is published and coders are credentialed. Mitigation: hire contract HCS-O or COS-C coders, publish the full protocol, and add a named advisory panel. Licensing: none needed to grade or publish; this is not regulated advice. Legal: real. Many SaaS terms ban benchmarking or publishing results. SARA is not sold standalone, and Olli and SARA are human-in-the-loop services, so access to tools is a practical wall as well as a contract issue. Trade-libel or Lanham Act threats from a disparaged vendor are possible, and he has no E&O or media liability cover, so plan on $1.5-3k for counsel and insurance. HIPAA: avoided with synthetic charts, but any real MHC chart needs a BAA and de-identification. Conflicts: real. An MHC owner on an advisory panel is also a buyer of these tools, and vendor-paid reports create a pay-for-rank problem. Capital: small. The honest cost of the free teaser is $7-10k, not $2.5k, and family seed money could cover it. MHC itself is unverified. I found MHC Area N LLC home-health entities in Florida, but nothing tying them to the family, so the 'MHC forwards to five owners' channel depends on asking the grandfather what MHC actually is.",
+  "first_customers_channel": "Channel: a free public teaser (plain frontier LLMs on 100 synthetic OASIS charts, graded by credentialed coders), posted on LinkedIn and home-care coder and administrator groups, then forwarded by MHC's owner to 5 peer owners. Pre-sell $750 charter memberships and vendor participation agreements before building the full bench. First 10 named customer types or communities: (1) MHC itself as pilot and advisory-panel member; (2) 4-5 Florida agency owners who are the grandfather's peers; (3) Florida Home Care Association members; (4) Olli Health, the vendor that already publishes its own accuracy numbers and is the likeliest to want a third-party check; (5) Mosai; (6) Lime Health AI; (7) IO Health; (8) Enzo Health, once a public result exists; (9) home-health coding and OASIS consultancies and outsourcers (SimiTree is also a tested vendor, so treat it as a conflict); (10) regional PE-backed home-health platforms, the 6-month stretch goal. Other communities: HCS-O and COS-C coder groups, Home Health Care News readers, and the Alliance for Care at Home and state association events.",
+  "cost_to_first_revenue_usd": 7000,
+  "weeks_to_first_revenue": 14,
+  "median_case_revenue_usd_m": 0.8,
+  "upside_case_revenue_usd_m": 6,
+  "deciding_reason": "Nobody has published a measured, vendor-named home-health AI benchmark, and the pain is real. But the pitch's revenue model does not hold. Providers get KLAS free, so 3,000 operators at $2,000 (25% of about 12,000 Medicare-certified agencies) is not credible. The payer with budget is the vendor, who pays only if it wins, which is the pay-for-rank conflict the pitch forbids. Bottom-up, home health alone is about $0.8M in the median case and about $6M at best, below the $10M bar. The 'why now' is also overstated: the 45-day change is the HH QRP measure-data deadline, not the 30-day OASIS rule, and it is still only proposed. Add real tool-access and ToS walls (SARA is not standalone, Olli and SARA are human-in-the-loop) and an unverified MHC. It works as a trust and lead-gen engine for a bigger business, not as a standalone company.",
+  "sharpened": {
+   "title": "Post-Acute AI Proving Ground",
+   "one_liner": "A locked, versioned test of chart-coding AI (OASIS first, then SNF MDS and hospice) that starts with a public, vendor-free baseline of plain frontier LLMs, then lets vendors opt in to beat it, funded by vendor testing and PE and payer bake-offs, not operator subscriptions.",
+   "pitch": "The original idea fails on who pays: providers get KLAS free, so a 3,000-subscriber operator base is fantasy, and vendors who pay only when they win create a pay-for-rank problem. This version fixes both without shrinking. Phase 1 is a public leaderboard that needs nobody's permission: plain frontier LLMs (Claude, GPT, Gemini) graded on 100 to 300 synthetic OASIS charts, scored against double-coded gold labels from credentialed HCS-O and COS-C coders, with the full protocol published. It answers the question every operator can now ask a vendor: do you beat a plain LLM, and show me the per-error breakdown (missed PDGM driver, wrong functional score, hallucinated visit). Phase 2: vendors opt in under pre-agreed publication rules, with results published either way. Vendors pay for what only they need: a private regression harness, per-error diagnostics, and re-tests after each model update. A written firewall keeps payment from ever changing rank, the way Vals AI works with model labs. Operators get the scorecard free and contribute de-identified pilot results under BAAs, which grows the gold-label set. PE platforms, payers and consultancies pay for custom bake-offs on their own charts. The same bench extends to SNF MDS and hospice, which is where the $10M+ lives, with Vals AI, CHAP and KLAS as the real competitors. Gate before any build: Olli plus two more vendors sign participation terms, five operators pre-pay a $750 charter membership within 3 weeks, and MHC's type is confirmed. If not, kill it."
+  }
+ },
+ "G:insider_big:5": {
+  "verdict": "weak",
+  "competitors": [
+   {
+    "name": "Rowan",
+    "url": "https://digital-release.wowktv.com/business/press-releases/cision/20260331CG23376/rowan-raises-3-3m-in-seed-funding-to-modernize-small-business-succession-with-ai",
+    "what": "Funded ($3.3M seed, 31 Mar 2026, DRW-led) AI platform plus human Guides that reduce owner reliance, document operations and prepare owner-run businesses for sale. Direct competitor; price and customer count not published."
+   },
+   {
+    "name": "IQExit",
+    "url": "https://www.hypepotamus.com/iqexit-business-exit-readiness/",
+    "what": "Launched 6 Feb 2026. Distributed through bankers, wealth advisors, CPAs and attorneys (the same channel this idea plans to use), free to owners, monetized via advisors and institutions. Gives owners a deal range and advisors owner-dependency risk data. Channel competitor."
+   },
+   {
+    "name": "Sell Ready AI",
+    "url": "https://sellready.ai/pages/buyer-readiness",
+    "what": "Builds the buyer data room, operating SOPs, key-person dependencies and concentration analysis for owners selling in 12-36 months. Sells direct. Clutch lists 2-9 staff, founded 2025, $5,000+ minimum project. Closest product clone."
+   },
+   {
+    "name": "VDR.ai",
+    "url": "https://vdr.ai/use-cases/business-owners",
+    "what": "Owner-run sell-side data room with a pre-market red-flag check and staged buyer access; brokers, attorneys and accountants get role-based access."
+   },
+   {
+    "name": "Value Builder System",
+    "url": "https://www.valuebuildersystem.com",
+    "what": "CPA/accountant-channel exit readiness score; 46,000+ owners scored (secondary sources); Hub & Spoke owner-dependence driver already the industry reference (about 2.9x vs 3.9x earnings). Group program $1,495/yr, 1:1 $4,495/yr per a listing."
+   },
+   {
+    "name": "Maus ValueMax / Exitplanner (Caplight)",
+    "url": "https://maus.com/cepa",
+    "what": "Advisor-branded exit planning software, roughly $50-100/mo DIY to $399+/mo comprehensive (vendor estimate). Exitplanner's parent Caplight raised a $16M Series A."
+   },
+   {
+    "name": "Exit Planning Institute / CEPA exit planners",
+    "url": "https://exit-planning-institute.org",
+    "what": "Thousands of certified exit planning advisors and CPA exit practices already sell the human version; one firm publishes a 90-day assessment at $3,500-8,000 and a full plan at $10,000-30,000."
+   },
+   {
+    "name": "Screenpipe, Sugarwork/Rumi (Decidr), Sensay, Trainual",
+    "url": "https://screenpipe.com/compare/scribe",
+    "what": "AI voice-interviewer and SOP capture tools: Screenpipe $150/seat/mo; Sugarwork/Rumi enterprise tacit-knowledge capture; Sensay AI offboarding with a retiring-owner product reportedly planned Q4 2026; Trainual SMB SOP software about $249-399/mo (sources conflict). A Searchfunder 'Legacy AI' experiment targets aging owners by phone."
+   },
+   {
+    "name": "Home-health sell-side advisors and law firms (Braff Group, Mertz Taggart, Ad Astra Equity, CT Acquisitions, Arnall Golden Gregory)",
+    "url": "https://homehealthcarenews.com/2026/08/home-health-ma-activity-rises-as-proposed-rule-provider-moratorium-shape-market/",
+    "what": "No home-health-specific software found, but these M&A advisors, transaction lawyers and mock-survey consultants already do the seller diligence prep inside success-fee or hourly engagements. They are the incumbent service and the best channel."
+   }
+  ],
+  "teen_blockers": "Age and contracting: NOT real. At 18 he can form an LLC, sign contracts and take payment; selling software and fixed-fee documentation needs no license. Credibility with owners 55-75 and with CPAs: REAL but partly mitigated. CPAs and advisors put their own reputation and E&O exposure behind a white-labeled kit from a teen vendor, so expect 'come back with five case studies'; the grandson-interviews-the-founder story, the mentor and family introductions help. Licensing: REAL for the big path only. Florida treats selling a business for another as real estate and requires a real estate license (law-firm summary; statute number not confirmed), and the 2023 federal M&A broker exemption does not preempt state law, so the idea's 'buyer matching and financing referrals' step toward $50M is license-walled (also broker-dealer finder exposure). The kit itself (software plus fixed fees, no success fees, no referral splits) is clear. Valuation and legal-advice labels: moderate, avoid calling anything a valuation and have a healthcare attorney review the regulatory-calendar templates and disclaimers ($2-5k). HIPAA: manageable and avoidable, design the kit to hold zero PHI; if referral or billing data is touched, sign a BAA with the family company, use minimum-necessary data and an LLM vendor with a BAA or zero retention; Florida is an all-party recording-consent state so get written consent. Capital: NOT real, about $1,500 to first revenue. Unverified premise: REAL, I could not confirm what MHC Healthcare is or that the grandfather is actually planning a transition (directory listings show MHC Area 6/10 LLC as Medicare-certified home health, but name collisions exist); the 36-month rule plus the May 2026 enrollment moratorium may block a sale if the agencies are young. Family pilot is free and proves nothing about willingness to pay.",
+  "first_customers_channel": "Channel: warm introductions to sell-side people whose deals die in diligence, plus a paid family design partner. Named first 10: (1) MHC Healthcare as design partner, insist on a $1,500 paid token invoice; (2) the CPA who prepares MHC's taxes; (3) two more CPAs from the family's circle; (4) two home-health M&A advisors or healthcare transaction lawyers reached through his grandfather and mother (Braff Group, Mertz Taggart, Ad Astra Equity, CT Acquisitions and AGG are the active firms in this space); (5) two other Florida home-health or hospice owners from grandfather's and mother's peer circle (state home-care association and NAHC members, verify names); (6) two advisors from Ron's network who actually serve owner-clients 55+ (ask Ron for these by name; his flat-fee MyFinancialAdvice network is likely the wrong segment); (7) one founder-owned AV integrator via the mentor (AVI-SPL founder). Second payer to test: search-fund and roll-up buyers (about 850 search funds) buying a 90-day post-LOI knowledge handoff. Gen Z distribution is not an edge here.",
+  "cost_to_first_revenue_usd": 1500,
+  "weeks_to_first_revenue": 10,
+  "median_case_revenue_usd_m": 0.4,
+  "upside_case_revenue_usd_m": 10,
+  "deciding_reason": "The generic kit is already sold: Rowan ($3.3M seed), IQExit (same banker/CPA/advisor channel, free to owners), Sell Ready AI (data room plus SOPs), VDR.ai and Value Builder (CPA channel, 46,000 owners, owner-dependence score) all exist. The one open gap, certified home health, is only about 92 home health plus hospice deals a year (the '+41%' is an annualized half-year count off a four-year low, and a second tracker shows a flat count). Ron's flat-fee advisor network is probably the wrong segment, a kit is bought once per owner lifetime, and the $18M path uses the 6M 'transitions' figure rather than the roughly 110k annual sales (about $3.3M at 1% share). Reachable and legal for a first pilot, but crowded, small where unoccupied, and unproven on willingness to pay.",
+  "sharpened": {
+   "title": "Sale-Ready File: the regulator-aware diligence file for owner-run care businesses",
+   "one_liner": "An AI interviewer plus a regulator-aware calendar that builds the buyer-ready file for owner-run Medicare-certified home health and other regulated care businesses, sold through the sell-side advisors and lawyers whose deals die in diligence, and kept as an annual subscription.",
+   "pitch": "Generic exit-readiness is taken: Rowan ($3.3M seed, March 2026), IQExit (same banker, CPA and wealth-advisor channel, free to owners), Sell Ready AI (data room plus SOPs), VDR.ai, and Value Builder (CPA channel, 46,000 owners scored). So do not compete on the generic kit. Compete where diligence reads like a compliance audit: owner-run Medicare-certified home health and hospice first, then dental, vet, behavioral and therapy practices that roll-ups buy.\n\nWeekly 30-minute AI voice interviews, designed to hold no PHI, produce a sale-ready file: SOPs, a referral-source and payer-concentration map, key-person risks, an enrollment, license, accreditation and change-of-ownership calendar (including 36-month-rule status), and a staged data room. An annual refresh subscription makes revenue recur instead of one payment per owner lifetime.\n\nWho pays: the owner at $2,500-5,000 (up to $7,500-15,000 for agencies with $1M+ EBITDA, where one turn of multiple dwarfs the fee), or the sell-side advisor or healthcare transaction lawyer at $1,500-2,500 wholesale, because letters of intent now close only about half the time. Test a second payer: search-fund and roll-up buyers purchasing a standard 90-day post-LOI knowledge handoff.\n\nStart with MHC as a paid design partner, then home-health advisors and lawyers through his grandfather and mother, three CPAs, and the advisors in Ron's network who actually serve owners 55+. No brokering, valuation, buyer matching or financing referrals (Florida real estate license and broker-dealer exposure). Kill gate: no paid non-family pilot by week 10."
+  }
+ },
+ "G:mhc_revenue:4": {
+  "verdict": "weak",
+  "competitors": [
+   {
+    "name": "Claim Health (YC S25, $4.4M seed Jan 2026)",
+    "url": "https://www.businesswire.com/news/home/20260121240981/en/Claim-Health-Launches-AI-Powered-Revenue-Infrastructure-for-Post-Acute-Care-with-4.4M-Seed-Funding",
+    "what": "Home health and post-acute revenue platform: intake, eligibility, authorization management with payer follow-up, payment reconciliation. Named customers Ascend Health, Interim HealthCare, Home Care RN. Closest direct hit; same buyer and job."
+   },
+   {
+    "name": "Silna Health ($27M, Accel and Bain Capital Ventures)",
+    "url": "https://www.silnahealth.com/home-health/",
+    "what": "Runs the full home health authorization lifecycle (certification and recertification), monitors remaining visits across the census, and checks documentation against payer criteria before submission (Jan 2026 launch). Pricing unpublished."
+   },
+   {
+    "name": "Enzo Health ($26M total, $20M Series A May 2026)",
+    "url": "https://www.enzo.health",
+    "what": "AI-native home health EHR and intake that checks eligibility and MA authorization requirements; per-user pricing. Verified it is funded and selling to agencies, not that it tracks decision clocks."
+   },
+   {
+    "name": "Adaptive Innovations ($60M, Felicis, Bain Capital Ventures, Optum Ventures)",
+    "url": "https://pulse2.com/adaptive-innovations-raises-60-million-to-build-ai-native-home-health-provider/",
+    "what": "AI-native home health operator buying agency licenses and running intake, prior auth and billing itself. Not a vendor, but a funded player that internalizes this problem and competes for MA census."
+   },
+   {
+    "name": "HCHB (Homecare Homebase) Authorizations and Revenue Cycle Services",
+    "url": "https://hchb.com",
+    "what": "Incumbent EMR with an Authorizations service and an outsourced team that will run the whole authorization and reauthorization process. Its pages do not say whether the software tracks MA decision clocks or denials."
+   },
+   {
+    "name": "Outsourced authorization vendors (Outsource Strategies International, Helpware and similar)",
+    "url": "https://www.outsourcestrategies.com/insurance-authorizations",
+    "what": "Per-authorization or FTE-equivalent pricing; remote assistants from about $1,600 a month. Sets the price anchor against a $42-58K loaded in-house coordinator."
+   },
+   {
+    "name": "Trella Health (MA data for home health)",
+    "url": "https://www.trellahealth.com/resource-center/press-release/trella-health-launches-its-latest-medicare-advantage-data-to-help-post-acute-providers-thrive-in-expanding-ma-market/",
+    "what": "Sells MA volume, referral and payer-mix data to home health and SNF users. No denial or clock data found, so the home-health-level denial index is still unclaimed, but Trella owns the buyer relationship and data-product credibility."
+   },
+   {
+    "name": "Experian Health and Waystar payer-performance and denial analytics",
+    "url": "https://www.beckershospitalreview.com/finance/why-hospitals-are-doubling-down-on-payer-scorecards/",
+    "what": "Hospital-oriented denial and payer scorecard tools. No per-payer home health authorization turnaround product found, but the scorecard format is established and hospitals already build their own."
+   }
+  ],
+  "teen_blockers": "Age is not a blocker: he is 18 and can form an LLC, sign BAAs and take payment. Real but clearable: (1) HIPAA. Every agency needs a BAA and the LLM vendor needs a sub-BAA; dates of service are identifiers, so an index must compute durations locally and ship only non-identifying intervals. About $1.5-3K counsel plus $1-2K a year cyber and E&O. (2) Standing. Under 42 CFR 422.574 and 422.578 the treating physician, not the home health agency, has the right to request a pre-service reconsideration on the enrollee's behalf, and plans can dismiss non-party filings, so the auto-draft appeals promise needs a physician signature or the plan's peer-to-peer and provider-dispute routes. This is real and weakens the appeals feature. Contracted-provider payment disputes also run through the contract. (3) Contingency fee. I found no guidance either way on 20-25% of overturned dollars for MA appeals; general billing companies charge 4-10%, so it will draw pushback and needs counsel and a flat-fee fallback. (4) Credibility. Cold, an owner-operator will not buy from an 18-year-old; warm intros from the grandfather cover the first 5-10 customers, but the chain is thin after that and the mentor's AV network has no home health overlap. (5) MHC Healthcare is unverified: low-quality directory listings show MHC Area 6 and Area 10 as Medicare-certified home health agencies; if it is FFS-heavy or another type the pilot loses its data. (6) Publishing a plan scorecard carries defamation and payer-contract confidentiality risk; needs a lawyer's read of the first release.",
+  "first_customers_channel": "Channel: the family agency (MHC Area N LLCs, if confirmed Medicare-certified; a multi-site pilot) then grandfather-introduced peers, then the Home Care Association of Florida (HCAF) member base and its annual HomeCareCon (next likely mid-2027; the 2026 edition was 21-24 July). Opener: free 30-day clock audit of the last 90 days of authorizations. First 10 customer types: (1) the family agency, ideally all its MHC entities (Riverview, Boca Raton, Fort Lauderdale) as one pilot; (2-4) three owner-operator peers of the grandfather with MA-heavy Florida census; (5-8) four HCAF member agencies in Miami-Dade, Broward, Palm Beach and Hillsborough with high MA mix; (9-10) two non-agency data buyers reached through the mentor and family investors: a hospital system post-acute network team or ACO/MSO, and a home health investor or PE roll-up, who would pay for the index, not the tool. Avoid Interim HealthCare franchisees at first (Claim Health already lists Interim as a customer).",
+  "cost_to_first_revenue_usd": 4500,
+  "weeks_to_first_revenue": 10,
+  "median_case_revenue_usd_m": 0.4,
+  "upside_case_revenue_usd_m": 8,
+  "deciding_reason": "Four funded startups (Claim Health, Silna, Enzo, Adaptive; about $100M combined) plus HCHB and outsourcers already sell MA home-health authorization and denial work to the same buyer, and at realistic overturn rates (1-3% of about $14B MA home-health revenue, 25% fee) the national fee pool is only about $35-105M, with roughly $5-8K a year per average agency, so $10M needs 10-30% of the pool or 1,250-2,000 paying agencies. The founder can reach the first customers and no license or age wall exists, which is why this is weak rather than kill, but the only unclaimed piece (home-health-level plan and UM-contractor clock and denial measurement, which OIG says CMS lacks) is a feature a funded rival can ship in a sprint unless it becomes a data network.",
+  "sharpened": {
+   "title": "Clock Index: the first home-health Medicare Advantage authorization benchmark",
+   "one_liner": "Free clock audits that turn agencies' own authorization logs into the first public, pre-registered index of how fast and how often each Medicare Advantage plan and its UM contractor decides home health requests, sold as data to the hospitals, ACOs and investors who have the budget.",
+   "pitch": "Lead with measurement, not appeals. The funded rivals (Claim Health, Silna, Enzo, Adaptive) already sell authorization tracking and appeal drafting to agencies, and an agency is not even a party to a pre-service MA denial (the treating physician is, under 42 CFR 422.578). So appeals become a physician-signed, flat-fee upsell or a partner integration, not the core. The core is the gap nobody has filled: KFF's 12% denial and 67% overturn figures are aggregated across all services, and OIG's June 2026 reports found denial rates from 0.4% to 23% across plans and contractors but said CMS collects no request-level data by service or contractor, and none of it covers home health. Opener: a free 30-day clock audit of an agency's last 90 days of authorizations, computed locally into plan-by-UM-contractor decision times against the 72-hour and 7-day clocks, visits requested versus approved, and denial reasons. Only non-identifying intervals leave the agency, which keeps HIPAA exposure small. In return each agency gets its own benchmark against peers. The aggregate becomes a quarterly index with a pre-registered method (his strategy-lab discipline), published to the Home Care Association of Florida and sold to the buyers with real budgets: hospital post-acute network teams, ACOs and MSOs, home health investors, and associations, with the agency benchmark as a paid tier. Five-week gate: confirm what MHC actually is; audit the family agency plus four peers (kill if fewer than three can export submit and decision timestamps); kill if clock misses are too rare to tell a story; kill if none of ten data-buyer calls will name a price. Base case is about $0.4M a year; $10M needs the index to become the standard reference across roughly a thousand agencies."
+  }
+ },
+ "G:mhc_coo:7": {
+  "verdict": "weak",
+  "competitors": [
+   {
+    "name": "Home Care Association of Florida (HCAF)",
+    "url": "https://www.homecarefla.org",
+    "what": "State association with about $1.73M revenue (2025). Already runs a Member Discounts affinity program, reimbursement surveys and HomeCareCon (600+ attendees, 90+ vendors). Both the channel and a competitor."
+   },
+   {
+    "name": "Independent Home Care Alliance (IHCA)",
+    "url": "https://homehealthcarenews.com/2019/07/new-independent-home-care-alliance-to-work-on-industrys-dirty-little-secret/",
+    "what": "National alliance of independent agencies, launched 2019 with 200+ members at $200-300 dues. It offers group purchasing and contracting aims. Its founder put in $1.26M in 2021 to turn it into a back-office BPO, so the dues-and-purchasing model did not stand alone."
+   },
+   {
+    "name": "California Association for Health Services at Home (CAHSAH) group purchasing",
+    "url": "https://www.cahsah.org/group-purchasing",
+    "what": "State-association GPO with vendor royalties (Heffernan insurance, CHAP and ACHC accreditation discounts). The exact model proposed, already running in California, which has 2,702 agencies."
+   },
+   {
+    "name": "Home Care Pulse / Activated Insights benchmarking",
+    "url": "https://store.homecarepulse.com/product/2024-hcp-benchmarking-report-digital/",
+    "what": "Annual benchmarking report at $699-$999, free Florida state report and a free benchmarking tier. Covers KPIs, but not MA payer rates."
+   },
+   {
+    "name": "SHP (Strategic Healthcare Programs)",
+    "url": "https://shpdata.com/media/1310/shp-for-home-health-fact-sheet.pdf",
+    "what": "Home health OASIS scrubbing and benchmarking, from about $1,000, with 7,700+ providers."
+   },
+   {
+    "name": "BerryDunn free benchmarking portal",
+    "url": "https://blog.berrydunn.com/industries/healthcare-at-home",
+    "what": "Free home health and hospice benchmark reports and a Medicare rate calculator."
+   },
+   {
+    "name": "Home Care CEO Forum mastermind groups",
+    "url": "https://www.homecareceo.com/?p=50",
+    "what": "Peer roundtables for owners, tiered by revenue ($1.5M to over $10M). Meets in Florida. Private-duty focus. Does not share benchmark data across members."
+   },
+   {
+    "name": "Tango (BCBSM home health network manager)",
+    "url": "https://tangocare.com/?p=986",
+    "what": "Payer-side delegated network manager. BCBSM Michigan agencies must contract with Tango from March 2, 2026. Shows payers are routing around provider-side alliances."
+   },
+   {
+    "name": "Dina (in-home network and contracting platform)",
+    "url": "https://dinacare.com/",
+    "what": "Manages credentialing, contracting and payments for in-home networks serving MA, SNP and PACE plans."
+   },
+   {
+    "name": "Med-Alliance (New York)",
+    "url": "https://www.clinician.com/articles/36184-independent-home-care-providers-band-together",
+    "what": "Alliance of small regional providers formed to get into managed-care networks. Direct precedent for the contracting-vehicle idea."
+   }
+  ],
+  "teen_blockers": "Age is NOT a legal blocker: at 18 he can form an LLC, sign contracts and take payments, and the group purchasing safe harbor (42 CFR 1001.952(j)) needs no license. The real blockers are these. (1) Antitrust, which is real. DOJ withdrew the health-care safety zones in 2023. Its 2026 statements of interest say information exchanges are not presumptively lawful and that a third-party facilitator is no shield. Replacement collaboration guidelines are still pending. Joint payer contracting without clinical integration is the classic FTC violation. Antitrust counsel is a gating cost, which I estimate at $15-30k (unverified) against a $6k budget. (2) Credibility as the operator of an owners' association is a real but manageable problem if the grandfather chairs and Asher is the data lead. (3) HIPAA is real but doable: remit files need business associate agreements and minimum-necessary stripping. (4) Chair conflict: MHC would be a contributor and a competitor, and the 25% cap could bind. (5) MHC's identity is unverified. Directory and NPI records show MHC Area 6, 9 and 10 LLCs as Medicare home health agencies in Riverview, Boca Raton (Choice Health At Home) and Fort Lauderdale. The Area N naming suggests a multi-agency chain, which independents may see as a competitor or acquirer. (6) HCAF must bless the founding members, and it runs overlapping programs.",
+  "first_customers_channel": "Channel: the grandfather's personal convening, then the Home Care Association of Florida (HomeCareCon each July in Orlando, the monthly free Thrive Thursday town hall, county legislative delegation meetings). Ten named founding-member types: (1) MHC Healthcare itself, as pilot customer and the first test of the audit of MA remits against contracts; (2) a Tampa Bay and Riverview-area owner-operator of a Medicare-certified agency; (3) a Boca Raton or Fort Lauderdale owner-operator; (4) a Miami-Dade owner-operator; (5) an Orlando or Central Florida nurse-founded agency; (6) a Jacksonville or North Florida owner; (7) a combined hospice and home health owner; (8) an owner who is heavy on Medicaid managed care (SMMC); (9) to (10) two HCAF board or committee owners in the Certified Providers category. Vendors (workers' comp broker, EMR vendor, accreditation body) are later fee payers. Kill test: fewer than six owners agree to the ground rules and a first meeting in about 10 weeks.",
+  "cost_to_first_revenue_usd": 6000,
+  "weeks_to_first_revenue": 10,
+  "median_case_revenue_usd_m": 0.7,
+  "upside_case_revenue_usd_m": 6,
+  "deciding_reason": "Access is real, but the economics cap the idea below the venture bar. Per-member revenue is about $6.5k, not $12k. Florida has about 1,079 certified agencies, and perhaps 500 are addressable independents. At 10-20% penetration that is $0.3-0.9M a year. $10M would need about 1,500 members, or 12.6% of all 11,925 US agencies. The only route to $10M+ is payer contracting. That is the most antitrust-exposed step, and the one payers are routing around with delegated network managers (Tango, PHCN, Dina). Every layer also has an incumbent: HCAF's own discounts program and surveys, IHCA, CAHSAH's GPO, and Home Care Pulse, SHP and BerryDunn benchmarking. IHCA already tried dues plus purchasing and had to pivot to BPO. Only the bundle, and the unpublished MA-rate data, is open.",
+  "sharpened": {
+   "title": "MA Rate Exchange: a Florida owners' alliance built on a contract-audit data asset",
+   "one_liner": "A grandfather-chaired roundtable is the trust channel. The paid product is a private audit of each agency's Medicare Advantage remittances against its contracts, which builds into a counsel-governed anonymized MA rate cube that no one publishes. Group purchasing and a CIN-partner contracting layer come after the data exists.",
+   "pitch": "Florida's independent home-health owners are squeezed three ways. Medicare has had four straight permanent cuts and faces a proposed temporary minus 3 percent for 2027. A federal enrollment freeze blocks new branches. And Medicare Advantage rates are set in private contracts that nobody publishes, because MA plans sit outside the Transparency in Coverage rule. Each owner negotiates alone against Humana's CenterWell and against plan-side network managers like Tango.\n\nThe Alliance starts where the family's convening power is strongest and antitrust risk is lowest: a quarterly owners' roundtable chaired by the grandfather, under written, counsel-reviewed ground rules, with no rate talk in the room. Members pay for something private. Each agency uploads its MA contracts and remittances under a BAA, stripped to payer, code, units, paid amount and county, and gets an audit of paid versus contracted rates. It reuses the contract-versus-invoice engine Asher already built for freight. The fee is flat plus a share of recovered underpayments. MHC's own remits are the first test, and the idea is dropped if leakage is under about 0.5 percent of MA revenue.\n\nOnly after that data exists does the Alliance build the shared layer. First an aggregated MA rate cube, released on counsel's rules: at least five contributors per cell, none over 25 percent, data at least three months old, no price recommendations. Then group purchasing under the 3 percent safe harbor. Payer contracting comes last, and only through a licensed clinically integrated network partner. The Home Care Association of Florida is the partner, not the rival, and the model then repeats with other state associations and extends to hospice."
+  }
+ },
+ "G:mhc_coo:1": {
+  "verdict": "weak",
+  "competitors": [
+   {
+    "name": "Brellium",
+    "url": "https://brellium.com/hospice",
+    "what": "AI audit of 100% of notes pre-claim for hospice and home health. Detects boilerplate and copy-paste language, signature and timing gaps. Integrates HCHB, Kinnser/WellSky, Axxess, MatrixCare. Pays clawbacks on charts it approved. Customer logos include Gentiva, Maxim and the Florida Hospice & Palliative Care Association. Raised $16.7M (Apr 2025) and $23M (14 Oct 2026)."
+   },
+   {
+    "name": "Enzo Health (QA and AI Scribe)",
+    "url": "https://www.enzo.health/qa",
+    "what": "Pre-bill OASIS/coding QA for home health, claims about $200 per episode recovered. 57 agencies on the platform as of June 2026. Its AI Scribe also generates the notes."
+   },
+   {
+    "name": "Axxess (Axxess Intelligence, OASIS Scrubber, PECOS verification)",
+    "url": "https://www.axxess.com/help/axxesshospice/axxess-intelligence/pecos-eligibility-verification/",
+    "what": "The EMR already validates the referring or certifying physician's PECOS status and holds the visit timestamps and GPS. This makes the admission gate a commodity and puts the EMR in a position to add audit-trail features."
+   },
+   {
+    "name": "SimiTree (SARA, audit-readiness consulting)",
+    "url": "https://simitreehc.com/?p=8978",
+    "what": "Medicare audit-prep checklists and OASIS/coding audit services sold to home health agencies."
+   },
+   {
+    "name": "AutoMynd and ABILITY EASE",
+    "url": "https://www.abilitynetwork.com/wp-content/uploads/2016/01/EASE_Home-Health_ProductSheet.pdf",
+    "what": "AutoMynd is an AI-native EMR with an ADR-readiness check and a downloadable pre-claim packet. ABILITY EASE offers ADR alerts and electronic submission and tracking."
+   },
+   {
+    "name": "HHAeXchange / Tellus (Florida Medicaid EVV)",
+    "url": "https://www.hhaexchange.com/info-hub/florida",
+    "what": "Mandated GPS/time/location visit verification for Florida Medicaid fee-for-service home health (live 2024-10-01). Proof-of-visit already exists for Medicaid visits; Medicare has no EVV mandate."
+   },
+   {
+    "name": "Fraud-defense law firms with statistical experts (Bass Berry, Husch Blackwell, Oberheiden)",
+    "url": "https://www.huschblackwell.com/industries_services/hospice-medicare-audits",
+    "what": "The incumbent substitute when a UPIC audit lands. They retain statisticians and clinical experts and report reversing most extrapolated overpayments (firm self-reports)."
+   },
+   {
+    "name": "Charta Health",
+    "url": "https://dealroom.co/news/103990-charta-health-streamlines-billing-ops-in-43-states-after-22m-raise",
+    "what": "$22M Series A pre-claim AI chart review across specialties. Adjacent, not home-health-specific."
+   }
+  ],
+  "teen_blockers": "Age: not a real legal blocker. At 18 he can form an LLC, sign contracts and be a HIPAA business associate. Credibility with owners under audit stress and with counsel is a real but soft blocker, and the grandfather intro plus a credentialed advisor mostly covers it. Licenses: none needed to sell software, and the authenticity queue makes no coding or legal claims. He cannot give expert testimony or certified coding opinions, which is real for an expert-witness role but irrelevant to software. HIPAA: real work but clearable. He needs a BAA, risk analysis, encryption and access logs. Non-family buyers will ask for SOC 2 or a security questionnaire (my estimate is $10-25k, unverified), and cyber/E&O insurance is also needed. That pushes spend past $10k before non-family sales, so the capital blocker is real. MHC's type is unverified: web search found only Medical House Calls in Tennessee and the Florida Panhandle and an Arizona MHC Healthcare, neither matching, so the first-customer premise depends on MHC being a Medicare-certified Florida HHA. His mother is an MHC employee and his grandfather is the covered entity, so he needs written data-use authorization and peers will discount a family reference. Structural: since 2025 an overpayment is 'identified' on actual knowledge or reckless disregard, so a tool that surfaces cloned notes can start a 60-day return clock. Owners may avoid looking unless it runs under counsel's privilege. Also design out any 'make notes look different' use, which would facilitate record falsification.",
+  "first_customers_channel": "Channel: grandfather's owner network plus two or three Florida healthcare fraud-defense firms as paid, privileged consultant-channel, then Home Care Association of Florida (HomeCareCon each July). Named customer types: 1) MHC, if it is a Medicare HHA; 2-3) two or three independent Florida Medicare HHAs run by grandfather's peers (500-1,500 visits a month); 4) one hospice owner from the same network; 5-6) two or three Florida healthcare fraud-defense and compliance law firms; 7) a Florida billing/RCM company serving 20-50 agencies; 8) HCAF member agencies; 9) Florida Hospice & Palliative Care Association owners (Brellium is already present there); 10) independent OASIS and coding audit consultants as resellers.",
+  "cost_to_first_revenue_usd": 6500,
+  "weeks_to_first_revenue": 14,
+  "median_case_revenue_usd_m": 0.5,
+  "upside_case_revenue_usd_m": 6,
+  "deciding_reason": "Brellium (copy-paste detection, four EMR integrations, Florida hospice association logo, funded with $40M raised across two rounds) and the EMRs (PECOS check, GPS and timestamps) already cover most of the pitch. The realistic price is $3-7k per agency, not $16k, because the average agency does about 490 FFS Medicare visits a month, not 3,000. So $10M needs roughly 9-13% of all home-health and hospice providers, against a funded home-health-only competitor with 57 agencies. About 75% of Florida's current Medicare home-health denials are missing-document failures, with visits-not-documented only 5.5%, so proof-of-visit aims at the smallest slice. The Oz letter was about Medicaid.",
+  "sharpened": {
+   "title": "Audit Packet: the counsel-ready evidence layer for Medicare home health and hospice",
+   "one_liner": "A continuously maintained, audit-ready file for every billed period, covering certification, plan of care, face-to-face, orders and signature order, plus visit-presence and authenticity evidence, so an ADR, pre-claim submission or UPIC request is answered from the file in a day, sold through counsel and priced on revenue at risk.",
+   "pitch": "Medicare's own Florida denial data (Palmetto, Apr-Jun 2026) shows what actually costs agencies money: no plan of care or certification (34%), records not submitted (24%), face-to-face not met (14%), medical necessity (11%) and missing orders. Visits billed but not documented are only 5.5%. So Audit Packet leads with completeness. For every billed 30-day period it keeps a live evidence file that checks the cert, plan of care, F2F, orders, signature and date order, and that the record can be produced inside the 30-45 day ADR window. It then attaches visit-presence evidence from the EMR and EVV (timestamps, GPS, mileage, duration versus note length) reconciled to the notes. The similarity and authorship queue from his detector is one module, a needs-review queue with per-agency template baselines and never an accusation. It is sold two ways: directly to agencies at roughly 0.5% of Medicare revenue (about $8-12 per paid period, $6-9k a year for a typical agency; assumption), and through two or three Florida fraud-defense firms who retain it under privilege, so findings do not start an unprivileged 60-day overpayment clock. Engagement fees run $2-10k per UPIC or TPE response. The moat is not a pooled PHI corpus, which owners and BAAs resist. It is a published, pre-registered validation of false-positive rates, with a credentialed statistician and a certified coder as advisors, so UPIC and ALJ readers give the packet weight. It is built to be EMR-agnostic where Brellium and the EMRs are not. The design forbids any feature that helps rewrite notes to evade detection. Start with a free scan of MHC's labeled set after confirming MHC is a Medicare HHA, then a paid $2-4k pilot. Kill if precision on the DON-labeled set is under 70%, if it surfaces nothing that MHC's real ADR/TPE history confirms, or if fewer than two of five warm non-family owners or counsel pay for a retro scan within 30 days. Then expand to hospice and Medicaid EVV reconciliation."
+  }
+ },
+ "G:mhc_revenue:1": {
+  "verdict": "weak",
+  "competitors": [
+   {
+    "name": "SimiTree",
+    "url": "https://simitreehc.com/?p=1626",
+    "what": "Outsourced RCD functions, RCM, coding/OASIS and SARA AI chart review; self-reports 750+ active clients and 16,000+ agencies served; no published prices"
+   },
+   {
+    "name": "Enzo Health",
+    "url": "https://www.enzo.health/glossary/physician-order-management",
+    "what": "AI-native EHR with intake, QA and order tracking through signature; blocks final claims until signed orders are on file; $26M raised ($20M Series A, May 2026)"
+   },
+   {
+    "name": "Forcura + Medalogix (Berkshire Partners)",
+    "url": "https://www.businesswire.com/news/home/20210512005605/en/Forcura-Circle-Enhances-Care-Coordination-With-E-Signature-Platform",
+    "what": "Orders tracking and aging, Circle e-signature physician network, Best in KLAS; merged with Medalogix in 2025; owns the order-release network second act"
+   },
+   {
+    "name": "Axxess (EHR)",
+    "url": "https://www.axxess.com/help/agencycore/software-updates/pre-claim-review-center/",
+    "what": "Built-in Pre-Claim Review Center, orders management, physician portal and UTN claim validator; does not yet judge document quality or auto-submit"
+   },
+   {
+    "name": "AutomationEdge CareFlo",
+    "url": "https://automationedge.com/home-health-care-automation/blogs/review-choice-demonstration-automation/",
+    "what": "RPA that automates the RCD workflow: form completeness checks, Palmetto portal upload, status monitoring"
+   },
+   {
+    "name": "Claim Health (YC)",
+    "url": "https://www.ycombinator.com/companies/claim-health",
+    "what": "AI revenue ops for post-acute; $4.4M seed Jan 2026; claims 30-50% fewer preventable denials; adjacent to RCD"
+   },
+   {
+    "name": "Offshore virtual assistants and in-house coordinators",
+    "url": "https://www.onlinejobs.ph/jobseekers/job/1640945",
+    "what": "An Ohio agency (June 2026) is hiring a full-time remote virtual assistant to do RCD pre-claim audits, F2F and signature checks, portal submission and affirmation reporting; sets the real price ceiling at about $9K per agency per year"
+   }
+  ],
+  "teen_blockers": "Age: not a legal wall; he is an adult and can form an LLC, sign contracts and BAAs. Credibility with PHI is real, especially in the 2026 CMS CRUSH fraud crackdown (nationwide moratorium May 13, 2026, about 800 entities suspended). License: none needed for documentation QA, but judging whether the F2F relates to the primary reason is a clinical call, so he must hire contract RN/HIM reviewers (real cost, real). Legal: flat per-item fees avoid the Medicare billing-agent rule (42 CFR 424.73) and Florida's ban on percentage arrangements; never alter or backdate orders; give physicians nothing of value (Anti-Kickback); pay-per-affirmation needs counsel review. Security: BAA, HIPAA risk analysis and E&O/cyber insurance are required; non-family buyers may demand SOC 2 (estimated $10-30K), the hidden wall after the family pilot (real). Time: a daily-SLA desk does not fit 10-15 hours a week without a paid bench (real). Capital is not a blocker (about $5K).",
+  "first_customers_channel": "Channel: the family agency first (MHC type and its RCD choice are UNVERIFIED; only third-party listings for MHC Area 6 LLC Riverview and MHC Area 10 LLC Fort Lauderdale were found), then grandfather's peers, the Home Care Association of Florida's HomeCareCon (2026 ran July 21-24; the 2027 edition lands right after graduation), Palmetto webinars and Axxess/HCHB user groups. First 10 customer types: (1) MHC Area agencies, family; (2-4) three Florida peer owners via the grandfather, ideally in postpayment review and struggling to reach 90%; (5-6) two Florida agencies with high held-claims aging; (7-8) two small Ohio or Texas postpayment agencies; (9) a small multi-agency chain; (10) a home health plus hospice combo. Target postpayment-choice agencies first, since pre-claim agencies already affirm at about 97%.",
+  "cost_to_first_revenue_usd": 5000,
+  "weeks_to_first_revenue": 8,
+  "median_case_revenue_usd_m": 0.4,
+  "upside_case_revenue_usd_m": 6,
+  "deciding_reason": "CMS's own burden numbers (4,700 agencies, 1,600,608 hours a year, about 340 hours per agency) put the whole RCD paperwork labor pool near $42M, not the pitch's $150M ($35K per agency is about 3.5x too high), and Palmetto medical-review denials number only about 334 to 1,206 per quarter across six states. So $10M a year is about 17% of the entire pool even at 100% outsourcing, and RCD sunsets around May 2029. SimiTree, Enzo, Forcura, Axxess and offshore virtual assistants already cover the work, and the 50-state order-release network second act is Forcura's and Enzo's turf. Several why-now claims are also wrong or stale: the 84.4% figure blends pre-claim (97% affirmed) with postpayment, F2F is now only 10-14% of denials after the CY2026 rule widened who can perform it, and the 45-day OASIS claim is unverified. It is not kill because the family test bed is real, unsigned orders and unanswered records requests do drive the largest denial categories (up to 34% and 44% in single quarters), nothing legal blocks him, and an outsourced per-result order-release desk was not found.",
+  "sharpened": {
+   "title": "Signed-Order Release Desk: held claims to cash for home health and hospice",
+   "one_liner": "An EHR-agnostic order-chase and records-response layer, priced per claim released, that targets the two failures behind most 2026 Palmetto denials (missing plan-of-care or certification signatures and unanswered records requests), with the Review Choice packet check as the free lead-in.",
+   "pitch": "Medicare will not let a home health agency bill a period until every order in it is signed, and Palmetto's recent denial data shows the same two failures again and again: no plan of care or certification (18 to 34 percent of medical-review denials by quarter) and requests for records that were never answered (24 to 44 percent). Neither is a clinical judgment problem. Both are chase problems: a physician who has not signed, an agency that missed a deadline. Today an agency solves them with a full-time order coordinator, an offshore virtual assistant, or software inside its EHR that only works if the physician cooperates.\n\nThe Signed-Order Release Desk is an EHR-agnostic layer that chases every unsigned order by fax, text and e-sign link, tracks a signature-turnaround scorecard per physician, and answers records requests before the clock runs out. Billing is a flat fee per claim released, never a percentage, so it stays clear of the billing-agent rule. Review Choice packet checks are the free lead-in that earns access to the aging report.\n\nStart with the family agency's held-claims aging report and baseline days-to-signature as the proof. Pitch Florida peers in postpayment review first, because they are the ones struggling to reach 90 percent. Then take it to hospice and to the other 49 states, where orders work the same way. Staff it with a bench of contract RNs, not a teenager reading charts, and treat Forcura and Enzo as partners or acquirers rather than rivals to out-build. Be honest that the ceiling is a few million dollars a year unless the cross-EHR physician scorecard becomes a real data asset."
+  }
+ },
+ "G:insider_personas:3": {
+  "verdict": "kill",
+  "competitors": [
+   {
+    "name": "Brellium",
+    "url": "https://brellium.com/hospice",
+    "what": "AI pre-bill audit of 100% of home health and hospice notes, CTI, F2F and OASIS. Its hospice page claims it detects boilerplate decline narratives and copy-paste language. Integrates with HCHB, Kinnser/WellSky, Axxess and MatrixCare. Offers a clawback guarantee and prices per visit note. $16.7M Series A (First Round, 2025). Logos include Gentiva, Maxim, Interim, the Florida Hospice & Palliative Care Association and the Texas Association for Home Care & Hospice."
+   },
+   {
+    "name": "Codoxo Deepfake Detection",
+    "url": "https://www.helpnetsecurity.com/2026/03/12/codoxo-deepfake-detection/",
+    "what": "Launched 11 Mar 2026 for health plans and payer SIUs. Detects cloned or duplicated records across patients and partly AI-generated documentation, and cross-references claim and provider behavior. Says U.S. plans are deploying it. This is the payer-side authenticity layer the pitch names as its big prize. No accuracy figures published."
+   },
+   {
+    "name": "Enzo Health",
+    "url": "https://www.enzo.health",
+    "what": "AI-native home health EHR with Scribe and QA modules. QA reviews charts at point of documentation, before claims go out. $20M Series A in May 2026 ($26M total), led by N47. Expanding into hospice. Because its scribe writes the notes, the agency already knows which notes are AI-written."
+   },
+   {
+    "name": "Charta Health",
+    "url": "https://www.fiercehealthcare.com/health-tech/charta-health-picks-22m-automated-chart-review",
+    "what": "General AI pre-bill chart review with a $22M Series A. Not home-health-specific, but it is funded adjacent competition."
+   },
+   {
+    "name": "WellSky (Scribe, SkySense AI, coding advisory) and Axxess (OASIS and coding audit services)",
+    "url": "https://www.businesswire.com/news/home/20260219423379/en",
+    "what": "EHR vendors with their own AI scribes (WellSky Scribe launched Oct 2025) and outsourced audit services. Native clone alerts could not be confirmed either way."
+   },
+   {
+    "name": "Cotiviti Clinical Chart Validation",
+    "url": "https://www.cotiviti.com/solutions/payment-accuracy/clinical-chart-validation",
+    "what": "Payer-side AI-assisted chart review and chart-validation incumbent. It checks coding accuracy, not note authorship."
+   }
+  ],
+  "teen_blockers": "Age is not a legal blocker. He is 18 and a HIPAA business associate has no age rule. No licence is needed to sell software or QA to covered entities, so that wall is not real. Capital is not a blocker either (about $4k).\n\nCredibility is real. Buyers' counsel will hesitate to hand PHI and False Claims Act exposure to a teenager with no CPC, HCS-D or RN credentials.\n\nThe legal premise is real. An outside audit that finds overpayments is credible information under the 60-day rule (reasonable diligence, then repay within 60 days, 6-year lookback). Calling it coaching does not avoid that. Buyers will want a lawyer to retain him for privilege, and I found no authority on whether his work product would be protected.\n\nHIPAA friction is real but clearable. Every customer, MHC included, needs a BAA. Using Claude on charts needs Anthropic's BAA plus a zero-data-retention organization arranged through sales. One third-party source says Claude Code is not covered, which I did not confirm on Anthropic's own page. Running the similarity and stylometry locally avoids this.\n\nFalse-positive risk is real. No study I found measures AI-text detector false positives on short, templated clinical notes. A per-clinician machine-authorship list invites HR and defamation problems.\n\nMHC is unverified. Directory listings show MHC AREA 6 LLC and MHC AREA 10 LLC as Medicare-certified home health agencies, but nothing links them to his grandfather. A paid pilot from a family company is also weak evidence that the market will pay. The mentor founded an audio-visual integration company, so the PE-healthcare introductions are unproven.",
+  "first_customers_channel": "Realistic channel: his grandfather's circle of Florida home-health and hospice owners, plus one healthcare compliance attorney who retains him for privilege. Expect 3 to 6 paying customers in 6 months at best. The state associations are weak channels because Brellium already shows the Florida Hospice & Palliative Care Association and the Texas Association for Home Care & Hospice as customer logos.\n\nFirst 10 named customer types:\n1. MHC's own home health agency or agencies, as a paid design-partner diagnostic (type unverified).\n2-4. Three Florida home-health owner-operators from his grandfather's peer circle.\n5. One Florida hospice owner reached through the hospice association network.\n6. A Florida healthcare or compliance attorney who retains him under privilege (a channel, not a payer).\n7. A home-health billing or coding outsourcer that could resell the diagnostic.\n8. One small Texas home-health agency reached through Texas Association for Home Care & Hospice events.\n9. An Axxess or HCHB user-group agency administrator.\n10. One PE-backed regional platform. The mentor link here is weak and unproven.",
+  "cost_to_first_revenue_usd": 4000,
+  "weeks_to_first_revenue": 8,
+  "median_case_revenue_usd_m": 0.4,
+  "upside_case_revenue_usd_m": 4,
+  "deciding_reason": "Both halves of the product are already sold by funded companies with real customers. Brellium sells copy-paste and boilerplate note detection to agencies, including the associations in the plan, and Codoxo has sold cloning and partial-AI-generation detection to payer SIUs since March 2026. The one piece nobody sells, AI-authorship detection for a provider, has no buyer, because the agency's own scribe and EHR logs already show which notes are AI-written. The problem pitch is also thin: the Palmetto denial rankings I found are dominated by face-to-face, missing-record and plan-of-care issues, not cloned visit notes. Reaching $10M a year would take about 7% of all 12,234 Medicare HHAs, in a segment where Brellium, Enzo and the EHR vendors already sell.",
+  "sharpened": {
+   "title": "Chart Provenance: independent documentation-authenticity diligence for post-acute deals and audits",
+   "one_liner": "A neutral third-party forensic check on whether a home health or hospice agency's charts show real, individualized care, sold to acquirers, lenders, insurers and counsel who must rely on the records but do not control the EHR.",
+   "pitch": "Brellium sells to the agency and Codoxo sells to the payer. Neither sells to the third party in the middle, who needs an opinion from someone other than the agency or the agency's own vendor. With new Medicare home health and hospice enrollments frozen since 13 May 2026, the only way into the business is to buy an existing licence, and the freeze can be extended in 6-month steps. Acquirers, their lenders and their R&W/E&O insurers then need to know whether a target's charts are genuine or full of cloned and machine-filled documentation. Healthcare counsel responding to an ADR or UPIC request needs the same check. Asher sells a sampled forensic report, 300 to 500 charts, at roughly $5 to 15k per deal. It combines corpus-level cross-patient and cross-clinician clone statistics, his gestalt and compare-drafts method, scribe and EHR provenance logs, and timestamp and mileage reconciliation. A healthcare lawyer retains him so the work is privileged, and MHC is the lab under a BAA. The path to something large is a benchmark: a cross-agency integrity baseline that lenders and insurers adopt as a standard. That is unproven, and Codoxo's payer-side position is the main threat. Before building anything, he should call 10 healthcare M&A advisors and attorneys over two weeks at no cost. If fewer than 3 say they would pay $5k or more, he should kill this too."
+  }
+ },
+ "G:mhc_workforce:2": {
+  "verdict": "weak",
+  "competitors": [
+   {
+    "name": "CareRecruit",
+    "url": "https://carerecruit.io/",
+    "what": "Done-for-you caregiver recruiting for home-care agencies: Meta/Google ads plus AI pre-qualification, flat monthly retainer per location, one agency per market, Florida testimonials, no guarantee stated."
+   },
+   {
+    "name": "Carework",
+    "url": "https://www.careworkus.com/learnmore",
+    "what": "AI voice recruiter plus managed recruiters for agencies, $720/mo to $1,865/mo, claims 35,000 caregivers hired, no hire guarantee."
+   },
+   {
+    "name": "Boostpoint",
+    "url": "https://boostpoint.com/industries-healthcare/home-health-aide-recruiting/",
+    "what": "Meta recruitment-ad software for home care, $750/mo minimum ad budget; own data shows $3.76 median cost per applicant and about $113 of ads per hire at 1 hire per 30 applicants."
+   },
+   {
+    "name": "EngineHire",
+    "url": "https://enginehire.io/home-care-staffing-solutions-2026-recruitment-retention-and-technology/",
+    "what": "Home-care hiring and retention platform: reward programs, branded app, reference checks, lead capture."
+   },
+   {
+    "name": "Home Care Marketing",
+    "url": "https://www.homecaremarketing.com/pricing/",
+    "what": "Bundled marketing plus caregiver recruiting for agencies, $1,499 to $2,999 a month."
+   },
+   {
+    "name": "Indeed / Hireology / Apploi / Truffle",
+    "url": "https://www.hhaexchange.com/blog/reduce-aide-turnover-in-3-steps",
+    "what": "Incumbent job boards and applicant-tracking tools; Indeed is a top-two source for 43.3% of agencies per Activated Insights 2026."
+   },
+   {
+    "name": "Contingency recruiters and caregiver staffing agencies",
+    "url": "https://boostpoint.com/industries-healthcare/caregiver-staffing-agency-cost/",
+    "what": "Placement fees with 3-6 month replacement guarantees are standard in recruiting (one LA firm: 20% of annual pay, 3 months); staffing agencies mark up aide wages 45-60%."
+   }
+  ],
+  "teen_blockers": "Age: not a legal blocker (18, can contract; this is B2B). Credibility: partly real. The grandfather's introductions get meetings with owner-operators, but they will buy on a measured 90-day survival curve, not on his pitch; he has no track record yet. Language and trust: real. He does not speak Creole and the Haitian community is now fearful of immigration enforcement after Haiti TPS ended 27 Jul 2026, so he needs a paid Creole-speaking community recruiter. Legal: real but fixable. The 'document-level work-authorization pre-screen' step is the exposure: IRCA bars recruiting or referring for a fee someone known to be unauthorized, Florida 448.09 mirrors it, and DOJ IER has settled a case where a referral-for-a-fee recruiter demanded specific work-authorization documents. Fix: the agency runs I-9 and E-Verify (Florida requires E-Verify at 25+ employees), plus a $500-1,000 lawyer review. Licenses: no wall found for recruiting W-2 aides (Chapter 449 status unconfirmed), but referring independent contractors to private homes is a nurse registry (AHCA, s.400.506) and supplying temporary aides is a health care services pool (AHCA registration, s.400.980), which blocks the Surge Bench extension until filed. HIPAA: mostly avoided; recruiting data is HR data. Capital: not a blocker (~$3k). MHC ownership and its aide-hiring volume are unverified.",
+  "first_customers_channel": "Channel: grandfather and mother introductions, starting with a measured MHC pilot of 10-20 hires, then peer agencies through the Home Care Association of Florida (verify name and membership) and owner-to-owner referrals, supported by community channels (Haitian churches, community radio, WhatsApp/Facebook groups in North Miami, Little Haiti, Miramar, Lauderhill) and HHA/CNA training programs. First 10 customer types: (1) MHC Area home-health agencies (family pilot); (2-6) five peer Medicare-certified or non-medical home-care agencies in North Miami, Miami Gardens, Miramar, Lauderhill and Delray introduced by the grandfather; (7) Homewatch Care Givers (North Miami), which posts for Creole-speaking caregivers; (8) The Lakes Home Care, which posts Creole-speaking HHA jobs across Miami-Dade and Broward; (9) Home Instead or Right at Home Miami franchisees with bilingual postings; (10) United HomeCare, which hires HHAs from Florida Memorial University training cohorts. ComForCare Miami Lakes pays a $250 referral bonus after 250 hours, a price anchor for what agencies already pay.",
+  "cost_to_first_revenue_usd": 3000,
+  "weeks_to_first_revenue": 8,
+  "median_case_revenue_usd_m": 1.2,
+  "upside_case_revenue_usd_m": 12,
+  "deciding_reason": "The fee is contingent on 90-day retention, a variable the recruiter does not control, and the plan sources from the worst-retention channels: Activated Insights 2026 shows social-media-sourced caregivers at 107% turnover and word of mouth at 77%, versus 65.8% for an agency's own website. The Haiti TPS ending on 27 Jul 2026 shrinks the Creole-speaking work-authorized pool the funnel draws on. Cheap substitutes exist: about $113-250 of ads per hire and $720-1,865/mo done-for-you vendors. Cash per start is only about $510-690, which leaves thin gross margin. Bottom-up the realistic market is $1-2M a year in the tri-county area, and $10M+ needs multi-state reach with an operations-heavy business. The upsides are real: the family pilot pays within about 8 weeks, there is no license wall for W-2 recruiting, and HIPAA is mostly avoided.",
+  "sharpened": {
+   "title": "Day-90 Aide Network: school-sourced bilingual aides with a first-90-days concierge, priced on retention",
+   "one_liner": "Florida home-care agencies pay about $900 per aide only if the aide is still working on day 90. We source credentialed aides from HHA/CNA training programs and community channels, run Creole, Spanish and English check-ins through the first 90 days, and own the retention data.",
+   "pitch": "Home-care agencies lose about three of every four aides a year, and half of the departures happen in the first three months. Recruiters sell them applicants; nobody is paid for the aide who is still there at day 90. Day-90 Aide Network is paid that way: $300 when the aide starts, $600 at day 90 (price-tested against a higher credentialed-bilingual tier), with one free replacement.\n\nThree changes make the pricing defensible instead of reckless. First, we source mainly from HHA and CNA training programs, adult-ed centers and workforce boards, which produce credentialed candidates and want placement statistics, and use WhatsApp, Facebook groups, churches and radio for reach. The 2026 benchmark shows social-media-sourced aides turn over at 107%, so social cannot be the only source. Second, we own the variable we are paid on: a Creole, Spanish and English check-in line at days 3, 14, 30 and 60, with escalation to the agency. The contract sets a minimum of offered weekly hours and payroll proof, so we are not paid for outcomes the agency can sabotage. Third, we never screen immigration documents. The agency runs I-9 and E-Verify (Florida requires it at 25+ employees), candidates are told the requirement upfront, and a lawyer reviews the flow before the first ad.\n\nThe first customer is MHC, as a measured pilot of 10-20 hires that yields survival curves by channel and by agency. That data is what peer agencies will buy, and the opted-in candidate base becomes the asset that feeds Day-One Desk. Surge Bench waits until an AHCA health care services pool registration is filed. Scaling means other metros and other language communities (Spanish, Creole, Cape Verdean, Tagalog), toward a retained-hire marketplace for frontline care workers."
+  }
+ },
+ "G:mhc_coo:4": {
+  "verdict": "weak",
+  "competitors": [
+   {
+    "name": "MedPro Systems (Stark non-monetary compensation tracking, SAP Concur link)",
+    "url": "https://www.medprosystems.com/?p=2821",
+    "what": "Hospital/DHS-side tracker of gifts and non-monetary compensation to physicians against the annual Stark cap ($535 for 2026); already integrates with expense capture."
+   },
+   {
+    "name": "symplr Contract (records gifts / non-monetary compensation)",
+    "url": "https://www.symplr.com/hubfs/CSM%20Product%20Brochures%202023/symplr%20Contract%20Overview%20(1).pdf",
+    "what": "Physician-arrangement and contract management for hospitals that lists recording gifts and non-monetary compensation; RLDatix markets a similar gift-tracking module inside contract lifecycle management (vendor blog, unverified)."
+   },
+   {
+    "name": "SAI360 Gifts & Hospitality (also Ethico, Archer, ConvergePoint)",
+    "url": "https://sai360.com/solutions/compliance-management/gifts-and-hospitality",
+    "what": "Generic enterprise gift and entertainment registers with threshold checks, approval routing and exception flags; the pitched feature set exists, just not vertical or priced for small agencies."
+   },
+   {
+    "name": "Trella Health / PlayMaker CRM (2,300+ post-acute orgs)",
+    "url": "https://www.trellahealth.com/solutions/customer-relationship-management-crm/",
+    "what": "Referral CRM holding the marketer's daily workflow; no gift or spend logging found, but the likeliest place for this to ship as a feature."
+   },
+   {
+    "name": "Compliancy Group + Healthicity (compliance suites, $99-$519/mo)",
+    "url": "https://compliancy-group.com/best-healthcare-compliance-software/",
+    "what": "Broad healthcare compliance platforms that already own the compliance-officer relationship and price below the pitched $400-$900/mo; a gift module would be a small add-on."
+   },
+   {
+    "name": "Ramp Policy Agent / Concur custom expense fields",
+    "url": "https://support.ramp.com/policy-agent-full-expense-checks",
+    "what": "Card and expense tools that check meals and memos against a written policy; adding a referral-source ID field and flag rule covers part of the idea at no extra software cost."
+   },
+   {
+    "name": "Free substitute: counsel-drafted policies plus Excel log (Encompass Health, Holland & Hart templates)",
+    "url": "https://www.ehab.com/wp-content/uploads/2025/01/C07-Gifts-Meals-and-Entertainment-to-Referral-Sources.pdf",
+    "what": "Published referral-source gift policies with per-event and annual caps and a compliance-officer log; this is what most agencies actually use."
+   }
+  ],
+  "teen_blockers": "Age: none legally (adult, can form an LLC, sign contracts, take payments). Credibility is the real blocker: compliance officers and healthcare attorneys will not take an 18-year-old cold, so a grandfather or mother introduction is the only route (real, mitigable only through family). License: no licence wall for software, but unauthorized-practice-of-law risk is real if the tool says 'compliant' or applies law itself; manageable by applying only client-set thresholds and getting counsel to review the template and terms (about $1.5-2.5k). HIPAA: avoid PHI so no BAA is needed (real design constraint, not a wall). Capital: about $3k to first revenue is fine; SOC 2 (roughly $10-25k) will be asked by chains around month 6-12 (real for non-family scale). Governance: MHC ownership and type are unverified (public record shows MHC Area 6/9/10 LLC home-health agencies); the family pilot proves little independently, and a ledger is a discoverable record that MHC counsel may resist if past practice was unlogged. Father's tech edge is weak: MyFinancialAdvice shows 8 employees and no listed customers on Gust and its website was unreachable; the architecture is commodity.",
+  "first_customers_channel": "Channel: grandfather and mother introductions at MHC first, then peer owner-operators, with healthcare compliance attorneys as the recommending channel and the Home Care Association of Florida (HomeCareCon), Florida Alliance for Home Care Services and the Florida Hospice and Palliative Care Association (FHPCA; Associate $600/yr, Patron $3,200/yr) for reach. First 10 named customer types: (1) MHC corporate marketing and liaison team plus its compliance lead (design partner); (2) other MHC Area LLC locations; (3) grandfather's peer owner-operated Florida home-health agencies in the same AHCA regions; (4) multi-location Florida home-health operators; (5) for-profit Florida hospice operators (only about 45 Florida hospices exist, so this segment is tiny); (6) PE-backed Florida home-health roll-ups; (7) Florida healthcare compliance attorneys who write client gift policies (referral partners and resellers); (8) outsourced compliance consultants such as SimiTree (channel partners); (9) Home Care Association of Florida member agencies; (10) specialty pharmacy and DME operators as the first adjacent vertical.",
+  "cost_to_first_revenue_usd": 3000,
+  "weeks_to_first_revenue": 10,
+  "median_case_revenue_usd_m": 0.7,
+  "upside_case_revenue_usd_m": 8,
+  "deciding_reason": "The empty niche is empty because it is small and already substituted. About 18,900 Medicare-certified agencies (12,234 home health plus 6,706 hospices, 2024) sit on margins where roughly 48% of home-health agencies were projected negative. Full compliance suites sell for $99-$519 a month, so a single-function $400-$900 a month tool is priced above them, and the pitched $9k a year needs about 1,100 customers at 2-4x the benchmark price. The product's core is weaker than pitched: the AKS has no gift safe harbor and Florida 817.505 exempts conduct the AKS permits, so thresholds are client-set (only the $535 Stark cap for physicians is a hard number), which makes the engine a log, a cap cell and a sign-off that Excel, Ramp-style policy agents, hospital NMC trackers and GRC gift registers already cover. Recent Florida patient-brokering prosecutions are sober homes and labs, and 2025-26 hospice and home-health settlements (Creative Hospice $9.2M, Traditions $34M) are about medical-director payments, not meals. Median is about $0.7M a year and upside about $8M, below the $10M bar, so the standalone gift ledger fails the 'defensible and big' rule. It survives only as a cheap 60-day test with MHC as design partner and a widened product.",
+  "sharpened": {
+   "title": "Referral Remuneration Ledger for Post-Acute Care",
+   "one_liner": "One system of record for everything of value that flows to anyone who can steer a patient to a home-health or hospice agency: gifts, meals, free in-services, medical-director agreements with time logs and fair-market-value evidence, marketer pay structures and sponsorships, checked against counsel-set policy and the current Stark cap and attested monthly.",
+   "pitch": "Home-health and hospice agencies live on referrals, and every referral source is a potential Anti-Kickback or Florida patient-brokering problem. Today the control is a compliance officer's spreadsheet plus a card statement. The Referral Remuneration Ledger replaces that with one audit-ready system of record. It logs every item of value given to a physician, discharge planner or facility: meals, gifts, events, free in-services and free staff time. It also holds the contracts that actually drove the recent nine- and eight-figure settlements: medical-director agreements with time logs and third-party fair-market-value opinions, marketer pay structures and sponsorships. Thresholds are set by each client's counsel, with the current Stark cap ($535 in 2026) updated yearly, and the software applies them without giving legal advice or ever calling anything compliant. Items route to supervisory review, staff attest monthly, and the archive is firewalled from patient and referral-volume data so it cannot become evidence of intent. Sell per location (about $250 a month, with chain pricing) through healthcare attorneys and the Florida home-care and hospice associations, with MHC as the design partner and first paying customer. Widening from gifts to arrangements moves the product to the hospital-style NMC and contract tools (MedPro, symplr, RLDatix) that no one has built for post-acute, lifts the budget line and gives a path to about 1,500 locations and roughly $8M a year. It is unproven. Test in 30 days: ten calls (MHC marketing and compliance, five owner peers, three attorneys). Kill it if marketers will not log, attorneys do not want a discoverable record, buyers say Excel plus an expense tool is enough, or a referral CRM ships the feature."
+  }
+ },
+ "G:mhc_revenue:3": {
+  "verdict": "kill",
+  "competitors": [
+   {
+    "name": "HHAeXchange",
+    "url": "https://www.hhaexchange.com/solutions/providers/billing-payroll/billing-denials",
+    "what": "Florida's Medicaid EVV aggregator and gatekeeper (free state FFS EVV since Oct 2024). Also sells billing with claim scrubs, built-in authorization and eligibility checks, and denial dashboards. Its Florida page claims a 99.9% first-pass acceptance rate. It holds the data a third party would need, and no public Florida provider API was found."
+   },
+   {
+    "name": "GEOH",
+    "url": "https://pulse2.com/geoh-over-30-million-growth-investment-secured-from-council-capital-and-affiliates",
+    "what": "Home care software plus RCM and executive services, built around Medicaid EVV denials. Says it has helped agencies collect more than $275M, raised $30M+ from Council Capital in Sept 2025, and says revenue roughly doubled each year for three years."
+   },
+   {
+    "name": "Claim Health (YC X25)",
+    "url": "https://www.ycombinator.com/launches/NPm-claim-health-ai-revenue-platform-for-at-home-care-providers",
+    "what": "AI billing platform for home care, home health and hospice. Does claim flagging, appeal-letter drafting, eligibility and payment reconciliation. $4.4M seed in Jan 2026 (self-reported 30x revenue growth)."
+   },
+   {
+    "name": "Sandata",
+    "url": "https://www.selecthub.com/p/home-health-software/sandata/",
+    "what": "EVV vendor that also sells claims management, clearinghouse work and authorization management. Reviewers say it is costly for small agencies."
+   },
+   {
+    "name": "Florida billing firms (ASPR CMS Solutions and similar)",
+    "url": "https://asprcmsolutions.com/specialties/home-health-billing-services/states/florida/",
+    "what": "Outsourced home-health billing and denial follow-up, typically 3-10% of collections or $3-12 per claim. They are the incumbent substitute and are already inside the agencies. Many price by percentage of collections, which 42 CFR 447.10(f) and Fla. Stat. 409.913(10) bar for Medicaid claims."
+   },
+   {
+    "name": "AHCA claim dispute program (Capitol Bridge)",
+    "url": "https://ahca.myflorida.com/health-quality-assurance/bureau-of-health-facility-regulation/certificate-of-need-and-commercial-managed-care-unit/commercial-managed-care/statewide-provider-and-health-plan-claim-dispute-resolution-program.html",
+    "what": "Free public substitute. State-contracted arbitration that covers Medicaid plans. Initial review is $127.59 per dispute plus hourly review fees. Interest-only disputes are excluded. Only providers and plans are listed as filers."
+   },
+   {
+    "name": "AutomationEdge CareFlo AI / AAFCPAs authorization automation",
+    "url": "https://automationedge.com/home-health-care-automation/denial-management-careflo-ai/",
+    "what": "Denial-management bots and consultant-built authorization-extraction systems. AAFCPAs reported one Boston agency's monthly denials fell from $65k to $6k (self-reported). Aegis (YC) also sells an appeals engine for providers."
+   }
+  ],
+  "teen_blockers": "Age is not a blocker: he is 18 and can form an LLC, sign contracts and sign a BAA. No Florida billing-agent licence turned up in my searches (not exhaustively checked). Four walls are real.\n1. REAL, fatal to the model. The freight-style fee of a percentage of recovered dollars is barred for anyone who prepares or helps with a Medicaid claim. Fla. Stat. 409.913(10) says billing-agent pay may not be based on amounts billed or on what the provider receives from Medicaid. 42 CFR 447.10(f) says pay must be related to processing cost, not related on a percentage or other basis to amounts billed or collected, and not dependent on collection. The $8-15 per resolved visit fallback is still risky if 'resolved' means paid. Only a flat monthly or per-packet-filed fee is clean, so get a healthcare attorney's opinion.\n2. REAL. Credibility and PHI. Agency owners hand claims data and portal logins to a teenager only after a BAA, E&O and cyber insurance, and references. HHAeXchange is the gatekeeper and no public Florida provider API exists. Sharing agency logins is a security and terms problem.\n3. REAL, new. The family pilot is unverified. The CMS NPI registry lists MHC Area 3, 5, 6, 8, 9 and 10, LLC as home health, all with the other name Choice Health at Home. Their authorized official is Katrina Lanier, with a Tyler, TX mailing address. MHC Area 7 is Haven Home Health Care. Choice Health at Home is a PE-backed national company (Trive Capital, Coltala) built on Medicare Advantage, not an owner-operated family firm. Either the family's MHC is a different company or it sold. A skilled Medicare or MA agency would also have a small SMMC Medicaid book.\n4. PARTLY REAL. False Claims Act exposure. Tools that help appeal visits with no EVV, or with edited times, can drift into helping bill unverified services.",
+  "first_customers_channel": "Channel: warm introductions through the family (only after confirming what MHC is), the Home Care Association of Florida (HomeCareCon, Orlando, July 2027) and its member agencies, nurse-registry owners found through AHCA HealthFinder, and the Florida LTC plan network directories (Sunshine, Molina, Humana, Aetna). First 10 customer types: (1) the family agency if it has a Medicaid book; (2-4) three Miami-Dade or Broward SMMC-LTC personal-care and attendant-care agencies; (5-6) two Florida nurse registries; (7-8) two homemaker and companion providers; (9) one pediatric private-duty-nursing or home-health agency (Medicaid under 21, higher dollars per claim); (10) one Florida home-health billing firm as a channel partner. Pricing has to be a flat or per-packet fee, because a percentage of recovery is barred. Expect 14 or more weeks, because a BAA and data access come before any paid month.",
+  "cost_to_first_revenue_usd": 6000,
+  "weeks_to_first_revenue": 14,
+  "median_case_revenue_usd_m": 0.3,
+  "upside_case_revenue_usd_m": 6,
+  "deciding_reason": "The freight model's engine, a percentage of recovered dollars, is barred for Medicaid claim work in Florida (Fla. Stat. 409.913(10)) and federally (42 CFR 447.10(f)). What remains legal is a flat-fee subscription in a niche where HHAeXchange (the EVV gatekeeper, claiming 99.9% Florida first-pass), GEOH ($30M+ raised) and Claim Health (YC, $4.4M seed) already sell it. My own estimate of the Florida payer-fault recoverable pool is $10-45M a year. That means a $1-4M ceiling at legal pricing, nowhere near $10M. The MHC Area LLCs in the NPI registry are Choice Health at Home (PE-backed, Medicare Advantage), so the family pilot is not established.",
+  "sharpened": {
+   "title": "Contract-to-Cash Match for private-contract home care payers (Florida first)",
+   "one_liner": "Match authorization, delivered visits, contract rate and remittance for home care payers where a contingency fee is legal (Medicare Advantage, commercial, VA community care), and recover payer-fault underpayments for a share of what is recovered.",
+   "pitch": "As written, Triple-Match for Florida Medicaid is dead. Fla. Stat. 409.913(10) and 42 CFR 447.10(f) bar paying anyone who helps prepare Medicaid claims a percentage of what is recovered, and the legal alternative is a thin flat-fee subscription. HHAeXchange (the EVV gatekeeper), GEOH ($30M+ raised) and Claim Health (YC, $4.4M seed) already sell that. The NPI registry also shows the MHC Area LLCs are Choice Health at Home, a PE-backed Medicare Advantage business, not a proven family pilot.\n\nThe only thread that survives keeps the freight audit's mechanics and moves the payer. Take agencies paid under private contracts (Medicare Advantage, commercial, VA community care), where the OIG has said percentage billing arrangements are not illegal per se. Match each authorization to visits delivered to the contracted rate to the remittance. Chase only payer-fault gaps: short pays against contract, visit counts authorized below the plan's own approval, late-pay interest. Charge a contingency share of recovered dollars, which is the freight model unchanged. Keep Medicaid as a flat-fee add-on. If MHC does turn out to be a Medicare or MA home-health agency, it is a natural first data source.\n\nThis is untested. G09 found four funded startups on MA authorization and denials, and I did not search post-payment rate audits. Gate it in three weeks. First, confirm what the family's MHC is via Sunbiz and AHCA. Second, pull 90 days of remits from three agencies and stop if payer-fault dollars are under 1.5% of revenue. Third, get a healthcare attorney's opinion on contingency for non-Medicaid payers. Do not build until all three pass."
+  },
+  "first_customers_channel_placeholder_unused": ""
+ }
+}

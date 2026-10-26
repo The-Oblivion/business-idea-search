@@ -67,3 +67,15 @@
 {"type":"started","key":"v2:ec4be046950dd6be88f91ac214a7e73e10ff507fe45b567489dfaef7bcb80b42","agentId":"a04f82badd7612205","label":"r4research:F02","phase":"Deep"}
 {"type":"started","key":"v2:832741d7fc62570985ce4a5c78f412ee5ba999be108f557def840b041a6cc807","agentId":"ac376519e70996635","label":"r4research:F03","phase":"Deep"}
 {"type":"started","key":"v2:44cbd454fe37da38085a40d7271090104fc1326c655a2047ad5de44c9332c83b","agentId":"a92491ebf25f74b76","label":"r4research:F04","phase":"Deep"}
+{"type":"failed","key":"v2:ec4be046950dd6be88f91ac214a7e73e10ff507fe45b567489dfaef7bcb80b42","agentId":"a04f82badd7612205"}
+{"type":"failed","key":"v2:44cbd454fe37da38085a40d7271090104fc1326c655a2047ad5de44c9332c83b","agentId":"a92491ebf25f74b76"}
+{"type":"failed","key":"v2:832741d7fc62570985ce4a5c78f412ee5ba999be108f557def840b041a6cc807","agentId":"ac376519e70996635"}
+{"type":"failed","key":"v2:5830c6c3fda393b83ebcb944009ea1086be063d212f54262d6e416b3b7a60484","agentId":"a9a236b532baa3d2a"}
+{"type":"started","key":"v2:65e78355098c08ec924f877759b10665d32bc1b0dbbdb88cbf3419697f80800b","agentId":"a0134ff8ed6c30ba5","label":"r4rank:operator","phase":"Final"}
+{"type":"started","key":"v2:1779cbc1590de68b746cf5d19c19c5ba7941ba60f3a5b6f161d19add98bebf15","agentId":"ae48044976f1091f4","label":"r4rank:investor","phase":"Final"}
+{"type":"started","key":"v2:54c0f859cc471e1cafbffac9b6aae993916da62b64a71fb444fb9703c3bd9cad","agentId":"a51e25026783f2886","label":"r4rank:mentor","phase":"Final"}
+{"type":"failed","key":"v2:1779cbc1590de68b746cf5d19c19c5ba7941ba60f3a5b6f161d19add98bebf15","agentId":"ae48044976f1091f4"}
+{"type":"failed","key":"v2:65e78355098c08ec924f877759b10665d32bc1b0dbbdb88cbf3419697f80800b","agentId":"a0134ff8ed6c30ba5"}
+{"type":"failed","key":"v2:54c0f859cc471e1cafbffac9b6aae993916da62b64a71fb444fb9703c3bd9cad","agentId":"a51e25026783f2886"}
+{"type":"started","key":"v2:dbc4cbc9a50dc0df6dae7ebde2ce3623d256d914d91d84813287014244fdb958","agentId":"a1980bf5a8a108824","label":"r4memo","phase":"Final"}
+{"type":"failed","key":"v2:dbc4cbc9a50dc0df6dae7ebde2ce3623d256d914d91d84813287014244fdb958","agentId":"a1980bf5a8a108824"}

@@ -779,3 +779,13 @@ Paused at your request to wait for the weekly usage reset (about 50% of the week
     - the "big" version
   - Then 3 selectors, a **16-idea evidence gate**, **4 finalists** with full deep validation (dossier, 2 critics, rewrite, 3 judges), 3 rankers and a memo (`round4/FINAL.md`).
   - It can be widened after the weekly reset.
+
+### Round 4 status (26 Oct, 10:30 ET): paused at the 85% cap after a login failure
+- **Done (32 agents):** 12 insider-lens generators (96 ideas), 3 selectors, a **16-idea evidence gate (14 weak, 2 kill, 0 strong)**, and a chief selector who picked 4 finalists. All are saved in `round4/finalists.json` and `round4/gate_results.json`, with gate reports in `round4/gate/`.
+  - **F01 MA Yield:** a Medicare Advantage remit-versus-contract audit and peer yield benchmark for home-health agencies; free for the first plan, contingency recovery. Median $1.5M, upside $15M.
+  - **F02 Ground Truth Ledger:** an independent accuracy scoreboard for back-office AI (home-health OASIS first, advisor communications second). Median $1.5M, upside $25M.
+  - **F03 CareFund Rail:** a free care-funding intake handed out by home-care agencies, paid by compliant flat-fee sponsorships from elder-law attorneys and advisors. Median $0.7M, upside $30M. The gate said the payer math needs fixing.
+  - **F04 Day-90 Aide Network:** school-sourced bilingual (Creole, Spanish, English) aides with a first-90-days concierge, paid about $900 per aide still working on day 90. Median $1.2M, upside $12M.
+- **Finding:** family access lifts realistic medians **5-100x** over round 3's solo-teen ideas ($0.7-1.5M versus $0.01-0.3M). But nothing is "strong" yet, and everything still assumes MHC is a home-health operator, which is **unverified**.
+- **What failed:** the 4 deep-research agents, 3 rankers and the memo all failed on "OAuth token revoked" when the login expired mid-run. Nothing was lost; the journal was kept.
+- **Paused:** the meter read **weekly 85% = your cap** (reset at 4pm ET today). A resume script is ready: `next_steps/r4_deep_only.js` (default finals F01-F04; it reads `round4/finalists.json`, then runs deep validation, ranking and `round4/FINAL.md`).
