@@ -719,3 +719,11 @@ Paused at your request to wait for the weekly usage reset (about 50% of the week
   4. **Gate:** 36 adversarial web checks (competitors, reachability, age and legal blockers, size), followed by a chief selector who picks 8-10 finalists.
   5. **Deep validation per finalist:** a dossier, 2 critics (market and founder-fit/legal), a no-shrink rewrite with a 30-day plan and 10 first customers, and 3 calibrated judges.
   6. **Final:** 3 rankers force-rank the finalists, and a memo writer produces `round3/FINAL.md`.
+
+### Round 3 result: no winner (135/135 agents, 21.8M subagent tokens, about 4,150 tool calls)
+- **Screening and ideas:** 12 screeners (all 1,768 ideas) and 16 generators (128 new ideas) gave **220 candidates**. 3 selectors cut them to 36.
+- **Gate:** 36 checks came back **22 weak, 14 kill, 0 strong**. The chief selector picked 9 finalists.
+- **Deep validation: all 9 finalists set alive=false after their critics, with judges at 2.0-2.67/10.** The 3 rankers each put **F08 "Drop Tape"** (sell-out alerts for adult sneaker and streetwear resellers) first, but only as the "fastest, cheapest test": its realistic outcome is about $2k a month, not a company. Full memo: `round3/FINAL.md`.
+- **Why everything died (my read):** anything an 18-year-old can launch in 90 days for under $10k with AI, everyone else with AI can launch too. The gates found a free tool, a funded startup or a built-in feature for nearly every idea: CAMAudit, CounterWise, Netlify AXIS, Skimmer and Jobber built-ins, and creator-attribution tools. Low barrier to entry means no moat.
+- **The strongest signal of the round:** **7 of the 9 finalists' refined write-ups, researched independently, said his hours belong on the freight-audit sales calls instead.** The freight audit had never been through the pipeline.
+- **Judgment call: run round 3b.** It deep-validates and war-games the freight audit on the same scale (`wf_4173636b-98d`): a dossier (it reads `~/projects/freight-audit` plus 20-30 searches), 2 critics, a rewrite, a war-game with **15-25 real named target shippers** (Florida and the Southeast, plus AV integrators through the mentor's industry), and 3 judges.
