@@ -1,0 +1,362 @@
+# Round 4 / lens: MFA advisor growth and operations (8 ideas, ranked best first)
+
+Researched 26 Oct 2026 with about 30 searches. Founder: Asher (18). Insider assets: Ron Peremel's MyFinancialAdvice (2001; pre-screened flat-fee advisors, social-media compliance tech, plan-sponsor billing) plus 24 years of advisor relationships. No regulated advice is given by Asher in any idea.
+
+## What the research established (facts that shaped the ideas)
+
+- **Client acquisition is expensive and the budget line is real.**
+  - Kitces (via secondary reports): median cost to acquire an advisory client rose from about $2,200 (2021) to about $3,800 (2023). Marketing was 9.7% of revenue at the average firm and 12.5% at high-growth firms in the 2024 study, if advisor time is counted.
+  - Bought leads: SmartAsset $25-$240 per lead; WiserAdvisor $1,000-$2,500 a year plus $40-$300 per lead; Broadridge $1,899 a month plus $1,500 setup. Conversion is roughly 5-10%.
+- **Lead-gen and referral incumbents are funded.**
+  - Zoe Financial: $45M raised in total, including a $29.6M Series B in April 2025. Zoe is itself an SEC-registered adviser. Its network was about 2,600 advisors in 2020.
+  - Facet Wealth buys small client books at about 1x annual revenue, paid 25/50/25.
+  - Range (AI flat-fee planning for high earners) raised $60M in February 2026 (Axios).
+  - Fruitful raised $33M in 2022.
+- **Compliance add-ons are small businesses.** Wealthtender (Marketing-Rule-safe reviews) is about 450 advisors at about $49 a month, or roughly $265k a year. A compliance-only product caps out small.
+- **Regulation is tightening on exactly the referral and creator channels.**
+  - SEC Division of Examinations risk alert, 16 Dec 2025: advisors misclassified lead-gen firms, influencers and refer-a-friend programs, and disclosures were missing or not "clear and prominent".
+  - Written agreements are needed above $1,000 a year of promoter compensation. Ineligible persons can't be paid.
+  - Some states require solicitors to register as IARs. The Fundrise creator case involved over $8M paid to over 200 creators.
+  - Source for the Fundrise figures: the SEC order as summarized by compliance sites. Verify before quoting.
+- **Heirs leave.**
+  - Cerulli: 52% of affluent heirs do not plan to keep the benefactor's advisor.
+  - Harris 2025: 43% plan to switch, and 26% of leavers said they didn't personally know the advisor.
+  - Cerulli/Everplans (2016, dated): 92% of advisors were unacquainted or only quasi-acquainted with clients' grandchildren.
+  - Wealth transfer: about $68T over 25 years.
+- **Gen Z uses AI and then wants a human.**
+  - Gallup/Edward Jones (Aug 2026): about 1 in 5 who sought advice used AI, and about a quarter of Gen Z and millennials did. Only 14% of Gen Z used a professional adviser.
+  - NY Life (Sep 2026): 40% of Gen Z say AI makes them more likely to want a human, and only 23% act on AI advice without validating it.
+  - SIFMA/KPMG (19 Oct 2026): Gen Z trust in AI-only advice fell from 20% to 10%.
+  - CFP Board: nearly 1 in 5 who took AI advice lost at least $100.
+- **Supply of young advisors is rising.** CFP Board: 107,529 CFPs at the end of 2025. A record 6,709 were added in 2025, 3,964 of them under 35. 11,037 people sat the exam. XYPN passed 2,000 members (456 joined in 2024).
+- **Succession is real but slower than the headlines.**
+  - Janus Henderson: advisors 55+ are 42% of advisors and hold 57% of assets. 44% have no succession plan.
+  - AssetMark 2025: 57% of advisors who want to sell lack a formal plan.
+  - Kitces argues the unplanned exit (death or disability) is the real exposure.
+  - FP Transitions: practices sell at about 2.1-2.7x recurring revenue (2011 data).
+- **AI-notes market is crowded.**
+  - Jump about $75-$175 per seat per month; Zocks $67-$184; Zeplyn $120 (Agent Nexus $195); Finny moved to pay-as-you-grow in August 2026.
+  - AI-generated notes are likely "books and records" under Rule 204-2 (no SEC guidance yet).
+- **AI-visibility ("GEO") for advisors is crowded too.** AdvisorFinder ($99 a month), WealthReach (bought AdvisorRankings in July 2026), Gregory FCA.
+- **Frontline workforce.**
+  - Home-care aide turnover was 34.17% in 2025 (HCS), down from 36.31% as pay rose 4.93%. The average sign-on bonus was $2,304.
+  - There is no controlled evidence that financial wellness alone cuts aide turnover. Pay and bonuses drive it.
+  - Comparable financial-coaching benefits cost about $3-$6 per employee per month (third-party estimate).
+- **MFA today is unverified.** Gust lists Myfinancialadvice Inc. (Boulder) and Online Advisor Central. The 2004 PlanSponsor article says the model was pre-screened advisors paid per session, including via plan-sponsor billing. Online Advisor Central launched in 2011 at $595 a year. No current status was found. Confirm with Ron what is still live, and what IP and entities he holds.
+- **MHC.** The NPI registry shows "MHC AREA 9, LLC" dba Choice Health At Home (Boca Raton, home health agency, active since 2019). Medicare certification wasn't confirmed by an official source.
+
+Ideas looked at and killed:
+- AI notetaker or CRM copilot: dead, because Jump, Zocks, Zeplyn and Finny already compete at $67-$195 a seat.
+- Standalone Marketing-Rule review or testimonial SaaS: the Wealthtender data shows the ceiling is about $0.3M at 450 advisors.
+- AI-search ("GEO") visibility for advisors: four funded vendors already.
+- Advisor speed-to-lead AI SDR: on the cliche list, and Zoe already runs outsourced business development for advisors.
+- NIL athlete wealth: advisors report accounts too small for minimums, and firms like EP Wealth and Oppenheimer already hire former athletes.
+
+---
+
+## 1. Heir Bridge: Gen Z-run next-gen onboarding for advisory firms
+
+- **One-liner:** A white-label, mobile-first "money moves" path advisors send to their clients' 18-30-year-old children, hosted by a Gen Z team, so the advisor knows the heir before the inheritance.
+- **Customer:** Owners and managing partners of AUM-model RIAs and wealth teams with $100M-$1B and mostly 55+ clients.
+- **Who pays / budget:**
+  - The firm pays from its client-experience and marketing budget: $299-$999 a month by firm size, or a $1,200 90-day pilot.
+  - At $500 a month, a $1M-revenue firm spends 0.6% of revenue on it.
+  - The owner signs.
+- **Problem:** Advisors assume they'll keep the heirs and are unacquainted with them. The kids ignore email and awkward family dinners. Heirs who leave often say they never knew the advisor.
+- **Solution:**
+  - The advisor sends a branded link. The heir gets 8-10 bite-size paths: first W-2 and 401(k)/Roth, credit and loans, rent vs buy, "what your parents' plan means for you", scams, and how to sanity-check AI money answers.
+  - Gen Z hosts deliver short video plus checklists.
+  - A "15 minutes with [Advisor]" button, and an engagement report for the advisor (heir consent).
+  - Education only, with a pre-approved content library built with Ron's compliance workflow. No personalized advice and no performance claims.
+  - Flat SaaS fee, not per converted client. That avoids promoter-compensation rules.
+- **Why now:** Wealth transfer is under way and the leave rates are measured. 2026 surveys show Gen Z wants a human to check AI. Only 14% of Gen Z had used a professional adviser, so heirs start from zero.
+- **Founder edge:**
+  - He is the persona, and can run 50 peer interviews in a week.
+  - He ships fast and can build a mobile web app plus content engine.
+  - Ron brings 24 years of advisor trust, and the advisors are his friends.
+  - The pilots can use real heirs.
+- **First 10 customers:**
+  - Ron hand-picks 25 RIA owners he's known for years and joins 20-minute calls.
+  - Pilot 1 is free for case-study rights. Pilots 2-4 are $1,200 each for 90 days.
+  - Each pilot gets 10-20 heirs.
+  - Month 4: convert at $500 a month, plus an ask for 3 peer intros each.
+  - Then FPA chapter talks and the NAPFA/XYPN member groups.
+  - A Colorado/Denver FPA chapter is the natural first room.
+- **Cost to first revenue:** about $2,500 (hosting, video tools, a lawyer's review of disclaimers and the heir-consent flow).
+- **Path to big:**
+  - Individual-focused SEC RIAs are about 8,000 of 16,544 (IAA 2026 snapshot, median AUM $447M). Assume 40% adoption at $6k a year, about $19M.
+  - Add state RIAs and IBD teams.
+  - Add enterprise tiers for TAMPs, trust companies and bank wealth arms at $50k-$200k.
+  - Add a paid heir tier that hands off to flat-fee planners.
+  - Honest ceiling: $20-50M a year. $100M needs the custodian or TAMP distribution deal.
+- **Who does it today:**
+  - EverFi NEXT (older advisor-delivered financial education).
+  - Everplans Network Amplifier (a "deputy" model that invites family members).
+  - HeirWealth (Australia).
+  - SS&C Black Diamond next-gen client portal segment.
+  - Custodian next-gen programs (TD/Schwab).
+  - Advisors host events by hand.
+  - None is Gen Z-native or sold as a managed program.
+- **Kill-switches:**
+  - Does Ron's circle actually pay $500 a month?
+  - Advisors may prefer to build it themselves, and would then pay for content only.
+
+## 2. CFP-Checked: the human validation layer for AI money answers
+
+- **One-liner:** A $29-$79 async second opinion. A young adult pastes a ChatGPT money plan into a structured intake, and a vetted CFP replies within 48 hours with fix, risk and next steps.
+- **Customer:** 18-34-year-olds and their parents. Later: neobanks, credit unions, employers and AI finance apps that need compliant human escalation.
+- **Who pays / budget:** The consumer by card now ($29-$79). Later B2B pays $15-$40 per validation or a per-seat fee out of customer-service and compliance budgets.
+- **Problem:** About a quarter of Gen Z and millennials who sought advice used AI, but only 14% of Gen Z used a professional. People want a check, and today the choices are a sales pitch, a $150-$400 session, or nothing.
+- **Solution:**
+  - An intake converts the AI transcript and basic facts into a one-page brief.
+  - The CFP works through a checklist (wrong assumptions, taxes, fees, missing risks) and replies in writing, with an optional 20-minute call.
+  - The platform runs the queue, a second-CFP spot check, disclosures and retention.
+  - **Legal premise to clear first:**
+    - Each CFP contracts with the consumer through their own RIA. The platform is software and billing.
+    - Counsel decides whether the platform is a promoter or needs state registration.
+    - Zoe registered as an RIA for this reason.
+    - Plan $2-4k of counsel before the first dollar.
+- **Why now:** Three 2026 surveys (Gallup, NY Life, SIFMA/KPMG) show use of AI and distrust in AI-only advice at the same moment. CFP Board is messaging "accountable human". A record class of young CFPs wants clients.
+- **Founder edge:**
+  - Gen Z distribution: school and college group chats, gaming and sports communities.
+  - AI building and QA, plus his detector work for flagging weak or invented numbers.
+  - Ron's pre-screened advisor model (MFA since 2004).
+- **First 10 customers:**
+  - Recruit 5 CFPs through Ron plus XYPN/FPA NexGen groups.
+  - Run 30 free reviews with friends and classmates to tune the brief.
+  - Then charge $29 for 10 paying customers in 30 days.
+  - Parents buy for their adult kids.
+  - Aim for 100 paid reviews by day 90.
+- **Cost to first revenue:** about $5,000 (counsel, Stripe, hosting, $500 ads).
+- **Path to big:**
+  - 18-29 US adults are about 45M. At 0.3% buying 1.5 reviews a year at $49, that is about $10M GMV and $3-4M of take at 35%.
+  - Venture scale needs the embedded B2B2C layer: banks, apps and employers pay per validation, and intros flow to flat-fee advisors.
+  - Heroic share is needed in B2C alone.
+- **Who does it today:**
+  - No exact match found.
+  - Adjacent: Ellevest sessions from $199; American Century $150; Ask Dolly (CFP chats, $59 a month); Nest Egg (on-demand advice through institutions, 10,000+ clients); Uprise (embedded human + AI advice); Range ($60M); Fruitful; Origin's AI advisor.
+  - Free: AUM advisors' "free second opinions".
+- **Kill-switches:**
+  - Young adults may not pay for a check that a second chatbot offers free.
+  - The platform could be classed as an adviser.
+
+## 3. Launch Season: pre-warmed household acquisition for advisors, triggered by senior year
+
+- **One-liner:** Parents of college-bound seniors buy a $149 "Launch Session" with a vetted flat-fee planner. Advisors buy exclusive local seats because these households (45-58, high income, 20+ years of runway) are the clients they want.
+- **Customer:** Parents of juniors, seniors and freshmen with household income over $150k, and local flat-fee or fee-only advisors.
+- **Who pays / budget:**
+  - Parents pay $99-$199 per session.
+  - Advisors pay $250-$500 a month for an exclusive territory seat. That is a flat seat fee, not contingent on conversion.
+  - Advisor budget line: the $3,800 median cost to acquire a client.
+- **Problem:**
+  - Standard leads are intent-based and expensive (5-10% conversion).
+  - Parents of seniors face a real, dated decision: aid letters arrive in March-April.
+  - New federal Parent PLUS limits apply to first disbursements on or after 1 July 2026: $20k a year and $65k aggregate. Families will need a plan for the gap.
+  - Admissions consultants ($850-$10,000) don't plan the money.
+- **Solution:**
+  - A "what our family did" content funnel from a real applicant.
+  - A free net-price and award-letter comparison worksheet (education, not securities advice).
+  - Upsell to a Launch Session. The advisor gets a structured intake the day before and covers college cost reality, the 529, the student's first accounts, a Roth for summer-job income, scam defense and the Parent PLUS gap.
+  - Marketing is to parents, never to minors.
+- **Why now:** The first cohort facing the Parent PLUS caps is the Class of 2027 (Asher's class). Award letters arrive March-April 2027, so he can sell from January.
+- **Founder edge:**
+  - He is living it: classmates' parents, school newsletters, team parent groups.
+  - A real applicant's voice has credibility that agencies lack.
+  - Ron staffs the planners.
+  - Timeline fits school-year hours.
+- **First 10 customers:**
+  - 10 parents of classmates and teammates by January at $149 is about $1,490.
+  - Ron's advisor (or one of his picks) takes the first territory seat.
+  - Then 18+ campus ambassadors in other schools, and PTA and counselor newsletters.
+- **Cost to first revenue:** about $1,500.
+- **Path to big:**
+  - Senior year is only the beachhead. The pool is about 3.7M seniors a year, perhaps 900k households above $150k, and 2% buying is 18k sessions or about $2.7M.
+  - Adding advisor seats (3,000 advisors x $400 x 8 months is about $9.6M) gets near $12M.
+  - The scalable version is the "premium agent seat" model for life events: new baby, home purchase, job change, inheritance, retirement date.
+  - Honest: venture scale only if two or three other events work. Otherwise this is a $3-12M seasonal business.
+- **Who does it today:**
+  - General lead-gen: SmartAsset ($25-$240 per lead), WiserAdvisor, Zoe, Broadridge.
+  - College-funding specialists (a small number of niche planners).
+  - Admissions consultants.
+  - 529 vendors.
+  - No one sells event-triggered, pre-paid, territory-exclusive households to advisors.
+- **Kill-switches:**
+  - The per-lead economics may not beat SmartAsset.
+  - Territory subscriptions must be reviewed so they are not "contingent" compensation.
+
+## 4. Graduation Desk: the Marketing-Rule-safe referral exchange
+
+- **One-liner:** AUM advisors "graduate" sub-minimum clients and specialty cases to flat-fee or hourly planners and receive a compliant referral share. The exchange builds in the written agreement, disclosure delivery, disqualification screen and $1,000-a-year ledger.
+- **Customer:** AUM-model RIAs with a tail of small clients, and flat-fee planners hungry for clients.
+- **Who pays / budget:**
+  - The receiving planner pays a fee per accepted client out of its client-acquisition budget.
+  - Benchmarks: Facet pays about 1x annual revenue to the sender; Zoe takes about 10 bps a year or a flat annual fee.
+  - Platform keeps 15-30% of the referral value.
+- **Problem:** Small accounts are a drag for AUM firms, and flat-fee planners can't find clients at a sane cost. When advisors do refer, they trip over disclosures, ineligible persons and state registration. The SEC flagged this in December 2025.
+- **Solution:**
+  - Web app: sender uploads an anonymized profile (client consent), gets matched on fee model, niche and state.
+  - Auto-generated promoter agreement and disclosure at the moment of referral.
+  - Disqualification check, compensation ledger and exam-ready archive.
+  - A "send back" trigger when a client crosses the sender's minimum.
+  - **Legal premise to clear first:** state solicitor or IAR registration and whether the platform is an "operator". It needs a securities lawyer, and possibly an RIA partner.
+- **Why now:** The December 2025 SEC risk alert, a record class of young CFPs, and PE roll-ups pruning small accounts (my inference).
+- **Founder edge:**
+  - Ron's compliance-product DNA (social-media compliance tech for advisors) and pre-screening practice.
+  - Both sides of the exchange are in his network.
+  - Asher builds the workflow quickly.
+- **First 10 customers:**
+  - Ron's 10 closest peers: 5 AUM firms with a tail of small clients, 5 flat-fee planners.
+  - Senders pay $0.
+  - Receivers pay $500 flat per accepted client at the start.
+  - Then XYPN/NAPFA/Garrett member communities.
+- **Cost to first revenue:** about $8,000 (counsel for templates and the state analysis).
+- **Path to big:**
+  - 16.5k SEC RIAs, assume 30% willing to send, graduating $30k of annual revenue each, is about $150M of annual referral value.
+  - At a 15% take, about $22M.
+  - Needs real sender penetration. Realistic $10-30M.
+  - The receiving capacity (XYPN is about 2,000 members and 100k households) is the constraint.
+- **Who does it today:**
+  - Facet Wealth (buys small books).
+  - Zoe Financial (advisor-paid referrals).
+  - Wealthtender and other compliance add-ons.
+  - Advisor-to-advisor referral groups run by hand.
+  - No neutral exchange with compliance rails found.
+- **Kill-switches:**
+  - Counsel says the platform needs to be an RIA or register in many states.
+  - Facet and Zoe may simply match any incentive.
+
+## 5. Frontline Money Benefit: flat-fee advice as an employee benefit for home-care workforces, piloting at MHC
+
+- **One-liner:** Home-health and home-care agencies add a "paycheck clinic" benefit: two free sessions a year with a vetted flat-fee planner, plus text Q&A. The agency pays per employee per month. MHC is the pilot.
+- **Customer:** Owners, HR and COOs of home-health, home-care and hospice agencies. Start with MHC's own Florida entities.
+- **Who pays / budget:**
+  - The agency pays about $4-$6 per employee per month out of its recruiting and retention budget. That is $24k a year for 400 staff.
+  - Retention math: aide turnover is 34.17%, and the average sign-on bonus is $2,304. One point fewer on 400 aides is about 4 hires, or about $9,200 in bonuses alone.
+  - This is not proven to hold. Pay drives turnover.
+- **Problem:** Agencies compete on a small hourly-pay band ($18.75 average at for-profit agencies) and need non-wage differentiators. Most workers don't know what benefits exist. The pitch they hear is earned-wage access.
+- **Solution:**
+  - Opt-in program built on MFA's old workplace channel.
+  - A text line plus quarterly 20-minute clinics (401(k) enrollment, debt triage, paycheck withholding, scam defense), bilingual.
+  - Aggregate-only reporting to HR.
+  - Advisors earn new households. Sessions have no sales.
+  - Employee data is Reg S-P and state privacy, not HIPAA. Don't touch any patient data.
+- **Why now:** Labor crunch, plus the 2025 turnover improvement came from wages and bonuses, which squeezes margins and pushes owners toward cheaper retention levers.
+- **Founder edge:**
+  - Grandfather owns MHC and mom works there, so there is an internal sponsor and a real pilot population.
+  - Ron's MFA sold advice with plan-sponsor billing back in 2004.
+  - Peers: an owner-operator's network of other agency owners.
+  - Confirm MHC's exact type first.
+- **First 10 customers:**
+  - 3-4 MHC entities (MHC Area 6, 9, 10 and others if they share ownership).
+  - Then 6 peer agencies via state home-care associations and the grandfather's introductions.
+- **Cost to first revenue:** about $2,000.
+- **Path to big:**
+  - The workforce is millions of direct-care workers (BLS count unverified here).
+  - 5M workers x $4 x 12 months is a $240M pool, and 10% of it is $24M.
+  - It extends to nursing homes, hospitals' aides and staffing firms.
+  - Honest: crowded, and the evidence is thin.
+- **Who does it today:**
+  - Brightside (5,000-employee minimum).
+  - Origin, Enrich (500 minimum), SmartDollar (coaching add-on at $67 a session).
+  - Your Money Line (about $3-$6 per employee per month), LearnLux.
+  - ServSafe-style benefit bundles ($6.99 per member per month).
+  - Earned-wage-access vendors pitched through home-care software.
+- **Kill-switches:**
+  - The retention benefit may not show up in the data.
+  - Small agencies may not pay beyond $2 per employee per month.
+
+## 6. Continuity Pact: the "if I get hit by a bus" network for solo and small advisors
+
+- **One-liner:** A members-only network of vetted peers who sign standard reciprocal continuity agreements. An AI-maintained "go-file" keeps each practice transferable, with a paid path to sale.
+- **Customer:** Solo and small RIAs, especially the flat-fee and hourly world (XYPN 2,000+, NAPFA about 3,500 in 2018, Garrett about 325 in 2013 and now member-owned).
+- **Who pays / budget:** The advisor pays $49-$149 a month, plus a 3-5% success fee on matched sales. It replaces consultants and legal fees they would not otherwise buy.
+- **Problem:** 44% of advisors have no succession plan. Kitces says the real exposure is sudden death or disability, when fees stop and clients leave. Buy-sell agreements with a local peer rarely work because buyers lack capacity.
+- **Solution:**
+  - Standard reciprocal continuity agreements with e-sign.
+  - "Go-file": AI assembles and keeps current the client roster, fee schedules, recurring tasks and tech logins, in a secure vault with a dead-man's switch.
+  - A registry of designated successors and a valuation estimator.
+  - Buyer matching, including young CFPs.
+  - Avoid funded buy-sell insurance (licensing).
+- **Why now:** Advisors 55+ are 42% of advisors and 57% of assets. 109,000 advisors are projected to retire 2024-2034, while 3,964 CFPs under 35 joined in 2025 alone.
+- **Founder edge:** Trust is the product and Ron has 24 years of it. Asher builds the vault and the matching quickly.
+- **First 10 customers:** Pair 5 older and 5 younger advisors from Ron's circle. The first pact is the first paid membership at $99 a month.
+- **Cost to first revenue:** about $5,000 (attorney for agreement templates).
+- **Path to big:**
+  - 5,000 members x $1,200 is about $6M.
+  - Add 300 matched deals a year at $700k x 4% is about $8M.
+  - Honest ceiling: $10-15M.
+- **Who does it today:**
+  - FP Transitions (about 9,000 valuations and 1,500+ transactions).
+  - Succession Resource Group.
+  - Advisor Transitions.
+  - Custodian succession programs.
+  - Outsourcing platforms that buy practices.
+  - Peer buddy arrangements run by hand.
+- **Kill-switches:** Advisors procrastinate on this by nature, and the recurring fee may not hold.
+
+## 7. Plan Factory: AI-drafted, advisor-signed plan production for solo flat-fee advisors
+
+- **One-liner:** Advisors upload the meeting transcript and planning-software export and get a client-ready plan draft, summary letter and action checklist within 24 hours, priced per plan.
+- **Customer:** Solo and small flat-fee or hourly planners delivering 30-150 plans a year.
+- **Who pays / budget:** The advisor pays $149-$349 per plan or $499-$1,499 a month, instead of a $77,751 average paraplanner salary (SmartAsset, Sep 2025) or 6-15 hours of their own time.
+- **Problem:** Notetakers (Jump, Zocks, Zeplyn) save meeting notes, but plan writing is still manual. Solos can't afford a paraplanner.
+- **Solution:**
+  - An AI pipeline drafts the plan from the exports.
+  - A human QA layer of CFP-track Gen Z reviewers.
+  - The advisor signs off.
+  - Reg S-P vendor due-diligence pack, NDAs, and retention under the advisor's records policy.
+- **Why now:** Notetakers are commoditized, so the next workflow is plan writing. About 11,000 CFP candidates a year create trained labor.
+- **Founder edge:** His multi-agent pipelines and QA experience. The trust barrier is high for a regulated buyer, so Ron's endorsement is essential.
+- **First 10 customers:** 5 flat-fee friends of Ron at $149 a plan for 3 plans each, then XYPN communities.
+- **Cost to first revenue:** about $3,000.
+- **Path to big:**
+  - 7-10k reachable solos x $6k a year is $40-60M if they all bought, so realistically $5-10M.
+  - It needs labor leverage to go further.
+- **Who does it today:**
+  - Valenta (US RIA virtual planning plus automation).
+  - Commonwealth's Virtual Paraplanning Program (captive).
+  - Vela and other virtual paraplanning firms.
+  - Holistiplan (tax-return analysis).
+  - Jump, Zocks and Zeplyn (adding agentic features).
+- **Kill-switches:** Crowded, and notetaker vendors are moving into plan drafting.
+
+## 8. Creator Desk: pre-cleared Gen Z finance creator campaigns for advisors
+
+- **One-liner:** A done-with-you service where advisors sponsor 18+ finance creators under Marketing-Rule paperwork, with disclosures baked into the video and an exam-ready archive.
+- **Customer:** Growth-minded RIAs and flat-fee firms spending on social. Creators are 18+ only.
+- **Who pays / budget:** The advisor pays a campaign fee, with the platform taking 15-20% of creator fees. It comes from the 2-12% of revenue spent on marketing.
+- **Problem:** The SEC's December 2025 alert shows advisors already use creators, but without proper agreements or disclosures. Fundrise paid over $8M to over 200 creators, then settled with the SEC.
+- **Solution:**
+  - A vetted creator roster, templates with in-video disclosures, and promoter agreements.
+  - Bad-actor screening and a $1,000-a-year ledger.
+  - A content archive for exams.
+  - **Legal premise to clear first:** whether paying creators for referrals needs IAR registration in each state, versus pure advertising.
+- **Why now:** The SEC alert, Gen Z's shift to video, and the Fundrise precedent.
+- **Founder edge:** Gen Z creator network in his world. Ron's compliance workflow background.
+- **First 10 customers:** 3 of Ron's marketing-minded peers plus 3 young CFP creators.
+- **Cost to first revenue:** about $6,000.
+- **Path to big:**
+  - Unknown spend pool. A guess of 5% of advisor direct marketing going to creators is a low-single-digit $M platform.
+  - Honest ceiling: $5-10M.
+- **Who does it today:**
+  - Generic influencer platforms and compliance tools (HypeAuditor, Sedric).
+  - Advisor marketing agencies (Twenty Over Ten, Snappy Kraken).
+  - Wealthtender (reviews only).
+  - No advisor-specific creator marketplace found.
+- **Kill-switches:** Legal fragility and a thin pool. Treat as a distant option.
+
+---
+
+## Sources (key pages)
+- WealthManagement "A Trail of Broken Funnels" (lead pricing); Kitces on CAC (secondary reports)
+- SEC risk alert summaries: Nelson Mullins, Willkie, ACA, Mintz (Dec 2025 alert)
+- Kitces on promoters and solicitors: kitces.com/blog/ria-compliance-sec-marketing-rule-solicitor-promoter-disclosure-registration-requirements-paid-referral/
+- Zoe: fintech.global (Series B); Range: scalevp.com press; Facet: Advisor Perspectives 2018
+- Wealthtender: WealthManagement.com profile
+- Gallup/Edward Jones via AP (Aug 2026); NY Life via BusinessWire (Sep 2026); SIFMA/KPMG VISTA (Oct 2026)
+- CFP Board: record growth (Jan 2026); Gallup coverage; AI-advice losses (Sep 2025)
+- IAA 2026 Investment Adviser Industry Snapshot
+- Janus Henderson (succession); AssetMark 2025; Kitces (succession "mirage", 2012)
+- HCS/Home Health Care News (Nov 2025); Your Money Line; ServSafe Benefits
+- Parent PLUS changes: The College Investor, StudentLoanPlanner
+- Gust / PlanSponsor / advisors4advisors on MFA and Online Advisor Central
