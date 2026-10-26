@@ -683,3 +683,39 @@ Paused at your request to wait for the weekly usage reset (about 50% of the week
 
 ## ✅ Search complete (24 Oct 2026)
 **About 2,250 agent runs across both rounds**, every one on Sonnet 5.5, with Opus orchestrating. Final answer: **C10 Signed-Off v2 · C13 Run-Base Shrinker v2 · C03 HCBS Operations Utility · C16 Regional Partner Group · C09 Stafette**, plus 3 contrarian bets. Each finalist is a conditional bet, decided by a dated, cheap test in the next 2-4 weeks.
+
+---
+
+## Round 3 (25 Oct 2026): what can an 18-year-old actually start? (`wf_213505ed-f78`)
+- **Your ask:** "screen all 1,768 ideas and, or even come up with new ones... go ham... find something amazing", with a cap of **85% weekly**. The meter read **43%** at launch.
+- **Why a round 3:** the final 5 all need an industry insider co-founder and serious capital. This round re-asks the question for **you specifically**:
+  - 18, an AI-fluent builder with 10-15 hours a week during school;
+  - a mentor who founded a ~$1B AV integrator, plus a family network;
+  - a Gen Z world;
+  - an already-built freight-audit service;
+  - no licenses and no enterprise credibility yet.
+- **Rubric:** a paying customer within about 60-90 days for under about $10k; buyers who would buy from an 18-year-old; no license wall; it uses your real edges; a path to big; and uncrowded.
+- **Guardrails:** legal and ethical for an 18-year-old (no real-money gambling, no regulated advice, no cheating tools, nothing targeting minors).
+- **Design (one workflow, an 8-agent limit, all Sonnet):**
+  1. **Screen:** 12 agents score all 1,768 earlier ideas (teen-feasibility and upside) and nominate up to 8 "teen versions" each.
+  2. **Generate**, in parallel: 16 lens-specific generators, 8 web-grounded ideas each. The lenses:
+     - AI-builder SaaS
+     - agent-economy tools
+     - Gen Z life
+     - the college-admissions world
+     - local operator
+     - contingency audits in other verticals
+     - your own built assets
+     - the mentor's AV and family network
+     - "being 18 as an advantage"
+     - Reddit/HN demand signals
+     - pattern transfer
+     - wedges into round 2's money pools
+     - creator/media
+     - weird-but-viable
+     - 2026-27 rule deadlines
+     - AI-edge arbitrage
+  3. **Select:** 3 selectors (operator, investor, contrarian) score the merged list, and the top 36 by votes go on.
+  4. **Gate:** 36 adversarial web checks (competitors, reachability, age and legal blockers, size), followed by a chief selector who picks 8-10 finalists.
+  5. **Deep validation per finalist:** a dossier, 2 critics (market and founder-fit/legal), a no-shrink rewrite with a 30-day plan and 10 first customers, and 3 calibrated judges.
+  6. **Final:** 3 rankers force-rank the finalists, and a memo writer produces `round3/FINAL.md`.

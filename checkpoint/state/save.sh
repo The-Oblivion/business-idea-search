@@ -13,6 +13,7 @@ mkdir "$LOCK" 2>/dev/null || { echo "save already running; skipped"; exit 0; }
 trap 'rmdir "$LOCK"' EXIT
 bash "$BIZ/export_checkpoint.sh" >/dev/null
 [ -d "$BIZ/round2" ] && rsync -a --exclude 'work/' "$BIZ/round2/" "$REPO/round2/"
+[ -d "$BIZ/round3" ] && rsync -a "$BIZ/round3/" "$REPO/round3/"
 cd "$REPO" || exit 1
 git add -A
 if git diff --cached --quiet; then echo "nothing new to save"; exit 0; fi
