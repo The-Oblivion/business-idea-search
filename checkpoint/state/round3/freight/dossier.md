@@ -1,0 +1,126 @@
+# Dossier: LTL freight-invoice audit for small and mid-size shippers
+
+Research date 2026-10-25. About 40 searches and fetches. Evidence tags: **[P]** primary (statute, regulation, carrier or company's own page), **[S]** secondary or dataset with a stated method, **[V]** vendor claim, **[est]** my calculation or inference. Where a site blocked my fetcher I say the figure comes from a search summary. The project's own FACT-CHECK found search summaries inventing quotes, so those items are weak.
+
+## 1. Verdict
+
+The problem is real and the law is on the shipper's side, but three things limit this as a business.
+
+1. **The front door is crowded and free.** Every LTL-capable firm I could read that states its model offers a path with no fee before recovery. A free tool from Warp, a free tier from LanePilot and a "first audit free, 15%" shop (Eller) all sit in the exact niche. The $500 diagnostic is an outlier. The project's own offer-v2 research (2026-10-25) reached the same conclusion, and my check agrees.
+2. **Unit economics are thin at the small end.** My model (section 3): a shipper with $100k of LTL spend yields about $300 a year in fees at a central case. A $1M shipper yields about $3,000. About 20 such clients make roughly $60k a year before carrier denials.
+3. **Nothing is validated.** Revenue is $0 and the project's own playbook says no cold calls happened in 2.5 months. Recovered dollars per client-month and whether strangers send invoices are both unknown.
+
+My call: **viable side income, unproven as a scalable company.** It is worth a six-week test only if the front door becomes free-first or contingency-only, the target moves to $500k–$5M LTL spend, and a data-asset path (section 9) is designed in from the start.
+
+## 2. Competitors serving small and mid shippers
+
+| Firm | Serves | Price | Source |
+|---|---|---|---|
+| Eller Audit | Two-founder AI plus contract specialist; all modes | First audit free; **15% fixed**; claims rivals charge 30–50% (unsupported) | [P](https://www.elleraudit.com/savings-calculator), [LTL page](https://www.elleraudit.com/ltl-freight-audit) |
+| Lojistic | Self-serve; audit covers LTL | **Free forever** audit with 100-day history; contingency 29%, or $99/mo + 19%, $389/mo + 9%, $5,959/mo + 0% | [P](https://lojistic.com/pricing) |
+| LanePilot | Small/mid manufacturers and distributors; one named founder, Erie PA | Free: 5 quotes, 7 audits/month; dispute letters included; "does not file on your behalf"; paid prices unlisted | [P](https://lanepilottech.com/) |
+| Warp | Free reweigh/reclass checker against your BOL | Free | [P](https://www.wearewarp.com/tools/reweigh-reclass-audit) |
+| AFS Logistics | "Big and small" | Post-audit, no price; claims up to 8% of spend; 1,800 clients, 380 staff | [P](https://afs.net/service/post-audit/) |
+| WAI, Goodman-Reichwald-Dodge | Small contingency post-audit shops | "Percentage of amount recovered," unstated | [P](https://waionline.com/freight-post-audit); [GRD](https://www.freightbillauditor.com/PostAuditServices) (read by offer-v2, not re-fetched) |
+| TLI, GLT, Auditec | Mid shippers, forwarders | Quote or free look; TLI wants an NDA plus 3 months of invoices | read in project's [offer-v2](/Users/asherperemel/projects/freight-audit/research/gtm-oct/offer-v2.md) |
+| Loop | Enterprise; $95M Series C Apr 2026; about $44M ARR (Sacra estimate) | Undisclosed | [S](https://sacra.com/c/loop) |
+| Cass, Intelligent Audit, CT Logistics | Enterprise | Undisclosed | project research |
+| Lighthouz AI (YC S24) | Brokers, LTL and FTL bill audit | Seed stage | [V](https://ycombinator.com/companies/lighthouz-ai) (search summary) |
+
+- **Not LTL competitors:** Refund Retriever (UPS/FedEx, 40–50% ladder) and ShipScience (parcel, 35%), per pages read by the project's offer-v2 and not re-fetched by me: [Refund Retriever](https://www.refundretriever.com/pricing/), [ShipScience](https://www.shipscience.com/pricing/).
+- **Built-in audit:** FreightPOP has an audit module aimed at larger buyers. I could not confirm audit in Freightview, Shipwell or Freightquote. 3PLs such as TI and CT bundle audit into managed transportation.
+- **Carrier-side location data:** Shiplify says 21 of the top 25 LTL carriers use its accessorial and location database ([V](https://blog.shiplify.com/shiplify-help/location-lookup-tool-empower-shippers)). It partnered with FreightSnap on 2026-07-01 ([V](https://freightsnap.com/freightsnap-and-shiplify-partner-to-build-greater-trust-in-ltl-freight/)). This is a risk to the "accessorial never rendered" thesis, because carriers may increasingly pre-validate location-type fees. Its claim is unverified.
+- **Free-tier history gap:** Lojistic's free plan keeps 100 days of data, shorter than the 180-day claim window. Paid tiers keep 5 years.
+- **Minimums:** none published for small shippers. A search summary of Inbound Logistics (page blocked) puts outsourcing thresholds between $500k and $10M, so treat as noise.
+- **Fee norm in the wider category:** AP recovery audits charge [20–30%](https://www.apexanalytix.com/resources/blog/recovery-audit-cost/) [V]. A Texas Comptroller report cites an [industry average of 20–40%](https://fmx.cpa.texas.gov/fm/audit/recovery/rpt2014/Recovery_Audit_2014.pdf) [S, 2014]. So 20% is in range, and 15% (Eller) undercuts it.
+
+## 3. How many shippers, and what a client is worth
+
+**No source publishes a count.** What exists:
+
+- US LTL revenue was **$51.8B in 2025**, down from a $58.7B peak in 2022, with 649,796 average daily shipments (SJ Consulting via [JOC](https://magazine.joc.com/july-6-2026/0109987001782412674/p34) and Supply Chain 247; fetch blocked, from search summaries).
+- XPO reported **38,000 LTL customers and $4.8B revenue** in 2025 ([XPO deck](https://investors.xpo.com/static-files/534c0d3b-fb12-480a-b1cc-4242f31a917b); blocked, search summary). That is about $126k per customer [est].
+- NAM says [74% of US manufacturers have under 20 employees](https://nam.org/member-services/smm-membership/) [P]. A NAM sheet citing Census puts firms at about 239,000 (search summary), so roughly 62,000 manufacturers have 20 or more employees [est].
+- Revenue per shipment is about $320 ($51.8B ÷ 649,796 × 250 days) [est]. So $100k is about 6 shipments a week and $5M is about 63 a day.
+
+**My triangulation [est]:** XPO holds about 9% of US LTL revenue. Scaling its customer count implies roughly 410,000 carrier-customer relationships, or 80,000–140,000 distinct LTL shippers at 3–5 carriers each. The mean is then $370k–$630k, and the median is far lower. I put the $100k–$5M band at **roughly 25,000–70,000 shippers**, of which perhaps 10,000–30,000 spend over $500k. Treat this as order of magnitude. Market size is not the constraint, since the business needs 20–100 clients. Reach and trust are.
+
+**Per-client fees [est, before carrier denials, 20% fee]:**
+
+| LTL spend | Recoverable 0.5% / 1.5% / 3% | Annual fee | One-time backlog fee (180 days) |
+|---|---|---|---|
+| $100k | $500 / $1.5k / $3k | $100 / $300 / $600 | $50 / $150 / $300 |
+| $500k | $2.5k / $7.5k / $15k | $500 / $1.5k / $3k | $250 / $750 / $1.5k |
+| $2M | $10k / $30k / $60k | $2k / $6k / $12k | $1k / $3k / $6k |
+
+Two corollaries. The window is rolling, so the "backlog" is only six months and the rest is ongoing monthly work. And the $500 diagnostic rarely clears $500 of findings below about $400k of spend: one month at $100k spend is about $8k, so 1.5% is $125. The contract already makes the $500 owed only if findings reach $500 ([contract](/Users/asherperemel/projects/freight-audit/contracts/engagement-terms.md)), so in practice it is a contingent fee with a floor.
+
+## 4. Error and recovery rates
+
+| Figure | Source | Grade |
+|---|---|---|
+| **4.5% of about 250,000 LTL invoices had errors** (11,881). Mix: accessorials 42.8%, fuel 14.4%, class 12.3%, discount/minimum/rate 10.3%. The count implies about 264,000 invoices, so the numbers do not quite reconcile. | [AFS blog, Mar 2024](https://afs.net/blog/stats-incredible-common-ltl-invoice-errors/) | S, best available; AFS client invoices, no period |
+| Median recovery **2–5% of annual LTL spend**; class-error win rate 70–82%, accessorial 60–75% | [Eller LTL page](https://www.elleraudit.com/ltl-freight-audit) | V, win rates unsupported |
+| LTL recovery 3–7% of spend; spot check catches about 40% of a full audit | [Warp calculator](https://www.wearewarp.com/tools/freight-audit-savings-calculator) | V, unnamed benchmarks |
+| Average invoice inaccuracy **20.8% across all modes**, self-reported, n=77, "small" means under $500M revenue | [JOC 2020](https://www.joc.com/sites/default/files/u45421/Whitepapers/Freight-Payment-report-78441.pdf) | S, weak, large shippers |
+| "80% of carrier invoices contain errors," "10% of spend lost" | [Loop site](https://www.loop.com) | V, marketing |
+| 25% of shipments re-rated at some shippers; one cut re-rates to 1% with a dimensioner | [ODFL](https://www.odfl.com/us/en/resources/OD-Outlook/Accurate-Freight-Data-in-LTL-Shipping.html) | P/anecdote |
+| 13.2% LTL spend cut, 35% fewer reclass disputes (bundled with process changes) | [Intelligent Audit](https://www.intelligentaudit.com/case-studies/reducing-ltl-spend-through-freight-class-accuracy-and-audit-controls) | V |
+
+**Inference [est]:** if 4.5% of invoices carry an error worth 10–25% of a roughly $320 invoice, errors equal 0.5–1.1% of spend. That sits under the vendor 3–8%. Plan on **0.5–3%**, and let the first three teardowns settle it. I found **no published carrier claim-approval rate** and no independent LTL study.
+
+## 5. How these shippers buy, and who signs
+
+- JOC's 2020 survey (n=77): the decision-maker on audit/payment technology was logistics and finance together (60.5%), logistics alone (27.9%) or finance alone (11.6%). Nearly two-thirds outsource audit or payment. Small and mid shippers reported **$19.49 to process an invoice versus $10.74 for large shippers**, and in-house $18.32 versus outsourced $6.26 ([JOC](https://www.joc.com/sites/default/files/u45421/Whitepapers/Freight-Payment-report-78441.pdf)). "Small" there means under $500M revenue, far larger than Asher's targets.
+- No source covers owner-run $5–100M manufacturers. My inference: a traffic or shipping manager evaluates, the owner or controller approves, and at the smallest firms they are one person.
+- **Data access is the barrier.** TLI wants an NDA plus three months of invoices first (per offer-v2). Eller and the project's offer lower this with a free first look.
+- **Carriers force an agency structure.** TForce says [only the payer of the original charges can file](https://www.tforcefreight.com/ltl/apps/OverchargeClaimInformation). XPO needs the invoice paid, the BOL and delivery receipt, and accepts up to 100 PROs per submission ([XPO, Feb 2026](https://www.xpo.com/cdn/files/s1/Overcharge_Claim_Process_02-24-26.pdf)). So a signed authorization and filing in the client's name are required, as WAI does.
+- Reach channels already researched in the project: MEP centers, trade associations, fractional CFOs. My inference: Asher's mentor (an AV-integration founder) is the strongest credibility transfer, since AV racks and displays are heavy, commercial-dock LTL freight. That fit is unverified.
+
+## 6. Can an 18-year-old credibly sell this?
+
+**Yes to owner-run shippers under $5M, with evidence instead of a résumé.**
+
+- The closest analogs lean on experience Asher lacks: Eller cites 20 years of Fortune 500 contract work ([site](https://www.elleraudit.com/)), LanePilot "nearly a decade inside LTL freight." He needs substitutes: a free teardown on the prospect's own invoices, a published technical reference, and tools that run locally. The project has these. One edge is checkable: the NMFC density scale changed on 2025-07-19, and the project's FACT-CHECK found its own playbook table stale, so any tool must use the new 13-tier scale.
+- **Why contingency helps:** it caps the buyer's risk at time and data, which is the only thing a skeptical owner loses. It is also the category norm (section 2). It does not remove the data-sharing worry, so the NDA and "nothing leaves your machine" point matter.
+- **Licensing:** the broker definition in [49 CFR 371.2](https://www.law.cornell.edu/cfr/text/49/371.2) covers arranging transportation. Pure invoice auditing does not arrange it, so I found no licence requirement, but this is my reading, not legal advice. Do not add booking or carrier selection.
+- Age of majority is 18 in most states but [19 in Alabama and Nebraska and 21 in Mississippi](https://www.policygenius.com/estate-planning/age-of-majority-by-state/) (secondary source). Check Asher's state.
+- Not credible: enterprise or regulated buyers, and any claim of clients or references.
+
+## 7. The legal points
+
+- **180 days.** [49 USC 13710(a)(3)(B)](https://www.law.cornell.edu/uscode/text/49/13710) [P]: "A shipper must contest the original bill or subsequent bill within 180 days of receipt of the bill in order to have the right to contest such charges." Subparagraph (A) holds carriers to the same 180 days for extra charges, and (a)(1) lets the shipper demand the rate, classification, rules and practices behind a charge.
+- ***Southern Furniture Leasing v. YRC*, 989 F.3d 1141 (10th Cir. Mar. 3, 2021)** affirmed dismissal of a putative overcharge class action on the 180-day ground ([Leagle](https://www.leagle.com/decision/infco20210303045), opinion text blocked; holding from a Justia summary). The window is enforced even against class claims.
+- **Part 378.** Carriers acknowledge within 30 days ([§378.7](https://www.law.cornell.edu/cfr/text/49/378.7)) and "pay, decline to pay, or settle" within 60 days, with written reasons ([§378.8](https://www.law.cornell.edu/cfr/text/49/378.8)). Carrier pages drift from this. XPO says 60 days. TForce says "pay, refuse or amend within 120 days," and counts receipt as 10 days after tender, which shortens the shipper's clock. XPO requires prior payment.
+- **§14101(b) waivers.** Parties may ["expressly waive any or all rights and remedies under this part"](https://www.law.cornell.edu/uscode/text/49/14101) in writing, except registration, insurance and safety fitness. I found **no decision** applying a waiver to the 180-day window. Eller's page says carriers cannot contract below 180 days, which I could not verify given this clause. Read every pricing agreement for waiver language before promising a deadline.
+- **Suit deadline.** [§14705(b)](https://www.law.cornell.edu/uscode/text/49/14705): 18 months to sue, a different clock from the 180-day contest.
+- **NMFC.** Docket 2025-1 (effective 2025-07-19) introduced a 13-tier density scale. ODFL reports about 2,000 items moved to density-only and NMFTA expects 70–80% of freight to be density-classed ([ODFL](https://www.odfl.com/us/en/resources/OD-Outlook/Accurate-Freight-Data-in-LTL-Shipping.html)). More freight is now decided by measured dimensions, which raises the value of the shipper's own dimension evidence.
+
+## 8. Can AI audit the unstructured documents?
+
+**Yes in principle, and it is the strongest differentiator. It is not yet proven in practice.**
+
+- **Why documents matter:** carriers require the BOL and delivery receipt to pay a claim (XPO above). A rate-file check cannot say whether a liftgate was used. Loop says it uses LLMs to ingest documents and reconcile them to contracts, but publishes no accuracy data ([Sacra](https://sacra.com/c/loop)).
+- **Capability:** an AIMultiple test of 14 models on 100 cursive samples scored Gemini 3 Pro Preview at 100% semantic similarity, with GPT-5 and olmOCR-2 also in the top group ([benchmark](https://aimultiple.com/handwriting-recognition); small, similarity-based). A search summary of [arXiv 2502.20295](https://arxiv.org/abs/2502.20295) puts the best model's character error at about 6–9% on historical multi-page handwriting (I could not confirm the figures from the abstract). I found **no freight-specific benchmark** for signatures, driver notes or stamps. A hand-labelled test set of 100–200 PODs would be Asher's first proof point.
+- **Limits:** the shipper must obtain the PODs. The carrier's scale and dimensioner record controls reweighs, and a carrier executive told [FreightWaves](https://www.freightwaves.com/news/ltl-suit-against-yrc-spotlights-reweighing-practices) that reweighs rarely favor the customer. Shiplify sells its location data to carriers. AI should draft findings, and a human should approve each claim.
+- **Whitespace, partly:** Lighthouz targets brokers, Loop targets enterprise, and LanePilot checks invoices against quotes and drafts dispute letters for small shippers. I found no one positioning document-grounded accessorial verification for direct shippers in the $500k–$5M band, but Eller's LTL page already lists "accessorial billed without BOL evidence" as a failure mode. This is a differentiator in degree, not in kind.
+
+## 9. Service to scalable product or data asset
+
+1. **Service (0–10 clients).** The audit engine already has about 20 checks and a large test suite.
+2. **Self-serve plus paid dispute packets.** Lojistic's ladder (a monthly fee buys down the contingency rate) and LanePilot's free tier are the templates. Free audit, paid filing, contingency on large claims.
+3. **Data assets.** Shiplify sells location data to 21 of 25 carriers (claim). Cass publishes a [monthly freight index](https://cassinfo.com/freight-audit-payment/cass-transportation-indexes/may-2024) built from its payment data. Loop raised $95M as a "Logistics Data Platform." Candidates for Asher [est]: (a) a **claim-outcome database** (carrier × reason × evidence × result × days to pay), (b) a quarterly **carrier accessorial-error benchmark**, usable as PR and lead generation, (c) a labelled BOL/POD corpus.
+4. **Blocker:** the current contract promises not to use client data for other clients ([contract](/Users/asherperemel/projects/freight-audit/contracts/engagement-terms.md)). Add a de-identified aggregate-use clause now, before client one.
+5. **Exits:** consolidators buy platforms, as in Cass/AcuAudit ([Jan 2025](https://www.freightwaves.com/news/cass-acquires-ocean-airfreight-audit-platform)), Trax/EM6 (Nov 2025, search summary) and AFS/DTA (2022). I found no multiples. A 30–50 client recovery shop is more likely to be a tuck-in or acqui-hire than a platform.
+
+## 10. Test before committing
+
+Six weeks inside his 10–15 weekly hours. Email 40 verified prospects, then call. Offer a free first look, with 20% on recovery and no fee before it. Get three invoice sets. Measure **collectible dollars per client-month and days to carrier decision**. Continue if at least two of three clients show 1% or more of spend collectible (about $170 a month in fees at $1M spend). Stop or reshape if the median is under 0.5%. The project's playbook expects roughly one invoice-sender per 40 prospects (range 0.4–3 per 40), so three sets needs about 120 contacts at the central rate.
+
+## 11. Gaps
+
+- No published count of US LTL shippers by spend band, and no claim-approval rate. Both come only from the first clients.
+- Industry revenue, shipment counts, the NAM firm count and XPO figures come from search summaries because the pages blocked fetches.
+- No ruling on §14101(b) waivers and the 180-day window.
+- LanePilot's team size, traction and paid prices are unknown.
+- The mentor-network fit and the 25,000–70,000 shipper band are my inferences.
