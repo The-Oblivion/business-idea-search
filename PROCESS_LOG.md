@@ -753,3 +753,29 @@ Paused at your request to wait for the weekly usage reset (about 50% of the week
   1. Desk-research agents with adversarial critics are very good at finding reasons an early idea fails. Many great companies looked like bad ideas at founding, and this method would have killed some of them too.
   2. Anything a teen can launch quickly with AI, everyone else can too, so the moat has to come from **access** (customers, an industry, relationships) and **execution**, not from the idea.
 - **So the highest-value move for Asher is to go get insider access by doing.** Make the freight-audit calls, use the mentor for introductions, and work inside an industry this summer. Build for problems seen first-hand there; that is how round 1's best ideas (the insider personas) were made.
+
+---
+
+## Round 4 (26 Oct 2026): the insider-access search (`wf_b7582fc4-88a`)
+- **New information from you:**
+  - Your grandpa founded and owns **MHC Healthcare**, and your mom works there.
+  - Your dad, **Ron Peremel**, founded **MyFinancialAdvice** (2001, an advisor platform plus social-media compliance tech) and co-founded the **Annapolis Baygrass Music Festival** (2022, IBMA 2026 Event of the Year nominee). Both verified via the Gust profile and festival press.
+  - **MHC Healthcare could not be verified.** The best lead is Florida Medicare-certified home-health agencies registered as "MHC Area 6/9/10, LLC". Round 4 treats MHC as a likely Florida home-health operator and adds one general healthcare-operations lane in case it's something else.
+- **Why this matters:** every war-game in rounds 2-3 said "start only with an insider". The family companies can be the first customer, the pilot site with real workflows, and warm doors to their peers.
+- **Judgment call: a lean run, to respect the 85% cap.** The meter read **weekly 77%** (cap 85%, reset in about 12.7 hours) and the **5-hour window 61%**. A full round 4 (about 8-10%) would break the cap, so this run does the following:
+  - **Skips the re-screen** of the 1,768 old ideas (round 3 already screened them).
+  - **12 insider-lens generators:**
+    - home-health COO
+    - home-health revenue (RCD, PDGM, Medicare Advantage denials)
+    - home-health workforce
+    - general healthcare operations
+    - advisor marketing compliance
+    - advisor growth
+    - festival operations
+    - freight cross-sell
+    - cross-family combinations
+    - insider personas
+    - insider demand signals
+    - the "big" version
+  - Then 3 selectors, a **16-idea evidence gate**, **4 finalists** with full deep validation (dossier, 2 critics, rewrite, 3 judges), 3 rankers and a memo (`round4/FINAL.md`).
+  - It can be widened after the weekly reset.
