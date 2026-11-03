@@ -789,3 +789,10 @@ Paused at your request to wait for the weekly usage reset (about 50% of the week
 - **Finding:** family access lifts realistic medians **5-100x** over round 3's solo-teen ideas ($0.7-1.5M versus $0.01-0.3M). But nothing is "strong" yet, and everything still assumes MHC is a home-health operator, which is **unverified**.
 - **What failed:** the 4 deep-research agents, 3 rankers and the memo all failed on "OAuth token revoked" when the login expired mid-run. Nothing was lost; the journal was kept.
 - **Paused:** the meter read **weekly 85% = your cap** (reset at 4pm ET today). A resume script is ready: `next_steps/r4_deep_only.js` (default finals F01-F04; it reads `round4/finalists.json`, then runs deep validation, ranking and `round4/FINAL.md`).
+
+### Round 4 result (2 Nov 2026, `wf_92cbc578-9a9`): 32/32 agents, 4.6M subagent tokens
+- **All 4 finalists died** (alive=false, judges at 2.0/10). Rankers' order: F02 Ground Truth Ledger and F04 Day-90 Aide Network (tied at a 1.67 mean rank), then F01 MA Yield, then F03 CareFund.
+  - Memo pick: F04 as a 30-day, about-$550 test only. But federal recruit-for-a-fee rules (8 CFR 274a.1) and Florida nurse-registry licensing are both open problems.
+- **The key discovery: the premise was wrong.** The researchers opened mhcorp.com, and I verified it myself on 11/2. **MHC HealthCare = Maryland Healthcare Clinics LLC, a 130+ location accident and personal-injury treatment chain** (orthopedics, neurology, physiatry, PT, radiology) across DE, FL, MD, NC, VA and DC, operating since 1987, with its own patented EMR and report system. It is **not home health**, so round 4's home-health ideas were aimed at the wrong business.
+- **Every refiner again said:** make the freight-audit calls first. Use MHC as a "customer-zero discovery source" (ask the operator its top 3 operating problems, and shadow billing and operations next summer), not as a pilot site for invented ideas.
+- **Next:** a round 5 re-aimed at the real insider position (the personal-injury medical world), to start in a fresh chat. Handoff: `~/Downloads/PROMPT-business-idea-search-round5-2026-11-02.md`.
