@@ -1,0 +1,100 @@
+# F02 dossier: Ground Truth Guild / Ledger (expert-graded evals for back-office AI)
+
+**Verdict: WEAK, and closer to "dead as framed" than the gate said.** The one real gap is that nobody publishes an independent accuracy test of AI OASIS tools. But that gap is small, its natural payer (the AI vendors) has little reason to buy honest scores, and every route to "big" runs through a lane someone with far more money already holds. The idea survives only as a three-week buyer-demand test, described in section 9. Items I could not verify are marked as such. Arithmetic marked "mine" is my own estimate, not a sourced figure.
+
+## 1. Gate zero: MHC is probably not what the brief assumes
+
+- The federal provider registry lists **MHC AREA 6, LLC** (Riverview) and **MHC AREA 9, LLC** (Boca Raton) as home-health agencies. Both show the doing-business-as name "Choice Health at Home", a Tyler, Texas mailing address, and the same authorized official (Katrina Lanier, Secretary). Both records were updated 2026-04-17. [Area 9](https://npiregistry.cms.hhs.gov/api/?number=1245899020&version=2.1), [Area 6](https://npiregistry.cms.hhs.gov/api/?number=1932661725&version=2.1)
+- Choice is a PE-backed Texas chain run by CEO David Jackson ([Trive Capital deal](https://prnewswire.com/news-releases/trive-capital-partners-with-choice-health-at-home-301358971.html)). Its Florida entry was announced in early 2026 as the purchase of Senior Nannies of Fort Lauderdale. That article does not mention MHC, Boca Raton or Riverview ([HHCN](https://homehealthcarenews.com/2026/02/choice-health-at-home-acquires-3-home-based-care-businesses-enters-new-state/)).
+- Both MHC NPIs were created in 2019, years before Choice's Florida entry. The likeliest reading is that someone ran "MHC Area N" agencies in Florida and Choice absorbed them. I cannot tell whether that someone is the grandfather. No web source links "MHC Healthcare" to the Peremel family.
+- The other "MHC HealthCare" entities I found do not fit: Maryland Healthcare Clinics, a specialty-clinic group founded in 1987 by Semyon Friedman ([site](https://mhcorp.com/about)), and an Arizona community health center ([search hit](https://mhchealthcare.org/?p=728)).
+- **Consequences.** If the family sold to Choice, the RN and coder bench probably is not his to recruit. Choice also uses Apricot's AI-drafted OASIS forms ([HHCN](https://homehealthcarenews.com/2025/06/how-ai-tools-help-home-health-providers-dramatically-lessen-oasis-time-burden/)), so "independently" grading Apricot would be compromised. If MHC still operates, it is still a conflicted grader of any vendor it uses.
+- **MyFinancialAdvice** has only 2004 coverage (a $300 advisor set-up fee, $150 annual renewal, 65 advisors) ([ThinkAdvisor](https://www.thinkadvisor.com/2004/06/01/the-playing-field-serving-the-not-so-wealthy/)) and an undated profile ([Gust](https://gust.com/companies/myfinancialadvice_inc)). Whether the advisor network is live is unverified.
+
+**One question for the family settles most of this:** does MHC still own and operate agencies, or did it sell them, and to whom?
+
+## 2. Competitors and free substitutes (the lane is not empty)
+
+| Player | What it does | Why it matters |
+|---|---|---|
+| [Mercor Enterprise Evals](https://www.mercor.com/enterprise-evals/) | Expert-built eval suites in under six weeks (Ramp: 160 finance tasks; Cognition: 200 coding tasks), priced per task, no public prices. Healthcare is not a named case. | About $2B gross run rate, over 30,000 weekly contractors, contractors paid 60-70% of revenue ([Dealroom](https://dealroom.co/news/137121-mercor-doubles-to-2b-gross-revenue-run-rate-as-ai-labs-buy-expert-data/)). The supply and sales motion exist; healthcare is one case study away. |
+| [Vals AI](https://www.vals.ai/benchmarks) | Proprietary **MedCode** (medical billing) and **MedScribe** (doctor admin work) benchmarks, plus finance, tax and legal. | $40M Series A at $400M valuation, revenue up 8x on 2025 ([Pulse 2.0](https://pulse2.com/vals-ai-raises-40-million-series-a-at-400-million-valuation-as-revenue-grows-8x/)). It already holds the "neutral referee" brand for back-office tasks. It tests models, not OASIS vendors. |
+| [Centaur Labs](https://info.centaurlabs.com/complete-guide-to-medical-ai-data-labeling-in-2026) and [MDisrupt](https://www.businesswire.com/news/home/20260108529541/en/) | Healthcare expert annotation and validation; Centaur claims 50,000+ experts, MDisrupt 4,000+ vetted. | Vertical expert benches already exist. No pricing found for either. |
+| [AfterQuery](https://builtin.com/articles/afterquery-raises-30m-series-a-20260413) | Expert datasets and RL environments, about 100,000 experts. | $30M Series A at $300M. A reported $100M run rate appeared in one search summary but is not in the article I read, so treat it as unverified. |
+| [Qualified Health](https://www.axios.com/pro/health-tech-deals/2026/03/25/ai-evaluation-startup-qualified-health-raises-125m-nea) | Health-system platform to evaluate, deploy and monitor AI. | $125M. Buyer-side assurance money goes to platforms. |
+| [URAC AI accreditation](https://www.urac.org/blog/urac-health-care-ai-accreditation-launches-september-15) | Developer and user tracks, launched Sept 2025; first three accredited Aug 2026 ([URAC](https://www.urac.org/blog/guidehealth-rediminds-and-sandsrx-become-first-to-earn-urac-health-care-ai-accreditation/)). | It already occupies the "badge" slot. The announcement describes governance review, not accuracy testing, so an accuracy gap remains, but URAC can add one. |
+| Home-health AI vendors' own QA | [Brellium](https://brellium.com/home-health) audits 100% of notes; [Enzo QA](https://www.homecaremag.com/news/enzo-health-funding-round-raises-20m-home-health-ai-solutions) reviews charts; Olli uses human coders to validate AI ([HHCN](https://homehealthcarenews.com/2025/01/first-choices-switch-to-olli-showcases-potential-for-ai-driven-cost-savings-in-home-health/)). | The "AI grading AI" layer is a product feature, not a service gap. |
+| [Hippocratic AI](https://hippocraticai.com/real-world-evaluation-llm/) | Grades its agents in-house with 6,234 licensed clinicians. | The best-funded healthcare AI company builds this itself. |
+| Free benchmarks and peer tests | HealthBench and MedHELM are free. On the advisor side, [XYPN's "Battle of the Bots"](https://www.xyplanningnetwork.com/advisor-blog/battle-of-the-bots-comparing-and-ranking-nine-ai-notetaker-solutions) hand-scored notetakers for accuracy (updated July 2026). | Advisors already get free peer accuracy tests from the network the father belongs to. |
+| Vendor-written "comparisons" | e.g. [Copper Digital's OASIS AI mapping](https://www.copperdigital.com/blog/oasis-ai-mapping-which-platforms-automate-specific-oasis-items-in-2026). | Content marketing sets the free baseline for "a comparison". |
+
+**Confirmed gap.** I found no independent or peer-reviewed accuracy study of AI-assisted OASIS tools. Vendor claims are self-reported, and nothing I found quantifies Brellium's accuracy either. The only reliability literature is on human OASIS coders ([PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC4529994)).
+
+## 3. Who pays, and what is the budget?
+
+**Vendors (Enzo, Olli, Brellium, Apricot, Lime, Healthorbit, INMYTEAM, Roger and others).** They are funded: Enzo's $20M Series A was May 2026 ([HomeCare](https://www.homecaremag.com/news/enzo-health-funding-round-raises-20m-home-health-ai-solutions)), Apricot's came from [Insight Partners](https://www.insightpartners.com/ideas/apricot-announces-series-a-led-by-insight-partners-cementing-its-position-as-a-category-leader-in-post-acute-care/), and Brellium raised about $17M ([Axios](https://www.axios.com/pro/health-tech-deals/2025/04/17/brellium-raises-17m-healthcare-compliance-ai-automation)). But a vendor wants a badge, not an honest score. I found no source showing any home-health AI startup buying third-party accuracy tests. The nearest precedent failed: CHAI's assurance-lab network was scrapped partly because nobody settled who pays ([Fierce](https://www.fiercehealthcare.com/ai-and-machine-learning/inside-chais-failed-assurance-labs)). KLAS's vendor-funded model has drawn conflict-of-interest criticism; Allscripts dropped it for that reason ([HealthcareITToday](https://www.healthcareittoday.com/?p=15531)).
+
+**Agencies (the better payer, but weakly evidenced).** Only 1.3% of 160 respondents were "very confident" in their agency's OASIS accuracy ([HHCN](https://homehealthcarenews.com/2025/06/how-ai-tools-help-home-health-providers-dramatically-lessen-oasis-time-burden/)). That was a vendor webinar poll about OASIS data collection, not about AI tools, so it shows a pain, not a purchase. CMS keeps coding responsibility with the assessing clinician, and software may not generate a final code ([Q1 2026 Q&A](https://qtso.cms.gov/system/files/qtso/CMS_OAI_Qtr_1_2026_QAs_April_2026_508c.pdf)). External reviewers are advisory only ([2024 Q&A](https://qtso.cms.gov/system/files/qtso/CMS_OAI_1st%20Qtr_2024_QAs_April_2024_final.pdf)). Agencies can plausibly afford it: MedPAC's March 2026 report reportedly shows fee-for-service margins of about 21% in 2024 ([MedPAC](https://www.medpac.gov/wp-content/uploads/2026/03/Mar26_Ch8_MedPAC_Report_To_Congress_SEC.pdf), figure from a search summary). The existing budget line is human OASIS and coding review at roughly $40-70 per chart ([HomeCare](https://www.homecaremag.com/may-2020/questions-outsourcing-partners), [Home Care Answers at $70](https://hcalive.azurewebsites.net/FAQ)). A pre-purchase bake-off competes for that line, and no one currently owns it.
+
+**Advisor-tech vendors (weaker than home health).** Notetakers number over 15 and are consolidating ([InvestmentNews](https://www.investmentnews.com/advisor-tech/zeplyn-pivots-towards-agentic-ai-as-the-ai-notetaker-market-reaches-its-saturation-point/265655)). Platform-bundled tools are pushing prices toward $50 a seat ([InvestmentNews](https://www.investmentnews.com/advisor-tech/is-50-the-new-120-price-compression-comes-to-ai-notetakers/264773)). Jump and Zocks are funded ([Series Bs](https://www.investmentnews.com/advisor-tech/jump-and-zocks-raise-dueling-series-b-funding-rounds/265992)), but a squeezed category is a poor buyer of audits. The more interesting buyers are AI marketing-rule review startups: Blee raised $27M in September 2026 ([Axios](https://axios.com/pro/fintech-deals/2026/09/08/blee-27r-million-compliance-software)) and Archive Intel $6.3M ([Parsers](https://parsers.vc/news/251012-ai-drives-compliance-revolution--archive)). They compete with ACA and Smarsh. No source shows they buy outside evals.
+
+**Reference prices.** Mercor's healthcare graders earn about $75-90 an hour for operations review and more for clinicians ([listing](https://work.mercor.com/jobs/list_AAABoGhoOEZyNZjl3PRFw4TN/clinical-health-care-operations-reviewer)). Mercor and Centaur publish no buyer prices. The only buyer-side price anchor I found is the CHAI-era estimate of "thousands of dollars" per assessment.
+
+## 4. Reaching the first customers
+
+- Vendors can be cold-emailed; there are perhaps 15-25 home-health AI vendors in total and a few dozen across advisor AI. The seed-stage founders are reachable but small buyers.
+- Agencies gather at the National Alliance for Care at Home meeting, which ran [October 27-30, 2026](https://allianceforcareathome.org/event/2026-annual-meeting-expo/) and so is missed this year, and at Axxess's [AGILE](https://briefglance.com/articles/axxess-agile-2026-to-unveil-ai-leadership-blueprint-for-home-care) (May). Both are vendor-heavy. Finding the next dates is a to-do. State home-care associations and Home Health Care News readers are the warmer, cheaper channel.
+- Large operators (Addus, Aveanna, Amedisys, Enhabit) show no public AI OASIS pilots in what I found. Addus described an internal AI committee focused on revenue cycle and scheduling. The enterprise signer for a bake-off is unknown.
+- Health systems already evaluate third-party AI; 92% of surveyed organizations do, mostly in-house ([HCI](https://www.hcinnovationgroup.com/analytics-ai/ai-governance/news/55396163/survey-health-system-ai-validation-methods-vary-widely)). Agencies lack that capacity, which supports the buyer-side idea.
+
+## 5. Legal, age and platform issues
+
+- **Age and entity:** no wall. He is an adult and can form an LLC.
+- **Benchmarking clauses.** Many AI vendors' terms bar publishing benchmark or performance results without consent ([examples](https://conductatlas.com/platform/luma-ai/luma-ai-terms-of-service/prohibition-on-publishing-benchmarks/); a monitoring site, not the contracts, so enforceability is unverified). A bake-off run under an agency's license, or a published index, could breach a vendor's terms. This is a real, underrated blocker for a "Ledger" that publishes scores.
+- **Badge law.** A paid or affiliated "verified" seal is an endorsement with a material connection that must be disclosed, and it needs substantiation ([FKKS](https://advertisinglaw.fkks.com/post/102fhhn/when-using-a-third-party-seal-do-you-have-to-disclose-that-you-paid-to-use-it)). Vendor-funded scores invite the KLAS conflict critique. Publishing negative rankings of named vendors carries defamation and false-advertising risk that needs a lawyer.
+- **HIPAA.** Synthetic charts built from nothing are low risk. Charts written from memory of real patients are not. Sources do not treat "synthetic" as automatically de-identified ([overview](https://www.accountablehq.com/post/hipaa-de-identification-requirements-safe-harbor-expert-determination-and-documentation)). Retainer evals on production traces would need BAAs.
+- **Worker classification.** At fewer than 10 project-based experts it is minor. At scale it is the wall that Mercor, Handshake and Scale face: at least five suits in California and one in Texas ([Bloomberg Law](https://news.bloomberglaw.com/daily-labor-report/ai-data-trainers-suits-open-new-misclassification-fight-frontier)), plus a Scale settlement reported at $12.5M. Mercor also faced breach class actions after a March 2026 incident ([HR Dive](https://www.hrdive.com/news/ai-industry-recruiting-platform-faces-multiple-lawsuits-data-breach/817319/)).
+- **Regulatory climate.** CMS froze new home-health agency enrollment for six months from May 13, 2026, citing fraud risk ([Federal Register](https://www.govinfo.gov/content/pkg/FR-2026-05-15/html/2026-09717.htm)). Ownership changes can count as new enrollments, which complicates sales of agencies. The SEC's 2026 exam priorities include the accuracy of firms' AI representations ([Foley](https://www.foley.com/insights/publications/2025/12/sec-releases-its-2026-examination-priorities/)).
+
+## 6. Unit economics (mine, from sourced rates)
+
+- A defensible 100-chart gold set takes about 2.25 expert hours per chart (write, second-code, adjudicate), or 225 hours. That figure comes from the gate and is unverified.
+- At $32-38 an hour (a 2026-era per diem OASIS reviewer rate, [BerryDunn](https://careers-berrydunn.icims.com/jobs/3856/per-diem-coding-&-oasis-reviewer/job)) the build costs $7-9k. At $60-80 an hour (Mercor-level RN rates) it costs $13-18k.
+- Even if pre-grading by AI cut expert hours by 60-70% (an assumption nobody has tested), the build is **$2-7k**. The $2,500 design-partner price is at or below break-even on the first set, and the $5,000 list price only just covers it.
+- After the first set exists, a diagnostic is high-margin: marginal cost is running the vendor's output and adjudicating disagreements. But reusing a set contaminates a "blind" test, so a rotating hidden split is a recurring cost.
+- A Mercor-rate bench is also a retention problem: his experts can earn more on Mercor directly, so the bench is not a moat.
+- Realistic cost to first revenue is **$4-8k**, not the candidate's $1,500, and 8-12 weeks.
+
+## 7. Size and the path to big
+
+- **Vendor side.** Perhaps 40-80 targets across both verticals. At 15-25% buying $15-40k a year, revenue is **$0.1-0.8M a year** (mine). That is below the gate's $0.4-1.0M because advisor-AI is saturating.
+- **Agency side.** A search summary citing MedPAC puts about 10,000 agencies treating traditional Medicare in 2024 (9,961; I did not read the primary table in [MedPAC's March 2026 chapter](https://www.medpac.gov/wp-content/uploads/2026/03/Mar26_Ch8_MedPAC_Report_To_Congress_SEC.pdf)). If 1-2% bought one $3-10k bake-off, that is **$0.3-2M**, one time, with no evidence of repeat spend. It also requires agencies to be mid-purchase on AI tools; Axxess's own survey says most organizations have not yet invested ([report](https://lifestyle.q923radio.com/story/9425/2026-industry-growth-insights-report-highlights-ai-opportunity-and-workforce-challenges-in-care-at-home/)).
+- **Combined ceiling for the vertical:** roughly **$1-3M a year**, matching the gate. It is not $5-15M.
+- **Big path 1: marketplace.** $50M of billings at a 35% take needs around 2,000 part-time experts and a weekly-pay float. Mercor already runs this with 30,000 experts and AfterQuery with 100,000. This is a venture fight he cannot win from a single vertical.
+- **Big path 2: the standard.** "KLAS for AI accuracy" is the only coherent story. KLAS is estimated at about $42M of revenue ([FAQ](https://KLASresearch.com/faq); the revenue figure is the gate's estimate, unverified by me). But the slots are filling: URAC owns accreditation, Vals owns neutral benchmarks with a16z money, and Qualified Health owns health-system assurance. A standard also needs years of vendor trust and legal capital.
+- **Round-1 failure modes, scored.** Small real market: yes. Hidden incumbents: yes (Vals MedCode, URAC, MDisrupt, Centaur). Wrong payer: yes for vendors, unproven for agencies. Price below cost: yes. Why-now partly used: yes, URAC and Mercor arrived first. Shrunk to survive: the sharpened "Ledger" is already that.
+
+## 8. Why now (what is real)
+
+- Home-health AI funding is hot (Enzo $20M, Brellium, Apricot, Olli) and OASIS-E2 and the April 2026 CMS Q&As make accuracy and clinician responsibility live questions.
+- Health systems and regulators are asking vendors for proof ([HCI survey](https://www.hcinnovationgroup.com/analytics-ai/ai-governance/news/55396163/survey-health-system-ai-validation-methods-vary-widely)).
+- But the same wave brought URAC (Sept 2025), Vals' $40M (Aug 2026) and Mercor's evals product, so the window for a first-mover standard is closing, not opening.
+
+## 9. Verdict and the only test worth running
+
+**Do not build the guild or a marketplace.** Rank F02 below ideas with a verified insider or a direct buyer. If the founder still wants it, run a three-week test before spending anything:
+
+1. **Gate zero (this week):** resolve MHC (see section 1). If it sold to Choice or uses a vendor he would grade, drop the home-health "independent" framing.
+2. **Buyer-first demand test:** pitch five agencies (family contacts first) a $3,000 buyer-side OASIS-vendor bake-off on 50 synthetic charts, with no vendor involvement and no badge. Success is **one agency paying before any vendor pays**. Zero takers in 21 days kills it.
+3. **Price honestly:** at least $5,000 for any vendor diagnostic, with design-partner discounts only in exchange for written permission to publish anonymized results.
+4. **Lawyer check, under $1k:** benchmark-clause exposure and publication risk, before any score leaves the building.
+
+**What would move it to "strong":** an agency prepaying a bake-off, a vendor agreeing in writing to a published score, and a verified credentialed clinical lead who is not conflicted.
+
+## Gaps
+
+- MHC identity and the family's ownership: unresolved (the Florida corporate registry was blocked to me).
+- No buyer prices for Mercor, Centaur or Vals evals.
+- No evidence that any home-health AI startup has bought an outside accuracy test.
+- The number of home-health AI vendors and the 2.25 hours per chart are estimates.
+- The MedPAC agency count and the KLAS revenue are secondary or unverified.
